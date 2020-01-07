@@ -76,10 +76,10 @@
 		without_floor_grating = false
 		#Disable the speed boost of ladders in this mod.
 		without_ladder_speed_boost = false
-		#Disable the small fluid collection funnel.
-		without_fluid_funnel = false
 		#Disable all internal recipes, allowing to use alternative pack recipes.
 		without_recipes = false
+		#Disable the small fluid collection funnel.
+		without_fluid_funnel = false
 		#Disable small electrical pass-through furnace.
 		without_electrical_furnace = false
 
@@ -127,7 +127,7 @@
 		e_furnace_power_consumption = 16
 		#Defines the peak power production (at noon) of the Small Solar Panel. Note that the agerage power is much less, as no power is produced at all during the night, and the power curve is nonlinear rising/falling during the day. Bad weather conditions also decrease the production. The config value can be changed on-the-fly for tuning.
 		#Range: 10 ~ 256
-		small_solar_panel_peak_production = 45
+		small_solar_panel_peak_production = 30
 		#Defines how much time the Small Tree Cutter needs to cut a tree without RF power. The value is in seconds. With energy it is 6 times faster. The config value can be changed on-the-fly for tuning.
 		#Range: 10 ~ 240
 		tree_cuttter_cutting_time_needed = 60

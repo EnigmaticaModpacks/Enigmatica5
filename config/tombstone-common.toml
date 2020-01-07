@@ -24,7 +24,7 @@
 	#Graveless Areas
 	no_grave_location = ["0, 0, 0, -10000, 20"]
 	#Increases the minimum time without sleeping for phantom spawn around player based on their level in Knowledge of Death [false/true|default:true]
-	knowledge_reduce_phantom_spawn = true
+	knowledge_reduce_phantom_spawn = false
 	#Allows teleportation to other dimensions [false/true|default:true]
 	teleport_dim = true
 	#The duration of the Ghostly Shape effect in seconds [0..MAX|default:120]
@@ -53,7 +53,7 @@
 	percent_loss_on_death = 0
 	#Experience loss on death (%) [0..100|default:0]
 	#Range: 0 ~ 100
-	xp_loss = 0
+	xp_loss = 25
 	#Whether graves should be allowed to bypass anti-griefing rules [false/true|default:true]
 	graves_bypass_griefing_rules = true
 	#The chance that a player receives an already enchanted Grave's Key on death [-1..100|default:0|disabled:-1]
@@ -82,13 +82,13 @@
 	#The creatures of the siege have a glowing effect (only uses this for test purposes) [false/true|default:false]
 	glowing_creature_test = false
 	#Allows to handle village sieges [false/true|default:true]
-	handle_village_siege = true
+	handle_village_siege = false
 	#Maximum of creatures appearing in a siege [0..100|default:20]
 	#Range: 0 ~ 100
 	siege_max_creature = 20
 	#Chance for a siege to occur [0..100|default:10]
 	#Range: 0 ~ 100
-	siege_chance = 10
+	siege_chance = 0
 	#Mobs in siege are persistent [false/true|default:false]
 	persistent_mob_in_siege = false
 
@@ -111,7 +111,7 @@
 	allow_tablet_search_outside_world = true
 	#Chance on 1000 that a soul appears on a grave [0..1000|default:100]
 	#Range: 0 ~ 1000
-	chance_soul = 100
+	chance_soul = 0
 	#The cooldown in hours to pray with the Ã‚nkh [1..10|default:3]
 	#Range: 1 ~ 10
 	cooldown_to_pray = 3
@@ -126,7 +126,7 @@
 	#Enables the enchantment Shadow Step [false/true|default:true]
 	enable_enchantment_shadow_step = true
 	#Enables the enchantment Soulbound [false/true|default:true]
-	enable_enchantment_soulbound = true
+	enable_enchantment_soulbound = false
 	#Shadow Step is only active while sneaking [false/true|default:false]
 	nerf_shadow_step = false
 	#Enables the enchantment Magic Siphon [false/true|default:true]
@@ -142,7 +142,7 @@
 	recovery_familiar_enable = true
 	#Time in minutes between players' backups [10..1000|default:40]
 	#Range: 10 ~ 1000
-	recovery_player_timer = 40
+	recovery_player_timer = 30
 	#Maximum number of backups per player [5..100|default:15]
 	#Range: 5 ~ 100
 	recovery_player_max_saves = 15
@@ -150,31 +150,31 @@
 #Allows to disable some magic items
 [allowedMagicItems]
 	#Allow Book of Disenchantment [false/true|default:true]
-	allow_book_of_disenchantment = true
+	allow_book_of_disenchantment = false
 	#Allow Scroll of Feather Fall [false/true|default:true]
-	allow_scroll_of_feather_fall = true
+	allow_scroll_of_feather_fall = false
 	#Allow Voodoo Poppet [false/true|default:true]
-	allow_voodoo_poppet = true
+	allow_voodoo_poppet = false
 	#Allow Scroll of Unstable Intangibleness [false/true|default:true]
-	allow_scroll_of_unstable_intangibleness = true
+	allow_scroll_of_unstable_intangibleness = false
 	#Allow Scroll of Purification [false/true|default:true]
-	allow_scroll_of_purification = true
+	allow_scroll_of_purification = false
 	#Allow Scroll of Reach [false/true|default:true]
-	allow_scroll_of_reach = true
+	allow_scroll_of_reach = false
 	#Allow Scroll of Preservation [false/true|default:true]
-	allow_scroll_of_preservation = true
+	allow_scroll_of_preservation = false
 	#Allow Tablet of Recall [false/true|default:true]
-	allow_tablet_of_recall = true
+	allow_tablet_of_recall = false
 	#Allow Scroll of Knowledge [false/true|default:true]
-	allow_scroll_of_knowledge = true
+	allow_scroll_of_knowledge = false
 	#Allow Tablet of Assistance [false/true|default:true]
-	allow_tablet_of_assistance = true
+	allow_tablet_of_assistance = false
 	#Allow Grave's Key [false/true|default:true]
 	allow_grave_key = true
 	#Allow Scroll of True Sight [false/true|default:true]
-	allow_scroll_of_true_sight = true
+	allow_scroll_of_true_sight = false
 	#Allow Lost Tablet [false/true|default:true]
-	allow_lost_tablet = true
+	allow_lost_tablet = false
 	#Allow Tablet of Home [false/true|default:true]
 	allow_tablet_of_home = true
 
@@ -184,29 +184,29 @@
 	undead_can_drop_skull = true
 	#Chance on 1000 to receive a random scroll on undead boss [0..1000|default:100]
 	#Range: 0 ~ 1000
-	chance_random_scroll_on_boss = 100
+	chance_random_scroll_on_boss = 0
 	#Chance to loot a Lost Tablet by fishing [0..100|default:10]
 	#Range: 0 ~ 100
-	chance_loot_lost_tablet = 10
+	chance_loot_lost_tablet = 0
 	#Chance on 1000 to receive a random poppet on undead boss [0..1000|default:100]
 	#Range: 0 ~ 1000
-	chance_random_poppet_on_boss = 100
+	chance_random_poppet_on_boss = 0
 	#Chance on 1000 for undead mobs to drop Grave's Dust [0..1000|default:100]
 	#Range: 0 ~ 1000
-	chance_grave_dust = 100
+	chance_grave_dust = 0
 	#Chance on 1000 to receive a decorative grave on undead boss [0..1000|default:50]
 	#Range: 0 ~ 1000
-	chance_decorative_grave_on_boss = 30
+	chance_decorative_grave_on_boss = 0
 	#Chance on 1000 to receive a Soul Receptacle on undead boss [0..1000|default:50]
 	#Range: 0 ~ 1000
-	chance_soul_receptacle_on_boss = 50
+	chance_soul_receptacle_on_boss = 0
 	#Defines the allowed loottables having a chance to contain a magic item from Tombstone
-	treasure_loot_table = ["minecraft:chests/end_city_treasure", "minecraft:chests/abandoned_mineshaft", "minecraft:chests/nether_bridge", "minecraft:chests/stronghold_library", "minecraft:chests/desert_pyramid", "minecraft:chests/jungle_temple", "minecraft:chests/igloo_chest", "minecraft:chests/woodland_mansion"]
+	treasure_loot_table = []
 
 #Allows to enable some features related to others mods
 [compatibility]
 	#Keeps the cosmetic armor when you die [false/true|default:true]
-	keep_cosmetic_armor = true
+	keep_cosmetic_armor = false
 	#Allows to auto-equip the slots from Curio mod [false/true|default:true]
 	allow_curio_auto_equip = true
 

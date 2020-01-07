@@ -4,7 +4,4 @@
 
 **Changes**
 
-- 
-**Fixed bugs**
-
-- 
+- First version.

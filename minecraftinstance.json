@@ -30,7 +30,7 @@
   "isUnlocked": true,
   "javaArgsOverride": null,
   "javaDirOverride": null,
-  "lastPlayed": "2020-01-06T18:41:03.5801193Z",
+  "lastPlayed": "2020-01-07T22:08:49.8835209Z",
   "manifest": null,
   "fileDate": "0001-01-01T00:00:00",
   "installedModpack": null,
@@ -1157,7 +1157,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 332534,
@@ -2114,7 +2114,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 324888,
@@ -2497,7 +2497,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 317780,
@@ -3046,7 +3046,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 268495,
@@ -3410,7 +3410,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 243707,
@@ -3474,84 +3474,6 @@
       "dateInstalled": "2020-01-03T20:38:35.1322208Z",
       "dateUpdated": "2020-01-03T20:38:35.1382306Z",
       "dateLastUpdateAttempted": "2020-01-03T20:38:35.1382306Z",
-      "status": 5,
-      "preferenceAutoInstallUpdates": false,
-      "preferenceAlternateFile": false,
-      "preferenceIsIgnored": false,
-      "isModified": false,
-      "isWorkingCopy": false,
-      "isFuzzyMatch": false,
-      "preferenceReleaseType": null,
-      "manifestName": null,
-      "installedTargets": null
-    },
-    {
-      "addonID": 266450,
-      "gameInstanceID": "a88a81d4-4ed4-4bfb-92ef-a79da36c6a54",
-      "installedFile": {
-        "id": 2847064,
-        "displayName": "InventorySpam-1.15.1-1.2.3.jar",
-        "fileName": "InventorySpam-1.15.1-1.2.3.jar",
-        "fileDate": "2019-12-22T21:48:22.23Z",
-        "fileLength": 61134,
-        "releaseType": 1,
-        "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2847/64/InventorySpam-1.15.1-1.2.3.jar",
-        "isAlternate": false,
-        "alternateFileId": 0,
-        "dependencies": [],
-        "isAvailable": true,
-        "modules": [
-          {
-            "foldername": "META-INF",
-            "fingerprint": 2146981662,
-            "type": 0
-          },
-          {
-            "foldername": "gigaherz",
-            "fingerprint": 2322161864,
-            "type": 0
-          },
-          {
-            "foldername": "assets",
-            "fingerprint": 700108241,
-            "type": 0
-          },
-          {
-            "foldername": "cm",
-            "fingerprint": 418532226,
-            "type": 0
-          },
-          {
-            "foldername": "logo.png",
-            "fingerprint": 1331418431,
-            "type": 0
-          },
-          {
-            "foldername": "pack.mcmeta",
-            "fingerprint": 790590846,
-            "type": 0
-          }
-        ],
-        "packageFingerprint": 1101968581,
-        "gameVersion": [
-          "Forge",
-          "1.15.1"
-        ],
-        "hasInstallScript": false,
-        "isCompatibleWithClient": false,
-        "categorySectionPackageType": 0,
-        "restrictProjectFileAccess": 0,
-        "projectStatus": 0,
-        "projectId": 0,
-        "gameVersionDateReleased": "2019-08-01T00:00:00Z",
-        "gameId": 0,
-        "isServerPack": false,
-        "FileNameOnDisk": "InventorySpam-1.15.1-1.2.3.jar"
-      },
-      "dateInstalled": "2020-01-03T20:49:32.3542913Z",
-      "dateUpdated": "2020-01-03T20:49:32.3572862Z",
-      "dateLastUpdateAttempted": "2020-01-03T20:49:32.3572862Z",
       "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
@@ -3634,6 +3556,84 @@
       "dateInstalled": "2020-01-06T18:11:13.8164102Z",
       "dateUpdated": "2020-01-06T18:11:13.819412Z",
       "dateLastUpdateAttempted": "2020-01-06T18:11:13.819412Z",
+      "status": 5,
+      "preferenceAutoInstallUpdates": false,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": null
+    },
+    {
+      "addonID": 266450,
+      "gameInstanceID": "a88a81d4-4ed4-4bfb-92ef-a79da36c6a54",
+      "installedFile": {
+        "id": 2847064,
+        "displayName": "InventorySpam-1.15.1-1.2.3.jar",
+        "fileName": "InventorySpam-1.15.1-1.2.3.jar",
+        "fileDate": "2019-12-22T21:48:22.23Z",
+        "fileLength": 61134,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/2847/64/InventorySpam-1.15.1-1.2.3.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 2146981662,
+            "type": 0
+          },
+          {
+            "foldername": "gigaherz",
+            "fingerprint": 2322161864,
+            "type": 0
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 700108241,
+            "type": 0
+          },
+          {
+            "foldername": "cm",
+            "fingerprint": 418532226,
+            "type": 0
+          },
+          {
+            "foldername": "logo.png",
+            "fingerprint": 1331418431,
+            "type": 0
+          },
+          {
+            "foldername": "pack.mcmeta",
+            "fingerprint": 790590846,
+            "type": 0
+          }
+        ],
+        "packageFingerprint": 1101968581,
+        "gameVersion": [
+          "Forge",
+          "1.15.1"
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
+        "gameVersionDateReleased": "2019-08-01T00:00:00Z",
+        "gameId": 0,
+        "isServerPack": false,
+        "FileNameOnDisk": "InventorySpam-1.15.1-1.2.3.jar"
+      },
+      "dateInstalled": "2020-01-03T20:49:32.3542913Z",
+      "dateUpdated": "2020-01-03T20:49:32.3572862Z",
+      "dateLastUpdateAttempted": "2020-01-03T20:49:32.3572862Z",
       "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
@@ -4032,7 +4032,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 323043,
