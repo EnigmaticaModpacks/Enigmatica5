@@ -1,0 +1,25 @@
+#Play sounds for Jetpack/Gas Mask/Flamethrower (all players).
+enablePlayerSounds = true
+#If enabled machines play their sounds while running.
+enableMachineSounds = true
+#Christmas/New Years greetings in chat.
+holidays = true
+#Adjust Mekanism sounds' base volume. < 1 is softer, higher is louder.
+#Range: 0.0 ~ 3.4028234663852886E38
+baseSoundVolume = 1.0
+#Show particles when machines active.
+machineEffects = true
+#Should active machines produce block light.
+enableAmbientLighting = true
+#How much light to produce if ambient lighting is enabled.
+#Range: 1 ~ 15
+ambientLightingLevel = 15
+#If true, don't render Cables/Pipes/Tubes as transparent and don't render their contents.
+opaqueTransmitters = false
+#Allow sneak+scroll to change Configurator modes.
+allowConfiguratorModeScroll = true
+#Set to false to prevent particle spam when loading multiblocks (notification message will display instead).
+enableMultiblockFormationParticles = true
+#Align HUD with left (if true) or right (if false)
+alignHUDLeft = true
+

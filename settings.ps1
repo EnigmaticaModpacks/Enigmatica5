@@ -31,7 +31,7 @@ $CLIENT_MODS = @(
 $CURSEFORGE_USER = "NillerMedDild"
 
 # ProjectID can be found on the modpack's Curseforge Projects page, under "About This Project"
-$CURSEFORGE_PROJECT_ID = 330372
+$CURSEFORGE_PROJECT_ID = 357692
 
 # =====================================================================//
 #  MODPACK & CLIENT FILE SETTINGS
@@ -53,7 +53,7 @@ $CLIENT_FILE_DISPLAY_NAME = "Enigmatica 5 - $MODPACK_VERSION"
 # An array of compatible game versions of Minecraft.
 # See GameVersions.json for possible versions.
 # Default: @(6756) - which is Minecraft 1.12.2
-$GAME_VERSIONS = @(7469)
+$GAME_VERSIONS = @(7675)
 
 # Can be "markdown", "text" or "html"
 $CLIENT_CHANGELOG_TYPE = "html"
