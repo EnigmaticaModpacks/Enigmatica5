@@ -30,7 +30,7 @@
   "isUnlocked": true,
   "javaArgsOverride": null,
   "javaDirOverride": null,
-  "lastPlayed": "2020-01-09T19:07:40.6810843Z",
+  "lastPlayed": "2020-01-11T19:19:33.1346173Z",
   "manifest": null,
   "fileDate": "0001-01-01T00:00:00",
   "installedModpack": null,
@@ -151,21 +151,6 @@
       "fileSize": 115374
     },
     {
-      "folderName": "PackingTape-1.15.1-0.9.2.jar",
-      "fingerprint": 3314383448,
-      "fileDateHash": 2055895273,
-      "sectionID": 8,
-      "individualFingerprints": [
-        3314383448
-      ],
-      "status": 1,
-      "timestamp": "2020-01-08T18:46:43.6197769Z",
-      "lastWriteTimeUtc": "2020-01-03T20:40:37.287083Z",
-      "queryTimestamp": "2020-01-09T19:03:36.9529498Z",
-      "fileCount": 1,
-      "fileSize": 79383
-    },
-    {
       "folderName": "SimpleStorageNetwork-1.15.1-0.2.1.jar",
       "fingerprint": 3998295952,
       "fileDateHash": 275622305,
@@ -181,19 +166,19 @@
       "fileSize": 313501
     },
     {
-      "folderName": "titanium-1.15.1-2.3.0.jar",
-      "fingerprint": 3663973976,
-      "fileDateHash": 352527296,
+      "folderName": "PackingTape-1.15.1-0.9.2.jar",
+      "fingerprint": 3314383448,
+      "fileDateHash": 2055895273,
       "sectionID": 8,
       "individualFingerprints": [
-        3663973976
+        3314383448
       ],
       "status": 1,
-      "timestamp": "2020-01-08T18:46:43.6307807Z",
-      "lastWriteTimeUtc": "2020-01-03T20:39:52.8075758Z",
-      "queryTimestamp": "2020-01-09T19:03:36.9519394Z",
+      "timestamp": "2020-01-08T18:46:43.6197769Z",
+      "lastWriteTimeUtc": "2020-01-03T20:40:37.287083Z",
+      "queryTimestamp": "2020-01-09T19:03:36.9529498Z",
       "fileCount": 1,
-      "fileSize": 488158
+      "fileSize": 79383
     },
     {
       "folderName": "ultra_amplified_dimension-1.15.1-7.0.2.jar",
@@ -209,6 +194,21 @@
       "queryTimestamp": "2020-01-09T19:03:36.9479409Z",
       "fileCount": 1,
       "fileSize": 1349319
+    },
+    {
+      "folderName": "titanium-1.15.1-2.3.0.jar",
+      "fingerprint": 3663973976,
+      "fileDateHash": 352527296,
+      "sectionID": 8,
+      "individualFingerprints": [
+        3663973976
+      ],
+      "status": 1,
+      "timestamp": "2020-01-08T18:46:43.6307807Z",
+      "lastWriteTimeUtc": "2020-01-03T20:39:52.8075758Z",
+      "queryTimestamp": "2020-01-09T19:03:36.9519394Z",
+      "fileCount": 1,
+      "fileSize": 488158
     },
     {
       "folderName": "cyclepaintings_1.15-1.0.jar",
@@ -526,21 +526,6 @@
       "fileSize": 1640340
     },
     {
-      "folderName": "InventorySpam-1.15.1-1.2.3.jar",
-      "fingerprint": 1101968581,
-      "fileDateHash": 1398859688,
-      "sectionID": 8,
-      "individualFingerprints": [
-        1101968581
-      ],
-      "status": 1,
-      "timestamp": "2020-01-08T18:46:43.5581816Z",
-      "lastWriteTimeUtc": "2020-01-03T20:49:32.3452995Z",
-      "queryTimestamp": "2020-01-09T19:03:36.9529498Z",
-      "fileCount": 1,
-      "fileSize": 61134
-    },
-    {
       "folderName": "elevatorid-1.15.1-1.5.4.jar",
       "fingerprint": 1034620248,
       "fileDateHash": 2388096314,
@@ -554,6 +539,21 @@
       "queryTimestamp": "2020-01-09T19:03:36.9459399Z",
       "fileCount": 1,
       "fileSize": 249530
+    },
+    {
+      "folderName": "InventorySpam-1.15.1-1.2.3.jar",
+      "fingerprint": 1101968581,
+      "fileDateHash": 1398859688,
+      "sectionID": 8,
+      "individualFingerprints": [
+        1101968581
+      ],
+      "status": 1,
+      "timestamp": "2020-01-08T18:46:43.5581816Z",
+      "lastWriteTimeUtc": "2020-01-03T20:49:32.3452995Z",
+      "queryTimestamp": "2020-01-09T19:03:36.9529498Z",
+      "fileCount": 1,
+      "fileSize": 61134
     },
     {
       "folderName": "ScreenshotToClipboard-1.15.1-1.0.3.jar",
@@ -927,21 +927,6 @@
       "fileSize": 8697
     },
     {
-      "folderName": "cursedearth-2.1.jar",
-      "fingerprint": 4000538988,
-      "fileDateHash": 3734475845,
-      "sectionID": 8,
-      "individualFingerprints": [
-        4000538988
-      ],
-      "status": 1,
-      "timestamp": "2020-01-09T19:03:36.3809591Z",
-      "lastWriteTimeUtc": "2020-01-09T18:55:39.2988269Z",
-      "queryTimestamp": "2020-01-09T19:03:36.9489406Z",
-      "fileCount": 1,
-      "fileSize": 22431
-    },
-    {
       "folderName": "Placebo-1.15.1-3.0.0.jar",
       "fingerprint": 3045657894,
       "fileDateHash": 3277119273,
@@ -955,6 +940,21 @@
       "queryTimestamp": "2020-01-09T19:03:36.9449418Z",
       "fileCount": 1,
       "fileSize": 95774
+    },
+    {
+      "folderName": "cursedearth-2.1.jar",
+      "fingerprint": 4000538988,
+      "fileDateHash": 3734475845,
+      "sectionID": 8,
+      "individualFingerprints": [
+        4000538988
+      ],
+      "status": 1,
+      "timestamp": "2020-01-09T19:03:36.3809591Z",
+      "lastWriteTimeUtc": "2020-01-09T18:55:39.2988269Z",
+      "queryTimestamp": "2020-01-09T19:03:36.9489406Z",
+      "fileCount": 1,
+      "fileSize": 22431
     },
     {
       "folderName": "FastWorkbench-1.15.1-3.0.0.jar",
@@ -972,21 +972,6 @@
       "fileSize": 28831
     },
     {
-      "folderName": "BiomesOPlenty-1.15.1-10.0.0.296-universal.jar",
-      "fingerprint": 1754309909,
-      "fileDateHash": 3888627876,
-      "sectionID": 8,
-      "individualFingerprints": [
-        1754309909
-      ],
-      "status": 1,
-      "timestamp": "2020-01-08T18:46:43.5082046Z",
-      "lastWriteTimeUtc": "2020-01-07T18:27:03.049519Z",
-      "queryTimestamp": "2020-01-09T19:03:36.9449418Z",
-      "fileCount": 1,
-      "fileSize": 3145104
-    },
-    {
       "folderName": "conduitsprdr_1.15-1.0.jar",
       "fingerprint": 4240942388,
       "fileDateHash": 2092485648,
@@ -1000,6 +985,21 @@
       "queryTimestamp": "2020-01-09T19:03:36.9499602Z",
       "fileCount": 1,
       "fileSize": 7339
+    },
+    {
+      "folderName": "BiomesOPlenty-1.15.1-10.0.0.296-universal.jar",
+      "fingerprint": 1754309909,
+      "fileDateHash": 3888627876,
+      "sectionID": 8,
+      "individualFingerprints": [
+        1754309909
+      ],
+      "status": 1,
+      "timestamp": "2020-01-08T18:46:43.5082046Z",
+      "lastWriteTimeUtc": "2020-01-07T18:27:03.049519Z",
+      "queryTimestamp": "2020-01-09T19:03:36.9449418Z",
+      "fileCount": 1,
+      "fileSize": 3145104
     },
     {
       "folderName": "DefaultSettings-1.15.1-2.1.1.jar",
@@ -1017,21 +1017,6 @@
       "fileSize": 571017
     },
     {
-      "folderName": "Xaeros_Minimap_1.19.6_Forge_1.15.1.jar",
-      "fingerprint": 2734056770,
-      "fileDateHash": 3135949994,
-      "sectionID": 8,
-      "individualFingerprints": [
-        2734056770
-      ],
-      "status": 1,
-      "timestamp": "2020-01-08T18:46:43.648291Z",
-      "lastWriteTimeUtc": "2020-01-08T18:16:31.7710068Z",
-      "queryTimestamp": "2020-01-09T19:03:36.9459399Z",
-      "fileCount": 1,
-      "fileSize": 430219
-    },
-    {
       "folderName": "ClickMachine-1.15.1-3.0.0.jar",
       "fingerprint": 1089705681,
       "fileDateHash": 1987419869,
@@ -1045,6 +1030,21 @@
       "queryTimestamp": "2020-01-09T19:03:36.9449418Z",
       "fileCount": 1,
       "fileSize": 51092
+    },
+    {
+      "folderName": "Xaeros_Minimap_1.19.6_Forge_1.15.1.jar",
+      "fingerprint": 2734056770,
+      "fileDateHash": 3135949994,
+      "sectionID": 8,
+      "individualFingerprints": [
+        2734056770
+      ],
+      "status": 1,
+      "timestamp": "2020-01-08T18:46:43.648291Z",
+      "lastWriteTimeUtc": "2020-01-08T18:16:31.7710068Z",
+      "queryTimestamp": "2020-01-09T19:03:36.9459399Z",
+      "fileCount": 1,
+      "fileSize": 430219
     },
     {
       "folderName": "TOOLKIT-1.15.1-1.6.2.jar",
@@ -1426,7 +1426,7 @@
       "dateInstalled": "2020-01-09T18:45:31.927795Z",
       "dateUpdated": "2020-01-09T18:45:32.0607964Z",
       "dateLastUpdateAttempted": "2020-01-09T18:45:32.0607964Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -1441,22 +1441,22 @@
       "addonID": 250419,
       "gameInstanceID": "18579245-63b2-4af9-aa65-a5d0de94ccab",
       "installedFile": {
-        "id": 2855823,
-        "displayName": "EnchantmentDescriptions-1.15.1-1.5.1.jar",
-        "fileName": "EnchantmentDescriptions-1.15.1-1.5.1.jar",
-        "fileDate": "2020-01-06T21:36:08.21Z",
-        "fileLength": 19613,
-        "releaseType": 1,
+        "id": 2857583,
+        "displayName": "EnchantmentDescriptions-1.15.1-1.5.2.jar",
+        "fileName": "EnchantmentDescriptions-1.15.1-1.5.2.jar",
+        "fileDate": "2020-01-10T04:57:23.17Z",
+        "fileLength": 19619,
+        "releaseType": 3,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2855/823/EnchantmentDescriptions-1.15.1-1.5.1.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/2857/583/EnchantmentDescriptions-1.15.1-1.5.2.jar",
         "isAlternate": false,
-        "alternateFileId": 2855824,
+        "alternateFileId": 2857584,
         "dependencies": [],
         "isAvailable": true,
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 3000839069,
+            "fingerprint": 2353764888,
             "type": 0
           },
           {
@@ -1475,7 +1475,7 @@
             "type": 0
           }
         ],
-        "packageFingerprint": 795976800,
+        "packageFingerprint": 3752354163,
         "gameVersion": [
           "Forge",
           "1.15.1"
@@ -1489,12 +1489,12 @@
         "gameVersionDateReleased": "2008-03-01T06:00:00Z",
         "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "EnchantmentDescriptions-1.15.1-1.5.1.jar"
+        "FileNameOnDisk": "EnchantmentDescriptions-1.15.1-1.5.2.jar"
       },
       "dateInstalled": "2020-01-07T18:27:55.5167188Z",
-      "dateUpdated": "2020-01-07T18:27:55.5197273Z",
-      "dateLastUpdateAttempted": "2020-01-07T18:27:55.5197273Z",
-      "status": 5,
+      "dateUpdated": "2020-01-10T20:04:03.119574Z",
+      "dateLastUpdateAttempted": "2020-01-10T20:04:03.119574Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -1509,27 +1509,27 @@
       "addonID": 318012,
       "gameInstanceID": "18579245-63b2-4af9-aa65-a5d0de94ccab",
       "installedFile": {
-        "id": 2857254,
-        "displayName": "DefaultSettings-1.15.1-2.1.1",
-        "fileName": "DefaultSettings-1.15.1-2.1.1.jar",
-        "fileDate": "2020-01-09T15:12:36.987Z",
-        "fileLength": 571017,
+        "id": 2857835,
+        "displayName": "DefaultSettings-1.15.1-2.1.2",
+        "fileName": "DefaultSettings-1.15.1-2.1.2.jar",
+        "fileDate": "2020-01-10T16:44:01.827Z",
+        "fileLength": 580714,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2857/254/DefaultSettings-1.15.1-2.1.1.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/2857/835/DefaultSettings-1.15.1-2.1.2.jar",
         "isAlternate": false,
-        "alternateFileId": 2857255,
+        "alternateFileId": 2857836,
         "dependencies": [],
         "isAvailable": true,
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 1835220747,
+            "fingerprint": 2385035400,
             "type": 0
           },
           {
             "foldername": "de",
-            "fingerprint": 1287762361,
+            "fingerprint": 3065265753,
             "type": 0
           },
           {
@@ -1548,7 +1548,7 @@
             "type": 0
           }
         ],
-        "packageFingerprint": 3776792158,
+        "packageFingerprint": 2161505308,
         "gameVersion": [
           "1.15.1"
         ],
@@ -1561,11 +1561,11 @@
         "gameVersionDateReleased": "2008-03-01T06:00:00Z",
         "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "DefaultSettings-1.15.1-2.1.1.jar"
+        "FileNameOnDisk": "DefaultSettings-1.15.1-2.1.2.jar"
       },
       "dateInstalled": "2020-01-07T18:27:34.9847201Z",
-      "dateUpdated": "2020-01-09T18:55:43.5291676Z",
-      "dateLastUpdateAttempted": "2020-01-09T18:55:43.5291676Z",
+      "dateUpdated": "2020-01-10T20:03:59.8345731Z",
+      "dateLastUpdateAttempted": "2020-01-10T20:03:59.8345731Z",
       "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
@@ -1581,14 +1581,14 @@
       "addonID": 296686,
       "gameInstanceID": "18579245-63b2-4af9-aa65-a5d0de94ccab",
       "installedFile": {
-        "id": 2851427,
-        "displayName": "rsgauges-1.15.1-1.2.0-b1.jar",
-        "fileName": "rsgauges-1.15.1-1.2.0-b1.jar",
-        "fileDate": "2019-12-29T18:48:11.9Z",
-        "fileLength": 835303,
+        "id": 2857685,
+        "displayName": "rsgauges-1.15.1-1.2.0-b2.jar",
+        "fileName": "rsgauges-1.15.1-1.2.0-b2.jar",
+        "fileDate": "2020-01-10T09:16:48.937Z",
+        "fileLength": 836146,
         "releaseType": 2,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2851/427/rsgauges-1.15.1-1.2.0-b1.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/2857/685/rsgauges-1.15.1-1.2.0-b2.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [],
@@ -1596,22 +1596,22 @@
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 3885461903,
+            "fingerprint": 2794600373,
             "type": 0
           },
           {
             "foldername": "wile",
-            "fingerprint": 155998487,
+            "fingerprint": 1959735806,
             "type": 0
           },
           {
-            "foldername": ".gitversion",
-            "fingerprint": 866626613,
+            "foldername": ".gitversion-rsgauges",
+            "fingerprint": 4099510384,
             "type": 0
           },
           {
             "foldername": "assets",
-            "fingerprint": 3070337459,
+            "fingerprint": 1113991975,
             "type": 0
           },
           {
@@ -1630,7 +1630,7 @@
             "type": 0
           }
         ],
-        "packageFingerprint": 1358693787,
+        "packageFingerprint": 616673125,
         "gameVersion": [
           "1.15.1"
         ],
@@ -1643,12 +1643,12 @@
         "gameVersionDateReleased": "2019-12-17T00:00:00Z",
         "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "rsgauges-1.15.1-1.2.0-b1.jar"
+        "FileNameOnDisk": "rsgauges-1.15.1-1.2.0-b2.jar"
       },
       "dateInstalled": "2020-01-03T20:41:46.9972631Z",
-      "dateUpdated": "2020-01-03T20:41:47.0022655Z",
-      "dateLastUpdateAttempted": "2020-01-03T20:41:47.0022655Z",
-      "status": 5,
+      "dateUpdated": "2020-01-10T20:04:22.715812Z",
+      "dateLastUpdateAttempted": "2020-01-10T20:04:22.715812Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -1663,14 +1663,14 @@
       "addonID": 313866,
       "gameInstanceID": "18579245-63b2-4af9-aa65-a5d0de94ccab",
       "installedFile": {
-        "id": 2854931,
-        "displayName": "engineersdecor-1.15.1-1.0.18-b2.jar",
-        "fileName": "engineersdecor-1.15.1-1.0.18-b2.jar",
-        "fileDate": "2020-01-05T09:28:59.007Z",
-        "fileLength": 1037700,
+        "id": 2857681,
+        "displayName": "engineersdecor-1.15.1-1.0.18-b3.jar",
+        "fileName": "engineersdecor-1.15.1-1.0.18-b3.jar",
+        "fileDate": "2020-01-10T09:13:28.563Z",
+        "fileLength": 1042458,
         "releaseType": 2,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2854/931/engineersdecor-1.15.1-1.0.18-b2.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/2857/681/engineersdecor-1.15.1-1.0.18-b3.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [
@@ -1685,7 +1685,7 @@
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 1685653354,
+            "fingerprint": 3673688736,
             "type": 0
           },
           {
@@ -1695,17 +1695,17 @@
           },
           {
             "foldername": "wile",
-            "fingerprint": 378747819,
+            "fingerprint": 3151642304,
             "type": 0
           },
           {
-            "foldername": ".gitversion",
-            "fingerprint": 3380496180,
+            "foldername": ".gitversion-engineersdecor",
+            "fingerprint": 2931653427,
             "type": 0
           },
           {
             "foldername": "assets",
-            "fingerprint": 2597892101,
+            "fingerprint": 3992803838,
             "type": 0
           },
           {
@@ -1724,7 +1724,7 @@
             "type": 0
           }
         ],
-        "packageFingerprint": 4224304632,
+        "packageFingerprint": 437042034,
         "gameVersion": [
           "1.15.1"
         ],
@@ -1737,12 +1737,12 @@
         "gameVersionDateReleased": "2019-12-17T00:00:00Z",
         "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "engineersdecor-1.15.1-1.0.18-b2.jar"
+        "FileNameOnDisk": "engineersdecor-1.15.1-1.0.18-b3.jar"
       },
       "dateInstalled": "2020-01-03T20:41:38.3484402Z",
-      "dateUpdated": "2020-01-07T19:06:51.7194211Z",
-      "dateLastUpdateAttempted": "2020-01-07T19:06:51.7194211Z",
-      "status": 5,
+      "dateUpdated": "2020-01-10T20:04:13.4085582Z",
+      "dateLastUpdateAttempted": "2020-01-10T20:04:13.4085582Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -1898,22 +1898,22 @@
       "addonID": 354339,
       "gameInstanceID": "18579245-63b2-4af9-aa65-a5d0de94ccab",
       "installedFile": {
-        "id": 2855557,
-        "displayName": "OpenLoader-1.15.1-3.0.1.jar",
-        "fileName": "OpenLoader-1.15.1-3.0.1.jar",
-        "fileDate": "2020-01-06T09:18:18.75Z",
-        "fileLength": 7325,
-        "releaseType": 1,
+        "id": 2857589,
+        "displayName": "OpenLoader-1.15.1-3.0.2.jar",
+        "fileName": "OpenLoader-1.15.1-3.0.2.jar",
+        "fileDate": "2020-01-10T04:58:18.743Z",
+        "fileLength": 7327,
+        "releaseType": 3,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2855/557/OpenLoader-1.15.1-3.0.1.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/2857/589/OpenLoader-1.15.1-3.0.2.jar",
         "isAlternate": false,
-        "alternateFileId": 2855558,
+        "alternateFileId": 2857590,
         "dependencies": [],
         "isAvailable": true,
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 3826501319,
+            "fingerprint": 331536211,
             "type": 0
           },
           {
@@ -1927,9 +1927,8 @@
             "type": 0
           }
         ],
-        "packageFingerprint": 3449611321,
+        "packageFingerprint": 2764565947,
         "gameVersion": [
-          "Forge",
           "1.15.1"
         ],
         "hasInstallScript": false,
@@ -1941,12 +1940,12 @@
         "gameVersionDateReleased": "2008-03-01T06:00:00Z",
         "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "OpenLoader-1.15.1-3.0.1.jar"
+        "FileNameOnDisk": "OpenLoader-1.15.1-3.0.2.jar"
       },
       "dateInstalled": "2020-01-07T18:28:04.2367183Z",
-      "dateUpdated": "2020-01-07T18:28:04.2407209Z",
-      "dateLastUpdateAttempted": "2020-01-07T18:28:04.2407209Z",
-      "status": 5,
+      "dateUpdated": "2020-01-10T20:04:27.2338097Z",
+      "dateLastUpdateAttempted": "2020-01-10T20:04:27.2338097Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -1961,14 +1960,14 @@
       "addonID": 296449,
       "gameInstanceID": "18579245-63b2-4af9-aa65-a5d0de94ccab",
       "installedFile": {
-        "id": 2854792,
-        "displayName": "Ultra Amplified Mod V.7.0.2 (Forge compatible)",
-        "fileName": "ultra_amplified_dimension-1.15.1-7.0.2.jar",
-        "fileDate": "2020-01-05T00:51:04.24Z",
-        "fileLength": 1349319,
+        "id": 2857510,
+        "displayName": "Ultra Amplified Mod V.7.0.3 (Forge compatible)",
+        "fileName": "ultra_amplified_dimension-1.15.1-7.0.3.jar",
+        "fileDate": "2020-01-10T01:47:26.797Z",
+        "fileLength": 1355535,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2854/792/ultra_amplified_dimension-1.15.1-7.0.2.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/2857/510/ultra_amplified_dimension-1.15.1-7.0.3.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [],
@@ -1976,17 +1975,17 @@
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 1123470586,
+            "fingerprint": 4205141193,
             "type": 0
           },
           {
             "foldername": "net",
-            "fingerprint": 1636289093,
+            "fingerprint": 3903173205,
             "type": 0
           },
           {
             "foldername": "assets",
-            "fingerprint": 61218793,
+            "fingerprint": 3780376178,
             "type": 0
           },
           {
@@ -2005,7 +2004,7 @@
             "type": 0
           }
         ],
-        "packageFingerprint": 2008411612,
+        "packageFingerprint": 455132363,
         "gameVersion": [
           "1.15.1"
         ],
@@ -2018,12 +2017,12 @@
         "gameVersionDateReleased": "2019-12-17T00:00:00Z",
         "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "ultra_amplified_dimension-1.15.1-7.0.2.jar"
+        "FileNameOnDisk": "ultra_amplified_dimension-1.15.1-7.0.3.jar"
       },
       "dateInstalled": "2020-01-06T18:20:08.4424133Z",
-      "dateUpdated": "2020-01-06T18:20:08.4483939Z",
-      "dateLastUpdateAttempted": "2020-01-06T18:20:08.4483939Z",
-      "status": 5,
+      "dateUpdated": "2020-01-10T20:06:00.8757535Z",
+      "dateLastUpdateAttempted": "2020-01-10T20:06:00.8757535Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -2251,14 +2250,14 @@
       "addonID": 268495,
       "gameInstanceID": "18579245-63b2-4af9-aa65-a5d0de94ccab",
       "installedFile": {
-        "id": 2853013,
-        "displayName": "SimpleStorageNetwork-1.15.1-0.2.1.jar",
-        "fileName": "SimpleStorageNetwork-1.15.1-0.2.1.jar",
-        "fileDate": "2020-01-01T19:26:24.647Z",
-        "fileLength": 313501,
+        "id": 2857534,
+        "displayName": "SimpleStorageNetwork-1.15.1-0.2.2.jar",
+        "fileName": "SimpleStorageNetwork-1.15.1-0.2.2.jar",
+        "fileDate": "2020-01-10T03:24:44.273Z",
+        "fileLength": 313529,
         "releaseType": 2,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2853/13/SimpleStorageNetwork-1.15.1-0.2.1.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/2857/534/SimpleStorageNetwork-1.15.1-0.2.2.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [],
@@ -2266,12 +2265,12 @@
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 3085713461,
+            "fingerprint": 1698887341,
             "type": 0
           },
           {
             "foldername": "com",
-            "fingerprint": 687509226,
+            "fingerprint": 41554986,
             "type": 0
           },
           {
@@ -2290,7 +2289,7 @@
             "type": 0
           }
         ],
-        "packageFingerprint": 3998295952,
+        "packageFingerprint": 166289483,
         "gameVersion": [
           "1.15.1"
         ],
@@ -2303,12 +2302,12 @@
         "gameVersionDateReleased": "2019-12-17T00:00:00Z",
         "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "SimpleStorageNetwork-1.15.1-0.2.1.jar"
+        "FileNameOnDisk": "SimpleStorageNetwork-1.15.1-0.2.2.jar"
       },
       "dateInstalled": "2020-01-03T20:39:20.0313503Z",
-      "dateUpdated": "2020-01-03T20:39:20.0353494Z",
-      "dateLastUpdateAttempted": "2020-01-03T20:39:20.0353494Z",
-      "status": 5,
+      "dateUpdated": "2020-01-10T20:05:38.723552Z",
+      "dateLastUpdateAttempted": "2020-01-10T20:05:38.723552Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -2385,7 +2384,7 @@
       "dateInstalled": "2020-01-03T20:42:59.3345923Z",
       "dateUpdated": "2020-01-09T18:55:39.4825502Z",
       "dateLastUpdateAttempted": "2020-01-09T18:55:39.4825502Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -2966,7 +2965,7 @@
       "dateInstalled": "2020-01-08T18:46:44.7484609Z",
       "dateUpdated": "2020-01-09T18:55:34.6617097Z",
       "dateLastUpdateAttempted": "2020-01-09T18:55:34.6617097Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -2981,14 +2980,14 @@
       "addonID": 332534,
       "gameInstanceID": "18579245-63b2-4af9-aa65-a5d0de94ccab",
       "installedFile": {
-        "id": 2853238,
-        "displayName": "RingOfGrowth-1.15.1-1.1.0.jar",
-        "fileName": "RingOfGrowth-1.15.1-1.1.0.jar",
-        "fileDate": "2020-01-02T03:18:38.973Z",
-        "fileLength": 12275,
+        "id": 2857382,
+        "displayName": "RingOfGrowth-1.15.1-1.1.1.jar",
+        "fileName": "RingOfGrowth-1.15.1-1.1.1.jar",
+        "fileDate": "2020-01-09T20:08:36.457Z",
+        "fileLength": 12277,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2853/238/RingOfGrowth-1.15.1-1.1.0.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/2857/382/RingOfGrowth-1.15.1-1.1.1.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [],
@@ -2996,7 +2995,7 @@
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 2633999222,
+            "fingerprint": 1905808033,
             "type": 0
           },
           {
@@ -3020,7 +3019,7 @@
             "type": 0
           }
         ],
-        "packageFingerprint": 3559944236,
+        "packageFingerprint": 7480564,
         "gameVersion": [
           "Forge",
           "1.15.1"
@@ -3034,12 +3033,12 @@
         "gameVersionDateReleased": "2008-03-01T06:00:00Z",
         "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "RingOfGrowth-1.15.1-1.1.0.jar"
+        "FileNameOnDisk": "RingOfGrowth-1.15.1-1.1.1.jar"
       },
       "dateInstalled": "2020-01-03T20:42:55.0721689Z",
-      "dateUpdated": "2020-01-03T20:42:55.1951909Z",
-      "dateLastUpdateAttempted": "2020-01-03T20:42:55.1951909Z",
-      "status": 5,
+      "dateUpdated": "2020-01-10T20:04:34.1678294Z",
+      "dateLastUpdateAttempted": "2020-01-10T20:04:34.1678294Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -3451,7 +3450,7 @@
       "dateInstalled": "2020-01-06T18:11:07.3119394Z",
       "dateUpdated": "2020-01-09T18:55:52.1890248Z",
       "dateLastUpdateAttempted": "2020-01-09T18:55:52.1890248Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -3531,7 +3530,7 @@
       "dateInstalled": "2020-01-06T18:11:18.5027496Z",
       "dateUpdated": "2020-01-09T18:55:54.41906Z",
       "dateLastUpdateAttempted": "2020-01-09T18:55:54.41906Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -3611,7 +3610,7 @@
       "dateInstalled": "2020-01-06T18:11:25.6416914Z",
       "dateUpdated": "2020-01-09T18:56:01.4190589Z",
       "dateLastUpdateAttempted": "2020-01-09T18:56:01.4190589Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -3790,22 +3789,22 @@
       "addonID": 280510,
       "gameInstanceID": "18579245-63b2-4af9-aa65-a5d0de94ccab",
       "installedFile": {
-        "id": 2856002,
-        "displayName": "AttributeFix-1.15.1-5.0.1.jar",
-        "fileName": "AttributeFix-1.15.1-5.0.1.jar",
-        "fileDate": "2020-01-07T03:09:38.437Z",
-        "fileLength": 7831,
-        "releaseType": 1,
+        "id": 2857578,
+        "displayName": "AttributeFix-1.15.1-5.0.2.jar",
+        "fileName": "AttributeFix-1.15.1-5.0.2.jar",
+        "fileDate": "2020-01-10T04:56:09.09Z",
+        "fileLength": 7835,
+        "releaseType": 3,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2856/2/AttributeFix-1.15.1-5.0.1.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/2857/578/AttributeFix-1.15.1-5.0.2.jar",
         "isAlternate": false,
-        "alternateFileId": 2856003,
+        "alternateFileId": 2857579,
         "dependencies": [],
         "isAvailable": true,
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 2086314957,
+            "fingerprint": 1955151618,
             "type": 0
           },
           {
@@ -3819,9 +3818,8 @@
             "type": 0
           }
         ],
-        "packageFingerprint": 2558195024,
+        "packageFingerprint": 1962315983,
         "gameVersion": [
-          "Forge",
           "1.15.1"
         ],
         "hasInstallScript": false,
@@ -3833,12 +3831,12 @@
         "gameVersionDateReleased": "2008-03-01T06:00:00Z",
         "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "AttributeFix-1.15.1-5.0.1.jar"
+        "FileNameOnDisk": "AttributeFix-1.15.1-5.0.2.jar"
       },
       "dateInstalled": "2020-01-07T18:27:45.0557233Z",
-      "dateUpdated": "2020-01-07T18:27:45.0577197Z",
-      "dateLastUpdateAttempted": "2020-01-07T18:27:45.0577197Z",
-      "status": 5,
+      "dateUpdated": "2020-01-10T19:50:04.7788008Z",
+      "dateLastUpdateAttempted": "2020-01-10T19:50:04.7788008Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -3921,7 +3919,7 @@
       "dateInstalled": "2020-01-03T20:39:34.6597961Z",
       "dateUpdated": "2020-01-09T18:56:05.9752136Z",
       "dateLastUpdateAttempted": "2020-01-09T18:56:05.9752136Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -4362,14 +4360,14 @@
       "addonID": 332890,
       "gameInstanceID": "18579245-63b2-4af9-aa65-a5d0de94ccab",
       "installedFile": {
-        "id": 2852221,
-        "displayName": "RingOfAttraction-1.15.1-1.1.1.jar",
-        "fileName": "RingOfAttraction-1.15.1-1.1.1.jar",
-        "fileDate": "2019-12-31T05:03:19.957Z",
-        "fileLength": 18059,
+        "id": 2857376,
+        "displayName": "RingOfAttraction-1.15.1-1.1.2.jar",
+        "fileName": "RingOfAttraction-1.15.1-1.1.2.jar",
+        "fileDate": "2020-01-09T20:02:29.967Z",
+        "fileLength": 18061,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2852/221/RingOfAttraction-1.15.1-1.1.1.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/2857/376/RingOfAttraction-1.15.1-1.1.2.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [
@@ -4384,7 +4382,7 @@
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 2820401947,
+            "fingerprint": 1702534712,
             "type": 0
           },
           {
@@ -4408,7 +4406,7 @@
             "type": 0
           }
         ],
-        "packageFingerprint": 2128706663,
+        "packageFingerprint": 984688166,
         "gameVersion": [
           "Forge",
           "1.15.1"
@@ -4422,12 +4420,12 @@
         "gameVersionDateReleased": "2008-03-01T06:00:00Z",
         "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "RingOfAttraction-1.15.1-1.1.1.jar"
+        "FileNameOnDisk": "RingOfAttraction-1.15.1-1.1.2.jar"
       },
       "dateInstalled": "2020-01-03T20:46:15.6426692Z",
-      "dateUpdated": "2020-01-03T20:46:15.8012101Z",
-      "dateLastUpdateAttempted": "2020-01-03T20:46:15.8012101Z",
-      "status": 5,
+      "dateUpdated": "2020-01-10T20:04:31.2178129Z",
+      "dateLastUpdateAttempted": "2020-01-10T20:04:31.2178129Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -4600,14 +4598,14 @@
       "addonID": 243707,
       "gameInstanceID": "18579245-63b2-4af9-aa65-a5d0de94ccab",
       "installedFile": {
-        "id": 2851594,
-        "displayName": "Corail Tombstone 4.1.8 for 1.15.1",
-        "fileName": "tombstone-4.1.8-1.15.1.jar",
-        "fileDate": "2019-12-30T01:34:13.317Z",
-        "fileLength": 984932,
-        "releaseType": 2,
+        "id": 2858219,
+        "displayName": "Corail Tombstone 4.1.9 for 1.15.1",
+        "fileName": "tombstone-4.1.9-1.15.1.jar",
+        "fileDate": "2020-01-11T06:57:01.897Z",
+        "fileLength": 990371,
+        "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2851/594/tombstone-4.1.8-1.15.1.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/2858/219/tombstone-4.1.9-1.15.1.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [],
@@ -4615,12 +4613,12 @@
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 4292791661,
+            "fingerprint": 3082011282,
             "type": 0
           },
           {
             "foldername": "ovh",
-            "fingerprint": 1925026110,
+            "fingerprint": 3083486574,
             "type": 0
           },
           {
@@ -4639,7 +4637,7 @@
             "type": 0
           }
         ],
-        "packageFingerprint": 1708857808,
+        "packageFingerprint": 3549122731,
         "gameVersion": [
           "Forge",
           "1.15.1"
@@ -4653,12 +4651,12 @@
         "gameVersionDateReleased": "2008-03-01T06:00:00Z",
         "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "tombstone-4.1.8-1.15.1.jar"
+        "FileNameOnDisk": "tombstone-4.1.9-1.15.1.jar"
       },
       "dateInstalled": "2020-01-03T20:38:35.1322208Z",
-      "dateUpdated": "2020-01-03T20:38:35.1382306Z",
-      "dateLastUpdateAttempted": "2020-01-03T20:38:35.1382306Z",
-      "status": 5,
+      "dateUpdated": "2020-01-11T18:33:30.5047626Z",
+      "dateLastUpdateAttempted": "2020-01-11T18:33:30.5047626Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -4797,7 +4795,7 @@
       "dateInstalled": "2020-01-03T20:49:38.7992875Z",
       "dateUpdated": "2020-01-09T18:55:40.9988881Z",
       "dateLastUpdateAttempted": "2020-01-09T18:55:40.9988881Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -5544,69 +5542,6 @@
       "dateInstalled": "2020-01-09T18:45:24.2732352Z",
       "dateUpdated": "2020-01-09T18:45:24.2772357Z",
       "dateLastUpdateAttempted": "2020-01-09T18:45:24.2772357Z",
-      "status": 4,
-      "preferenceAutoInstallUpdates": false,
-      "preferenceAlternateFile": false,
-      "preferenceIsIgnored": false,
-      "isModified": false,
-      "isWorkingCopy": false,
-      "isFuzzyMatch": false,
-      "preferenceReleaseType": null,
-      "manifestName": null,
-      "installedTargets": null
-    },
-    {
-      "addonID": 353434,
-      "gameInstanceID": "18579245-63b2-4af9-aa65-a5d0de94ccab",
-      "installedFile": {
-        "id": 2856019,
-        "displayName": "BetterBurning-1.15.1-1.2.1.jar",
-        "fileName": "BetterBurning-1.15.1-1.2.1.jar",
-        "fileDate": "2020-01-07T03:32:14.387Z",
-        "fileLength": 6368,
-        "releaseType": 1,
-        "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2856/19/BetterBurning-1.15.1-1.2.1.jar",
-        "isAlternate": false,
-        "alternateFileId": 2856020,
-        "dependencies": [],
-        "isAvailable": true,
-        "modules": [
-          {
-            "foldername": "META-INF",
-            "fingerprint": 515740724,
-            "type": 0
-          },
-          {
-            "foldername": "net",
-            "fingerprint": 1700618113,
-            "type": 0
-          },
-          {
-            "foldername": "pack.mcmeta",
-            "fingerprint": 985869423,
-            "type": 0
-          }
-        ],
-        "packageFingerprint": 3206095814,
-        "gameVersion": [
-          "Forge",
-          "1.15.1"
-        ],
-        "hasInstallScript": false,
-        "isCompatibleWithClient": false,
-        "categorySectionPackageType": 0,
-        "restrictProjectFileAccess": 0,
-        "projectStatus": 0,
-        "projectId": 0,
-        "gameVersionDateReleased": "2008-03-01T06:00:00Z",
-        "gameId": 0,
-        "isServerPack": false,
-        "FileNameOnDisk": "BetterBurning-1.15.1-1.2.1.jar"
-      },
-      "dateInstalled": "2020-01-07T18:27:22.0113646Z",
-      "dateUpdated": "2020-01-07T18:27:22.0153675Z",
-      "dateLastUpdateAttempted": "2020-01-07T18:27:22.0153675Z",
       "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
@@ -5679,6 +5614,69 @@
       "dateInstalled": "2020-01-07T18:31:25.280194Z",
       "dateUpdated": "2020-01-07T18:31:25.2832029Z",
       "dateLastUpdateAttempted": "2020-01-07T18:31:25.2832029Z",
+      "status": 5,
+      "preferenceAutoInstallUpdates": false,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": null
+    },
+    {
+      "addonID": 353434,
+      "gameInstanceID": "18579245-63b2-4af9-aa65-a5d0de94ccab",
+      "installedFile": {
+        "id": 2856019,
+        "displayName": "BetterBurning-1.15.1-1.2.1.jar",
+        "fileName": "BetterBurning-1.15.1-1.2.1.jar",
+        "fileDate": "2020-01-07T03:32:14.387Z",
+        "fileLength": 6368,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/2856/19/BetterBurning-1.15.1-1.2.1.jar",
+        "isAlternate": false,
+        "alternateFileId": 2856020,
+        "dependencies": [],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 515740724,
+            "type": 0
+          },
+          {
+            "foldername": "net",
+            "fingerprint": 1700618113,
+            "type": 0
+          },
+          {
+            "foldername": "pack.mcmeta",
+            "fingerprint": 985869423,
+            "type": 0
+          }
+        ],
+        "packageFingerprint": 3206095814,
+        "gameVersion": [
+          "Forge",
+          "1.15.1"
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
+        "gameVersionDateReleased": "2008-03-01T06:00:00Z",
+        "gameId": 0,
+        "isServerPack": false,
+        "FileNameOnDisk": "BetterBurning-1.15.1-1.2.1.jar"
+      },
+      "dateInstalled": "2020-01-07T18:27:22.0113646Z",
+      "dateUpdated": "2020-01-07T18:27:22.0153675Z",
+      "dateLastUpdateAttempted": "2020-01-07T18:27:22.0153675Z",
       "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
@@ -5810,7 +5808,7 @@
       "dateInstalled": "2020-01-09T18:45:16.567238Z",
       "dateUpdated": "2020-01-09T18:45:16.5762342Z",
       "dateLastUpdateAttempted": "2020-01-09T18:45:16.5762342Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,

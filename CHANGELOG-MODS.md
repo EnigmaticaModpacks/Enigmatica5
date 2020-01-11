@@ -1,3 +1,27 @@
+# 0.1.0 -> 0.1.1
+
+* Apotheosis-1.15.1-3.0.1.jar
+* AttributeFix-1.15.1-5.0.2.jar
+* Controlling-6.0.0.jar
+* cursedearth-2.1.jar
+* dankstorage-2.2a.jar
+* DefaultSettings-1.15.1-2.1.2.jar
+* EnchantmentDescriptions-1.15.1-1.5.2.jar
+* engineersdecor-1.15.1-1.0.18-b3.jar
+* Mekanism-1.15.1-9.9.1.392.jar
+* MekanismGenerators-1.15.1-9.9.1.392.jar
+* MekanismTools-1.15.1-9.9.1.392.jar
+* OpenLoader-1.15.1-3.0.2.jar
+* RingOfAttraction-1.15.1-1.1.2.jar
+* RingOfGrowth-1.15.1-1.1.1.jar
+* rsgauges-1.15.1-1.2.0-b2.jar
+* SereneSeasons-1.15.1-3.0.0.43-universal.jar
+* SimpleStorageNetwork-1.15.1-0.2.2.jar
+* ToastControl-1.15.1-3.0.0.jar
+* tombstone-4.1.9-1.15.1.jar
+* torchslabmod_1.15.1_v1.2.jar
+* ultra_amplified_dimension-1.15.1-7.0.3.jar
+
 # 0.0.0 -> 0.1.0
 
 * Apotheosis-1.15.1-3.0.0.jar
