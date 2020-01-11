@@ -7,6 +7,7 @@
 
 **Changes**
 
+- Add TorchSlabs [\#1](https://github.com/NillerMedDild/Enigmatica5/issues/1) [[Mod](https://github.com/NillerMedDild/Enigmatica5/labels/Mod)]
 - Added Controlling
 - Added RingOfAttraction
 - Added RingOfGrowth
