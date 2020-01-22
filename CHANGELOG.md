@@ -23,8 +23,14 @@
 - [Added the mod Refined Storage](https://www.curseforge.com/minecraft/mc-mods/refined-storage)
 - [Added the mod Refined Storage Addons](https://www.curseforge.com/minecraft/mc-mods/refined-storage-addons)
 - [Added the mod Extra Disks](https://www.curseforge.com/minecraft/mc-mods/extra-disks)
+- Added Server Tab Info [\#6](https://github.com/NillerMedDild/Enigmatica5/issues/6) [[Mod](https://github.com/NillerMedDild/Enigmatica5/labels/Mod)]
+- Added & Configured Default Options [\#5](https://github.com/NillerMedDild/Enigmatica5/issues/5) [[Mod](https://github.com/NillerMedDild/Enigmatica5/labels/Mod)]
+- Added Client Tweaks [\#4](https://github.com/NillerMedDild/Enigmatica5/issues/4) [[Mod](https://github.com/NillerMedDild/Enigmatica5/labels/Mod)]
+- Added Industrial Foregoing [\#9](https://github.com/NillerMedDild/Enigmatica5/issues/9) [[Mod](https://github.com/NillerMedDild/Enigmatica5/labels/Mod)]
 - Mekanism: Disabled Machines giving off light when they're active, as flickering machines can cause a lot of lag.
 - Temporarily removed CraftTweaker, as I'm having issues with it.
+- Remove Serene Seasons [\#8](https://github.com/NillerMedDild/Enigmatica5/issues/8) [[Mod](https://github.com/NillerMedDild/Enigmatica5/labels/Mod)]
+
 
 ## [Enigmatica 5 v0.1.1](https://github.com/NillerMedDild/Enigmatica5/tree/0.1.1)
 **This is a very new Minecraft version - Expect bugs and changes**
