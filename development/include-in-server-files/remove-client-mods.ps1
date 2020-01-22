@@ -15,6 +15,7 @@ param(
 		"nmdar_", 
 		"Neat", 
 		"overloadedarmorbar", 
+		"ReAuth",
 		"ToastControl", 
 		"toughnessbar", 
 		"Xaeros_Minimap", 

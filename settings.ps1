@@ -19,6 +19,7 @@ $CLIENT_MODS = @(
 	"nmdar_", 
 	"Neat", 
 	"overloadedarmorbar", 
+	"ReAuth",
 	"ToastControl", 
 	"toughnessbar", 
 	"Xaeros_Minimap", 
@@ -39,12 +40,12 @@ $CURSEFORGE_PROJECT_ID = 357692
 # =====================================================================//
 
 # Default: "1.0.0"
-$MODPACK_VERSION = "0.1.1"
+$MODPACK_VERSION = "0.2.0"
 
 # Only used by the Changelog Generator
-$LAST_MODPACK_VERSION = "0.1.0"
+$LAST_MODPACK_VERSION = "0.1.1"
 
-$FORGE_VERSION=30.0.35
+$FORGE_VERSION=30.0.41
 
 $CLIENT_FILENAME = "Enigmatica5"
 
@@ -61,7 +62,7 @@ $CLIENT_CHANGELOG_TYPE = "html"
 
 # Must be a single string. Use Powershell escaping for new lines etc. New line is `n and indent is `t
 $CLIENT_CHANGELOG = "<h3>Enigmatica 5 v$MODPACK_VERSION</h3>" +
-					"<p>Using Forge-1.15.1-30.0.35 </p><br />" +
+					"<p>Using Forge-1.15.1-30.0.41 </p><br />" +
 					"<a href=`"https://github.com/NillerMedDild/Enigmatica5/blob/master/CHANGELOG.md`">Changelog</a> <br />" +
 					"<a href=`"https://github.com/NillerMedDild/Enigmatica5/blob/master/CHANGELOG-MODS.md`">Mod Updates</a>"
 
@@ -87,6 +88,7 @@ $CONTENTS_TO_ZIP = @(
 "openloader", 
 "scripts",
 "kubejs",
+"packmenu",
 "server-start-license.md", 
 "server-start-readme.md", 
 "server-start.bat", 
