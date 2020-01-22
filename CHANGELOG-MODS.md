@@ -1,3 +1,47 @@
+# 0.1.1 -> 0.2.0
+
+* Apotheosis-1.15.1-3.0.2.jar
+* AutoDropper-1.15.1-6.0.0.jar
+* ClientTweaks_1.15.1-4.0.0.jar
+* cookiecore-1.15.1-2.1.0-349b6fe.jar
+* corail_woodcutter-1.1.0-1.15.1.jar
+* craftingstation-3.0.4.jar
+* CraftingTweaks_1.15.1-11.0.0.jar
+* CraftTweaker-1.15.1-6.0.0.3.jar
+* Cyclic-1.15.1-0.1.5.jar
+* dankstorage-2.2a.jar
+* DefaultOptions_1.15.1-11.0.0.jar
+* DefaultSettings-1.15.1-2.1.3.jar
+* extradisks-1.15.1-1.2.jar
+* FarmingForBlockheads_1.15.1-6.0.0.jar
+* findme-1.15.1-1.2.0.jar
+* Hwyla-forge-1.10.7-B71_1.15.1.jar
+* industrial-foregoing-1.15.1-2.2.0.jar
+* justenoughbeacons-1.2.jar
+* kubejs-forge-1.14.4-2.2.0.29.jar
+* Ma-Essentials-1.15.1-1.2.9.jar
+* magicfeather-1.15.1-2.2.1.jar
+* mcw-roofs-1.0.1-mc1.15.1.jar
+* Mekanism-1.15.1-9.9.3.394.jar
+* MekanismGenerators-1.15.1-9.9.3.394.jar
+* MekanismTools-1.15.1-9.9.3.394.jar
+* OpenLoader-1.15.1-3.0.3.jar
+* PackMenu-1.15.1-1.1.4.jar
+* PrettyBeaches_1.15.1-4.0.0.jar
+* ReAuth-1.14-3.8.0.jar
+* refinedstorage-1.8.jar
+* refinedstorageaddons-0.6.jar
+* RingOfAttraction-1.15.1-1.1.3.jar
+* RingOfGrowth-1.15.1-1.1.2.jar
+* ServerTabInfo-1.15.1-1.2.6-beta.jar
+* simplefarming-1.15.1-1.2.6.jar
+* SimpleStorageNetwork-1.15.1-0.2.3.jar
+* simplybackpacks-1.15.1-1.3.0.jar
+* titanium-1.15.1-2.3.4.jar
+* torchslabmod-1.15.1_v1.3.jar
+* ultra_amplified_dimension-1.15.1-7.1.0.jar
+* Xaeros_Minimap_1.19.7_Forge_1.15.1.jar
+
 # 0.1.0 -> 0.1.1
 
 * Apotheosis-1.15.1-3.0.1.jar

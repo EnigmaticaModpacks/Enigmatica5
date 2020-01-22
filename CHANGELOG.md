@@ -24,6 +24,7 @@
 - [Added the mod Refined Storage Addons](https://www.curseforge.com/minecraft/mc-mods/refined-storage-addons)
 - [Added the mod Extra Disks](https://www.curseforge.com/minecraft/mc-mods/extra-disks)
 - Mekanism: Disabled Machines giving off light when they're active, as flickering machines can cause a lot of lag.
+- Temporarily removed CraftTweaker, as I'm having issues with it.
 
 ## [Enigmatica 5 v0.1.1](https://github.com/NillerMedDild/Enigmatica5/tree/0.1.1)
 **This is a very new Minecraft version - Expect bugs and changes**
