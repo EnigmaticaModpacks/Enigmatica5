@@ -7,6 +7,7 @@
 $CLIENT_MODS = @(
 	"AppleSkin", 
 	"BetterAdvancements",
+	"ClientTweaks",
 	"CraftingTweaks", 
 	"DefaultOptions", 
 	"DefaultSettings",

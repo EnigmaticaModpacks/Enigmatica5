@@ -3,6 +3,7 @@ param(
 	$ClientMods = @(
 		"AppleSkin", 
 		"BetterAdvancements",
+		"ClientTweaks",
 		"CraftingTweaks", 
 		"DefaultOptions", 
 		"DefaultSettings",
