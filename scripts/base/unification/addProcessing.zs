@@ -661,23 +661,23 @@ var materials as MCTag[string][string] = {
     }
 }; 
 
-for material, types in materials {
+/* for material, types in materials {
     for type, itemTag in types {
         switch (type) {
             case "nugget":
-                addEquipmentToNuggetSmelting(material, itemTag);
+                //addEquipmentToNuggetSmelting(material, itemTag);
                 break;
             case "ingot":
                 addOreToIngotSmelting(material, itemTag);
                 break;
             case "dust":
             // TODO: addOreToDustCrushing(material, itemTag) function
-                addOreToDustCrushing(material, itemTag);
+                //addOreToDustCrushing(material, itemTag);
                 break;
             case "gem":
             // TODO: addOreToGemCrushing(material, itemTag) function
                 //addOreToGemCrushing(material, itemTag);
-                break;
+                break; */
             /* case "block":
                 break;
             case "ore":
@@ -692,6 +692,6 @@ for material, types in materials {
                 break;
             case "sheet":
                 break; */
-        }
+        /* }
     }
-}
+} */

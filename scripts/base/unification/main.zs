@@ -524,10 +524,10 @@ var modPriorities as string[] = [
     "industrialforegoing"
 ];
 
-for material, types in materials {
+/* for material, types in materials {
     for type, itemTag in types {
         if (itemTag.items.length > 1) {
             purgeItemTag(itemTag, modPriorities);
         }
     }
-}
+} */
