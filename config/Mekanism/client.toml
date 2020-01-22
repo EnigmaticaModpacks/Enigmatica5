@@ -4,7 +4,7 @@
 	#Allow sneak+scroll to change Configurator modes.
 	allowConfiguratorModeScroll = true
 	#Should active machines produce block light.
-	enableAmbientLighting = true
+	enableAmbientLighting = false
 	#Set to false to prevent particle spam when loading multiblocks (notification message will display instead).
 	enableMultiblockFormationParticles = true
 	#If enabled machines play their sounds while running.
