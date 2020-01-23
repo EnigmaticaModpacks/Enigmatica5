@@ -1,3 +1,14 @@
+## [Enigmatica 5 v0.2.1](https://github.com/NillerMedDild/Enigmatica5/tree/0.2.1)
+**This is a very new Minecraft version - Expect bugs and changes**
+
+*Using Forge-1.15.1-30.0.41*
+
+*[Mod Updates](https://github.com/NillerMedDild/Enigmatica5/blob/master/CHANGELOG-MODS.md)*
+
+**Changes**
+
+- Removed PreGenForge, as it was causing issues with Biomes O' Plenty server generation.
+
 ## [Enigmatica 5 v0.2.0](https://github.com/NillerMedDild/Enigmatica5/tree/0.2.0)
 **This is a very new Minecraft version - Expect bugs and changes**
 

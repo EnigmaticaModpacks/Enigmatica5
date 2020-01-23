@@ -30,7 +30,7 @@
   "isUnlocked": true,
   "javaArgsOverride": null,
   "javaDirOverride": null,
-  "lastPlayed": "2020-01-22T20:32:31.3215177Z",
+  "lastPlayed": "2020-01-23T20:19:16.8463661Z",
   "manifest": null,
   "fileDate": "0001-01-01T00:00:00",
   "installedModpack": null,
@@ -644,21 +644,6 @@
       "queryTimestamp": "2020-01-22T20:17:02.1621195Z",
       "fileCount": 1,
       "fileSize": 317458
-    },
-    {
-      "folderName": "PreGenForge-0.0.6-mc1.15.1.jar",
-      "fingerprint": 15022384,
-      "fileDateHash": 2146071847,
-      "sectionID": 8,
-      "individualFingerprints": [
-        15022384
-      ],
-      "status": 1,
-      "timestamp": "2020-01-08T18:46:43.6207828Z",
-      "lastWriteTimeUtc": "2020-01-03T20:59:15.5543732Z",
-      "queryTimestamp": "2020-01-22T20:17:02.1621195Z",
-      "fileCount": 1,
-      "fileSize": 20323
     },
     {
       "folderName": "craftingstation-3.0.4.jar",
@@ -1304,21 +1289,6 @@
       "fileSize": 763368
     },
     {
-      "folderName": "InventorySpam-1.15.1-1.2.3.jar",
-      "fingerprint": 1101968581,
-      "fileDateHash": 1398859688,
-      "sectionID": 8,
-      "individualFingerprints": [
-        1101968581
-      ],
-      "status": 1,
-      "timestamp": "2020-01-08T18:46:43.5581816Z",
-      "lastWriteTimeUtc": "2020-01-03T20:49:32.3452995Z",
-      "queryTimestamp": "2020-01-22T20:17:02.1791185Z",
-      "fileCount": 1,
-      "fileSize": 61134
-    },
-    {
       "folderName": "RingOfAttraction-1.15.1-1.1.3.jar",
       "fingerprint": 3762537311,
       "fileDateHash": 3894653179,
@@ -1347,6 +1317,21 @@
       "queryTimestamp": "2020-01-22T20:17:02.1791185Z",
       "fileCount": 1,
       "fileSize": 82663
+    },
+    {
+      "folderName": "InventorySpam-1.15.1-1.2.3.jar",
+      "fingerprint": 1101968581,
+      "fileDateHash": 1398859688,
+      "sectionID": 8,
+      "individualFingerprints": [
+        1101968581
+      ],
+      "status": 1,
+      "timestamp": "2020-01-08T18:46:43.5581816Z",
+      "lastWriteTimeUtc": "2020-01-03T20:49:32.3452995Z",
+      "queryTimestamp": "2020-01-22T20:17:02.1791185Z",
+      "fileCount": 1,
+      "fileSize": 61134
     }
   ],
   "isValid": true,
@@ -1904,7 +1889,7 @@
       "dateInstalled": "2020-01-22T18:46:29.9965692Z",
       "dateUpdated": "2020-01-22T18:46:29.9985767Z",
       "dateLastUpdateAttempted": "2020-01-22T18:46:29.9985767Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -2052,7 +2037,7 @@
       "dateInstalled": "2020-01-22T18:44:03.7304435Z",
       "dateUpdated": "2020-01-22T18:44:03.9844479Z",
       "dateLastUpdateAttempted": "2020-01-22T18:44:03.9844479Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -2751,68 +2736,6 @@
       "dateInstalled": "2020-01-19T19:19:12.5829583Z",
       "dateUpdated": "2020-01-19T19:19:12.6009294Z",
       "dateLastUpdateAttempted": "2020-01-19T19:19:12.6009294Z",
-      "status": 5,
-      "preferenceAutoInstallUpdates": false,
-      "preferenceAlternateFile": false,
-      "preferenceIsIgnored": false,
-      "isModified": false,
-      "isWorkingCopy": false,
-      "isFuzzyMatch": false,
-      "preferenceReleaseType": null,
-      "manifestName": null,
-      "installedTargets": null
-    },
-    {
-      "addonID": 323043,
-      "gameInstanceID": "18579245-63b2-4af9-aa65-a5d0de94ccab",
-      "installedFile": {
-        "id": 2845251,
-        "displayName": "PreGenForge-0.0.6-mc1.15.1.jar",
-        "fileName": "PreGenForge-0.0.6-mc1.15.1.jar",
-        "fileDate": "2019-12-19T12:06:09.833Z",
-        "fileLength": 20323,
-        "releaseType": 1,
-        "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2845/251/PreGenForge-0.0.6-mc1.15.1.jar",
-        "isAlternate": false,
-        "alternateFileId": 0,
-        "dependencies": [],
-        "isAvailable": true,
-        "modules": [
-          {
-            "foldername": "META-INF",
-            "fingerprint": 298261139,
-            "type": 0
-          },
-          {
-            "foldername": "me",
-            "fingerprint": 2808871721,
-            "type": 0
-          },
-          {
-            "foldername": "pack.mcmeta",
-            "fingerprint": 914718861,
-            "type": 0
-          }
-        ],
-        "packageFingerprint": 15022384,
-        "gameVersion": [
-          "1.15.1"
-        ],
-        "hasInstallScript": false,
-        "isCompatibleWithClient": false,
-        "categorySectionPackageType": 0,
-        "restrictProjectFileAccess": 0,
-        "projectStatus": 0,
-        "projectId": 0,
-        "gameVersionDateReleased": "2008-03-01T06:00:00Z",
-        "gameId": 0,
-        "isServerPack": false,
-        "FileNameOnDisk": "PreGenForge-0.0.6-mc1.15.1.jar"
-      },
-      "dateInstalled": "2020-01-03T20:59:15.6583314Z",
-      "dateUpdated": "2020-01-03T20:59:15.6603316Z",
-      "dateLastUpdateAttempted": "2020-01-03T20:59:15.6603316Z",
       "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
@@ -3970,7 +3893,7 @@
       "dateInstalled": "2020-01-03T20:42:55.0721689Z",
       "dateUpdated": "2020-01-22T18:37:05.188377Z",
       "dateLastUpdateAttempted": "2020-01-22T18:37:05.188377Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -4058,14 +3981,14 @@
       "addonID": 327554,
       "gameInstanceID": "18579245-63b2-4af9-aa65-a5d0de94ccab",
       "installedFile": {
-        "id": 2864308,
-        "displayName": "simplefarming-1.15.1-1.2.6.jar",
-        "fileName": "simplefarming-1.15.1-1.2.6.jar",
-        "fileDate": "2020-01-20T00:52:31.083Z",
-        "fileLength": 654743,
+        "id": 2866260,
+        "displayName": "simplefarming-1.15.1-1.2.7.jar",
+        "fileName": "simplefarming-1.15.1-1.2.7.jar",
+        "fileDate": "2020-01-23T02:24:22.253Z",
+        "fileLength": 654578,
         "releaseType": 2,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2864/308/simplefarming-1.15.1-1.2.6.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/2866/260/simplefarming-1.15.1-1.2.7.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [],
@@ -4073,22 +3996,22 @@
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 1262298520,
+            "fingerprint": 3970886170,
             "type": 0
           },
           {
             "foldername": "enemeez",
-            "fingerprint": 4260275527,
+            "fingerprint": 4010258938,
             "type": 0
           },
           {
             "foldername": "assets",
-            "fingerprint": 3090126207,
+            "fingerprint": 406104306,
             "type": 0
           },
           {
             "foldername": "data",
-            "fingerprint": 1291848969,
+            "fingerprint": 1291561813,
             "type": 0
           },
           {
@@ -4097,7 +4020,7 @@
             "type": 0
           }
         ],
-        "packageFingerprint": 2651054987,
+        "packageFingerprint": 2894253049,
         "gameVersion": [
           "1.15",
           "Forge",
@@ -4112,12 +4035,12 @@
         "gameVersionDateReleased": "2019-08-01T00:00:00Z",
         "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "simplefarming-1.15.1-1.2.6.jar"
+        "FileNameOnDisk": "simplefarming-1.15.1-1.2.7.jar"
       },
       "dateInstalled": "2020-01-20T18:20:59.8631046Z",
-      "dateUpdated": "2020-01-20T18:20:59.8650898Z",
-      "dateLastUpdateAttempted": "2020-01-20T18:20:59.8650898Z",
-      "status": 5,
+      "dateUpdated": "2020-01-23T20:18:59.7042203Z",
+      "dateLastUpdateAttempted": "2020-01-23T20:18:59.7042203Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -4289,6 +4212,109 @@
       "dateUpdated": "2020-01-03T20:38:21.6670634Z",
       "dateLastUpdateAttempted": "2020-01-03T20:38:21.6670634Z",
       "status": 5,
+      "preferenceAutoInstallUpdates": false,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": null
+    },
+    {
+      "addonID": 239197,
+      "gameInstanceID": "18579245-63b2-4af9-aa65-a5d0de94ccab",
+      "installedFile": {
+        "id": 2865999,
+        "displayName": "CraftTweaker-1.15.1-6.0.0.4.jar",
+        "fileName": "CraftTweaker-1.15.1-6.0.0.4.jar",
+        "fileDate": "2020-01-22T20:39:49.157Z",
+        "fileLength": 1739473,
+        "releaseType": 2,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/2865/999/CraftTweaker-1.15.1-6.0.0.4.jar",
+        "isAlternate": false,
+        "alternateFileId": 2866000,
+        "dependencies": [],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 3342999040,
+            "type": 0
+          },
+          {
+            "foldername": "com",
+            "fingerprint": 2245836318,
+            "type": 0
+          },
+          {
+            "foldername": "pack.mcmeta",
+            "fingerprint": 4035650311,
+            "type": 0
+          },
+          {
+            "foldername": "StdLibs.jar",
+            "fingerprint": 3766409282,
+            "type": 0
+          },
+          {
+            "foldername": "logo.png",
+            "fingerprint": 294559973,
+            "type": 0
+          },
+          {
+            "foldername": "org",
+            "fingerprint": 2263921357,
+            "type": 0
+          },
+          {
+            "foldername": "zsynthetic",
+            "fingerprint": 2414497039,
+            "type": 0
+          },
+          {
+            "foldername": "live",
+            "fingerprint": 2735121781,
+            "type": 0
+          },
+          {
+            "foldername": "stdlib",
+            "fingerprint": 3995400988,
+            "type": 0
+          },
+          {
+            "foldername": "listeners",
+            "fingerprint": 1659195514,
+            "type": 0
+          },
+          {
+            "foldername": "compactio",
+            "fingerprint": 1016296600,
+            "type": 0
+          }
+        ],
+        "packageFingerprint": 746866967,
+        "gameVersion": [
+          "Forge",
+          "1.15.1"
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
+        "gameVersionDateReleased": "2008-03-01T06:00:00Z",
+        "gameId": 0,
+        "isServerPack": false,
+        "FileNameOnDisk": "CraftTweaker-1.15.1-6.0.0.4.jar"
+      },
+      "dateInstalled": "2020-01-22T21:25:29.773918Z",
+      "dateUpdated": "2020-01-23T20:18:51.2466164Z",
+      "dateLastUpdateAttempted": "2020-01-23T20:18:51.2466164Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -4534,7 +4560,7 @@
       "dateInstalled": "2020-01-22T18:43:41.8147255Z",
       "dateUpdated": "2020-01-22T18:43:41.8257415Z",
       "dateLastUpdateAttempted": "2020-01-22T18:43:41.8257415Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -5205,22 +5231,22 @@
       "addonID": 237307,
       "gameInstanceID": "18579245-63b2-4af9-aa65-a5d0de94ccab",
       "installedFile": {
-        "id": 2845672,
-        "displayName": "CosmeticArmorReworked-1.15.1-v1.jar",
-        "fileName": "CosmeticArmorReworked-1.15.1-v1.jar",
-        "fileDate": "2019-12-20T09:40:37.48Z",
-        "fileLength": 77311,
+        "id": 2866352,
+        "displayName": "CosmeticArmorReworked-1.15.2-v1.jar",
+        "fileName": "CosmeticArmorReworked-1.15.2-v1.jar",
+        "fileDate": "2020-01-23T06:27:02.05Z",
+        "fileLength": 77310,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2845/672/CosmeticArmorReworked-1.15.1-v1.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/2866/352/CosmeticArmorReworked-1.15.2-v1.jar",
         "isAlternate": false,
-        "alternateFileId": 2845673,
+        "alternateFileId": 2866353,
         "dependencies": [],
         "isAvailable": true,
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 3783450748,
+            "fingerprint": 1879639036,
             "type": 0
           },
           {
@@ -5244,8 +5270,9 @@
             "type": 0
           }
         ],
-        "packageFingerprint": 4234448952,
+        "packageFingerprint": 2337342887,
         "gameVersion": [
+          "1.15",
           "1.15.1"
         ],
         "hasInstallScript": false,
@@ -5257,12 +5284,12 @@
         "gameVersionDateReleased": "2008-03-01T06:00:00Z",
         "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "CosmeticArmorReworked-1.15.1-v1.jar"
+        "FileNameOnDisk": "CosmeticArmorReworked-1.15.2-v1.jar"
       },
       "dateInstalled": "2020-01-03T20:39:16.4803487Z",
-      "dateUpdated": "2020-01-03T20:39:16.4823488Z",
-      "dateLastUpdateAttempted": "2020-01-03T20:39:16.4823488Z",
-      "status": 5,
+      "dateUpdated": "2020-01-23T20:18:48.3580436Z",
+      "dateLastUpdateAttempted": "2020-01-23T20:18:48.3580436Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -5565,78 +5592,6 @@
       "installedTargets": null
     },
     {
-      "addonID": 250898,
-      "gameInstanceID": "18579245-63b2-4af9-aa65-a5d0de94ccab",
-      "installedFile": {
-        "id": 2853169,
-        "displayName": "OreExcavation-1.7.148.jar",
-        "fileName": "OreExcavation-1.7.148.jar",
-        "fileDate": "2020-01-02T00:21:00.25Z",
-        "fileLength": 187710,
-        "releaseType": 1,
-        "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2853/169/OreExcavation-1.7.148.jar",
-        "isAlternate": false,
-        "alternateFileId": 0,
-        "dependencies": [],
-        "isAvailable": true,
-        "modules": [
-          {
-            "foldername": "META-INF",
-            "fingerprint": 2077575744,
-            "type": 0
-          },
-          {
-            "foldername": "oreexcavation",
-            "fingerprint": 835226072,
-            "type": 0
-          },
-          {
-            "foldername": "assets",
-            "fingerprint": 852019423,
-            "type": 0
-          },
-          {
-            "foldername": "pack.mcmeta",
-            "fingerprint": 130758000,
-            "type": 0
-          },
-          {
-            "foldername": "title.png",
-            "fingerprint": 1280081937,
-            "type": 0
-          }
-        ],
-        "packageFingerprint": 4026374343,
-        "gameVersion": [
-          "1.15.1"
-        ],
-        "hasInstallScript": false,
-        "isCompatibleWithClient": false,
-        "categorySectionPackageType": 0,
-        "restrictProjectFileAccess": 0,
-        "projectStatus": 0,
-        "projectId": 0,
-        "gameVersionDateReleased": "2008-03-01T06:00:00Z",
-        "gameId": 0,
-        "isServerPack": false,
-        "FileNameOnDisk": "OreExcavation-1.7.148.jar"
-      },
-      "dateInstalled": "2020-01-03T20:38:28.6758663Z",
-      "dateUpdated": "2020-01-03T20:38:28.6798751Z",
-      "dateLastUpdateAttempted": "2020-01-03T20:38:28.6798751Z",
-      "status": 5,
-      "preferenceAutoInstallUpdates": false,
-      "preferenceAlternateFile": false,
-      "preferenceIsIgnored": false,
-      "isModified": false,
-      "isWorkingCopy": false,
-      "isFuzzyMatch": false,
-      "preferenceReleaseType": null,
-      "manifestName": null,
-      "installedTargets": null
-    },
-    {
       "addonID": 332890,
       "gameInstanceID": "18579245-63b2-4af9-aa65-a5d0de94ccab",
       "installedFile": {
@@ -5705,7 +5660,79 @@
       "dateInstalled": "2020-01-03T20:46:15.6426692Z",
       "dateUpdated": "2020-01-22T18:37:01.9353732Z",
       "dateLastUpdateAttempted": "2020-01-22T18:37:01.9353732Z",
-      "status": 4,
+      "status": 5,
+      "preferenceAutoInstallUpdates": false,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": null
+    },
+    {
+      "addonID": 250898,
+      "gameInstanceID": "18579245-63b2-4af9-aa65-a5d0de94ccab",
+      "installedFile": {
+        "id": 2853169,
+        "displayName": "OreExcavation-1.7.148.jar",
+        "fileName": "OreExcavation-1.7.148.jar",
+        "fileDate": "2020-01-02T00:21:00.25Z",
+        "fileLength": 187710,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/2853/169/OreExcavation-1.7.148.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 2077575744,
+            "type": 0
+          },
+          {
+            "foldername": "oreexcavation",
+            "fingerprint": 835226072,
+            "type": 0
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 852019423,
+            "type": 0
+          },
+          {
+            "foldername": "pack.mcmeta",
+            "fingerprint": 130758000,
+            "type": 0
+          },
+          {
+            "foldername": "title.png",
+            "fingerprint": 1280081937,
+            "type": 0
+          }
+        ],
+        "packageFingerprint": 4026374343,
+        "gameVersion": [
+          "1.15.1"
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
+        "gameVersionDateReleased": "2008-03-01T06:00:00Z",
+        "gameId": 0,
+        "isServerPack": false,
+        "FileNameOnDisk": "OreExcavation-1.7.148.jar"
+      },
+      "dateInstalled": "2020-01-03T20:38:28.6758663Z",
+      "dateUpdated": "2020-01-03T20:38:28.6798751Z",
+      "dateLastUpdateAttempted": "2020-01-03T20:38:28.6798751Z",
+      "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -5803,73 +5830,6 @@
       "installedTargets": null
     },
     {
-      "addonID": 272515,
-      "gameInstanceID": "18579245-63b2-4af9-aa65-a5d0de94ccab",
-      "installedFile": {
-        "id": 2855035,
-        "displayName": "BetterAdvancements-1.15.1-0.1.0.95",
-        "fileName": "BetterAdvancements-1.15.1-0.1.0.95.jar",
-        "fileDate": "2020-01-05T12:39:51.107Z",
-        "fileLength": 60284,
-        "releaseType": 3,
-        "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2855/35/BetterAdvancements-1.15.1-0.1.0.95.jar",
-        "isAlternate": false,
-        "alternateFileId": 2855036,
-        "dependencies": [],
-        "isAvailable": true,
-        "modules": [
-          {
-            "foldername": "META-INF",
-            "fingerprint": 2138136389,
-            "type": 0
-          },
-          {
-            "foldername": "betteradvancements",
-            "fingerprint": 1163983905,
-            "type": 0
-          },
-          {
-            "foldername": "pack.mcmeta",
-            "fingerprint": 3728515777,
-            "type": 0
-          },
-          {
-            "foldername": "assets",
-            "fingerprint": 2900330132,
-            "type": 0
-          }
-        ],
-        "packageFingerprint": 3523615749,
-        "gameVersion": [
-          "1.15.1"
-        ],
-        "hasInstallScript": false,
-        "isCompatibleWithClient": false,
-        "categorySectionPackageType": 0,
-        "restrictProjectFileAccess": 0,
-        "projectStatus": 0,
-        "projectId": 0,
-        "gameVersionDateReleased": "2008-03-01T06:00:00Z",
-        "gameId": 0,
-        "isServerPack": false,
-        "FileNameOnDisk": "BetterAdvancements-1.15.1-0.1.0.95.jar"
-      },
-      "dateInstalled": "2020-01-06T18:11:02.2643162Z",
-      "dateUpdated": "2020-01-06T18:11:02.2663165Z",
-      "dateLastUpdateAttempted": "2020-01-06T18:11:02.2663165Z",
-      "status": 5,
-      "preferenceAutoInstallUpdates": false,
-      "preferenceAlternateFile": false,
-      "preferenceIsIgnored": false,
-      "isModified": false,
-      "isWorkingCopy": false,
-      "isFuzzyMatch": false,
-      "preferenceReleaseType": null,
-      "manifestName": null,
-      "installedTargets": null
-    },
-    {
       "addonID": 243707,
       "gameInstanceID": "18579245-63b2-4af9-aa65-a5d0de94ccab",
       "installedFile": {
@@ -5931,6 +5891,73 @@
       "dateInstalled": "2020-01-03T20:38:35.1322208Z",
       "dateUpdated": "2020-01-11T18:33:30.5047626Z",
       "dateLastUpdateAttempted": "2020-01-11T18:33:30.5047626Z",
+      "status": 5,
+      "preferenceAutoInstallUpdates": false,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": null
+    },
+    {
+      "addonID": 272515,
+      "gameInstanceID": "18579245-63b2-4af9-aa65-a5d0de94ccab",
+      "installedFile": {
+        "id": 2855035,
+        "displayName": "BetterAdvancements-1.15.1-0.1.0.95",
+        "fileName": "BetterAdvancements-1.15.1-0.1.0.95.jar",
+        "fileDate": "2020-01-05T12:39:51.107Z",
+        "fileLength": 60284,
+        "releaseType": 3,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/2855/35/BetterAdvancements-1.15.1-0.1.0.95.jar",
+        "isAlternate": false,
+        "alternateFileId": 2855036,
+        "dependencies": [],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 2138136389,
+            "type": 0
+          },
+          {
+            "foldername": "betteradvancements",
+            "fingerprint": 1163983905,
+            "type": 0
+          },
+          {
+            "foldername": "pack.mcmeta",
+            "fingerprint": 3728515777,
+            "type": 0
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 2900330132,
+            "type": 0
+          }
+        ],
+        "packageFingerprint": 3523615749,
+        "gameVersion": [
+          "1.15.1"
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
+        "gameVersionDateReleased": "2008-03-01T06:00:00Z",
+        "gameId": 0,
+        "isServerPack": false,
+        "FileNameOnDisk": "BetterAdvancements-1.15.1-0.1.0.95.jar"
+      },
+      "dateInstalled": "2020-01-06T18:11:02.2643162Z",
+      "dateUpdated": "2020-01-06T18:11:02.2663165Z",
+      "dateLastUpdateAttempted": "2020-01-06T18:11:02.2663165Z",
       "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
@@ -6093,6 +6120,69 @@
       "installedTargets": null
     },
     {
+      "addonID": 230976,
+      "gameInstanceID": "18579245-63b2-4af9-aa65-a5d0de94ccab",
+      "installedFile": {
+        "id": 2848924,
+        "displayName": "FastLeafDecay-v19.jar",
+        "fileName": "FastLeafDecay-v19.jar",
+        "fileDate": "2019-12-24T15:24:50.253Z",
+        "fileLength": 8383,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/2848/924/FastLeafDecay-v19.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 920696972,
+            "type": 0
+          },
+          {
+            "foldername": "net",
+            "fingerprint": 1187861426,
+            "type": 0
+          },
+          {
+            "foldername": "pack.mcmeta",
+            "fingerprint": 3380797652,
+            "type": 0
+          }
+        ],
+        "packageFingerprint": 1307452738,
+        "gameVersion": [
+          "Forge",
+          "1.15.1"
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
+        "gameVersionDateReleased": "2019-08-01T00:00:00Z",
+        "gameId": 0,
+        "isServerPack": false,
+        "FileNameOnDisk": "FastLeafDecay-v19.jar"
+      },
+      "dateInstalled": "2020-01-03T20:38:37.30624Z",
+      "dateUpdated": "2020-01-03T20:38:37.308223Z",
+      "dateLastUpdateAttempted": "2020-01-03T20:38:37.308223Z",
+      "status": 5,
+      "preferenceAutoInstallUpdates": false,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": null
+    },
+    {
       "addonID": 239286,
       "gameInstanceID": "18579245-63b2-4af9-aa65-a5d0de94ccab",
       "installedFile": {
@@ -6195,69 +6285,6 @@
       "dateInstalled": "2020-01-19T19:04:16.9250051Z",
       "dateUpdated": "2020-01-21T19:15:19.1928582Z",
       "dateLastUpdateAttempted": "2020-01-21T19:15:19.1928582Z",
-      "status": 5,
-      "preferenceAutoInstallUpdates": false,
-      "preferenceAlternateFile": false,
-      "preferenceIsIgnored": false,
-      "isModified": false,
-      "isWorkingCopy": false,
-      "isFuzzyMatch": false,
-      "preferenceReleaseType": null,
-      "manifestName": null,
-      "installedTargets": null
-    },
-    {
-      "addonID": 230976,
-      "gameInstanceID": "18579245-63b2-4af9-aa65-a5d0de94ccab",
-      "installedFile": {
-        "id": 2848924,
-        "displayName": "FastLeafDecay-v19.jar",
-        "fileName": "FastLeafDecay-v19.jar",
-        "fileDate": "2019-12-24T15:24:50.253Z",
-        "fileLength": 8383,
-        "releaseType": 1,
-        "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2848/924/FastLeafDecay-v19.jar",
-        "isAlternate": false,
-        "alternateFileId": 0,
-        "dependencies": [],
-        "isAvailable": true,
-        "modules": [
-          {
-            "foldername": "META-INF",
-            "fingerprint": 920696972,
-            "type": 0
-          },
-          {
-            "foldername": "net",
-            "fingerprint": 1187861426,
-            "type": 0
-          },
-          {
-            "foldername": "pack.mcmeta",
-            "fingerprint": 3380797652,
-            "type": 0
-          }
-        ],
-        "packageFingerprint": 1307452738,
-        "gameVersion": [
-          "Forge",
-          "1.15.1"
-        ],
-        "hasInstallScript": false,
-        "isCompatibleWithClient": false,
-        "categorySectionPackageType": 0,
-        "restrictProjectFileAccess": 0,
-        "projectStatus": 0,
-        "projectId": 0,
-        "gameVersionDateReleased": "2019-08-01T00:00:00Z",
-        "gameId": 0,
-        "isServerPack": false,
-        "FileNameOnDisk": "FastLeafDecay-v19.jar"
-      },
-      "dateInstalled": "2020-01-03T20:38:37.30624Z",
-      "dateUpdated": "2020-01-03T20:38:37.308223Z",
-      "dateLastUpdateAttempted": "2020-01-03T20:38:37.308223Z",
       "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
@@ -6441,6 +6468,79 @@
       "installedTargets": null
     },
     {
+      "addonID": 280294,
+      "gameInstanceID": "18579245-63b2-4af9-aa65-a5d0de94ccab",
+      "installedFile": {
+        "id": 2853230,
+        "displayName": "FpsReducer-mc1.15.1-1.14.jar",
+        "fileName": "FpsReducer-mc1.15.1-1.14.jar",
+        "fileDate": "2020-01-02T02:43:15.49Z",
+        "fileLength": 82663,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/2853/230/FpsReducer-mc1.15.1-1.14.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 3727830606,
+            "type": 0
+          },
+          {
+            "foldername": "bre2el",
+            "fingerprint": 3648518510,
+            "type": 0
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 287442633,
+            "type": 0
+          },
+          {
+            "foldername": "fpsreducer_logo.png",
+            "fingerprint": 2600135182,
+            "type": 0
+          },
+          {
+            "foldername": "pack.mcmeta",
+            "fingerprint": 2856903882,
+            "type": 0
+          }
+        ],
+        "packageFingerprint": 1990721228,
+        "gameVersion": [
+          "Forge",
+          "1.15.1"
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
+        "gameVersionDateReleased": "2019-08-01T00:00:00Z",
+        "gameId": 0,
+        "isServerPack": false,
+        "FileNameOnDisk": "FpsReducer-mc1.15.1-1.14.jar"
+      },
+      "dateInstalled": "2020-01-03T20:40:42.3862815Z",
+      "dateUpdated": "2020-01-03T20:40:42.3882901Z",
+      "dateLastUpdateAttempted": "2020-01-03T20:40:42.3882901Z",
+      "status": 5,
+      "preferenceAutoInstallUpdates": false,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": null
+    },
+    {
       "addonID": 311595,
       "gameInstanceID": "18579245-63b2-4af9-aa65-a5d0de94ccab",
       "installedFile": {
@@ -6507,79 +6607,6 @@
       "dateInstalled": "2020-01-14T18:33:11.3631317Z",
       "dateUpdated": "2020-01-14T18:33:11.3788015Z",
       "dateLastUpdateAttempted": "2020-01-14T18:33:11.3788015Z",
-      "status": 5,
-      "preferenceAutoInstallUpdates": false,
-      "preferenceAlternateFile": false,
-      "preferenceIsIgnored": false,
-      "isModified": false,
-      "isWorkingCopy": false,
-      "isFuzzyMatch": false,
-      "preferenceReleaseType": null,
-      "manifestName": null,
-      "installedTargets": null
-    },
-    {
-      "addonID": 280294,
-      "gameInstanceID": "18579245-63b2-4af9-aa65-a5d0de94ccab",
-      "installedFile": {
-        "id": 2853230,
-        "displayName": "FpsReducer-mc1.15.1-1.14.jar",
-        "fileName": "FpsReducer-mc1.15.1-1.14.jar",
-        "fileDate": "2020-01-02T02:43:15.49Z",
-        "fileLength": 82663,
-        "releaseType": 1,
-        "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2853/230/FpsReducer-mc1.15.1-1.14.jar",
-        "isAlternate": false,
-        "alternateFileId": 0,
-        "dependencies": [],
-        "isAvailable": true,
-        "modules": [
-          {
-            "foldername": "META-INF",
-            "fingerprint": 3727830606,
-            "type": 0
-          },
-          {
-            "foldername": "bre2el",
-            "fingerprint": 3648518510,
-            "type": 0
-          },
-          {
-            "foldername": "assets",
-            "fingerprint": 287442633,
-            "type": 0
-          },
-          {
-            "foldername": "fpsreducer_logo.png",
-            "fingerprint": 2600135182,
-            "type": 0
-          },
-          {
-            "foldername": "pack.mcmeta",
-            "fingerprint": 2856903882,
-            "type": 0
-          }
-        ],
-        "packageFingerprint": 1990721228,
-        "gameVersion": [
-          "Forge",
-          "1.15.1"
-        ],
-        "hasInstallScript": false,
-        "isCompatibleWithClient": false,
-        "categorySectionPackageType": 0,
-        "restrictProjectFileAccess": 0,
-        "projectStatus": 0,
-        "projectId": 0,
-        "gameVersionDateReleased": "2019-08-01T00:00:00Z",
-        "gameId": 0,
-        "isServerPack": false,
-        "FileNameOnDisk": "FpsReducer-mc1.15.1-1.14.jar"
-      },
-      "dateInstalled": "2020-01-03T20:40:42.3862815Z",
-      "dateUpdated": "2020-01-03T20:40:42.3882901Z",
-      "dateLastUpdateAttempted": "2020-01-03T20:40:42.3882901Z",
       "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
@@ -6896,6 +6923,86 @@
       "installedTargets": null
     },
     {
+      "addonID": 351491,
+      "gameInstanceID": "18579245-63b2-4af9-aa65-a5d0de94ccab",
+      "installedFile": {
+        "id": 2865262,
+        "displayName": "extradisks-1.15.1-1.2.jar",
+        "fileName": "extradisks-1.15.1-1.2.jar",
+        "fileDate": "2020-01-21T20:11:16.53Z",
+        "fileLength": 82350,
+        "releaseType": 2,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/2865/262/extradisks-1.15.1-1.2.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [
+          {
+            "id": 0,
+            "addonId": 243076,
+            "type": 3,
+            "fileId": 0
+          }
+        ],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 2548855612,
+            "type": 0
+          },
+          {
+            "foldername": "de",
+            "fingerprint": 383223139,
+            "type": 0
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 4091975755,
+            "type": 0
+          },
+          {
+            "foldername": "data",
+            "fingerprint": 1590855638,
+            "type": 0
+          },
+          {
+            "foldername": "pack.mcmeta",
+            "fingerprint": 1894706365,
+            "type": 0
+          }
+        ],
+        "packageFingerprint": 2810185126,
+        "gameVersion": [
+          "Forge",
+          "1.15.1"
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
+        "gameVersionDateReleased": "2019-08-01T00:00:00Z",
+        "gameId": 0,
+        "isServerPack": false,
+        "FileNameOnDisk": "extradisks-1.15.1-1.2.jar"
+      },
+      "dateInstalled": "2020-01-22T18:43:42.4627361Z",
+      "dateUpdated": "2020-01-22T18:43:42.4647256Z",
+      "dateLastUpdateAttempted": "2020-01-22T18:43:42.4647256Z",
+      "status": 5,
+      "preferenceAutoInstallUpdates": false,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": null
+    },
+    {
       "addonID": 291936,
       "gameInstanceID": "18579245-63b2-4af9-aa65-a5d0de94ccab",
       "installedFile": {
@@ -6965,86 +7072,6 @@
       "dateUpdated": "2020-01-21T18:03:57.8531632Z",
       "dateLastUpdateAttempted": "2020-01-21T18:03:57.8531632Z",
       "status": 5,
-      "preferenceAutoInstallUpdates": false,
-      "preferenceAlternateFile": false,
-      "preferenceIsIgnored": false,
-      "isModified": false,
-      "isWorkingCopy": false,
-      "isFuzzyMatch": false,
-      "preferenceReleaseType": null,
-      "manifestName": null,
-      "installedTargets": null
-    },
-    {
-      "addonID": 351491,
-      "gameInstanceID": "18579245-63b2-4af9-aa65-a5d0de94ccab",
-      "installedFile": {
-        "id": 2865262,
-        "displayName": "extradisks-1.15.1-1.2.jar",
-        "fileName": "extradisks-1.15.1-1.2.jar",
-        "fileDate": "2020-01-21T20:11:16.53Z",
-        "fileLength": 82350,
-        "releaseType": 2,
-        "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2865/262/extradisks-1.15.1-1.2.jar",
-        "isAlternate": false,
-        "alternateFileId": 0,
-        "dependencies": [
-          {
-            "id": 0,
-            "addonId": 243076,
-            "type": 3,
-            "fileId": 0
-          }
-        ],
-        "isAvailable": true,
-        "modules": [
-          {
-            "foldername": "META-INF",
-            "fingerprint": 2548855612,
-            "type": 0
-          },
-          {
-            "foldername": "de",
-            "fingerprint": 383223139,
-            "type": 0
-          },
-          {
-            "foldername": "assets",
-            "fingerprint": 4091975755,
-            "type": 0
-          },
-          {
-            "foldername": "data",
-            "fingerprint": 1590855638,
-            "type": 0
-          },
-          {
-            "foldername": "pack.mcmeta",
-            "fingerprint": 1894706365,
-            "type": 0
-          }
-        ],
-        "packageFingerprint": 2810185126,
-        "gameVersion": [
-          "Forge",
-          "1.15.1"
-        ],
-        "hasInstallScript": false,
-        "isCompatibleWithClient": false,
-        "categorySectionPackageType": 0,
-        "restrictProjectFileAccess": 0,
-        "projectStatus": 0,
-        "projectId": 0,
-        "gameVersionDateReleased": "2019-08-01T00:00:00Z",
-        "gameId": 0,
-        "isServerPack": false,
-        "FileNameOnDisk": "extradisks-1.15.1-1.2.jar"
-      },
-      "dateInstalled": "2020-01-22T18:43:42.4627361Z",
-      "dateUpdated": "2020-01-22T18:43:42.4647256Z",
-      "dateLastUpdateAttempted": "2020-01-22T18:43:42.4647256Z",
-      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -7192,69 +7219,6 @@
       "installedTargets": null
     },
     {
-      "addonID": 353434,
-      "gameInstanceID": "18579245-63b2-4af9-aa65-a5d0de94ccab",
-      "installedFile": {
-        "id": 2856019,
-        "displayName": "BetterBurning-1.15.1-1.2.1.jar",
-        "fileName": "BetterBurning-1.15.1-1.2.1.jar",
-        "fileDate": "2020-01-07T03:32:14.387Z",
-        "fileLength": 6368,
-        "releaseType": 1,
-        "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2856/19/BetterBurning-1.15.1-1.2.1.jar",
-        "isAlternate": false,
-        "alternateFileId": 2856020,
-        "dependencies": [],
-        "isAvailable": true,
-        "modules": [
-          {
-            "foldername": "META-INF",
-            "fingerprint": 515740724,
-            "type": 0
-          },
-          {
-            "foldername": "net",
-            "fingerprint": 1700618113,
-            "type": 0
-          },
-          {
-            "foldername": "pack.mcmeta",
-            "fingerprint": 985869423,
-            "type": 0
-          }
-        ],
-        "packageFingerprint": 3206095814,
-        "gameVersion": [
-          "Forge",
-          "1.15.1"
-        ],
-        "hasInstallScript": false,
-        "isCompatibleWithClient": false,
-        "categorySectionPackageType": 0,
-        "restrictProjectFileAccess": 0,
-        "projectStatus": 0,
-        "projectId": 0,
-        "gameVersionDateReleased": "2008-03-01T06:00:00Z",
-        "gameId": 0,
-        "isServerPack": false,
-        "FileNameOnDisk": "BetterBurning-1.15.1-1.2.1.jar"
-      },
-      "dateInstalled": "2020-01-07T18:27:22.0113646Z",
-      "dateUpdated": "2020-01-07T18:27:22.0153675Z",
-      "dateLastUpdateAttempted": "2020-01-07T18:27:22.0153675Z",
-      "status": 5,
-      "preferenceAutoInstallUpdates": false,
-      "preferenceAlternateFile": false,
-      "preferenceIsIgnored": false,
-      "isModified": false,
-      "isWorkingCopy": false,
-      "isFuzzyMatch": false,
-      "preferenceReleaseType": null,
-      "manifestName": null,
-      "installedTargets": null
-    },
-    {
       "addonID": 254268,
       "gameInstanceID": "18579245-63b2-4af9-aa65-a5d0de94ccab",
       "installedFile": {
@@ -7315,6 +7279,69 @@
       "dateInstalled": "2020-01-07T18:31:25.280194Z",
       "dateUpdated": "2020-01-07T18:31:25.2832029Z",
       "dateLastUpdateAttempted": "2020-01-07T18:31:25.2832029Z",
+      "status": 5,
+      "preferenceAutoInstallUpdates": false,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": null
+    },
+    {
+      "addonID": 353434,
+      "gameInstanceID": "18579245-63b2-4af9-aa65-a5d0de94ccab",
+      "installedFile": {
+        "id": 2856019,
+        "displayName": "BetterBurning-1.15.1-1.2.1.jar",
+        "fileName": "BetterBurning-1.15.1-1.2.1.jar",
+        "fileDate": "2020-01-07T03:32:14.387Z",
+        "fileLength": 6368,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/2856/19/BetterBurning-1.15.1-1.2.1.jar",
+        "isAlternate": false,
+        "alternateFileId": 2856020,
+        "dependencies": [],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 515740724,
+            "type": 0
+          },
+          {
+            "foldername": "net",
+            "fingerprint": 1700618113,
+            "type": 0
+          },
+          {
+            "foldername": "pack.mcmeta",
+            "fingerprint": 985869423,
+            "type": 0
+          }
+        ],
+        "packageFingerprint": 3206095814,
+        "gameVersion": [
+          "Forge",
+          "1.15.1"
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
+        "gameVersionDateReleased": "2008-03-01T06:00:00Z",
+        "gameId": 0,
+        "isServerPack": false,
+        "FileNameOnDisk": "BetterBurning-1.15.1-1.2.1.jar"
+      },
+      "dateInstalled": "2020-01-07T18:27:22.0113646Z",
+      "dateUpdated": "2020-01-07T18:27:22.0153675Z",
+      "dateLastUpdateAttempted": "2020-01-07T18:27:22.0153675Z",
       "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
@@ -7538,6 +7565,73 @@
       "installedTargets": null
     },
     {
+      "addonID": 263420,
+      "gameInstanceID": "18579245-63b2-4af9-aa65-a5d0de94ccab",
+      "installedFile": {
+        "id": 2866596,
+        "displayName": "v20.0.0 for Minecraft 1.15.1",
+        "fileName": "Xaeros_Minimap_20.0.0_Forge_1.15.1.jar",
+        "fileDate": "2020-01-23T18:14:21.953Z",
+        "fileLength": 499213,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/2866/596/Xaeros_Minimap_20.0.0_Forge_1.15.1.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 1894305297,
+            "type": 0
+          },
+          {
+            "foldername": "xaero",
+            "fingerprint": 2517869168,
+            "type": 0
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 4020389404,
+            "type": 0
+          },
+          {
+            "foldername": "pack.mcmeta",
+            "fingerprint": 1842434297,
+            "type": 0
+          }
+        ],
+        "packageFingerprint": 404974087,
+        "gameVersion": [
+          "1.15.1"
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
+        "gameVersionDateReleased": "2019-12-17T00:00:00Z",
+        "gameId": 0,
+        "isServerPack": false,
+        "FileNameOnDisk": "Xaeros_Minimap_20.0.0_Forge_1.15.1.jar"
+      },
+      "dateInstalled": "2020-01-08T18:46:44.746425Z",
+      "dateUpdated": "2020-01-23T20:19:05.0600341Z",
+      "dateLastUpdateAttempted": "2020-01-23T20:19:05.0600341Z",
+      "status": 4,
+      "preferenceAutoInstallUpdates": false,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": null
+    },
+    {
       "addonID": 345135,
       "gameInstanceID": "18579245-63b2-4af9-aa65-a5d0de94ccab",
       "installedFile": {
@@ -7604,73 +7698,6 @@
       "dateInstalled": "2020-01-19T19:02:05.1671335Z",
       "dateUpdated": "2020-01-19T19:02:05.1731326Z",
       "dateLastUpdateAttempted": "2020-01-19T19:02:05.1731326Z",
-      "status": 5,
-      "preferenceAutoInstallUpdates": false,
-      "preferenceAlternateFile": false,
-      "preferenceIsIgnored": false,
-      "isModified": false,
-      "isWorkingCopy": false,
-      "isFuzzyMatch": false,
-      "preferenceReleaseType": null,
-      "manifestName": null,
-      "installedTargets": null
-    },
-    {
-      "addonID": 263420,
-      "gameInstanceID": "18579245-63b2-4af9-aa65-a5d0de94ccab",
-      "installedFile": {
-        "id": 2861248,
-        "displayName": "v1.19.7 for Minecraft 1.15.1",
-        "fileName": "Xaeros_Minimap_1.19.7_Forge_1.15.1.jar",
-        "fileDate": "2020-01-15T19:08:35.39Z",
-        "fileLength": 453820,
-        "releaseType": 1,
-        "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2861/248/Xaeros_Minimap_1.19.7_Forge_1.15.1.jar",
-        "isAlternate": false,
-        "alternateFileId": 0,
-        "dependencies": [],
-        "isAvailable": true,
-        "modules": [
-          {
-            "foldername": "META-INF",
-            "fingerprint": 3714990814,
-            "type": 0
-          },
-          {
-            "foldername": "xaero",
-            "fingerprint": 2990904454,
-            "type": 0
-          },
-          {
-            "foldername": "assets",
-            "fingerprint": 828308847,
-            "type": 0
-          },
-          {
-            "foldername": "pack.mcmeta",
-            "fingerprint": 1842434297,
-            "type": 0
-          }
-        ],
-        "packageFingerprint": 1872950400,
-        "gameVersion": [
-          "1.15.1"
-        ],
-        "hasInstallScript": false,
-        "isCompatibleWithClient": false,
-        "categorySectionPackageType": 0,
-        "restrictProjectFileAccess": 0,
-        "projectStatus": 0,
-        "projectId": 0,
-        "gameVersionDateReleased": "2019-12-17T00:00:00Z",
-        "gameId": 0,
-        "isServerPack": false,
-        "FileNameOnDisk": "Xaeros_Minimap_1.19.7_Forge_1.15.1.jar"
-      },
-      "dateInstalled": "2020-01-08T18:46:44.746425Z",
-      "dateUpdated": "2020-01-18T10:37:34.7872628Z",
-      "dateLastUpdateAttempted": "2020-01-18T10:37:34.7872628Z",
       "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
