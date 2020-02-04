@@ -1,0 +1,145 @@
+
+#General Config. This config is synced from server to client.
+[general]
+	#Maximum Joules per mB of Steam. Also affects Thermoelectric Boiler.
+	maxEnergyPerSteam = 100.0
+	#Flamethrower Gas Tank capacity in mB.
+	maxFlamethrowerGas = 24000
+	#Chance of producing sawdust per operation in the precision sawmill when turning logs into planks.
+	#Range: 0.0 ~ 1.0
+	sawdustChanceLog = 1.0
+	#If enabled makes Water and Heavy Water blocks be removed from the world on pump.
+	pumpWaterSources = false
+	#Disable to make the anchor upgrade not do anything.
+	allowChunkloading = true
+	#Energy needed to destroy or attract blocks with a Laser (per block hardness level).
+	laserEnergyNeededPerHardness = 100000
+	#Amount of heat produced per fuel tick of a fuel's burn time in the Fuelwood Heater.
+	heatPerFuelTick = 4.0
+	#Scuba Tank Gas Tank capacity in mB.
+	maxScubaGas = 24000
+	#How far (in blocks) a laser can travel.
+	laserRange = 64
+	#Toughness value of the Armored Jetpack.
+	armoredJetpackToughness = 2
+	#Displayed temperature unit in Mekanism GUIs.
+	#Allowed Values: K, C, R, F, STP
+	temperatureUnit = "K"
+	#Log Mekanism packet names. Debug setting.
+	logPackets = false
+	#Add filled creative gas tanks to creative/JEI.
+	prefilledGasTanks = true
+	#Ops can bypass the block security restrictions if enabled.
+	opsBypassRestrictions = false
+	#Energy multiplier for using silk touch mode with the Digital Miner.
+	minerSilkMultiplier = 6
+	#Maximum radius in blocks that the Digital Miner can reach. (Increasing this may have negative effects on stability and/or performance. We strongly recommend you leave it at the default value.)
+	#Range: > 1
+	digitalMinerMaxRadius = 32
+	#Base factor for working out machine performance with upgrades - UpgradeModifier * (UpgradesInstalled/UpgradesPossible).
+	#Range: > 1
+	maxUpgradeMultiplier = 10
+	#Audible sparkles.
+	dynamicTankEasterEgg = false
+	#Joules required by the Resistive Heater to produce one unit of heat. Also affects Thermoelectric Boiler's Water->Steam rate.
+	energyPerHeat = 1000.0
+	#Should machines void the gas inside of them on load if there is no recipe using that gas. Note: Currently broken in 1.14 and always voids the gas.
+	voidInvalidGases = false
+	#Armor value of the Armored Jetpack.
+	armoredJetpackArmor = 12
+	#Maximum block distance to pull fluid from for the Electric Pump.
+	maxPumpRange = 80
+	#How many ticks must pass until a block's active state can sync with the client.
+	UPDATE_DELAY = 10
+	#Any mod ids added to this list will not be able to have any of their blocks, picked up by the cardboard box.
+	cardboardModBlacklist = []
+	#If enabled, lasers can break blocks and the flamethrower starts fires.
+	aestheticWorldDamage = true
+	#Amount of heat each Boiler heating element produces.
+	superheatingHeatTransfer = 10000.0
+	#Displayed energy type in Mekanism GUIs.
+	#Allowed Values: J, FE, EU
+	energyType = "FE"
+	#Enable the security system for players to prevent others from accessing their machines. Does NOT affect Frequencies.
+	allowProtection = true
+	#Fluidic Plenisher stops after this many blocks.
+	maxPlenisherNodes = 4000
+	#Allow right clicking on Cables/Pipes/Tubes with alloys to upgrade the tier.
+	allowTransmitterAlloyUpgrade = true
+	#Jetpack Gas Tank capacity in mB.
+	maxJetpackGas = 24000
+	#Delay in ticks before a player is teleported after clicking the Teleport button in the portable teleporter.
+	portableTeleporterDelay = 0
+
+	#Thermal Evaporation Plant Settings
+	[general.thermal_evaporation]
+		#Heat to absorb per Solar Panel array of Thermal Evaporation Tower.
+		solarMultiplier = 0.2
+		#Max Temperature of the Thermal Evaporation Tower.
+		maxTemp = 3000.0
+		#Temperature to amount produced ratio for Thermal Evaporation Tower.
+		tempMultiplier = 0.1
+		#Thermal Evaporation Tower heat loss per tick.
+		heatDissipation = 0.02
+
+	#Atomic Disassembler Settings
+	[general.atomic_disassembler]
+		#The amount of damage the Atomic Disassembler does when it has at least DisassemblerEnergyUsageWeapon power stored. (Value is in number of half hearts)
+		damageMax = 20
+		#Cost in Joules of using the Atomic Disassembler as a hoe.
+		energyUsageHoe = 10
+		#Cost in Joules of using the Atomic Disassembler as a weapon.
+		energyUsageWeapon = 2000
+		#The amount of damage the Atomic Disassembler does when it is out of power. (Value is in number of half hearts)
+		damageMin = 4
+		#Base Energy (Joules) usage of the Atomic Disassembler. (Gets multiplied by speed factor)
+		energyUsage = 10
+		#Enable the 'Slow' mode for the Atomic Disassembler.
+		slowMode = true
+		#Enable the 'Fast' mode for the Atomic Disassembler.
+		fastMode = true
+		#Enable the 'Vein Mining' mode for the Atomic Disassembler.
+		veinMining = true
+		#The max Atomic Disassembler Vein Mining Block Count.
+		miningCount = 128
+		#The Range of the Atomic Disassembler Extended Vein Mining.
+		miningRange = 10
+		#Maximum amount (joules) of energy the Atomic Disassembler can contain
+		#Range: 0.0 ~ 1.7976931348623157E308
+		batteryCapacity = 1000000.0
+		#Enable the 'Extended Vein Mining' mode for the Atomic Disassembler. (Allows vein mining everything not just ores/logs)
+		extendedMining = true
+
+	#Quantum Entangloporter Settings
+	[general.quantum_entangloporter]
+		#Maximum energy buffer (Mekanism Joules) of an Entangoloporter frequency - i.e. the maximum transfer per tick per frequency.
+		#Range: 0.0 ~ 1.7976931348623157E308
+		energyBuffer = 1.6E7
+		#Maximum fluid buffer (mb) of an Entangoloporter frequency - i.e. the maximum transfer per tick per frequency. Default is ultimate tier tank capacity.
+		#Range: > 0
+		fluidBuffer = 512000
+		#Maximum fluid buffer (mb) of an Entangoloporter frequency - i.e. the maximum transfer per tick per frequency. Default is ultimate tier tank capacity.
+		#Range: > 0
+		gasBuffer = 512000
+
+	#Energy Conversion Rate Settings
+	[general.energy_conversion]
+		#Conversion multiplier from Forge Energy to Joules (FE * JoulesToForge = Joules)
+		JoulesToForge = 2.5
+		#How much energy (Joules) a piece of redstone gives in machines.
+		EnergyPerRedstone = 10000.0
+		#Conversion multiplier from Joules to EU (Joules * EUToJoules = EU)
+		EUToJoules = 0.1
+		#Conversion multiplier from EU to Joules (EU * JoulesToEU = Joules)
+		JoulesToEU = 10.0
+		#Disables Forge Energy (FE,RF,IF,uF,CF) power integration. Requires world restart (server-side option in SMP).
+		blacklistForge = false
+		#Conversion multiplier from Joules to Forge Energy (Joules * ForgeToJoules = FE)
+		ForgeToJoules = 0.4
+		#Disables IC2 power integration. Requires world restart (server-side option in SMP).
+		blacklistIC2 = false
+		#Burn time for Ethylene (1mB hydrogen + 2*bioFuel/tick*200ticks/100mB * 20x efficiency bonus).
+		EthyleneBurnTime = 40
+		#How much energy is produced per mB of Hydrogen, also affects Electrolytic Separator usage, Ethylene burn rate and Gas generator energy capacity.
+		HydrogenEnergyDensity = 200.0
+

@@ -1,0 +1,501 @@
+
+["Mod Compatibility Options"]
+	#
+	# Attempt to add modded features from vanilla biomes into Ultra Amplified version of that biome.
+	# Only works if other mod added the feature by addFeature(...) to vanilla biome and registered the feature correctly without the 'minecraft' namespace.
+	importModdedFeatures = false
+	#
+	# Attempt to add modded structures from vanilla biomes into Ultra Amplified version of that biome.
+	# Only works if other mod added the structure by addFeature(...) to vanilla biome and registered the structure correctly without the 'minecraft' namespace.
+	importModdedStructure = false
+	#
+	# Attempt to add modded mobs from vanilla biomes into Ultra Amplified version of that biome.
+	# Only works if other mod added the mob by addSpawn(...) to vanilla biome and registered the mob correctly without the 'minecraft' namespace.
+	importModdedMobs = false
+	#
+	# Attempt to add modded biomes from Overworld into Ultra Amplified dimension. (or into Overworld in Ultra Amplified worldtype)
+	# Only works if other mod added the biome to the BiomeDictionary with the BiomeType of DESERT, WARM, COOL, or ICY type.
+	importModdedBiomes = false
+	#
+	# Attempt to add all registered modded biomes into Ultra Amplified dimension or worldtype.
+	# You may want to turn up biome size to 4 or 5 as this may make biomes very crowded. Also overrides importModdedBiomes setting.
+	importAllModdedBiomes = false
+	#
+	# Blacklist either all of a mod's biomes or its specific biomes from being imported into Ultra Amplified dimension/worldtype.
+	# To blacklist all of a mod's biomes, type out its id like so with :* attached at end. Example: "example_mod_id:*"
+	# To blacklist a specific mod's biome, type out the resourcelocation. Example: "example_mod_id:lava_desert"
+	# NOTE: Seperate each entry with a comma. Example: "example_mod_id_1:lava_desert, example_mod_id_2:*, example_mod_id_1:ender_forest"
+	# Also, any entry using ultra_amplified_dimension or minecraft id will be ignored as I already handle those ids internally.
+	blacklistedBiomeList = ""
+	#
+	# Blacklist either all of a mod's structures or specific structures from being imported into Ultra Amplified dimension/worldtype.
+	# To blacklist all structures in a mod, type out its id like so with :* attached at end. Example: "example_mod_id:*"
+	# To blacklist a specific mod's structure, type out the resourcelocation. Example: "example_mod_id:wizard_tower"
+	# NOTE: Seperate each entry with a comma. Example: "example_mod_id_1:wizard_tower, example_mod_id_2:*, example_mod_id_1:super_village"
+	# Also, any entry using ultra_amplified_dimension or minecraft id will be ignored as I already handle those ids internally.
+	blacklistedFeatureList = ""
+
+["General Dimension Options"]
+	#
+	# Adds very heavy fog to make the world look more spoky and limit visibility.
+	# This is not the same as distance fog which does not make chunks near you foggy.
+	heavyFog = false
+	#
+	# Should beds explode in the Ultra Amplified Dimension?
+	bedExplodes = false
+	#
+	# What corner blocks should we use to make a portal frame instead of Polish Granite?
+	# Example entry: minecraft:polish_granite
+	portalCornerBlocks = ""
+	#
+	# What ceiling blocks should we use to make a portal frame instead of Polish Andesite Slab?
+	# Example entry: minecraft:polish_andesite
+	portalCeilingBlocks = ""
+	#
+	# What floor blocks should we use to make a portal frame instead of Polish Andesite Slab?
+	# Example entry: minecraft:polish_andesite
+	portalFloorBlocks = ""
+
+["Terrain Options"]
+	#
+	# Does something neat! Give it a try lol
+	# You might want to use this on a fresh new world... ;)
+	# Changes the terrain's look!
+	secretSettings = false
+	#
+	# Maxium height the terrain can generate up to.
+	#Range: 100 ~ 256
+	yMaximum = 245
+	#
+	# Changes the xz terrain modifier.
+	# I believe lower numbers will make the layers longer in the xz plane.
+	# Default value is 684.412D
+	#Range: 1.0 ~ 1.0E7
+	xzTerrainModifier = 684.412
+	#
+	# Changes the xz terrain scale.
+	# Not exactly sure what this does.
+	# Default value is 8.55515F
+	#Range: 1.0 ~ 1.0E7
+	xzScaleModifier = 8.555150032043457
+	#
+	# Changes the y terrain modifier.
+	# I believe lower numbers will make less layers and thicken layers that do spawn.
+	# Default value is 68419.786D
+	#Range: 1.0 ~ 1.0E7
+	yTerrainModifier = 68419.786
+	#
+	# Changes the y terrain scale.
+	# Not exactly sure what this does.
+	# Default value is 428.613D
+	#Range: 1.0 ~ 1.0E7
+	yScaleModifier = 428.613
+	#
+	# Sea Level. Default is 75.
+	#Range: 0 ~ 250
+	seaLevel = 75
+	#
+	# Replace the water at sea level with lava instead. DO NOT CHANGE THIS OPTION IN AN ALREADY GENERATED DIMENSION. IT WILL CRASH DUE TO LAVA OCEAN UPDATING NEXT TO OCEAN WATER!!
+	lavaOcean = false
+	#
+	# How often End Islands will spawn in the End Biome.
+	# 0 for no End Islands and 100 for max spawnrate.
+	#Range: 0 ~ 100
+	endIslandSpawnrate = 6
+
+["Structure/Feature Options"]
+
+	["Structure/Feature Options"."Feature Options"]
+		#
+		# How often Dungeons will spawn.
+		# 0 for no Dungeons and 300 for max spawnrate.
+		#Range: 0 ~ 300
+		dungeonSpawnrate = 30
+		#
+		# How often Ravines will spawn.
+		# 0 for no Ravines and 100 for max spawnrate.
+		#Range: 0 ~ 100
+		ravineSpawnrate = 25
+		#
+		# How often Cave Cavity will spawn.
+		# 0 for no Cave Cavity and 22 for max spawnrate.
+		#Range: 0 ~ 22
+		caveCavitySpawnrate = 5
+		#
+		# How often Underwater Caves will spawn in ocean biomes.
+		# 0 for no Underwater Caves and 100 for max spawnrate.
+		#Range: 0 ~ 100
+		oceanCaveSpawnrate = 20
+		#
+		# Controls whether pillars features (both ramp and straight kind) spawn or not.
+		pillarGen = true
+		#
+		# Controls whether Honey Lakes spawn or not.
+		honeyLakeGen = true
+		#
+		# Controls whether Slime Lakes spawn or not.
+		slimeLakeGen = true
+		#
+		# Controls whether Water Lakes spawn or not.
+		waterLakeGen = true
+		#
+		# Controls whether Lava Lakes spawn or not.
+		lavaLakeGen = true
+		#
+		# Controls how often patches of Glowdirt and other modded Glowstone variants spawn.
+		# 0 for no patches and 1000 for max amount of patches.
+		#Range: 0 ~ 1000
+		glowstoneVariantsSpawnrate = 50
+		#
+		# Controls whether roots and short vines spawn or not on the underside of the floating land.
+		rootGen = true
+		#
+		# How often waterfalls will spawn.
+		# 0 for no waterfalls and 1000 for max spawnrate.
+		#Range: 0 ~ 1000
+		waterfallSpawnrate = 35
+		#
+		# How often lavafalls will spawn.
+		# 0 for no lavafalls and 1000 for max spawnrate.
+		#Range: 0 ~ 1000
+		lavafallSpawnrate = 14
+
+	["Structure/Feature Options"."Mini-structure Options"]
+		#
+		# Controls whether Desert Wells, Hay Piles, Sun Shrines, Stonehenges, and Crosses spawn or not.
+		miniStructureGeneration = true
+		#
+		# How rare are Sun Shrines.
+		# 1 for Sun Shrines spawning in most chunks and 1000 for very rare spawn.
+		# Spawns mainly in relic variant of biomes.
+		#Range: 1 ~ 100
+		sunShrineSpawnrate = 130
+		#
+		# How rare are Stonehenges.
+		# 1 for Stonehenges spawning in most chunks and 1000 for very rare spawn.
+		# Spawns mainly in relic variant of biomes.
+		#Range: 1 ~ 100
+		stonehengeSpawnrate = 15
+		#
+		# How rare are Hanging Ruins.
+		# 1000 for Hanging Ruins spawning in most chunks and 0 for no spawn.
+		# NOTE: this is backwards than other spawnrates.
+		# This is because other structures need have finer control on chances less than 1%.
+		# Spawns in most biomes except for oceans, Netherland, and Iced Terrain Biomes and more often in Rocky Fields variants and Stone Fields biomes.
+		#Range: 0 ~ 1000
+		hangingRuinsSpawnrate = 60
+
+	["Structure/Feature Options"."Structure Options"]
+		#
+		# Controls whether loot chests spawn or not in all structures.
+		chestGeneration = true
+
+		["Structure/Feature Options"."Structure Options".Villages]
+			#
+			# How rare are Villages.
+			# 1 for Village spawning in most chunks and 101 for no spawn.
+			#Range: 1 ~ 101
+			villageSpawnrate = 16
+			#
+			# What percentage of Classic Styled Villages are Zombie Villages.
+			# 0 for no Zombie Village spawning and 100 for all Villages being zombified.
+			#Range: 0 ~ 100
+			villageZombieSpawnrate = 10
+
+		["Structure/Feature Options"."Structure Options".Mineshaft]
+			#
+			# How often Mineshafts will spawn.
+			# 0 for no Mineshafts and 1000 for max spawnrate.
+			#Range: 0 ~ 1000
+			mineshaftSpawnrate = 22
+			#
+			# Can aboveground floating Mineshafts spawn?
+			mineshaftAbovegroundAllowed = true
+			#
+			# Can undergound giant pit Mineshafts spawn?
+			mineshaftUndergroundAllowed = true
+
+		["Structure/Feature Options"."Structure Options"."Woodland Mansion"]
+			#
+			# How rare are Woodland Mansion.
+			# 1 for Woodland Mansion spawning in most chunks and 101 for no spawn.
+			#Range: 1 ~ 101
+			mansionSpawnrate = 18
+
+		["Structure/Feature Options"."Structure Options"."Desert Temple"]
+			#
+			# How rare are Desert Temples.
+			# 1 for spawning in most chunks and 101 for no spawn.
+			#Range: 1 ~ 101
+			desertTempleSpawnrate = 20
+
+		["Structure/Feature Options"."Structure Options"."Jungle Temple"]
+			#
+			# How rare are Jungle Temples.
+			# 1 for a spawning in most chunks and 101 for no spawn.
+			#Range: 1 ~ 101
+			jungleTempleSpawnrate = 20
+
+		["Structure/Feature Options"."Structure Options".Igloo]
+			#
+			# How rare are igloos.
+			# 1 for spawning in most chunks and 101 for no spawn.
+			#Range: 1 ~ 101
+			iglooSpawnrate = 14
+
+		["Structure/Feature Options"."Structure Options"."Mushroom Temple"]
+			#
+			# How rare are Mushroom Temples.
+			# 1 for spawning in most chunks and 101 for no spawn.
+			#Range: 1 ~ 101
+			mushroomTempleSpawnrate = 12
+
+		["Structure/Feature Options"."Structure Options"."Ice Spike Temple"]
+			#
+			# How rare are Ice Spike Temples.
+			# 1 for spawning in most chunks and 101 for no spawn.
+			#Range: 1 ~ 101
+			iceSpikeTempleSpawnrate = 20
+
+		["Structure/Feature Options"."Structure Options"."Witch Hut"]
+			#
+			# How rare are Witch Huts.
+			# 1 for spawning in most chunks and 101 for no spawn.
+			#Range: 1 ~ 101
+			witchHutSpawnrate = 14
+
+		["Structure/Feature Options"."Structure Options"."Ocean Monument"]
+			#
+			# How rare are Ocean Monuments.
+			# 1 for spawning in most chunks and 101 for no spawn.
+			#Range: 1 ~ 101
+			oceanMonumentSpawnrate = 22
+
+		["Structure/Feature Options"."Structure Options"."Ocean Ruins"]
+			#
+			# How rare are Ocean Ruins.
+			# 1 for spawning in most chunks and 101 for no spawn.
+			#Range: 1 ~ 101
+			oceanRuinsSpawnrate = 7
+
+		["Structure/Feature Options"."Structure Options".Shipwreck]
+			#
+			# How rare are Shipwrecks.
+			# 1 for spawning in most chunks and 101 for no spawn.
+			#Range: 1 ~ 101
+			shipwreckSpawnrate = 7
+
+		["Structure/Feature Options"."Structure Options".Stronghold]
+			#
+			# How rare are Strongholds.
+			# 1 for spawning in most chunks and 501 for no spawn.
+			#Range: 1 ~ 501
+			strongholdSpawnrate = 62
+			#
+			# How often Silverfish Blocks will generate in Strongholds.
+			# 0 for no Silverfish Blocks and 100 for max spawnrate.
+			#Range: 0.0 ~ 100.0
+			silverfishStrongholdSpawnrate = 4.0
+			#
+			# Can Silverfish Mob Spawners generate in Stronghold?.
+			allowSilverfishSpawnerStronghold = true
+
+		["Structure/Feature Options"."Structure Options"."Nether/Stone Fortress"]
+			#
+			# How rare are Nether/Stone Fortresses.
+			# 1 for spawning in most chunks and 101 for no spawn.
+			#Range: 1 ~ 101
+			netherFortressSpawnrate = 14
+			#
+			# Can Nether Fortresses spawn aboveground in the Netherland biome (between y = 85 and 130).
+			netherFortressAboveground = true
+			#
+			# Can stone-styled Nether Fortresses spawn underground or not (below y = 60).
+			# (Stone Fortresses spawn underground in all biomes except End biome)
+			netherFortressUnderground = true
+			#
+			# Can Silverfish Mob Spawners generate in Stone Fortresses?
+			allowSilverfishSpawnerFortress = true
+			#
+			# Can Silverfish spawn naturally over time in Stone Fortresses?
+			allowNaturalSilverfishFortress = true
+
+		["Structure/Feature Options"."Structure Options"."End City"]
+			#
+			# How rare are End Cities.
+			# 1 for spawning in most chunks and 101 for no spawn.
+			#Range: 1 ~ 101
+			endCitySpawnrate = 22
+
+		["Structure/Feature Options"."Structure Options".Outpost]
+			#
+			# How rare are Pillager Outposts.
+			# 1 for spawning in most chunks and 101 for no spawn.
+			#Range: 1 ~ 101
+			pillageOutpostRarity = 20
+
+["Biome Options"]
+	#
+	# How large the biomes are.
+	# Bigger number means bigger biomes.
+	#Range: 1 ~ 8
+	biomeSize = 3
+	#
+	# How often the mutated form of a biome will generate
+	# 0 for no mutated biomes and 10 for all biomes to be mutated.
+	#Range: 0 ~ 10
+	mutatedBiomeSpawnrate = 2
+
+	["Biome Options"."Allowed Biome Options"]
+		#
+		# Should this biome be allowed to spawn?
+		plains = true
+		#
+		# Should this biome be allowed to spawn?
+		desert = true
+		#
+		# Should this biome be allowed to spawn?
+		forest = true
+		#
+		# Should this biome be allowed to spawn?
+		taiga = true
+		#
+		# Should this biome be allowed to spawn?
+		rockyField = true
+		#
+		# Should this biome be allowed to spawn?
+		swamplands = true
+		#
+		# Should this biome be allowed to spawn?
+		netherland = true
+		#
+		# Should this biome be allowed to spawn?
+		end = true
+		#
+		# Should this biome be allowed to spawn?
+		snowyTundra = true
+		#
+		# Should this biome be allowed to spawn?
+		icedTerrain = true
+		#
+		# Should this biome be allowed to spawn?
+		mushroom = true
+		#
+		# Should this biome be allowed to spawn?
+		stonePlains = true
+		#
+		# Should this biome be allowed to spawn?
+		bambooJungle = true
+		#
+		# Should this biome be allowed to spawn?
+		jungle = true
+		#
+		# Should this biome be allowed to spawn?
+		frozenDesert = true
+		#
+		# Should this biome be allowed to spawn?
+		birchForest = true
+		#
+		# Should this biome be allowed to spawn?
+		darkForest = true
+		#
+		# Should this biome be allowed to spawn?
+		snowyTaiga = true
+		#
+		# Should this biome be allowed to spawn?
+		giantTreeTaiga = true
+		#
+		# Should this biome be allowed to spawn?
+		savanna = true
+		#
+		# Should this biome be allowed to spawn?
+		badlands = true
+		#
+		# Should Spiky Badlands and Dissected Plateau Badlands be allowed to spawn?
+		spikyBadlands = true
+		#
+		# Should this biome be allowed to spawn?
+		iceSpike = true
+		#
+		# Should this biome be allowed to spawn?
+		frozenOcean = true
+		#
+		# Should this biome be allowed to spawn?
+		coldOcean = true
+		#
+		# Should this biome be allowed to spawn?
+		ocean = true
+		#
+		# Should this biome be allowed to spawn?
+		lukewarmOcean = true
+		#
+		# Should this biome be allowed to spawn?
+		warmOcean = true
+
+["Main Ores Options"]
+	#
+	# How often Coal Ores will spawn.
+	# 0 for no Coal Ores and 1000 for max spawnrate.
+	#Range: 0 ~ 1000
+	coalOreSpawnrate = 35
+	#
+	# How often Iron Ores will spawn.
+	# 0 for no Iron Ores and 1000 for max spawnrate.
+	#Range: 0 ~ 1000
+	ironOreSpawnrate = 50
+	#
+	# How often Redstone Ores will spawn.
+	# 0 for no Redstone Ores and 1000 for max spawnrate.
+	#Range: 0 ~ 1000
+	redstoneOreSpawnrate = 12
+	#
+	# How often Lapis Lazuli Ores will spawn.
+	# 0 for no Lapis Lazuli Ores and 1000 for max spawnrate.
+	#Range: 0 ~ 1000
+	lapisOreSpawnrate = 2
+	#
+	# How often Diamond Ores will spawn.
+	# 0 for no Diamond Ores and 1000 for max spawnrate.
+	#Range: 0 ~ 1000
+	diamondOreSpawnrate = 1
+	#
+	# How often Gold Ores will spawn.
+	# 0 for no Gold Ores and 1000 for max spawnrate.
+	#Range: 0 ~ 1000
+	goldOreSpawnrate = 2
+
+	["Main Ores Options"."Rocky Fields Ores and Features Options"]
+		#
+		# How often Emerald Ores will spawn in all Rocky Fields variant biomes in the form of a percentage.
+		# 0 for no Emerald Ores and 1000 for max spawnrate.
+		#Range: 0 ~ 1000
+		emeraldOreSpawnrate = 100
+		#
+		# How often Silverfish Blocks will spawn in all Rocky Fields variant biomes.
+		# 0 for no Silverfish Blocks and 1000 for max spawnrate.
+		#Range: 0 ~ 1000
+		silverfishSpawnrate = 18
+
+	["Main Ores Options"."Netherland Ores and Features Options"]
+		#
+		# How often Quartz Ores will spawn.
+		# 0 for no Quartz Ores and 1000 for max spawnrate.
+		#Range: 0 ~ 1000
+		quartzOreSpawnrate = 14
+		#
+		# How often Glowstone will spawn in Netherland biome.
+		# 0 for no Glowstone and 1000 for max spawnrate.
+		#Range: 0 ~ 1000
+		glowstoneSpawnrate = 20
+		#
+		# How often Magma Blocks will spawn below Y = 100 in Netherland biome.
+		# 0 for no Magma Blocks and 1000 for max spawnrate.
+		# Note: Will not affect the flat Magma layer separating water from lava below sealevel.
+		#Range: 0 ~ 1000
+		magmaSpawnrate = 5
+		#
+		# How often single Lava Blocks will spawn in Netherland biome.
+		# 0 for no single Lava Blocks and 1000 for max spawnrate.
+		#Range: 0 ~ 1000
+		lavaSpawnrate = 70
+

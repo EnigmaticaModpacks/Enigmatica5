@@ -1,0 +1,85 @@
+
+#Normal Food Hunger and Saturation Values
+["Normal Foods"]
+
+	#Normal Foods
+	["Normal Foods".Apple]
+		#Hunger value:
+		#Range: 0 ~ 30
+		apple_pie_hunger = 7
+		#Saturation value:
+		#Range: 0 ~ 10
+		apple_pie_saturation = 2
+
+	#Normal Foods
+	["Normal Foods".Melon]
+		#Hunger value:
+		#Range: 0 ~ 30
+		melon_pie_hunger = 7
+		#Saturation value:
+		#Range: 0 ~ 10
+		melon_pie_saturation = 2
+
+	#Normal Foods
+	["Normal Foods".Berry]
+		#Hunger value:
+		#Range: 0 ~ 30
+		berry_pie_hunger = 7
+		#Saturation value:
+		#Range: 0 ~ 10
+		berry_pie_saturation = 2
+
+	#Normal Foods
+	["Normal Foods".Pumpkin]
+		#Hunger value:
+		#Range: 0 ~ 30
+		pumpkin_soup_hunger = 7
+		#Saturation value:
+		#Range: 0 ~ 10
+		pumpkin_soup_saturation = 2
+
+#Super Food Hunger and Saturation Values
+["Super Foods"]
+
+	#Super Foods
+	["Super Foods".Energy]
+		#Hunger value:
+		#Range: 0 ~ 30
+		energy_drink_hunger = 9
+		#Saturation value:
+		#Range: 0 ~ 10
+		energy_drink_saturation = 2
+
+	#Super Foods
+	["Super Foods".Shake]
+		#Hunger value:
+		#Range: 0 ~ 30
+		shake_hunger = 10
+		#Saturation value:
+		#Range: 0 ~ 10
+		shake_saturation = 3
+
+	#Super Foods
+	["Super Foods".Smoothie]
+		#Hunger value:
+		#Range: 0 ~ 30
+		smoothie_hunger = 10
+		#Saturation value:
+		#Range: 0 ~ 10
+		smoothie_saturation = 3
+
+	#Super Foods
+	["Super Foods".Bar]
+		#Hunger value:
+		#Range: 0 ~ 30
+		energyBar_hunger = 13
+		#Saturation value:
+		#Range: 0 ~ 10
+		energyBar_saturation = 4
+		#Hunger value:
+		#Range: 0 ~ 30
+		superFoodBar_hunger = 13
+		#Saturation value:
+		#Range: 0 ~ 10
+		superFoodBar_saturation = 4
+
