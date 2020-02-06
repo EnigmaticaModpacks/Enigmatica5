@@ -661,37 +661,43 @@ var materials as MCTag[string][string] = {
     }
 }; 
 
-/* for material, types in materials {
+for material, types in materials {
     for type, itemTag in types {
-        switch (type) {
-            case "nugget":
-                //addEquipmentToNuggetSmelting(material, itemTag);
-                break;
-            case "ingot":
-                addOreToIngotSmelting(material, itemTag);
-                break;
-            case "dust":
-            // TODO: addOreToDustCrushing(material, itemTag) function
-                //addOreToDustCrushing(material, itemTag);
-                break;
-            case "gem":
-            // TODO: addOreToGemCrushing(material, itemTag) function
-                //addOreToGemCrushing(material, itemTag);
-                break; */
-            /* case "block":
-                break;
-            case "ore":
-                break; */
-            /* case "fluid":
-                break;
-            case "gear":
-                break;
-            case "plate":
-                break;
-            case "rod":
-                break;
-            case "sheet":
-                break; */
-        /* }
+        if (itemTag.isItemTag) {
+            if (itemTag.items.length > 1) {
+                switch (type) {
+                    case "nugget":
+						// Mystical World feature
+                        //addEquipmentToNuggetSmelting(material, itemTag);
+                        break;
+                    case "ingot":
+                        addOreToIngotSmelting(material, itemTag);
+                        break;
+                    case "dust":
+                        // TODO: When Create 0.2.0 hits, this should be uncommented. 
+                        // The recipetype crusher doesn't work atm.
+                        //addOreToDustCrushing(material, itemTag);
+                        break;
+                    case "gem":
+                        // TODO: addOreToGemCrushing(material, itemTag) function
+                        //addOreToGemCrushing(material, itemTag);
+                        break;
+                        /* case "block":
+                            break;
+                        case "ore":
+                            break; */
+                        /* case "fluid":
+                            break;
+                        case "gear":
+                            break;
+                        case "plate":
+                            break;
+                        case "rod":
+                            break;
+                        case "sheet":
+                            break; */
+                }
+            }
+        }
     }
-} */
+}
