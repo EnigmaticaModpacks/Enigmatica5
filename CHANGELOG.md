@@ -1,6 +1,6 @@
 ## [Enigmatica 5 v0.3.0](https://github.com/NillerMedDild/Enigmatica5/tree/0.3.0)
 
-### Enigmatica 5 has been remade for Minecraft 1.15.2 - This version is not compatible with worlds made with Enigmatica 5 0.2.1 and below.
+### Enigmatica 5 has been remade for Minecraft 1.15.2 - This version is not compatible with worlds made with Enigmatica 5 v0.2.0 and below.
 
 *Using Forge-1.15.2-31.1.0*
 
