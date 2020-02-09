@@ -95,6 +95,7 @@ $CONTENTS_TO_ZIP = @(
 "server-start.bat", 
 "server-start.sh", 
 "settings.cfg", 
+"settings-linux.cfg",
 "server.properties", 
 "server-guide.txt")
 
@@ -103,7 +104,8 @@ $CONTENTS_TO_MOVE = @(
 "server-start-readme.md", 
 "server-start.bat", 
 "server-start.sh", 
-"settings.cfg", 
+"settings.cfg",  
+"settings-linux.cfg",
 "server.properties", 
 "server-guide.txt")
 

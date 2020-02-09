@@ -30,7 +30,7 @@
   "isUnlocked": true,
   "javaArgsOverride": null,
   "javaDirOverride": null,
-  "lastPlayed": "2020-02-09T18:47:54.2190458Z",
+  "lastPlayed": "2020-02-09T20:28:30.6130334Z",
   "manifest": null,
   "fileDate": "0001-01-01T00:00:00",
   "installedModpack": null,
@@ -1948,21 +1948,6 @@
       "fileSize": 252472
     },
     {
-      "folderName": "MekanismGenerators-1.15.2-9.9.9.401.jar",
-      "fingerprint": 2288927522,
-      "fileDateHash": 3242726653,
-      "sectionID": 8,
-      "individualFingerprints": [
-        2288927522
-      ],
-      "status": 1,
-      "timestamp": "2020-02-09T09:45:27.9781345Z",
-      "lastWriteTimeUtc": "2020-02-08T19:41:26.0816927Z",
-      "queryTimestamp": "2020-02-09T09:45:31.5251753Z",
-      "fileCount": 1,
-      "fileSize": 762932
-    },
-    {
       "folderName": "torchmaster-2.1.1-rc0.jar",
       "fingerprint": 2779673354,
       "fileDateHash": 2161800219,
@@ -1976,6 +1961,21 @@
       "queryTimestamp": "2020-02-09T09:45:31.5261357Z",
       "fileCount": 1,
       "fileSize": 91794
+    },
+    {
+      "folderName": "MekanismGenerators-1.15.2-9.9.9.401.jar",
+      "fingerprint": 2288927522,
+      "fileDateHash": 3242726653,
+      "sectionID": 8,
+      "individualFingerprints": [
+        2288927522
+      ],
+      "status": 1,
+      "timestamp": "2020-02-09T09:45:27.9781345Z",
+      "lastWriteTimeUtc": "2020-02-08T19:41:26.0816927Z",
+      "queryTimestamp": "2020-02-09T09:45:31.5251753Z",
+      "fileCount": 1,
+      "fileSize": 762932
     },
     {
       "folderName": "respawnablepets-1.0.6.3.jar",
@@ -7428,78 +7428,6 @@
       "installedTargets": null
     },
     {
-      "addonID": 250898,
-      "gameInstanceID": "a786730e-4ff7-4363-a33a-10d410437d12",
-      "installedFile": {
-        "id": 2875961,
-        "displayName": "OreExcavation-1.7.149.jar",
-        "fileName": "OreExcavation-1.7.149.jar",
-        "fileDate": "2020-02-06T10:38:22.643Z",
-        "fileLength": 186925,
-        "releaseType": 1,
-        "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2875/961/OreExcavation-1.7.149.jar",
-        "isAlternate": false,
-        "alternateFileId": 0,
-        "dependencies": [],
-        "isAvailable": true,
-        "modules": [
-          {
-            "foldername": "META-INF",
-            "fingerprint": 2077575744,
-            "type": 0
-          },
-          {
-            "foldername": "oreexcavation",
-            "fingerprint": 389787564,
-            "type": 0
-          },
-          {
-            "foldername": "assets",
-            "fingerprint": 852019423,
-            "type": 0
-          },
-          {
-            "foldername": "pack.mcmeta",
-            "fingerprint": 130758000,
-            "type": 0
-          },
-          {
-            "foldername": "title.png",
-            "fingerprint": 1280081937,
-            "type": 0
-          }
-        ],
-        "packageFingerprint": 1346341664,
-        "gameVersion": [
-          "1.15.2"
-        ],
-        "hasInstallScript": false,
-        "isCompatibleWithClient": false,
-        "categorySectionPackageType": 0,
-        "restrictProjectFileAccess": 0,
-        "projectStatus": 0,
-        "projectId": 0,
-        "gameVersionDateReleased": "2008-03-01T06:00:00Z",
-        "gameId": 0,
-        "isServerPack": false,
-        "FileNameOnDisk": "OreExcavation-1.7.149.jar"
-      },
-      "dateInstalled": "2020-02-06T17:50:11.4672158Z",
-      "dateUpdated": "2020-02-06T17:50:11.4701911Z",
-      "dateLastUpdateAttempted": "2020-02-06T17:50:11.4701911Z",
-      "status": 5,
-      "preferenceAutoInstallUpdates": false,
-      "preferenceAlternateFile": false,
-      "preferenceIsIgnored": false,
-      "isModified": false,
-      "isWorkingCopy": false,
-      "isFuzzyMatch": false,
-      "preferenceReleaseType": null,
-      "manifestName": null,
-      "installedTargets": null
-    },
-    {
       "addonID": 332890,
       "gameInstanceID": "a786730e-4ff7-4363-a33a-10d410437d12",
       "installedFile": {
@@ -7575,6 +7503,78 @@
       "dateUpdated": "2020-02-08T19:46:09.5770797Z",
       "dateLastUpdateAttempted": "2020-02-08T19:46:09.5770797Z",
       "status": 4,
+      "preferenceAutoInstallUpdates": false,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": null
+    },
+    {
+      "addonID": 250898,
+      "gameInstanceID": "a786730e-4ff7-4363-a33a-10d410437d12",
+      "installedFile": {
+        "id": 2875961,
+        "displayName": "OreExcavation-1.7.149.jar",
+        "fileName": "OreExcavation-1.7.149.jar",
+        "fileDate": "2020-02-06T10:38:22.643Z",
+        "fileLength": 186925,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/2875/961/OreExcavation-1.7.149.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 2077575744,
+            "type": 0
+          },
+          {
+            "foldername": "oreexcavation",
+            "fingerprint": 389787564,
+            "type": 0
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 852019423,
+            "type": 0
+          },
+          {
+            "foldername": "pack.mcmeta",
+            "fingerprint": 130758000,
+            "type": 0
+          },
+          {
+            "foldername": "title.png",
+            "fingerprint": 1280081937,
+            "type": 0
+          }
+        ],
+        "packageFingerprint": 1346341664,
+        "gameVersion": [
+          "1.15.2"
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
+        "gameVersionDateReleased": "2008-03-01T06:00:00Z",
+        "gameId": 0,
+        "isServerPack": false,
+        "FileNameOnDisk": "OreExcavation-1.7.149.jar"
+      },
+      "dateInstalled": "2020-02-06T17:50:11.4672158Z",
+      "dateUpdated": "2020-02-06T17:50:11.4701911Z",
+      "dateLastUpdateAttempted": "2020-02-06T17:50:11.4701911Z",
+      "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -8241,79 +8241,6 @@
       "installedTargets": null
     },
     {
-      "addonID": 280294,
-      "gameInstanceID": "a786730e-4ff7-4363-a33a-10d410437d12",
-      "installedFile": {
-        "id": 2868808,
-        "displayName": "FpsReducer-mc1.15.2-1.14.1.jar",
-        "fileName": "FpsReducer-mc1.15.2-1.14.1.jar",
-        "fileDate": "2020-01-25T11:04:14.053Z",
-        "fileLength": 83022,
-        "releaseType": 1,
-        "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2868/808/FpsReducer-mc1.15.2-1.14.1.jar",
-        "isAlternate": false,
-        "alternateFileId": 0,
-        "dependencies": [],
-        "isAvailable": true,
-        "modules": [
-          {
-            "foldername": "META-INF",
-            "fingerprint": 245995613,
-            "type": 0
-          },
-          {
-            "foldername": "bre2el",
-            "fingerprint": 1359036893,
-            "type": 0
-          },
-          {
-            "foldername": "assets",
-            "fingerprint": 3057521816,
-            "type": 0
-          },
-          {
-            "foldername": "fpsreducer_logo.png",
-            "fingerprint": 2600135182,
-            "type": 0
-          },
-          {
-            "foldername": "pack.mcmeta",
-            "fingerprint": 2856903882,
-            "type": 0
-          }
-        ],
-        "packageFingerprint": 1801898040,
-        "gameVersion": [
-          "Forge",
-          "1.15.2"
-        ],
-        "hasInstallScript": false,
-        "isCompatibleWithClient": false,
-        "categorySectionPackageType": 0,
-        "restrictProjectFileAccess": 0,
-        "projectStatus": 0,
-        "projectId": 0,
-        "gameVersionDateReleased": "2019-08-01T00:00:00Z",
-        "gameId": 0,
-        "isServerPack": false,
-        "FileNameOnDisk": "FpsReducer-mc1.15.2-1.14.1.jar"
-      },
-      "dateInstalled": "2020-01-31T20:40:16.1574928Z",
-      "dateUpdated": "2020-01-31T20:40:16.160495Z",
-      "dateLastUpdateAttempted": "2020-01-31T20:40:16.160495Z",
-      "status": 5,
-      "preferenceAutoInstallUpdates": false,
-      "preferenceAlternateFile": false,
-      "preferenceIsIgnored": false,
-      "isModified": false,
-      "isWorkingCopy": false,
-      "isFuzzyMatch": false,
-      "preferenceReleaseType": null,
-      "manifestName": null,
-      "installedTargets": null
-    },
-    {
       "addonID": 311595,
       "gameInstanceID": "a786730e-4ff7-4363-a33a-10d410437d12",
       "installedFile": {
@@ -8380,6 +8307,79 @@
       "dateInstalled": "2020-01-31T20:41:31.7324394Z",
       "dateUpdated": "2020-01-31T20:41:31.7354456Z",
       "dateLastUpdateAttempted": "2020-01-31T20:41:31.7354456Z",
+      "status": 5,
+      "preferenceAutoInstallUpdates": false,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": null
+    },
+    {
+      "addonID": 280294,
+      "gameInstanceID": "a786730e-4ff7-4363-a33a-10d410437d12",
+      "installedFile": {
+        "id": 2868808,
+        "displayName": "FpsReducer-mc1.15.2-1.14.1.jar",
+        "fileName": "FpsReducer-mc1.15.2-1.14.1.jar",
+        "fileDate": "2020-01-25T11:04:14.053Z",
+        "fileLength": 83022,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/2868/808/FpsReducer-mc1.15.2-1.14.1.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 245995613,
+            "type": 0
+          },
+          {
+            "foldername": "bre2el",
+            "fingerprint": 1359036893,
+            "type": 0
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 3057521816,
+            "type": 0
+          },
+          {
+            "foldername": "fpsreducer_logo.png",
+            "fingerprint": 2600135182,
+            "type": 0
+          },
+          {
+            "foldername": "pack.mcmeta",
+            "fingerprint": 2856903882,
+            "type": 0
+          }
+        ],
+        "packageFingerprint": 1801898040,
+        "gameVersion": [
+          "Forge",
+          "1.15.2"
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
+        "gameVersionDateReleased": "2019-08-01T00:00:00Z",
+        "gameId": 0,
+        "isServerPack": false,
+        "FileNameOnDisk": "FpsReducer-mc1.15.2-1.14.1.jar"
+      },
+      "dateInstalled": "2020-01-31T20:40:16.1574928Z",
+      "dateUpdated": "2020-01-31T20:40:16.160495Z",
+      "dateLastUpdateAttempted": "2020-01-31T20:40:16.160495Z",
       "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
@@ -8748,6 +8748,74 @@
       "installedTargets": null
     },
     {
+      "addonID": 263420,
+      "gameInstanceID": "a786730e-4ff7-4363-a33a-10d410437d12",
+      "installedFile": {
+        "id": 2875580,
+        "displayName": "v20.2.0 for Minecraft 1.15.2",
+        "fileName": "Xaeros_Minimap_20.2.0_Forge_1.15.2.jar",
+        "fileDate": "2020-02-05T19:29:38.763Z",
+        "fileLength": 503889,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/2875/580/Xaeros_Minimap_20.2.0_Forge_1.15.2.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 4054462266,
+            "type": 0
+          },
+          {
+            "foldername": "xaero",
+            "fingerprint": 3321665302,
+            "type": 0
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 550855952,
+            "type": 0
+          },
+          {
+            "foldername": "pack.mcmeta",
+            "fingerprint": 1842434297,
+            "type": 0
+          }
+        ],
+        "packageFingerprint": 1566277549,
+        "gameVersion": [
+          "Forge",
+          "1.15.2"
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
+        "gameVersionDateReleased": "2019-08-01T00:00:00Z",
+        "gameId": 0,
+        "isServerPack": false,
+        "FileNameOnDisk": "Xaeros_Minimap_20.2.0_Forge_1.15.2.jar"
+      },
+      "dateInstalled": "2020-01-31T20:26:09.4648318Z",
+      "dateUpdated": "2020-02-08T19:50:01.9778953Z",
+      "dateLastUpdateAttempted": "2020-02-08T19:50:01.9778953Z",
+      "status": 4,
+      "preferenceAutoInstallUpdates": false,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": null
+    },
+    {
       "addonID": 345135,
       "gameInstanceID": "a786730e-4ff7-4363-a33a-10d410437d12",
       "installedFile": {
@@ -8815,74 +8883,6 @@
       "dateUpdated": "2020-01-31T20:41:11.1964376Z",
       "dateLastUpdateAttempted": "2020-01-31T20:41:11.1964376Z",
       "status": 5,
-      "preferenceAutoInstallUpdates": false,
-      "preferenceAlternateFile": false,
-      "preferenceIsIgnored": false,
-      "isModified": false,
-      "isWorkingCopy": false,
-      "isFuzzyMatch": false,
-      "preferenceReleaseType": null,
-      "manifestName": null,
-      "installedTargets": null
-    },
-    {
-      "addonID": 263420,
-      "gameInstanceID": "a786730e-4ff7-4363-a33a-10d410437d12",
-      "installedFile": {
-        "id": 2875580,
-        "displayName": "v20.2.0 for Minecraft 1.15.2",
-        "fileName": "Xaeros_Minimap_20.2.0_Forge_1.15.2.jar",
-        "fileDate": "2020-02-05T19:29:38.763Z",
-        "fileLength": 503889,
-        "releaseType": 1,
-        "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2875/580/Xaeros_Minimap_20.2.0_Forge_1.15.2.jar",
-        "isAlternate": false,
-        "alternateFileId": 0,
-        "dependencies": [],
-        "isAvailable": true,
-        "modules": [
-          {
-            "foldername": "META-INF",
-            "fingerprint": 4054462266,
-            "type": 0
-          },
-          {
-            "foldername": "xaero",
-            "fingerprint": 3321665302,
-            "type": 0
-          },
-          {
-            "foldername": "assets",
-            "fingerprint": 550855952,
-            "type": 0
-          },
-          {
-            "foldername": "pack.mcmeta",
-            "fingerprint": 1842434297,
-            "type": 0
-          }
-        ],
-        "packageFingerprint": 1566277549,
-        "gameVersion": [
-          "Forge",
-          "1.15.2"
-        ],
-        "hasInstallScript": false,
-        "isCompatibleWithClient": false,
-        "categorySectionPackageType": 0,
-        "restrictProjectFileAccess": 0,
-        "projectStatus": 0,
-        "projectId": 0,
-        "gameVersionDateReleased": "2019-08-01T00:00:00Z",
-        "gameId": 0,
-        "isServerPack": false,
-        "FileNameOnDisk": "Xaeros_Minimap_20.2.0_Forge_1.15.2.jar"
-      },
-      "dateInstalled": "2020-01-31T20:26:09.4648318Z",
-      "dateUpdated": "2020-02-08T19:50:01.9778953Z",
-      "dateLastUpdateAttempted": "2020-02-08T19:50:01.9778953Z",
-      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
