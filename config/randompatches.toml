@@ -34,7 +34,7 @@
 	# Min: 1
 	# Max: 2147483647
 	# Default: 90
-	readTimeout = 360
+	readTimeout = 90
 	# The login timeout.
 	# Min: 1
 	# Max: 2147483647
@@ -73,12 +73,12 @@
 		# The Minecraft window title.
 		# The Minecraft version is provided as an argument.
 		# Default: Minecraft* %s
-		title = "Enigmatica 4"
+		title = "Enigmatica 5 %s"
 		# The Minecraft window title.
 		# The Minecraft version and current activity are provided as arguments.
 		# For example: "RandomPatches - %2$s"
 		# Default: Minecraft* %s - %s
-		titleWithActivity = "Minecraft* %s - %s"
+		titleWithActivity = "Enigmatica 5 - %2$s"
 
 # Options related to boats.
 [boats]
