@@ -28,7 +28,7 @@
 * DangerousStoneCutter-1.15.1-1.2.0.jar
 * DefaultOptions_1.15.1-11.0.0.jar
 * DoubleSlabs-1.15-2.0.0.jar
-* elevatorid-1.15.2-1.6.0.jar
+* elevatorid-1.15.2-1.5.5
 * engineersdecor-1.15.2-1.0.19-b2.jar
 * environmentalcreepers-forge-1.15.2-1.6.1.jar
 * FarmingForBlockheads_1.15.2-6.1.0.jar
