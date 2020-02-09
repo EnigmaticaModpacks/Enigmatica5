@@ -25,8 +25,8 @@ var recipes as IIngredient[][IItemStack] = {
 	<item:bluepower:basalt> :
     [<item:quark:basalt>], */
 	
-	<item:minecraft:crafting_table> :
-    [<item:craftingstation:crafting_station_slab>],
+	/* <item:minecraft:crafting_table> :
+    [<item:craftingstation:crafting_station_slab>], */
 
     <item:simplefarming:fish_sandwich> :
     [<tag:forge:bread>, <item:aquaculture:fish_fillet_cooked>, <item:aquaculture:fish_fillet_cooked>, <tag:forge:crops/tomato>, <tag:forge:salad_ingredients>],
