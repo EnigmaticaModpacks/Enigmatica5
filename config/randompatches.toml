@@ -34,7 +34,7 @@
 	# Min: 1
 	# Max: 2147483647
 	# Default: 90
-	readTimeout = 90
+	readTimeout = 360
 	# The login timeout.
 	# Min: 1
 	# Max: 2147483647
