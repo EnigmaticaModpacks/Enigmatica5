@@ -676,7 +676,9 @@ for material, types in materials {
                     case "dust":
                         // TODO: When Create 0.2.0 hits, this should be uncommented. 
                         // The recipetype crusher doesn't work atm.
-                        //addOreToDustCrushing(material, itemTag);
+                        //create_addOreToDustCrushing(material, itemTag);
+                        mekanism_addOreToDustCrushing(material, itemTag);
+                        mekanism_enriching_addRecipe("he3253523j", <item:minecraft:iron_block>, <item:minecraft:yellow_wool>);
                         break;
                     case "gem":
                         // TODO: addOreToGemCrushing(material, itemTag) function

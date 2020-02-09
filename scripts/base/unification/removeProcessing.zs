@@ -21,6 +21,6 @@ public function removeProcessingFor(item as IItemStack) as void {
     // Create
 
     // Mekanism
-
+    <recipetype:mekanism:enriching>.removeRecipe(item);
 }
 			

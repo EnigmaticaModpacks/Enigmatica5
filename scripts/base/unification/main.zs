@@ -3,90 +3,6 @@
 import crafttweaker.api.item.IItemStack;
 import crafttweaker.api.item.IIngredient;
 import crafttweaker.api.tag.MCTag;
-import crafttweaker.api.BracketHandlers;
-/* 
-
-A little experiment with shortening this huge script. Unsuccessful sadly, it seems I cannot index into an associative array?
-
-var materialNames as string[] = [
-    "iron",
-    "gold",
-    "neptunium",
-    "copper",
-    "silver",
-    "zinc",
-    "brass",
-    "tungsten",
-    "lead",
-    "quicksilver",
-    "tin",
-    "redstone_alloy",
-    "refined_iron",
-    "compressed_iron",
-    "nickel",
-    "platinum",
-    "bismuth",
-    "aluminum",
-    "uranium",
-    "bronze",
-    "invar",
-    "electrum",
-    "bismuth_brass",
-    "aluminum_steel",
-    "bismuth_steel",
-    "signalum",
-    "lumium",
-    "enderium",
-
-    # Gems
-    "diamond",
-    "lapis_lazuli",
-    "emerald",
-    "quartz",
-    "amethyst",
-    "sapphire",
-    "malachite",
-    "ruby",
-
-    # Dusts
-    "redstone",
-    "glowstone",
-    "teslatite"
-];
-
-public function getMaterialTags(materialNames as string[]) as MCTag[string][string] {
-    
-    var materials as MCTag[string][string] = {
-        "iron": {
-            "nugget": <tag:forge:nuggets/iron>,
-            "ingot": <tag:forge:ingots/iron>,  
-            "block": <tag:forge:storage_blocks/iron>,
-            "ore": <tag:forge:ores/iron>,
-            "dust": <tag:forge:dusts/iron>,
-            //"fluid": <fluid:forge:fluids/iron>,
-            "gear": <tag:forge:gears/iron>,
-            "plate": <tag:forge:plates/iron>,
-            "rod": <tag:forge:rods/iron>,
-            "sheet": <tag:forge:sheets/iron>
-        }
-    };
-
-    for material in materialNames {
-        materials[material] = {
-            "nugget": BracketHandlers.getTag("forge:nuggets/" + material),
-            "ingot": BracketHandlers.getTag("forge:ingots/" + material),
-            "block": BracketHandlers.getTag("forge:storage_blocks/" + material),
-            "ore": BracketHandlers.getTag("forge:ores/" + material),
-            "dust": BracketHandlers.getTag("forge:dusts/" + material),
-            //"fluid": BracketHandlers.getTag("forge:fluids/" + material),
-            "gear": BracketHandlers.getTag("forge:gears/" + material),
-            "plate": BracketHandlers.getTag("forge:plates/" + material),
-            "rod": BracketHandlers.getTag("forge:rods/" + material),
-            "sheet": BracketHandlers.getTag("forge:sheets/" + material)
-        };
-    }
-    return materials;
-} */
 
 var materials as MCTag[string][string] = {
     "iron": {
@@ -451,6 +367,19 @@ var materials as MCTag[string][string] = {
         "plate": <tag:forge:plates/enderium>,
         "rod": <tag:forge:rods/enderium>,
         "sheet": <tag:forge:sheets/enderium>
+    },
+
+    "osmium": {
+        "nugget": <tag:forge:nuggets/osmium>,
+        "ingot": <tag:forge:ingots/osmium>,
+        "block": <tag:forge:storage_blocks/osmium>,
+        "ore": <tag:forge:ores/osmium>,
+        "dust": <tag:forge:dusts/osmium>,
+        //"fluid": <fluid:forge:fluids/osmium>,
+        "gear": <tag:forge:gears/osmium>,
+        "plate": <tag:forge:plates/osmium>,
+        "rod": <tag:forge:rods/osmium>,
+        "sheet": <tag:forge:sheets/osmium>
     },
 
     "diamond": {
