@@ -1,17 +1,10 @@
 ## [Enigmatica 5 v0.3.0](https://github.com/NillerMedDild/Enigmatica5/tree/0.3.0)
-**This is a very new Minecraft version - Expect bugs and changes**
-
-*Using Forge-1.15.2-31.0.14*
-
-*[Mod Updates](https://github.com/NillerMedDild/Enigmatica5/blob/master/CHANGELOG-MODS.md)*
 
 ### E5 has been remade for Minecraft 1.15.2 - This version is not compatible with worlds made in E5 0.2.1 and below.
 
-** Mod list **
+*Using Forge-1.15.2-31.1.0*
 
-
-
-
+*[Mod List](https://github.com/NillerMedDild/Enigmatica5/blob/master/CHANGELOG-MODS.md)*
 
 ## [Enigmatica 5 v0.2.1](https://github.com/NillerMedDild/Enigmatica5/tree/0.2.1)
 **This is a very new Minecraft version - Expect bugs and changes**
