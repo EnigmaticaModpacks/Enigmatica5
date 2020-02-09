@@ -268,3 +268,50 @@
 	#Range: 1 ~ 50
 	minimalbuildingstogather = 3
 
+#minecolonies.config.research.comment
+[research]
+	#minecolonies.config.dodge.comment
+	dodge = ["minecraft:leather*16"]
+	#minecolonies.config.improveddodge.comment
+	improveddodge = ["minecraft:leather*32"]
+	#minecolonies.config.masterbowman.comment
+	masterbowman = ["minecraft:bow*64"]
+	#minecolonies.config.squiretraining.comment
+	squiretraining = ["minecraft:shield*5"]
+	#minecolonies.config.captaintraining.comment
+	captaintraining = ["minecraft:shield*25"]
+	#minecolonies.config.duelist.comment
+	duelist = ["minecraft:iron_ingot*64"]
+	#minecolonies.config.agilearcher.comment
+	agilearcher = ["minecraft:diamond*64"]
+	#minecolonies.config.improvedevasion.comment
+	improvedevasion = ["minecraft:diamond*16"]
+	#minecolonies.config.captainoftheguard.comment
+	captainoftheguard = ["minecraft:shield*64"]
+	#minecolonies.config.avoidance.comment
+	avoidance = ["minecraft:iron_block*3"]
+	#minecolonies.config.tactictraining.comment
+	tactictraining = ["minecraft:iron_block*3"]
+	#minecolonies.config.knighttraining.comment
+	knighttraining = ["minecraft:shield*10"]
+	#minecolonies.config.multishot.comment
+	multishot = ["minecraft:bow*10"]
+	#minecolonies.config.parry.comment
+	parry = ["minecraft:iron_ingot*16"]
+	#minecolonies.config.provost.comment
+	provost = ["minecraft:diamond*16"]
+	#minecolonies.config.improvedbows.comment
+	improvedbows = ["minecraft:iron_block*6"]
+	#minecolonies.config.tickshot.comment
+	tickshot = ["minecraft:bow*5"]
+	#minecolonies.config.improvedswords.comment
+	improvedswords = ["minecraft:iron_block*6"]
+	#minecolonies.config.evasion.comment
+	evasion = ["minecraft:leather*64"]
+	#minecolonies.config.masterswordsman.comment
+	masterswordsman = ["minecraft:diamond*64"]
+	#minecolonies.config.rapidshot.comment
+	rapidshot = ["minecraft:bow*25"]
+	#minecolonies.config.repost.comment
+	repost = ["minecraft:iron_ingot*32"]
+
