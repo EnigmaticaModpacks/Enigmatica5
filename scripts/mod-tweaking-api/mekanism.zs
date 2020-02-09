@@ -3,8 +3,7 @@
 import crafttweaker.api.item.IItemStack;
 import crafttweaker.api.item.IIngredient;
 
-public function mekanism_enriching_addRecipe(recipeName as string, output as IItemStack, input as IItemStack) as void {
-    logger.info("SEARCHME Attempting to add Mekanism Enricher compat for " + output.registryName);
+/* public function mekanism_enriching_addRecipe(recipeName as string, output as IItemStack, input as IItemStack) as void {
     <recipetype:mekanism:enriching>.addJSONRecipe(recipeName,
     {
         input: {
@@ -14,4 +13,4 @@ public function mekanism_enriching_addRecipe(recipeName as string, output as IIt
                 item: output.registryName
         }
     });
-}
+} */

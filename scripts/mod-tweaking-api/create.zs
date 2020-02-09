@@ -3,7 +3,7 @@
 import crafttweaker.api.item.IItemStack;
 import crafttweaker.api.item.IIngredient;
 
-public function create_pressing_removeRecipe(output as IItemStack) as void {
+/* public function create_pressing_removeRecipe(output as IItemStack) as void {
     <recipetype:minecraft:pressing>.removeRecipe(output);
 }
 // TODO: additional recipe that handles chances, and arrays of inputs/outputs
@@ -48,4 +48,4 @@ public function create_crushing_addRecipe(recipeName as string, output as IItemS
         ],
         processingTime: time
     });
-}
+} */

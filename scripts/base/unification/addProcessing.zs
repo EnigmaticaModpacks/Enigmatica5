@@ -529,13 +529,12 @@ var materials as MCTag[string][string] = {
 for material, types in materials {
     for type, itemTag in types {
         if (itemTag.isItemTag) {
-            switch (type) {
-                case "ingot":
-                    minecraft_addOreToIngotSmelting(material, itemTag);
-                    break;
-                case "dust":
-                    //#mekanism_addOreToDustCrushing(material, itemTag);
-                    break;
+            if (itemTag.items.length > 1) {
+                switch (type) {
+                    case "ingot":
+                        addOreToIngotSmelting(material, itemTag);
+                        break;
+                }
             }
         }
     }

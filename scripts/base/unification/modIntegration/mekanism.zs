@@ -3,7 +3,7 @@
 import crafttweaker.api.tag.MCTag;
 import crafttweaker.api.BracketHandlers;
 
-public function mekanism_addOreToDustCrushing(material as string, dustItemTag as MCTag) as void {
+/* public function mekanism_addOreToDustCrushing(material as string, dustItemTag as MCTag) as void {
     var oreItemTag = BracketHandlers.getTag("forge:ores/" + material);
     var ore = oreItemTag.first();
 
@@ -16,4 +16,4 @@ public function mekanism_addOreToDustCrushing(material as string, dustItemTag as
 
     mekanism_enriching_addRecipe("enricher_" + formatRecipeName(dust), dust, ore);
 
-}
+} */
