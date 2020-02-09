@@ -541,9 +541,7 @@ var modPriorities as string[] = [
 for material, types in materials {
     for type, itemTag in types {
         if (itemTag.isItemTag) {
-            if (itemTag.items.length > 1) {
             purgeItemTag(itemTag, modPriorities);
-            }
         }
     }
 }

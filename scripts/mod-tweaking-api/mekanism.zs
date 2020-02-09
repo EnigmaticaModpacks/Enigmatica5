@@ -4,7 +4,7 @@ import crafttweaker.api.item.IItemStack;
 import crafttweaker.api.item.IIngredient;
 
 public function mekanism_enriching_addRecipe(recipeName as string, output as IItemStack, input as IItemStack) as void {
-    logger.info("SEARCHME Attempting to add Mekanism Enricher compat for " + oreItemTag.commandString);
+    logger.info("SEARCHME Attempting to add Mekanism Enricher compat for " + output.registryName);
     <recipetype:mekanism:enriching>.addJSONRecipe(recipeName,
     {
         input: {

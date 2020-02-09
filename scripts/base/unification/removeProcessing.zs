@@ -21,6 +21,7 @@ public function removeProcessingFor(item as IItemStack) as void {
     // Create
 
     // Mekanism
+    logger.info("SEARCHME Removing Enriching recipe");
     <recipetype:mekanism:enriching>.removeRecipe(item);
 }
 			

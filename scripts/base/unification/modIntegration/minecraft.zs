@@ -3,7 +3,7 @@
 import crafttweaker.api.tag.MCTag;
 import crafttweaker.api.BracketHandlers;
 
-public function addOreToIngotSmelting(material as string, ingotItemTag as MCTag) as void {
+public function minecraft_addOreToIngotSmelting(material as string, ingotItemTag as MCTag) as void {
     var oreItemTag = BracketHandlers.getTag("forge:ores/" + material);
     var ore = oreItemTag.first();
 

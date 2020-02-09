@@ -14,6 +14,6 @@ public function mekanism_addOreToDustCrushing(material as string, dustItemTag as
 
     var dust = dustItemTag.first() * 2;
 
-    mekanism_enriching_addRecipe("crusher_" + formatRecipeName(dust), dust, ore);
+    mekanism_enriching_addRecipe("enricher_" + formatRecipeName(dust), dust, ore);
 
 }
