@@ -270,48 +270,94 @@
 
 #minecolonies.config.research.comment
 [research]
-	#minecolonies.config.dodge.comment
-	dodge = ["minecraft:leather*16"]
-	#minecolonies.config.improveddodge.comment
-	improveddodge = ["minecraft:leather*32"]
+	#minecolonies.config.steelarmour.comment
+	steelarmour = ["minecraft:iron_ingot*64"]
+	#minecolonies.config.mightycleave.comment
+	mightycleave = ["minecraft:iron_block*16"]
 	#minecolonies.config.masterbowman.comment
 	masterbowman = ["minecraft:bow*64"]
+	#minecolonies.config.regeneration.comment
+	regeneration = ["minecraft:emerald*1"]
 	#minecolonies.config.squiretraining.comment
 	squiretraining = ["minecraft:shield*5"]
+	#minecolonies.config.woundingshot.comment
+	woundingshot = ["minecraft:flint*128"]
+	#minecolonies.config.accuracy.comment
+	accuracy = ["minecraft:iron_ingot*1"]
 	#minecolonies.config.captaintraining.comment
 	captaintraining = ["minecraft:shield*25"]
 	#minecolonies.config.duelist.comment
 	duelist = ["minecraft:iron_ingot*64"]
-	#minecolonies.config.agilearcher.comment
-	agilearcher = ["minecraft:diamond*64"]
+	#minecolonies.config.ironskin.comment
+	ironskin = ["minecraft:iron_ingot*16"]
 	#minecolonies.config.improvedevasion.comment
 	improvedevasion = ["minecraft:diamond*16"]
-	#minecolonies.config.captainoftheguard.comment
-	captainoftheguard = ["minecraft:shield*64"]
-	#minecolonies.config.avoidance.comment
-	avoidance = ["minecraft:iron_block*3"]
 	#minecolonies.config.tactictraining.comment
 	tactictraining = ["minecraft:iron_block*3"]
-	#minecolonies.config.knighttraining.comment
-	knighttraining = ["minecraft:shield*10"]
-	#minecolonies.config.multishot.comment
-	multishot = ["minecraft:bow*10"]
-	#minecolonies.config.parry.comment
-	parry = ["minecraft:iron_ingot*16"]
+	#minecolonies.config.boiledleather.comment
+	boiledleather = ["minecraft:leather*64"]
+	#minecolonies.config.ironarmour.comment
+	ironarmour = ["minecraft:iron_ingot*32"]
+	#minecolonies.config.whirlwind.comment
+	whirlwind = ["minecraft:iron_block*32"]
 	#minecolonies.config.provost.comment
 	provost = ["minecraft:diamond*16"]
-	#minecolonies.config.improvedbows.comment
-	improvedbows = ["minecraft:iron_block*6"]
+	#minecolonies.config.diamondskin.comment
+	diamondskin = ["minecraft:diamond*64"]
+	#minecolonies.config.preciseshot.comment
+	preciseshot = ["minecraft:flint*16"]
 	#minecolonies.config.tickshot.comment
 	tickshot = ["minecraft:bow*5"]
-	#minecolonies.config.improvedswords.comment
-	improvedswords = ["minecraft:iron_block*6"]
-	#minecolonies.config.evasion.comment
-	evasion = ["minecraft:leather*64"]
+	#minecolonies.config.feint.comment
+	feint = ["minecraft:emerald*8"]
+	#minecolonies.config.fullretreat.comment
+	fullretreat = ["minecraft:emerald*64"]
 	#minecolonies.config.masterswordsman.comment
 	masterswordsman = ["minecraft:diamond*64"]
 	#minecolonies.config.rapidshot.comment
 	rapidshot = ["minecraft:bow*25"]
 	#minecolonies.config.repost.comment
 	repost = ["minecraft:iron_ingot*32"]
+	#minecolonies.config.fear.comment
+	fear = ["minecraft:emerald*16"]
+	#minecolonies.config.improvedleather.comment
+	improvedleather = ["minecraft:leather*32"]
+	#minecolonies.config.dodge.comment
+	dodge = ["minecraft:leather*16"]
+	#minecolonies.config.improveddodge.comment
+	improveddodge = ["minecraft:leather*32"]
+	#minecolonies.config.cleave.comment
+	cleave = ["minecraft:iron_block*8"]
+	#minecolonies.config.deadlyaim.comment
+	deadlyaim = ["minecraft:flint*256"]
+	#minecolonies.config.agilearcher.comment
+	agilearcher = ["minecraft:diamond*64"]
+	#minecolonies.config.captainoftheguard.comment
+	captainoftheguard = ["minecraft:shield*64"]
+	#minecolonies.config.avoidance.comment
+	avoidance = ["minecraft:iron_block*3"]
+	#minecolonies.config.penetratingshot.comment
+	penetratingshot = ["minecraft:flint*32"]
+	#minecolonies.config.knighttraining.comment
+	knighttraining = ["minecraft:shield*10"]
+	#minecolonies.config.multishot.comment
+	multishot = ["minecraft:bow*10"]
+	#minecolonies.config.piercingshot.comment
+	piercingshot = ["minecraft:flint*64"]
+	#minecolonies.config.parry.comment
+	parry = ["minecraft:iron_ingot*16"]
+	#minecolonies.config.retreat.comment
+	retreat = ["minecraft:emerald*32"]
+	#minecolonies.config.improvedbows.comment
+	improvedbows = ["minecraft:iron_block*6"]
+	#minecolonies.config.improvedswords.comment
+	improvedswords = ["minecraft:iron_block*6"]
+	#minecolonies.config.evasion.comment
+	evasion = ["minecraft:leather*64"]
+	#minecolonies.config.avoid.comment
+	avoid = ["minecraft:emerald*8"]
+	#minecolonies.config.powerattack.comment
+	powerattack = ["minecraft:iron_block*4"]
+	#minecolonies.config.quickdraw.comment
+	quickdraw = ["minecraft:iron_block*2"]
 
