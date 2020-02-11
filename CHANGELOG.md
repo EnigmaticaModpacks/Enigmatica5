@@ -1,31 +1,39 @@
-## [Enigmatica 5 v0.3.0](https://github.com/NillerMedDild/Enigmatica5/tree/0.3.0)
+## Enigmatica 5 v0.3.2
 
-### Enigmatica 5 has been remade for Minecraft 1.15.2 - This version is not compatible with worlds made with Enigmatica 5 v0.2.0 and below.
+*Using Forge-1.15.2-31.1.1*
+*[Mod List](https://github.com/NillerMedDild/Enigmatica5/blob/master/CHANGELOG-MODS.md)*
+
+**Changes**
+
+- Added the mod [Equipment Tooltips](https://www.curseforge.com/minecraft/mc-mods/equipment-tooltips)
+- Add Inventory Tweaks Reborn [\#32](https://github.com/NillerMedDild/Enigmatica5/issues/32) [[Mod](https://github.com/NillerMedDild/Enigmatica5/labels/Mod)]
+- Add Patchouli [\#31](https://github.com/NillerMedDild/Enigmatica5/issues/31) [[Mod](https://github.com/NillerMedDild/Enigmatica5/labels/Mod)]
+- Add Nature's Aura [\#30](https://github.com/NillerMedDild/Enigmatica5/issues/30) [[Mod](https://github.com/NillerMedDild/Enigmatica5/labels/Mod)]
+
+**Bug Fixes**
+
+- Fixed the server crashing on startup. (Temporarily removed Ultra Amplified Dimension)
+
+
+## Enigmatica 5 v0.3.1
+
+##### Enigmatica 5 has been remade for Minecraft 1.15.2 - This version is not compatible with worlds made with Enigmatica 5 v0.2.0 and below.
 
 *Using Forge-1.15.2-31.1.0*
-
 *[Mod List](https://github.com/NillerMedDild/Enigmatica5/blob/master/CHANGELOG-MODS.md)*
 
 
 
 
 
-## [Enigmatica 5 v0.2.1](https://github.com/NillerMedDild/Enigmatica5/tree/0.2.1)
+## Enigmatica 5 v0.3.0
+
+* v0.3.0 did not start on servers, because of a mod issue*
+
+## Enigmatica 5 v0.2.0
 **This is a very new Minecraft version - Expect bugs and changes**
 
 *Using Forge-1.15.1-30.0.41*
-
-*[Mod Updates](https://github.com/NillerMedDild/Enigmatica5/blob/master/CHANGELOG-MODS.md)*
-
-**Changes**
-
-- Removed PreGenForge, as it was causing issues with Biomes O' Plenty server generation.
-
-## [Enigmatica 5 v0.2.0](https://github.com/NillerMedDild/Enigmatica5/tree/0.2.0)
-**This is a very new Minecraft version - Expect bugs and changes**
-
-*Using Forge-1.15.1-30.0.41*
-
 *[Mod Updates](https://github.com/NillerMedDild/Enigmatica5/blob/master/CHANGELOG-MODS.md)*
 
 **Changes**
@@ -55,7 +63,7 @@
 - Remove Serene Seasons [\#8](https://github.com/NillerMedDild/Enigmatica5/issues/8) [[Mod](https://github.com/NillerMedDild/Enigmatica5/labels/Mod)]
 
 
-## [Enigmatica 5 v0.1.1](https://github.com/NillerMedDild/Enigmatica5/tree/0.1.1)
+## Enigmatica 5 v0.1.1
 **This is a very new Minecraft version - Expect bugs and changes**
 
 *Using Forge-1.15.1-30.0.35*
@@ -70,7 +78,7 @@
 - Added RingOfGrowth
 - Added ToastControl
 
-## [Enigmatica 5 v0.1.0](https://github.com/NillerMedDild/Enigmatica5/tree/0.1.0)
+## Enigmatica 5 v0.1.0
 **This is a very new Minecraft version - Expect bugs and changes**
 
 

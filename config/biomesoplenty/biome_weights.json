@@ -1,0 +1,193 @@
+{
+  "standard_weights": {
+    "biomesoplenty:undergarden": {
+      "NETHER": 7
+    },
+    "biomesoplenty:shrubland": {
+      "DRY_TEMPERATE": 5
+    },
+    "biomesoplenty:lavender_field": {
+      "MEDITERRANEAN": 5
+    },
+    "biomesoplenty:alps": {
+      "ICE_CAP": 5
+    },
+    "biomesoplenty:mystic_grove": {
+      "WET_TEMPERATE": 1
+    },
+    "biomesoplenty:floodplain": {
+      "TROPICAL": 5
+    },
+    "biomesoplenty:ominous_woods": {
+      "WET_BOREAL": 1
+    },
+    "biomesoplenty:tundra": {
+      "TUNDRA": 7
+    },
+    "biomesoplenty:glowstone_grotto": {
+      "NETHER": 3
+    },
+    "biomesoplenty:poppy_field": {
+      "DRY_TEMPERATE": 2
+    },
+    "biomesoplenty:ghost_forest": {
+      "WET_TEMPERATE": 2
+    },
+    "biomesoplenty:ashen_inferno": {
+      "NETHER": 5
+    },
+    "biomesoplenty:snowy_forest": {
+      "TUNDRA": 3
+    },
+    "biomesoplenty:rainforest": {
+      "TROPICAL": 7
+    },
+    "biomesoplenty:boreal_forest": {
+      "DRY_BOREAL": 7
+    },
+    "biomesoplenty:visceral_heap": {
+      "NETHER": 7
+    },
+    "biomesoplenty:bayou": {
+      "SUBTROPICAL": 7
+    },
+    "biomesoplenty:prairie": {
+      "MEDITERRANEAN": 10
+    },
+    "biomesoplenty:temperate_rainforest": {
+      "WET_TEMPERATE": 3
+    },
+    "biomesoplenty:brushland": {
+      "SAVANNA": 5
+    },
+    "biomesoplenty:lush_grassland": {
+      "TROPICAL": 7
+    },
+    "biomesoplenty:bog": {
+      "WET_BOREAL": 3
+    },
+    "biomesoplenty:fungi_forest": {
+      "NETHER": 7
+    },
+    "biomesoplenty:lush_swamp": {
+      "SUBTROPICAL": 3
+    },
+    "biomesoplenty:maple_woods": {
+      "DRY_BOREAL": 3
+    },
+    "biomesoplenty:grassland": {
+      "COOL_TEMPERATE": 5
+    },
+    "biomesoplenty:overgrown_cliffs": {
+      "TROPICAL": 3
+    },
+    "biomesoplenty:dead_forest": {
+      "DRY_BOREAL": 2
+    },
+    "biomesoplenty:silkglade": {
+      "DRY_TEMPERATE": 1
+    },
+    "biomesoplenty:cold_desert": {
+      "ICE_CAP": 7
+    },
+    "biomesoplenty:cherry_blossom_grove": {
+      "COOL_TEMPERATE": 1
+    },
+    "biomesoplenty:redwood_forest": {
+      "WARM_TEMPERATE": 3
+    },
+    "biomesoplenty:coniferous_forest": {
+      "WET_BOREAL": 10
+    },
+    "biomesoplenty:wasteland": {
+      "WASTELAND": 500
+    },
+    "biomesoplenty:outback": {
+      "HOT_DESERT": 7
+    },
+    "biomesoplenty:chaparral": {
+      "WARM_TEMPERATE": 5
+    },
+    "biomesoplenty:seasonal_forest": {
+      "DRY_BOREAL": 5
+    },
+    "biomesoplenty:meadow": {
+      "WET_BOREAL": 7
+    },
+    "biomesoplenty:wetland": {
+      "WET_TEMPERATE": 7
+    },
+    "biomesoplenty:woodland": {
+      "WARM_TEMPERATE": 3
+    },
+    "biomesoplenty:grove": {
+      "MEDITERRANEAN": 7
+    },
+    "biomesoplenty:snowy_coniferous_forest": {
+      "TUNDRA": 5
+    },
+    "biomesoplenty:tropical_rainforest": {
+      "TROPICAL": 10
+    },
+    "biomesoplenty:highland": {
+      "COOL_TEMPERATE": 3
+    },
+    "biomesoplenty:mire": {
+      "WET_TEMPERATE": 3
+    },
+    "biomesoplenty:mangrove": {
+      "SUBTROPICAL": 10
+    },
+    "biomesoplenty:marsh": {
+      "WET_TEMPERATE": 5
+    },
+    "biomesoplenty:scrubland": {
+      "SAVANNA": 7
+    },
+    "biomesoplenty:steppe": {
+      "DRY_TEMPERATE": 3
+    },
+    "biomesoplenty:shield": {
+      "WET_BOREAL": 5
+    }
+  },
+  "sub_biome_weights": {
+    "biomesoplenty:oasis": {
+      "weight": 100,
+      "rarity": 0.1
+    },
+    "biomesoplenty:pasture": {
+      "weight": 100,
+      "rarity": 1.0
+    },
+    "biomesoplenty:highland_moor": {
+      "weight": 100,
+      "rarity": 0.75
+    },
+    "biomesoplenty:temperate_rainforest_hills": {
+      "weight": 100,
+      "rarity": 0.8
+    },
+    "biomesoplenty:flower_meadow": {
+      "weight": 100,
+      "rarity": 0.5
+    },
+    "biomesoplenty:xeric_shrubland": {
+      "weight": 100,
+      "rarity": 1.0
+    },
+    "biomesoplenty:fir_clearing": {
+      "weight": 100,
+      "rarity": 0.38
+    },
+    "biomesoplenty:pumpkin_patch": {
+      "weight": 100,
+      "rarity": 0.45
+    },
+    "biomesoplenty:snowy_fir_clearing": {
+      "weight": 100,
+      "rarity": 0.5
+    }
+  },
+  "island_biome_weights": {}
+}

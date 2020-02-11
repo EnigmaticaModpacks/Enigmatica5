@@ -1,3 +1,18 @@
+# 0.3.1 -> 0.3.2
+
+* BiomesOPlenty-1.15.2-10.0.0.317-universal.jar
+* carpetstairsmod-mc1.5-v1.1.jar
+* corail_woodcutter-1.1.1-1.15.2.jar
+* DoubleSlabs-1.15-2.0.1.jar
+* elevatorid-1.15.2-1.6.1.jar
+* EquipmentTooltips-1.15.2-1.4.0+11.jar
+* invtweaks-1.15.2-1.0.0.jar
+* mcw-roofs-1.0.2-mc1.15.2_1.15.1.jar
+* minecolonies-0.10.696-ALPHA-universal.jar
+* NaturesAura-21.0.jar
+* Patchouli-1.15.2-1.2-27.jar
+* structurize-0.10.250-ALPHA.jar
+
 # 0.2.0 -> 0.3.1
 
 **Now on Minecraft 1.15.2! Modlist:**
@@ -28,7 +43,7 @@
 * DangerousStoneCutter-1.15.1-1.2.0.jar
 * DefaultOptions_1.15.1-11.0.0.jar
 * DoubleSlabs-1.15-2.0.0.jar
-* elevatorid-1.15.2-1.6.0.jar
+* elevatorid-1.15.2-1.5.5
 * engineersdecor-1.15.2-1.0.19-b2.jar
 * environmentalcreepers-forge-1.15.2-1.6.1.jar
 * FarmingForBlockheads_1.15.2-6.1.0.jar
