@@ -1,3 +1,16 @@
+# 0.3.2 -> 0.3.3
+
+* BiomesOPlenty-1.15.2-10.0.0.322-universal.jar
+* caelus-FORGE-1.15.2-2.0-beta1.jar
+* colytra-FORGE-1.15.2-3.0.jar
+* curioofundying-FORGE-1.15.2-3.0.jar
+* curiouselytra-FORGE-1.15.2-2.0.jar
+* DefaultOptions_1.15.2-11.0.1.jar
+* elevatorid-1.15.2-1.7.0.jar
+* minecolonies-0.10.699-ALPHA-universal.jar
+* rsgauges-1.15.2-1.2.1.jar
+* structurize-0.10.252-ALPHA.jar
+
 # 0.3.1 -> 0.3.2
 
 * BiomesOPlenty-1.15.2-10.0.0.317-universal.jar

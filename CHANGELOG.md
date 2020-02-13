@@ -1,3 +1,19 @@
+## Enigmatica 5 v0.3.3
+
+*Using Forge-1.15.2-31.1.1*
+*[Mod List](https://github.com/NillerMedDild/Enigmatica5/blob/master/CHANGELOG-MODS.md)*
+
+**Changes**
+
+- Add Curio of Undying [\#37](https://github.com/NillerMedDild/Enigmatica5/issues/37) [[Mod](https://github.com/NillerMedDild/Enigmatica5/labels/Mod)]
+- Add Colytra [\#36](https://github.com/NillerMedDild/Enigmatica5/issues/36) [[Mod](https://github.com/NillerMedDild/Enigmatica5/labels/Mod)]
+- Add Curious Elytra [\#35](https://github.com/NillerMedDild/Enigmatica5/issues/35) [[Mod](https://github.com/NillerMedDild/Enigmatica5/labels/Mod)]
+- Add Torch Slabs [\#34](https://github.com/NillerMedDild/Enigmatica5/issues/34) [[Mod](https://github.com/NillerMedDild/Enigmatica5/labels/Mod)]
+
+**Fixed bugs**
+
+- Some Dusts are unsmeltable [\#295](https://github.com/NillerMedDild/Enigmatica4/issues/295) [[Script](https://github.com/NillerMedDild/Enigmatica4/labels/Script)]
+
 ## Enigmatica 5 v0.3.2
 
 *Using Forge-1.15.2-31.1.1*
