@@ -34,7 +34,7 @@ for output, input in recipes {
 //
 // ===================================================================================================== //
 */
-/* 
+
 var vanillaPlanks as IItemStack[] = [
     <item:minecraft:oak_planks>,
     <item:minecraft:spruce_planks>,
@@ -104,4 +104,4 @@ for slabs in <tag:minecraft:wooden_slabs>.items {
             }
         }
     }
-} */
+}
