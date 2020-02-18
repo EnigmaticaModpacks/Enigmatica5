@@ -73,6 +73,7 @@
 		#Heat to absorb per Solar Panel array of Thermal Evaporation Tower.
 		solarMultiplier = 0.2
 		#Max Temperature of the Thermal Evaporation Tower.
+		#Range: 1.0 ~ 1.7976931348623157E308
 		maxTemp = 3000.0
 		#Temperature to amount produced ratio for Thermal Evaporation Tower.
 		tempMultiplier = 0.1
