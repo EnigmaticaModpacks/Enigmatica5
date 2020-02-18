@@ -516,6 +516,7 @@ var materials as MCTag[string][string] = {
     "teslatite": {
         "nugget": <tag:forge:nuggets/teslatite>,
         "ingot": <tag:forge:ingots/teslatite>,
+        "gem": <tag:forge:gems/teslatite>,
         "block": <tag:forge:storage_blocks/teslatite>,
         "ore": <tag:forge:ores/teslatite>,
         "dust": <tag:forge:dusts/teslatite>,
@@ -528,7 +529,6 @@ var materials as MCTag[string][string] = {
 }; 
 
 for material, types in materials {
-    for material, types in materials {
         //#addEquipmentToNuggetSmelting(material);
         /* var nuggetTag = BracketHandlers.getTag("forge:nuggets/" + material);
         var nugget = nuggetTag.first();
@@ -578,7 +578,7 @@ for material, types in materials {
         xp = 1.0;
 
         if (ore.matches(<item:minecraft:air>)) {
-            logger.info("Attempted to add smelting recipe, but no items exist in the ItemTag " + oreItemTag.commandString);
+            logger.info("minecraft_addOreToIngotSmelting: No items exist in the ItemTag " + oreItemTag.commandString);
         } 
         else {
             blastFurnace.removeRecipe(ingot, ore);
@@ -586,5 +586,29 @@ for material, types in materials {
             blastFurnace.addRecipe("blastfurnace_" + formatRecipeName(ingot) + "_from_ore", ingot, ore, xp, cookingTime);
             furnace.addRecipe("furnace_" + formatRecipeName(ingot) + "_from_ore", ingot, ore, xp, cookingTime); 
         }
-    }
+
+        //#mekanism_addOreToDustCrushing(material);
+        if (ore.matches(<item:minecraft:air>)) {
+            logger.info("mekanism_addOreToDustEnriching: No items exist in the ItemTag " + oreItemTag.commandString);
+        }
+        else if (dust.matches(<item:minecraft:air>)) 
+        {
+            logger.info("mekanism_addOreToDustEnriching: No items exist in the ItemTag " + dustItemTag.commandString);
+        } 
+        else {
+            //#mekanism_addOreToDustEnriching(material);
+            <recipetype:mekanism:enriching>.addJSONRecipe("enriching_" + formatRecipeName(dust * 2),
+            {
+                input: {
+                    ingredient: {
+                        item: ore.registryName
+                    }
+                    
+                },
+                output: {
+                    item: dust.registryName,
+                    count: 2
+                }
+            });
+        }
 }
