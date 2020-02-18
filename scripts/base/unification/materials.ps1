@@ -58,13 +58,12 @@ $Metals | ForEach-Object {
     'plate': <tag:forge:plates/$_>,
     'rod': <tag:forge:rods/$_>,
     'sheet': <tag:forge:sheets/$_>,
-    'dirty_dust': <tag:forge:dirty_dust/$_>,
-    'clump': <tag:forge:clump/$_>,
-    'shard': <tag:forge:shard/$_>,
-    'crystal': <tag:forge:crystal/$_>,
-    'slurry': <tag:forge:slurry/$_>,
-    'clean_slurry': <tag:forge:clean_slurry/$_>,
-
+    'dirty_dust': <tag:forge:dirty_dusts/$_>,
+    'clump': <tag:forge:clumps/$_>,
+    'shard': <tag:forge:shards/$_>,
+    'crystal': <tag:forge:crystals/$_>,
+    //'slurry': <tag:forge:slurries/$_>,
+    //'clean_slurry': <tag:forge:clean_slurries/$_>
 },
 "@
     Write-Host $OutputArray
