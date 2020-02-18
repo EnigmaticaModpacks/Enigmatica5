@@ -1,21 +1,23 @@
 
 [Energy_Capacity]
 	#Range: 1 ~ 9000000000000000000
-	starterCap = 0
+	spiritedCap = 1
 	#Range: 1 ~ 9000000000000000000
-	basicCap = 0
+	blazingCap = 1
 	#Range: 1 ~ 9000000000000000000
-	hardenedCap = 0
+	basicCap = 1
 	#Range: 1 ~ 9000000000000000000
-	blazingCap = 0
+	nioticCap = 1
 	#Range: 1 ~ 9000000000000000000
-	nioticCap = 0
+	nitroCap = 1
 	#Range: 1 ~ 9000000000000000000
-	spiritedCap = 0
+	hardenedCap = 1
 	#Range: 1 ~ 9000000000000000000
-	nitroCap = 0
+	starterCap = 1
 
 [Energy_Transfer]
+	#Range: 1 ~ 9000000000000000000
+	spiritedTransfer = 100000
 	#Range: 1 ~ 9000000000000000000
 	starterTransfer = 200
 	#Range: 1 ~ 9000000000000000000
@@ -23,27 +25,25 @@
 	#Range: 1 ~ 9000000000000000000
 	hardenedTransfer = 8000
 	#Range: 1 ~ 9000000000000000000
-	blazingTransfer = 20000
-	#Range: 1 ~ 9000000000000000000
 	nioticTransfer = 50000
 	#Range: 1 ~ 9000000000000000000
-	spiritedTransfer = 100000
+	blazingTransfer = 20000
 	#Range: 1 ~ 9000000000000000000
 	nitroTransfer = 400000
 
 [Channels]
 	#Range: 1 ~ 16
-	starterChannels = 1
+	hardenedChannels = 4
 	#Range: 1 ~ 16
 	basicChannels = 2
 	#Range: 1 ~ 16
-	hardenedChannels = 4
+	spiritedChannels = 12
 	#Range: 1 ~ 16
-	blazingChannels = 6
+	starterChannels = 1
 	#Range: 1 ~ 16
 	nioticChannels = 9
 	#Range: 1 ~ 16
-	spiritedChannels = 12
+	blazingChannels = 6
 	#Range: 1 ~ 16
 	nitroChannels = 16
 
