@@ -1,3 +1,18 @@
+## Enigmatica 5 v0.3.4
+
+*Using Forge-1.15.2-31.1.1*
+*[Mod List](https://github.com/NillerMedDild/Enigmatica5/blob/master/CHANGELOG-MODS.md)*
+
+**Changes**
+
+- Readded the mod Ultra Amplified Dimension
+- Added the mod [Interactio - In-World Crafting with Datapacks!](https://www.curseforge.com/minecraft/mc-mods/interactio/files)
+- Removed Mekanism's Tin and Copper oregen
+
+**Fixed bugs**
+
+- 
+
 ## Enigmatica 5 v0.3.3
 
 *Using Forge-1.15.2-31.1.1*
