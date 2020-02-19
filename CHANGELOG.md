@@ -8,6 +8,7 @@
 - Readded the mod Ultra Amplified Dimension
 - Added the mod [Interactio - In-World Crafting with Datapacks!](https://www.curseforge.com/minecraft/mc-mods/interactio/files)
 - Removed Mekanism's Tin and Copper oregen
+- Added the mod Crafting Station
 
 **Fixed bugs**
 
