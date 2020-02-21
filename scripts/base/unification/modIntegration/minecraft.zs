@@ -1,4 +1,4 @@
-#priority 1000
+/* #priority 1000
 
 import crafttweaker.api.item.IItemStack;
 import crafttweaker.api.item.IIngredient;
@@ -39,4 +39,4 @@ public function addDustToIngotSmelting(material as string) as void {
 
     blastFurnace.addRecipe("blasting_" + formatRecipeName(ingot) + "_from_dust", ingot, dust, xp, cookingTime);
     furnace.addRecipe("smelting_" + formatRecipeName(ingot) + "_from_dust", ingot, dust, xp, cookingTime);
-}
+} */

@@ -49,6 +49,7 @@ $Metals | ForEach-Object {
 '$_': {
     'nugget': <tag:forge:nuggets/$_>,
     'ingot': <tag:forge:ingots/$_>,
+    'gem': <tag:forge:gems/$_>,
     'storage_block': <tag:forge:storage_blocks/$_>,
     'ore': <tag:forge:ores/$_>,
     'ore_deposit': <tag:forge:ore_deposit/$_>,
