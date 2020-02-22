@@ -5,3 +5,11 @@
 	#Replace stone generation (Lava over Water) with the corresponding catalyst
 	REPLACE_STONE = true
 
+[custom_config]
+	#Add additional catalysts
+	#Usage: Add namespaced ids in "" seperated by commas
+	#Example: ["minecraft:netherrack", "quark:brimstone"]
+	CUSTOM_CATALYSTS = ["biomesoplenty:white_sandstone", "bluepower:marble", "bluepower:basalt_cobble"]
+	#Prints debug messages to the log for each custom catalyst added
+	DEBUG_MESSAGES = true
+
