@@ -34,11 +34,11 @@ lens_of_ender = true
 	#List of heat source blocks used under Thermo Generator.
 	#Block registry name = heat, eg: ["minecraft:lava=1000", "minecraft:magma_block=800"]
 	#Min = 1, max = 900000000
-	heatSources = ["minecraft:lava=1000", "minecraft:magma_block=800"]
+	heatSources = ["minecraft:lava=1000", "minecraft:magma_block=1200", "minecraft:fire_coral_block=8000", "darkutils:slime_crucible_magma=2400", "quark:magma_bricks=1600"]
 	#Energy per solid fuel tick. [default: 30]
 	#Eg: Coal has 1600 fuel tick, so will generate 48000 FE.
 	#Range: 1 ~ 1000000
-	solidFuelEnergyBase = 30
+	solidFuelEnergyBase = 15
 	#Enable this to allow other mods to add their coolant fluids. [default:true]
 	coolantFluidsAPI = true
 	#Enable this to allow other mods to add their heat source blocks. [default:true]

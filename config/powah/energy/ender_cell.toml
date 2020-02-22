@@ -17,19 +17,19 @@
 
 [Energy_Transfer]
 	#Range: 1 ~ 9000000000000000000
-	spiritedTransfer = 100000
+	spiritedTransfer = 32000
 	#Range: 1 ~ 9000000000000000000
-	starterTransfer = 200
+	starterTransfer = 1000
 	#Range: 1 ~ 9000000000000000000
-	basicTransfer = 2500
+	basicTransfer = 2000
 	#Range: 1 ~ 9000000000000000000
-	hardenedTransfer = 8000
+	hardenedTransfer = 4000
 	#Range: 1 ~ 9000000000000000000
-	nioticTransfer = 50000
+	nioticTransfer = 16000
 	#Range: 1 ~ 9000000000000000000
-	blazingTransfer = 20000
+	blazingTransfer = 8000
 	#Range: 1 ~ 9000000000000000000
-	nitroTransfer = 400000
+	nitroTransfer = 64000
 
 [Channels]
 	#Range: 1 ~ 16

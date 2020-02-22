@@ -2,55 +2,55 @@
 #List of fluids used in the Magmator.
 #fluid registry name = heat per 100 mb eg: ["minecraft:lava=10000", "examplemod:fluid=1000"]
 #Min = 1, max = 900000000
-magmaticFluids = ["minecraft:lava=10000"]
+magmaticFluids = ["minecraft:lava=1000"]
 #Enable this to allow other mods to add their fluids. [default:true]
 magmaticFluidsAPI = true
 
 [Energy_Capacity]
 	#Range: 1 ~ 9000000000000000000
-	spiritedCap = 5000000
+	spiritedCap = 160000
 	#Range: 1 ~ 9000000000000000000
-	blazingCap = 900000
+	blazingCap = 40000
 	#Range: 1 ~ 9000000000000000000
-	basicCap = 100000
+	basicCap = 5000
 	#Range: 1 ~ 9000000000000000000
-	nioticCap = 2000000
+	nioticCap = 80000
 	#Range: 1 ~ 9000000000000000000
-	nitroCap = 10000000
+	nitroCap = 320000
 	#Range: 1 ~ 9000000000000000000
-	hardenedCap = 500000
+	hardenedCap = 20000
 	#Range: 1 ~ 9000000000000000000
 	starterCap = 10000
 
 [Energy_Transfer]
 	#Range: 1 ~ 9000000000000000000
-	spiritedTransfer = 7000
+	spiritedTransfer = 1920
 	#Range: 1 ~ 9000000000000000000
-	starterTransfer = 80
+	starterTransfer = 60
 	#Range: 1 ~ 9000000000000000000
-	basicTransfer = 200
+	basicTransfer = 120
 	#Range: 1 ~ 9000000000000000000
-	hardenedTransfer = 700
+	hardenedTransfer = 240
 	#Range: 1 ~ 9000000000000000000
-	nioticTransfer = 5000
+	nioticTransfer = 960
 	#Range: 1 ~ 9000000000000000000
-	blazingTransfer = 1200
+	blazingTransfer = 480
 	#Range: 1 ~ 9000000000000000000
-	nitroTransfer = 10000
+	nitroTransfer = 3840
 
 [Energy_Generation]
 	#Range: 1 ~ 9000000000000000000
-	blazingGeneration = 400
+	blazingGeneration = 120
 	#Range: 1 ~ 9000000000000000000
 	starterGeneration = 15
 	#Range: 1 ~ 9000000000000000000
-	nitroGeneration = 4800
+	nitroGeneration = 960
 	#Range: 1 ~ 9000000000000000000
-	hardenedGeneration = 180
+	hardenedGeneration = 60
 	#Range: 1 ~ 9000000000000000000
-	spiritedGeneration = 2000
+	spiritedGeneration = 480
 	#Range: 1 ~ 9000000000000000000
-	basicGeneration = 70
+	basicGeneration = 30
 	#Range: 1 ~ 9000000000000000000
-	nioticGeneration = 900
+	nioticGeneration = 240
 
