@@ -80,9 +80,10 @@ public function mekanism_addOreToDustEnriching(material as string) as void {
 		case "emerald":
 		case "quartz":
 		case "glowstone":
-			logger.info("mekanism_addOreToDustEnriching: Skipping material " + material)
+			logger.info("mekanism_addOreToDustEnriching: Skipping material " + material);
 			return;
 	}
+    
     var oreItemTag = BracketHandlers.getTag("forge:ores/" + material);
     var dustItemTag = BracketHandlers.getTag("forge:dusts/" + material);
     var ore = oreItemTag.first();
