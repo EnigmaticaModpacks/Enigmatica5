@@ -1,16 +1,18 @@
 ## Enigmatica 5 v0.3.4
 
-*Using Forge-1.15.2-31.1.1*
+*Using Forge-1.15.2-31.1.14*
 *[Mod List](https://github.com/NillerMedDild/Enigmatica5/blob/master/CHANGELOG-MODS.md)*
 
 **Changes**
 
 - Readded the mod Ultra Amplified Dimension
 - Added the mod [Interactio - In-World Crafting with Datapacks!](https://www.curseforge.com/minecraft/mc-mods/interactio/files)
-- Removed Mekanism's Tin and Copper oregen
 - Added the mod Crafting Station
 - Added the mod XNet
 - Added the mod RFTools Power
+- Improved unification, especially when it comes to Mekanism
+- Removed Mekanism's Tin and Copper oregen
+- Removed duplicate ingot/dust furnace recipes.
 
 **Fixed bugs**
 
