@@ -851,6 +851,6 @@ for material, types in materials {
 
         minecraft_addDustToIngotSmelting(material);
         minecraft_addOreToIngotSmelting(material);
-        mekanism_addOreToDustEnriching(material);
+        //#mekanism_addOreToDustEnriching(material);
  
 }
