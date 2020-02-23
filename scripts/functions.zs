@@ -71,53 +71,8 @@ public function purgeItemTag(tag as MCTag, modPriorities as string[]) as void {
 	}
 }
 
-public function mekanism_addOreToDustEnriching(material as string) as void {
-	switch (material) {
-		case "redstone":
-		case "lapis":
-		case "diamond":
-		case "coal":
-		case "emerald":
-		case "quartz":
-		case "glowstone":
-			logger.info("mekanism_addOreToDustEnriching: Skipping material " + material);
-			return;
-	}
-    
-    var oreItemTag = BracketHandlers.getTag("forge:ores/" + material);
-    var dustItemTag = BracketHandlers.getTag("forge:dusts/" + material);
-    var ore = oreItemTag.first();
-    var dust = dustItemTag.first();
 
-    if (ore.matches(<item:minecraft:air>)) {
-        logger.info("mekanism_addOreToDustEnriching: No items exist in the ItemTag " + oreItemTag.commandString);
-        return;
-    }
-
-    if (dust.matches(<item:minecraft:air>)) {
-        logger.info("mekanism_addOreToDustEnriching: No items exist in the ItemTag " + dustItemTag.commandString);
-        return;
-    } 
-
-    var outputCount = 2;
-
-    <recipetype:mekanism:enriching>.addJSONRecipe("mekanism/processing/" + material + "/dust/from_ore.json",
-    {
-        input: {
-            ingredient: {
-                item: ore.registryName
-            }
-            
-        },
-        output: {
-            item: dust.registryName,
-            count: outputCount
-        }
-    });
-
-    logger.info("mekanismAddOreToDustEnriching with " + material + " succesfully ran!");
-}
-public function minecraft_addOreToIngotSmelting(material as string) as void {
+public function minecraft_smeltingAndBlasting_oreToIngot(material as string) as void {
     var oreItemTag = BracketHandlers.getTag("forge:ores/" + material);
     var ingotItemTag = BracketHandlers.getTag("forge:ingots/" + material);
     var ore = oreItemTag.first();
@@ -135,7 +90,7 @@ public function minecraft_addOreToIngotSmelting(material as string) as void {
     blastFurnace.addRecipe("blasting_" + formatRecipeName(ingot) + "_from_ore", ingot, ore, xp, cookingTime);
     furnace.addRecipe("smelting_" + formatRecipeName(ingot) + "_from_ore", ingot, ore, xp, cookingTime);
 }
-public function minecraft_addDustToIngotSmelting(material as string) as void {
+public function minecraft_smeltingAndBlasting_dustToIngot(material as string) as void {
     var dustItemTag = BracketHandlers.getTag("forge:dusts/" + material);
     var ingotItemTag = BracketHandlers.getTag("forge:ingots/" + material);
     var dust = dustItemTag.first();
@@ -153,7 +108,86 @@ public function minecraft_addDustToIngotSmelting(material as string) as void {
     blastFurnace.addRecipe("blasting_" + formatRecipeName(ingot) + "_from_dust", ingot, dust, xp, cookingTime);
     furnace.addRecipe("smelting_" + formatRecipeName(ingot) + "_from_dust", ingot, dust, xp, cookingTime);
 }
+public function mekanism_enriching_oreToDust(material as string) as void {
+	switch (material) {
+		case "redstone":
+		case "lapis":
+		case "diamond":
+		case "coal":
+		case "emerald":
+		case "quartz":
+		case "glowstone":
+			logger.info("mekanism_enriching_oreToDust: Skipping material " + material);
+			return;
+	}
+    
+    var oreItemTag = BracketHandlers.getTag("forge:ores/" + material);
+    var dustItemTag = BracketHandlers.getTag("forge:dusts/" + material);
+    var ore = oreItemTag.first();
+    var dust = dustItemTag.first();
 
+    if (ore.matches(<item:minecraft:air>)) {
+        logger.info("mekanism_enriching_oreToDust: No items exist in the ItemTag " + oreItemTag.commandString);
+        return;
+    }
+
+    if (dust.matches(<item:minecraft:air>)) {
+        logger.info("mekanism_enriching_oreToDust: No items exist in the ItemTag " + dustItemTag.commandString);
+        return;
+    } 
+
+    var outputCount = 2;
+    <recipetype:crafting>.removeByName("mekanism:processing/" + material + "/dust/from_ore");
+    <recipetype:mekanism:enriching>.addJSONRecipe("processing/" + material + "/dust/from_ore",
+    {
+        input: {
+            ingredient: {
+                item: ore.registryName
+            }
+            
+        },
+        output: {
+            item: dust.registryName,
+            count: outputCount
+        }
+    });
+
+    logger.info("mekanism_enriching_oreToDust with " + material + " succesfully ran!");
+}
+
+public function mekanism_crusher_ingotToDust(material as string) as void {
+    var ingotItemTag = BracketHandlers.getTag("forge:ingots/" + material);
+    var dustItemTag = BracketHandlers.getTag("forge:dusts/" + material);
+    var ingot = ingotItemTag.first();
+    var dust = dustItemTag.first();
+
+    if (ingot.matches(<item:minecraft:air>)) {
+        logger.info("mekanism_enriching_oreToDust: No items exist in the ItemTag " + ingotItemTag.commandString);
+        return;
+    }
+
+    if (dust.matches(<item:minecraft:air>)) {
+        logger.info("mekanism_enriching_oreToDust: No items exist in the ItemTag " + dustItemTag.commandString);
+        return;
+    } 
+
+    var outputCount = 2;
+    <recipetype:crafting>.removeByName("mekanism:processing/" + material + "/dust/from_ingot");
+    <recipetype:mekanism:crushing>.addJSONRecipe("processing/" + material + "/dust/from_ingot",
+    {
+        input: {
+            ingredient: {
+                item: ingot.registryName
+            }
+            
+        },
+        output: {
+            item: dust.registryName
+        }
+    });
+
+    logger.info("mekanism_crusher_ingotToDust with " + material + " succesfully ran!");
+}
 /* public function minecraft_addEquipmentToNuggetSmelting(material as string) as void {
     var nuggetTag = BracketHandlers.getTag("forge:nuggets/" + material);
     var nugget = nuggetTag.first();

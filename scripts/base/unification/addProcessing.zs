@@ -827,6 +827,8 @@ var materials as MCTag[string][string] = {
 };
 
 for material, types in materials {
-    minecraft_addDustToIngotSmelting(material);
-    minecraft_addOreToIngotSmelting(material);
+    minecraft_smeltingAndBlasting_oreToIngot(material);
+    minecraft_smeltingAndBlasting_dustToIngot(material);
+    mekanism_enriching_oreToDust(material);
+    mekanism_crusher_ingotToDust(material);
 }
