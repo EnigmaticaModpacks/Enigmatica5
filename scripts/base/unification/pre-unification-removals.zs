@@ -31,3 +31,5 @@ for materialName in materialNames {
     tag.removeItems(chunk);
     <tag:forge:dusts>.removeItems(chunk);
 }
+
+<recipetype:mekanism:combining>.removeAll();
