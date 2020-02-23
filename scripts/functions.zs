@@ -101,7 +101,7 @@ public function mekanism_addOreToDustEnriching(material as string) as void {
 
     var outputCount = 2;
 
-    <recipetype:mekanism:enriching>.addJSONRecipe("enriching_" + formatRecipeName(dust * 2),
+    <recipetype:mekanism:enriching>.addJSONRecipe("mekanism/processing/" + material + "/dust/from_ore.json",
     {
         input: {
             ingredient: {
@@ -130,7 +130,8 @@ public function minecraft_addOreToIngotSmelting(material as string) as void {
 
     var xp = 1.0;
     var cookingTime = 200;
-
+    blastFurnace.removeRecipe(ingot, ore);
+    furnace.removeRecipe(ingot, ore);
     blastFurnace.addRecipe("blasting_" + formatRecipeName(ingot) + "_from_ore", ingot, ore, xp, cookingTime);
     furnace.addRecipe("smelting_" + formatRecipeName(ingot) + "_from_ore", ingot, ore, xp, cookingTime);
 }
@@ -147,7 +148,8 @@ public function minecraft_addDustToIngotSmelting(material as string) as void {
 
     var xp = 0.0;
     var cookingTime = 200;
-
+    blastFurnace.removeRecipe(ingot, dust);
+    furnace.removeRecipe(ingot, dust);
     blastFurnace.addRecipe("blasting_" + formatRecipeName(ingot) + "_from_dust", ingot, dust, xp, cookingTime);
     furnace.addRecipe("smelting_" + formatRecipeName(ingot) + "_from_dust", ingot, dust, xp, cookingTime);
 }
