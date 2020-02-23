@@ -5,18 +5,35 @@
 
 **Changes**
 
-- Readded the mod Ultra Amplified Dimension
-- Added the mod [Interactio - In-World Crafting with Datapacks!](https://www.curseforge.com/minecraft/mc-mods/interactio/files)
-- Added the mod Crafting Station
-- Added the mod XNet
-- Added the mod RFTools Power
+- Added [Interactio - In-World Crafting with Datapacks!](https://www.curseforge.com/minecraft/mc-mods/interactio/files)
+- Added Crafting Station
+- Added XNet
+- Added RFTools Power
+- Added Waystones2Waypoints [\#61](https://github.com/NillerMedDild/Enigmatica5/issues/61) [[Mod](https://github.com/NillerMedDild/Enigmatica5/labels/Mod)]
+- Added Macaw's Windows [\#58](https://github.com/NillerMedDild/Enigmatica5/issues/58) [[Mod](https://github.com/NillerMedDild/Enigmatica5/labels/Mod)]
+- Added Decorative Blocks [\#55](https://github.com/NillerMedDild/Enigmatica5/issues/55) [[Mod](https://github.com/NillerMedDild/Enigmatica5/labels/Mod)]
+- Added StoneCatalysts [\#51](https://github.com/NillerMedDild/Enigmatica5/issues/51) [[Mod](https://github.com/NillerMedDild/Enigmatica5/labels/Mod)]
+- Added AppleSkin [\#50](https://github.com/NillerMedDild/Enigmatica5/issues/50) [[Mod](https://github.com/NillerMedDild/Enigmatica5/labels/Mod)]
+- Added Storage Drawers [\#49](https://github.com/NillerMedDild/Enigmatica5/issues/49) [[Mod](https://github.com/NillerMedDild/Enigmatica5/labels/Mod)]
+- Added Nature's Compass [\#45](https://github.com/NillerMedDild/Enigmatica5/issues/45) [[Mod](https://github.com/NillerMedDild/Enigmatica5/labels/Mod)]
+- Added Cherished Worlds [\#44](https://github.com/NillerMedDild/Enigmatica5/issues/44) [[Mod](https://github.com/NillerMedDild/Enigmatica5/labels/Mod)]
+- Added the mods CoFHCore, Ensorcellation, Archer's Paradox [\#41](https://github.com/NillerMedDild/Enigmatica5/issues/41) [[Mod](https://github.com/NillerMedDild/Enigmatica5/labels/Mod)]
+- Added Dimensional Dungeons  [\#40](https://github.com/NillerMedDild/Enigmatica5/issues/40) [[Mod](https://github.com/NillerMedDild/Enigmatica5/labels/Mod)]
+- Added Angel Ring [\#38](https://github.com/NillerMedDild/Enigmatica5/issues/38) [[Mod](https://github.com/NillerMedDild/Enigmatica5/labels/Mod)]
+- Added Waystones [\#33](https://github.com/NillerMedDild/Enigmatica5/issues/33) [[Mod](https://github.com/NillerMedDild/Enigmatica5/labels/Mod)]
+- Added & Rebalanced Powah [\#48](https://github.com/NillerMedDild/Enigmatica5/issues/48) [[Config](https://github.com/NillerMedDild/Enigmatica5/labels/Config)] [[Mod](https://github.com/NillerMedDild/Enigmatica5/labels/Mod)]
+- Re-added the mod Ultra Amplified Dimension
+- Added processing of various non-Mekanism/Vanilla ores to Mekanism (Lead, Silver...)
 - Improved unification, especially when it comes to Mekanism
 - Removed Mekanism's Tin and Copper oregen
 - Removed duplicate ingot/dust furnace recipes.
+- Main Menu Panorama [\#43](https://github.com/NillerMedDild/Enigmatica5/issues/43)
+- Disable Mekanism Combiner [\#63](https://github.com/NillerMedDild/Enigmatica5/issues/63)
+- Stone Catalysts: Allow Vanilla Cobblegen to generate Basalt, Marble and White Sandstone [\#60](https://github.com/NillerMedDild/Enigmatica5/issues/60) [[Config](https://github.com/NillerMedDild/Enigmatica5/labels/Config)]
 
 **Fixed bugs**
 
-- 
+- None!
 
 ## Enigmatica 5 v0.3.3
 

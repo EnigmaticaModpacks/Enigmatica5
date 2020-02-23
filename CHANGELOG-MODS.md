@@ -1,3 +1,50 @@
+# 0.3.3 -> 0.3.4
+
+* angelring-1.15.2-1.2.0.jar
+* AppleSkin-mc1.15.2-forge-1.0.13.jar
+* archers_paradox-1.15.2-0.3.0b.jar
+* BiomesOPlenty-1.15.2-10.0.0.345-universal.jar
+* carpetstairsmod-mc1.15-v1.3.jar
+* cherishedworlds-FORGE-1.15.2-3.0.jar
+* cofh_core-1.15.2-0.3.2b.jar
+* corpse-1.15.2-1.0.2.jar
+* CosmeticArmorReworked-1.15.2-v1a.jar
+* craftingstation-3.0.5.jar
+* CraftTweaker-1.15.2-6.0.0.6.jar
+* Cyclic-1.15.2-0.1.10.jar
+* decorative_blocks_5.jar
+* dimdungeons-1.03-forge-1.15.2.jar
+* engineersdecor-1.15.2-1.0.19-b3.jar
+* ensorcellation-1.15.2-0.3.0b.jar
+* Interactio-1.15.2-1.3.0.jar
+* invtweaks-1.15.2-1.0.1.jar
+* Lollipop-1.15.2-1.0.6.jar
+* mcjtylib-1.15-4.0.2-alpha.jar
+* mcw-windows-1.0.0-mc1.15.1_1.15.2.jar
+* Mekanism-1.15.2-9.9.10.402.jar
+* MekanismGenerators-1.15.2-9.9.10.402.jar
+* MekanismTools-1.15.2-9.9.10.402.jar
+* minecolonies-0.10.723-ALPHA-universal.jar
+* Morpheus-1.15.2-4.2.47.jar
+* NaturesCompass-1.15.2-1.8.4.jar
+* PackMenu-1.15.2-1.2.2.jar
+* Patchouli-1.15.2-1.2-27-FABRIC.jar
+* Patchouli-1.15.2-1.2-27.jar
+* Powah-1.15.2-1.1.4.jar
+* rftoolspower-1.15-2.0.1-alpha.jar
+* rftoolsstorage-1.15-1.0.2-alpha.jar
+* RingOfAttraction-1.15.2-1.1.18.jar
+* stonecatalysts-1.15.2-1.1.0.jar
+* StorageDrawers-1.15.2-7.0.1.jar
+* structurize-0.10.262-ALPHA.jar
+* theoneprobe-1.15-2.0.1.jar
+* torchslabmod-1.15.1_v1.5.jar
+* ultra_amplified_dimension-1.15.2-7.2.3.jar
+* w2w-1.15.2-0.0.0.1.jar
+* Waystones_1.15.2-6.0.0.jar
+* Xaeros_Minimap_20.3.1.1_Forge_1.15.2.jar
+* xnet-1.15-2.0.1-alpha.jar
+
 # 0.3.2 -> 0.3.3
 
 * BiomesOPlenty-1.15.2-10.0.0.322-universal.jar
