@@ -20,6 +20,8 @@
 [features]
 	#If the Aura Imbalance effect of ores spawning in the area if Aura levels are too high should occur
 	oreEffect = true
+	#If Aura Blooms and Aura Cacti should generate in the world
+	auraBlooms = true
 	#If the chunk loader block should be enabled
 	chunkLoader = true
 	#If the Aura Imbalance effect of grass and trees dying in the area if the Aura levels are too low should occur

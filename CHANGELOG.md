@@ -1,3 +1,17 @@
+## Enigmatica 5 v0.3.5
+
+*Using Forge-1.15.2-31.1.17*
+*[Mod List](https://github.com/NillerMedDild/Enigmatica5/blob/master/CHANGELOG-MODS.md)*
+
+**Changes**
+
+- Add Worldgeneration Profiler [\#65](https://github.com/NillerMedDild/Enigmatica5/issues/65) [[Mod](https://github.com/NillerMedDild/Enigmatica5/labels/Mod)]
+
+**Fixed bugs:**
+
+- Error when trying to join E5 server [\#67](https://github.com/NillerMedDild/Enigmatica5/issues/67) [[Script](https://github.com/NillerMedDild/Enigmatica5/labels/Script)]
+
+
 ## Enigmatica 5 v0.3.4
 
 *Using Forge-1.15.2-31.1.14*
