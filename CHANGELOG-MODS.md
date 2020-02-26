@@ -1,3 +1,23 @@
+# 0.3.4 -> 0.3.5
+
+* Aquaculture-1.15.2-2.0.9.jar
+* curios-FORGE-1.15.2-2.0.jar
+* engineersdecor-1.15.2-1.0.19-b4.jar
+* Interactio-1.15.2-1.3.1.jar
+* Kiwi-1.15.2-2.7.0.jar
+* Lollipop-1.15.2-1.0.7.jar
+* Mekanism-1.15.2-9.9.11.403.jar
+* MekanismGenerators-1.15.2-9.9.11.403.jar
+* MekanismTools-1.15.2-9.9.11.403.jar
+* minecolonies-0.10.730-ALPHA-universal.jar
+* NaturesAura-22.0.jar
+* Powah-1.15.2-1.1.5.jar
+* RingOfAttraction-1.15.2-1.1.19.jar
+* StorageDrawers-1.15.2-7.0.2.jar
+* structurize-0.10.265-ALPHA.jar
+* u_team_core-1.15.2-2.10.6.155.jar
+* world_generation_profiler-1.15.2-1.3.0.6.jar
+
 # 0.3.3 -> 0.3.4
 
 * angelring-1.15.2-1.2.0.jar
