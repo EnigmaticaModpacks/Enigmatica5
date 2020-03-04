@@ -5,6 +5,13 @@
 
 **Changes**
 
+- Added Mining Gadgets [\#74](https://github.com/NillerMedDild/Enigmatica5/issues/74)
+- Added Ambient Environment [\#72](https://github.com/NillerMedDild/Enigmatica5/issues/72)
+- Added Better Burning [\#71](https://github.com/NillerMedDild/Enigmatica5/issues/71)
+- Added Iron Chests [\#69](https://github.com/NillerMedDild/Enigmatica5/issues/69)
+- Added In Control! and Fx Control! [\#68](https://github.com/NillerMedDild/Enigmatica5/issues/68)
+- Added Fishing Real \(Fish up living fish\) [\#66](https://github.com/NillerMedDild/Enigmatica5/issues/66)
+- Added Vanilla Things [\#62](https://github.com/NillerMedDild/Enigmatica5/issues/62)
 - Basalt Cobblestone can now be generated with a vanilla cobblegen. Basalt Cobblestone must be below the water getting converted for it to work.
 - White Sandstone and Marble can now be generated with a vanilla stonegen. Either White Sandstone or Marble must be below the water getting converted for it to work.
 
