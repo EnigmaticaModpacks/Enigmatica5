@@ -1,3 +1,37 @@
+# 0.3.5 -> 0.3.6
+
+* AmbientEnvironment-3.0.0.jar
+* Apotheosis-1.15.2-3.0.6.jar
+* BetterBurning-1.15.2-1.3.1.jar
+* BiomesOPlenty-1.15.2-10.0.0.347-universal.jar
+* CraftTweaker-1.15.2-6.0.0.9.jar
+* Cyclic-1.15.2-0.1.11.jar
+* decorative_blocks_6b.jar
+* dimdungeons-1.04-forge-1.15.2.jar
+* engineersdecor-1.15.2-1.0.19-b5.jar
+* fishingreal-1.2.jar
+* fxcontrol-1.15-1.0.1.jar
+* incontrol-1.15-4.0.1.jar
+* ironchest-1.15.2-10.0.2.jar
+* kubejs-2.3.3.5.jar
+* Lollipop-1.15.2-1.0.8.jar
+* Ma-Essentials-1.15.2-3.0.1.jar
+* mcw-bridges-1.0.4fix-mc1.15.2.jar
+* Mekanism-1.15.2-9.9.14.406.jar
+* MekanismGenerators-1.15.2-9.9.14.406.jar
+* MekanismTools-1.15.2-9.9.14.406.jar
+* minecolonies-0.10.738-ALPHA-universal.jar
+* mininggadgets-1.3.0.jar
+* NaturesAura-23.2.jar
+* NaturesCompass-1.15.2-1.8.5.jar
+* PackMenu-1.15.2-1.2.3.jar
+* Patchouli-1.15.2-1.2-28.jar
+* Powah-1.15.2-1.1.6.jar
+* stonecatalysts-1.15.2-1.2.0.jar
+* structurize-0.10.272-ALPHA.jar
+* vanillathings-1.15.2-0.5.6.jar
+* Xaeros_Minimap_20.5.0_Forge_1.15.2.jar
+
 # 0.3.4 -> 0.3.5
 
 * Aquaculture-1.15.2-2.0.9.jar
