@@ -11,6 +11,9 @@
 	allowChunkloading = true
 	#Energy needed to destroy or attract blocks with a Laser (per block hardness level).
 	laserEnergyNeededPerHardness = 100000
+	#Number of ticks required to mine a single block with a Digital Miner (without any upgrades).
+	#Range: > 1
+	digitalMinerTicksPerMine = 80
 	#Amount of heat produced per fuel tick of a fuel's burn time in the Fuelwood Heater.
 	heatPerFuelTick = 4.0
 	#Scuba Tank Gas Tank capacity in mB.
@@ -30,7 +33,7 @@
 	opsBypassRestrictions = false
 	#Energy multiplier for using silk touch mode with the Digital Miner.
 	minerSilkMultiplier = 6
-	#Maximum radius in blocks that the Digital Miner can reach. (Increasing this may have negative effects on stability and/or performance. We strongly recommend you leave it at the default value.)
+	#Maximum radius in blocks that the Digital Miner can reach. (Increasing this may have negative effects on stability and/or performance. We strongly recommend you leave it at the default value).
 	#Range: > 1
 	digitalMinerMaxRadius = 32
 	#Base factor for working out machine performance with upgrades - UpgradeModifier * (UpgradesInstalled/UpgradesPossible).

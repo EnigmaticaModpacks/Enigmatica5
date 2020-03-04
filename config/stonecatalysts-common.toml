@@ -1,15 +1,19 @@
 
 [base_config]
-	#Replace cobble generation (Water into Flowing Lava) with the corresponding catalyst
-	REPLACE_COBBLE = true
-	#Replace stone generation (Lava over Water) with the corresponding catalyst
-	REPLACE_STONE = true
+	#Allow vanilla stone variants as stone generator catalysts (Flowing Lava into Water Source)
+	VANILLA_VARIANTS_AS_STONE = true
+	#Allow vanilla stone variants as cobble generator catalysts (Water into Flowing Lava)
+	VANILLA_VARIANTS_AS_COBBLE = true
 
 [custom_config]
-	#Add additional catalysts
+	#Add additional stone generator catalysts
 	#Usage: Add namespaced ids in "" seperated by commas
 	#Example: ["minecraft:netherrack", "quark:brimstone"]
-	CUSTOM_CATALYSTS = ["biomesoplenty:white_sandstone", "bluepower:marble", "bluepower:basalt_cobble"]
+	CUSTOM_STONE_CATALYSTS = ["biomesoplenty:white_sandstone", "bluepower:marble"]
 	#Prints debug messages to the log for each custom catalyst added
 	DEBUG_MESSAGES = true
+	#Add additional cobble generator catalysts
+	#Usage: Add namespaced ids in "" seperated by commas
+	#Example: ["minecraft:netherrack", "quark:brimstone"]
+	CUSTOM_COBBLE_CATALYSTS = ["bluepower:basalt_cobble"]
 

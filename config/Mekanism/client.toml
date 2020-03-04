@@ -22,6 +22,8 @@
 	alignHUDLeft = true
 	#Show particles when machines active.
 	machineEffects = true
+	#Enable item information HUD during gameplay
+	enableHUD = true
 	#How much light to produce if ambient lighting is enabled.
 	#Range: 1 ~ 15
 	ambientLightingLevel = 15

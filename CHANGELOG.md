@@ -1,3 +1,17 @@
+## Enigmatica 5 v0.3.6
+
+*Using Forge-1.15.2-31.1.17*
+*[Mod List](https://github.com/NillerMedDild/Enigmatica5/blob/master/CHANGELOG-MODS.md)*
+
+**Changes**
+
+- Basalt Cobblestone can now be generated with a vanilla cobblegen. Basalt Cobblestone must be below the water getting converted for it to work.
+- White Sandstone and Marble can now be generated with a vanilla stonegen. Either White Sandstone or Marble must be below the water getting converted for it to work.
+
+**Fixed bugs:**
+
+- Error when trying to join E5 server [\#67](https://github.com/NillerMedDild/Enigmatica5/issues/67) [[Script](https://github.com/NillerMedDild/Enigmatica5/labels/Script)]
+
 ## Enigmatica 5 v0.3.5
 
 *Using Forge-1.15.2-31.1.17*
