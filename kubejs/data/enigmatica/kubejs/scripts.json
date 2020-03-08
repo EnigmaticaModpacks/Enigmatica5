@@ -1,13 +1,15 @@
 {
 	"scripts": [
+		{"file": "tags/constants.js"},
+
 		{"file": "tags/blocks/forge/stones.js"},
 		{"file": "tags/blocks/forge/ores.js"},
+		{"file": "tags/blocks/forge/materials.js"},
 
 		{"file": "tags/items/forge/stones.js"},
 		{"file": "tags/items/forge/ores.js"},
 		{"file": "tags/items/forge/gems.js"},
-
-		{"file": "tags/constants.js"}
+		{"file": "tags/items/forge/materials.js"}
 
 	]
 }

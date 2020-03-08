@@ -1,6 +1,8 @@
 {
 	"scripts": [
-		{"file": "constants.js"},
+		{"file": "functions.js"},
+		{"file": "materialsystem.js"},
+		
 		{"file": "factory/items.js"},
 		{"file": "factory/blocks.js"}
 	]

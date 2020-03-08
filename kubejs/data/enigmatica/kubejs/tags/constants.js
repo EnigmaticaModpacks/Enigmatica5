@@ -22,3 +22,5 @@ var stoneBasalt = [
     'bluepower:basaltbrick_cracked', 
     'bluepower:cracked_basalt_lava'
 ];
+
+var materials = global.materials;
