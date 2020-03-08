@@ -31,18 +31,18 @@ var materials as MCTag[string][string] = {
         "rod": <tag:forge:rods/gold>
     },
 
-    "neptunium": {
-        "nugget": <tag:forge:nuggets/neptunium>,
-        "ingot": <tag:forge:ingots/neptunium>,
-        "gem": <tag:forge:gems/neptunium>,
-        "storage_block": <tag:forge:storage_blocks/neptunium>,
-        "ore": <tag:forge:ores/neptunium>,
-        "ore_deposit": <tag:forge:ore_deposit/neptunium>,
-        "dust": <tag:forge:dusts/neptunium>,
-        "gear": <tag:forge:gears/neptunium>,
-        "plate": <tag:forge:plates/neptunium>,
-        "rod": <tag:forge:rods/neptunium>
-    },
+    // "neptunium": {
+    //     "nugget": <tag:forge:nuggets/neptunium>,
+    //     "ingot": <tag:forge:ingots/neptunium>,
+    //     "gem": <tag:forge:gems/neptunium>,
+    //     "storage_block": <tag:forge:storage_blocks/neptunium>,
+    //     "ore": <tag:forge:ores/neptunium>,
+    //     "ore_deposit": <tag:forge:ore_deposit/neptunium>,
+    //     "dust": <tag:forge:dusts/neptunium>,
+    //     "gear": <tag:forge:gears/neptunium>,
+    //     "plate": <tag:forge:plates/neptunium>,
+    //     "rod": <tag:forge:rods/neptunium>
+    // },
 
     "copper": {
         "nugget": <tag:forge:nuggets/copper>,
@@ -239,18 +239,18 @@ var materials as MCTag[string][string] = {
         "rod": <tag:forge:rods/aluminum>
     },
 
-    "uranium": {
-        "nugget": <tag:forge:nuggets/uranium>,
-        "ingot": <tag:forge:ingots/uranium>,
-        "gem": <tag:forge:gems/uranium>,
-        "storage_block": <tag:forge:storage_blocks/uranium>,
-        "ore": <tag:forge:ores/uranium>,
-        "ore_deposit": <tag:forge:ore_deposit/uranium>,
-        "dust": <tag:forge:dusts/uranium>,
-        "gear": <tag:forge:gears/uranium>,
-        "plate": <tag:forge:plates/uranium>,
-        "rod": <tag:forge:rods/uranium>
-    },
+    // "uranium": {
+    //     "nugget": <tag:forge:nuggets/uranium>,
+    //     "ingot": <tag:forge:ingots/uranium>,
+    //     "gem": <tag:forge:gems/uranium>,
+    //     "storage_block": <tag:forge:storage_blocks/uranium>,
+    //     "ore": <tag:forge:ores/uranium>,
+    //     "ore_deposit": <tag:forge:ore_deposit/uranium>,
+    //     "dust": <tag:forge:dusts/uranium>,
+    //     "gear": <tag:forge:gears/uranium>,
+    //     "plate": <tag:forge:plates/uranium>,
+    //     "rod": <tag:forge:rods/uranium>
+    // },
 
     "bronze": {
         "nugget": <tag:forge:nuggets/bronze>,
@@ -497,27 +497,14 @@ var materials as MCTag[string][string] = {
         "gear": <tag:forge:gears/glowstone>,
         "plate": <tag:forge:plates/glowstone>,
         "rod": <tag:forge:rods/glowstone>
-    },
-
-    "teslatite": {
-        "nugget": <tag:forge:nuggets/teslatite>,
-        "ingot": <tag:forge:ingots/teslatite>,
-        "gem": <tag:forge:gems/teslatite>,
-        "storage_block": <tag:forge:storage_blocks/teslatite>,
-        "ore": <tag:forge:ores/teslatite>,
-        "ore_deposit": <tag:forge:ore_deposit/teslatite>,
-        "dust": <tag:forge:dusts/teslatite>,
-        "gear": <tag:forge:gears/teslatite>,
-        "plate": <tag:forge:plates/teslatite>,
-        "rod": <tag:forge:rods/teslatite>
     }
 };
 
 var modPriorities as string[] = [
     "minecraft",
-    "kubejs",
     "silents_mechanisms",
 	"mekanism",
+    "kubejs",
     "bluepower",
     "botania",
     "mysticalworld",

@@ -36,20 +36,20 @@ var itemPartNames = basePartNames.concat(mekanismProcessingPartNames).concat(pro
 var allProcessingPartNames = mekanismProcessingPartNames.concat(processingPartNames);
 
 var materials = [
-  material("aluminum", 0xb2bcc4, [], oreBlocks),
+  material("aluminum", 0xb2bcc4, [], [oreDepositBlock]),
   material("bronze", 0xCD7F32, allProcessingPartNames, []),
   material("coal", 0x232326, [], [oreDepositBlock]),
-  material("copper", 0x89510d, processingPartNames, oreBlocks),
+  material("copper", 0x89510d, processingPartNames, [oreDepositBlock]),
   material("diamond", 0x8CF4E2, [], [oreDepositBlock]),
   material("electrum", 0xd3c34a, allProcessingPartNames, []),
   material("emerald", 0x21ce43, [], [oreDepositBlock]),
   material("gold", 0xFFFF0B, processingPartNames, [oreDepositBlock]),
   material("iron", 0xD8D8D8, processingPartNames, [oreDepositBlock]),
   material("lapis", 0x1b09a3, [], [oreDepositBlock]),
-  material("lead", 0x38375b, processingPartNames, oreBlocks),
+  material("lead", 0x38375b, processingPartNames, [oreDepositBlock]),
   material("redstone", 0xa30808, [], [oreDepositBlock]),
-  material("silver", 0xc8c7e0, allProcessingPartNames, oreBlocks),
-  material("tin", 0x9CC9D6, processingPartNames, oreBlocks)
+  material("silver", 0xc8c7e0, allProcessingPartNames, [oreDepositBlock]),
+  material("tin", 0x9CC9D6, processingPartNames, [oreDepositBlock])
   //material("quartz", 0xfffff7, [], []),
   //material("uranium", 0x314736, allProcessingPartNames, oreBlocks),
   //material("tungsten", 0x3d3b3a, itemPartNames, oreBlocks),
