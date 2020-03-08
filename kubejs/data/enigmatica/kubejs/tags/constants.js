@@ -13,7 +13,6 @@ var stoneBasalt = [
     // 'quark:basalt_pillar', 
     // 'quark:polished_basalt', 
     // 'quark:basalt_bricks', 
-    'bluepower:basalt_cobble', 
     'bluepower:basalt_brick_small',
     'bluepower:fancy_basalt', 
     'bluepower:basalt_tile', 
@@ -21,6 +20,10 @@ var stoneBasalt = [
     'bluepower:tiles', 
     'bluepower:basaltbrick_cracked', 
     'bluepower:cracked_basalt_lava'
+];
+
+var cobblestoneBasalt = [
+    'bluepower:basalt_cobble'
 ];
 
 var materials = global.materials;

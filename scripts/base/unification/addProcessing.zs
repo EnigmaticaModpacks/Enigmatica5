@@ -519,4 +519,8 @@ for material, types in materials {
     minecraft_smeltingAndBlasting_dustToIngot(material);
     mekanism_enriching_oreToDust(material);
     mekanism_crusher_ingotToDust(material);
+    mekanism_chemicalInjectionChamber_oreToShard(material);
+    mekanism_enrichmentChamer_dirtyDustToDust(material);
+    mekanism_crusher_clumpToDirtyDust(material);
+    mekanism_chemicalInjectionChamber_shardToClump(material);
 }

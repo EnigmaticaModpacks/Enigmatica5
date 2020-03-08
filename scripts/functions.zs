@@ -188,6 +188,153 @@ public function mekanism_crusher_ingotToDust(material as string) as void {
 
     logger.info("mekanism_crusher_ingotToDust with " + material + " succesfully ran!");
 }
+
+public function mekanism_chemicalInjectionChamber_oreToShard(material as string) as void {
+    var oreItemTag = BracketHandlers.getTag("forge:ores/" + material);
+    var shardItemTag = BracketHandlers.getTag("forge:shards/" + material);
+    var ore = oreItemTag.first();
+    var shard = shardItemTag.first();
+
+    if (ore.matches(<item:minecraft:air>)) {
+        logger.info("mekanism_chemicalInjectionChamber_oreToShard: No items exist in the ItemTag " + oreItemTag.commandString);
+        return;
+    }
+
+    if (shard.matches(<item:minecraft:air>)) {
+        logger.info("mekanism_chemicalInjectionChamber_oreToShard: No items exist in the ItemTag " + shardItemTag.commandString);
+        return;
+    } 
+
+    var outputCount = 4;
+    <recipetype:crafting>.removeByName("mekanism:processing/" + material + "/shard/from_ore");
+    <recipetype:mekanism:injecting>.addJSONRecipe("processing/" + material + "/shard/from_ore",
+    {
+        itemInput: {
+            ingredient: {
+                item: ore.registryName
+            }
+        },
+        gasInput: {
+            amount: 1,
+            gas: "mekanism:hydrogen_chloride"
+        },
+        output: {
+            item: shard.registryName,
+			count: outputCount
+        }
+    });
+
+    logger.info("mekanism_chemicalInjectionChamber_oreToShard with " + material + " succesfully ran!");
+}
+
+public function mekanism_enrichmentChamer_dirtyDustToDust(material as string) as void {
+	var dirty_dustItemTag = BracketHandlers.getTag("forge:dirty_dusts/" + material);
+    var dustItemTag = BracketHandlers.getTag("forge:dusts/" + material);
+    var dirty_dust = dirty_dustItemTag.first();
+    var dust = dustItemTag.first();
+
+    if (dirty_dust.matches(<item:minecraft:air>)) {
+        logger.info("mekanism_enrichmentChamer_dirtyDustToDust: No items exist in the ItemTag " + dirty_dustItemTag.commandString);
+        return;
+    }
+
+    if (dust.matches(<item:minecraft:air>)) {
+        logger.info("mekanism_enrichmentChamer_dirtyDustToDust: No items exist in the ItemTag " + dustItemTag.commandString);
+        return;
+    } 
+
+    <recipetype:crafting>.removeByName("mekanism:processing/" + material + "/dust/from_dirty_dust");
+    <recipetype:mekanism:enriching>.addJSONRecipe("processing/" + material + "/dust/from_dirty_dust",
+    {
+        input: {
+            ingredient: {
+                item: dirty_dust.registryName
+            }
+            
+        },
+        output: {
+            item: dust.registryName
+        }
+    });
+
+    logger.info("mekanism_enrichmentChamer_dirtyDustToDust with " + material + " succesfully ran!");
+}
+
+public function mekanism_crusher_clumpToDirtyDust(material as string) as void {
+	var dirty_dustItemTag = BracketHandlers.getTag("forge:dirty_dust/" + material);
+    var clumpItemTag = BracketHandlers.getTag("forge:clumps/" + material);
+    var dirty_dust = dirty_dustItemTag.first();
+    var clump = clumpItemTag.first();
+
+    if (dirty_dust.matches(<item:minecraft:air>)) {
+        logger.info("mekanism_crusher_clumpToDirtyDust: No items exist in the ItemTag " + dirty_dustItemTag.commandString);
+        return;
+    }
+
+    if (clump.matches(<item:minecraft:air>)) {
+        logger.info("mekanism_crusher_clumpToDirtyDust: No items exist in the ItemTag " + clumpItemTag.commandString);
+        return;
+    } 
+
+    <recipetype:crafting>.removeByName("mekanism:processing/" + material + "/dirty_dust/from_clump");
+    <recipetype:mekanism:crushing>.addJSONRecipe("processing/" + material + "/dirty_dust/from_clump",
+    {
+        input: {
+            ingredient: {
+                item: clump.registryName
+            }
+            
+        },
+        output: {
+            item: dirty_dust.registryName
+        }
+    });
+
+    logger.info("mekanism_crusher_clumpToDirtyDust with " + material + " succesfully ran!");
+}
+public function mekanism_chemicalInjectionChamber_shardToClump(material as string) as void {
+	var shardItemTag = BracketHandlers.getTag("forge:shards/" + material);
+    var clumpItemTag = BracketHandlers.getTag("forge:clumps/" + material);
+    var shard = shardItemTag.first();
+    var clump = clumpItemTag.first();
+
+    if (shard.matches(<item:minecraft:air>)) {
+        logger.info("mekanism_chemicalInjectionChamber_shardToClump: No items exist in the ItemTag " + shardItemTag.commandString);
+        return;
+    }
+
+    if (clump.matches(<item:minecraft:air>)) {
+        logger.info("mekanism_chemicalInjectionChamber_shardToClump: No items exist in the ItemTag " + clumpItemTag.commandString);
+        return;
+    } 
+
+    <recipetype:crafting>.removeByName("mekanism:processing/" + material + "/clump/from_shard");
+    <recipetype:mekanism:purifying>.addJSONRecipe("processing/" + material + "/clump/from_shard",
+    {
+        itemInput: {
+            ingredient: {
+                item: shard.registryName
+            }
+        },
+		gasInput: {
+            amount: 1,
+			gas: "mekanism:oxygen"
+        },
+        output: {
+            item: clump.registryName
+        }
+    });
+
+    logger.info("mekanism_chemicalInjectionChamber_shardToClump with " + material + " succesfully ran!");
+}
+public function mekanism_chemicalInjectionChamber_crystalToShard(material as string) as void {}
+public function mekanism_chemicalCrystallizer_cleanSlurryToCrystal(material as string) as void {}
+public function mekanism_chemicalWasher_slurryToCleanSlurry(material as string) as void {}
+public function mekanism_chemicalDissolutionChamber_oreToSlurry(material as string) as void {}
+
+
+
+
 /* public function minecraft_addEquipmentToNuggetSmelting(material as string) as void {
     var nuggetTag = BracketHandlers.getTag("forge:nuggets/" + material);
     var nugget = nuggetTag.first();

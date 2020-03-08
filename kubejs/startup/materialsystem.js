@@ -20,10 +20,10 @@ var mekanismProcessingPartNames = [
   //'fluid',
   //'slurry',
   //'clean_slurry',
+  //'crystal'
   'dirty_dust',
   'clump',
-  'shard',
-  'crystal'
+  'shard'
 ];
 
 var processingPartNames = [
@@ -33,24 +33,25 @@ var processingPartNames = [
 ];
 
 var itemPartNames = basePartNames.concat(mekanismProcessingPartNames).concat(processingPartNames);
+var allProcessingPartNames = mekanismProcessingPartNames.concat(processingPartNames);
 
 var materials = [
-  material("aluminum", 0xb2bcc4, itemPartNames, oreBlocks),
-  material("bronze", 0xCD7F32, itemPartNames, []),
-  material("coal", 0x232326, itemPartNames, [oreDepositBlock]),
-  material("copper", 0x89510d, itemPartNames, oreBlocks),
-  material("diamond", 0x8CF4E2, itemPartNames, [oreDepositBlock]),
-  material("electrum", 0xd3c34a, itemPartNames, []),
-  material("emerald", 0x21ce43, itemPartNames, [oreDepositBlock]),
-  material("gold", 0xFFFF0B, itemPartNames, [oreDepositBlock]),
-  material("iron", 0xD8D8D8, itemPartNames, [oreDepositBlock]),
-  material("lapis", 0x1b09a3, itemPartNames, [oreDepositBlock]),
-  material("lead", 0x38375b, itemPartNames, oreBlocks),
-  material("quartz", 0xfffff7, itemPartNames, []),
-  material("redstone", 0xa30808, itemPartNames, [oreDepositBlock]),
-  material("silver", 0xc8c7e0, itemPartNames, oreBlocks),
-  material("tin", 0x9CC9D6, itemPartNames, oreBlocks),
-  material("uranium", 0x314736, itemPartNames, oreBlocks)
+  material("aluminum", 0xb2bcc4, [], oreBlocks),
+  material("bronze", 0xCD7F32, allProcessingPartNames, []),
+  material("coal", 0x232326, [], [oreDepositBlock]),
+  material("copper", 0x89510d, processingPartNames, oreBlocks),
+  material("diamond", 0x8CF4E2, [], [oreDepositBlock]),
+  material("electrum", 0xd3c34a, allProcessingPartNames, []),
+  material("emerald", 0x21ce43, [], [oreDepositBlock]),
+  material("gold", 0xFFFF0B, processingPartNames, [oreDepositBlock]),
+  material("iron", 0xD8D8D8, processingPartNames, [oreDepositBlock]),
+  material("lapis", 0x1b09a3, [], [oreDepositBlock]),
+  material("lead", 0x38375b, processingPartNames, oreBlocks),
+  material("redstone", 0xa30808, [], [oreDepositBlock]),
+  material("silver", 0xc8c7e0, allProcessingPartNames, oreBlocks),
+  material("tin", 0x9CC9D6, processingPartNames, oreBlocks)
+  //material("quartz", 0xfffff7, [], []),
+  //material("uranium", 0x314736, allProcessingPartNames, oreBlocks),
   //material("tungsten", 0x3d3b3a, itemPartNames, oreBlocks),
   //material("titanium", 0xe5e5e5, itemPartNames, oreBlocks),
   //material("iridium", 0xdfdee8, itemPartNames, oreBlocks),
