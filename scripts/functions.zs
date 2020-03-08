@@ -261,7 +261,7 @@ public function mekanism_enrichmentChamer_dirtyDustToDust(material as string) as
 }
 
 public function mekanism_crusher_clumpToDirtyDust(material as string) as void {
-	var dirty_dustItemTag = BracketHandlers.getTag("forge:dirty_dust/" + material);
+	var dirty_dustItemTag = BracketHandlers.getTag("forge:dirty_dusts/" + material);
     var clumpItemTag = BracketHandlers.getTag("forge:clumps/" + material);
     var dirty_dust = dirty_dustItemTag.first();
     var clump = clumpItemTag.first();
