@@ -20,6 +20,48 @@ var recipes as IIngredient[][][IItemStack] = {
         [<item:refinedstorage:quartz_enriched_iron>, <item:refinedstorage:range_upgrade>, <item:refinedstorage:quartz_enriched_iron>], 
         [<item:refinedstorage:quartz_enriched_iron>, <item:refinedstorage:wireless_grid>, <item:refinedstorage:quartz_enriched_iron>],
         [<item:refinedstorage:quartz_enriched_iron>, <item:minecraft:crafting_table>, <item:refinedstorage:quartz_enriched_iron>]
+    ],
+    <item:powah:reactor_starter> : 
+    [
+        [<tag:forge:ingots/uranium>, <item:powah:capacitor_basic_tiny>, <tag:forge:ingots/uranium>], 
+        [<item:powah:capacitor_basic_tiny>, <item:powah:dielectric_casing>, <item:powah:capacitor_basic_tiny>],
+        [<tag:forge:ingots/uranium>, <item:powah:capacitor_basic_tiny>, <tag:forge:ingots/uranium>]
+    ],
+    <item:powah:reactor_basic> : 
+    [
+        [<tag:forge:ingots/uranium>, <item:powah:capacitor_basic_large>, <tag:forge:ingots/uranium>], 
+        [<item:powah:capacitor_basic_large>, <item:powah:dielectric_casing>, <item:powah:capacitor_basic_large>],
+        [<tag:forge:ingots/uranium>, <item:powah:capacitor_basic_large>, <tag:forge:ingots/uranium>]
+    ],
+    <item:powah:reactor_hardened> : 
+    [
+        [<tag:forge:ingots/uranium>, <item:powah:capacitor_hardened>, <tag:forge:ingots/uranium>], 
+        [<item:powah:capacitor_hardened>, <item:powah:dielectric_casing>, <item:powah:capacitor_hardened>],
+        [<tag:forge:ingots/uranium>, <item:powah:capacitor_hardened>, <tag:forge:ingots/uranium>]
+    ],
+    <item:powah:reactor_blazing> : 
+    [
+        [<tag:forge:ingots/uranium>, <item:powah:capacitor_blazing>, <tag:forge:ingots/uranium>], 
+        [<item:powah:capacitor_blazing>, <item:powah:dielectric_casing>, <item:powah:capacitor_blazing>],
+        [<tag:forge:ingots/uranium>, <item:powah:capacitor_blazing>, <tag:forge:ingots/uranium>]
+    ],
+    <item:powah:reactor_niotic> : 
+    [
+        [<tag:forge:ingots/uranium>, <item:powah:capacitor_niotic>, <tag:forge:ingots/uranium>], 
+        [<item:powah:capacitor_niotic>, <item:powah:dielectric_casing>, <item:powah:capacitor_niotic>],
+        [<tag:forge:ingots/uranium>, <item:powah:capacitor_niotic>, <tag:forge:ingots/uranium>]
+    ],
+    <item:powah:reactor_spirited> : 
+    [
+        [<tag:forge:ingots/uranium>, <item:powah:capacitor_spirited>, <tag:forge:ingots/uranium>], 
+        [<item:powah:capacitor_spirited>, <item:powah:dielectric_casing>, <item:powah:capacitor_spirited>],
+        [<tag:forge:ingots/uranium>, <item:powah:capacitor_spirited>, <tag:forge:ingots/uranium>]
+    ],
+    <item:powah:reactor_nitro> : 
+    [
+        [<tag:forge:ingots/uranium>, <item:powah:capacitor_nitro>, <tag:forge:ingots/uranium>], 
+        [<item:powah:capacitor_nitro>, <item:powah:dielectric_casing>, <item:powah:capacitor_nitro>],
+        [<tag:forge:ingots/uranium>, <item:powah:capacitor_nitro>, <tag:forge:ingots/uranium>]
     ]
 };
 
