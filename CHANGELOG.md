@@ -1,3 +1,25 @@
+## Enigmatica 5 v0.3.7
+
+*Using Forge-1.15.2-31.1.17*
+*[Mod List](https://github.com/NillerMedDild/Enigmatica5/blob/master/CHANGELOG-MODS.md)*
+
+**Changes**
+
+- Added Journeymap
+- Removed Xaero's Worldmap & Minimap
+- Added FastWorkbench (Performance improvements for Crafting Tables)
+- Added EnchantmentDescription
+- Added FastFurnace (Performance improvements for Furnaces)
+- Added Ding (Ding sound when Minecraft is done loading)
+- Added No Recipe Book (Removes the recipe book in your inventory)
+- Added Attribute Fix (A bit hard to explain, improves how stats like armor are handled)
+- Added TrampleStopper (Stops Farmland from getting trampled by jumping on it)
+- Added Vanilla Hammers (3x3 Pickaxes)
+
+**Bug fixes**
+
+* 
+
 ## Enigmatica 5 v0.3.6
 
 *Using Forge-1.15.2-31.1.17*
