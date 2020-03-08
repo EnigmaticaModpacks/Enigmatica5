@@ -32,18 +32,18 @@ var materials as MCTag[string][string] = {
         "rod": <tag:forge:rods/gold>
     },
 
-    "neptunium": {
-        "nugget": <tag:forge:nuggets/neptunium>,
-        "ingot": <tag:forge:ingots/neptunium>,
-        "gem": <tag:forge:gems/neptunium>,
-        "storage_block": <tag:forge:storage_blocks/neptunium>,
-        "ore": <tag:forge:ores/neptunium>,
-        "ore_deposit": <tag:forge:ore_deposit/neptunium>,
-        "dust": <tag:forge:dusts/neptunium>,
-        "gear": <tag:forge:gears/neptunium>,
-        "plate": <tag:forge:plates/neptunium>,
-        "rod": <tag:forge:rods/neptunium>
-    },
+    // "neptunium": {
+    //     "nugget": <tag:forge:nuggets/neptunium>,
+    //     "ingot": <tag:forge:ingots/neptunium>,
+    //     "gem": <tag:forge:gems/neptunium>,
+    //     "storage_block": <tag:forge:storage_blocks/neptunium>,
+    //     "ore": <tag:forge:ores/neptunium>,
+    //     "ore_deposit": <tag:forge:ore_deposit/neptunium>,
+    //     "dust": <tag:forge:dusts/neptunium>,
+    //     "gear": <tag:forge:gears/neptunium>,
+    //     "plate": <tag:forge:plates/neptunium>,
+    //     "rod": <tag:forge:rods/neptunium>
+    // },
 
     "copper": {
         "nugget": <tag:forge:nuggets/copper>,
@@ -240,18 +240,18 @@ var materials as MCTag[string][string] = {
         "rod": <tag:forge:rods/aluminum>
     },
 
-    "uranium": {
-        "nugget": <tag:forge:nuggets/uranium>,
-        "ingot": <tag:forge:ingots/uranium>,
-        "gem": <tag:forge:gems/uranium>,
-        "storage_block": <tag:forge:storage_blocks/uranium>,
-        "ore": <tag:forge:ores/uranium>,
-        "ore_deposit": <tag:forge:ore_deposit/uranium>,
-        "dust": <tag:forge:dusts/uranium>,
-        "gear": <tag:forge:gears/uranium>,
-        "plate": <tag:forge:plates/uranium>,
-        "rod": <tag:forge:rods/uranium>
-    },
+    // "uranium": {
+    //     "nugget": <tag:forge:nuggets/uranium>,
+    //     "ingot": <tag:forge:ingots/uranium>,
+    //     "gem": <tag:forge:gems/uranium>,
+    //     "storage_block": <tag:forge:storage_blocks/uranium>,
+    //     "ore": <tag:forge:ores/uranium>,
+    //     "ore_deposit": <tag:forge:ore_deposit/uranium>,
+    //     "dust": <tag:forge:dusts/uranium>,
+    //     "gear": <tag:forge:gears/uranium>,
+    //     "plate": <tag:forge:plates/uranium>,
+    //     "rod": <tag:forge:rods/uranium>
+    // },
 
     "bronze": {
         "nugget": <tag:forge:nuggets/bronze>,
@@ -498,29 +498,17 @@ var materials as MCTag[string][string] = {
         "gear": <tag:forge:gears/glowstone>,
         "plate": <tag:forge:plates/glowstone>,
         "rod": <tag:forge:rods/glowstone>
-    },
-
-    "teslatite": {
-        "nugget": <tag:forge:nuggets/teslatite>,
-        "ingot": <tag:forge:ingots/teslatite>,
-        "gem": <tag:forge:gems/teslatite>,
-        "storage_block": <tag:forge:storage_blocks/teslatite>,
-        "ore": <tag:forge:ores/teslatite>,
-        "ore_deposit": <tag:forge:ore_deposit/teslatite>,
-        "dust": <tag:forge:dusts/teslatite>,
-        "gear": <tag:forge:gears/teslatite>,
-        "plate": <tag:forge:plates/teslatite>,
-        "rod": <tag:forge:rods/teslatite>
     }
 };
 
 for material, types in materials {
-    minecraft_smeltingAndBlasting_oreToIngot(material);
-    minecraft_smeltingAndBlasting_dustToIngot(material);
-    mekanism_enriching_oreToDust(material);
-    mekanism_crusher_ingotToDust(material);
-    mekanism_chemicalInjectionChamber_oreToShard(material);
-    mekanism_enrichmentChamer_dirtyDustToDust(material);
-    mekanism_crusher_clumpToDirtyDust(material);
-    mekanism_chemicalInjectionChamber_shardToClump(material);
+    minecraft_smeltingAndBlasting_ingot_from_ore(material);
+    minecraft_smeltingAndBlasting_ingot_from_dust(material);
+    mekanism_enriching_dust_from_ore(material);
+    mekanism_crushing_dust_from_ingot(material);
+    mekanism_injecting_shard_from_ore(material);
+    mekanism_enriching_dust_from_dirty_dust(material);
+    mekanism_crushing_dirty_dust_from_clump(material);
+    mekanism_injecting_clump_from_shard(material);
+    mekanism_injecting_shard_from_crystal(material);
 }
