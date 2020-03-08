@@ -1,3 +1,34 @@
+# 0.3.6 -> 0.3.7
+
+* AttributeFix-1.15.2-7.0.1.jar
+* BiomesOPlenty-1.15.2-10.0.0.349-universal.jar
+* Bookshelf-1.15.2-5.0.1.jar
+* damage_indicator-0.1.0.jar
+* DarkUtilities-1.15.2-3.0.1.jar
+* decorative_blocks_6c.jar
+* Ding-1.15.1-1.1.0.jar
+* EnchantmentDescriptions-1.15.2-2.0.3.jar
+* FastFurnace-1.15.1-3.0.0.jar
+* FastWorkbench-1.15.1-3.0.0.jar
+* Interactio-1.15.2-1.3.2.jar
+* JAOPCA-1.15.2-3.0.0.21.jar
+* journeymap-1.15.2-5.7.0beta1.jar
+* kubejs-2.3.3.7.jar
+* Lollipop-1.15.2-1.0.9.jar
+* Mekanism-1.15.2-9.9.15.407.jar
+* MekanismGenerators-1.15.2-9.9.15.407.jar
+* MekanismTools-1.15.2-9.9.15.407.jar
+* minecolonies-0.10.743-BETA-universal.jar
+* noRecipeBook_v1.5.2formc1.15.2.jar
+* PackMenu-1.15.2-1.2.4.jar
+* Powah-1.15.2-1.1.7.jar
+* RingOfAttraction-1.15.2-1.1.20.jar
+* rsgauges-1.15.2-1.2.2-b1.jar
+* TerraForged-1.15.2-0.0.2.jar
+* tramplestopper-1.15.2-2.0.0.beta-universal.jar
+* u_team_core-1.15.2-2.11.0.156.jar
+* vanillahammers-1.15.1-1.0.jar
+
 # 0.3.5 -> 0.3.6
 
 * AmbientEnvironment-3.0.0.jar

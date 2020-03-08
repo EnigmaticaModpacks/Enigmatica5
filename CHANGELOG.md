@@ -15,10 +15,11 @@
 - Added Attribute Fix (A bit hard to explain, improves how stats like armor are handled by Minecraft)
 - Added TrampleStopper (Stops Farmland from getting trampled by jumping on it)
 - Added Vanilla Hammers (3x3 Pickaxes)
-
-**Bug fixes**
-
-* 
+- Powah: Remake recipes with tags [\#78](https://github.com/NillerMedDild/Enigmatica5/issues/78)
+- Add Ama's Damage Indicator [\#77](https://github.com/NillerMedDild/Enigmatica5/issues/77)
+- Add Dark Utilities [\#75](https://github.com/NillerMedDild/Enigmatica5/issues/75)
+- Added TerraForged [\#73](https://github.com/NillerMedDild/Enigmatica5/issues/73)
+- Added JAOPCA [\#7](https://github.com/NillerMedDild/Enigmatica5/issues/7)
 
 ## Enigmatica 5 v0.3.6
 
