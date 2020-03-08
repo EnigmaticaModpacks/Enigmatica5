@@ -1,5 +1,6 @@
-events.listen('server.datapack.tags.items', function (event) {
-    event.get('forge:stones/basalt').add(stoneBasalt);   
+events.listen('server.datapack.tags.blocks', function (event) {
+    event.get('forge:stones/basalt').add(stoneBasalt);  
+    event.get('forge:cobbestones/basalt').add(cobblestoneBasalt); 
 })
 
 
