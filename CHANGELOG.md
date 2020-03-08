@@ -12,7 +12,7 @@
 - Added FastFurnace (Performance improvements for Furnaces)
 - Added Ding (Ding sound when Minecraft is done loading)
 - Added No Recipe Book (Removes the recipe book in your inventory)
-- Added Attribute Fix (A bit hard to explain, improves how stats like armor are handled)
+- Added Attribute Fix (A bit hard to explain, improves how stats like armor are handled by Minecraft)
 - Added TrampleStopper (Stops Farmland from getting trampled by jumping on it)
 - Added Vanilla Hammers (3x3 Pickaxes)
 
