@@ -1,3 +1,16 @@
+## Enigmatica 5 v0.3.8
+
+*Using Forge-1.15.2-31.1.17*
+*[Mod List](https://github.com/NillerMedDild/Enigmatica5/blob/master/CHANGELOG-MODS.md)*
+
+**Mod Additions**
+
+* MixinBootstrap (KubeJS dependency)
+
+**Changes**
+
+* Removed Waystones2Waypoints (It was an addon for Xaero's Maps that I forgot to remove)
+
 ## Enigmatica 5 v0.3.7
 
 *Using Forge-1.15.2-31.1.17*
