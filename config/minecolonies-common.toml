@@ -12,6 +12,9 @@
 	#Amount of blocks the builder checks (to decrease lag by builder). [Default: 1000]
 	#Range: 1000 ~ 100000
 	maxblockscheckedbybuilder = 1000
+	#How common diseases are. 1 = Very common, 100 = extremely rare. [Default: 5]
+	#Range: 1 ~ 100
+	diseasemodifier = 5
 	#Should in development features be enabled (might be buggy). [Default: false]
 	enableindevelopmentfeatures = false
 	#Should builder place construction tape? [Default: true]
@@ -116,7 +119,7 @@
 
 #minecolonies.config.claims.comment
 [claims]
-	#The minimum distances between town halls for dynamic colony sizes (used as default initial claim too). [Default: 3]
+	#The default claim area for dynamic colonies (used as minimum distance too). [Default: 3]
 	#Range: 1 ~ 200
 	mintownhallpadding = 3
 	#Should the min/max distance from spawn also affect colony placement? [Default: false]
@@ -134,7 +137,7 @@
 	#Colony size (radius in chunks around central colony chunk). Only for the static mode. [Default: 8]
 	#Range: 1 ~ 50
 	workingrangetownhallchunks = 8
-	#Padding between colonies in chunks. [Default: 1]
+	#Padding between colony claims in chunks, for Static claim mode only.. [Default: 1]
 	#Range: 1 ~ 200
 	townhallpaddingchunk = 1
 	#Should players be allowed to build their colonies over existing villages? [Default: false]
@@ -215,6 +218,8 @@
 	listofplantables = ["minecraft:sunflower", "minecraft:lilac", "minecraft:rose_bush", "minecraft:peony", "minecraft:tall_grass", "minecraft:large_fern", "minecraft:fern", "minecraft:sugar_cane", "minecraft:cactus", "small_flowers"]
 	#minecolonies.config.siftableblocks.comment
 	siftableblocks = ["minecraft:dirt", "minecraft:sand", "minecraft:gravel", "minecraft:soul_sand"]
+	#All diseases citizens can get. The name, how common it is, and all ingredients to cure it.
+	diseases = ["Influenza,100,minecraft:carrot,minecraft:potato", "Measles,10,minecraft:dandelion,minecraft:kelp,minecraft:poppy", "Smallpox,1,minecraft:honeycomb,minecraft:golden_apple"]
 	#minecolonies.config.configliststudyitems.comment
 	configliststudyitems = ["minecraft:paper;400;100"]
 	#The possible enchantments for the enchanter
