@@ -1,5 +1,5 @@
 
 [general]
 	#The material blacklist of this module.
-	materialBlacklist = ["platinum", "zinc", "bismuth", "uranium", "osmium", "tungsten", "iron", "gold", "copper", "tin", "silver", "lead", "nickel"]
+	materialBlacklist = ["*"]
 
