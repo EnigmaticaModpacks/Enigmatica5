@@ -5,11 +5,33 @@
 
 **Mod Additions**
 
-* MixinBootstrap (KubeJS dependency)
+- MixinBootstrap (KubeJS dependency)
+- Cycle Paintings [\#93](https://github.com/NillerMedDild/Enigmatica5/issues/93)
+- Easy Elytra Takeoff [\#92](https://github.com/NillerMedDild/Enigmatica5/issues/92)
+- Conduits Prevent Drowned [\#91](https://github.com/NillerMedDild/Enigmatica5/issues/91)
+- Botany Pots [\#86](https://github.com/NillerMedDild/Enigmatica5/issues/86)
+- Smaller Nether Portals [\#85](https://github.com/NillerMedDild/Enigmatica5/issues/85)
+- Nether Portal Spread [\#84](https://github.com/NillerMedDild/Enigmatica5/issues/84)
+- Bountiful [\#99](https://github.com/NillerMedDild/Enigmatica5/issues/99)
+- Simple Discord Rich Presence [\#97](https://github.com/NillerMedDild/Enigmatica5/issues/97)
+- Dungeon Crawl [\#96](https://github.com/NillerMedDild/Enigmatica5/issues/96)
+
+**Mod Removals**
+
+-  Waystones2Waypoints (It was an addon for Xaero's Maps that I forgot to remove)
 
 **Changes**
 
-* Removed Waystones2Waypoints (It was an addon for Xaero's Maps that I forgot to remove)
+- Dimensional Ore -\> Shards Enriching Recipe [\#95](https://github.com/NillerMedDild/Enigmatica5/issues/95)
+- Unify Silent's Mechanism Chunks [\#94](https://github.com/NillerMedDild/Enigmatica5/issues/94)
+- Unification for Gems [\#56](https://github.com/NillerMedDild/Enigmatica5/issues/56)
+
+**Bug fixes**
+
+- Uraninite cannot be veinmined \(by default\) [\#90](https://github.com/NillerMedDild/Enigmatica5/issues/90)
+- Blaze Rod Dupe [\#89](https://github.com/NillerMedDild/Enigmatica5/issues/89)
+- Biome Serialization NPE [\#83](https://github.com/NillerMedDild/Enigmatica5/issues/83)
+- Crash on World Load NBT PlayerPositionAndDimension [\#82](https://github.com/NillerMedDild/Enigmatica5/issues/82)
 
 ## Enigmatica 5 v0.3.7
 

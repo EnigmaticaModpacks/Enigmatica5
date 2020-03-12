@@ -1,3 +1,31 @@
+# 03.7 -> 0.3.8
+
+* Bookshelf-1.15.2-5.1.4.jar
+* BotanyPots-1.15.2-2.0.1.jar
+* Bountiful-3.0.0-1.15.2.jar
+* conduitsprdr_1.15.2-1.0.jar
+* curios-FORGE-1.15.2-2.0.1.jar
+* cyclepaintings_1.15-1.1.jar
+* DungeonCrawl-1.15.2-1.6.3.jar
+* easyelytrato_1.15-1.2.jar
+* EnchantmentDescriptions-1.15.2-2.0.4.jar
+* FastWorkbench-1.15.1-3.0.0.jar
+* ironchest-1.15.2-10.0.3.jar
+* Kottle-1.5.0.jar
+* kubejs-2.4.0.13.jar
+* minecolonies-0.10.758-BETA-universal.jar
+* mininggadgets-1.3.1.jar
+* MixinBootstrap-1.0.2.jar
+* Morpheus-1.15.2-4.2.50.jar
+* netherpspr_1.15.2-2.1.jar
+* OreExcavation-1.7.151.jar
+* SimpleDiscordRichPresence-1.15.2-1.2.4.jar
+* simplybackpacks-1.15.2-1.4.0.jar
+* smallernp_1.15.2-1.1.jar
+* structurize-0.10.274-ALPHA.jar
+* TerraForged-1.15.2-0.0.3.jar
+* ultra_amplified_dimension-1.15.2-7.2.4.jar
+
 # 0.3.6 -> 0.3.7
 
 * AttributeFix-1.15.2-7.0.1.jar
