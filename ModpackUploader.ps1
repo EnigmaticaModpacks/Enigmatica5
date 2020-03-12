@@ -50,15 +50,16 @@ if ($ENABLE_MANIFEST_BUILDER_MODULE) {
 }
 
 if ($ENABLE_CHANGELOG_GENERATOR_MODULE -and $ENABLE_MODPACK_UPLOADER_MODULE) {
-    $ChangelogGenerator = "ChangelogGenerator.jar"
+    $ChangelogGenerator = "ChangelogGenerator*.jar"
     if (!(Test-Path $ChangelogGenerator) -or $ENABLE_ALWAYS_UPDATE_JARS) {
         Remove-Item $ChangelogGenerator -Recurse -Force 
         Download-GithubRelease -repo "TheRandomLabs/ChangelogGenerator" -file $ChangelogGenerator
     }
     Remove-Item oldmanifest.json, manifest.json, shortchangelog.txt, MOD_CHANGELOGS.txt -ErrorAction SilentlyContinue
     sz e "$CLIENT_FILENAME`-$LAST_MODPACK_VERSION.zip" manifest.json
-    Rename-Item -Path manifest.json -NewName oldmanifest.json
+    Rename-Item -Path manifest.json -NewName old.json
     sz e "$CLIENT_FILENAME`-$MODPACK_VERSION.zip" manifest.json
+    Rename-Item -Path manifest.json -NewName new.json
 
     Clear-SleepHost
     Write-Host "######################################" -ForegroundColor Cyan
@@ -66,8 +67,8 @@ if ($ENABLE_CHANGELOG_GENERATOR_MODULE -and $ENABLE_MODPACK_UPLOADER_MODULE) {
     Write-Host "Generating changelog..." -ForegroundColor Green
     Write-Host ""
 
-    java -jar ChangelogGenerator.jar oldmanifest.json manifest.json
-    Rename-Item -Path changelog.txt -NewName MOD_CHANGELOGS.txt
+    java -jar ChangelogGenerator.jar
+	Move-Item -Path changelog.txt -Destination changelogs/CHANGELOG_MODS_$MODPACK_VERSION.txt
 }
 
 if ($ENABLE_GITHUB_CHANGELOG_GENERATOR_MODULE) {
