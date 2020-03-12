@@ -142,7 +142,7 @@ $ENABLE_SERVER_FILE_MODULE = $true
 # This module requires an older modpack manifest zip to be present, 
 # $LAST_MODPACK_VERSION must be set, and the manifest naming must be consistent.
 # Default: $false
-$ENABLE_CHANGELOG_GENERATOR_MODULE = $false
+$ENABLE_CHANGELOG_GENERATOR_MODULE = $true
 
 # Toggle removal and re-download of jars on/off.
 # Setting this to true will ensure that you always have the latest 
