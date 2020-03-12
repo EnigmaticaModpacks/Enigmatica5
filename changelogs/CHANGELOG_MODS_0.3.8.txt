@@ -1,0 +1,283 @@
+=======================================
+Enigmatica5 0.3.7 --> Enigmatica5 0.3.8
+=======================================
+
+Added:
+- Botany Pots
+- Bountiful
+- Conduits Prevent Drowned
+- Cycle Paintings
+- Dungeon Crawl
+- Easy Elytra Takeoff
+- Kottle
+- MixinBootstrap
+- Nether Portal Spread
+- Simple Discord Rich Presence
+- Smaller Nether Portals
+
+Updated:
+	Bookshelf (Bookshelf-1.15.2-5.0.1.jar --> Bookshelf-1.15.2-5.1.4.jar):
+		Bookshelf-1.15.2-5.1.4.jar:
+			 * Enabled server side recipe manager tracking on the client. - Tyler Hancock Huge thanks to my supporters on [Patreon](https://www.patreon.com/Darkhax?MCChangelog?Bookshelf)
+
+			 * Pongo Sapiens 
+			 * Darkosto 
+
+		Bookshelf-1.15.2-5.1.3.jar:
+			 * Ticked version number. - Tyler Hancock 
+			 * Added some enchantment base types with additional hooks. - Tyler Hancock 
+			 * Removed custom recipe type class in favour of existing vanilla class. - Tyler Hancock 
+			 * Added active recipe manager tracking. - Tyler Hancock 
+			 * Added packet utils for some collection serialization and for blockstates. - Tyler Hancock 
+			 * Added support for detecting blocks like composters which don't use tile entities but still have inventories. - Tyler Hancock Huge thanks to my supporters on [Patreon](https://www.patreon.com/Darkhax?MCChangelog?Bookshelf)
+
+			 * Pongo Sapiens 
+			 * Darkosto 
+
+		Bookshelf-1.15.2-5.0.2.jar:
+			 * Added some enchantment base types with additional hooks. - Tyler Hancock 
+			 * Removed custom recipe type class in favour of existing vanilla class. - Tyler Hancock 
+			 * Added active recipe manager tracking. - Tyler Hancock 
+			 * Added packet utils for some collection serialization and for blockstates. - Tyler Hancock 
+			 * Added support for detecting blocks like composters which don't use tile entities but still have inventories. - Tyler Hancock Huge thanks to my supporters on [Patreon](https://www.patreon.com/Darkhax?MCChangelog?Bookshelf)
+
+			 * Pongo Sapiens 
+			 * Darkosto 
+
+	Curios API (curios-FORGE-1.15.2-2.0.jar --> curios-FORGE-1.15.2-2.0.1.jar):
+		curios-FORGE-1.15.2-2.0.1.jar:
+			Changelog
+			All notable changes to this project will be documented in this file.
+			The format is based on [Keep a Changelog]() and this project does not adhere to [Semantic Versioning](). This project uses MCVERSION-MAJORMOD.MAJORAPI.MINOR.PATCH.
+			[2.0.1] - 2020.03.08
+			Added
+
+			 * [API] ICurio#onCurioAnimate - Called every tick client-side only while curio is equipped [2.0] - 2020.02.24
+			Fixed
+
+			 * Fixed compatibility issue with Ensorcellation's Soulbound enchantment [#41](https://github.com/TheIllusiveC4/Curios/issues/41) [2.0-beta2] - 2020.01.26
+			Changed
+
+			 * Updated to 1.15.2 Added
+
+			 * Re-added JEI integration 
+			 * Added Japanese localization (thanks MORIMORI0317!) Fixed
+
+			 * Fixed generic curio slot icon showing missing texture [2.0-beta] - 2019.12.30
+			Changed
+
+			 * Ported to 1.15.1 
+			 * [API] ICurio#doRender -> ICurio#render 
+			 * Curio rendering no longer automatically applies sneaking translations 
+			 * Curio slot icons need to be manually stitched into the block texture atlas 
+
+	Enchantment Descriptions (EnchantmentDescriptions-1.15.2-2.0.3.jar --> EnchantmentDescriptions-1.15.2-2.0.4.jar):
+		EnchantmentDescriptions-1.15.2-2.0.4.jar:
+			 * Update es_es.json - Tyler Hancock Like the mod? Consider following me on [Twitter](https://twitter.com/darkhaxdev) and joining the [Discord]()
+			Huge thanks to my supporters on [Patreon](https://www.patreon.com/Darkhax?MCChangelog?EnchantmentDescriptions)
+
+			 * Pongo Sapiens 
+			 * Darkosto 
+
+	Iron Chests (ironchest-1.15.2-10.0.2.jar --> ironchest-1.15.2-10.0.3.jar):
+		ironchest-1.15.2-10.0.3.jar:
+			Bugfixes:
+
+			 * Hopefully fix IronChests loading Altas's during mod construction. 
+			 * 
+			 * Please report any bugs obtained to our github via the issues button on curseforge. Please note that the Iron Shulker Box Variants have been moved to their own mod starting in 1.13.2. [Iron Shulker Boxes](https://www.curseforge.com/minecraft/mc-mods/iron-shulker-boxes)
+
+	KubeJS (kubejs-2.3.3.7.jar --> kubejs-2.4.0.13.jar):
+		kubejs-2.4.0.13.jar:
+			 * Changed tag event priority to HIGHEST - LatvianModder 
+
+		kubejs-2.4.0.12.jar:
+			 * Fixed tag adding and removing - LatvianModder 
+			 * Cleaned up some code, fixed all block property modifiers - LatvianModder 
+			 * Added client.showTagNames boolean, you can disable it if you don't want to see item tags under items when holding shift with advanced tooltips enabled - LatvianModder 
+
+		kubejs-2.4.0.11.jar:
+			 * KubeJS now requires Mixins to work - LatvianModder 
+			 * Removed Aurora integration and all documentation annotations. Replaced more things with access transformers - LatvianModder 
+
+	Minecolonies (minecolonies-0.10.743-BETA-universal.jar --> minecolonies-0.10.758-BETA-universal.jar):
+		minecolonies-0.10.758-BETA-universal.jar:
+			Minecolonies Changelog
+			Version: 0.10.758-BETA
+
+			 * Schematics115 (#4419) Fortress schematic fixes * Fix postbox shape, fix crusher crafting (#4409)
+			Fix postbox shape Fix crusher crafting on request Allow multiple supplycamps/ships styles Fix dman model Extend decoration block limit * Update zh_cn.json (#4401)
+			Fix chinese translation * Schematics115 (#4417)
+			Update and add building schematics
+
+		minecolonies-0.10.757-ALPHA-universal.jar:
+			Minecolonies Changelog
+			Version: 0.10.757-ALPHA
+
+			 * Schematics115 (#4419) Fortress schematic fixes
+
+		minecolonies-0.10.756-ALPHA-universal.jar:
+			Minecolonies Changelog
+			Version: 0.10.756-ALPHA
+
+			 * Fix postbox shape, fix crusher crafting (#4409) Fix postbox shape Fix crusher crafting on request Allow multiple supplycamps/ships styles Fix dman model Extend decoration block limit
+
+		minecolonies-0.10.755-ALPHA-universal.jar:
+			Minecolonies Changelog
+			Version: 0.10.755-ALPHA
+
+			 * Update zh_cn.json (#4401) Fix chinese translation
+
+		minecolonies-0.10.754-ALPHA-universal.jar:
+			Minecolonies Changelog
+			Version: 0.10.754-ALPHA
+
+			 * Schematics115 (#4417) Update and add building schematics
+
+		minecolonies-0.10.753-BETA-universal.jar:
+			Minecolonies Changelog
+			Version: 0.10.753-BETA
+
+			 * reset check to fix fuel issues 
+			 * hotfix #4411 
+
+		minecolonies-0.10.752-ALPHA-universal.jar:
+			Minecolonies Changelog
+			Version: 0.10.752-ALPHA
+
+			 * reset check to fix fuel issues 
+
+		minecolonies-0.10.751-ALPHA-universal.jar:
+			Minecolonies Changelog
+			Version: 0.10.751-ALPHA
+
+			 * hotfix #4411 
+
+		minecolonies-0.10.750-BETA-universal.jar:
+			Minecolonies Changelog
+			Version: 0.10.750-BETA
+
+			 * Builder fixes (#4404) This PR aims to improve some builder handling:
+			Always call the connectBlockToBuilding even if we already have it. This allows to re-register things if they failed earlier.
+			Some blocks like glasspains might get lost in an upgrade only because the new glasspane got a different blockstate. We should avoid this. * hotfix hospital recipe * hotfix raider crash * add loottable and recipe * Feature/hospital (#4396)
+			This adds some new mechanic to the game: Diseases
+			Citizens may now get certain diseases.
+			What kind of diseases and what they can be cured with can be configured in the config file. How often a citizen gets a disease can also be configured Certain jobs have an increased risk The more citizens a colony have the higher the risk is too. There is a random chance for citizens to heal miraculously There is now a hospital:
+			Healer worker heals citizens with illnesses For that he requests the cure items from the colony There is a random chance (depending on his level) to heal citizens without needing the cure Citizens with low HP < 2 hearts also go to the hospital to get healed Healer also heals players with low HP if the healer has nothing to do it will go visit the colony to find citizens with low HP closeby (40 blocks distance per building level). Changes proposed in this pull request: Adds diseases and healer Fix placement handler for barrackstower substitution blocks Fix University Research switching
+
+		minecolonies-0.10.748-ALPHA-universal.jar:
+			Minecolonies Changelog
+			Version: 0.10.748-ALPHA
+
+			 * Builder fixes (#4404) This PR aims to improve some builder handling:
+			Always call the connectBlockToBuilding even if we already have it. This allows to re-register things if they failed earlier.
+			Some blocks like glasspains might get lost in an upgrade only because the new glasspane got a different blockstate. We should avoid this.
+
+		minecolonies-0.10.747-ALPHA-universal.jar:
+			Minecolonies Changelog
+			Version: 0.10.747-ALPHA
+
+			 * hotfix hospital recipe 
+
+		minecolonies-0.10.746-ALPHA-universal.jar:
+			Minecolonies Changelog
+			Version: 0.10.746-ALPHA
+
+			 * hotfix raider crash 
+
+		minecolonies-0.10.745-ALPHA-universal.jar:
+			Minecolonies Changelog
+			Version: 0.10.745-ALPHA
+
+			 * add loottable and recipe 
+
+		minecolonies-0.10.744-ALPHA-universal.jar:
+			Minecolonies Changelog
+			Version: 0.10.744-ALPHA
+
+			 * Feature/hospital (#4396) This adds some new mechanic to the game: Diseases
+			Citizens may now get certain diseases.
+			What kind of diseases and what they can be cured with can be configured in the config file. How often a citizen gets a disease can also be configured Certain jobs have an increased risk The more citizens a colony have the higher the risk is too. There is a random chance for citizens to heal miraculously There is now a hospital:
+			Healer worker heals citizens with illnesses For that he requests the cure items from the colony There is a random chance (depending on his level) to heal citizens without needing the cure Citizens with low HP < 2 hearts also go to the hospital to get healed Healer also heals players with low HP if the healer has nothing to do it will go visit the colony to find citizens with low HP closeby (40 blocks distance per building level). Changes proposed in this pull request: Adds diseases and healer Fix placement handler for barrackstower substitution blocks Fix University Research switching
+
+	Mining Gadgets (MiningGadgets-1.3.0 --> MiningGadgets-1.3.1):
+		MiningGadgets-1.3.1:
+			Beta release now. Fixed a few bugs reporting in 1.3.0
+
+	Morpheus (Morpheus-1.15.2-4.2.47.jar --> Morpheus-1.15.2-4.2.50.jar):
+		Morpheus-1.15.2-4.2.50.jar:
+			 * Remove message confirming spawn point being set as vanilla now sends this when you set a new spawn. 
+
+		Morpheus-1.15.2-4.2.48.jar:
+			 * Calculate distance from spawn point more accurately 
+
+	Ore Excavation (OreExcavation-1.7.149.jar --> OreExcavation-1.7.151.jar):
+		OreExcavation-1.7.151.jar:
+			Added client side event for integration mods to implement context driven excavations
+			 Added several community translations (Japanese, Swedish, Spanish, Dutch)
+
+	Patchouli (Patchouli-1.15.2-1.2-27.jar --> Patchouli-1.15.2-1.2-28.jar):
+		Patchouli-1.15.2-1.2-28.jar:
+			- Reintroduce quick lookup feature from old botania lexicon
+			- Advancement locking now piggybacks off the vanilla advancement packet. As a result, "advancement_namespaces" is no longer required, and entries can now be gated on vanilla advancements
+			- For some reason the jar version of b27 was marked as b25, so this release is mostly to fix that.
+
+		Patchouli-1.15.2-1.2-27-FABRIC.jar:
+			Fabric version of Patchouli 1.2-27.
+			This Fabric port is mostly unsupported except in the case of major gamebreaking bugs. Please reproduce any minor bugs with the Forge version before reporting.
+			See [https://github.com/Vazkii/Patchouli/blob/1.15-fabric/README.md](https://github.com/Vazkii/Patchouli/blob/1.15-fabric/README.md) for more details.
+
+	Simply Backpacks (simplybackpacks-1.15.2-1.3.0.jar --> simplybackpacks-1.15.2-1.4.0.jar):
+		simplybackpacks-1.15.2-1.4.0.jar:
+			Hopefully fixed the void bug...
+
+	Structurize (structurize-0.10.272-ALPHA.jar --> structurize-0.10.274-ALPHA.jar):
+		structurize-0.10.274-ALPHA.jar:
+			Minecolonies Changelog
+			Version: 0.10.274-ALPHA
+
+			 * Tree view (#102)
+
+			 * Tree view
+
+		structurize-0.10.273-ALPHA.jar:
+			Minecolonies Changelog
+			Version: 0.10.273-ALPHA
+
+			 * Fix freemode handling (#101) 
+
+	TerraForged (0.0.2 --> 0.0.3):
+		0.0.3:
+			User Notice:
+			Please back-up your previous TerraForged worlds before updating the mod
+			Changes:
+
+			 * Added lang entries for biomes 
+			 * Improved river forks 
+			 * Improved debug logging for mod features Bug Fixes:
+
+			 * Issue#27 - Fixed biome lookup functionality that would return incorrect results for unloaded positions 
+			 * Fixed an internal issue where gen-regions would be incorrectly offset (also contributed to issue #27) 
+			 * Large mushrooms should now spawn again in dark forest biomes 
+
+	Ultra Amplified Dimension (Ultra Amplified Dimension V.7.2.3 (Forge 1.15.2) --> Ultra Amplified Dimension V.7.2.4 (Forge 1.15.2)):
+		Ultra Amplified Dimension V.7.2.4 (Forge 1.15.2):
+			 (V.7.2.4 Changes) (1.15.2 Minecraft)
+			 Biome:
+
+			 * -Optimized the surface builder for Netherland and desert/badlands biomes to increase performance. 
+			 * -Soulsand and gravel patches in Netherland are a bit more common and larger. 
+			 * -Optimized the large underground air pockets in Deserts and Badlands biomes. 
+			 * -Fixed bug where underground small lakes could get a layer of stone placed on top of the water weirdly. 
+			 * -Changed Air in caves and ravines to Cave Air even though it will have no impact for the player right now lol. Mojang might do something with Cave Air so it's better to spawn it underground so your worlds are ready for future MC versions. 
+			 * -Optimized/cleaned up code for containing water underground, Cave Cavity, Roots, and Vertical Columns a tad more in backend. 
+			 * -Fixed bug where exiting and re-entering world could cause Cave Cavity terrain to become disconnected.  MISC:
+
+			 * -Fixed bug that seemed to cause a very rare chance of a crash upon entering a world. 
+			 * -Cleaned up some code and registered Carvers, Placements, and SurfaceBuilders classes to the Forge registry in backend. 
+			 * -Registered some features that weren't registered before in Forge's registry in backend. 
+
+Removed:
+- Waystones2Waypoints
+
+Generated using [ChangelogGenerator 2.0.0-pre2](https://github.com/TheRandomLabs/ChangelogGenerator).
