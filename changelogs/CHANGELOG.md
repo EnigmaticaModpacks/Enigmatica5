@@ -1,3 +1,32 @@
+## Enigmatica 5 v0.3.9
+
+*Using Forge-1.15.2-31.1.17*
+
+**Mod Additions**
+
+- [Portality](https://www.curseforge.com/minecraft/mc-mods/portality)
+- [Ma Enchants](https://www.curseforge.com/minecraft/mc-mods/ma-enchants)
+- [Wither Skeleton Tweaks](https://www.curseforge.com/minecraft/mc-mods/wither-skeleton-tweaks)
+- [Give Mod](https://www.curseforge.com/minecraft/mc-mods/give-mod)
+- [Better Bedrock Generator](https://www.curseforge.com/minecraft/mc-mods/better-bedrock-generator)
+- [Snow Under Trees](https://www.curseforge.com/minecraft/mc-mods/snow-under-trees)
+- [YAMDA - Yet Another Mining Dimension Attempt](https://www.curseforge.com/minecraft/mc-mods/yamda)
+- [Softer Hay Bales](https://www.curseforge.com/minecraft/mc-mods/softer-hay-bales)
+- [NetherPortalFix](https://www.curseforge.com/minecraft/mc-mods/netherportalfix)
+- [Camera Mod](https://www.curseforge.com/minecraft/mc-mods/camera-mod)
+
+**Mod Removals**
+
+- No Recipe Book (KubeJS can now remove it, so I just did that)
+
+**Changes**
+
+- 
+
+**Bug fixes**
+
+-
+
 ## Enigmatica 5 v0.3.8
 
 *Using Forge-1.15.2-31.1.17*
