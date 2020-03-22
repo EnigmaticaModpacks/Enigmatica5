@@ -1,27 +1,46 @@
 ## Enigmatica 5 v0.3.9
 
-*Using Forge-1.15.2-31.1.17*
+*Using Forge-1.15.2-31.1.25*
 
 **Mod Additions**
 
 - [Portality](https://www.curseforge.com/minecraft/mc-mods/portality)
+
 - [Ma Enchants](https://www.curseforge.com/minecraft/mc-mods/ma-enchants)
+
 - [Wither Skeleton Tweaks](https://www.curseforge.com/minecraft/mc-mods/wither-skeleton-tweaks)
+
 - [Give Mod](https://www.curseforge.com/minecraft/mc-mods/give-mod)
+
 - [Better Bedrock Generator](https://www.curseforge.com/minecraft/mc-mods/better-bedrock-generator)
+
 - [Snow Under Trees](https://www.curseforge.com/minecraft/mc-mods/snow-under-trees)
-- [YAMDA - Yet Another Mining Dimension Attempt](https://www.curseforge.com/minecraft/mc-mods/yamda)
+
 - [Softer Hay Bales](https://www.curseforge.com/minecraft/mc-mods/softer-hay-bales)
-- [NetherPortalFix](https://www.curseforge.com/minecraft/mc-mods/netherportalfix)
+
+- [NetherPortalFix](https://www.curseforge.com/minecraft/mc-mods/netherportalfix) 
+
 - [Camera Mod](https://www.curseforge.com/minecraft/mc-mods/camera-mod)
+
+- [Extra Tags](https://www.curseforge.com/minecraft/mc-mods/extra-tags)
+
+- FTB Backups
+
+- FTB Quests (For future use, no quests yet I'm afraid)
+
+- FTB Chunks
+
 
 **Mod Removals**
 
 - No Recipe Book (KubeJS can now remove it, so I just did that)
+- BluePower
+- UTeamCore (Development tool)
+- World Generation Profiler (Development tool)
 
 **Changes**
 
-- 
+- Ore Excavation now works on trees - will be disabled once better tools are available in the pack.
 
 **Bug fixes**
 
