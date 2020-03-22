@@ -21,6 +21,8 @@
 	builderplaceconstructiontape = true
 	#Should builder and miner build without resources? (this also turns off what they produce). [Default: false]
 	builderinfiniteresources = false
+	#Whether to generate supply ship/camps in chests occasionally [Default: true]
+	generatesupplyloot = true
 	#Should players be allowed to abandon their colony to create a new one easily? [Default: false]
 	allowinfinitecolonies = false
 	#Child growth modifier, default on avg they take about 60min to grow (at 1.0x modifier). Setting to 5 = 5x as fast. [Default: 1]

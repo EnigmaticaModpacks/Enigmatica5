@@ -1,0 +1,12 @@
+#The time in milliseconds the camera will be on cooldown after taking an image
+#Range: > 100
+image_cooldown = 5000
+#The Item that is consumed when taking an image
+camera_consume_item = "{id:\"minecraft:paper\",Count:1b}"
+#The maximum size of an image in bytes when transferred to the server
+#Higher values mean more delay/lag between taking an image and getting it into your inventory
+#Range: 50000 ~ 1000000
+max_image_size = 200000
+#If it is allowed to upload custom images
+allow_image_upload = true
+

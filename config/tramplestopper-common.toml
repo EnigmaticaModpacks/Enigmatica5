@@ -8,7 +8,8 @@
 	blocks = 0.0
 	#When should farmland get trampled
 	#Never: Never trampled farmland
-	#Always: It Always get trampled (Set to this to allow for default behavior)
+	#Always: It Always get trampled
+	#Default: Normal behavior
 	#Feather Falling: Does not get trampled with you have feather falling boots
 	#Allowed Values: FEATHER_FALLING, NEVER, ALWAYS
 	type = "NEVER"

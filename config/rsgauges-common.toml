@@ -54,6 +54,8 @@
 		#Disable tile entity update() for environmental sensor switches.
 		#(for performance testing only, don't do this at home)
 		without_environmental_switch_update = false
+		#Disables Ester Eggs and other potential annoyances.
+		without_ester_eggs = false
 		#Disable tile entity update() for detector switches(for performance testing only, don't do this at home).
 		without_detector_switch_update = false
 		#Defines how far you or a link source switch can be away from the target to activate it. The value 0 means 'no limitation'.

@@ -1,6 +1,8 @@
 {
 	"scripts": [
 		{"file": "tags/constants.js"},
+		
+		{"file": "client/client.js"},
 
 		{"file": "tags/blocks/forge/stones.js"},
 		{"file": "tags/blocks/forge/ores.js"},

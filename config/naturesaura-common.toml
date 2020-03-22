@@ -47,6 +47,9 @@
 	#The location of the aura bar, where 0 is top left, 1 is top right, 2 is bottom left and 3 is bottom right
 	#Range: 0 ~ 3
 	auraBarLocation = 0
+	#The location of the aura cache bar, where 0 is to the left of the hotbar and 1 is to the right of the hotbar
+	#Range: 0 ~ 1
+	cacheBarLocation = 0
 	#The percentage of particles that should be displayed, where 1 is 100% and 0 is 0%
 	#Range: 0.0 ~ 1.0
 	particleAmount = 1.0

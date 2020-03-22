@@ -148,3 +148,10 @@
 		[modules.resource_production.fluid_collector]
 			enabled = true
 
+	#Random things that don't fit
+	[modules.misc]
+		enabled = true
+
+		[modules.misc.stasis_chamber]
+			enabled = true
+
