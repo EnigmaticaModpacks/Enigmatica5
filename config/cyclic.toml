@@ -1,6 +1,14 @@
 
-#General settings
+#Feature toggles
 [cyclic]
-	#Testing only, this does nothing
-	itemTooltip = true
+	#Disable these items
+	sandstoneGear = true
+	#Disable these items
+	gemObsidianGear = true
+	#Disable these items
+	emeraldGear = true
+	#Disable these items
+	netherbrickGear = true
+	#Disable this feature
+	enchantments = true
 
