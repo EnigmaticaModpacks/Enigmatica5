@@ -30,7 +30,7 @@
   "isUnlocked": true,
   "javaArgsOverride": null,
   "javaDirOverride": null,
-  "lastPlayed": "2020-03-22T19:35:00.3851174Z",
+  "lastPlayed": "2020-03-22T20:03:09.8038587Z",
   "manifest": null,
   "fileDate": "0001-01-01T00:00:00",
   "installedModpack": null,
@@ -74,6 +74,78 @@
       "queryTimestamp": "2020-03-22T18:34:11.7277229Z",
       "fileCount": 1,
       "fileSize": 4507
+    },
+    {
+      "folderName": "GenTest",
+      "fingerprint": 2561071437,
+      "fileDateHash": 1152154755,
+      "sectionID": 10,
+      "individualFingerprints": [
+        159563864,
+        193845931,
+        196802999,
+        323113851,
+        391076718,
+        438464621,
+        496497511,
+        660874201,
+        684876017,
+        688197382,
+        752253546,
+        763301875,
+        763558043,
+        884992578,
+        943258501,
+        945443183,
+        1087404596,
+        1138923680,
+        1254586642,
+        1321785602,
+        1339684269,
+        1540447798,
+        1591040356,
+        1635884482,
+        1772133580,
+        1783675463,
+        1878786507,
+        2071167904,
+        2111439651,
+        2263414751,
+        2369659789,
+        2449411464,
+        2526764496,
+        2573305100,
+        2653844868,
+        2702430682,
+        2745331458,
+        2762343297,
+        2787526529,
+        2794436560,
+        2903723354,
+        2947968694,
+        3084032362,
+        3091794999,
+        3102732308,
+        3116127440,
+        3166838802,
+        3398395433,
+        3474166647,
+        3516702014,
+        3519701472,
+        3626716073,
+        3664201240,
+        3779001161,
+        3897514917,
+        4100308851,
+        4150065028,
+        4233227778
+      ],
+      "status": 1,
+      "timestamp": "2020-03-22T20:02:33.6610843Z",
+      "lastWriteTimeUtc": "2020-03-22T20:02:32.3744525Z",
+      "queryTimestamp": "2020-03-22T20:02:34.509816Z",
+      "fileCount": 17,
+      "fileSize": 0
     },
     {
       "folderName": "ServerTabInfo-1.15.2-1.2.6.jar",
@@ -646,21 +718,6 @@
       "fileSize": 7374
     },
     {
-      "folderName": "embellishcraft-1.15.2-2.0.0.0.jar",
-      "fingerprint": 3768662236,
-      "fileDateHash": 1336276808,
-      "sectionID": 8,
-      "individualFingerprints": [
-        3768662236
-      ],
-      "status": 1,
-      "timestamp": "2020-03-20T19:35:29.2055289Z",
-      "lastWriteTimeUtc": "2020-03-16T20:44:28.5121449Z",
-      "queryTimestamp": "2020-03-22T18:34:11.7433303Z",
-      "fileCount": 1,
-      "fileSize": 4284028
-    },
-    {
       "folderName": "SilentMechanisms-1.15.2-0.7.0+50.jar",
       "fingerprint": 3001206716,
       "fileDateHash": 1627754137,
@@ -1071,14 +1128,16 @@
     },
     {
       "folderName": "Botania_r1.11-2399745.jar",
-      "fingerprint": 0,
+      "fingerprint": 1798818301,
       "fileDateHash": 3199537246,
       "sectionID": 8,
-      "individualFingerprints": null,
-      "status": 4,
-      "timestamp": "2020-03-22T19:31:56.3292272Z",
+      "individualFingerprints": [
+        1798818301
+      ],
+      "status": 1,
+      "timestamp": "2020-03-22T20:02:33.5862844Z",
       "lastWriteTimeUtc": "2020-03-22T19:31:49.477643Z",
-      "queryTimestamp": "0001-01-01T00:00:00",
+      "queryTimestamp": "2020-03-22T20:02:34.5288656Z",
       "fileCount": 1,
       "fileSize": 14611813
     },
@@ -1443,21 +1502,6 @@
       "fileSize": 5831039
     },
     {
-      "folderName": "mapperbase-1.15.2-1.0.0.0.jar",
-      "fingerprint": 2101847375,
-      "fileDateHash": 1802716827,
-      "sectionID": 8,
-      "individualFingerprints": [
-        2101847375
-      ],
-      "status": 1,
-      "timestamp": "2020-03-20T19:35:29.2414329Z",
-      "lastWriteTimeUtc": "2020-03-16T20:44:26.6085174Z",
-      "queryTimestamp": "2020-03-22T18:34:11.7589233Z",
-      "fileCount": 1,
-      "fileSize": 196332
-    },
-    {
       "folderName": "rsgauges-1.15.2-1.2.2-b2.jar",
       "fingerprint": 3948644181,
       "fileDateHash": 3630055099,
@@ -1471,6 +1515,21 @@
       "queryTimestamp": "2020-03-22T18:34:11.7589233Z",
       "fileCount": 1,
       "fileSize": 856183
+    },
+    {
+      "folderName": "AutoRegLib-1.5-39.jar",
+      "fingerprint": 719258107,
+      "fileDateHash": 2646050670,
+      "sectionID": 8,
+      "individualFingerprints": [
+        719258107
+      ],
+      "status": 1,
+      "timestamp": "2020-03-22T20:02:33.5862844Z",
+      "lastWriteTimeUtc": "2020-03-22T19:34:18.5797031Z",
+      "queryTimestamp": "2020-03-22T20:02:34.5358444Z",
+      "fileCount": 1,
+      "fileSize": 58646
     },
     {
       "folderName": "phosphor-mc1.15.2-forge-0.4.2-rc2.jar",
@@ -3521,7 +3580,7 @@
     }
   ],
   "isValid": true,
-  "lastPreviousMatchUpdate": "2020-03-22T19:30:27.3035534Z",
+  "lastPreviousMatchUpdate": "2020-03-22T20:02:35.2732999Z",
   "isEnabled": true,
   "isPinned": false,
   "gameVersion": "1.15.2",
@@ -7152,96 +7211,6 @@
       "dateInstalled": "2020-02-02T19:16:04.452557Z",
       "dateUpdated": "2020-02-02T19:16:04.4555724Z",
       "dateLastUpdateAttempted": "2020-02-02T19:16:04.4555724Z",
-      "status": 5,
-      "preferenceAutoInstallUpdates": false,
-      "preferenceAlternateFile": false,
-      "preferenceIsIgnored": false,
-      "isModified": false,
-      "isWorkingCopy": false,
-      "isFuzzyMatch": false,
-      "preferenceReleaseType": null,
-      "manifestName": null,
-      "installedTargets": null
-    },
-    {
-      "addonID": 317094,
-      "gameInstanceID": "81a1802a-dd56-4ac8-a98a-f6fb004088c4",
-      "installedFile": {
-        "id": 2902453,
-        "displayName": "embellishcraft-1.15.2-2.0.0.0.jar",
-        "fileName": "embellishcraft-1.15.2-2.0.0.0.jar",
-        "fileDate": "2020-03-15T16:22:11.007Z",
-        "fileLength": 4284028,
-        "releaseType": 1,
-        "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2902/453/embellishcraft-1.15.2-2.0.0.0.jar",
-        "isAlternate": false,
-        "alternateFileId": 2902454,
-        "dependencies": [
-          {
-            "id": 0,
-            "addonId": 367442,
-            "type": 3,
-            "fileId": 0
-          }
-        ],
-        "isAvailable": true,
-        "modules": [
-          {
-            "foldername": "META-INF",
-            "fingerprint": 474539085,
-            "type": 0
-          },
-          {
-            "foldername": "tv",
-            "fingerprint": 1579259466,
-            "type": 0
-          },
-          {
-            "foldername": ".cache",
-            "fingerprint": 3127129581,
-            "type": 0
-          },
-          {
-            "foldername": "assets",
-            "fingerprint": 3677330742,
-            "type": 0
-          },
-          {
-            "foldername": "data",
-            "fingerprint": 3512271675,
-            "type": 0
-          },
-          {
-            "foldername": "embellishcraft_logo.png",
-            "fingerprint": 2352963453,
-            "type": 0
-          },
-          {
-            "foldername": "pack.mcmeta",
-            "fingerprint": 4253522632,
-            "type": 0
-          }
-        ],
-        "packageFingerprint": 3768662236,
-        "gameVersion": [
-          "Forge",
-          "1.15.2"
-        ],
-        "hasInstallScript": false,
-        "isCompatibleWithClient": false,
-        "categorySectionPackageType": 0,
-        "restrictProjectFileAccess": 0,
-        "projectStatus": 0,
-        "projectId": 0,
-        "gameVersionDateReleased": "2019-08-01T00:00:00Z",
-        "gameId": 0,
-        "isServerPack": false,
-        "FileNameOnDisk": "embellishcraft-1.15.2-2.0.0.0.jar"
-      },
-      "dateInstalled": "2020-03-16T20:44:28.5250905Z",
-      "dateUpdated": "2020-03-16T20:44:28.5291168Z",
-      "dateLastUpdateAttempted": "2020-03-16T20:44:28.5291168Z",
       "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
@@ -12566,89 +12535,6 @@
       "dateInstalled": "2020-02-17T20:06:00.3260135Z",
       "dateUpdated": "2020-02-17T20:06:00.4340046Z",
       "dateLastUpdateAttempted": "2020-02-17T20:06:00.4340046Z",
-      "status": 5,
-      "preferenceAutoInstallUpdates": false,
-      "preferenceAlternateFile": false,
-      "preferenceIsIgnored": false,
-      "isModified": false,
-      "isWorkingCopy": false,
-      "isFuzzyMatch": false,
-      "preferenceReleaseType": null,
-      "manifestName": null,
-      "installedTargets": null
-    },
-    {
-      "addonID": 367442,
-      "gameInstanceID": "81a1802a-dd56-4ac8-a98a-f6fb004088c4",
-      "installedFile": {
-        "id": 2902386,
-        "displayName": "mapperbase-1.15.2-1.0.0.0.jar",
-        "fileName": "mapperbase-1.15.2-1.0.0.0.jar",
-        "fileDate": "2020-03-15T14:29:29.12Z",
-        "fileLength": 196332,
-        "releaseType": 1,
-        "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2902/386/mapperbase-1.15.2-1.0.0.0.jar",
-        "isAlternate": false,
-        "alternateFileId": 2902387,
-        "dependencies": [],
-        "isAvailable": true,
-        "modules": [
-          {
-            "foldername": "META-INF",
-            "fingerprint": 2721698577,
-            "type": 0
-          },
-          {
-            "foldername": "tv",
-            "fingerprint": 1457200817,
-            "type": 0
-          },
-          {
-            "foldername": ".cache",
-            "fingerprint": 3112579718,
-            "type": 0
-          },
-          {
-            "foldername": "assets",
-            "fingerprint": 3251498687,
-            "type": 0
-          },
-          {
-            "foldername": "data",
-            "fingerprint": 1159599344,
-            "type": 0
-          },
-          {
-            "foldername": "mapperbase_logo.png",
-            "fingerprint": 2147813751,
-            "type": 0
-          },
-          {
-            "foldername": "pack.mcmeta",
-            "fingerprint": 233047421,
-            "type": 0
-          }
-        ],
-        "packageFingerprint": 2101847375,
-        "gameVersion": [
-          "Forge",
-          "1.15.2"
-        ],
-        "hasInstallScript": false,
-        "isCompatibleWithClient": false,
-        "categorySectionPackageType": 0,
-        "restrictProjectFileAccess": 0,
-        "projectStatus": 0,
-        "projectId": 0,
-        "gameVersionDateReleased": "2019-08-01T00:00:00Z",
-        "gameId": 0,
-        "isServerPack": false,
-        "FileNameOnDisk": "mapperbase-1.15.2-1.0.0.0.jar"
-      },
-      "dateInstalled": "2020-03-16T20:44:26.6153172Z",
-      "dateUpdated": "2020-03-16T20:44:26.621331Z",
-      "dateLastUpdateAttempted": "2020-03-16T20:44:26.621331Z",
       "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
