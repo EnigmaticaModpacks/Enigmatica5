@@ -24,10 +24,10 @@ splashes = true
 	enabled = true
 
 [lexicon]
-	#Set this to false to disable the rotating items in the petal and rune entries in the Lexica Botania.
-	rotating_items = true
 	#Set this to true to enable justified text in the Lexica Botania's text pages.
 	justified_text = false
+	#Set this to false to disable the rotating items in the petal and rune entries in the Lexica Botania.
+	rotating_items = true
 	#Set this to false to disable the animated 3D render for the Lexica Botania.
 	render_3d = true
 
@@ -39,10 +39,10 @@ splashes = true
 	elf_portal = true
 
 [fancy_skybox]
-	#Set this to false to disable the fancy skybox in Garden of Glass
-	enabled = true
 	#Set this to true to enable the fancy skybox in non Garden of Glass worlds. (Does not require Garden of Glass loaded to use, needs 'fancy_skybox.enabled' to be true as well)
 	normal_worlds = false
+	#Set this to false to disable the fancy skybox in Garden of Glass
+	enabled = true
 
 [hud]
 

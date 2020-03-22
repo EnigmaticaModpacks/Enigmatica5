@@ -70,7 +70,18 @@
 
 [worldgen]
 
+	[worldgen.mushroom]
+		#The quantity of Botania mushrooms to generate underground, in the world, defaults to 40, the lower the number the less patches generate.
+		#Range: > 0
+		quantity = 0
+
 	[worldgen.flower]
+		#The inverse chance for a Botania flower patch to be generated, defaults to 16. The higher this value is the less patches will exist and the more flower each will have.
+		#Range: > 0
+		patchChance = 16
+		#The chance for a Botania flower generated in a patch to be a tall flower. 0.1 is 10%, 1 is 100%. Defaults to 0.05
+		#Range: 0.0 ~ 1.0
+		tallChance = 0.05
 		#The quantity of Botania flower patches to generate in the world, defaults to 2, the lower the number the less patches generate.
 		#Range: > 0
 		quantity = 2
@@ -80,17 +91,6 @@
 		#The size of each Botania flower patch, defaults to 6. The larger this is the farther the each patch can spread
 		#Range: > 0
 		patchSize = 6
-		#The inverse chance for a Botania flower patch to be generated, defaults to 16. The higher this value is the less patches will exist and the more flower each will have.
-		#Range: > 0
-		patchChance = 16
-		#The chance for a Botania flower generated in a patch to be a tall flower. 0.1 is 10%, 1 is 100%. Defaults to 0.05
-		#Range: 0.0 ~ 1.0
-		tallChance = 0.05
-
-	[worldgen.mushroom]
-		#The quantity of Botania mushrooms to generate underground, in the world, defaults to 40, the lower the number the less patches generate.
-		#Range: > 0
-		quantity = 40
 
 [gardenOfGlass]
 	#Set this to false to disable spawning with a Lexica Botania in Garden of Glass worlds, if you are modifying the modpack's progression to not start with Botania.
