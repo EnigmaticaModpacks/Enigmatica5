@@ -1,0 +1,79 @@
+
+#General settings
+[general]
+
+	#Powercell settings
+	[general.powercell]
+		#Maximum RF a single tier3 cell can hold
+		#Range: 1 ~ 2000000000
+		tier3MaxRF = 20000000
+		#Maximum RF/tick per side for a tier1 cell
+		#Range: 1 ~ 2000000000
+		tier1MaxRFPerTick = 250
+		#Maximum RF/tick per side for a tier3 cell
+		#Range: 1 ~ 2000000000
+		tier3MaxRFPerTick = 4000
+		#Maximum RF/tick per side for a tier2 cell
+		#Range: 1 ~ 2000000000
+		tier2MaxRFPerTick = 1000
+		#Maximum RF a single tier1 cell can hold
+		#Range: 1 ~ 2000000000
+		tier1MaxRF = 500000
+		#Maximum number of blocks in a single multiblock network
+		#Range: 1 ~ 2000000000
+		networkMax = 729
+		#Maximum RF a single tier2 cell can hold
+		#Range: 1 ~ 2000000000
+		tier2MaxRF = 4000000
+		#How much extra RF/tick every cell gets per cell in the network. 0 means constant RF/t. 1 means linear with amount of cells
+		#Range: 0.0 ~ 100.0
+		rfPerTickScale = 0.25
+
+	#Settings for the powercell
+	[general.dimensionalcell]
+		#At this distance the cost factor will be maximum. This value is also used when power is extracted from cells in different dimensions
+		#Range: 0.0 ~ 1.0E9
+		powerCellDistanceCap = 10000.0
+		#The maximum cost factor for extracting energy out of a powercell for blocks in other dimensions or farther away then 10000 blocks
+		#Range: 0.0 ~ 1.0E9
+		powerCellCostFactor = 1.1
+		#Maximum RF storage that a single cell can hold
+		#Range: > 0
+		rfPerNormalCell = 1000000
+		#How much better is the advanced cell with RF and RF/t
+		#Range: > 0
+		advancedFactor = 4
+		#RF per tick that the powrcell can charge items with
+		#Range: > 0
+		powercellChargePerTick = 30000
+		#A multiplier for the distance if RFTools dimensions are involved. If both sides are RFTools dimensions then this multiplier is done twice
+		#Range: 0.0 ~ 1.0E9
+		powerCellRFToolsDimensionAdvantage = 0.5
+		#As soon as powercells are not connected this value will be taken as the minimum distance to base the cost factor from
+		#Range: 0.0 ~ 1.0E9
+		powerCellMinDistance = 100.0
+		#How much worse is the simple cell with RF and RF/t
+		#Range: > 0
+		simpleFactor = 4
+		#Base amount of RF/tick that can be extracted/inserted in this block
+		#Range: > 0
+		rfPerTick = 5000
+
+	#Coal generator settings
+	[general.coalgenerator]
+		#RF per tick that the generator can send
+		#Range: > 0
+		generatorRFPerTick = 2000
+		#Amount of ticks generated per coal
+		#Range: > 0
+		ticksPerCoal = 600
+		#Maximum RF storage that the generator can hold
+		#Range: > 0
+		generatorMaxRF = 500000
+		#RF per tick that the generator can charge items with
+		#Range: > 0
+		generatorChargePerTick = 1000
+		#Amount of RF generated per tick
+		#Range: > 0
+		generatePerTick = 60
+

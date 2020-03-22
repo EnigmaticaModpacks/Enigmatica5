@@ -1,0 +1,5 @@
+
+[general]
+	#The material blacklist of this module.
+	materialBlacklist = ["salt", "lapis_lazuli", "nether_brick", "obsidian", "brick", "wood", "neptunium"]
+
