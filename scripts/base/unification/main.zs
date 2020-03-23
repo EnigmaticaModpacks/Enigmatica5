@@ -506,11 +506,12 @@ var modPriorities as string[] = [
 	"mekanism",
     "jaopca",
     "kubejs",
-    "bluepower",
     "botania",
     "mysticalworld",
     "tmechworks",
-    "industrialforegoing"
+    "industrialforegoing",
+    "botania",
+    "quark"
 ];
 
 for material, types in materials {
