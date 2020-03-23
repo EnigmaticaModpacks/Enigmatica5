@@ -1,0 +1,395 @@
+{
+  "rivers": {
+    "value": {
+      "tertiaryRivers": {
+        "value": {
+          "fade": {
+            "value": 0.75
+          },
+          "maxBankHeight": {
+            "value": 4
+          },
+          "minBankHeight": {
+            "value": 1
+          },
+          "bedDepth": {
+            "value": 3
+          },
+          "bankWidth": {
+            "value": 10
+          },
+          "bedWidth": {
+            "value": 4
+          }
+        }
+      },
+      "riverFrequency": {
+        "value": 1.0
+      },
+      "secondaryRiver": {
+        "value": {
+          "fade": {
+            "value": 0.75
+          },
+          "maxBankHeight": {
+            "value": 6
+          },
+          "minBankHeight": {
+            "value": 1
+          },
+          "bedDepth": {
+            "value": 4
+          },
+          "bankWidth": {
+            "value": 15
+          },
+          "bedWidth": {
+            "value": 5
+          }
+        }
+      },
+      "primaryRivers": {
+        "value": {
+          "fade": {
+            "value": 0.75
+          },
+          "maxBankHeight": {
+            "value": 8
+          },
+          "minBankHeight": {
+            "value": 2
+          },
+          "bedDepth": {
+            "value": 5
+          },
+          "bankWidth": {
+            "value": 25
+          },
+          "bedWidth": {
+            "value": 8
+          }
+        }
+      }
+    }
+  },
+  "features": {
+    "value": {
+      "strataDecorator": {
+        "value": "false"
+      },
+      "naturalSnowDecorator": {
+        "value": "true"
+      },
+      "smoothLayerDecorator": {
+        "value": "true"
+      },
+      "erosionDecorator": {
+        "value": "true"
+      },
+      "customBiomeFeatures": {
+        "value": "true"
+      }
+    }
+  },
+  "structures": {
+    "value": {
+      "villageDistance": {
+        "value": 2
+      },
+      "strongholdSpread": {
+        "value": 3
+      },
+      "oceanMonumentSeparation": {
+        "value": 3
+      },
+      "biomeStructureDistance": {
+        "value": 4
+      },
+      "mansionDistance": {
+        "value": 3
+      },
+      "oceanMonumentSpacing": {
+        "value": 3
+      },
+      "strongholdDistance": {
+        "value": 3
+      }
+    }
+  },
+  "generator": {
+    "value": {
+      "world": {
+        "value": {
+          "seaLevel": {
+            "value": 63
+          },
+          "worldHeight": {
+            "value": 256
+          },
+          "oceanSize": {
+            "value": 0.25
+          }
+        }
+      },
+      "biome": {
+        "value": {
+          "biomeWarpStrength": {
+            "value": 70
+          },
+          "biomeSize": {
+            "value": 200
+          },
+          "biomeWarpScale": {
+            "value": 35
+          }
+        }
+      },
+      "land": {
+        "value": {
+          "mountainScale": {
+            "value": 950
+          },
+          "continentScale": {
+            "value": 4000
+          },
+          "regionSize": {
+            "value": 1000
+          }
+        }
+      },
+      "biomeEdgeNoise": {
+        "value": {
+          "octaves": {
+            "value": 2
+          },
+          "strength": {
+            "value": 24
+          },
+          "scale": {
+            "value": 8
+          },
+          "type": {
+            "value": "PERLIN"
+          },
+          "lacunarity": {
+            "value": 2.5
+          },
+          "gain": {
+            "value": 0.5
+          }
+        }
+      }
+    }
+  },
+  "climate": {
+    "value": {
+      "temperature": {
+        "value": {
+          "min": {
+            "value": 0.0
+          },
+          "max": {
+            "value": 1.0
+          }
+        }
+      },
+      "moisture": {
+        "value": {
+          "min": {
+            "value": 0.0
+          },
+          "max": {
+            "value": 1.0
+          }
+        }
+      }
+    }
+  },
+  "filters": {
+    "value": {
+      "erosion": {
+        "value": {
+          "erosionRate": {
+            "value": 0.5
+          },
+          "depositeRate": {
+            "value": 0.2
+          },
+          "iterations": {
+            "value": 12000
+          }
+        }
+      },
+      "smoothing": {
+        "value": {
+          "smoothingRadius": {
+            "value": 1.75
+          },
+          "smoothingRate": {
+            "value": 0.85
+          },
+          "iterations": {
+            "value": 1
+          }
+        }
+      }
+    }
+  },
+  "version": {
+    "value": 1
+  },
+  "terrain": {
+    "value": {
+      "badlands": {
+        "value": {
+          "baseScale": {
+            "value": 1.0
+          },
+          "verticalScale": {
+            "value": 1.0
+          },
+          "horizontalScale": {
+            "value": 1.0
+          },
+          "weight": {
+            "value": 2.0
+          }
+        }
+      },
+      "mountains": {
+        "value": {
+          "baseScale": {
+            "value": 1.0
+          },
+          "verticalScale": {
+            "value": 1.0
+          },
+          "horizontalScale": {
+            "value": 1.0
+          },
+          "weight": {
+            "value": 0.5
+          }
+        }
+      },
+      "globalVerticalScale": {
+        "value": 0.985
+      },
+      "dales": {
+        "value": {
+          "baseScale": {
+            "value": 1.0
+          },
+          "verticalScale": {
+            "value": 1.0
+          },
+          "horizontalScale": {
+            "value": 1.0
+          },
+          "weight": {
+            "value": 2.0
+          }
+        }
+      },
+      "globalHorizontalScale": {
+        "value": 1.0
+      },
+      "plains": {
+        "value": {
+          "baseScale": {
+            "value": 1.0
+          },
+          "verticalScale": {
+            "value": 1.0
+          },
+          "horizontalScale": {
+            "value": 1.0
+          },
+          "weight": {
+            "value": 5.0
+          }
+        }
+      },
+      "hills": {
+        "value": {
+          "baseScale": {
+            "value": 1.0
+          },
+          "verticalScale": {
+            "value": 1.0
+          },
+          "horizontalScale": {
+            "value": 1.0
+          },
+          "weight": {
+            "value": 2.0
+          }
+        }
+      },
+      "plateau": {
+        "value": {
+          "baseScale": {
+            "value": 1.0
+          },
+          "verticalScale": {
+            "value": 1.0
+          },
+          "horizontalScale": {
+            "value": 1.0
+          },
+          "weight": {
+            "value": 2.0
+          }
+        }
+      },
+      "torridonian": {
+        "value": {
+          "baseScale": {
+            "value": 1.0
+          },
+          "verticalScale": {
+            "value": 1.0
+          },
+          "horizontalScale": {
+            "value": 1.0
+          },
+          "weight": {
+            "value": 0.5
+          }
+        }
+      },
+      "volcano": {
+        "value": {
+          "baseScale": {
+            "value": 1.0
+          },
+          "verticalScale": {
+            "value": 1.0
+          },
+          "horizontalScale": {
+            "value": 1.0
+          },
+          "weight": {
+            "value": 1.0
+          }
+        }
+      },
+      "steppe": {
+        "value": {
+          "baseScale": {
+            "value": 1.0
+          },
+          "verticalScale": {
+            "value": 1.0
+          },
+          "horizontalScale": {
+            "value": 1.0
+          },
+          "weight": {
+            "value": 5.0
+          }
+        }
+      }
+    }
+  }
+}

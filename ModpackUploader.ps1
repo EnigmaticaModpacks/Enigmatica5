@@ -35,10 +35,10 @@ function Clear-SleepHost {
     Clear-Host
 }
 
-Write-Host Removing non-default configs...
-Get-ChildItem -Path config -Exclude $CONFIGS_TO_KEEP | ForEach-Object {
-    Remove-Item -Path $_.FullName -Force -ErrorAction SilentlyContinue
-}
+# Write-Host Removing non-default configs...
+# Get-ChildItem -Path config -Exclude $CONFIGS_TO_KEEP | ForEach-Object {
+#     Remove-Item -Path $_.FullName -Force -ErrorAction SilentlyContinue
+# }
 
 if (-not (test-path "$env:ProgramFiles\7-Zip\7z.exe")) { throw "$env:ProgramFiles\7-Zip\7z.exe needed to use the ModpackUploader." } 
 Set-Alias sz "$env:ProgramFiles\7-Zip\7z.exe"

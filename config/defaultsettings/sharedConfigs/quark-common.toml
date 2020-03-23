@@ -31,7 +31,7 @@
 	Tools = true
 	Management = true
 	World = true
-	Client = true
+	Client = false
 
 [automation]
 	Chute = true

@@ -1,0 +1,51 @@
+
+#Values for the maxhealth attribute.
+[maxhealth]
+	#Range: 4.9E-324 ~ 1.7976931348623157E308
+	max = 65536.0
+
+#Values for the followrange attribute.
+[followrange]
+	#Range: 4.9E-324 ~ 1.7976931348623157E308
+	max = 65536.0
+
+#Values for the knockbackresistance attribute.
+[knockbackresistance]
+	#Range: 4.9E-324 ~ 1.7976931348623157E308
+	max = 65536.0
+
+#Values for the movementspeed attribute.
+[movementspeed]
+	#Range: 4.9E-324 ~ 1.7976931348623157E308
+	max = 65536.0
+
+#Values for the flyingspeed attribute.
+[flyingspeed]
+	#Range: 4.9E-324 ~ 1.7976931348623157E308
+	max = 65536.0
+
+#Values for the attackdamage attribute.
+[attackdamage]
+	#Range: 4.9E-324 ~ 1.7976931348623157E308
+	max = 65536.0
+
+#Values for the attackspeed attribute.
+[attackspeed]
+	#Range: 4.9E-324 ~ 1.7976931348623157E308
+	max = 65536.0
+
+#Values for the armor attribute.
+[armor]
+	#Range: 4.9E-324 ~ 1.7976931348623157E308
+	max = 65536.0
+
+#Values for the armortoughness attribute.
+[armortoughness]
+	#Range: 4.9E-324 ~ 1.7976931348623157E308
+	max = 65536.0
+
+#Values for the luck attribute.
+[luck]
+	#Range: 4.9E-324 ~ 1.7976931348623157E308
+	max = 65536.0
+

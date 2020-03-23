@@ -1,0 +1,20 @@
+
+[general]
+	#This is the Dimension Filter. It specifies which dimensions Unforgiving Void is active in. If it contains *, it is a blacklist. Otherwise, it is a whitelist.
+	dimensionFilter = ["*"]
+	#Drop obsidian for the player when they appear in the Nether.
+	dropObsidian = true
+	#The amount of damage applied to the player when they land in the Nether.
+	#Range: > 0
+	damageOnFall = 19
+	#Prevent death by fall damage when you fall to the Nether (limits damage to leave at least 0.5 hearts)
+	preventFallingDeath = true
+	#Attempt to place a platform for the player when they appear in the Nether above lava.
+	lavaPlatform = false
+	#The y level at which Unforgiving Void should send the player to the Nether.
+	#Range: > -2147483648
+	triggerAtY = -32
+	#The base offset from which the player will spawn from after falling through the void. This is not going to be the exact offset. Height is random.
+	#Range: > 1
+	baseDistanceOffset = 512
+

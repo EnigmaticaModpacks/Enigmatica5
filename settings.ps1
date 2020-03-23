@@ -3,11 +3,12 @@
 
 # Custom
 
-$CONFIGS_TO_KEEP = @(
-	"defaultsettings",
-	"packmenu.cfg",
-	"randompatches.toml"
-)
+# $CONFIGS_TO_KEEP = @(
+# 	"defaultsettings",
+# 	"defaultsettings.toml",
+# 	"packmenu.cfg",
+# 	"randompatches.toml"
+# )
 
 $CLIENT_MODS = @(
 	"AppleSkin", 
