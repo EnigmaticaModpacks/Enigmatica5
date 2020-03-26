@@ -2,39 +2,6 @@
   "ores": [],
   "stones": [
     {
-      "block": "minecraft:granite",
-      "size": 32,
-      "chance": 8,
-      "yMin": 2,
-      "yMax": 70,
-      "dimBlacklist": [
-        "the_nether",
-        "the_end"
-      ]
-    },
-    {
-      "block": "minecraft:diorite",
-      "size": 32,
-      "chance": 8,
-      "yMin": 2,
-      "yMax": 70,
-      "dimBlacklist": [
-        "the_nether",
-        "the_end"
-      ]
-    },
-    {
-      "block": "minecraft:andesite",
-      "size": 32,
-      "chance": 8,
-      "yMin": 2,
-      "yMax": 70,
-      "dimBlacklist": [
-        "the_nether",
-        "the_end"
-      ]
-    },
-    {
       "block": "quark:marble",
       "size": 32,
       "chance": 8,
