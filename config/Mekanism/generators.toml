@@ -2,30 +2,24 @@
 #Mekanism Generators Config. This config is synced between server and client.
 [generators]
 	#Peak output for the Advanced Solar Generator. Note: It can go higher than this value in some extreme environments.
-	#Range: 0.0 ~ 1.7976931348623157E308
-	advancedSolarGeneration = 300.0
+	advancedSolarGeneration = "300"
 	#Affects the Injection Rate, Max Temp, and Ignition Temp.
-	#Range: 0.0 ~ 1.7976931348623157E308
-	energyPerFusionFuel = 5000000.0
+	energyPerFusionFuel = "5000000"
 	#Amount of energy in Joules the Bio Generator produces per tick.
-	#Range: 0.0 ~ 1.7976931348623157E308
-	bioGeneration = 350.0
+	bioGeneration = "350"
 	#Peak output for the Solar Generator. Note: It can go higher than this value in some extreme environments.
-	#Range: 0.0 ~ 1.7976931348623157E308
-	solarGeneration = 50.0
+	solarGeneration = "50"
 
 	#Wind Generator Settings
 	[generators.wind_generator]
 		#Minimum base generation value of the Wind Generator.
-		#Range: 0.0 ~ 1.7976931348623157E308
-		windGenerationMin = 60.0
+		windGenerationMin = "60"
 		#The list of dimension ids that the Wind Generator will not generate power in.
 		windGenerationDimBlacklist = []
 		#The maximum Y value that affects the Wind Generators Power generation.
 		windGenerationMaxY = 255
 		#Maximum base generation value of the Wind Generator.
-		#Range: 0.0 ~ 1.7976931348623157E308
-		windGenerationMax = 480.0
+		windGenerationMax = "480"
 		#The minimum Y value that affects the Wind Generators Power generation.
 		windGenerationMinY = 24
 
@@ -43,12 +37,9 @@
 	#Heat Generator Settings
 	[generators.heat_generator]
 		#Add this amount of Joules to the energy produced by a heat generator if it is in the Nether.
-		#Range: 0.0 ~ 1.7976931348623157E308
-		heatGenerationNether = 100.0
+		heatGenerationNether = "100"
 		#Multiplier of effectiveness of Lava in the Heat Generator.
-		#Range: 0.0 ~ 1.7976931348623157E308
-		heatGenerationLava = 5.0
+		heatGenerationLava = "15"
 		#Amount of energy in Joules the Heat Generator produces per tick. (heatGenerationLava * heatGenerationLava) + heatGenerationNether
-		#Range: 0.0 ~ 1.7976931348623157E308
-		heatGeneration = 150.0
+		heatGeneration = "150"
 

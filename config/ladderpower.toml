@@ -1,0 +1,17 @@
+
+#General settings
+[ladderpower]
+
+	[ladderpower.ladder]
+		#Auto Ladder Building: Place a ladder on a ladder and it will build up or down depending where player is facing
+		autoBuild = true
+		#Auto Ladder Building: vertical range away from source placement
+		#Range: 1 ~ 64
+		autoBuildRange = 16
+		#Auto Ladder Building: true means allow invalid building places such as floating in midair
+		autoBuildInvalid = true
+
+	[ladderpower.rails]
+		#Auto Rail Building: Place a rail on a rail and it will build out depending where player is facing
+		autoBuild = true
+

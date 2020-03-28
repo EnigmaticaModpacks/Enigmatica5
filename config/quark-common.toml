@@ -360,12 +360,12 @@
 		"Max Speed" = 1.0
 
 [world]
-	"New Stone Types" = false
+	"New Stone Types" = true
 	"Lush Underground Biome" = true
 	"Big Dungeon" = true
 	Speleothems = true
 	Biotite = false
-	"Big Stone Clusters" = false
+	"Big Stone Clusters" = true
 	"Elder Prismarine Underground Biome" = true
 	"Brimstone Underground Biome" = true
 	"Blossom Trees" = true
@@ -375,7 +375,7 @@
 	"Overgrown Underground Biome" = true
 	"Cave Roots" = false
 	"Permafrost Underground Biome" = true
-	"Underground Clay" = false
+	"Underground Clay" = true
 	"Slime Underground Biome" = true
 	"Spider Nest Underground Biome" = true
 	"Monster Box" = true
@@ -704,9 +704,9 @@
 
 			[world.new_stone_types.marble.oregen]
 				"Max Height" = 256
-				"Cluster Count" = 10
+				"Cluster Count" = 5
 				"Min Height" = 0
-				"Cluster Size" = 33
+				"Cluster Size" = 32
 
 			[world.new_stone_types.marble.dimensions]
 				Dimensions = ["minecraft:overworld"]
@@ -716,9 +716,9 @@
 
 			[world.new_stone_types.basalt.oregen]
 				"Max Height" = 256
-				"Cluster Count" = 10
+				"Cluster Count" = 5
 				"Min Height" = 0
-				"Cluster Size" = 33
+				"Cluster Size" = 32
 
 			[world.new_stone_types.basalt.dimensions]
 				Dimensions = ["minecraft:the_nether"]
@@ -728,9 +728,9 @@
 
 			[world.new_stone_types.limestone.oregen]
 				"Max Height" = 256
-				"Cluster Count" = 10
+				"Cluster Count" = 5
 				"Min Height" = 0
-				"Cluster Size" = 33
+				"Cluster Size" = 32
 
 			[world.new_stone_types.limestone.dimensions]
 				Dimensions = ["minecraft:overworld"]
@@ -740,9 +740,9 @@
 
 			[world.new_stone_types.slate.oregen]
 				"Max Height" = 256
-				"Cluster Count" = 10
+				"Cluster Count" = 5
 				"Min Height" = 0
-				"Cluster Size" = 33
+				"Cluster Size" = 32
 
 			[world.new_stone_types.slate.dimensions]
 				Dimensions = ["minecraft:overworld"]
@@ -752,9 +752,9 @@
 
 			[world.new_stone_types.jasper.oregen]
 				"Max Height" = 256
-				"Cluster Count" = 10
+				"Cluster Count" = 5
 				"Min Height" = 0
-				"Cluster Size" = 33
+				"Cluster Size" = 32
 
 			[world.new_stone_types.jasper.dimensions]
 				Dimensions = ["minecraft:overworld"]
@@ -813,7 +813,7 @@
 	[world.blossom_trees]
 
 		[world.blossom_trees.orange]
-			Rarity = 100
+			Rarity = 200
 
 			[world.blossom_trees.orange.dimensions]
 				Dimensions = ["minecraft:overworld"]
@@ -824,7 +824,7 @@
 				"Is Blacklist" = false
 
 		[world.blossom_trees.pink]
-			Rarity = 100
+			Rarity = 200
 
 			[world.blossom_trees.pink.dimensions]
 				Dimensions = ["minecraft:overworld"]
@@ -857,7 +857,7 @@
 				"Is Blacklist" = false
 
 		[world.blossom_trees.lavender]
-			Rarity = 100
+			Rarity = 200
 
 			[world.blossom_trees.lavender.dimensions]
 				Dimensions = ["minecraft:overworld"]
