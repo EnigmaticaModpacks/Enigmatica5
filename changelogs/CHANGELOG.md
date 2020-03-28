@@ -1,8 +1,8 @@
-## Enigmatica 5 v0.3.9
+## Enigmatica 5 v0.4.0
 
-*Using Forge-1.15.2-31.1.25*
+*Using Forge-1.15.2-31.1.30*
 
-*[Mod List](https://github.com/NillerMedDild/Enigmatica5/blob/master/CHANGELOG_MODS_0.3.9.md)*
+*[Mod List](https://github.com/NillerMedDild/Enigmatica5/blob/master/CHANGELOG_MODS_0.4.0.txt)*
 
 **Mod Additions**
 
@@ -21,7 +21,19 @@
 - FTB Chunks
 - [Passthrough Signs](https://www.curseforge.com/minecraft/mc-mods/passthrough-signs)
 - [Modular Routers](https://www.curseforge.com/minecraft/mc-mods/modular-routers/)
-
+- Quark & Quark Oddities [\#135](https://github.com/NillerMedDild/Enigmatica5/issues/135)
+- Dude Where's My Horse [\#132](https://github.com/NillerMedDild/Enigmatica5/issues/132)
+- QuickStack [\#131](https://github.com/NillerMedDild/Enigmatica5/issues/131)
+- Scaffolding Behaviour [\#129](https://github.com/NillerMedDild/Enigmatica5/issues/129)
+- Extra Disks [\#116](https://github.com/NillerMedDild/Enigmatica5/issues/116)
+- Clumps  [\#115](https://github.com/NillerMedDild/Enigmatica5/issues/115)
+- Extreme Sound Muffler [\#114](https://github.com/NillerMedDild/Enigmatica5/issues/114)
+- Lithium [\#113](https://github.com/NillerMedDild/Enigmatica5/issues/113)
+- Phosphor [\#111](https://github.com/NillerMedDild/Enigmatica5/issues/111)
+- Cooking For Blockheads [\#109](https://github.com/NillerMedDild/Enigmatica5/issues/109)
+- More Dragon Eggs [\#108](https://github.com/NillerMedDild/Enigmatica5/issues/108)
+- Light Level Overlay [\#103](https://github.com/NillerMedDild/Enigmatica5/issues/103)
+- DefaultSettings [\#27](https://github.com/NillerMedDild/Enigmatica5/issues/27)
 
 **Mod Removals**
 
@@ -29,14 +41,17 @@
 - BluePower
 - UTeamCore (Development tool)
 - World Generation Profiler (Development tool)
+- Removed Lost Cities [\#123](https://github.com/NillerMedDild/Enigmatica5/issues/123)
 
 **Changes**
 
 - Ore Excavation now works on trees - will be disabled once better tools are available in the pack.
+- TerraForged Alter Stone Generation: More Stone, less Diorite, Granite etc [\#119](https://github.com/NillerMedDild/Enigmatica5/issues/119)
+- Configure and Update Nether Portal Spread [\#117](https://github.com/NillerMedDild/Enigmatica5/issues/117)
 
 **Bug fixes**
 
--
+* Terraforged Generates Mow Roofs  [\#112](https://github.com/NillerMedDild/Enigmatica5/issues/112)
 
 ## Enigmatica 5 v0.3.8
 
