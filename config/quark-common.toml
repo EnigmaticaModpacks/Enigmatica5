@@ -365,7 +365,7 @@
 	"Big Dungeon" = true
 	Speleothems = true
 	Biotite = false
-	"Big Stone Clusters" = true
+	"Big Stone Clusters" = false
 	"Elder Prismarine Underground Biome" = true
 	"Brimstone Underground Biome" = true
 	"Blossom Trees" = true
@@ -875,7 +875,7 @@
 
 		[world.underground_clay.ore_settings]
 			"Max Height" = 60
-			"Cluster Count" = 3
+			"Cluster Count" = 2
 			"Min Height" = 20
 			"Cluster Size" = 20
 
@@ -992,6 +992,7 @@
 			"Is Blacklist" = false
 
 	[mobs.toretoise]
+		"Disable Iron Farms" = false
 		"Max Y Level" = 32
 
 		[mobs.toretoise.spawn_config]
@@ -1095,7 +1096,22 @@
 		"Affect Leaves" = true
 
 [oddities]
+	Backpack = true
 	Pipes = true
+	Magnets = true
+
+	[oddities.magnets]
+		"Magnetic Blacklist" = ["minecraft:tripwire_hook"]
+		"Magnetic Whitelist" = ["minecraft:chipped_anvil", "minecraft:damaged_anvil"]
+		#Any items you place in this list will be derived so that any block made of it will become magnetizable
+		"Magnetic Derivation List" = ["minecraft:iron_ingot"]
+
+	[oddities.backpack]
+		"Enable Ravager Hide" = true
+		"Base Ravager Hide Drop" = 1
+		"Extra Chance Per Looting" = 0.5
+		#Set this to true to allow the backpacks to be unequipped even with items in them
+		"Super Op Mode" = false
 
 	[oddities.pipes]
 		#Set to 0 if you don't want pipes to have a max amount of items

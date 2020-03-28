@@ -9,7 +9,7 @@
 		#Range: 1 ~ 64
 		autoBuildRange = 16
 		#Auto Ladder Building: true means allow invalid building places such as floating in midair
-		autoBuildInvalid = true
+		autoBuildInvalid = false
 
 	[ladderpower.rails]
 		#Auto Rail Building: Place a rail on a rail and it will build out depending where player is facing
