@@ -2,7 +2,7 @@
 
 *Using Forge-1.15.2-31.1.30*
 
-*[Mod List](https://github.com/NillerMedDild/Enigmatica5/blob/master/CHANGELOG_MODS_0.4.0.txt)*
+*[Mod List](https://github.com/NillerMedDild/Enigmatica5/blob/master/changelogs/CHANGELOG_MODS_0.4.0.txt)*
 
 **Mod Additions**
 
@@ -56,7 +56,7 @@
 ## Enigmatica 5 v0.3.8
 
 *Using Forge-1.15.2-31.1.17*
-*[Mod List](https://github.com/NillerMedDild/Enigmatica5/blob/master/CHANGELOG_MODS_0.3.8.md)*
+*[Mod List](https://github.com/NillerMedDild/Enigmatica5/blob/master/changelogs/CHANGELOG_MODS_0.3.8.md)*
 
 **Mod Additions**
 
