@@ -1,4 +1,3 @@
-
 [Energy_Capacity]
 	#Range: 0 ~ 9000000000000000000
 	spiritedCap = 16000000
@@ -33,17 +32,16 @@
 
 [Energy_Generation]
 	#Range: 0 ~ 9000000000000000000
-	blazingGeneration = 8000
+	blazingGeneration = 600
 	#Range: 0 ~ 9000000000000000000
-	starterGeneration = 1200
+	starterGeneration = 75
 	#Range: 0 ~ 9000000000000000000
-	nitroGeneration = 64000
+	nitroGeneration = 4800
 	#Range: 0 ~ 9000000000000000000
-	hardenedGeneration = 4000
+	hardenedGeneration = 300
 	#Range: 0 ~ 9000000000000000000
-	spiritedGeneration = 32000
+	spiritedGeneration = 2400
 	#Range: 0 ~ 9000000000000000000
-	basicGeneration = 2000
+	basicGeneration = 150
 	#Range: 0 ~ 9000000000000000000
-	nioticGeneration = 16000
-
+	nioticGeneration = 1200
