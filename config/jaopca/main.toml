@@ -75,3 +75,10 @@
 	#The gamma value used to blend colors.
 	gammaValue = 2.0
 
+#Configurations related to material localization.
+[materialLocalization]
+	#The update interval of localization files in days.
+	updateInterval = 3.0
+	#Should the mod check for material localization updates.
+	checkL10nUpdates = true
+

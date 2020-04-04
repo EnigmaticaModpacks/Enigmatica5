@@ -74,6 +74,9 @@
   },
   "features": {
     "value": {
+      "vanillaWaterFeatures": {
+        "value": "false"
+      },
       "strataDecorator": {
         "value": "false"
       },
@@ -127,7 +130,7 @@
             "value": 256
           },
           "oceanSize": {
-            "value": 0.25
+            "value": 0.1
           }
         }
       },
@@ -147,13 +150,13 @@
       "land": {
         "value": {
           "mountainScale": {
-            "value": 950
+            "value": 985
           },
           "continentScale": {
-            "value": 4000
+            "value": 2498
           },
           "regionSize": {
-            "value": 1000
+            "value": 1005
           }
         }
       },
@@ -265,7 +268,7 @@
             "value": 1.0
           },
           "horizontalScale": {
-            "value": 1.0
+            "value": 2.01
           },
           "weight": {
             "value": 0.5
@@ -316,7 +319,7 @@
             "value": 1.0
           },
           "verticalScale": {
-            "value": 1.0
+            "value": 2.01
           },
           "horizontalScale": {
             "value": 1.0

@@ -196,6 +196,7 @@
 	"Ancient Tomes" = true
 	"Pathfinder Maps" = true
 	"Slime In A Bucket" = true
+	Camera = true
 	Trowel = true
 
 	[tools.trowel]
@@ -379,6 +380,7 @@
 	"Slime Underground Biome" = true
 	"Spider Nest Underground Biome" = true
 	"Monster Box" = true
+	Crevices = true
 	"Nether Obsidian Spikes" = true
 	"Mega Caves" = true
 
@@ -663,6 +665,29 @@
 			"Cluster Count" = 16
 			"Min Height" = 1
 			"Cluster Size" = 14
+
+	[world.crevices]
+
+		[world.crevices.spawn_settings]
+			"Horizontal Size" = 60
+			Rarity = 120
+			"Min Y Level" = 15
+			"Horizontal Variation" = 20
+			"Max Y Level" = 50
+			"Vertical Size" = 4
+			"Vertical Variation" = 1
+
+			[world.crevices.spawn_settings.biomes]
+				"Biome Types" = []
+				"Is Blacklist" = true
+
+			[world.crevices.spawn_settings.dimensions]
+				Dimensions = ["minecraft:overworld"]
+				"Is Blacklist" = false
+
+		[world.crevices.dimensions]
+			Dimensions = ["minecraft:overworld"]
+			"Is Blacklist" = false
 
 	[world.lush_underground_biome]
 
@@ -1096,9 +1121,20 @@
 		"Affect Leaves" = true
 
 [oddities]
+	"Totem Of Holding" = true
 	Backpack = true
 	Pipes = true
 	Magnets = true
+
+	[oddities.totem_of_holding]
+		#Set this to false to remove the behaviour where totems destroy themselves if the player dies again.
+		"Dark Souls Mode" = true
+		"Spawn Totem on PVP Kill" = false
+		#Set this to true to make it so that if a totem is destroyed, the items it holds are destroyed alongside it rather than dropped
+		"Destroy Lost Items" = false
+		"Enable Soul Compass" = true
+		#Set this to false to only allow the owner of a totem to collect its items rather than any player
+		"Allow Anyone To Collect" = true
 
 	[oddities.magnets]
 		"Magnetic Blacklist" = ["minecraft:tripwire_hook"]

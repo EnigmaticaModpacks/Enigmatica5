@@ -12,3 +12,10 @@
 	#Disable this feature
 	enchantments = true
 
+	[cyclic.energy]
+
+		[cyclic.energy.anvil]
+			#Power to repair one tick of durability
+			#Range: 1 ~ 64000
+			cost = 750
+
