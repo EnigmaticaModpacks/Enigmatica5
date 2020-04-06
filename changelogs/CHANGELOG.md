@@ -2,26 +2,38 @@
 
 ##### Note: You will get a message saying registries from Extreme Sound Muffler are missing. You can safely accept/confirm. Sound Muffling is now done through a button in the player inventory.
 
-*Using Forge-1.15.2-31.1.30*
+*Using Forge-1.15.2-31.1.37*
 
 *[Mod List](https://github.com/NillerMedDild/Enigmatica5/blob/master/changelogs/CHANGELOG_MODS_0.4.1.txt)*
 
 **Mod Additions**
 
-- 
-
-
-**Mod Removals**
-
-- 
+- Botania [\#157](https://github.com/NillerMedDild/Enigmatica5/issues/157)
+- Let Sleepings Dogs Lie [\#156](https://github.com/NillerMedDild/Enigmatica5/issues/156)
+- Just Enough Beacons [\#154](https://github.com/NillerMedDild/Enigmatica5/issues/154)
+- Tetra [\#153](https://github.com/NillerMedDild/Enigmatica5/issues/153)
+- Game Stages [\#151](https://github.com/NillerMedDild/Enigmatica5/issues/151)
+- Enigmatica Companion Mod [\#150](https://github.com/NillerMedDild/Enigmatica5/issues/150)
+- Vanilla Excavators [\#149](https://github.com/NillerMedDild/Enigmatica5/issues/149)
+- Dank Storage [\#147](https://github.com/NillerMedDild/Enigmatica5/issues/147)
+- FindMe [\#144](https://github.com/NillerMedDild/Enigmatica5/issues/144)
+- Building Gadgets [\#141](https://github.com/NillerMedDild/Enigmatica5/issues/141)
+- Save My Stronghold! [\#140](https://github.com/NillerMedDild/Enigmatica5/issues/140)
+- Neat [\#139](https://github.com/NillerMedDild/Enigmatica5/issues/139)
+- Transport [\#105](https://github.com/NillerMedDild/Enigmatica5/issues/105)
 
 **Changes**
 
-- 
+- Default hotkeys have been updated. This changes nothing for current worlds/installs. [\#138](https://github.com/NillerMedDild/Enigmatica5/issues/138)
+- TerraForged: Alter Stone Generation: More Stone, less Diorite, Granite etc [\#119](https://github.com/NillerMedDild/Enigmatica5/issues/119)
+- Log -\> Stripped Log Recipe [\#53](https://github.com/NillerMedDild/Enigmatica5/issues/53)
+
+
+
 
 **Bug fixes**
 
-- 
+- Server \(pack version 0.4.0\) won't load BoP biomes [\#143](https://github.com/NillerMedDild/Enigmatica5/issues/143)
 
 ## Enigmatica 5 v0.4.0
 
