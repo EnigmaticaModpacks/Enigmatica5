@@ -1,29 +1,29 @@
 
 #Client Config. This config only exists on the client
 [client]
-	#Allow sneak+scroll to change Configurator modes.
-	allowConfiguratorModeScroll = true
-	#Should active machines produce block light.
-	enableAmbientLighting = false
 	#Set to false to prevent particle spam when loading multiblocks (notification message will display instead).
 	enableMultiblockFormationParticles = true
 	#If enabled machines play their sounds while running.
 	enableMachineSounds = true
-	#If true, don't render Cables/Pipes/Tubes as transparent and don't render their contents.
-	opaqueTransmitters = false
-	#Christmas/New Years greetings in chat.
-	holidays = true
 	#Play sounds for Jetpack/Gas Mask/Flamethrower (all players).
 	enablePlayerSounds = true
 	#Adjust Mekanism sounds' base volume. < 1 is softer, higher is louder.
 	#Range: 0.0 ~ 3.4028234663852886E38
 	baseSoundVolume = 1.0
-	#Align HUD with left (if true) or right (if false)
-	alignHUDLeft = true
 	#Show particles when machines active.
 	machineEffects = true
 	#Enable item information HUD during gameplay
 	enableHUD = true
+	#Allow sneak + scroll to change item modes.
+	allowModeScroll = true
+	#Should active machines produce block light.
+	enableAmbientLighting = false
+	#If true, don't render Cables/Pipes/Tubes as transparent and don't render their contents.
+	opaqueTransmitters = false
+	#Christmas/New Years greetings in chat.
+	holidays = true
+	#Align HUD with left (if true) or right (if false)
+	alignHUDLeft = true
 	#How much light to produce if ambient lighting is enabled.
 	#Range: 1 ~ 15
 	ambientLightingLevel = 15
