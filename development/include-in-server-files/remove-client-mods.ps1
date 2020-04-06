@@ -1,27 +1,27 @@
 param(
 	[PSObject]
-	$ClientMods = @(
-		"AppleSkin", 
-		"BetterAdvancements",
-		"ClientTweaks",
-		"CraftingTweaks", 
-		"DefaultOptions", 
-		"DefaultSettings",
-		"EnchantmentDescriptions", 
-		"EquipmentTooltips", 
-		"FpsReducer", 
-		"JustEnoughResources",
-		"LLOverlayReloaded", 
-		"MouseTweaks",
-		"nmdar_", 
-		"Neat", 
-		"overloadedarmorbar", 
-		"ReAuth",
-		"ToastControl", 
-		"toughnessbar", 
-		"Xaeros_Minimap", 
-		"XaerosWorldMap")
-)
+$CLIENT_MODS = @(
+	"AppleSkin", 
+	"BetterAdvancements",
+	"ClientTweaks",
+	"CraftingTweaks", 
+	"DefaultOptions", 
+	"DefaultSettings",
+	"EnchantmentDescriptions", 
+	"EquipmentTooltips", 
+	"FpsReducer", 
+	"invtweaks",
+	"JustEnoughResources",
+	"LLOverlayReloaded", 
+	"MouseTweaks",
+	"nmdar_", 
+	"Neat", 
+	"overloadedarmorbar", 
+	"ReAuth",
+	"ToastControl", 
+	"toughnessbar", 
+	"Xaeros_Minimap", 
+	"XaerosWorldMap")
 
 $ModFolder = "$PSScriptRoot/mods"
 

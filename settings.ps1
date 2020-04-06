@@ -20,6 +20,7 @@ $CLIENT_MODS = @(
 	"EnchantmentDescriptions", 
 	"EquipmentTooltips", 
 	"FpsReducer", 
+	"invtweaks",
 	"JustEnoughResources",
 	"LLOverlayReloaded", 
 	"MouseTweaks",
