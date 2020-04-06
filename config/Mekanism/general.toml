@@ -43,6 +43,8 @@
 	dynamicTankEasterEgg = false
 	#Joules required by the Resistive Heater to produce one unit of heat. Also affects Thermoelectric Boiler's Water->Steam rate.
 	energyPerHeat = "1000"
+	#Energy cost/multiplier in Joules for reducing fall damage with free runners. Energy cost is: FallDamage * freeRunnerFallEnergyCost. (1 FallDamage is 1 half heart)
+	freeRunnerFallEnergyCost = "50"
 	#Should machines void the gas inside of them on load if there is no recipe using that gas. Note: Currently broken in 1.14 and always voids the gas.
 	voidInvalidGases = false
 	#Armor value of the Armored Jetpack.

@@ -1,5 +1,7 @@
 ## Enigmatica 5 v0.4.1
 
+##### Note: You will get a message saying registries from Extreme Sound Muffler are missing. You can safely accept/confirm. Sound Muffling is now done through a button in the player inventory.
+
 *Using Forge-1.15.2-31.1.30*
 
 *[Mod List](https://github.com/NillerMedDild/Enigmatica5/blob/master/changelogs/CHANGELOG_MODS_0.4.1.txt)*
