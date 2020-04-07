@@ -90,7 +90,7 @@ public function minecraft_smeltingAndBlasting_ingot_from_ore(material as string)
     var cookingTime = 200;
     blastFurnace.removeRecipe(ingot, ore);
     furnace.removeRecipe(ingot, ore);
-    blastFurnace.addRecipe("blasting_" + formatRecipeName(ingot) + "_from_ore", ingot, ore, xp, cookingTime);
+    blastFurnace.addRecipe("blasting_" + formatRecipeName(ingot) + "_from_ore", ingot, ore, xp, cookingTime / 2);
     furnace.addRecipe("smelting_" + formatRecipeName(ingot) + "_from_ore", ingot, ore, xp, cookingTime);
 }
 public function minecraft_smeltingAndBlasting_ingot_from_dust(material as string) as void {
@@ -113,7 +113,7 @@ public function minecraft_smeltingAndBlasting_ingot_from_dust(material as string
     var cookingTime = 200;
     blastFurnace.removeRecipe(ingot, dust);
     furnace.removeRecipe(ingot, dust);
-    blastFurnace.addRecipe("blasting_" + formatRecipeName(ingot) + "_from_dust", ingot, dust, xp, cookingTime);
+    blastFurnace.addRecipe("blasting_" + formatRecipeName(ingot) + "_from_dust", ingot, dust, xp, cookingTime / 2);
     furnace.addRecipe("smelting_" + formatRecipeName(ingot) + "_from_dust", ingot, dust, xp, cookingTime);
 }
 public function mekanism_enriching_dust_from_ore(material as string) as void {
