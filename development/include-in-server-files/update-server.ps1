@@ -13,6 +13,7 @@ $ModFolder = "$PSScriptRoot/mods"
 $WorldFolder = "$PSScriptRoot/world"
 $BackupFolder = "$PSScriptRoot/backups"
 $OverridesFolder = "$PSScriptRoot/overrides"
+$ThirdPartyModsFolder = "$PSScriptRoot/thirdpartymods"
 $BackupsToKeep = 10
 
 git fetch
@@ -69,5 +70,13 @@ git pull
 Get-ChildItem -Path $OverridesFolder -Recurse | ForEach-Object {
     $CopyFrom = $_.FullName
     $CopyTo = $_.FullName.Replace("\overrides", "")
+    Copy-Item -Path $CopyFrom -Destination $CopyTo -Force
+}
+
+$FromFolder = "\thirdpartymods"
+$DestinationFolder = "\mods"
+Get-ChildItem -Path $ThirdPartyModsFolder -Recurse | ForEach-Object {
+    $CopyFrom = $_.FullName
+    $CopyTo = $_.FullName.Replace($FromFolder, $DestinationFolder)
     Copy-Item -Path $CopyFrom -Destination $CopyTo -Force
 }
