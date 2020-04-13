@@ -1,5 +1,7 @@
 {
 	"scripts": [
+		{"file": "packmode.js"},
+		
 		{"file": "tags/constants.js"},
 		
 		{"file": "client/client.js"},
