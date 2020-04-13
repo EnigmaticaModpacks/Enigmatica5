@@ -6,7 +6,7 @@ import crafttweaker.api.tag.MCTag;
 import crafttweaker.api.BracketHandlers;
 
 var compressingRecipes as IItemStack[IItemStack] = {
-<item:tetra:forged_workbench> : <item:minecraft:anvil>
+    <item:tetra:forged_workbench> : <item:minecraft:anvil>
 };
 
 for output, input in compressingRecipes {
