@@ -17,15 +17,15 @@ var air = <item:minecraft:air>;
 var recipes as IIngredient[][][IItemStack] = {
     <item:tetra:hammer_base> : 
     [
-        [<tag:forge:ingots/steel>, <item:immersiveengineering:circuit_board>, <tag:forge:ingots/steel>], 
-        [<tag:forge:ingots/steel>, <item:immersiveengineering:hammer>, <tag:forge:ingots/steel>],
-        [<tag:forge:ingots/steel>, <item:immersiveengineering:circuit_board>, <tag:forge:ingots/steel>]
+        [<tag:forge:ingots/steel>, <tag:forge:circuits/basic>, <tag:forge:ingots/steel>], 
+        [<tag:forge:ingots/steel>, <tag:morevanillalib:tools>, <tag:forge:ingots/steel>],
+        [<tag:forge:ingots/steel>, <tag:forge:circuits/basic>, <tag:forge:ingots/steel>]
     ],
     <item:tetra:core_extractor> : 
     [
-        [<tag:forge:ingots/steel>, <item:immersiveengineering:rs_engineering>, <tag:forge:ingots/steel>], 
+        [<tag:forge:ingots/steel>, <tag:forge:circuits/basic>, <tag:forge:ingots/steel>], 
         [<tag:forge:ingots/steel>, <item:industrialforegoing:fluid_extractor>, <tag:forge:ingots/steel>],
-        [<tag:forge:ingots/steel>, <item:immersiveengineering:rs_engineering>, <tag:forge:ingots/steel>]
+        [<tag:forge:ingots/steel>, <tag:forge:circuits/basic>, <tag:forge:ingots/steel>]
     ]
 };
 
