@@ -1,0 +1,17 @@
+
+[general]
+	#Enable debug commands such as /veininfo, /clearworld, /findveins
+	debugCommands = true
+	#Stop all vanilla ore gen calls? Warning: this includes calls such as andesite/diorite, and potentially others that internally behave the same as ores. For more customization, see the disabled ores option.
+	noOres = false
+	#Enable veins in the default data pack. (This is the 'oreveins:default_veins' condition)
+	enableDefaultVeins = false
+	#Try to avoid placing veins on the edge of their range as defined by min / max y, so they don't get cut off at the border.
+	avoidVeinCutoffs = true
+	#Extra chunk search range when generating veins
+	#Use if your veins are getting cut off at chunk boundaries
+	#Range: 0 ~ 20
+	extraChunkRange = 0
+	#Vanilla ore gen to disable. Must be specified as a list of block states, i.e. minecraft:gold_ore, minecraft:iron_ore, etc.
+	disabledOres = []
+
