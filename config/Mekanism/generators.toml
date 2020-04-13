@@ -1,0 +1,45 @@
+
+#Mekanism Generators Config. This config is synced between server and client.
+[generators]
+	#Amount of energy in Joules the Bio Generator produces per tick.
+	bioGeneration = "350"
+	#Affects the Injection Rate, Max Temp, and Ignition Temp.
+	energyPerFusionFuel = "5000000"
+	#Peak output for the Solar Generator. Note: It can go higher than this value in some extreme environments.
+	solarGeneration = "50"
+	#Peak output for the Advanced Solar Generator. Note: It can go higher than this value in some extreme environments.
+	advancedSolarGeneration = "300"
+
+	#Heat Generator Settings
+	[generators.heat_generator]
+		#Amount of energy in Joules the Heat Generator produces per tick. (heatGenerationLava * heatGenerationLava) + heatGenerationNether
+		heatGeneration = "150"
+		#Multiplier of effectiveness of Lava in the Heat Generator.
+		heatGenerationLava = "15"
+		#Add this amount of Joules to the energy produced by a heat generator if it is in the Nether.
+		heatGenerationNether = "100"
+
+	#Turbine Settings
+	[generators.turbine]
+		#The number of blades on each turbine coil per blade applied.
+		turbineBladesPerCoil = 4
+		#The rate at which steam is vented into the turbine.
+		turbineVentGasFlow = 16000.0
+		#The rate at which steam is dispersed into the turbine.
+		turbineDisperserGasFlow = 640.0
+		#The rate at which steam is condensed in the turbine.
+		condenserRate = 32000
+
+	#Wind Generator Settings
+	[generators.wind_generator]
+		#Minimum base generation value of the Wind Generator.
+		windGenerationMin = "60"
+		#Maximum base generation value of the Wind Generator.
+		windGenerationMax = "480"
+		#The minimum Y value that affects the Wind Generators Power generation.
+		windGenerationMinY = 24
+		#The maximum Y value that affects the Wind Generators Power generation.
+		windGenerationMaxY = 255
+		#The list of dimension ids that the Wind Generator will not generate power in.
+		windGenerationDimBlacklist = []
+
