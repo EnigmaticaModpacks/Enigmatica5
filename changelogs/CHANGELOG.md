@@ -1,3 +1,29 @@
+## Enigmatica 5 v0.4.2
+
+*Using Forge-1.15.2-31.1.37*
+
+
+
+*[Mod Updates](https://github.com/NillerMedDild/Enigmatica5/blob/master/changelogs/CHANGELOG_MODS_0.4.2.txt)*
+
+
+
+**Mod Additions**
+
+- 
+
+**Mod Removals**
+
+- Unforgiving Void 
+
+**Changes**
+
+- Fixes some Blast Furnace recipes taking the same time as their Furnace equivalents
+
+**Bug fixes**
+
+- 
+
 ## Enigmatica 5 v0.4.1
 
 ##### Note: You will get a message saying registries from Extreme Sound Muffler are missing. You can safely accept/confirm. Sound Muffling is now done through a button in the player inventory.
@@ -27,8 +53,6 @@
 - Default hotkeys have been updated. This changes nothing for current worlds/installs. [\#138](https://github.com/NillerMedDild/Enigmatica5/issues/138)
 - TerraForged: Alter Stone Generation: More Stone, less Diorite, Granite etc [\#119](https://github.com/NillerMedDild/Enigmatica5/issues/119)
 - Log -\> Stripped Log Recipe [\#53](https://github.com/NillerMedDild/Enigmatica5/issues/53)
-
-
 
 
 **Bug fixes**
