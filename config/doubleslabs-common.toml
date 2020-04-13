@@ -4,4 +4,6 @@
 	#The list of slab types and variants to ignore when creating double slabs
 	#Example: minecraft:purpur_slab
 	slab_blacklist = []
+	#Whether to use the custom double slab when combining slabs of the same type
+	replace_same_slab = true
 

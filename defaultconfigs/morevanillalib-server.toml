@@ -10,6 +10,8 @@
 	damageByPaperTools = true
 	#If set true, (wither) skeletons will drop their head with a defined chance if killed with bone axe or sword.
 	headDrop = true
+	#If set true, glowstone tools will always drop 4 glowstone dust when breaking glowstone blocks.
+	glowstoneDrops = true
 	#If set true, using Fiery tools to mine blocks will smelt them.
 	autoSmelt = true
 
