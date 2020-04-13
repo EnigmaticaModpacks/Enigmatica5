@@ -43,6 +43,12 @@ var recipes as IIngredient[][][IItemStack] = {
         [air, <tag:forge:crops/potato>, air], 
         [<tag:forge:grain>, <item:aquaculture:fish_fillet_cooked>, <tag:forge:grain>],
         [air, <tag:forge:crops/potato>, air]
+    ],
+    <item:minecraft:furnace> : 
+    [
+        [<tag:forge:stone>, <tag:forge:stone>, <tag:forge:stone>], 
+        [<tag:forge:stone>, air, <tag:forge:stone>],
+        [<tag:forge:stone>, <tag:forge:stone>, <tag:forge:stone>]
     ]
 };
 
