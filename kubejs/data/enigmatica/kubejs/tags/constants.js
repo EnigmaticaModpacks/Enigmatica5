@@ -11,12 +11,12 @@ var oreUraninite = [
 ];
 
 var stoneBasalt = [
-    // 'quark:basalt', 
-    // 'quark:chiseled_basalt_bricks', 
-    // 'quark:basalt_pavement', 
-    // 'quark:basalt_pillar', 
-    // 'quark:polished_basalt', 
-    // 'quark:basalt_bricks', 
+    'quark:basalt', 
+    'quark:chiseled_basalt_bricks', 
+    'quark:basalt_pavement', 
+    'quark:basalt_pillar', 
+    'quark:polished_basalt', 
+    'quark:basalt_bricks', 
 ];
 
 var cobblestoneBasalt = [

@@ -1,4 +1,4 @@
-events.listen('server.datapack.tags.items', function (event) {
+events.listen('item.tags', function (event) {
     for (var i = 0; i < materials.length; i++) {
         for (var j = 0; j < materials[i].itemParts.length; j++) {
             var materialName = materials[i].name;
