@@ -1,6 +1,6 @@
 ## Enigmatica 5 v0.4.2
 
-*Using Forge-1.15.2-31.1.37*
+*Using Forge-1.15.2-31.1.44*
 
 
 
@@ -10,7 +10,13 @@
 
 **Mod Additions**
 
-- 
+- Everlasting Abilities [\#180](https://github.com/NillerMedDild/Enigmatica5/issues/180)
+- Common Capabilities [\#179](https://github.com/NillerMedDild/Enigmatica5/issues/179)
+- CapabilityProxy [\#178](https://github.com/NillerMedDild/Enigmatica5/issues/178)
+- Refined Pipes [\#171](https://github.com/NillerMedDild/Enigmatica5/issues/171)
+- Realistic Ore Veins (Not yet implemented) [\#165](https://github.com/NillerMedDild/Enigmatica5/issues/165)
+- StepUp \(Off by default\) [\#164](https://github.com/NillerMedDild/Enigmatica5/issues/164)
+- Quick Leaf Decay [\#159](https://github.com/NillerMedDild/Enigmatica5/issues/159)
 
 **Mod Removals**
 
@@ -19,10 +25,19 @@
 **Changes**
 
 - Fixes some Blast Furnace recipes taking the same time as their Furnace equivalents
+- Tetra Tier4/5 without worldgen (new recipes) [\#174](https://github.com/NillerMedDild/Enigmatica5/issues/174)
+- Nerf Ore Excavation - Apply higher hunger toll [\#169](https://github.com/NillerMedDild/Enigmatica5/issues/169)
+- Limit /home to 1 per player [\#168](https://github.com/NillerMedDild/Enigmatica5/issues/168)
+- Furnace can now be made with any type of Stone [\#167](https://github.com/NillerMedDild/Enigmatica5/issues/167)
+- Unlocked OreExcavation [\#166](https://github.com/NillerMedDild/Enigmatica5/issues/166)
+- Change TerraForged Worldgen Default [\#148](https://github.com/NillerMedDild/Enigmatica5/issues/148)
+- Powah Energy Cell Recipe & Energy Capacity Buffs [\#187](https://github.com/NillerMedDild/Enigmatica5/issues/187)
 
 **Bug fixes**
 
-- 
+- Drying Rack receipt confilct with wood flooring [\#177](https://github.com/NillerMedDild/Enigmatica5/issues/177)
+- multiple death handling mods [\#170](https://github.com/NillerMedDild/Enigmatica5/issues/170)
+- Unable to mine activated redstone with mining gadget [\#155](https://github.com/NillerMedDild/Enigmatica5/issues/155)
 
 ## Enigmatica 5 v0.4.1
 
