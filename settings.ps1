@@ -28,6 +28,7 @@ $CLIENT_MODS = @(
 	"Neat", 
 	"overloadedarmorbar", 
 	"ReAuth",
+	"StepUp",
 	"ToastControl", 
 	"toughnessbar", 
 	"Xaeros_Minimap", 
