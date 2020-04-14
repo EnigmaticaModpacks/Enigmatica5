@@ -2,6 +2,11 @@
 [misc]
 	#Enables commands & data reloading functionality useful for development, has a negative impact on performance
 	development = false
+	#If enabled and Curios is installed, Toolbelts will only work in the Curio belt slot
+	toolbelt_curio_only = false
+	#Multiplier for magic capacity gains, increasing this may be useful when having a large set enchantments added by other mods
+	#Range: 0.0 ~ 1.7976931348623157E308
+	magic_cap_multiplier = 1.0
 
 #World generation settings
 [worldgen]
