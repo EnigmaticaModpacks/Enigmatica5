@@ -285,6 +285,8 @@
 	steelarmour = ["minecraft:iron_ingot*64"]
 	#minecolonies.config.bandaid.comment
 	bandaid = ["minecraft:golden_carrot*1"]
+	#minecolonies.config.biodegradable.comment
+	biodegradable = ["minecraft:bone_meal*64"]
 	#minecolonies.config.healingcream.comment
 	healingcream = ["minecraft:golden_carrot*8"]
 	#minecolonies.config.masterbowman.comment
@@ -293,6 +295,8 @@
 	regeneration = ["minecraft:emerald*1"]
 	#minecolonies.config.hamlet.comment
 	hamlet = ["minecraft:cooked_beef*128"]
+	#minecolonies.config.compost.comment
+	compost = ["minecraft:wheat_seeds*256"]
 	#minecolonies.config.accuracy.comment
 	accuracy = ["minecraft:iron_ingot*1"]
 	#minecolonies.config.captaintraining.comment
@@ -303,8 +307,16 @@
 	ironarmour = ["minecraft:iron_ingot*32"]
 	#minecolonies.config.scholarly.comment
 	scholarly = ["minecraft:book*24"]
+	#minecolonies.config.skills.comment
+	skills = ["minecraft:iron_ingot*128"]
 	#minecolonies.config.cast.comment
 	cast = ["minecraft:golden_carrot*64"]
+	#minecolonies.config.stonecake.comment
+	stonecake = ["minecraft:chiseled_stone_bricks*64"]
+	#minecolonies.config.rockingroll.comment
+	rockingroll = ["minecraft:stone*64"]
+	#minecolonies.config.goodveins.comment
+	goodveins = ["minecraft:iron_ore*64"]
 	#minecolonies.config.circus.comment
 	circus = ["minecraft:cake*1"]
 	#minecolonies.config.glutton.comment
@@ -317,12 +329,16 @@
 	repost = ["minecraft:iron_ingot*32"]
 	#minecolonies.config.fear.comment
 	fear = ["minecraft:emerald*16"]
+	#minecolonies.config.lightning.comment
+	lightning = ["minecraft:redstone*2048"]
 	#minecolonies.config.spectacle.comment
 	spectacle = ["minecraft:cake*18"]
 	#minecolonies.config.cleave.comment
 	cleave = ["minecraft:iron_block*8"]
 	#minecolonies.config.compress.comment
 	compress = ["minecraft:golden_carrot*32"]
+	#minecolonies.config.dung.comment
+	dung = ["minecraft:wheat_seeds*128"]
 	#minecolonies.config.festival.comment
 	festival = ["minecraft:cake*9"]
 	#minecolonies.config.studious.comment
@@ -335,6 +351,8 @@
 	agilearcher = ["minecraft:diamond*64"]
 	#minecolonies.config.avoidance.comment
 	avoidance = ["minecraft:iron_block*3"]
+	#minecolonies.config.reinforced.comment
+	reinforced = ["minecraft:diamond*32"]
 	#minecolonies.config.resistance.comment
 	resistance = ["minecraft:golden_apple*1"]
 	#minecolonies.config.evasion.comment
@@ -345,32 +363,54 @@
 	quickdraw = ["minecraft:iron_block*2"]
 	#minecolonies.config.diligent.comment
 	diligent = ["minecraft:book*6"]
+	#minecolonies.config.rainman.comment
+	rainman = ["minecraft:salmon_bucket*27"]
 	#minecolonies.config.hormones.comment
 	hormones = ["minecraft:cooked_chicken*64"]
 	#minecolonies.config.city.comment
 	city = ["minecraft:cooked_beef*512"]
 	#minecolonies.config.morebooks.comment
 	morebooks = ["minecraft:book*6"]
+	#minecolonies.config.hot.comment
+	hot = ["minecraft:lava_bucket*4"]
+	#minecolonies.config.tools.comment
+	tools = ["minecraft:iron_ingot*256"]
+	#minecolonies.config.capacity.comment
+	capacity = ["minecolonies:blockminecoloniesrack*32"]
 	#minecolonies.config.livesaver2.comment
 	livesaver2 = ["minecraft:hay_block*64"]
 	#minecolonies.config.diamondskin.comment
 	diamondskin = ["minecraft:diamond*64"]
 	#minecolonies.config.rails.comment
 	rails = ["minecraft:rail*64"]
+	#minecolonies.config.ability.comment
+	ability = ["minecraft:iron_ingot*64"]
+	#minecolonies.config.hittingiron.comment
+	hittingiron = ["minecraft:anvil*1"]
+	#minecolonies.config.diamondcoated.comment
+	diamondcoated = ["minecraft:diamond*128"]
 	#minecolonies.config.fullretreat.comment
 	fullretreat = ["minecraft:emerald*64"]
 	#minecolonies.config.resilience.comment
 	resilience = ["minecraft:golden_apple*8"]
+	#minecolonies.config.veinminer.comment
+	veinminer = ["minecraft:iron_ore*32"]
 	#minecolonies.config.masterswordsman.comment
 	masterswordsman = ["minecraft:diamond*64"]
 	#minecolonies.config.stuffer.comment
 	stuffer = ["minecraft:cookie*128"]
+	#minecolonies.config.isthisredstone.comment
+	isthisredstone = ["minecraft:redstone*128"]
 	#minecolonies.config.improvedleather.comment
 	improvedleather = ["minecraft:leather*32"]
 	#minecolonies.config.dodge.comment
 	dodge = ["minecraft:leather*16"]
+	#minecolonies.config.recipebook.comment
+	recipebook = ["minecraft:paper*128"]
 	#minecolonies.config.beanstalk.comment
 	beanstalk = ["minecraft:cooked_chicken*512"]
+	#minecolonies.config.rtm.comment
+	rtm = ["minecraft:paper*256"]
 	#minecolonies.config.higherlearning.comment
 	higherlearning = ["minecraft:book*3"]
 	#minecolonies.config.phd.comment
@@ -379,18 +419,28 @@
 	piercingshot = ["minecraft:flint*64"]
 	#minecolonies.config.nurture.comment
 	nurture = ["minecraft:cooked_chicken*32"]
+	#minecolonies.config.memoryaid.comment
+	memoryaid = ["minecraft:paper*32"]
 	#minecolonies.config.reflective.comment
 	reflective = ["minecraft:book*48"]
 	#minecolonies.config.improvedbows.comment
 	improvedbows = ["minecraft:iron_block*6"]
+	#minecolonies.config.amazingveins.comment
+	amazingveins = ["minecraft:gold_ore*64"]
 	#minecolonies.config.improvedswords.comment
 	improvedswords = ["minecraft:iron_block*6"]
 	#minecolonies.config.opera.comment
 	opera = ["minecraft:cake*27"]
+	#minecolonies.config.whatisthisspeed.comment
+	whatisthisspeed = ["minecraft:redstone*1024"]
 	#minecolonies.config.stamina.comment
 	stamina = ["minecraft:carrot*1"]
+	#minecolonies.config.richveins.comment
+	richveins = ["minecraft:gold_ore*32"]
 	#minecolonies.config.improvedevasion.comment
 	improvedevasion = ["minecraft:diamond*16"]
+	#minecolonies.config.space.comment
+	space = ["minecolonies:blockminecoloniesrack*16"]
 	#minecolonies.config.boiledleather.comment
 	boiledleather = ["minecraft:leather*64"]
 	#minecolonies.config.whirlwind.comment
@@ -399,6 +449,8 @@
 	provost = ["minecraft:diamond*16"]
 	#minecolonies.config.preciseshot.comment
 	preciseshot = ["minecraft:flint*16"]
+	#minecolonies.config.steelbracing.comment
+	steelbracing = ["minecraft:diamond*64"]
 	#minecolonies.config.academic.comment
 	academic = ["minecraft:book*128"]
 	#minecolonies.config.vitality.comment
@@ -411,6 +463,12 @@
 	evade = ["minecraft:emerald*16"]
 	#minecolonies.config.puberty.comment
 	puberty = ["minecraft:cooked_chicken*128"]
+	#minecolonies.config.seemsautomatic.comment
+	seemsautomatic = ["minecraft:iron_ingot*512"]
+	#minecolonies.config.hardened.comment
+	hardened = ["minecraft:diamond*16"]
+	#minecolonies.config.woodwork.comment
+	woodwork = ["minecraft:oak_planks*64"]
 	#minecolonies.config.fortitude.comment
 	fortitude = ["minecraft:golden_apple*32"]
 	#minecolonies.config.gorger.comment
@@ -421,8 +479,14 @@
 	swift = ["minecraft:rabbit_foot*32"]
 	#minecolonies.config.improveddodge.comment
 	improveddodge = ["minecraft:leather*32"]
+	#minecolonies.config.theflintstones.comment
+	theflintstones = ["minecraft:stone_bricks*64"]
+	#minecolonies.config.sieving.comment
+	sieving = ["minecraft:string*64"]
 	#minecolonies.config.athlete.comment
 	athlete = ["minecraft:rabbit_foot*64"]
+	#minecolonies.config.flowerpower.comment
+	flowerpower = ["minecolonies:compost*64"]
 	#minecolonies.config.nimble.comment
 	nimble = ["minecraft:rabbit_foot*1"]
 	#minecolonies.config.epicure.comment
@@ -439,12 +503,16 @@
 	keen = ["minecraft:book*3"]
 	#minecolonies.config.firstaid.comment
 	firstaid = ["minecraft:hay_block*8"]
+	#minecolonies.config.redstonepowered.comment
+	redstonepowered = ["minecraft:redstone*256"]
 	#minecolonies.config.powerattack.comment
 	powerattack = ["minecraft:iron_block*4"]
 	#minecolonies.config.hotfoot.comment
 	hotfoot = ["minecraft:emerald*64"]
 	#minecolonies.config.gourmand.comment
 	gourmand = ["minecraft:cookie*32"]
+	#minecolonies.config.fullstock.comment
+	fullstock = ["minecolonies:blockminecoloniesrack*64"]
 	#minecolonies.config.mightycleave.comment
 	mightycleave = ["minecraft:iron_block*16"]
 	#minecolonies.config.squiretraining.comment
@@ -459,22 +527,36 @@
 	duelist = ["minecraft:iron_ingot*64"]
 	#minecolonies.config.ironskin.comment
 	ironskin = ["minecraft:iron_ingot*16"]
+	#minecolonies.config.heavymachinery.comment
+	heavymachinery = ["minecraft:redstone*512"]
+	#minecolonies.config.cheatsheet.comment
+	cheatsheet = ["minecraft:paper*64"]
+	#minecolonies.config.motherlode.comment
+	motherlode = ["minecraft:diamond_ore*64"]
 	#minecolonies.config.firstaid2.comment
 	firstaid2 = ["minecraft:hay_block*16"]
 	#minecolonies.config.bandages.comment
 	bandages = ["minecraft:golden_carrot*16"]
 	#minecolonies.config.village.comment
 	village = ["minecraft:cooked_beef*256"]
+	#minecolonies.config.madness.comment
+	madness = ["minecraft:iron_ingot*1024"]
 	#minecolonies.config.bachelor.comment
 	bachelor = ["minecraft:bookshelf*12"]
 	#minecolonies.config.captainoftheguard.comment
 	captainoftheguard = ["minecraft:shield*64"]
+	#minecolonies.config.fertilizer.comment
+	fertilizer = ["minecraft:wheat_seeds*512"]
 	#minecolonies.config.master.comment
 	master = ["minecraft:bookshelf*32"]
 	#minecolonies.config.parry.comment
 	parry = ["minecraft:iron_ingot*16"]
 	#minecolonies.config.bookworm.comment
 	bookworm = ["minecraft:bookshelf*6"]
+	#minecolonies.config.magiccompost.comment
+	magiccompost = ["minecraft:wheat_seeds*2048"]
+	#minecolonies.config.bonemeal.comment
+	bonemeal = ["minecraft:wheat_seeds*64"]
 	#minecolonies.config.growth.comment
 	growth = ["minecraft:cooked_chicken*256"]
 	#minecolonies.config.indefatigability.comment
