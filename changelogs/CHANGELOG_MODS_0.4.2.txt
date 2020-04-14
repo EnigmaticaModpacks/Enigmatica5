@@ -1,0 +1,1091 @@
+=======================================
+Enigmatica5 0.4.1 --> Enigmatica5 0.4.2
+=======================================
+
+Added:
+- CapabilityProxy
+- Common Capabilities
+- Cyclops Core
+- EverlastingAbilities
+- Quick Leaf Decay
+- Realistic Ore Veins
+- Refined Pipes
+- StepUp
+
+Updated:
+	AttributeFix (AttributeFix-1.15.2-7.0.1.jar --> AttributeFix-1.15.2-7.0.2.jar):
+		AttributeFix-1.15.2-7.0.2.jar:
+			* Built against latest Forge and MCP - Tyler Hancock
+			Like the mod? Consider following me on [Twitter](https://twitter.com/darkhaxdev) and joining the [Discord]()
+			Huge thanks to my supporters on [Patreon](https://www.patreon.com/Darkhax?MCChangelog?AttributeFix)
+			* Pongo Sapiens
+			* Darkosto
+
+	Better Burning (BetterBurning-1.15.2-1.3.1.jar --> BetterBurning-1.15.2-1.3.4.jar):
+		BetterBurning-1.15.2-1.3.4.jar:
+			* Built against latest forge and mcp. - Tyler Hancock
+			Like the mod? Consider following me on [Twitter](https://twitter.com/darkhaxdev) and joining the [Discord]()
+			Huge thanks to my supporters on [Patreon](https://www.patreon.com/Darkhax?MCChangelog?BetterBurning)
+			* Pongo Sapiens
+			* Darkosto
+
+	Bookshelf (Bookshelf-1.15.2-5.3.10.jar --> Bookshelf-1.15.2-5.3.11.jar):
+		Bookshelf-1.15.2-5.3.11.jar:
+			* Forge 31.1.41 or newer is now required!
+			* Added loot condition for item harvest level.
+			* Added loot condition for item rarity.
+			* Added loot condition for item enchantability.
+			* Added loot condition for forge energy.
+			* Added util for reading lists of strings and ResourceLocation from json.
+			* Added check item loot condition which can be used for weapons in addition to tools.
+			* Added util to read weapon from loot context.
+			* Added SidedExecutor.
+			* Added basic item tier implementation.
+			* Added util to create ingredient from multiple tags.
+			* Added util to check if entity can be set on fire.
+			* Fixed loot conditions being merged as loot entries with table injections.
+			* Deprecated getActiveServer and getActiveRecipeManager.
+			Huge thanks to my supporters on [Patreon](https://www.patreon.com/Darkhax?MCChangelog?Bookshelf)
+			* Pongo Sapiens
+			* Darkosto
+
+	Botany Pots (BotanyPots-1.15.2-2.0.6.jar --> BotanyPots-1.15.2-2.0.8.jar):
+		BotanyPots-1.15.2-2.0.8.jar:
+			* Updated to Bookshelf 5.3.11 - Tyler Hancock
+			* Fix removing soil and crop sometimes not removing on the client. - Tyler Hancock
+			* Improvements to client/server logic separation. - Tyler Hancock
+			* Added netherrack as a nether soil. - Tyler Hancock
+			* Merge branch '1.15.2' of [https://github.com/Darkhax-Minecraft/BotanyPots](https://github.com/Darkhax-Minecraft/BotanyPots) into 1.15.2 - Tyler Hancock
+			* Added support for metal bushes new Quartz bush. - Tyler Hancock
+			* Added soul sand to the nether category. - Tyler Hancock
+			* Built against latest forge and mcp. - Tyler Hancock
+			* Seed and Soil items now keep their NBT and specific stack info. - Tyler Hancock
+			Like the mod? Consider following me on [Twitter](https://twitter.com/darkhaxdev) and joining the [Discord]()
+			Huge thanks to my supporters on [Patreon](https://www.patreon.com/Darkhax?MCChangelog?BotanyPots)
+			* Pongo Sapiens
+			* Darkosto
+
+		BotanyPots-1.15.2-2.0.7.jar:
+			* Add missing Mystical Agriculture crops (#22) - thelightcosine
+			Like the mod? Consider following me on [Twitter](https://twitter.com/darkhaxdev) and joining the [Discord]()
+			Huge thanks to my supporters on [Patreon](https://www.patreon.com/Darkhax?MCChangelog?BotanyPots)
+			* Pongo Sapiens
+			* Darkosto
+
+	Controlling (Controlling-6.1.1 --> Controlling-6.1.4):
+		Controlling-6.1.4:
+			general fixes
+
+		Controlling-6.1.3.:
+			Fixed a few bugs.
+			Made search and the checkboxes centered with the search field
+
+		Controlling-6.1.2:
+			Added a patreon button
+
+	Corail Woodcutter (Corail Woodcutter 1.1.1 for 1.15.2 --> Corail Woodcutter 1.1.2 for 1.15.2):
+		Corail Woodcutter 1.1.2 for 1.15.2:
+			This mod supports mc version 1.14.4 to 1.15.2
+			Minecraft Version = [1.15.2] - Forge Version [31.1.8+]
+			Latest : 1.1.2 - Recommended : 1.1.2
+			Changes 1.1.2 :
+			* usage in JEI (key "u") for all woodcutter variants (#13)
+			* translation fix of the midnight sawmill names (#12)
+			* item/block tags for the woodcutters (#14)
+			NB : they didn't include by default the BOP/midnight ones
+			Changes 1.1.1 :
+			* accept the 1.15.2 version
+			Changes 1.1.0 :
+			* compat CraftTweaker (#1 - allowing to add custom recipes)
+			* stonecutting recipes are visible in JEI (+ client config option to disable it)
+			* use tags for log recipes, allowing to use the variants as input (#4)
+			* use a custom item tag for items allowed to be transfered by shift click ("corail_woodcutter:allowed_items")
+			* chinese translation (by Aemande123)
+			* fix #3 (slidebar while switching of ingredient - vanilla bug)
+			* fix to click slidebar (vanilla bug)
+
+	CraftTweaker (CraftTweaker-1.15.2-6.0.0.10.jar --> CraftTweaker-1.15.2-6.0.0.15.jar):
+		CraftTweaker-1.15.2-6.0.0.15.jar:
+			Current version: 6.0.0.15
+			* [mods -> loadedMods](https://github.com/CraftTweaker/CraftTweaker/commit/a1a66a04efa54c72d94831fffe9cd6e53bc1dce3) - kindlich - Mon Apr 13 23:16:45 2020
+			* [Check that all folders are properly built for format task](https://github.com/CraftTweaker/CraftTweaker/commit/e60c5e81165c0e812ca1266f09c3f41cb97636b2) - kindlich - Mon Apr 13 23:16:16 2020
+			* [Updated ZC](https://github.com/CraftTweaker/CraftTweaker/commit/1c1b28dbbecce90b0d08bea43b9bf56d69442019) - kindlich - Mon Apr 13 23:16:09 2020
+			* [ScriptOptions and ct syntax](https://github.com/CraftTweaker/CraftTweaker/commit/b120126afb0c60ebb11f4faf33d00964e49c0dab) - kindlich - Mon Apr 13 23:16:00 2020
+			* [Removed unused class](https://github.com/CraftTweaker/CraftTweaker/commit/5c345beebb1b7de67c2b719be09e59e94a9aac79) - kindlich - Mon Apr 13 23:15:31 2020
+			* [Added message on Load Start/End](https://github.com/CraftTweaker/CraftTweaker/commit/a267c78e53f3e7ca8e92bb3993732777f131fe16) - kindlich - Mon Apr 13 23:15:19 2020
+			* [FileAccessSingle now returns relative paths instead of only filename](https://github.com/CraftTweaker/CraftTweaker/commit/bc51ae93a6ca5c20282d0f15943d011745d59e83) - kindlich - Mon Apr 13 23:15:07 2020
+			* [update the first commit hash](https://github.com/CraftTweaker/CraftTweaker/commit/22f1bcbad04091041e8573c34f084e9e276796a1) - Jared - Sun Apr 12 22:16:30 2020
+			* [Added /ct inventory and /ct inventory tags](https://github.com/CraftTweaker/CraftTweaker/commit/a09a5865022bc5c7657f3350639f8d45635cfacf) - Jared - Sun Apr 12 06:24:36 2020
+			* [Implement /ct hand tags](https://github.com/CraftTweaker/CraftTweaker/commit/ebc53c2f7d3ac1d37a0f022fa7d1ce13b318eef1) - Jared - Sun Apr 12 06:24:30 2020
+			* [add IItemStack#owner](https://github.com/CraftTweaker/CraftTweaker/commit/7dcbd1f1747a7e8431639ba202c4459f710b0221) - Jared - Sun Apr 12 06:24:26 2020
+			* [Add a way to get an empty MCItemStack](https://github.com/CraftTweaker/CraftTweaker/commit/9f7631ede5b82ee59a2354dc2b1ae479442e396e) - Jared - Sun Apr 12 06:24:22 2020
+			* [Add MCTag#firstXYZ](https://github.com/CraftTweaker/CraftTweaker/commit/d9836697536fe6a7dd3e6dc93248f91f2eed6b26) - Jared - Sun Apr 12 06:24:15 2020
+			* [Added mod methods to see if a mod is loaded and more](https://github.com/CraftTweaker/CraftTweaker/commit/697b8cba1b9f40bb0afa30a93c1e973510831ef8) - Jared - Sun Apr 12 06:24:11 2020
+			* [Add predicate exclusion to modid recipe removal close #949](https://github.com/CraftTweaker/CraftTweaker/commit/7a8e21d08a719c651f16b891229f2ff80b8643ee) - Jared - Sun Apr 12 06:24:07 2020
+			* [Implement /ct hand tags](https://github.com/CraftTweaker/CraftTweaker/commit/7d7315fba0e56d78c9c7a6e0601fac68af9e6587) - Jared - Sun Apr 12 06:24:00 2020
+			* [Added a way to get the item registryName. close #925](https://github.com/CraftTweaker/CraftTweaker/commit/6ffa3ff33ee0fc8b48fc30770926f0e9ed845b76) - Jared - Sun Apr 12 06:23:38 2020
+			* [update ZC to fix a crash](https://github.com/CraftTweaker/CraftTweaker/commit/71b673f2baf2a9f190b1f848020225fdaee4b0f3) - Jared - Sat Apr 11 21:01:56 2020
+			* [update ZS](https://github.com/CraftTweaker/CraftTweaker/commit/d82e97ea8b8cb46fd2fdb63c3d66b6524dac562f) - Jared - Fri Apr 10 23:56:18 2020
+			* [Fixed Shapeless recipes not displaying tags correctly](https://github.com/CraftTweaker/CraftTweaker/commit/6e82504eda010a4bbcdae083829eec2bf1ab91c2) - Jared - Thu Mar 26 16:09:10 2020
+			* [update forge and mappings](https://github.com/CraftTweaker/CraftTweaker/commit/25f90e830ba4811abd30e1a86873aee4c2515525) - Jared - Fri Feb 28 00:20:53 2020
+			* [Get the recipetype safer, hopefully. Close #927](https://github.com/CraftTweaker/CraftTweaker/commit/ea4a96caf94cbf43103ea16a4f47a5d2ea8a2577) - Jared - Wed Feb 26 23:09:51 2020
+			* [Fixed scripts bigger than 32k not working on servers](https://github.com/CraftTweaker/CraftTweaker/commit/250194edf597fc06b93c5017ad4d61e6398091d7) - Jared - Wed Feb 26 20:40:48 2020
+			* [made it possible to cast a string to an int and double](https://github.com/CraftTweaker/CraftTweaker/commit/634576292be37aba8cc5b6aef5a33e4ff900937e) - Jared - Tue Feb 18 23:13:45 2020
+			* [update jar file name and mods.toml](https://github.com/CraftTweaker/CraftTweaker/commit/41da80a7a30c6ff96286ccdc6039f4a0359e45e3) - Jared - Fri Feb 7 21:14:27 2020
+			* [port to 1.15.2](https://github.com/CraftTweaker/CraftTweaker/commit/a8be724fd6eb4a8e5c49af0bdaa4ec3e96af2fff) - Jared - Fri Feb 7 11:55:03 2020
+			* [add a way to check if a MCTag is a certain type of tag](https://github.com/CraftTweaker/CraftTweaker/commit/10a2b04483ce4032c6ffb8803b567e2dcbedce5a) - Jared - Fri Feb 7 11:39:02 2020
+			* [update MC and forge versions in toml and gradle](https://github.com/CraftTweaker/CraftTweaker/commit/457020bbf055aea2e4e6aad015309e6e9ccfacdf) - Jared - Wed Jan 22 21:36:34 2020
+			* [update changelog commit](https://github.com/CraftTweaker/CraftTweaker/commit/c9ef77624a3c438180d561f3ea05916e4738c83d) - Jared - Wed Jan 22 21:36:34 2020
+			* [port to 1.15.1](https://github.com/CraftTweaker/CraftTweaker/commit/b21c1f5da8ec69929d34647873c9729be2458e4e) - Jared - Wed Jan 22 21:36:34 2020
+			* [update JEI](https://github.com/CraftTweaker/CraftTweaker/commit/c1c4434a134398e429ba4ba62f7affe05e57f367) - Jared - Wed Jan 22 21:35:54 2020
+
+		CraftTweaker-1.15.2-6.0.0.14.jar:
+			Current version: 6.0.0.14
+			* [update the first commit hash](https://github.com/CraftTweaker/CraftTweaker/commit/22f1bcbad04091041e8573c34f084e9e276796a1) - Jared - Sun Apr 12 22:16:30 2020
+			* [Added /ct inventory and /ct inventory tags](https://github.com/CraftTweaker/CraftTweaker/commit/a09a5865022bc5c7657f3350639f8d45635cfacf) - Jared - Sun Apr 12 06:24:36 2020
+			* [Implement /ct hand tags](https://github.com/CraftTweaker/CraftTweaker/commit/ebc53c2f7d3ac1d37a0f022fa7d1ce13b318eef1) - Jared - Sun Apr 12 06:24:30 2020
+			* [add IItemStack#owner](https://github.com/CraftTweaker/CraftTweaker/commit/7dcbd1f1747a7e8431639ba202c4459f710b0221) - Jared - Sun Apr 12 06:24:26 2020
+			* [Add a way to get an empty MCItemStack](https://github.com/CraftTweaker/CraftTweaker/commit/9f7631ede5b82ee59a2354dc2b1ae479442e396e) - Jared - Sun Apr 12 06:24:22 2020
+			* [Add MCTag#firstXYZ](https://github.com/CraftTweaker/CraftTweaker/commit/d9836697536fe6a7dd3e6dc93248f91f2eed6b26) - Jared - Sun Apr 12 06:24:15 2020
+			* [Added mod methods to see if a mod is loaded and more](https://github.com/CraftTweaker/CraftTweaker/commit/697b8cba1b9f40bb0afa30a93c1e973510831ef8) - Jared - Sun Apr 12 06:24:11 2020
+			* [Add predicate exclusion to modid recipe removal close #949](https://github.com/CraftTweaker/CraftTweaker/commit/7a8e21d08a719c651f16b891229f2ff80b8643ee) - Jared - Sun Apr 12 06:24:07 2020
+			* [Implement /ct hand tags](https://github.com/CraftTweaker/CraftTweaker/commit/7d7315fba0e56d78c9c7a6e0601fac68af9e6587) - Jared - Sun Apr 12 06:24:00 2020
+			* [Added a way to get the item registryName. close #925](https://github.com/CraftTweaker/CraftTweaker/commit/6ffa3ff33ee0fc8b48fc30770926f0e9ed845b76) - Jared - Sun Apr 12 06:23:38 2020
+			* [update ZC to fix a crash](https://github.com/CraftTweaker/CraftTweaker/commit/71b673f2baf2a9f190b1f848020225fdaee4b0f3) - Jared - Sat Apr 11 21:01:56 2020
+			* [update ZS](https://github.com/CraftTweaker/CraftTweaker/commit/d82e97ea8b8cb46fd2fdb63c3d66b6524dac562f) - Jared - Fri Apr 10 23:56:18 2020
+			* [Fixed Shapeless recipes not displaying tags correctly](https://github.com/CraftTweaker/CraftTweaker/commit/6e82504eda010a4bbcdae083829eec2bf1ab91c2) - Jared - Thu Mar 26 16:09:10 2020
+			* [update forge and mappings](https://github.com/CraftTweaker/CraftTweaker/commit/25f90e830ba4811abd30e1a86873aee4c2515525) - Jared - Fri Feb 28 00:20:53 2020
+			* [Get the recipetype safer, hopefully. Close #927](https://github.com/CraftTweaker/CraftTweaker/commit/ea4a96caf94cbf43103ea16a4f47a5d2ea8a2577) - Jared - Wed Feb 26 23:09:51 2020
+			* [Fixed scripts bigger than 32k not working on servers](https://github.com/CraftTweaker/CraftTweaker/commit/250194edf597fc06b93c5017ad4d61e6398091d7) - Jared - Wed Feb 26 20:40:48 2020
+			* [made it possible to cast a string to an int and double](https://github.com/CraftTweaker/CraftTweaker/commit/634576292be37aba8cc5b6aef5a33e4ff900937e) - Jared - Tue Feb 18 23:13:45 2020
+			* [update jar file name and mods.toml](https://github.com/CraftTweaker/CraftTweaker/commit/41da80a7a30c6ff96286ccdc6039f4a0359e45e3) - Jared - Fri Feb 7 21:14:27 2020
+			* [port to 1.15.2](https://github.com/CraftTweaker/CraftTweaker/commit/a8be724fd6eb4a8e5c49af0bdaa4ec3e96af2fff) - Jared - Fri Feb 7 11:55:03 2020
+			* [add a way to check if a MCTag is a certain type of tag](https://github.com/CraftTweaker/CraftTweaker/commit/10a2b04483ce4032c6ffb8803b567e2dcbedce5a) - Jared - Fri Feb 7 11:39:02 2020
+			* [update MC and forge versions in toml and gradle](https://github.com/CraftTweaker/CraftTweaker/commit/457020bbf055aea2e4e6aad015309e6e9ccfacdf) - Jared - Wed Jan 22 21:36:34 2020
+			* [update changelog commit](https://github.com/CraftTweaker/CraftTweaker/commit/c9ef77624a3c438180d561f3ea05916e4738c83d) - Jared - Wed Jan 22 21:36:34 2020
+			* [port to 1.15.1](https://github.com/CraftTweaker/CraftTweaker/commit/b21c1f5da8ec69929d34647873c9729be2458e4e) - Jared - Wed Jan 22 21:36:34 2020
+			* [update JEI](https://github.com/CraftTweaker/CraftTweaker/commit/c1c4434a134398e429ba4ba62f7affe05e57f367) - Jared - Wed Jan 22 21:35:54 2020
+
+		CraftTweaker-1.15.2-6.0.0.13.jar:
+			Current version: 6.0.0.13
+			* [Added /ct inventory and /ct inventory tags](https://github.com/CraftTweaker/CraftTweaker/commit/a09a5865022bc5c7657f3350639f8d45635cfacf) - Jared - Sun Apr 12 06:24:36 2020
+			* [Implement /ct hand tags](https://github.com/CraftTweaker/CraftTweaker/commit/ebc53c2f7d3ac1d37a0f022fa7d1ce13b318eef1) - Jared - Sun Apr 12 06:24:30 2020
+			* [add IItemStack#owner](https://github.com/CraftTweaker/CraftTweaker/commit/7dcbd1f1747a7e8431639ba202c4459f710b0221) - Jared - Sun Apr 12 06:24:26 2020
+			* [Add a way to get an empty MCItemStack](https://github.com/CraftTweaker/CraftTweaker/commit/9f7631ede5b82ee59a2354dc2b1ae479442e396e) - Jared - Sun Apr 12 06:24:22 2020
+			* [Add MCTag#firstXYZ](https://github.com/CraftTweaker/CraftTweaker/commit/d9836697536fe6a7dd3e6dc93248f91f2eed6b26) - Jared - Sun Apr 12 06:24:15 2020
+			* [Added mod methods to see if a mod is loaded and more](https://github.com/CraftTweaker/CraftTweaker/commit/697b8cba1b9f40bb0afa30a93c1e973510831ef8) - Jared - Sun Apr 12 06:24:11 2020
+			* [Add predicate exclusion to modid recipe removal close #949](https://github.com/CraftTweaker/CraftTweaker/commit/7a8e21d08a719c651f16b891229f2ff80b8643ee) - Jared - Sun Apr 12 06:24:07 2020
+			* [Implement /ct hand tags](https://github.com/CraftTweaker/CraftTweaker/commit/7d7315fba0e56d78c9c7a6e0601fac68af9e6587) - Jared - Sun Apr 12 06:24:00 2020
+			* [Added a way to get the item registryName. close #925](https://github.com/CraftTweaker/CraftTweaker/commit/6ffa3ff33ee0fc8b48fc30770926f0e9ed845b76) - Jared - Sun Apr 12 06:23:38 2020
+			* [update ZC to fix a crash](https://github.com/CraftTweaker/CraftTweaker/commit/71b673f2baf2a9f190b1f848020225fdaee4b0f3) - Jared - Sat Apr 11 21:01:56 2020
+			* [update ZS](https://github.com/CraftTweaker/CraftTweaker/commit/d82e97ea8b8cb46fd2fdb63c3d66b6524dac562f) - Jared - Fri Apr 10 23:56:18 2020
+			* [Fixed Shapeless recipes not displaying tags correctly](https://github.com/CraftTweaker/CraftTweaker/commit/6e82504eda010a4bbcdae083829eec2bf1ab91c2) - Jared - Thu Mar 26 16:09:10 2020
+			* [update forge and mappings](https://github.com/CraftTweaker/CraftTweaker/commit/25f90e830ba4811abd30e1a86873aee4c2515525) - Jared - Fri Feb 28 00:20:53 2020
+			* [Get the recipetype safer, hopefully. Close #927](https://github.com/CraftTweaker/CraftTweaker/commit/ea4a96caf94cbf43103ea16a4f47a5d2ea8a2577) - Jared - Wed Feb 26 23:09:51 2020
+			* [Fixed scripts bigger than 32k not working on servers](https://github.com/CraftTweaker/CraftTweaker/commit/250194edf597fc06b93c5017ad4d61e6398091d7) - Jared - Wed Feb 26 20:40:48 2020
+			* [made it possible to cast a string to an int and double](https://github.com/CraftTweaker/CraftTweaker/commit/634576292be37aba8cc5b6aef5a33e4ff900937e) - Jared - Tue Feb 18 23:13:45 2020
+			* [update jar file name and mods.toml](https://github.com/CraftTweaker/CraftTweaker/commit/41da80a7a30c6ff96286ccdc6039f4a0359e45e3) - Jared - Fri Feb 7 21:14:27 2020
+			* [port to 1.15.2](https://github.com/CraftTweaker/CraftTweaker/commit/a8be724fd6eb4a8e5c49af0bdaa4ec3e96af2fff) - Jared - Fri Feb 7 11:55:03 2020
+			* [add a way to check if a MCTag is a certain type of tag](https://github.com/CraftTweaker/CraftTweaker/commit/10a2b04483ce4032c6ffb8803b567e2dcbedce5a) - Jared - Fri Feb 7 11:39:02 2020
+			* [update MC and forge versions in toml and gradle](https://github.com/CraftTweaker/CraftTweaker/commit/457020bbf055aea2e4e6aad015309e6e9ccfacdf) - Jared - Wed Jan 22 21:36:34 2020
+			* [update changelog commit](https://github.com/CraftTweaker/CraftTweaker/commit/c9ef77624a3c438180d561f3ea05916e4738c83d) - Jared - Wed Jan 22 21:36:34 2020
+			* [port to 1.15.1](https://github.com/CraftTweaker/CraftTweaker/commit/b21c1f5da8ec69929d34647873c9729be2458e4e) - Jared - Wed Jan 22 21:36:34 2020
+			* [update JEI](https://github.com/CraftTweaker/CraftTweaker/commit/c1c4434a134398e429ba4ba62f7affe05e57f367) - Jared - Wed Jan 22 21:35:54 2020
+			* [update forge to 1.15.1](https://github.com/CraftTweaker/CraftTweaker/commit/39f45343748414de06395a6e2a23b185f317452c) - Jared - Wed Jan 22 21:35:54 2020
+			* [wrapper classes docs are now /vanilla/api/](https://github.com/CraftTweaker/CraftTweaker/commit/e524914f5b057a9c007dca1310638c2bcac53d31) - Jared - Sun Jan 19 22:18:46 2020
+			* [move all generated docs to /vanilla/api](https://github.com/CraftTweaker/CraftTweaker/commit/6a1d9f4f69025c20e450feef2ca561c7ab54ad03) - Jared - Sun Jan 19 22:15:13 2020
+			* [no more value = for docs annotation](https://github.com/CraftTweaker/CraftTweaker/commit/ba576f0a25678a6451080d23403ae3954d41d914) - Jared - Sun Jan 19 22:03:38 2020
+			* [Updated ZC](https://github.com/CraftTweaker/CraftTweaker/commit/f3b595aa161e93f6ff90788b53fbea04ee9b265d) - kindlich - Sat Jan 11 13:58:34 2020
+			* [make YAML output be in folders](https://github.com/CraftTweaker/CraftTweaker/commit/0de76eb4e3008edf0963c65d83ee971b4963c20c) - Jared - Fri Jan 10 22:55:02 2020
+			* [ignore docsOut and src/generated](https://github.com/CraftTweaker/CraftTweaker/commit/c7f9f97ed3398bc61b0bf81f1050284fb0c6ca79) - Jared - Fri Jan 10 22:54:34 2020
+			* [update ZC to fix server crashes](https://github.com/CraftTweaker/CraftTweaker/commit/7c703a57a06fc9bb2ea7d2ecde673e7ff18f89ef) - Jared - Fri Jan 10 22:23:43 2020
+			* [update ZC](https://github.com/CraftTweaker/CraftTweaker/commit/224ad15e53c38b430dbd4230922d82f7f5b59977) - Jared - Fri Jan 10 19:21:41 2020
+			* [Updated ZC](https://github.com/CraftTweaker/CraftTweaker/commit/5d9f252e406156b81bcadd720b95e8a9ddca43f4) - kindlich - Fri Jan 10 19:06:10 2020
+			* [Added IIngredient#asIData](https://github.com/CraftTweaker/CraftTweaker/commit/1f4761cdf63d7b8b9bd878ac2a34940a36a4eb17) - kindlich - Fri Jan 10 19:00:45 2020
+			* [Updated Doc location for Biome and BiomeSpawnEntry](https://github.com/CraftTweaker/CraftTweaker/commit/02cf6a708b3d163174ddfd31276807d941b78cdc) - kindlich - Fri Jan 10 18:58:57 2020
+			* [update ZS](https://github.com/CraftTweaker/CraftTweaker/commit/2839aed162ff778c0acd40472474a3fde50e83bc) - Jared - Wed Jan 8 17:53:38 2020
+			* [Removed test code for no wrapper file](https://github.com/CraftTweaker/CraftTweaker/commit/69fa5381ed1f6457342fd34fde78155ecbb4143b) - kindlich - Sun Jan 5 20:23:39 2020
+			* [DocumentProcessor: Clear the output directory first](https://github.com/CraftTweaker/CraftTweaker/commit/d64087adf887972238ba1ec7482ce8e83676f395) - kindlich - Sun Jan 5 20:20:35 2020
+			* [Updated ZC](https://github.com/CraftTweaker/CraftTweaker/commit/9f960d9c5a301a942c48512e4ab2085a08d83ea9) - kindlich - Sun Jan 5 19:51:50 2020
+			* [Added some advancements as being wrapped](https://github.com/CraftTweaker/CraftTweaker/commit/57cc981aee01abaa689b872ab851d63a7db4b366) - kindlich - Wed Jan 1 23:45:25 2020
+			* [Fixed some issues with the wrapper Processor](https://github.com/CraftTweaker/CraftTweaker/commit/e22c6972784858c8118eb1485496f1ea1eb655c8) - kindlich - Wed Jan 1 23:44:59 2020
+			* [Forgot Some these](https://github.com/CraftTweaker/CraftTweaker/commit/54a5854f42414293ff8c6ea897f9c86a45956665) - kindlich - Wed Jan 1 22:56:12 2020
+			* [Event Wrapper and Comment cleanup](https://github.com/CraftTweaker/CraftTweaker/commit/13501a232699331ea342199b86ec938692e621ee) - kindlich - Wed Jan 1 21:35:22 2020
+			* [Updated ZC](https://github.com/CraftTweaker/CraftTweaker/commit/100bfb38141ec271a31e04e342f82cad6dc0a4a4) - kindlich - Wed Jan 1 16:43:17 2020
+			* [Removed 2nd MCWorld](https://github.com/CraftTweaker/CraftTweaker/commit/d82e4ef51904c0378c4025973a14dfdbb5b0da7c) - kindlich - Wed Jan 1 16:30:19 2020
+			* [Removed unused buildSrc](https://github.com/CraftTweaker/CraftTweaker/commit/0b782c48bb8d36950a00546258d0d63d9f98154c) - kindlich - Wed Jan 1 16:27:20 2020
+			* [Made Event listeners unregister themselves on a reload](https://github.com/CraftTweaker/CraftTweaker/commit/592e7d9862449a6f7285a65250be98296e3820d3) - kindlich - Wed Jan 1 16:25:55 2020
+			* [Only remove sidedActions when on the same side](https://github.com/CraftTweaker/CraftTweaker/commit/7d15faf7ae87abbc96d060cdc832b6cc957a7002) - kindlich - Wed Jan 1 16:24:36 2020
+			* [Added missing Document and ZenWrapper annotations](https://github.com/CraftTweaker/CraftTweaker/commit/42cd76858c4bb9901ac234f2bd2cc9bc342738d5) - kindlich - Wed Jan 1 16:23:38 2020
+			* [More work on wrappers](https://github.com/CraftTweaker/CraftTweaker/commit/a5f6a37ecd56898eefd2408b9e4177cba5927aba) - kindlich - Wed Jan 1 16:22:16 2020
+			* [Committing stuff before I do something stupid](https://github.com/CraftTweaker/CraftTweaker/commit/a93ea989e169113d715fa84e4144b8ca23491b06) - kindlich - Tue Dec 31 23:03:43 2019
+			* [Committing stuff before I do something stupid](https://github.com/CraftTweaker/CraftTweaker/commit/2c785dbd40fa4e6ad62d6574347041f85fa7984f) - kindlich - Tue Dec 31 21:46:11 2019
+			* [CTTooltipEvent handler working now.](https://github.com/CraftTweaker/CraftTweaker/commit/b43eefc90d69e5111b7a17fdac383bbf0487fc78) - kindlich - Fri Dec 27 16:52:33 2019
+			* [Some minor cleanup for Annotation Processors](https://github.com/CraftTweaker/CraftTweaker/commit/2e0897e84a4fbd7733d63d1fb054f80411fe929b) - kindlich - Thu Dec 26 23:07:54 2019
+			* [Simple yaml generation and fixed multiple classes being generated](https://github.com/CraftTweaker/CraftTweaker/commit/2912e29a540d1241f7616e3641a9a95f276019a1) - kindlich - Mon Dec 23 13:31:29 2019
+			* [Some cleanup](https://github.com/CraftTweaker/CraftTweaker/commit/18591fa7ac102e2cf11c172d9bc5e76b92b10624) - kindlich - Mon Dec 23 13:06:59 2019
+			* [Some more work on Expansions and declaredModid](https://github.com/CraftTweaker/CraftTweaker/commit/91eb925ba4ecdf5a03498677a572383547fd04cc) - kindlich - Mon Dec 23 12:53:29 2019
+			* [Started working on expansion classes](https://github.com/CraftTweaker/CraftTweaker/commit/4b68e0e43bd13b86d94b227b97a67094ae0981ea) - kindlich - Sun Dec 22 23:23:31 2019
+			* [Normal classes should be running now](https://github.com/CraftTweaker/CraftTweaker/commit/6b06dd25f2b4adb58c72eec818d5f87cafdc98f7) - kindlich - Sun Dec 22 21:15:31 2019
+			* [Base classes for Document Processor rewrite](https://github.com/CraftTweaker/CraftTweaker/commit/34fd8a748133dbc8a0c609ae9e21ef41336252d4) - kindlich - Sat Dec 21 22:42:42 2019
+			* [Start working on annotation processor rewrite](https://github.com/CraftTweaker/CraftTweaker/commit/bd6cf0c2cf376516896fa603fa3a9bc41911760f) - kindlich - Fri Dec 20 14:04:26 2019
+			* [Replaced IEventHandler with Consumer](https://github.com/CraftTweaker/CraftTweaker/commit/e0fcd372ad7143fa3a69f42d0c4fd59cf00e2986) - kindlich - Sat Dec 14 21:25:17 2019
+			* [event test](https://github.com/CraftTweaker/CraftTweaker/commit/98d834eed872ba45bb9ecd24b4bbab249b9f031a) - Jared - Thu Dec 12 18:43:10 2019
+
+		CraftTweaker-1.15.2-6.0.0.12.jar:
+			Current version: 6.0.0.12
+			* [update ZC to fix a crash](https://github.com/CraftTweaker/CraftTweaker/commit/71b673f2baf2a9f190b1f848020225fdaee4b0f3) - Jared - Sat Apr 11 21:01:56 2020
+			* [update ZS](https://github.com/CraftTweaker/CraftTweaker/commit/d82e97ea8b8cb46fd2fdb63c3d66b6524dac562f) - Jared - Fri Apr 10 23:56:18 2020
+			* [Fixed Shapeless recipes not displaying tags correctly](https://github.com/CraftTweaker/CraftTweaker/commit/6e82504eda010a4bbcdae083829eec2bf1ab91c2) - Jared - Thu Mar 26 16:09:10 2020
+			* [update forge and mappings](https://github.com/CraftTweaker/CraftTweaker/commit/25f90e830ba4811abd30e1a86873aee4c2515525) - Jared - Fri Feb 28 00:20:53 2020
+			* [Get the recipetype safer, hopefully. Close #927](https://github.com/CraftTweaker/CraftTweaker/commit/ea4a96caf94cbf43103ea16a4f47a5d2ea8a2577) - Jared - Wed Feb 26 23:09:51 2020
+			* [Fixed scripts bigger than 32k not working on servers](https://github.com/CraftTweaker/CraftTweaker/commit/250194edf597fc06b93c5017ad4d61e6398091d7) - Jared - Wed Feb 26 20:40:48 2020
+			* [made it possible to cast a string to an int and double](https://github.com/CraftTweaker/CraftTweaker/commit/634576292be37aba8cc5b6aef5a33e4ff900937e) - Jared - Tue Feb 18 23:13:45 2020
+			* [update jar file name and mods.toml](https://github.com/CraftTweaker/CraftTweaker/commit/41da80a7a30c6ff96286ccdc6039f4a0359e45e3) - Jared - Fri Feb 7 21:14:27 2020
+			* [port to 1.15.2](https://github.com/CraftTweaker/CraftTweaker/commit/a8be724fd6eb4a8e5c49af0bdaa4ec3e96af2fff) - Jared - Fri Feb 7 11:55:03 2020
+			* [add a way to check if a MCTag is a certain type of tag](https://github.com/CraftTweaker/CraftTweaker/commit/10a2b04483ce4032c6ffb8803b567e2dcbedce5a) - Jared - Fri Feb 7 11:39:02 2020
+			* [update MC and forge versions in toml and gradle](https://github.com/CraftTweaker/CraftTweaker/commit/457020bbf055aea2e4e6aad015309e6e9ccfacdf) - Jared - Wed Jan 22 21:36:34 2020
+			* [update changelog commit](https://github.com/CraftTweaker/CraftTweaker/commit/c9ef77624a3c438180d561f3ea05916e4738c83d) - Jared - Wed Jan 22 21:36:34 2020
+			* [port to 1.15.1](https://github.com/CraftTweaker/CraftTweaker/commit/b21c1f5da8ec69929d34647873c9729be2458e4e) - Jared - Wed Jan 22 21:36:34 2020
+			* [update JEI](https://github.com/CraftTweaker/CraftTweaker/commit/c1c4434a134398e429ba4ba62f7affe05e57f367) - Jared - Wed Jan 22 21:35:54 2020
+			* [update forge to 1.15.1](https://github.com/CraftTweaker/CraftTweaker/commit/39f45343748414de06395a6e2a23b185f317452c) - Jared - Wed Jan 22 21:35:54 2020
+			* [wrapper classes docs are now /vanilla/api/](https://github.com/CraftTweaker/CraftTweaker/commit/e524914f5b057a9c007dca1310638c2bcac53d31) - Jared - Sun Jan 19 22:18:46 2020
+			* [move all generated docs to /vanilla/api](https://github.com/CraftTweaker/CraftTweaker/commit/6a1d9f4f69025c20e450feef2ca561c7ab54ad03) - Jared - Sun Jan 19 22:15:13 2020
+			* [no more value = for docs annotation](https://github.com/CraftTweaker/CraftTweaker/commit/ba576f0a25678a6451080d23403ae3954d41d914) - Jared - Sun Jan 19 22:03:38 2020
+			* [Updated ZC](https://github.com/CraftTweaker/CraftTweaker/commit/f3b595aa161e93f6ff90788b53fbea04ee9b265d) - kindlich - Sat Jan 11 13:58:34 2020
+			* [make YAML output be in folders](https://github.com/CraftTweaker/CraftTweaker/commit/0de76eb4e3008edf0963c65d83ee971b4963c20c) - Jared - Fri Jan 10 22:55:02 2020
+			* [ignore docsOut and src/generated](https://github.com/CraftTweaker/CraftTweaker/commit/c7f9f97ed3398bc61b0bf81f1050284fb0c6ca79) - Jared - Fri Jan 10 22:54:34 2020
+			* [update ZC to fix server crashes](https://github.com/CraftTweaker/CraftTweaker/commit/7c703a57a06fc9bb2ea7d2ecde673e7ff18f89ef) - Jared - Fri Jan 10 22:23:43 2020
+			* [update ZC](https://github.com/CraftTweaker/CraftTweaker/commit/224ad15e53c38b430dbd4230922d82f7f5b59977) - Jared - Fri Jan 10 19:21:41 2020
+			* [Updated ZC](https://github.com/CraftTweaker/CraftTweaker/commit/5d9f252e406156b81bcadd720b95e8a9ddca43f4) - kindlich - Fri Jan 10 19:06:10 2020
+			* [Added IIngredient#asIData](https://github.com/CraftTweaker/CraftTweaker/commit/1f4761cdf63d7b8b9bd878ac2a34940a36a4eb17) - kindlich - Fri Jan 10 19:00:45 2020
+			* [Updated Doc location for Biome and BiomeSpawnEntry](https://github.com/CraftTweaker/CraftTweaker/commit/02cf6a708b3d163174ddfd31276807d941b78cdc) - kindlich - Fri Jan 10 18:58:57 2020
+			* [update ZS](https://github.com/CraftTweaker/CraftTweaker/commit/2839aed162ff778c0acd40472474a3fde50e83bc) - Jared - Wed Jan 8 17:53:38 2020
+			* [Removed test code for no wrapper file](https://github.com/CraftTweaker/CraftTweaker/commit/69fa5381ed1f6457342fd34fde78155ecbb4143b) - kindlich - Sun Jan 5 20:23:39 2020
+			* [DocumentProcessor: Clear the output directory first](https://github.com/CraftTweaker/CraftTweaker/commit/d64087adf887972238ba1ec7482ce8e83676f395) - kindlich - Sun Jan 5 20:20:35 2020
+			* [Updated ZC](https://github.com/CraftTweaker/CraftTweaker/commit/9f960d9c5a301a942c48512e4ab2085a08d83ea9) - kindlich - Sun Jan 5 19:51:50 2020
+			* [Added some advancements as being wrapped](https://github.com/CraftTweaker/CraftTweaker/commit/57cc981aee01abaa689b872ab851d63a7db4b366) - kindlich - Wed Jan 1 23:45:25 2020
+			* [Fixed some issues with the wrapper Processor](https://github.com/CraftTweaker/CraftTweaker/commit/e22c6972784858c8118eb1485496f1ea1eb655c8) - kindlich - Wed Jan 1 23:44:59 2020
+			* [Forgot Some these](https://github.com/CraftTweaker/CraftTweaker/commit/54a5854f42414293ff8c6ea897f9c86a45956665) - kindlich - Wed Jan 1 22:56:12 2020
+			* [Event Wrapper and Comment cleanup](https://github.com/CraftTweaker/CraftTweaker/commit/13501a232699331ea342199b86ec938692e621ee) - kindlich - Wed Jan 1 21:35:22 2020
+			* [Updated ZC](https://github.com/CraftTweaker/CraftTweaker/commit/100bfb38141ec271a31e04e342f82cad6dc0a4a4) - kindlich - Wed Jan 1 16:43:17 2020
+			* [Removed 2nd MCWorld](https://github.com/CraftTweaker/CraftTweaker/commit/d82e4ef51904c0378c4025973a14dfdbb5b0da7c) - kindlich - Wed Jan 1 16:30:19 2020
+			* [Removed unused buildSrc](https://github.com/CraftTweaker/CraftTweaker/commit/0b782c48bb8d36950a00546258d0d63d9f98154c) - kindlich - Wed Jan 1 16:27:20 2020
+			* [Made Event listeners unregister themselves on a reload](https://github.com/CraftTweaker/CraftTweaker/commit/592e7d9862449a6f7285a65250be98296e3820d3) - kindlich - Wed Jan 1 16:25:55 2020
+			* [Only remove sidedActions when on the same side](https://github.com/CraftTweaker/CraftTweaker/commit/7d15faf7ae87abbc96d060cdc832b6cc957a7002) - kindlich - Wed Jan 1 16:24:36 2020
+			* [Added missing Document and ZenWrapper annotations](https://github.com/CraftTweaker/CraftTweaker/commit/42cd76858c4bb9901ac234f2bd2cc9bc342738d5) - kindlich - Wed Jan 1 16:23:38 2020
+			* [More work on wrappers](https://github.com/CraftTweaker/CraftTweaker/commit/a5f6a37ecd56898eefd2408b9e4177cba5927aba) - kindlich - Wed Jan 1 16:22:16 2020
+			* [Committing stuff before I do something stupid](https://github.com/CraftTweaker/CraftTweaker/commit/a93ea989e169113d715fa84e4144b8ca23491b06) - kindlich - Tue Dec 31 23:03:43 2019
+			* [Committing stuff before I do something stupid](https://github.com/CraftTweaker/CraftTweaker/commit/2c785dbd40fa4e6ad62d6574347041f85fa7984f) - kindlich - Tue Dec 31 21:46:11 2019
+			* [CTTooltipEvent handler working now.](https://github.com/CraftTweaker/CraftTweaker/commit/b43eefc90d69e5111b7a17fdac383bbf0487fc78) - kindlich - Fri Dec 27 16:52:33 2019
+			* [Some minor cleanup for Annotation Processors](https://github.com/CraftTweaker/CraftTweaker/commit/2e0897e84a4fbd7733d63d1fb054f80411fe929b) - kindlich - Thu Dec 26 23:07:54 2019
+			* [Simple yaml generation and fixed multiple classes being generated](https://github.com/CraftTweaker/CraftTweaker/commit/2912e29a540d1241f7616e3641a9a95f276019a1) - kindlich - Mon Dec 23 13:31:29 2019
+			* [Some cleanup](https://github.com/CraftTweaker/CraftTweaker/commit/18591fa7ac102e2cf11c172d9bc5e76b92b10624) - kindlich - Mon Dec 23 13:06:59 2019
+			* [Some more work on Expansions and declaredModid](https://github.com/CraftTweaker/CraftTweaker/commit/91eb925ba4ecdf5a03498677a572383547fd04cc) - kindlich - Mon Dec 23 12:53:29 2019
+			* [Started working on expansion classes](https://github.com/CraftTweaker/CraftTweaker/commit/4b68e0e43bd13b86d94b227b97a67094ae0981ea) - kindlich - Sun Dec 22 23:23:31 2019
+			* [Normal classes should be running now](https://github.com/CraftTweaker/CraftTweaker/commit/6b06dd25f2b4adb58c72eec818d5f87cafdc98f7) - kindlich - Sun Dec 22 21:15:31 2019
+			* [Base classes for Document Processor rewrite](https://github.com/CraftTweaker/CraftTweaker/commit/34fd8a748133dbc8a0c609ae9e21ef41336252d4) - kindlich - Sat Dec 21 22:42:42 2019
+			* [Start working on annotation processor rewrite](https://github.com/CraftTweaker/CraftTweaker/commit/bd6cf0c2cf376516896fa603fa3a9bc41911760f) - kindlich - Fri Dec 20 14:04:26 2019
+			* [Replaced IEventHandler with Consumer](https://github.com/CraftTweaker/CraftTweaker/commit/e0fcd372ad7143fa3a69f42d0c4fd59cf00e2986) - kindlich - Sat Dec 14 21:25:17 2019
+			* [event test](https://github.com/CraftTweaker/CraftTweaker/commit/98d834eed872ba45bb9ecd24b4bbab249b9f031a) - Jared - Thu Dec 12 18:43:10 2019
+
+		CraftTweaker-1.15.2-6.0.0.11.jar:
+			Current version: 6.0.0.11
+			* [update ZS](https://github.com/CraftTweaker/CraftTweaker/commit/d82e97ea8b8cb46fd2fdb63c3d66b6524dac562f) - Jared - Fri Apr 10 23:56:18 2020
+			* [Fixed Shapeless recipes not displaying tags correctly](https://github.com/CraftTweaker/CraftTweaker/commit/6e82504eda010a4bbcdae083829eec2bf1ab91c2) - Jared - Thu Mar 26 16:09:10 2020
+			* [update forge and mappings](https://github.com/CraftTweaker/CraftTweaker/commit/25f90e830ba4811abd30e1a86873aee4c2515525) - Jared - Fri Feb 28 00:20:53 2020
+			* [Get the recipetype safer, hopefully. Close #927](https://github.com/CraftTweaker/CraftTweaker/commit/ea4a96caf94cbf43103ea16a4f47a5d2ea8a2577) - Jared - Wed Feb 26 23:09:51 2020
+			* [Fixed scripts bigger than 32k not working on servers](https://github.com/CraftTweaker/CraftTweaker/commit/250194edf597fc06b93c5017ad4d61e6398091d7) - Jared - Wed Feb 26 20:40:48 2020
+			* [made it possible to cast a string to an int and double](https://github.com/CraftTweaker/CraftTweaker/commit/634576292be37aba8cc5b6aef5a33e4ff900937e) - Jared - Tue Feb 18 23:13:45 2020
+			* [update jar file name and mods.toml](https://github.com/CraftTweaker/CraftTweaker/commit/41da80a7a30c6ff96286ccdc6039f4a0359e45e3) - Jared - Fri Feb 7 21:14:27 2020
+			* [port to 1.15.2](https://github.com/CraftTweaker/CraftTweaker/commit/a8be724fd6eb4a8e5c49af0bdaa4ec3e96af2fff) - Jared - Fri Feb 7 11:55:03 2020
+			* [add a way to check if a MCTag is a certain type of tag](https://github.com/CraftTweaker/CraftTweaker/commit/10a2b04483ce4032c6ffb8803b567e2dcbedce5a) - Jared - Fri Feb 7 11:39:02 2020
+			* [update MC and forge versions in toml and gradle](https://github.com/CraftTweaker/CraftTweaker/commit/457020bbf055aea2e4e6aad015309e6e9ccfacdf) - Jared - Wed Jan 22 21:36:34 2020
+			* [update changelog commit](https://github.com/CraftTweaker/CraftTweaker/commit/c9ef77624a3c438180d561f3ea05916e4738c83d) - Jared - Wed Jan 22 21:36:34 2020
+			* [port to 1.15.1](https://github.com/CraftTweaker/CraftTweaker/commit/b21c1f5da8ec69929d34647873c9729be2458e4e) - Jared - Wed Jan 22 21:36:34 2020
+			* [update JEI](https://github.com/CraftTweaker/CraftTweaker/commit/c1c4434a134398e429ba4ba62f7affe05e57f367) - Jared - Wed Jan 22 21:35:54 2020
+			* [update forge to 1.15.1](https://github.com/CraftTweaker/CraftTweaker/commit/39f45343748414de06395a6e2a23b185f317452c) - Jared - Wed Jan 22 21:35:54 2020
+			* [wrapper classes docs are now /vanilla/api/](https://github.com/CraftTweaker/CraftTweaker/commit/e524914f5b057a9c007dca1310638c2bcac53d31) - Jared - Sun Jan 19 22:18:46 2020
+			* [move all generated docs to /vanilla/api](https://github.com/CraftTweaker/CraftTweaker/commit/6a1d9f4f69025c20e450feef2ca561c7ab54ad03) - Jared - Sun Jan 19 22:15:13 2020
+			* [no more value = for docs annotation](https://github.com/CraftTweaker/CraftTweaker/commit/ba576f0a25678a6451080d23403ae3954d41d914) - Jared - Sun Jan 19 22:03:38 2020
+			* [Updated ZC](https://github.com/CraftTweaker/CraftTweaker/commit/f3b595aa161e93f6ff90788b53fbea04ee9b265d) - kindlich - Sat Jan 11 13:58:34 2020
+			* [make YAML output be in folders](https://github.com/CraftTweaker/CraftTweaker/commit/0de76eb4e3008edf0963c65d83ee971b4963c20c) - Jared - Fri Jan 10 22:55:02 2020
+			* [ignore docsOut and src/generated](https://github.com/CraftTweaker/CraftTweaker/commit/c7f9f97ed3398bc61b0bf81f1050284fb0c6ca79) - Jared - Fri Jan 10 22:54:34 2020
+			* [update ZC to fix server crashes](https://github.com/CraftTweaker/CraftTweaker/commit/7c703a57a06fc9bb2ea7d2ecde673e7ff18f89ef) - Jared - Fri Jan 10 22:23:43 2020
+			* [update ZC](https://github.com/CraftTweaker/CraftTweaker/commit/224ad15e53c38b430dbd4230922d82f7f5b59977) - Jared - Fri Jan 10 19:21:41 2020
+			* [Updated ZC](https://github.com/CraftTweaker/CraftTweaker/commit/5d9f252e406156b81bcadd720b95e8a9ddca43f4) - kindlich - Fri Jan 10 19:06:10 2020
+			* [Added IIngredient#asIData](https://github.com/CraftTweaker/CraftTweaker/commit/1f4761cdf63d7b8b9bd878ac2a34940a36a4eb17) - kindlich - Fri Jan 10 19:00:45 2020
+			* [Updated Doc location for Biome and BiomeSpawnEntry](https://github.com/CraftTweaker/CraftTweaker/commit/02cf6a708b3d163174ddfd31276807d941b78cdc) - kindlich - Fri Jan 10 18:58:57 2020
+			* [update ZS](https://github.com/CraftTweaker/CraftTweaker/commit/2839aed162ff778c0acd40472474a3fde50e83bc) - Jared - Wed Jan 8 17:53:38 2020
+			* [Removed test code for no wrapper file](https://github.com/CraftTweaker/CraftTweaker/commit/69fa5381ed1f6457342fd34fde78155ecbb4143b) - kindlich - Sun Jan 5 20:23:39 2020
+			* [DocumentProcessor: Clear the output directory first](https://github.com/CraftTweaker/CraftTweaker/commit/d64087adf887972238ba1ec7482ce8e83676f395) - kindlich - Sun Jan 5 20:20:35 2020
+			* [Updated ZC](https://github.com/CraftTweaker/CraftTweaker/commit/9f960d9c5a301a942c48512e4ab2085a08d83ea9) - kindlich - Sun Jan 5 19:51:50 2020
+			* [Added some advancements as being wrapped](https://github.com/CraftTweaker/CraftTweaker/commit/57cc981aee01abaa689b872ab851d63a7db4b366) - kindlich - Wed Jan 1 23:45:25 2020
+			* [Fixed some issues with the wrapper Processor](https://github.com/CraftTweaker/CraftTweaker/commit/e22c6972784858c8118eb1485496f1ea1eb655c8) - kindlich - Wed Jan 1 23:44:59 2020
+			* [Forgot Some these](https://github.com/CraftTweaker/CraftTweaker/commit/54a5854f42414293ff8c6ea897f9c86a45956665) - kindlich - Wed Jan 1 22:56:12 2020
+			* [Event Wrapper and Comment cleanup](https://github.com/CraftTweaker/CraftTweaker/commit/13501a232699331ea342199b86ec938692e621ee) - kindlich - Wed Jan 1 21:35:22 2020
+			* [Updated ZC](https://github.com/CraftTweaker/CraftTweaker/commit/100bfb38141ec271a31e04e342f82cad6dc0a4a4) - kindlich - Wed Jan 1 16:43:17 2020
+			* [Removed 2nd MCWorld](https://github.com/CraftTweaker/CraftTweaker/commit/d82e4ef51904c0378c4025973a14dfdbb5b0da7c) - kindlich - Wed Jan 1 16:30:19 2020
+			* [Removed unused buildSrc](https://github.com/CraftTweaker/CraftTweaker/commit/0b782c48bb8d36950a00546258d0d63d9f98154c) - kindlich - Wed Jan 1 16:27:20 2020
+			* [Made Event listeners unregister themselves on a reload](https://github.com/CraftTweaker/CraftTweaker/commit/592e7d9862449a6f7285a65250be98296e3820d3) - kindlich - Wed Jan 1 16:25:55 2020
+			* [Only remove sidedActions when on the same side](https://github.com/CraftTweaker/CraftTweaker/commit/7d15faf7ae87abbc96d060cdc832b6cc957a7002) - kindlich - Wed Jan 1 16:24:36 2020
+			* [Added missing Document and ZenWrapper annotations](https://github.com/CraftTweaker/CraftTweaker/commit/42cd76858c4bb9901ac234f2bd2cc9bc342738d5) - kindlich - Wed Jan 1 16:23:38 2020
+			* [More work on wrappers](https://github.com/CraftTweaker/CraftTweaker/commit/a5f6a37ecd56898eefd2408b9e4177cba5927aba) - kindlich - Wed Jan 1 16:22:16 2020
+			* [Committing stuff before I do something stupid](https://github.com/CraftTweaker/CraftTweaker/commit/a93ea989e169113d715fa84e4144b8ca23491b06) - kindlich - Tue Dec 31 23:03:43 2019
+			* [Committing stuff before I do something stupid](https://github.com/CraftTweaker/CraftTweaker/commit/2c785dbd40fa4e6ad62d6574347041f85fa7984f) - kindlich - Tue Dec 31 21:46:11 2019
+			* [CTTooltipEvent handler working now.](https://github.com/CraftTweaker/CraftTweaker/commit/b43eefc90d69e5111b7a17fdac383bbf0487fc78) - kindlich - Fri Dec 27 16:52:33 2019
+			* [Some minor cleanup for Annotation Processors](https://github.com/CraftTweaker/CraftTweaker/commit/2e0897e84a4fbd7733d63d1fb054f80411fe929b) - kindlich - Thu Dec 26 23:07:54 2019
+			* [Simple yaml generation and fixed multiple classes being generated](https://github.com/CraftTweaker/CraftTweaker/commit/2912e29a540d1241f7616e3641a9a95f276019a1) - kindlich - Mon Dec 23 13:31:29 2019
+			* [Some cleanup](https://github.com/CraftTweaker/CraftTweaker/commit/18591fa7ac102e2cf11c172d9bc5e76b92b10624) - kindlich - Mon Dec 23 13:06:59 2019
+			* [Some more work on Expansions and declaredModid](https://github.com/CraftTweaker/CraftTweaker/commit/91eb925ba4ecdf5a03498677a572383547fd04cc) - kindlich - Mon Dec 23 12:53:29 2019
+			* [Started working on expansion classes](https://github.com/CraftTweaker/CraftTweaker/commit/4b68e0e43bd13b86d94b227b97a67094ae0981ea) - kindlich - Sun Dec 22 23:23:31 2019
+			* [Normal classes should be running now](https://github.com/CraftTweaker/CraftTweaker/commit/6b06dd25f2b4adb58c72eec818d5f87cafdc98f7) - kindlich - Sun Dec 22 21:15:31 2019
+			* [Base classes for Document Processor rewrite](https://github.com/CraftTweaker/CraftTweaker/commit/34fd8a748133dbc8a0c609ae9e21ef41336252d4) - kindlich - Sat Dec 21 22:42:42 2019
+			* [Start working on annotation processor rewrite](https://github.com/CraftTweaker/CraftTweaker/commit/bd6cf0c2cf376516896fa603fa3a9bc41911760f) - kindlich - Fri Dec 20 14:04:26 2019
+			* [Replaced IEventHandler with Consumer](https://github.com/CraftTweaker/CraftTweaker/commit/e0fcd372ad7143fa3a69f42d0c4fd59cf00e2986) - kindlich - Sat Dec 14 21:25:17 2019
+			* [event test](https://github.com/CraftTweaker/CraftTweaker/commit/98d834eed872ba45bb9ecd24b4bbab249b9f031a) - Jared - Thu Dec 12 18:43:10 2019
+
+	Cucumber Library (Cucumber-1.15.2-3.0.4.jar --> Cucumber-1.15.2-3.0.5.jar):
+		Cucumber-1.15.2-3.0.5.jar:
+			Release 3.0.5 for MC 1.15.2
+			Changes:
+			* Fixed shears not dropping items
+
+	Cyclic (Cyclic-1.15.2-0.3.0.jar --> Cyclic-1.15.2-0.3.2.jar):
+		Cyclic-1.15.2-0.3.2.jar:
+			Fixed fire charm particles crashing serverside.
+			Fixed harvester not producing netherwart.
+			Fixed handheld item rendering.
+			Torch launcher is immensely less likely to place in invalid spots.
+			Experience pylon gives more information when using it, and now works with empty bottles.
+			When Ender Eye Reuse is used, the entity will Always shatter and never drop an item.
+			Experience pylon now has much higher capacity.
+
+		Cyclic-1.15.2-0.3.1.jar:
+			Added item pipes
+			added fluid pipes
+			New item Cable wrench
+			added structure builder
+			Changed some other things, this is an alpha build for testing but its pretty stable.
+
+	Dark Utilities (DarkUtilities-1.15.2-3.0.2.jar --> DarkUtilities-1.15.2-3.0.3.jar):
+		DarkUtilities-1.15.2-3.0.3.jar:
+			* Further optimized texture files. - Tyler Hancock
+			* Compiled against new forge, mcp, bookshelf, and curios. - Tyler Hancock
+			Huge thanks to my supporters on [Patreon](https://www.patreon.com/Darkhax?MCChangelog?DarkUtilities)
+			* Pongo Sapiens
+			* Darkosto
+
+	Double Slabs (DoubleSlabs-1.15-2.1.1 --> DoubleSlabs-1.15-2.2.3):
+		DoubleSlabs-1.15-2.2.3:
+			+Doors and redstone can now be placed on double slabs
+
+		DoubleSlabs-1.15-2.2.2:
+			=Improved slab rendering to better support transparent and translucent blocks
+
+		DoubleSlabs-1.15-2.2.1:
+			=Fixed the way colours are chosen for coloured blocks meaning that two slabs can be coloured independent of each other
+
+		DoubleSlabs-1.15-2.2.0:
+			+Added configuration option to control whether to use the original double slab or the custom double slab when combining two slabs of the same type
+
+	Fx Control! (fxcontrol-1.15-1.0.1.jar --> fxcontrol-1.15-1.0.2.jar):
+		fxcontrol-1.15-1.0.2.jar:
+			* Avoid server-side crashes in combination with debug command
+			* Getting the item that was used to place a block is now more reliable
+
+	In Control! (incontrol-1.15-4.0.2.jar --> incontrol-1.15-4.0.3.jar):
+		incontrol-1.15-4.0.3.jar:
+			* 'perchunk' is implemented again
+			* Avoid server-side crashes in combination with debug command
+
+	JAOPCA (JAOPCA-1.15.2-3.2.0.8.jar --> JAOPCA-1.15.2-3.2.0.9.jar):
+		JAOPCA-1.15.2-3.2.0.9.jar:
+			Updated Mekanism
+
+	Just Enough Items (JEI) (jei-1.15.2-6.0.0.2.jar --> jei-1.15.2-6.0.0.3.jar):
+		Placeholder:
+			No changelog available.
+
+	Lollipop (Lollipop-1.15.2-1.0.13.jar --> Lollipop-1.15.2-1.0.14.jar):
+		Lollipop-1.15.2-1.0.14.jar:
+			No changelog available.
+
+	Macaw's Windows (mcw-windows-1.0.0-mc1.15.1_1.15.2.jar --> mcw-windows-1.0.1-mc1.15.2_1.15.1.jar):
+		mcw-windows-1.0.1-mc1.15.2_1.15.1.jar:
+			Added 4 variants to existing windows:
+			* Stone, Andesite, Granite, Diorite
+			Improved the existing windows:
+			* They have different hitbox/collision box for open/close variation
+			* Hinges
+			Added new Gothic Windows
+			* They can be toggled with the Hammer
+			Added Hammer
+			* It is used to toggle gothic window bars
+			Added Parapets/Window Sills
+			* Decorate your windows to look even better!
+			Fixed Bugs :
+			* Arrows can fly through the upper window, even if it is closed.
+			* You can't open the window if you aim at the upper window part.
+
+	Mekanism (Mekanism-1.15.2-9.9.18.410.jar --> Mekanism-1.15.2-9.9.20.412.jar):
+		Mekanism-1.15.2-9.9.20.412.jar:
+			Warning: Mekanism is currently in alpha, and is not recommended for widespread use in modpacks. There are likely to be game breaking bugs, and updating from one alpha to the next may cause various mekanism blocks to disappear/void their contents. While we will try to not have this happen/keep it to a minimum make sure to make backups. You can read more about the alpha state of this project [here](https://github.com/mekanism/Mekanism#alpha-status).
+			[ef26a3c](https://github.com/mekanism/Mekanism/commit/ef26a3c93c71e5b0d316d3d9c197a2f2b8907bee) - Update Crowdin configuration file
+			[af5c192](https://github.com/mekanism/Mekanism/commit/af5c1926c2a2faa91076e33831d40ec7fb41e01d) - crowdin: attempt to map language codes to MC lowercased ids
+			[77aef85](https://github.com/mekanism/Mekanism/commit/77aef85572e21d3a8c65b6b21c87d9577139c161) - crowdin: ok, overrides are per source -.-
+			[cc66e26](https://github.com/mekanism/Mekanism/commit/cc66e26bbb029cc79520aedb36220b1ba25a9a45) - crowdin: fix language keys to use crowdin dash format
+			[b16e129](https://github.com/mekanism/Mekanism/commit/b16e129fa34c790c25db1645ff777c242d523d76) - Fix incorrect AT levels causing a couple classes to not be accessible outside of dev. [#6057](https://github.com/mekanism/Mekanism/issues/6057)
+			[49c642b](https://github.com/mekanism/Mekanism/commit/49c642bd264b43db5014168dc0e3e414b1a89aaf) - Fix missed conversion back to doubles from floatinglongs for heat [#6060](https://github.com/mekanism/Mekanism/issues/6060)
+			[6af3de0](https://github.com/mekanism/Mekanism/commit/6af3de014960cf4611c28c7072b943613fbc8dc2) - Bump version to 9.9.20
+
+		Mekanism-1.15.2-9.9.19.411.jar:
+			Warning: Mekanism is currently in alpha, and is not recommended for widespread use in modpacks. There are likely to be game breaking bugs, and updating from one alpha to the next may cause various mekanism blocks to disappear/void their contents. While we will try to not have this happen/keep it to a minimum make sure to make backups. You can read more about the alpha state of this project [here](https://github.com/mekanism/Mekanism#alpha-status).
+			[49c88f0](https://github.com/mekanism/Mekanism/commit/49c88f07da11f414c32a4aff66387f6009eaa494) - Work on attribute system for gases
+			[c8b4973](https://github.com/mekanism/Mekanism/commit/c8b49730d31d682392590053dd10f3a33c7b0bd0) - Improvements to chemical system
+			[e3fcdc1](https://github.com/mekanism/Mekanism/commit/e3fcdc183981f02e3e8050a49c624133d1ff4d63) - Define CAV as nonnull, other minor improvements
+			[b672fb0](https://github.com/mekanism/Mekanism/commit/b672fb009120c7734c1f4e978d9f837c7f55285b) - Start work on transitioning item and block models over to being created via data generators, buckets and tools module are done. Also slightly reorganize texture structure for mekanism tools
+			[94bf266](https://github.com/mekanism/Mekanism/commit/94bf26614c12f10ce5c4be3aa3afcd378ff418cb) - Fix Robit translation
+			[1fb65a7](https://github.com/mekanism/Mekanism/commit/1fb65a73897d87944fecbc466303a0edda094143) - Cleanup block loot table data generator code
+			[b8a0ef8](https://github.com/mekanism/Mekanism/commit/b8a0ef8cf21a17ac7594ed8bbd7a1a3f40e227fb) - Continue work on moving various model files to being created via data generators
+			[a85fc6d](https://github.com/mekanism/Mekanism/commit/a85fc6defe8cec061bf62e0a2eaa771d14cb6079) - Fixed integer-based emission target splits, some updates to gas attribute system
+			[f4133fe](https://github.com/mekanism/Mekanism/commit/f4133feb58d9a0c92e0a2ae430d82db54e853a0c) - Increase base capacity/pull rate of tubes and pipes, fix fluid + gas gauge overflows, cleanup reactor
+			[eee045e](https://github.com/mekanism/Mekanism/commit/eee045e6e35f642c2b827aea82a5ade348cf552a) - Rebalance interaction between Fission Reactors, Boilers and Turbines A lot of more work is still necessary, but this will hopefully stop abuse of the system
+			[a4b022e](https://github.com/mekanism/Mekanism/commit/a4b022e854b7a87705cac16017813f602ed104e0) - Improve update delay calculations, improve balance of Thermal Evaporation Controller + Resistive Heater, fix Boilers accepting steam Also, doubled efficiency of steam in reactor to give it a further edge and doubled Turbine steam processing speed
+			[2008669](https://github.com/mekanism/Mekanism/commit/200866921d0fcb9074f8e9097327b2b53a4aaf79) - Fix reactor stats scaling, add a base conductivity value to the boiler, bump fuelwood heater generation
+			[ac9ab07](https://github.com/mekanism/Mekanism/commit/ac9ab0744ce7e9b5cad2623a867f080d0700fb61) - Incomplete refactoring of heat API Very incomplete, doesn't even compile- just wanted to get my current changes out. Should provide an idea of how the system will be implemented.
+			[e14f0f1](https://github.com/mekanism/Mekanism/commit/e14f0f17496db9b7145307c41f7e570ac3493436) - Some minor work on method signatures for the heat api
+			[b56bb05](https://github.com/mekanism/Mekanism/commit/b56bb059f4e240bc899a6b7f4d37fed23d9fcfd8) - Continued changes
+			[df3bc25](https://github.com/mekanism/Mekanism/commit/df3bc25c1e558363610c5b534216d50743465751) - Slightly consolidate energy/fluid/infusion/gas tile management for better readibility
+			[7c8da92](https://github.com/mekanism/Mekanism/commit/7c8da925cf472f7b8bc37e3947141f200ec209d3) - Continued work
+			[4d73458](https://github.com/mekanism/Mekanism/commit/4d7345801cf77a1d1885c26a24cd18058b308297) - Continued work
+			[ea33775](https://github.com/mekanism/Mekanism/commit/ea3377529e5935b34abd78a50669fb5aea8743d2) - More work
+			[7f2cc4d](https://github.com/mekanism/Mekanism/commit/7f2cc4df3272cc176a03a2c2e503016794791cdd) - More work Reactor math sucks
+			[13e149b](https://github.com/mekanism/Mekanism/commit/13e149b33358408ee9fb016dd3cc53e403f47f41) - Continued work, fix a pretty serious issue with cache merging
+			[39fdf64](https://github.com/mekanism/Mekanism/commit/39fdf6435acf9e5170bd49175d484e21a633d318) - Fix some calculation issues
+			[36f0f91](https://github.com/mekanism/Mekanism/commit/36f0f91e7c1c5075ff533ee0612cdb3ae633ca14) - Minor fixes, ready for testing
+			[a63c4f0](https://github.com/mekanism/Mekanism/commit/a63c4f0c4016b10dbe2efd4c68f885f2be2c0995) - Work on cleaning up a few things related to the heat api rework
+			[139c73b](https://github.com/mekanism/Mekanism/commit/139c73bf73dc0dc6c848810b92b76505a084a65d) - Heat API fixes, better calculations for transmitter content scales (in cases where we're transferring very small amounts, [#6045](https://github.com/mekanism/Mekanism/issues/6045)), fix mode change [#6041](https://github.com/mekanism/Mekanism/issues/6041) Unfortunately, as we de-register networks each time a transmitter is broken, it will appear as though the contents 'refresh' each time a transmitter is broken. This can be looked into more further
+			[a11c2b6](https://github.com/mekanism/Mekanism/commit/a11c2b6afda2a3295d61e31f270e1c3483a8e450) - Fixed Thermodynamic Conductors We really don't need a proxied heat handler for the conductors, instead we wrap the capability around the tile
+			[317c3f1](https://github.com/mekanism/Mekanism/commit/317c3f1b9e63a20b5c61336a10cafec7297b5148) - Make Thermodynamic Conductors read/write
+			[40097e4](https://github.com/mekanism/Mekanism/commit/40097e48681f9b12f5551a221708769c2a6ba4c3) - More work on cleaning up various calls
+			[49008a5](https://github.com/mekanism/Mekanism/commit/49008a5115012308a8f152ce1248a782867c0fe0) - Fix some merge conflicts
+			[20f0c44](https://github.com/mekanism/Mekanism/commit/20f0c44e55b4d9e51d8a7b6d0040226be26a9d96) - Fix Thermal Evaporation Controller, fix conductors not disconnecting from Quantum Entangloporter, fix persistence
+			[88739f0](https://github.com/mekanism/Mekanism/commit/88739f00b9c77d36818ede6865c8f1b0921642b3) - Few more minor fixes
+			[ddf85d3](https://github.com/mekanism/Mekanism/commit/ddf85d3ea6087511676560850dac48fc6734db18) - JavaDoc heat api, as well as some minor improvements
+			[4fadfc9](https://github.com/mekanism/Mekanism/commit/4fadfc9377d0efb5004fb3de0942df3397966fb8) - Base temperature system around 0 degrees Kelvin rather than ambient temp Also, debug work on Boiler.
+			[54463fa](https://github.com/mekanism/Mekanism/commit/54463fa9bf9e59260048614997689962feba4f89) - Fix superheating element active state, other various fixes Beginning to transition back to doubles
+			[36dbf34](https://github.com/mekanism/Mekanism/commit/36dbf3488f5649a3c81857763a8749904ff356cd) - Start transitioning to doubles
+			[999061e](https://github.com/mekanism/Mekanism/commit/999061e10ff04c5f6c138cb3ae3aa3e1b58f91f0) - Actually finish heat transition
+			[be8abf0](https://github.com/mekanism/Mekanism/commit/be8abf06fad12e20cbca5e002f98aa39d1a087fb) - Minor fixes, fix universal cable content render
+			[6f43b62](https://github.com/mekanism/Mekanism/commit/6f43b623bf1ddc3235b704505af041d0c6134310) - First pass at converting chemical amounts to be longs instead of ints in preparation for eventual changes to mass amounts of steam production - Various minor config fixes/adjustments, highly recommended to regenerate configs to ensure things work properly - Improve networking for various things by using varInt rather than int, as the locations we pass ints over networks they tend to be small - Partially rewrite ProjectE integration to better handle/fail gracefully if a recipe has a long amount of a chemical, and properly handle if multiple inputs are the same
+			[3e55ff3](https://github.com/mekanism/Mekanism/commit/3e55ff380617f618591f92a355855bd01e1861e4) - Minor fixes
+			[15f76ee](https://github.com/mekanism/Mekanism/commit/15f76ee84fd58c0fe05e47208879cb3b573124f2) - Fix some rebase errors
+			[57915f3](https://github.com/mekanism/Mekanism/commit/57915f3d3641b6b6f41839be99c74c75a040862d) - Convert dynamic network's capacity to longs. FluidNetwork still clamped to integer for now though. Also fix some potentially incorrect calculations for energy network scale at large network capacities
+			[368f5a6](https://github.com/mekanism/Mekanism/commit/368f5a6267ceb4d486bd60aadbbc8d4a45eaefd9) - Heat Generator fixes
+			[e5c87a0](https://github.com/mekanism/Mekanism/commit/e5c87a0123463ec65739830ff161e5995a55a3f6) - Fix FloatingLong to string with decimal places, and add also allow for syncing just the decimal changing in the gui
+			[b5ffebb](https://github.com/mekanism/Mekanism/commit/b5ffebbf64c1bf71cdfd2cf4ddfd8dcb2b133681) - Fix heat simulation not taking heat capacity into account, fix Boiler client desync, fix Reactor heat management, fix simulation logic not taking heat capacity into account, adjust heat capacities and production rates for realism
+			[3341511](https://github.com/mekanism/Mekanism/commit/3341511c99653bfd89e0a68b48dd29d4660226d5) - Make all chemical fluid variants be flagged as gaseous [#6048](https://github.com/mekanism/Mekanism/issues/6048)
+			[c12ecb2](https://github.com/mekanism/Mekanism/commit/c12ecb2065a3f18295b70d54a84691a548e5792c) - Update zh_tw.json to 9.9.18 ([#6040](https://github.com/mekanism/Mekanism/issues/6040))
+			[1f7aa9d](https://github.com/mekanism/Mekanism/commit/1f7aa9db0c780e64548310aadcf481214d10f1c7) - Make Oredictionificator handle storage blocks ([#6052](https://github.com/mekanism/Mekanism/issues/6052))
+			[e42fde8](https://github.com/mekanism/Mekanism/commit/e42fde8c19bd752fe035af526bd3043733b27f17) - Update CTM mcmeta files to use the correct block registry names, and add to dev the dev version of CTM and update forge
+			[06d5907](https://github.com/mekanism/Mekanism/commit/06d5907e7acbfb2de753871affa156f411d82150) - Minor code cleanup
+			[722249b](https://github.com/mekanism/Mekanism/commit/722249b47da33a96c3710d42be286880892df305) - More properly handle the ability to have gas usage be a long
+			[a1c555e](https://github.com/mekanism/Mekanism/commit/a1c555e1a04d46aa9c344ddc643cc8b60d2b6a09) - Cleanup/reorganize some config values, and add more config options for changing settings for gear in mekanism
+			[a05dd1a](https://github.com/mekanism/Mekanism/commit/a05dd1ad3a36e7eb5fe832423ea516bf3d916388) - Improve Flamethrower heat logic
+			[8d7cc8c](https://github.com/mekanism/Mekanism/commit/8d7cc8c8da7748f69dafd53dd27575ad1d477e70) - Improve the visual selection box of various things, and make some moving TERs have their selection boxes move with them
+			[101cc74](https://github.com/mekanism/Mekanism/commit/101cc74e6a0679d132a48c77fc29cc84fc84dc7d) - Bump version to 9.9.19
+
+	Mekanism Generators (MekanismGenerators-1.15.2-9.9.18.410.jar --> MekanismGenerators-1.15.2-9.9.20.412.jar):
+		MekanismGenerators-1.15.2-9.9.20.412.jar:
+			Warning: Mekanism is currently in alpha, and is not recommended for widespread use in modpacks. There are likely to be game breaking bugs, and updating from one alpha to the next may cause various mekanism blocks to disappear/void their contents. While we will try to not have this happen/keep it to a minimum make sure to make backups. You can read more about the alpha state of this project [here](https://github.com/mekanism/Mekanism#alpha-status).
+			[ef26a3c](https://github.com/mekanism/Mekanism/commit/ef26a3c93c71e5b0d316d3d9c197a2f2b8907bee) - Update Crowdin configuration file
+			[af5c192](https://github.com/mekanism/Mekanism/commit/af5c1926c2a2faa91076e33831d40ec7fb41e01d) - crowdin: attempt to map language codes to MC lowercased ids
+			[77aef85](https://github.com/mekanism/Mekanism/commit/77aef85572e21d3a8c65b6b21c87d9577139c161) - crowdin: ok, overrides are per source -.-
+			[cc66e26](https://github.com/mekanism/Mekanism/commit/cc66e26bbb029cc79520aedb36220b1ba25a9a45) - crowdin: fix language keys to use crowdin dash format
+			[b16e129](https://github.com/mekanism/Mekanism/commit/b16e129fa34c790c25db1645ff777c242d523d76) - Fix incorrect AT levels causing a couple classes to not be accessible outside of dev. [#6057](https://github.com/mekanism/Mekanism/issues/6057)
+			[49c642b](https://github.com/mekanism/Mekanism/commit/49c642bd264b43db5014168dc0e3e414b1a89aaf) - Fix missed conversion back to doubles from floatinglongs for heat [#6060](https://github.com/mekanism/Mekanism/issues/6060)
+			[6af3de0](https://github.com/mekanism/Mekanism/commit/6af3de014960cf4611c28c7072b943613fbc8dc2) - Bump version to 9.9.20
+
+		MekanismGenerators-1.15.2-9.9.19.411.jar:
+			Warning: Mekanism is currently in alpha, and is not recommended for widespread use in modpacks. There are likely to be game breaking bugs, and updating from one alpha to the next may cause various mekanism blocks to disappear/void their contents. While we will try to not have this happen/keep it to a minimum make sure to make backups. You can read more about the alpha state of this project [here](https://github.com/mekanism/Mekanism#alpha-status).
+			[49c88f0](https://github.com/mekanism/Mekanism/commit/49c88f07da11f414c32a4aff66387f6009eaa494) - Work on attribute system for gases
+			[c8b4973](https://github.com/mekanism/Mekanism/commit/c8b49730d31d682392590053dd10f3a33c7b0bd0) - Improvements to chemical system
+			[e3fcdc1](https://github.com/mekanism/Mekanism/commit/e3fcdc183981f02e3e8050a49c624133d1ff4d63) - Define CAV as nonnull, other minor improvements
+			[b672fb0](https://github.com/mekanism/Mekanism/commit/b672fb009120c7734c1f4e978d9f837c7f55285b) - Start work on transitioning item and block models over to being created via data generators, buckets and tools module are done. Also slightly reorganize texture structure for mekanism tools
+			[94bf266](https://github.com/mekanism/Mekanism/commit/94bf26614c12f10ce5c4be3aa3afcd378ff418cb) - Fix Robit translation
+			[1fb65a7](https://github.com/mekanism/Mekanism/commit/1fb65a73897d87944fecbc466303a0edda094143) - Cleanup block loot table data generator code
+			[b8a0ef8](https://github.com/mekanism/Mekanism/commit/b8a0ef8cf21a17ac7594ed8bbd7a1a3f40e227fb) - Continue work on moving various model files to being created via data generators
+			[a85fc6d](https://github.com/mekanism/Mekanism/commit/a85fc6defe8cec061bf62e0a2eaa771d14cb6079) - Fixed integer-based emission target splits, some updates to gas attribute system
+			[f4133fe](https://github.com/mekanism/Mekanism/commit/f4133feb58d9a0c92e0a2ae430d82db54e853a0c) - Increase base capacity/pull rate of tubes and pipes, fix fluid + gas gauge overflows, cleanup reactor
+			[eee045e](https://github.com/mekanism/Mekanism/commit/eee045e6e35f642c2b827aea82a5ade348cf552a) - Rebalance interaction between Fission Reactors, Boilers and Turbines A lot of more work is still necessary, but this will hopefully stop abuse of the system
+			[a4b022e](https://github.com/mekanism/Mekanism/commit/a4b022e854b7a87705cac16017813f602ed104e0) - Improve update delay calculations, improve balance of Thermal Evaporation Controller + Resistive Heater, fix Boilers accepting steam Also, doubled efficiency of steam in reactor to give it a further edge and doubled Turbine steam processing speed
+			[2008669](https://github.com/mekanism/Mekanism/commit/200866921d0fcb9074f8e9097327b2b53a4aaf79) - Fix reactor stats scaling, add a base conductivity value to the boiler, bump fuelwood heater generation
+			[ac9ab07](https://github.com/mekanism/Mekanism/commit/ac9ab0744ce7e9b5cad2623a867f080d0700fb61) - Incomplete refactoring of heat API Very incomplete, doesn't even compile- just wanted to get my current changes out. Should provide an idea of how the system will be implemented.
+			[e14f0f1](https://github.com/mekanism/Mekanism/commit/e14f0f17496db9b7145307c41f7e570ac3493436) - Some minor work on method signatures for the heat api
+			[b56bb05](https://github.com/mekanism/Mekanism/commit/b56bb059f4e240bc899a6b7f4d37fed23d9fcfd8) - Continued changes
+			[df3bc25](https://github.com/mekanism/Mekanism/commit/df3bc25c1e558363610c5b534216d50743465751) - Slightly consolidate energy/fluid/infusion/gas tile management for better readibility
+			[7c8da92](https://github.com/mekanism/Mekanism/commit/7c8da925cf472f7b8bc37e3947141f200ec209d3) - Continued work
+			[4d73458](https://github.com/mekanism/Mekanism/commit/4d7345801cf77a1d1885c26a24cd18058b308297) - Continued work
+			[ea33775](https://github.com/mekanism/Mekanism/commit/ea3377529e5935b34abd78a50669fb5aea8743d2) - More work
+			[7f2cc4d](https://github.com/mekanism/Mekanism/commit/7f2cc4df3272cc176a03a2c2e503016794791cdd) - More work Reactor math sucks
+			[13e149b](https://github.com/mekanism/Mekanism/commit/13e149b33358408ee9fb016dd3cc53e403f47f41) - Continued work, fix a pretty serious issue with cache merging
+			[39fdf64](https://github.com/mekanism/Mekanism/commit/39fdf6435acf9e5170bd49175d484e21a633d318) - Fix some calculation issues
+			[36f0f91](https://github.com/mekanism/Mekanism/commit/36f0f91e7c1c5075ff533ee0612cdb3ae633ca14) - Minor fixes, ready for testing
+			[a63c4f0](https://github.com/mekanism/Mekanism/commit/a63c4f0c4016b10dbe2efd4c68f885f2be2c0995) - Work on cleaning up a few things related to the heat api rework
+			[139c73b](https://github.com/mekanism/Mekanism/commit/139c73bf73dc0dc6c848810b92b76505a084a65d) - Heat API fixes, better calculations for transmitter content scales (in cases where we're transferring very small amounts, [#6045](https://github.com/mekanism/Mekanism/issues/6045)), fix mode change [#6041](https://github.com/mekanism/Mekanism/issues/6041) Unfortunately, as we de-register networks each time a transmitter is broken, it will appear as though the contents 'refresh' each time a transmitter is broken. This can be looked into more further
+			[a11c2b6](https://github.com/mekanism/Mekanism/commit/a11c2b6afda2a3295d61e31f270e1c3483a8e450) - Fixed Thermodynamic Conductors We really don't need a proxied heat handler for the conductors, instead we wrap the capability around the tile
+			[317c3f1](https://github.com/mekanism/Mekanism/commit/317c3f1b9e63a20b5c61336a10cafec7297b5148) - Make Thermodynamic Conductors read/write
+			[40097e4](https://github.com/mekanism/Mekanism/commit/40097e48681f9b12f5551a221708769c2a6ba4c3) - More work on cleaning up various calls
+			[49008a5](https://github.com/mekanism/Mekanism/commit/49008a5115012308a8f152ce1248a782867c0fe0) - Fix some merge conflicts
+			[20f0c44](https://github.com/mekanism/Mekanism/commit/20f0c44e55b4d9e51d8a7b6d0040226be26a9d96) - Fix Thermal Evaporation Controller, fix conductors not disconnecting from Quantum Entangloporter, fix persistence
+			[88739f0](https://github.com/mekanism/Mekanism/commit/88739f00b9c77d36818ede6865c8f1b0921642b3) - Few more minor fixes
+			[ddf85d3](https://github.com/mekanism/Mekanism/commit/ddf85d3ea6087511676560850dac48fc6734db18) - JavaDoc heat api, as well as some minor improvements
+			[4fadfc9](https://github.com/mekanism/Mekanism/commit/4fadfc9377d0efb5004fb3de0942df3397966fb8) - Base temperature system around 0 degrees Kelvin rather than ambient temp Also, debug work on Boiler.
+			[54463fa](https://github.com/mekanism/Mekanism/commit/54463fa9bf9e59260048614997689962feba4f89) - Fix superheating element active state, other various fixes Beginning to transition back to doubles
+			[36dbf34](https://github.com/mekanism/Mekanism/commit/36dbf3488f5649a3c81857763a8749904ff356cd) - Start transitioning to doubles
+			[999061e](https://github.com/mekanism/Mekanism/commit/999061e10ff04c5f6c138cb3ae3aa3e1b58f91f0) - Actually finish heat transition
+			[be8abf0](https://github.com/mekanism/Mekanism/commit/be8abf06fad12e20cbca5e002f98aa39d1a087fb) - Minor fixes, fix universal cable content render
+			[6f43b62](https://github.com/mekanism/Mekanism/commit/6f43b623bf1ddc3235b704505af041d0c6134310) - First pass at converting chemical amounts to be longs instead of ints in preparation for eventual changes to mass amounts of steam production - Various minor config fixes/adjustments, highly recommended to regenerate configs to ensure things work properly - Improve networking for various things by using varInt rather than int, as the locations we pass ints over networks they tend to be small - Partially rewrite ProjectE integration to better handle/fail gracefully if a recipe has a long amount of a chemical, and properly handle if multiple inputs are the same
+			[3e55ff3](https://github.com/mekanism/Mekanism/commit/3e55ff380617f618591f92a355855bd01e1861e4) - Minor fixes
+			[15f76ee](https://github.com/mekanism/Mekanism/commit/15f76ee84fd58c0fe05e47208879cb3b573124f2) - Fix some rebase errors
+			[57915f3](https://github.com/mekanism/Mekanism/commit/57915f3d3641b6b6f41839be99c74c75a040862d) - Convert dynamic network's capacity to longs. FluidNetwork still clamped to integer for now though. Also fix some potentially incorrect calculations for energy network scale at large network capacities
+			[368f5a6](https://github.com/mekanism/Mekanism/commit/368f5a6267ceb4d486bd60aadbbc8d4a45eaefd9) - Heat Generator fixes
+			[e5c87a0](https://github.com/mekanism/Mekanism/commit/e5c87a0123463ec65739830ff161e5995a55a3f6) - Fix FloatingLong to string with decimal places, and add also allow for syncing just the decimal changing in the gui
+			[b5ffebb](https://github.com/mekanism/Mekanism/commit/b5ffebbf64c1bf71cdfd2cf4ddfd8dcb2b133681) - Fix heat simulation not taking heat capacity into account, fix Boiler client desync, fix Reactor heat management, fix simulation logic not taking heat capacity into account, adjust heat capacities and production rates for realism
+			[3341511](https://github.com/mekanism/Mekanism/commit/3341511c99653bfd89e0a68b48dd29d4660226d5) - Make all chemical fluid variants be flagged as gaseous [#6048](https://github.com/mekanism/Mekanism/issues/6048)
+			[c12ecb2](https://github.com/mekanism/Mekanism/commit/c12ecb2065a3f18295b70d54a84691a548e5792c) - Update zh_tw.json to 9.9.18 ([#6040](https://github.com/mekanism/Mekanism/issues/6040))
+			[1f7aa9d](https://github.com/mekanism/Mekanism/commit/1f7aa9db0c780e64548310aadcf481214d10f1c7) - Make Oredictionificator handle storage blocks ([#6052](https://github.com/mekanism/Mekanism/issues/6052))
+			[e42fde8](https://github.com/mekanism/Mekanism/commit/e42fde8c19bd752fe035af526bd3043733b27f17) - Update CTM mcmeta files to use the correct block registry names, and add to dev the dev version of CTM and update forge
+			[06d5907](https://github.com/mekanism/Mekanism/commit/06d5907e7acbfb2de753871affa156f411d82150) - Minor code cleanup
+			[722249b](https://github.com/mekanism/Mekanism/commit/722249b47da33a96c3710d42be286880892df305) - More properly handle the ability to have gas usage be a long
+			[a1c555e](https://github.com/mekanism/Mekanism/commit/a1c555e1a04d46aa9c344ddc643cc8b60d2b6a09) - Cleanup/reorganize some config values, and add more config options for changing settings for gear in mekanism
+			[a05dd1a](https://github.com/mekanism/Mekanism/commit/a05dd1ad3a36e7eb5fe832423ea516bf3d916388) - Improve Flamethrower heat logic
+			[8d7cc8c](https://github.com/mekanism/Mekanism/commit/8d7cc8c8da7748f69dafd53dd27575ad1d477e70) - Improve the visual selection box of various things, and make some moving TERs have their selection boxes move with them
+			[101cc74](https://github.com/mekanism/Mekanism/commit/101cc74e6a0679d132a48c77fc29cc84fc84dc7d) - Bump version to 9.9.19
+
+	Mekanism Tools (MekanismTools-1.15.2-9.9.18.410.jar --> MekanismTools-1.15.2-9.9.20.412.jar):
+		MekanismTools-1.15.2-9.9.20.412.jar:
+			Warning: Mekanism is currently in alpha, and is not recommended for widespread use in modpacks. There are likely to be game breaking bugs, and updating from one alpha to the next may cause various mekanism blocks to disappear/void their contents. While we will try to not have this happen/keep it to a minimum make sure to make backups. You can read more about the alpha state of this project [here](https://github.com/mekanism/Mekanism#alpha-status).
+			[ef26a3c](https://github.com/mekanism/Mekanism/commit/ef26a3c93c71e5b0d316d3d9c197a2f2b8907bee) - Update Crowdin configuration file
+			[af5c192](https://github.com/mekanism/Mekanism/commit/af5c1926c2a2faa91076e33831d40ec7fb41e01d) - crowdin: attempt to map language codes to MC lowercased ids
+			[77aef85](https://github.com/mekanism/Mekanism/commit/77aef85572e21d3a8c65b6b21c87d9577139c161) - crowdin: ok, overrides are per source -.-
+			[cc66e26](https://github.com/mekanism/Mekanism/commit/cc66e26bbb029cc79520aedb36220b1ba25a9a45) - crowdin: fix language keys to use crowdin dash format
+			[b16e129](https://github.com/mekanism/Mekanism/commit/b16e129fa34c790c25db1645ff777c242d523d76) - Fix incorrect AT levels causing a couple classes to not be accessible outside of dev. [#6057](https://github.com/mekanism/Mekanism/issues/6057)
+			[49c642b](https://github.com/mekanism/Mekanism/commit/49c642bd264b43db5014168dc0e3e414b1a89aaf) - Fix missed conversion back to doubles from floatinglongs for heat [#6060](https://github.com/mekanism/Mekanism/issues/6060)
+			[6af3de0](https://github.com/mekanism/Mekanism/commit/6af3de014960cf4611c28c7072b943613fbc8dc2) - Bump version to 9.9.20
+
+		MekanismTools-1.15.2-9.9.19.411.jar:
+			Warning: Mekanism is currently in alpha, and is not recommended for widespread use in modpacks. There are likely to be game breaking bugs, and updating from one alpha to the next may cause various mekanism blocks to disappear/void their contents. While we will try to not have this happen/keep it to a minimum make sure to make backups. You can read more about the alpha state of this project [here](https://github.com/mekanism/Mekanism#alpha-status).
+			[49c88f0](https://github.com/mekanism/Mekanism/commit/49c88f07da11f414c32a4aff66387f6009eaa494) - Work on attribute system for gases
+			[c8b4973](https://github.com/mekanism/Mekanism/commit/c8b49730d31d682392590053dd10f3a33c7b0bd0) - Improvements to chemical system
+			[e3fcdc1](https://github.com/mekanism/Mekanism/commit/e3fcdc183981f02e3e8050a49c624133d1ff4d63) - Define CAV as nonnull, other minor improvements
+			[b672fb0](https://github.com/mekanism/Mekanism/commit/b672fb009120c7734c1f4e978d9f837c7f55285b) - Start work on transitioning item and block models over to being created via data generators, buckets and tools module are done. Also slightly reorganize texture structure for mekanism tools
+			[94bf266](https://github.com/mekanism/Mekanism/commit/94bf26614c12f10ce5c4be3aa3afcd378ff418cb) - Fix Robit translation
+			[1fb65a7](https://github.com/mekanism/Mekanism/commit/1fb65a73897d87944fecbc466303a0edda094143) - Cleanup block loot table data generator code
+			[b8a0ef8](https://github.com/mekanism/Mekanism/commit/b8a0ef8cf21a17ac7594ed8bbd7a1a3f40e227fb) - Continue work on moving various model files to being created via data generators
+			[a85fc6d](https://github.com/mekanism/Mekanism/commit/a85fc6defe8cec061bf62e0a2eaa771d14cb6079) - Fixed integer-based emission target splits, some updates to gas attribute system
+			[f4133fe](https://github.com/mekanism/Mekanism/commit/f4133feb58d9a0c92e0a2ae430d82db54e853a0c) - Increase base capacity/pull rate of tubes and pipes, fix fluid + gas gauge overflows, cleanup reactor
+			[eee045e](https://github.com/mekanism/Mekanism/commit/eee045e6e35f642c2b827aea82a5ade348cf552a) - Rebalance interaction between Fission Reactors, Boilers and Turbines A lot of more work is still necessary, but this will hopefully stop abuse of the system
+			[a4b022e](https://github.com/mekanism/Mekanism/commit/a4b022e854b7a87705cac16017813f602ed104e0) - Improve update delay calculations, improve balance of Thermal Evaporation Controller + Resistive Heater, fix Boilers accepting steam Also, doubled efficiency of steam in reactor to give it a further edge and doubled Turbine steam processing speed
+			[2008669](https://github.com/mekanism/Mekanism/commit/200866921d0fcb9074f8e9097327b2b53a4aaf79) - Fix reactor stats scaling, add a base conductivity value to the boiler, bump fuelwood heater generation
+			[ac9ab07](https://github.com/mekanism/Mekanism/commit/ac9ab0744ce7e9b5cad2623a867f080d0700fb61) - Incomplete refactoring of heat API Very incomplete, doesn't even compile- just wanted to get my current changes out. Should provide an idea of how the system will be implemented.
+			[e14f0f1](https://github.com/mekanism/Mekanism/commit/e14f0f17496db9b7145307c41f7e570ac3493436) - Some minor work on method signatures for the heat api
+			[b56bb05](https://github.com/mekanism/Mekanism/commit/b56bb059f4e240bc899a6b7f4d37fed23d9fcfd8) - Continued changes
+			[df3bc25](https://github.com/mekanism/Mekanism/commit/df3bc25c1e558363610c5b534216d50743465751) - Slightly consolidate energy/fluid/infusion/gas tile management for better readibility
+			[7c8da92](https://github.com/mekanism/Mekanism/commit/7c8da925cf472f7b8bc37e3947141f200ec209d3) - Continued work
+			[4d73458](https://github.com/mekanism/Mekanism/commit/4d7345801cf77a1d1885c26a24cd18058b308297) - Continued work
+			[ea33775](https://github.com/mekanism/Mekanism/commit/ea3377529e5935b34abd78a50669fb5aea8743d2) - More work
+			[7f2cc4d](https://github.com/mekanism/Mekanism/commit/7f2cc4df3272cc176a03a2c2e503016794791cdd) - More work Reactor math sucks
+			[13e149b](https://github.com/mekanism/Mekanism/commit/13e149b33358408ee9fb016dd3cc53e403f47f41) - Continued work, fix a pretty serious issue with cache merging
+			[39fdf64](https://github.com/mekanism/Mekanism/commit/39fdf6435acf9e5170bd49175d484e21a633d318) - Fix some calculation issues
+			[36f0f91](https://github.com/mekanism/Mekanism/commit/36f0f91e7c1c5075ff533ee0612cdb3ae633ca14) - Minor fixes, ready for testing
+			[a63c4f0](https://github.com/mekanism/Mekanism/commit/a63c4f0c4016b10dbe2efd4c68f885f2be2c0995) - Work on cleaning up a few things related to the heat api rework
+			[139c73b](https://github.com/mekanism/Mekanism/commit/139c73bf73dc0dc6c848810b92b76505a084a65d) - Heat API fixes, better calculations for transmitter content scales (in cases where we're transferring very small amounts, [#6045](https://github.com/mekanism/Mekanism/issues/6045)), fix mode change [#6041](https://github.com/mekanism/Mekanism/issues/6041) Unfortunately, as we de-register networks each time a transmitter is broken, it will appear as though the contents 'refresh' each time a transmitter is broken. This can be looked into more further
+			[a11c2b6](https://github.com/mekanism/Mekanism/commit/a11c2b6afda2a3295d61e31f270e1c3483a8e450) - Fixed Thermodynamic Conductors We really don't need a proxied heat handler for the conductors, instead we wrap the capability around the tile
+			[317c3f1](https://github.com/mekanism/Mekanism/commit/317c3f1b9e63a20b5c61336a10cafec7297b5148) - Make Thermodynamic Conductors read/write
+			[40097e4](https://github.com/mekanism/Mekanism/commit/40097e48681f9b12f5551a221708769c2a6ba4c3) - More work on cleaning up various calls
+			[49008a5](https://github.com/mekanism/Mekanism/commit/49008a5115012308a8f152ce1248a782867c0fe0) - Fix some merge conflicts
+			[20f0c44](https://github.com/mekanism/Mekanism/commit/20f0c44e55b4d9e51d8a7b6d0040226be26a9d96) - Fix Thermal Evaporation Controller, fix conductors not disconnecting from Quantum Entangloporter, fix persistence
+			[88739f0](https://github.com/mekanism/Mekanism/commit/88739f00b9c77d36818ede6865c8f1b0921642b3) - Few more minor fixes
+			[ddf85d3](https://github.com/mekanism/Mekanism/commit/ddf85d3ea6087511676560850dac48fc6734db18) - JavaDoc heat api, as well as some minor improvements
+			[4fadfc9](https://github.com/mekanism/Mekanism/commit/4fadfc9377d0efb5004fb3de0942df3397966fb8) - Base temperature system around 0 degrees Kelvin rather than ambient temp Also, debug work on Boiler.
+			[54463fa](https://github.com/mekanism/Mekanism/commit/54463fa9bf9e59260048614997689962feba4f89) - Fix superheating element active state, other various fixes Beginning to transition back to doubles
+			[36dbf34](https://github.com/mekanism/Mekanism/commit/36dbf3488f5649a3c81857763a8749904ff356cd) - Start transitioning to doubles
+			[999061e](https://github.com/mekanism/Mekanism/commit/999061e10ff04c5f6c138cb3ae3aa3e1b58f91f0) - Actually finish heat transition
+			[be8abf0](https://github.com/mekanism/Mekanism/commit/be8abf06fad12e20cbca5e002f98aa39d1a087fb) - Minor fixes, fix universal cable content render
+			[6f43b62](https://github.com/mekanism/Mekanism/commit/6f43b623bf1ddc3235b704505af041d0c6134310) - First pass at converting chemical amounts to be longs instead of ints in preparation for eventual changes to mass amounts of steam production - Various minor config fixes/adjustments, highly recommended to regenerate configs to ensure things work properly - Improve networking for various things by using varInt rather than int, as the locations we pass ints over networks they tend to be small - Partially rewrite ProjectE integration to better handle/fail gracefully if a recipe has a long amount of a chemical, and properly handle if multiple inputs are the same
+			[3e55ff3](https://github.com/mekanism/Mekanism/commit/3e55ff380617f618591f92a355855bd01e1861e4) - Minor fixes
+			[15f76ee](https://github.com/mekanism/Mekanism/commit/15f76ee84fd58c0fe05e47208879cb3b573124f2) - Fix some rebase errors
+			[57915f3](https://github.com/mekanism/Mekanism/commit/57915f3d3641b6b6f41839be99c74c75a040862d) - Convert dynamic network's capacity to longs. FluidNetwork still clamped to integer for now though. Also fix some potentially incorrect calculations for energy network scale at large network capacities
+			[368f5a6](https://github.com/mekanism/Mekanism/commit/368f5a6267ceb4d486bd60aadbbc8d4a45eaefd9) - Heat Generator fixes
+			[e5c87a0](https://github.com/mekanism/Mekanism/commit/e5c87a0123463ec65739830ff161e5995a55a3f6) - Fix FloatingLong to string with decimal places, and add also allow for syncing just the decimal changing in the gui
+			[b5ffebb](https://github.com/mekanism/Mekanism/commit/b5ffebbf64c1bf71cdfd2cf4ddfd8dcb2b133681) - Fix heat simulation not taking heat capacity into account, fix Boiler client desync, fix Reactor heat management, fix simulation logic not taking heat capacity into account, adjust heat capacities and production rates for realism
+			[3341511](https://github.com/mekanism/Mekanism/commit/3341511c99653bfd89e0a68b48dd29d4660226d5) - Make all chemical fluid variants be flagged as gaseous [#6048](https://github.com/mekanism/Mekanism/issues/6048)
+			[c12ecb2](https://github.com/mekanism/Mekanism/commit/c12ecb2065a3f18295b70d54a84691a548e5792c) - Update zh_tw.json to 9.9.18 ([#6040](https://github.com/mekanism/Mekanism/issues/6040))
+			[1f7aa9d](https://github.com/mekanism/Mekanism/commit/1f7aa9db0c780e64548310aadcf481214d10f1c7) - Make Oredictionificator handle storage blocks ([#6052](https://github.com/mekanism/Mekanism/issues/6052))
+			[e42fde8](https://github.com/mekanism/Mekanism/commit/e42fde8c19bd752fe035af526bd3043733b27f17) - Update CTM mcmeta files to use the correct block registry names, and add to dev the dev version of CTM and update forge
+			[06d5907](https://github.com/mekanism/Mekanism/commit/06d5907e7acbfb2de753871affa156f411d82150) - Minor code cleanup
+			[722249b](https://github.com/mekanism/Mekanism/commit/722249b47da33a96c3710d42be286880892df305) - More properly handle the ability to have gas usage be a long
+			[a1c555e](https://github.com/mekanism/Mekanism/commit/a1c555e1a04d46aa9c344ddc643cc8b60d2b6a09) - Cleanup/reorganize some config values, and add more config options for changing settings for gear in mekanism
+			[a05dd1a](https://github.com/mekanism/Mekanism/commit/a05dd1ad3a36e7eb5fe832423ea516bf3d916388) - Improve Flamethrower heat logic
+			[8d7cc8c](https://github.com/mekanism/Mekanism/commit/8d7cc8c8da7748f69dafd53dd27575ad1d477e70) - Improve the visual selection box of various things, and make some moving TERs have their selection boxes move with them
+			[101cc74](https://github.com/mekanism/Mekanism/commit/101cc74e6a0679d132a48c77fc29cc84fc84dc7d) - Bump version to 9.9.19
+
+	MineColonies (minecolonies-0.11.813-ALPHA-universal.jar --> minecolonies-0.11.827-ALPHA-universal.jar):
+		minecolonies-0.11.827-ALPHA-universal.jar:
+			Minecolonies Changelog
+			Version: 0.11.827-ALPHA
+			* Schematics115 (#4632)
+			Medieval Oak, Medieval Oak Alternatives, Medieval Spruce, Medieval Spruce Alternatives, Fortress walls
+
+		minecolonies-0.11.826-ALPHA-universal.jar:
+			Minecolonies Changelog
+			Version: 0.11.826-ALPHA
+			* Feature/technology branch (#4629)
+			Adds the technology part of the tree Already adds the remaining technology research but commented out until the workers exist Some small fixes around
+
+		minecolonies-0.11.825-ALPHA-universal.jar:
+			Minecolonies Changelog
+			Version: 0.11.825-ALPHA
+			* Fix lumberjack tree error (#4627)
+			Fix Lumberjack calculating sapling for nonexistant tree Add timeout to guard patrol targets
+
+		minecolonies-0.11.824-ALPHA-universal.jar:
+			Minecolonies Changelog
+			Version: 0.11.824-ALPHA
+			* Colony creation gui (#4615)
+			This PR changes how colony creation works, the colony is now created via a GUI you open by accessing a townhall, instead of upon townhall placement. The gui is looking like this:
+
+		minecolonies-0.11.823-ALPHA-universal.jar:
+			Minecolonies Changelog
+			Version: 0.11.823-ALPHA
+			* Feature/min stock (#4622)
+			Minimum Stock to maintain in the warehouse.
+
+		minecolonies-0.11.822-ALPHA-universal.jar:
+			Minecolonies Changelog
+			Version: 0.11.822-ALPHA
+			* Fix MobEntity References (#4620)
+
+		minecolonies-0.11.821-BETA-universal.jar:
+			Minecolonies Changelog
+			Version: 0.11.821-BETA
+			* Schematics115 (#4613)
+			Dark Oak Update, Nordic Miner, Medieval Oak * Hotfix * Fix duplicate config option luckyblocks and add compostables (#4601)
+			Fix the luckyores config option being called luckyblocks thereby overriding the reald luckyblocks config option Add the suggested compostables from #4595 to the default config If you think any of the added items shouldn't be compostable, or i shouldn't mess with that default value please let me know. * Feature + Civilian Research Tree (#4608)
+			Civilian Research Path Add Rails Pathing * Schematics115 (#4578)
+			Schematic update * Stash #2121 (#4545)
+			First, thanks for this great mod! I loved playing with it, so I wanted to give back a little!
+			Implements #2121
+			Changes proposed in this pull request: Added a Stash, that will have items inside that the DeliveryMan will pickup and move to the Warehouse. So, this incomplete PR is an attempt to implement #2121 , although just the first comment, as the second one I felt it was beyond the scope of the Stash, as I thought this should be kept to a minimal functionality.
+			Core Functionality The Core functionality of how I thought was this: when an item gets deposited, it bumps the priority up to 10, to encourage the DeliveryMan to pickup items ASAP on them. When the DeliveryMan picks up the items, it drops the priority to a minimum. So the bumping and the dropping are being handled by the TileEntity and the Inventory Handler.
+			Found issues I noticed that the dropping of the priority should be done automatically, but it's only done when it's the last building on the list? I didn't quite understand why this didn't work:
+			minecolonies/src/main/java/com/minecolonies/coremod/entity/ai/citizen/deliveryman/EntityAIWorkDeliveryman.java
+			Line 217 in 1fdde5f
+			building.alterPickUpPriority(-10); Temporary work For now, I don't have a fixed GUI. Suggestions are welcome for functionality. Also, I don't have a model. If you guys have a suggestion, one to spare or a software for me to take a look (I will try Blockbench). Also, I don't know how you guys manage your language files, so, for now, I still have no lang strings for it.
+			Conclusion I'll update after I have done more work, I just wanted to say the work is being done, and get feedback if you think the direction is right. For now, only the first commit actually needs to be looked at 135da01
+			Review and suggestions are welcome * increase limit, clean up old tags (#4592)
+			Purge async tokens on restart Increase limit a bit * Feature/school (#4585)
+			This PR adds a school to the colony. School give work to one teacher total and up to 2 kids per level. When kids grow up the automatically leave the school.
+			Kids only stay in school until noon, then they roam around freely again.
+			In school kids sit around on carpet and "study". Randomly they get a recess and run around freely in the building.
+			To compensate kids that study in a school grow up twice as quickly in the remaining time to compensate.
+			Teachers give out paper to kids and randomly sit down with kids to teach them. * New Crowdin translations (#4528)
+			*
+			New translations en_us.json (Afrikaans)
+			*
+			New translations en_us.json (Manx)
+			*
+			New translations en_us.json (Pirate English)
+			*
+			New translations en_us.json (Persian)
+			*
+			New translations en_us.json (Occitan)
+			*
+			New translations en_us.json (Norwegian Nynorsk)
+			*
+			New translations en_us.json (Norwegian)
+			*
+			New translations en_us.json (Northern Sami)
+			*
+			New translations en_us.json (Mongolian)
+			*
+			New translations en_us.json (Maori)
+			*
+			New translations en_us.json (Maltese)
+			*
+			New translations en_us.json (Portuguese)
+			*
+			New translations en_us.json (Malay)
+			*
+			New translations en_us.json (Macedonian)
+			*
+			New translations en_us.json (Luxembourgish)
+			*
+			New translations en_us.json (Low German)
+			*
+			New translations en_us.json (Lojban)
+			*
+			New translations en_us.json (Lithuanian)
+			*
+			New translations en_us.json (Limburgish)
+			*
+			New translations en_us.json (Latvian)
+			*
+			New translations en_us.json (Latin)
+			*
+			New translations en_us.json (Polish)
+			*
+			New translations en_us.json (Portuguese, Brazilian)
+			*
+			New translations en_us.json (Korean)
+			*
+			New translations en_us.json (Spanish, Uruguay)
+			*
+			New translations en_us.json (Welsh)
+			*
+			New translations en_us.json (Vietnamese)
+			*
+			New translations en_us.json (Valencian)
+			*
+			New translations en_us.json (Ukrainian)
+			*
+			New translations en_us.json (Turkish)
+			*
+			New translations en_us.json (Thai)
+			*
+			New translations en_us.json (Talossan)
+			*
+			New translations en_us.json (Swedish)
+			*
+			New translations en_us.json (Spanish, Venezuela)
+			*
+			New translations en_us.json (Spanish, Mexico)
+			*
+			New translations en_us.json (Quenya)
+			*
+			New translations en_us.json (Spanish, Argentina)
+			*
+			New translations en_us.json (Spanish)
+			*
+			New translations en_us.json (Somali)
+			*
+			New translations en_us.json (Slovenian)
+			*
+			New translations en_us.json (Slovak)
+			*
+			New translations en_us.json (Serbian (Cyrillic))
+			*
+			New translations en_us.json (Scottish Gaelic)
+			*
+			...
+			* Several fixes (#4566)
+			Improve university button description Fix crash Add "failed" request state Fix tree crashes Fix RS issues.
+
+		minecolonies-0.11.820-ALPHA-universal.jar:
+			Minecolonies Changelog
+			Version: 0.11.820-ALPHA
+			* Schematics115 (#4613)
+			Dark Oak Update, Nordic Miner, Medieval Oak
+
+		minecolonies-0.11.819-ALPHA-universal.jar:
+			Minecolonies Changelog
+			Version: 0.11.819-ALPHA
+			* Hotfix
+
+		minecolonies-0.11.818-ALPHA-universal.jar:
+			Minecolonies Changelog
+			Version: 0.11.818-ALPHA
+			* Fix duplicate config option luckyblocks and add compostables (#4601)
+			Fix the luckyores config option being called luckyblocks thereby overriding the reald luckyblocks config option Add the suggested compostables from #4595 to the default config If you think any of the added items shouldn't be compostable, or i shouldn't mess with that default value please let me know. * Feature + Civilian Research Tree (#4608)
+			Civilian Research Path Add Rails Pathing
+
+		minecolonies-0.11.817-ALPHA-universal.jar:
+			Minecolonies Changelog
+			Version: 0.11.817-ALPHA
+			* Schematics115 (#4578)
+			Schematic update
+
+		minecolonies-0.11.816-ALPHA-universal.jar:
+			Minecolonies Changelog
+			Version: 0.11.816-ALPHA
+			* Stash #2121 (#4545)
+			First, thanks for this great mod! I loved playing with it, so I wanted to give back a little!
+			Implements #2121
+			Changes proposed in this pull request: Added a Stash, that will have items inside that the DeliveryMan will pickup and move to the Warehouse. So, this incomplete PR is an attempt to implement #2121 , although just the first comment, as the second one I felt it was beyond the scope of the Stash, as I thought this should be kept to a minimal functionality.
+			Core Functionality The Core functionality of how I thought was this: when an item gets deposited, it bumps the priority up to 10, to encourage the DeliveryMan to pickup items ASAP on them. When the DeliveryMan picks up the items, it drops the priority to a minimum. So the bumping and the dropping are being handled by the TileEntity and the Inventory Handler.
+			Found issues I noticed that the dropping of the priority should be done automatically, but it's only done when it's the last building on the list? I didn't quite understand why this didn't work:
+			minecolonies/src/main/java/com/minecolonies/coremod/entity/ai/citizen/deliveryman/EntityAIWorkDeliveryman.java
+			Line 217 in 1fdde5f
+			building.alterPickUpPriority(-10); Temporary work For now, I don't have a fixed GUI. Suggestions are welcome for functionality. Also, I don't have a model. If you guys have a suggestion, one to spare or a software for me to take a look (I will try Blockbench). Also, I don't know how you guys manage your language files, so, for now, I still have no lang strings for it.
+			Conclusion I'll update after I have done more work, I just wanted to say the work is being done, and get feedback if you think the direction is right. For now, only the first commit actually needs to be looked at 135da01
+			Review and suggestions are welcome
+
+		minecolonies-0.11.815-ALPHA-universal.jar:
+			Minecolonies Changelog
+			Version: 0.11.815-ALPHA
+			* increase limit, clean up old tags (#4592)
+			Purge async tokens on restart Increase limit a bit
+
+		minecolonies-0.11.814-ALPHA-universal.jar:
+			Minecolonies Changelog
+			Version: 0.11.814-ALPHA
+			* Feature/school (#4585)
+			This PR adds a school to the colony. School give work to one teacher total and up to 2 kids per level. When kids grow up the automatically leave the school.
+			Kids only stay in school until noon, then they roam around freely again.
+			In school kids sit around on carpet and "study". Randomly they get a recess and run around freely in the building.
+			To compensate kids that study in a school grow up twice as quickly in the remaining time to compensate.
+			Teachers give out paper to kids and randomly sit down with kids to teach them.
+
+	MoreVanillaLib (morevanillalib-1.15.2-1.1.jar --> morevanillalib-1.15.2-1.2.2.jar):
+		morevanillalib-1.15.2-1.2.2.jar:
+			fixed paper recipe being overridden
+
+		morevanillalib-1.15.2-1.2.1.jar:
+			Fixed clean end stone drops nothing
+
+		morevanillalib-1.15.2-1.2.jar:
+			Added Clean End Stone
+			Added Obsidian Shard
+			Added Bundle of Paper
+			Moved normal tool materials to lib
+			Changed Prismarine tag
+
+		morevanillalib-1.15.2-1.1.2.jar:
+			added xp drops
+
+		morevanillalib-1.15.2-1.1.1.jar:
+			Added glowstone tools drop 4 glowstone dust when breaking glowstone
+			Fixed a bit more confusing stuff with extra/double drop
+			Fixed hammer/excavator on hitting extra drops
+			Fixed a lang key missing translation
+
+	Open Loader (OpenLoader-1.15.2-4.0.2.jar --> OpenLoader-1.15.2-4.0.3.jar):
+		OpenLoader-1.15.2-4.0.3.jar:
+			* Built against latest forge and MCP. - Tyler Hancock
+			Like the mod? Consider following me on [Twitter](https://twitter.com/darkhaxdev) and joining the [Discord]()
+			Huge thanks to my supporters on [Patreon](https://www.patreon.com/Darkhax?MCChangelog?OpenLoader)
+			* Pongo Sapiens
+			* Darkosto
+
+	Patchouli (Patchouli-1.15.2-1.2-30.jar --> Patchouli-1.15.2-1.2-31.jar):
+		Patchouli-1.15.2-1.2-31.jar:
+			* Fix crash that could happen if you logged in while holding a patchouli book
+
+		Patchouli-1.15.2-1.2-30-FABRIC.jar:
+			Fabric version of Patchouli 1.2-30
+			This Fabric port is mostly unsupported except in the case of major gamebreaking bugs. Please reproduce any minor bugs with the Forge version before reporting.
+			See [https://github.com/Vazkii/Patchouli/blob/1.15-fabric/README.md](https://github.com/Vazkii/Patchouli/blob/1.15-fabric/README.md) for more details.
+
+	Powah! (Powah-1.15.2-1.1.11.jar --> Powah-1.15.2-1.1.12.jar):
+		Powah-1.15.2-1.1.12.jar:
+			1.1.12
+			* Now you can see the progress of the Energizing orb when using the one probe.
+			* Added comparator support for forge energy.
+			* Added Storage block for uraninite.
+			* Added recipe for smelting uraninite ore directly, Closes #62.
+			* Fixed Thermo generators behaving weird, Closes #64
+			* Updated [Lollipop](https://www.curseforge.com/minecraft/mc-mods/lollipop/files) to 1.0.14.
+			1.1.11
+			* Did full rewrite for the network system, this should fix all problem in the multi player world.
+			* Updated Lollipop to 1.0.13
+			This release tested multiple times in dedicated server, thanks to all testers in our discord.
+			1.1.10
+			* Re-Fixed bug when can not change channels, Redstone settings and side config.
+			* Added Chinese localization zh_cn.json, Thanks to EnterFor.
+			* Updated Lollipop to 1.0.12
+			1.1.9
+			* Added support for energizing recipes from json like vanilla, examples: [http://bit.ly/3baHdLr]().
+			* Fixed buttons not functioning in multiPlayer world.
+			* Fixed empty tags.
+			* Updated Lollipop to 1.0.11
+			1.1.8
+			* Fixed Energy data not appearing in TOP/Waila.
+			* Fixed redstone stop magmator from receiving fluids.
+			* Replaced some recipe tags with actual item stacks until empty tags bux got fixed.
+			* Added new command to generate CraftTweaker example zs script instead of generating on startup.
+			* Updated Lollipop to 1.0.10
+			Important NOTE!!: There is two bugs still can't fix them: (empty forge tags) and (some times button not functioning in multiPlayer world)
+			hoping i can fix theme in the next release, also i'm experiencing some health issues and that's why im slowly working on this mod and 3 other
+			projects two of theme are not released yet.
+			1.1.7
+			* Added hovering hud to energizing rods to see the energy stored.
+			* Separated redstone on/off for generators from the energy transfer.
+			* Updated Lollipop to 1.0.9
+			1.1.6
+			* Fixed Uraninite ores not generating in some biomes/dimensions, Closes #49.
+			* Fixed cables power delivery sorting.
+			* Updated Lollipop to 1.0.8
+			1.1.5
+			* Fixed Binding card causing a client crash, Closes #47.
+			* Fixed dry ice not dropping because of missing loot table.
+			* Updated Lollipop to 1.0.7
+			1.1.4
+			* Fixed a dummy dump server crash
+			* Updated Lollipop to 1.0.6
+			1.1.3
+			* Fixed Gui configuration screen offset.
+			* Fixed weird block lighting.
+			* Updated Lollipop to 1.0.5
+			1.1.2
+			* Fixed Manual 2 items pages has the same text Closes #40.
+			1.1.1
+			* Fixed some slots not rendering in to the GUI.
+			* Added missing GUI's screen titles.
+			* Updated Lollipop to 1.0.4
+			1.1.0
+			* Fixed Magmator fluid wrong rendering.
+			* Added Blazing Crystal block as a heat source for the Thermo gen with heat of 2800c.
+			* Changed Nitro crystal recipe output from 24 to 16.
+			* Updated Lollipop to 1.0.3
+			1.0.3
+			* Re-Implemented crafttweaker for energizing recipes.
+			* Added recipe for the manual (forgot to add it in last version).
+			* Fixed some blocks not keeping their energy when broken.
+			* Updated Lollipop to 1.0.2
+			1.0.2
+			* Re-added the manual with new entries for batteries and lens of ender and updated some screenshots.
+			* Fixed cables has wrong config.
+			* Fixed reactor tooltip.
+			1.0.1
+			* Fixed reactor placing overlay not rendering correctly.
+			* Updated Lollipop to 1.0.1.
+			1.0.0
+			* Added Two new tiers "Starter" and "Nitro".
+			* Added Batteries charge items when is in player inventory.
+			* Now Energy Hopper, Energy discharger and Player transmitter all has the known tiers.
+			* Added Dimensional binding card a replacement of Dimensional player transmitter.
+			* Reworked most of models/textures.
+			* Rebalanced energy outputs and some crafting recipes.
+			* the Book (manual) still WIP!!
+			* 1.15.2 initial release.
+			* Updated Lollipop to 1.0.0.
+			* Require forge 31.1.12 or higher.
+			NOTE!: this is the first initial release, it may contains bug or crash your world.
+
+	Quark (Quark-r2.1-229.jar --> Quark-r2.1-230.jar):
+		Quark-r2.1-230.jar:
+			* Added Matrix Enchanting
+			* Fixed a dupe with magnets and iron ladders
+			* Fixed magnets pushing things to positions they shouldn't be able to go to
+			* Fixed quark breaking honey blocks
+			* Fixed springy slime not being able to be disabled
+			* Fixed the default config for toretoises and stonelings not blacklisting the end and nether, thus lowering mob spawns in those dimensions (this is a config change, you can delete the toretoise and stoneling sections of your config to get it)
+			* Fixed the golden frog leg recipe being disabled
+			* Fixed the pickarang not taking durability when mining from a toretoise
+			* Fixed the usage ticker not showing your arrow count with crossbows
+			* Fixed turf blocks not rotating like grass does
+			* Improved the placement logic for vertical slabs
+			* Optimized some models (muzikbike)
+
+	Respawnable Pets (respawnablepets-1.0.6.3.jar --> respawnablepets-1.1.jar):
+		respawnablepets-1.1.jar:
+			-redo the whole mod, fixes [https://github.com/MoriyaShiine/respawnable-pets/issues/11](https://github.com/MoriyaShiine/respawnable-pets/issues/11)
+			-blacklisted entities are now configured via the "respawnablepets:blacklisted" tag
+
+		respawnablepets-1.0.6.4.jar:
+			-added es_es.json, es_ar.json, and es_mx.json. Thanks peehpeh!
+
+	Ring of Attraction [FORGE] (RingOfAttraction-1.15.2-1.1.24.jar --> RingOfAttraction-1.15.2-1.1.26.jar):
+		RingOfAttraction-1.15.2-1.1.26.jar:
+			Updated Forge to 31.1.43
+
+		RingOfAttraction-1.15.2-1.1.25.jar:
+			Converted to Deferred Register method
+			Updated Forge to 31.1.37
+			Updated MCP mappings
+
+	Structurize (structurize-0.10.293-ALPHA.jar --> structurize-0.10.298-ALPHA.jar):
+		structurize-0.10.298-ALPHA.jar:
+			Minecolonies Changelog
+			Version: 0.10.298-ALPHA
+			* Fix memory leak in rendering (#119)
+
+		structurize-0.10.297-ALPHA.jar:
+			Minecolonies Changelog
+			Version: 0.10.297-ALPHA
+			*
+			Fix Data Generators, Run generators, And add Floating Carpets! (#117)
+			*
+			Fix Data Generators, Run then, And add Floating Carpets!
+			*
+			Forgot loot tables!
+
+		structurize-0.10.296-ALPHA.jar:
+			Minecolonies Changelog
+			Version: 0.10.296-ALPHA
+			* Hotfix datafixer entities and tile entities
+			Don't try to fix non-minecraft things
+
+		structurize-0.10.295-ALPHA.jar:
+			Minecolonies Changelog
+			Version: 0.10.295-ALPHA
+			* Hotfix datafixer entities and tile entities
+
+		structurize-0.10.294-ALPHA.jar:
+			Minecolonies Changelog
+			Version: 0.10.294-ALPHA
+			* Added lineWidth setter. (#114)
+
+	Tetra (tetra-1.15.2-2.0.1.jar --> tetra-1.15.2-2.3.0.jar):
+		tetra-1.15.2-2.3.0.jar:
+			* rebalanced double headed tools so that butted tools are slightly faster
+			* changed pickaxes to provide higher harvest tier when double headed
+			* fixed improvements not displaying properly in tooltip
+			* fixed synergy bonus indicators not localizing values (thanks to clockler)
+			* moved advancement titles/descriptions to locfile (thanks to clockler)
+			* marked curios as optional dependency in manifest (thanks to clockler)
+			* added config toggle for requiring toolbelt to be in belt slot if Curios is loaded (thanks to clockler)
+			* added global magic cap multiplier to config (from 1.14)
+
+		tetra-1.15.2-2.2.0.jar:
+			* added curio support for toolbelt (thanks clockler!)
+
+		tetra-1.15.2-2.1.0.jar:
+			Tetra for 1.15 is now on par with the 1.14 in terms of features
+			* enabled feature worldgen
+			* put rendring of all blocks in a working state
+			* prefixed all localization entries (this will probably break localization for all datapacks/resourcepacks)
+			* added single headed tool to holosphere
+			* changed looks of holosphere items page
+			* fixed FOV not changing when drawing modular bows
+
+	Torch Slabs Mod (Torch Slab Mod mc 1.15.2 v1.6.5 --> Torch Slab Mod mc 1.15.2 v1.6.6):
+		Torch Slab Mod mc 1.15.2 v1.6.6:
+			Added configurable file options which include
+			* The option to disable placing upper wall torches on the sides of full blocks (This does not prohibit the ability to place upper wall torches on the sides of upper slabs, and stairs)
+			* To black list which blocks wall torches and wall lanterns can be placed on without sneaking. (The primary use for this being blocks with right click iterations.)
+			* Removed unused files/code.
+			* The options to disable wall lanterns.
+			* The option to disable placing lower wall lanterns on the sides of full blocks (This does not prohibit the ability to place lower wall lanterns on the sides of lower slabs, and stairs)
+			*
+
+	Vanilla Excavators [Forge] (vanillaexcavators-1.15.2-2.0.1.jar --> vanillaexcavators-1.15.2-2.1.jar):
+		vanillaexcavators-1.15.2-2.1.jar:
+			MoreVanillaLib 1.2+ required
+			Changed a lot of recipes
+			Re-balanced tools due to recipe changes
+
+	Vanilla Hammers [Forge] (vanillahammers-1.15.2-2.0.2.jar --> vanillahammers-1.15.2-2.1.jar):
+		vanillahammers-1.15.2-2.1.jar:
+			MoreVanillaLib 1.2+ required
+			Changed a lot of recipes
+			Re-balanced tools due to recipe changes
+
+		vanillahammers-1.15.2-2.0.4.jar:
+			Fixed a server crash with obsidian hammer
+
+		vanillahammers-1.15.2-2.0.3.jar:
+			requires MoreVanillaLib 1.1.1+
+			added jei plugin
+			fixing hitting entities not trigger extra drops
+
+	mGui (mgui-1.15.2-2.0.1.jar --> mgui-1.15.2-2.1.1.jar):
+		mgui-1.15.2-2.1.1.jar:
+			* fixed incorrect jar version
+
+Removed:
+- Inventory Tweaks Reborn - Rejected
+
+Generated using [ChangelogGenerator 2.0.0-pre3](https://github.com/TheRandomLabs/ChangelogGenerator).
