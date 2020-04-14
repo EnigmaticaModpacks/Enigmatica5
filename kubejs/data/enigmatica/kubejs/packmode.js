@@ -4,7 +4,7 @@ events.listen('server.datapacks.first', function (event) {
 		config = {
 			packmode: "normal",
 			message: "Valid modes are normal and expert."
-		};
+		}
 		json.write("config/packmode.json", config);
 	}
 	global.packmode = config.packmode;
