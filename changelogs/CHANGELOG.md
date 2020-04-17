@@ -4,25 +4,27 @@
 
 
 
+##### Quark Oddities has been removed, so you will get a message alerting  you of the items that will be removed - If you have a backpack from  Quark, empty it before updating!
+
+
+
 *[Mod Updates](https://github.com/NillerMedDild/Enigmatica5/blob/master/changelogs/CHANGELOG_MODS_0.4.3.txt)*
 
 
 
 **Mod Additions**
 
-- 
+- JEI Tweaker [\#199](https://github.com/NillerMedDild/Enigmatica5/issues/199)
+- Whoops [\#196](https://github.com/NillerMedDild/Enigmatica5/issues/196)
+- Pane in the Glass [\#190](https://github.com/NillerMedDild/Enigmatica5/issues/190)
 
 **Mod Removals**
 
-- 
-
-**Changes**
-
-- 
+- Quark Oddities [\#195](https://github.com/NillerMedDild/Enigmatica5/issues/195)
 
 **Bug fixes**
 
-- 
+- quark "tetris" style enchanting was enabled [\#191](https://github.com/NillerMedDild/Enigmatica5/issues/191)
 
 ## Enigmatica 5 v0.4.2
 

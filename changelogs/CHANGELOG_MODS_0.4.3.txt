@@ -1,0 +1,368 @@
+=======================================
+Enigmatica5 0.4.2 --> Enigmatica5 0.4.3
+=======================================
+
+Added:
+- JEITweaker
+- Pane In The Glass
+- Whoops
+
+Updated:
+	Botany Pots (BotanyPots-1.15.2-2.0.8.jar --> BotanyPots-1.15.2-2.0.9.jar):
+		BotanyPots-1.15.2-2.0.9.jar:
+			* Fixed dragonegg and netherstar crop erroring out. - Tyler Hancock
+			* Added advancements for the botany pots. - Tyler Hancock
+			* Added item tag for hopper botany pots only. - Tyler Hancock
+			* Added an item tag for all botany pots. - Tyler Hancock
+			* Removed duplicate peanut.json file. - Tyler Hancock
+			Like the mod? Consider following me on [Twitter](https://twitter.com/darkhaxdev) and joining the [Discord]()
+			Huge thanks to my supporters on [Patreon](https://www.patreon.com/Darkhax?MCChangelog?BotanyPots)
+			* Pongo Sapiens
+			* Darkosto
+
+	CraftTweaker (CraftTweaker-1.15.2-6.0.0.15.jar --> CraftTweaker-1.15.2-6.0.0.17.jar):
+		CraftTweaker-1.15.2-6.0.0.17.jar:
+			Current version: 6.0.0.17
+			* [fix bad recipe names and log a warning in the log](https://github.com/CraftTweaker/CraftTweaker/commit/7dc56fe4cb0a66ef97f6c06db5db354ffebbc129) - Jared - Fri Apr 17 00:48:00 2020
+			* [Add JEITweaker as required lib](https://github.com/CraftTweaker/CraftTweaker/commit/f2282e38d379afe2b115d7c5c4cb4639cac59348) - Jared - Thu Apr 16 23:15:18 2020
+			* [mods -> loadedMods](https://github.com/CraftTweaker/CraftTweaker/commit/a1a66a04efa54c72d94831fffe9cd6e53bc1dce3) - kindlich - Mon Apr 13 23:16:45 2020
+			* [Check that all folders are properly built for format task](https://github.com/CraftTweaker/CraftTweaker/commit/e60c5e81165c0e812ca1266f09c3f41cb97636b2) - kindlich - Mon Apr 13 23:16:16 2020
+			* [Updated ZC](https://github.com/CraftTweaker/CraftTweaker/commit/1c1b28dbbecce90b0d08bea43b9bf56d69442019) - kindlich - Mon Apr 13 23:16:09 2020
+			* [ScriptOptions and ct syntax](https://github.com/CraftTweaker/CraftTweaker/commit/b120126afb0c60ebb11f4faf33d00964e49c0dab) - kindlich - Mon Apr 13 23:16:00 2020
+			* [Removed unused class](https://github.com/CraftTweaker/CraftTweaker/commit/5c345beebb1b7de67c2b719be09e59e94a9aac79) - kindlich - Mon Apr 13 23:15:31 2020
+			* [Added message on Load Start/End](https://github.com/CraftTweaker/CraftTweaker/commit/a267c78e53f3e7ca8e92bb3993732777f131fe16) - kindlich - Mon Apr 13 23:15:19 2020
+			* [FileAccessSingle now returns relative paths instead of only filename](https://github.com/CraftTweaker/CraftTweaker/commit/bc51ae93a6ca5c20282d0f15943d011745d59e83) - kindlich - Mon Apr 13 23:15:07 2020
+			* [update the first commit hash](https://github.com/CraftTweaker/CraftTweaker/commit/22f1bcbad04091041e8573c34f084e9e276796a1) - Jared - Sun Apr 12 22:16:30 2020
+			* [Added /ct inventory and /ct inventory tags](https://github.com/CraftTweaker/CraftTweaker/commit/a09a5865022bc5c7657f3350639f8d45635cfacf) - Jared - Sun Apr 12 06:24:36 2020
+			* [Implement /ct hand tags](https://github.com/CraftTweaker/CraftTweaker/commit/ebc53c2f7d3ac1d37a0f022fa7d1ce13b318eef1) - Jared - Sun Apr 12 06:24:30 2020
+			* [add IItemStack#owner](https://github.com/CraftTweaker/CraftTweaker/commit/7dcbd1f1747a7e8431639ba202c4459f710b0221) - Jared - Sun Apr 12 06:24:26 2020
+			* [Add a way to get an empty MCItemStack](https://github.com/CraftTweaker/CraftTweaker/commit/9f7631ede5b82ee59a2354dc2b1ae479442e396e) - Jared - Sun Apr 12 06:24:22 2020
+			* [Add MCTag#firstXYZ](https://github.com/CraftTweaker/CraftTweaker/commit/d9836697536fe6a7dd3e6dc93248f91f2eed6b26) - Jared - Sun Apr 12 06:24:15 2020
+			* [Added mod methods to see if a mod is loaded and more](https://github.com/CraftTweaker/CraftTweaker/commit/697b8cba1b9f40bb0afa30a93c1e973510831ef8) - Jared - Sun Apr 12 06:24:11 2020
+			* [Add predicate exclusion to modid recipe removal close #949](https://github.com/CraftTweaker/CraftTweaker/commit/7a8e21d08a719c651f16b891229f2ff80b8643ee) - Jared - Sun Apr 12 06:24:07 2020
+			* [Implement /ct hand tags](https://github.com/CraftTweaker/CraftTweaker/commit/7d7315fba0e56d78c9c7a6e0601fac68af9e6587) - Jared - Sun Apr 12 06:24:00 2020
+			* [Added a way to get the item registryName. close #925](https://github.com/CraftTweaker/CraftTweaker/commit/6ffa3ff33ee0fc8b48fc30770926f0e9ed845b76) - Jared - Sun Apr 12 06:23:38 2020
+			* [update ZC to fix a crash](https://github.com/CraftTweaker/CraftTweaker/commit/71b673f2baf2a9f190b1f848020225fdaee4b0f3) - Jared - Sat Apr 11 21:01:56 2020
+			* [update ZS](https://github.com/CraftTweaker/CraftTweaker/commit/d82e97ea8b8cb46fd2fdb63c3d66b6524dac562f) - Jared - Fri Apr 10 23:56:18 2020
+			* [Fixed Shapeless recipes not displaying tags correctly](https://github.com/CraftTweaker/CraftTweaker/commit/6e82504eda010a4bbcdae083829eec2bf1ab91c2) - Jared - Thu Mar 26 16:09:10 2020
+			* [update forge and mappings](https://github.com/CraftTweaker/CraftTweaker/commit/25f90e830ba4811abd30e1a86873aee4c2515525) - Jared - Fri Feb 28 00:20:53 2020
+			* [Get the recipetype safer, hopefully. Close #927](https://github.com/CraftTweaker/CraftTweaker/commit/ea4a96caf94cbf43103ea16a4f47a5d2ea8a2577) - Jared - Wed Feb 26 23:09:51 2020
+			* [Fixed scripts bigger than 32k not working on servers](https://github.com/CraftTweaker/CraftTweaker/commit/250194edf597fc06b93c5017ad4d61e6398091d7) - Jared - Wed Feb 26 20:40:48 2020
+			* [made it possible to cast a string to an int and double](https://github.com/CraftTweaker/CraftTweaker/commit/634576292be37aba8cc5b6aef5a33e4ff900937e) - Jared - Tue Feb 18 23:13:45 2020
+			* [update jar file name and mods.toml](https://github.com/CraftTweaker/CraftTweaker/commit/41da80a7a30c6ff96286ccdc6039f4a0359e45e3) - Jared - Fri Feb 7 21:14:27 2020
+			* [port to 1.15.2](https://github.com/CraftTweaker/CraftTweaker/commit/a8be724fd6eb4a8e5c49af0bdaa4ec3e96af2fff) - Jared - Fri Feb 7 11:55:03 2020
+			* [add a way to check if a MCTag is a certain type of tag](https://github.com/CraftTweaker/CraftTweaker/commit/10a2b04483ce4032c6ffb8803b567e2dcbedce5a) - Jared - Fri Feb 7 11:39:02 2020
+			* [update MC and forge versions in toml and gradle](https://github.com/CraftTweaker/CraftTweaker/commit/457020bbf055aea2e4e6aad015309e6e9ccfacdf) - Jared - Wed Jan 22 21:36:34 2020
+			* [update changelog commit](https://github.com/CraftTweaker/CraftTweaker/commit/c9ef77624a3c438180d561f3ea05916e4738c83d) - Jared - Wed Jan 22 21:36:34 2020
+			* [port to 1.15.1](https://github.com/CraftTweaker/CraftTweaker/commit/b21c1f5da8ec69929d34647873c9729be2458e4e) - Jared - Wed Jan 22 21:36:34 2020
+			* [update JEI](https://github.com/CraftTweaker/CraftTweaker/commit/c1c4434a134398e429ba4ba62f7affe05e57f367) - Jared - Wed Jan 22 21:35:54 2020
+
+		CraftTweaker-1.15.2-6.0.0.16.jar:
+			Current version: 6.0.0.16
+			* [Add JEITweaker as required lib](https://github.com/CraftTweaker/CraftTweaker/commit/f2282e38d379afe2b115d7c5c4cb4639cac59348) - Jared - Thu Apr 16 23:15:18 2020
+			* [mods -> loadedMods](https://github.com/CraftTweaker/CraftTweaker/commit/a1a66a04efa54c72d94831fffe9cd6e53bc1dce3) - kindlich - Mon Apr 13 23:16:45 2020
+			* [Check that all folders are properly built for format task](https://github.com/CraftTweaker/CraftTweaker/commit/e60c5e81165c0e812ca1266f09c3f41cb97636b2) - kindlich - Mon Apr 13 23:16:16 2020
+			* [Updated ZC](https://github.com/CraftTweaker/CraftTweaker/commit/1c1b28dbbecce90b0d08bea43b9bf56d69442019) - kindlich - Mon Apr 13 23:16:09 2020
+			* [ScriptOptions and ct syntax](https://github.com/CraftTweaker/CraftTweaker/commit/b120126afb0c60ebb11f4faf33d00964e49c0dab) - kindlich - Mon Apr 13 23:16:00 2020
+			* [Removed unused class](https://github.com/CraftTweaker/CraftTweaker/commit/5c345beebb1b7de67c2b719be09e59e94a9aac79) - kindlich - Mon Apr 13 23:15:31 2020
+			* [Added message on Load Start/End](https://github.com/CraftTweaker/CraftTweaker/commit/a267c78e53f3e7ca8e92bb3993732777f131fe16) - kindlich - Mon Apr 13 23:15:19 2020
+			* [FileAccessSingle now returns relative paths instead of only filename](https://github.com/CraftTweaker/CraftTweaker/commit/bc51ae93a6ca5c20282d0f15943d011745d59e83) - kindlich - Mon Apr 13 23:15:07 2020
+			* [update the first commit hash](https://github.com/CraftTweaker/CraftTweaker/commit/22f1bcbad04091041e8573c34f084e9e276796a1) - Jared - Sun Apr 12 22:16:30 2020
+			* [Added /ct inventory and /ct inventory tags](https://github.com/CraftTweaker/CraftTweaker/commit/a09a5865022bc5c7657f3350639f8d45635cfacf) - Jared - Sun Apr 12 06:24:36 2020
+			* [Implement /ct hand tags](https://github.com/CraftTweaker/CraftTweaker/commit/ebc53c2f7d3ac1d37a0f022fa7d1ce13b318eef1) - Jared - Sun Apr 12 06:24:30 2020
+			* [add IItemStack#owner](https://github.com/CraftTweaker/CraftTweaker/commit/7dcbd1f1747a7e8431639ba202c4459f710b0221) - Jared - Sun Apr 12 06:24:26 2020
+			* [Add a way to get an empty MCItemStack](https://github.com/CraftTweaker/CraftTweaker/commit/9f7631ede5b82ee59a2354dc2b1ae479442e396e) - Jared - Sun Apr 12 06:24:22 2020
+			* [Add MCTag#firstXYZ](https://github.com/CraftTweaker/CraftTweaker/commit/d9836697536fe6a7dd3e6dc93248f91f2eed6b26) - Jared - Sun Apr 12 06:24:15 2020
+			* [Added mod methods to see if a mod is loaded and more](https://github.com/CraftTweaker/CraftTweaker/commit/697b8cba1b9f40bb0afa30a93c1e973510831ef8) - Jared - Sun Apr 12 06:24:11 2020
+			* [Add predicate exclusion to modid recipe removal close #949](https://github.com/CraftTweaker/CraftTweaker/commit/7a8e21d08a719c651f16b891229f2ff80b8643ee) - Jared - Sun Apr 12 06:24:07 2020
+			* [Implement /ct hand tags](https://github.com/CraftTweaker/CraftTweaker/commit/7d7315fba0e56d78c9c7a6e0601fac68af9e6587) - Jared - Sun Apr 12 06:24:00 2020
+			* [Added a way to get the item registryName. close #925](https://github.com/CraftTweaker/CraftTweaker/commit/6ffa3ff33ee0fc8b48fc30770926f0e9ed845b76) - Jared - Sun Apr 12 06:23:38 2020
+			* [update ZC to fix a crash](https://github.com/CraftTweaker/CraftTweaker/commit/71b673f2baf2a9f190b1f848020225fdaee4b0f3) - Jared - Sat Apr 11 21:01:56 2020
+			* [update ZS](https://github.com/CraftTweaker/CraftTweaker/commit/d82e97ea8b8cb46fd2fdb63c3d66b6524dac562f) - Jared - Fri Apr 10 23:56:18 2020
+			* [Fixed Shapeless recipes not displaying tags correctly](https://github.com/CraftTweaker/CraftTweaker/commit/6e82504eda010a4bbcdae083829eec2bf1ab91c2) - Jared - Thu Mar 26 16:09:10 2020
+			* [update forge and mappings](https://github.com/CraftTweaker/CraftTweaker/commit/25f90e830ba4811abd30e1a86873aee4c2515525) - Jared - Fri Feb 28 00:20:53 2020
+			* [Get the recipetype safer, hopefully. Close #927](https://github.com/CraftTweaker/CraftTweaker/commit/ea4a96caf94cbf43103ea16a4f47a5d2ea8a2577) - Jared - Wed Feb 26 23:09:51 2020
+			* [Fixed scripts bigger than 32k not working on servers](https://github.com/CraftTweaker/CraftTweaker/commit/250194edf597fc06b93c5017ad4d61e6398091d7) - Jared - Wed Feb 26 20:40:48 2020
+			* [made it possible to cast a string to an int and double](https://github.com/CraftTweaker/CraftTweaker/commit/634576292be37aba8cc5b6aef5a33e4ff900937e) - Jared - Tue Feb 18 23:13:45 2020
+			* [update jar file name and mods.toml](https://github.com/CraftTweaker/CraftTweaker/commit/41da80a7a30c6ff96286ccdc6039f4a0359e45e3) - Jared - Fri Feb 7 21:14:27 2020
+			* [port to 1.15.2](https://github.com/CraftTweaker/CraftTweaker/commit/a8be724fd6eb4a8e5c49af0bdaa4ec3e96af2fff) - Jared - Fri Feb 7 11:55:03 2020
+			* [add a way to check if a MCTag is a certain type of tag](https://github.com/CraftTweaker/CraftTweaker/commit/10a2b04483ce4032c6ffb8803b567e2dcbedce5a) - Jared - Fri Feb 7 11:39:02 2020
+			* [update MC and forge versions in toml and gradle](https://github.com/CraftTweaker/CraftTweaker/commit/457020bbf055aea2e4e6aad015309e6e9ccfacdf) - Jared - Wed Jan 22 21:36:34 2020
+			* [update changelog commit](https://github.com/CraftTweaker/CraftTweaker/commit/c9ef77624a3c438180d561f3ea05916e4738c83d) - Jared - Wed Jan 22 21:36:34 2020
+			* [port to 1.15.1](https://github.com/CraftTweaker/CraftTweaker/commit/b21c1f5da8ec69929d34647873c9729be2458e4e) - Jared - Wed Jan 22 21:36:34 2020
+			* [update JEI](https://github.com/CraftTweaker/CraftTweaker/commit/c1c4434a134398e429ba4ba62f7affe05e57f367) - Jared - Wed Jan 22 21:35:54 2020
+
+	Double Slabs (DoubleSlabs-1.15-2.2.3 --> DoubleSlabs-1.15-2.2.4):
+		DoubleSlabs-1.15-2.2.4:
+			+Added Engineers Decor slab support
+
+	Enigmatica Companion Mod (enigmatica-0.2.jar --> enigmatica-0.3.1.jar):
+		enigmatica-0.3.1.jar:
+			New Functionality
+			Added ways to modify villager trades using json files located in config/enigmatica - "minecraft:emeraldforitems" - "minecraft:itemsforemeralds" - "minecraft:enchanteditemfor_emeralds"
+
+	Light Overlay (Rift/Forge/Fabric) ([Forge / Fabric 1.15.x] v4.3 --> [Forge / Fabric 1.15.x] v4.4):
+		[Forge / Fabric 1.15.x] v4.4:
+			Fabric: Now caching overlays, increased maximum range to 64 due to massively improved performance.
+			Forge: Now caching overlays, increased maximum range to 64 due to massively improved performance.
+
+	Ma Enchants ([Forge v1.15.2] Ma Enchants v3.0.0 --> [Forge v1.15.2] Ma Enchants v3.1.0 ):
+		[Forge v1.15.2] Ma Enchants v3.1.0 :
+			Increased experience dropped in Wisdom enchant from 0.2% to 0.4%
+			Fixed missing description and death message for curse aquaphobia.
+			Curse aquaphobia can now be applied for any armour items not only for boots.
+			Added new enchantment: Timeless
+			Added new course: Death
+
+	Ma Essentials ([Forge v1.15.2] Ma Essentials v3.0.2 --> [Forge v1.15.2] Ma Essentials v3.0.3):
+		[Forge v1.15.2] Ma Essentials v3.0.3:
+			Fixed tempban issue that don't allow player to join server after ban expired.
+			Fixed /unban command not working (you can unban players by username but this will work only for players that joined server after this update)
+			You can now unban and unmute players using UUID.
+			You can now unmute players that are not online on server.
+			Fixed /up command teleport in wrong direction.
+			Fixed /check command showing admin username instead target usernames.
+			Updated ZN translation.
+			Added RU translation thanks to [vanja-san](https://github.com/vanja-san)
+
+	Mekanism (Mekanism-1.15.2-9.9.20.412.jar --> Mekanism-1.15.2-9.10.0.413.jar):
+		Mekanism-1.15.2-9.10.0.413.jar:
+			[00615c7](https://github.com/mekanism/Mekanism/commit/00615c703ced046ac1bbe632556c827c917da942) - Fix copy paste logging error, and start addressing some of the various TODOs [#5911](https://github.com/mekanism/Mekanism/issues/5911)
+			[c1a8a0f](https://github.com/mekanism/Mekanism/commit/c1a8a0f4f0c9da82273dfd019076b49f7933fc9c) - Continue work on TODOs - Bump api version to 9.10.0 as that will be the next version and we don't want to forget to bump it - Rework the voxelshapes and ray tracing with configurator for transmitter components some to be more performance and have more accurate shapes.
+			[0e4f5a4](https://github.com/mekanism/Mekanism/commit/0e4f5a4793195b313cba510f5a29370d98eb1dd9) - Make it so that tier installers can stack to make it easier to upgrade lots of machines at once
+			[b8fca25](https://github.com/mekanism/Mekanism/commit/b8fca250354d79adf0884485d0593b9c248294c3) - Fix incorrect caching using set connection mode rather than the relative connection type
+			[7fab057](https://github.com/mekanism/Mekanism/commit/7fab057d55df2c8708eb8a8a6387dfd0d005a4e3) - Resolve some LGTM warnings/errors
+			[05150df](https://github.com/mekanism/Mekanism/commit/05150dfcba53ed28a3515719d86858953c6c62f3) - crowdin: update config with proper lang keys & YAML aliases
+			[864891b](https://github.com/mekanism/Mekanism/commit/864891bf2110cc75fc8482398f37302bba5ddcf1) - Crowdin CLI lang changes
+			[3554330](https://github.com/mekanism/Mekanism/commit/3554330bdf99944a2b7eb0fee7f8726f5536b271) - quote the commit message config
+			[dd58ff3](https://github.com/mekanism/Mekanism/commit/dd58ff3b2e1837932f9365d897b039cd0cb10c3a) - crowdin: server github integration doesn't seem to understand the yaml aliases [ci skip]
+			[0fddfd7](https://github.com/mekanism/Mekanism/commit/0fddfd72a175e22e5f2661b783796baf7273d8b4) - New Crowdin translations ([#6067](https://github.com/mekanism/Mekanism/issues/6067))
+			[6fccf16](https://github.com/mekanism/Mekanism/commit/6fccf1628f96dd2a65a6017a190cd1ee7eb7413d) - Disable the alpha warning and set the CF release type for beta in preparation of 9.10.0, Also remove the old .lang file formats and fix the PR format
+			[241791c](https://github.com/mekanism/Mekanism/commit/241791c870d3b001542e67db2a5d67a289ea6154) - Add compatibility for FluxNetworks' long energy capability to allow for sending up to MAX_LONG instead of being limited to MAX_INT
+			[680db8c](https://github.com/mekanism/Mekanism/commit/680db8c3315ee851f149538d887621e19c0c0dad) - Cleanup energy compat to make it more readable and easier to add new capability types
+			[26b6c0b](https://github.com/mekanism/Mekanism/commit/26b6c0b056b97a0ae4d5a1c36ca208120f68225d) - Fix balloon latched entity persistence and cleanup some misc code in the EntityBalloon class, and fix hit box of balloons
+			[5c6b53d](https://github.com/mekanism/Mekanism/commit/5c6b53d3543db7125f323fe78f8641d9b46359b1) - Fix persistence of recipe progress between tile unloading and reloading [#5923](https://github.com/mekanism/Mekanism/issues/5923)
+			[206143d](https://github.com/mekanism/Mekanism/commit/206143ddfaa6c16e18a8e436b1b7d4c1db19e1b0) - Fix some activation delay logic
+			[a69e27b](https://github.com/mekanism/Mekanism/commit/a69e27b80e998ac543a36be6f6cdf7aa1271b32e) - Continue working on cleaning up TODOs. Also rework lasers to give them a bit more love: - Actually uses energy for damaging entities - If entities fully absorb a laser's energy the laser does not go past them and if it only gets reduced, the laser continues at a reduced visual scale - Lasers apply a constant "source" of damage so going in them will hurt and add up very quickly - Blocking with shields can reduce the damage done by lasers (rapidly drains a shields durability though due to the constant application of energy from the laser)
+			[a592887](https://github.com/mekanism/Mekanism/commit/a592887bde19af9df33fac2192bc0a455b150399) - Fix being unable to interact with the reactor's inventory slot via reactor ports, and the thermal evaporation controller's inventory slots via the evaporation valves. Also cleanup some of the proxying for the reactor slots. [#6069](https://github.com/mekanism/Mekanism/issues/6069)
+			[3594bf7](https://github.com/mekanism/Mekanism/commit/3594bf7bd18581e10b9a67f518b9b4262413c1c7) - Continue work on cleaning up/removing old TODOs. Also remove disabled CrT integration, as it will have to be rewritten from scratch eventually so there isn't much point in keeping around the old commented code
+			[2e519b1](https://github.com/mekanism/Mekanism/commit/2e519b1424fdf4e6e799e11e2d8980160dbec8ec) - Continue work on cleaning up/removing old TODOs. Fix compile error accidentally introduced in the last commit
+			[c6b7c0c](https://github.com/mekanism/Mekanism/commit/c6b7c0c03463ea33ca3d5260430a893558958e5d) - Modify miner visual renderer so that it doesn't tank the FPS when activated. Now renders one large cube rather than many small ones. Also fix the color being incorrect
+			[65dd044](https://github.com/mekanism/Mekanism/commit/65dd04434ee935088272f27a86ea8c8a33c336c7) - Rename a few texture paths for liquids/gases/transmitter contents
+			[96b1b3e](https://github.com/mekanism/Mekanism/commit/96b1b3e50c742c8ecb8e1bd8d2da6b83e9d35b24) - Continue working on cleaning up TODOs, and cleanup some annotations
+			[2c70bfc](https://github.com/mekanism/Mekanism/commit/2c70bfca87ad5e837358af86b8bdc66ece19118b) - Continue working on cleaning up TODOs
+			[3252d4a](https://github.com/mekanism/Mekanism/commit/3252d4a07ddd026c1275885dd4dd9e1ff588bf29) - Continue working on cleaning up TODOs, and remove some old commented out code
+			[fbda87a](https://github.com/mekanism/Mekanism/commit/fbda87a59b858db0ea89050f70cb25388aeee7c9) - Continue working on cleaning up TODOs, Also fix rendering of the degree symbols for celsius and fahrenheit
+			[cb59285](https://github.com/mekanism/Mekanism/commit/cb59285f95f4f80d09a4020e074c367916902a36) - Rewrite Fluidic Plenisher placement logic to properly be able to handle fluids and fluid loggable blocks, and improve mod compatibility for the fluid tank's bucket mode for properly making modded fluids evaporate in the nether when they should
+			[70a0db9](https://github.com/mekanism/Mekanism/commit/70a0db904497bf45d0898396bf74248ec24e040b) - New Crowdin translations ([#6068](https://github.com/mekanism/Mekanism/issues/6068))
+			[c9e33fd](https://github.com/mekanism/Mekanism/commit/c9e33fd37444499ac4e4997cae11bed741671deb) - As we are out of alpha remove the alpha status from the readme, and also add a section linking to Crowdin. Also bump version to 9.10.0
+
+	Mekanism Generators (MekanismGenerators-1.15.2-9.9.20.412.jar --> MekanismGenerators-1.15.2-9.10.0.413.jar):
+		MekanismGenerators-1.15.2-9.10.0.413.jar:
+			[00615c7](https://github.com/mekanism/Mekanism/commit/00615c703ced046ac1bbe632556c827c917da942) - Fix copy paste logging error, and start addressing some of the various TODOs [#5911](https://github.com/mekanism/Mekanism/issues/5911)
+			[c1a8a0f](https://github.com/mekanism/Mekanism/commit/c1a8a0f4f0c9da82273dfd019076b49f7933fc9c) - Continue work on TODOs - Bump api version to 9.10.0 as that will be the next version and we don't want to forget to bump it - Rework the voxelshapes and ray tracing with configurator for transmitter components some to be more performance and have more accurate shapes.
+			[0e4f5a4](https://github.com/mekanism/Mekanism/commit/0e4f5a4793195b313cba510f5a29370d98eb1dd9) - Make it so that tier installers can stack to make it easier to upgrade lots of machines at once
+			[b8fca25](https://github.com/mekanism/Mekanism/commit/b8fca250354d79adf0884485d0593b9c248294c3) - Fix incorrect caching using set connection mode rather than the relative connection type
+			[7fab057](https://github.com/mekanism/Mekanism/commit/7fab057d55df2c8708eb8a8a6387dfd0d005a4e3) - Resolve some LGTM warnings/errors
+			[05150df](https://github.com/mekanism/Mekanism/commit/05150dfcba53ed28a3515719d86858953c6c62f3) - crowdin: update config with proper lang keys & YAML aliases
+			[864891b](https://github.com/mekanism/Mekanism/commit/864891bf2110cc75fc8482398f37302bba5ddcf1) - Crowdin CLI lang changes
+			[3554330](https://github.com/mekanism/Mekanism/commit/3554330bdf99944a2b7eb0fee7f8726f5536b271) - quote the commit message config
+			[dd58ff3](https://github.com/mekanism/Mekanism/commit/dd58ff3b2e1837932f9365d897b039cd0cb10c3a) - crowdin: server github integration doesn't seem to understand the yaml aliases [ci skip]
+			[0fddfd7](https://github.com/mekanism/Mekanism/commit/0fddfd72a175e22e5f2661b783796baf7273d8b4) - New Crowdin translations ([#6067](https://github.com/mekanism/Mekanism/issues/6067))
+			[6fccf16](https://github.com/mekanism/Mekanism/commit/6fccf1628f96dd2a65a6017a190cd1ee7eb7413d) - Disable the alpha warning and set the CF release type for beta in preparation of 9.10.0, Also remove the old .lang file formats and fix the PR format
+			[241791c](https://github.com/mekanism/Mekanism/commit/241791c870d3b001542e67db2a5d67a289ea6154) - Add compatibility for FluxNetworks' long energy capability to allow for sending up to MAX_LONG instead of being limited to MAX_INT
+			[680db8c](https://github.com/mekanism/Mekanism/commit/680db8c3315ee851f149538d887621e19c0c0dad) - Cleanup energy compat to make it more readable and easier to add new capability types
+			[26b6c0b](https://github.com/mekanism/Mekanism/commit/26b6c0b056b97a0ae4d5a1c36ca208120f68225d) - Fix balloon latched entity persistence and cleanup some misc code in the EntityBalloon class, and fix hit box of balloons
+			[5c6b53d](https://github.com/mekanism/Mekanism/commit/5c6b53d3543db7125f323fe78f8641d9b46359b1) - Fix persistence of recipe progress between tile unloading and reloading [#5923](https://github.com/mekanism/Mekanism/issues/5923)
+			[206143d](https://github.com/mekanism/Mekanism/commit/206143ddfaa6c16e18a8e436b1b7d4c1db19e1b0) - Fix some activation delay logic
+			[a69e27b](https://github.com/mekanism/Mekanism/commit/a69e27b80e998ac543a36be6f6cdf7aa1271b32e) - Continue working on cleaning up TODOs. Also rework lasers to give them a bit more love: - Actually uses energy for damaging entities - If entities fully absorb a laser's energy the laser does not go past them and if it only gets reduced, the laser continues at a reduced visual scale - Lasers apply a constant "source" of damage so going in them will hurt and add up very quickly - Blocking with shields can reduce the damage done by lasers (rapidly drains a shields durability though due to the constant application of energy from the laser)
+			[a592887](https://github.com/mekanism/Mekanism/commit/a592887bde19af9df33fac2192bc0a455b150399) - Fix being unable to interact with the reactor's inventory slot via reactor ports, and the thermal evaporation controller's inventory slots via the evaporation valves. Also cleanup some of the proxying for the reactor slots. [#6069](https://github.com/mekanism/Mekanism/issues/6069)
+			[3594bf7](https://github.com/mekanism/Mekanism/commit/3594bf7bd18581e10b9a67f518b9b4262413c1c7) - Continue work on cleaning up/removing old TODOs. Also remove disabled CrT integration, as it will have to be rewritten from scratch eventually so there isn't much point in keeping around the old commented code
+			[2e519b1](https://github.com/mekanism/Mekanism/commit/2e519b1424fdf4e6e799e11e2d8980160dbec8ec) - Continue work on cleaning up/removing old TODOs. Fix compile error accidentally introduced in the last commit
+			[c6b7c0c](https://github.com/mekanism/Mekanism/commit/c6b7c0c03463ea33ca3d5260430a893558958e5d) - Modify miner visual renderer so that it doesn't tank the FPS when activated. Now renders one large cube rather than many small ones. Also fix the color being incorrect
+			[65dd044](https://github.com/mekanism/Mekanism/commit/65dd04434ee935088272f27a86ea8c8a33c336c7) - Rename a few texture paths for liquids/gases/transmitter contents
+			[96b1b3e](https://github.com/mekanism/Mekanism/commit/96b1b3e50c742c8ecb8e1bd8d2da6b83e9d35b24) - Continue working on cleaning up TODOs, and cleanup some annotations
+			[2c70bfc](https://github.com/mekanism/Mekanism/commit/2c70bfca87ad5e837358af86b8bdc66ece19118b) - Continue working on cleaning up TODOs
+			[3252d4a](https://github.com/mekanism/Mekanism/commit/3252d4a07ddd026c1275885dd4dd9e1ff588bf29) - Continue working on cleaning up TODOs, and remove some old commented out code
+			[fbda87a](https://github.com/mekanism/Mekanism/commit/fbda87a59b858db0ea89050f70cb25388aeee7c9) - Continue working on cleaning up TODOs, Also fix rendering of the degree symbols for celsius and fahrenheit
+			[cb59285](https://github.com/mekanism/Mekanism/commit/cb59285f95f4f80d09a4020e074c367916902a36) - Rewrite Fluidic Plenisher placement logic to properly be able to handle fluids and fluid loggable blocks, and improve mod compatibility for the fluid tank's bucket mode for properly making modded fluids evaporate in the nether when they should
+			[70a0db9](https://github.com/mekanism/Mekanism/commit/70a0db904497bf45d0898396bf74248ec24e040b) - New Crowdin translations ([#6068](https://github.com/mekanism/Mekanism/issues/6068))
+			[c9e33fd](https://github.com/mekanism/Mekanism/commit/c9e33fd37444499ac4e4997cae11bed741671deb) - As we are out of alpha remove the alpha status from the readme, and also add a section linking to Crowdin. Also bump version to 9.10.0
+
+	Mekanism Tools (MekanismTools-1.15.2-9.9.20.412.jar --> MekanismTools-1.15.2-9.10.0.413.jar):
+		MekanismTools-1.15.2-9.10.0.413.jar:
+			[00615c7](https://github.com/mekanism/Mekanism/commit/00615c703ced046ac1bbe632556c827c917da942) - Fix copy paste logging error, and start addressing some of the various TODOs [#5911](https://github.com/mekanism/Mekanism/issues/5911)
+			[c1a8a0f](https://github.com/mekanism/Mekanism/commit/c1a8a0f4f0c9da82273dfd019076b49f7933fc9c) - Continue work on TODOs - Bump api version to 9.10.0 as that will be the next version and we don't want to forget to bump it - Rework the voxelshapes and ray tracing with configurator for transmitter components some to be more performance and have more accurate shapes.
+			[0e4f5a4](https://github.com/mekanism/Mekanism/commit/0e4f5a4793195b313cba510f5a29370d98eb1dd9) - Make it so that tier installers can stack to make it easier to upgrade lots of machines at once
+			[b8fca25](https://github.com/mekanism/Mekanism/commit/b8fca250354d79adf0884485d0593b9c248294c3) - Fix incorrect caching using set connection mode rather than the relative connection type
+			[7fab057](https://github.com/mekanism/Mekanism/commit/7fab057d55df2c8708eb8a8a6387dfd0d005a4e3) - Resolve some LGTM warnings/errors
+			[05150df](https://github.com/mekanism/Mekanism/commit/05150dfcba53ed28a3515719d86858953c6c62f3) - crowdin: update config with proper lang keys & YAML aliases
+			[864891b](https://github.com/mekanism/Mekanism/commit/864891bf2110cc75fc8482398f37302bba5ddcf1) - Crowdin CLI lang changes
+			[3554330](https://github.com/mekanism/Mekanism/commit/3554330bdf99944a2b7eb0fee7f8726f5536b271) - quote the commit message config
+			[dd58ff3](https://github.com/mekanism/Mekanism/commit/dd58ff3b2e1837932f9365d897b039cd0cb10c3a) - crowdin: server github integration doesn't seem to understand the yaml aliases [ci skip]
+			[0fddfd7](https://github.com/mekanism/Mekanism/commit/0fddfd72a175e22e5f2661b783796baf7273d8b4) - New Crowdin translations ([#6067](https://github.com/mekanism/Mekanism/issues/6067))
+			[6fccf16](https://github.com/mekanism/Mekanism/commit/6fccf1628f96dd2a65a6017a190cd1ee7eb7413d) - Disable the alpha warning and set the CF release type for beta in preparation of 9.10.0, Also remove the old .lang file formats and fix the PR format
+			[241791c](https://github.com/mekanism/Mekanism/commit/241791c870d3b001542e67db2a5d67a289ea6154) - Add compatibility for FluxNetworks' long energy capability to allow for sending up to MAX_LONG instead of being limited to MAX_INT
+			[680db8c](https://github.com/mekanism/Mekanism/commit/680db8c3315ee851f149538d887621e19c0c0dad) - Cleanup energy compat to make it more readable and easier to add new capability types
+			[26b6c0b](https://github.com/mekanism/Mekanism/commit/26b6c0b056b97a0ae4d5a1c36ca208120f68225d) - Fix balloon latched entity persistence and cleanup some misc code in the EntityBalloon class, and fix hit box of balloons
+			[5c6b53d](https://github.com/mekanism/Mekanism/commit/5c6b53d3543db7125f323fe78f8641d9b46359b1) - Fix persistence of recipe progress between tile unloading and reloading [#5923](https://github.com/mekanism/Mekanism/issues/5923)
+			[206143d](https://github.com/mekanism/Mekanism/commit/206143ddfaa6c16e18a8e436b1b7d4c1db19e1b0) - Fix some activation delay logic
+			[a69e27b](https://github.com/mekanism/Mekanism/commit/a69e27b80e998ac543a36be6f6cdf7aa1271b32e) - Continue working on cleaning up TODOs. Also rework lasers to give them a bit more love: - Actually uses energy for damaging entities - If entities fully absorb a laser's energy the laser does not go past them and if it only gets reduced, the laser continues at a reduced visual scale - Lasers apply a constant "source" of damage so going in them will hurt and add up very quickly - Blocking with shields can reduce the damage done by lasers (rapidly drains a shields durability though due to the constant application of energy from the laser)
+			[a592887](https://github.com/mekanism/Mekanism/commit/a592887bde19af9df33fac2192bc0a455b150399) - Fix being unable to interact with the reactor's inventory slot via reactor ports, and the thermal evaporation controller's inventory slots via the evaporation valves. Also cleanup some of the proxying for the reactor slots. [#6069](https://github.com/mekanism/Mekanism/issues/6069)
+			[3594bf7](https://github.com/mekanism/Mekanism/commit/3594bf7bd18581e10b9a67f518b9b4262413c1c7) - Continue work on cleaning up/removing old TODOs. Also remove disabled CrT integration, as it will have to be rewritten from scratch eventually so there isn't much point in keeping around the old commented code
+			[2e519b1](https://github.com/mekanism/Mekanism/commit/2e519b1424fdf4e6e799e11e2d8980160dbec8ec) - Continue work on cleaning up/removing old TODOs. Fix compile error accidentally introduced in the last commit
+			[c6b7c0c](https://github.com/mekanism/Mekanism/commit/c6b7c0c03463ea33ca3d5260430a893558958e5d) - Modify miner visual renderer so that it doesn't tank the FPS when activated. Now renders one large cube rather than many small ones. Also fix the color being incorrect
+			[65dd044](https://github.com/mekanism/Mekanism/commit/65dd04434ee935088272f27a86ea8c8a33c336c7) - Rename a few texture paths for liquids/gases/transmitter contents
+			[96b1b3e](https://github.com/mekanism/Mekanism/commit/96b1b3e50c742c8ecb8e1bd8d2da6b83e9d35b24) - Continue working on cleaning up TODOs, and cleanup some annotations
+			[2c70bfc](https://github.com/mekanism/Mekanism/commit/2c70bfca87ad5e837358af86b8bdc66ece19118b) - Continue working on cleaning up TODOs
+			[3252d4a](https://github.com/mekanism/Mekanism/commit/3252d4a07ddd026c1275885dd4dd9e1ff588bf29) - Continue working on cleaning up TODOs, and remove some old commented out code
+			[fbda87a](https://github.com/mekanism/Mekanism/commit/fbda87a59b858db0ea89050f70cb25388aeee7c9) - Continue working on cleaning up TODOs, Also fix rendering of the degree symbols for celsius and fahrenheit
+			[cb59285](https://github.com/mekanism/Mekanism/commit/cb59285f95f4f80d09a4020e074c367916902a36) - Rewrite Fluidic Plenisher placement logic to properly be able to handle fluids and fluid loggable blocks, and improve mod compatibility for the fluid tank's bucket mode for properly making modded fluids evaporate in the nether when they should
+			[70a0db9](https://github.com/mekanism/Mekanism/commit/70a0db904497bf45d0898396bf74248ec24e040b) - New Crowdin translations ([#6068](https://github.com/mekanism/Mekanism/issues/6068))
+			[c9e33fd](https://github.com/mekanism/Mekanism/commit/c9e33fd37444499ac4e4997cae11bed741671deb) - As we are out of alpha remove the alpha status from the readme, and also add a section linking to Crowdin. Also bump version to 9.10.0
+
+	MineColonies (minecolonies-0.11.827-ALPHA-universal.jar --> minecolonies-0.11.840-BETA-universal.jar):
+		minecolonies-0.11.840-BETA-universal.jar:
+			Minecolonies Changelog
+			Version: 0.11.840-BETA
+			* hotfix #4662
+			*
+			Update building itemStorage (#4661)
+			*
+			Update building itemStorage
+			* hotfix #4649
+			* hotfix colony load issue
+			* Feature/code smell (#4659)
+			Add a bit more doc Fix some code smell * Happiness (#4651)
+			Complete happiness rework:
+			Added four different types of Happiness Modifiers.
+			Static: Depending statically on a value of the citizen Time Based: Change factor over time Expiration based: Invoked for a short time (buff for three days on a colonist death for example) Client Sided: With the factor only for the client side.
+			All the lists in the GUI are now automatically generated from the list of modifiers. * Schematics115 (#4656)
+			Leaf and floating carpet fix * Hotfix loottable issue * Fix/#4624 (#4641)
+			*
+			fix #4624
+			*
+			fix #4638
+			*
+			Add research conclude messages
+			*
+			hotfix #4643
+			* Fix pirate raid not beeing over till evening (#4640)
+			Fix pupils ignoring mourning and raids * HotFix guard patrol (#4639)
+			* Fix patrol timeout
+			* Schematics115 (#4632)
+			Medieval Oak, Medieval Oak Alternatives, Medieval Spruce, Medieval Spruce Alternatives, Fortress walls * Feature/technology branch (#4629)
+			Adds the technology part of the tree Already adds the remaining technology research but commented out until the workers exist Some small fixes around * Fix lumberjack tree error (#4627)
+			Fix Lumberjack calculating sapling for nonexistant tree Add timeout to guard patrol targets * Colony creation gui (#4615)
+			This PR changes how colony creation works, the colony is now created via a GUI you open by accessing a townhall, instead of upon townhall placement. The gui is looking like this: * Feature/min stock (#4622)
+			Minimum Stock to maintain in the warehouse. * Fix MobEntity References (#4620)
+
+		minecolonies-0.11.839-ALPHA-universal.jar:
+			Minecolonies Changelog
+			Version: 0.11.839-ALPHA
+			* hotfix #4662
+
+		minecolonies-0.11.838-ALPHA-universal.jar:
+			Minecolonies Changelog
+			Version: 0.11.838-ALPHA
+			*
+			Update building itemStorage (#4661)
+			*
+			Update building itemStorage
+			* hotfix #4649
+
+		minecolonies-0.11.836-ALPHA-universal.jar:
+			Minecolonies Changelog
+			Version: 0.11.836-ALPHA
+			* hotfix colony load issue
+
+		minecolonies-0.11.835-ALPHA-universal.jar:
+			Minecolonies Changelog
+			Version: 0.11.835-ALPHA
+			* Feature/code smell (#4659)
+			Add a bit more doc Fix some code smell
+
+		minecolonies-0.11.834-ALPHA-universal.jar:
+			Minecolonies Changelog
+			Version: 0.11.834-ALPHA
+			* Happiness (#4651)
+			Complete happiness rework:
+			Added four different types of Happiness Modifiers.
+			Static: Depending statically on a value of the citizen Time Based: Change factor over time Expiration based: Invoked for a short time (buff for three days on a colonist death for example) Client Sided: With the factor only for the client side.
+			All the lists in the GUI are now automatically generated from the list of modifiers.
+
+		minecolonies-0.11.833-ALPHA-universal.jar:
+			Minecolonies Changelog
+			Version: 0.11.833-ALPHA
+			* Schematics115 (#4656)
+			Leaf and floating carpet fix
+
+		minecolonies-0.11.832-ALPHA-universal.jar:
+			Minecolonies Changelog
+			Version: 0.11.832-ALPHA
+			* Hotfix loottable issue
+
+		minecolonies-0.11.831-ALPHA-universal.jar:
+			Minecolonies Changelog
+			Version: 0.11.831-ALPHA
+			*
+			Fix/#4624 (#4641)
+			*
+			fix #4624
+			*
+			fix #4638
+			*
+			Add research conclude messages
+			*
+			hotfix #4643
+
+		minecolonies-0.11.830-ALPHA-universal.jar:
+			Minecolonies Changelog
+			Version: 0.11.830-ALPHA
+			* Fix pirate raid not beeing over till evening (#4640)
+			Fix pupils ignoring mourning and raids
+
+		minecolonies-0.11.829-ALPHA-universal.jar:
+			Minecolonies Changelog
+			Version: 0.11.829-ALPHA
+			*
+			HotFix guard patrol (#4639)
+			*
+			Fix patrol timeout
+
+	Quark (Quark-r2.1-230.jar --> Quark-r2.1-231.jar):
+		Quark-r2.1-231.jar:
+			* Added Bonded Rabbit Hide and Bonded Ravager Hide blocks.
+			* Added Cobblestone Bricks and Mossy Cobblestone Bricks.
+			* Added Fairy Rings.
+			* Added Gold Bars.
+			* Added more funny frog memes.
+			* Fixed a log error with the magnetized block.
+			* Fixed a typo when the day changes.
+			* Fixed elder prismarine's recipe using ink sac instead of black dye.
+			* Fixed glass item frame wallpaper not working.
+			* Fixed improved sleeping breaking mods that rely on forge's sleeping event.
+			* Fixed quark's item frames morphing other item frames into them.
+			* Fixed snow bricks having the wrong sound.
+			* Fixed the toretoise sounds playing for everyone within loading range.
+			* Implemented the wg_stone tag for Terraforged world gen compatibility.
+			* Improved the vertical double smooth stone slab texture. (muzikbike)
+			* Updated some textures.
+
+	Quickstack (quickstack-3.0.2.jar --> quickstack-3.0.3.jar):
+		quickstack-3.0.3.jar:
+			added config for valid containers that buttons can appear in, by default includes curios screen
+
+	Structurize (structurize-0.10.298-ALPHA.jar --> structurize-0.10.299-ALPHA.jar):
+		structurize-0.10.299-ALPHA.jar:
+			Minecolonies Changelog
+			Version: 0.10.299-ALPHA
+			*
+			Barrelblock (#123)
+			*
+			Added deco barrel block
+
+Removed:
+- Quark Oddities
+
+Generated using [ChangelogGenerator 2.0.0-pre3](https://github.com/TheRandomLabs/ChangelogGenerator).
