@@ -1,3 +1,19 @@
+## Enigmatica 5 v0.4.4
+
+*Using Forge-1.15.2-31.1.44*
+
+
+
+*[Mod Updates](https://github.com/NillerMedDild/Enigmatica5/blob/master/changelogs/CHANGELOG_MODS_0.4.3.txt)*
+
+
+
+**Bug fixes**
+
+- Crash when opening inventory in Creative Mode
+- Being unable to move items out of inventory
+- No Loot in Chests [\#188](https://github.com/NillerMedDild/Enigmatica5/issues/188)
+
 ## Enigmatica 5 v0.4.3
 
 *Using Forge-1.15.2-31.1.44*

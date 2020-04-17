@@ -1,0 +1,10 @@
+=======================================
+Enigmatica5 0.4.3 --> Enigmatica5 0.4.4
+=======================================
+
+Downgraded:
+	Quickstack (quickstack-3.0.3.jar --> quickstack-3.0.2.jar):
+		quickstack-3.0.3.jar:
+			added config for valid containers that buttons can appear in, by default includes curios screen
+
+Generated using [ChangelogGenerator 2.0.0-pre3](https://github.com/TheRandomLabs/ChangelogGenerator).
