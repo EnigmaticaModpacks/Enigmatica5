@@ -22,4 +22,23 @@ var stoneBasalt = [
 var cobblestoneBasalt = [
 ];
 
+var colors = [
+    "cyan",
+    "purple",
+    "blue",
+    "brown",
+    "green",
+    "red",
+    "black",
+    "white",
+    "orange",
+    "magenta",
+    "light_blue",
+    "yellow",
+    "lime",
+    "pink",
+    "gray",
+    "light_gray"
+];
+
 var materials = global.materials;
