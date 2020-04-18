@@ -1,3 +1,29 @@
+## Enigmatica 5 v0.4.5
+
+*Using Forge-1.15.2-31.1.44*
+
+
+
+*[Mod Updates](https://github.com/NillerMedDild/Enigmatica5/blob/master/changelogs/CHANGELOG_MODS_0.4.5.txt)*
+
+
+
+**Mod Additions**
+
+- 
+
+**Mod Removals**
+
+- 
+
+**Changes**
+
+* Platinum can now be used to make some Tetra swords and pickaxe heads
+
+**Bug fixes**
+
+- 
+
 ## Enigmatica 5 v0.4.4
 
 *Using Forge-1.15.2-31.1.44*
