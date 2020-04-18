@@ -6,16 +6,15 @@ import crafttweaker.api.tag.MCTag;
 
 var materials as MCTag[string][string] = {
     "iron": {
-        "nugget": <tag:forge:nuggets/iron>,
-        "ingot": <tag:forge:ingots/iron>,
-        "gem": <tag:forge:gems/iron>,
-        "storage_block": <tag:forge:storage_blocks/iron>,
-        "ore": <tag:forge:ores/iron>,
         "ore_deposit": <tag:forge:ore_deposit/iron>,
         "dust": <tag:forge:dusts/iron>,
         "gear": <tag:forge:gears/iron>,
         "plate": <tag:forge:plates/iron>,
-        "rod": <tag:forge:rods/iron>
+        "rod": <tag:forge:rods/iron>,
+        "dirty_dust": <tag:forge:dirty_dusts/iron>,
+        "clump": <tag:forge:clumps/iron>,
+        "shard": <tag:forge:shards/iron>,
+        "crystal": <tag:forge:crystals/iron>,
     },
 
     "gold": {
@@ -28,21 +27,12 @@ var materials as MCTag[string][string] = {
         "dust": <tag:forge:dusts/gold>,
         "gear": <tag:forge:gears/gold>,
         "plate": <tag:forge:plates/gold>,
-        "rod": <tag:forge:rods/gold>
+        "rod": <tag:forge:rods/gold>,
+        "dirty_dust": <tag:forge:dirty_dusts/gold>,
+        "clump": <tag:forge:clumps/gold>,
+        "shard": <tag:forge:shards/gold>,
+        "crystal": <tag:forge:crystals/gold>,
     },
-
-    // "neptunium": {
-    //     "nugget": <tag:forge:nuggets/neptunium>,
-    //     "ingot": <tag:forge:ingots/neptunium>,
-    //     "gem": <tag:forge:gems/neptunium>,
-    //     "storage_block": <tag:forge:storage_blocks/neptunium>,
-    //     "ore": <tag:forge:ores/neptunium>,
-    //     "ore_deposit": <tag:forge:ore_deposit/neptunium>,
-    //     "dust": <tag:forge:dusts/neptunium>,
-    //     "gear": <tag:forge:gears/neptunium>,
-    //     "plate": <tag:forge:plates/neptunium>,
-    //     "rod": <tag:forge:rods/neptunium>
-    // },
 
     "copper": {
         "nugget": <tag:forge:nuggets/copper>,
@@ -54,7 +44,11 @@ var materials as MCTag[string][string] = {
         "dust": <tag:forge:dusts/copper>,
         "gear": <tag:forge:gears/copper>,
         "plate": <tag:forge:plates/copper>,
-        "rod": <tag:forge:rods/copper>
+        "rod": <tag:forge:rods/copper>,
+        "dirty_dust": <tag:forge:dirty_dusts/copper>,
+        "clump": <tag:forge:clumps/copper>,
+        "shard": <tag:forge:shards/copper>,
+        "crystal": <tag:forge:crystals/copper>,
     },
 
     "silver": {
@@ -67,7 +61,11 @@ var materials as MCTag[string][string] = {
         "dust": <tag:forge:dusts/silver>,
         "gear": <tag:forge:gears/silver>,
         "plate": <tag:forge:plates/silver>,
-        "rod": <tag:forge:rods/silver>
+        "rod": <tag:forge:rods/silver>,
+        "dirty_dust": <tag:forge:dirty_dusts/silver>,
+        "clump": <tag:forge:clumps/silver>,
+        "shard": <tag:forge:shards/silver>,
+        "crystal": <tag:forge:crystals/silver>,
     },
 
     "zinc": {
@@ -80,7 +78,11 @@ var materials as MCTag[string][string] = {
         "dust": <tag:forge:dusts/zinc>,
         "gear": <tag:forge:gears/zinc>,
         "plate": <tag:forge:plates/zinc>,
-        "rod": <tag:forge:rods/zinc>
+        "rod": <tag:forge:rods/zinc>,
+        "dirty_dust": <tag:forge:dirty_dusts/zinc>,
+        "clump": <tag:forge:clumps/zinc>,
+        "shard": <tag:forge:shards/zinc>,
+        "crystal": <tag:forge:crystals/zinc>,
     },
 
     "brass": {
@@ -93,7 +95,11 @@ var materials as MCTag[string][string] = {
         "dust": <tag:forge:dusts/brass>,
         "gear": <tag:forge:gears/brass>,
         "plate": <tag:forge:plates/brass>,
-        "rod": <tag:forge:rods/brass>
+        "rod": <tag:forge:rods/brass>,
+        "dirty_dust": <tag:forge:dirty_dusts/brass>,
+        "clump": <tag:forge:clumps/brass>,
+        "shard": <tag:forge:shards/brass>,
+        "crystal": <tag:forge:crystals/brass>,
     },
 
     "tungsten": {
@@ -106,7 +112,11 @@ var materials as MCTag[string][string] = {
         "dust": <tag:forge:dusts/tungsten>,
         "gear": <tag:forge:gears/tungsten>,
         "plate": <tag:forge:plates/tungsten>,
-        "rod": <tag:forge:rods/tungsten>
+        "rod": <tag:forge:rods/tungsten>,
+        "dirty_dust": <tag:forge:dirty_dusts/tungsten>,
+        "clump": <tag:forge:clumps/tungsten>,
+        "shard": <tag:forge:shards/tungsten>,
+        "crystal": <tag:forge:crystals/tungsten>,
     },
 
     "lead": {
@@ -119,7 +129,11 @@ var materials as MCTag[string][string] = {
         "dust": <tag:forge:dusts/lead>,
         "gear": <tag:forge:gears/lead>,
         "plate": <tag:forge:plates/lead>,
-        "rod": <tag:forge:rods/lead>
+        "rod": <tag:forge:rods/lead>,
+        "dirty_dust": <tag:forge:dirty_dusts/lead>,
+        "clump": <tag:forge:clumps/lead>,
+        "shard": <tag:forge:shards/lead>,
+        "crystal": <tag:forge:crystals/lead>,
     },
 
     "quicksilver": {
@@ -132,7 +146,11 @@ var materials as MCTag[string][string] = {
         "dust": <tag:forge:dusts/quicksilver>,
         "gear": <tag:forge:gears/quicksilver>,
         "plate": <tag:forge:plates/quicksilver>,
-        "rod": <tag:forge:rods/quicksilver>
+        "rod": <tag:forge:rods/quicksilver>,
+        "dirty_dust": <tag:forge:dirty_dusts/quicksilver>,
+        "clump": <tag:forge:clumps/quicksilver>,
+        "shard": <tag:forge:shards/quicksilver>,
+        "crystal": <tag:forge:crystals/quicksilver>,
     },
 
     "tin": {
@@ -145,7 +163,11 @@ var materials as MCTag[string][string] = {
         "dust": <tag:forge:dusts/tin>,
         "gear": <tag:forge:gears/tin>,
         "plate": <tag:forge:plates/tin>,
-        "rod": <tag:forge:rods/tin>
+        "rod": <tag:forge:rods/tin>,
+        "dirty_dust": <tag:forge:dirty_dusts/tin>,
+        "clump": <tag:forge:clumps/tin>,
+        "shard": <tag:forge:shards/tin>,
+        "crystal": <tag:forge:crystals/tin>,
     },
 
     "redstone_alloy": {
@@ -158,7 +180,11 @@ var materials as MCTag[string][string] = {
         "dust": <tag:forge:dusts/redstone_alloy>,
         "gear": <tag:forge:gears/redstone_alloy>,
         "plate": <tag:forge:plates/redstone_alloy>,
-        "rod": <tag:forge:rods/redstone_alloy>
+        "rod": <tag:forge:rods/redstone_alloy>,
+        "dirty_dust": <tag:forge:dirty_dusts/redstone_alloy>,
+        "clump": <tag:forge:clumps/redstone_alloy>,
+        "shard": <tag:forge:shards/redstone_alloy>,
+        "crystal": <tag:forge:crystals/redstone_alloy>,
     },
 
     "refined_iron": {
@@ -171,7 +197,11 @@ var materials as MCTag[string][string] = {
         "dust": <tag:forge:dusts/refined_iron>,
         "gear": <tag:forge:gears/refined_iron>,
         "plate": <tag:forge:plates/refined_iron>,
-        "rod": <tag:forge:rods/refined_iron>
+        "rod": <tag:forge:rods/refined_iron>,
+        "dirty_dust": <tag:forge:dirty_dusts/refined_iron>,
+        "clump": <tag:forge:clumps/refined_iron>,
+        "shard": <tag:forge:shards/refined_iron>,
+        "crystal": <tag:forge:crystals/refined_iron>,
     },
 
     "compressed_iron": {
@@ -184,7 +214,11 @@ var materials as MCTag[string][string] = {
         "dust": <tag:forge:dusts/compressed_iron>,
         "gear": <tag:forge:gears/compressed_iron>,
         "plate": <tag:forge:plates/compressed_iron>,
-        "rod": <tag:forge:rods/compressed_iron>
+        "rod": <tag:forge:rods/compressed_iron>,
+        "dirty_dust": <tag:forge:dirty_dusts/compressed_iron>,
+        "clump": <tag:forge:clumps/compressed_iron>,
+        "shard": <tag:forge:shards/compressed_iron>,
+        "crystal": <tag:forge:crystals/compressed_iron>,
     },
 
     "nickel": {
@@ -197,7 +231,11 @@ var materials as MCTag[string][string] = {
         "dust": <tag:forge:dusts/nickel>,
         "gear": <tag:forge:gears/nickel>,
         "plate": <tag:forge:plates/nickel>,
-        "rod": <tag:forge:rods/nickel>
+        "rod": <tag:forge:rods/nickel>,
+        "dirty_dust": <tag:forge:dirty_dusts/nickel>,
+        "clump": <tag:forge:clumps/nickel>,
+        "shard": <tag:forge:shards/nickel>,
+        "crystal": <tag:forge:crystals/nickel>,
     },
 
     "platinum": {
@@ -210,7 +248,11 @@ var materials as MCTag[string][string] = {
         "dust": <tag:forge:dusts/platinum>,
         "gear": <tag:forge:gears/platinum>,
         "plate": <tag:forge:plates/platinum>,
-        "rod": <tag:forge:rods/platinum>
+        "rod": <tag:forge:rods/platinum>,
+        "dirty_dust": <tag:forge:dirty_dusts/platinum>,
+        "clump": <tag:forge:clumps/platinum>,
+        "shard": <tag:forge:shards/platinum>,
+        "crystal": <tag:forge:crystals/platinum>,
     },
 
     "bismuth": {
@@ -223,7 +265,11 @@ var materials as MCTag[string][string] = {
         "dust": <tag:forge:dusts/bismuth>,
         "gear": <tag:forge:gears/bismuth>,
         "plate": <tag:forge:plates/bismuth>,
-        "rod": <tag:forge:rods/bismuth>
+        "rod": <tag:forge:rods/bismuth>,
+        "dirty_dust": <tag:forge:dirty_dusts/bismuth>,
+        "clump": <tag:forge:clumps/bismuth>,
+        "shard": <tag:forge:shards/bismuth>,
+        "crystal": <tag:forge:crystals/bismuth>,
     },
 
     "aluminum": {
@@ -236,21 +282,29 @@ var materials as MCTag[string][string] = {
         "dust": <tag:forge:dusts/aluminum>,
         "gear": <tag:forge:gears/aluminum>,
         "plate": <tag:forge:plates/aluminum>,
-        "rod": <tag:forge:rods/aluminum>
+        "rod": <tag:forge:rods/aluminum>,
+        "dirty_dust": <tag:forge:dirty_dusts/aluminum>,
+        "clump": <tag:forge:clumps/aluminum>,
+        "shard": <tag:forge:shards/aluminum>,
+        "crystal": <tag:forge:crystals/aluminum>,
     },
 
-    // "uranium": {
-    //     "nugget": <tag:forge:nuggets/uranium>,
-    //     "ingot": <tag:forge:ingots/uranium>,
-    //     "gem": <tag:forge:gems/uranium>,
-    //     "storage_block": <tag:forge:storage_blocks/uranium>,
-    //     "ore": <tag:forge:ores/uranium>,
-    //     "ore_deposit": <tag:forge:ore_deposit/uranium>,
-    //     "dust": <tag:forge:dusts/uranium>,
-    //     "gear": <tag:forge:gears/uranium>,
-    //     "plate": <tag:forge:plates/uranium>,
-    //     "rod": <tag:forge:rods/uranium>
-    // },
+    "uranium": {
+        "nugget": <tag:forge:nuggets/uranium>,
+        "ingot": <tag:forge:ingots/uranium>,
+        "gem": <tag:forge:gems/uranium>,
+        "storage_block": <tag:forge:storage_blocks/uranium>,
+        "ore": <tag:forge:ores/uranium>,
+        "ore_deposit": <tag:forge:ore_deposit/uranium>,
+        "dust": <tag:forge:dusts/uranium>,
+        "gear": <tag:forge:gears/uranium>,
+        "plate": <tag:forge:plates/uranium>,
+        "rod": <tag:forge:rods/uranium>,
+        "dirty_dust": <tag:forge:dirty_dusts/uranium>,
+        "clump": <tag:forge:clumps/uranium>,
+        "shard": <tag:forge:shards/uranium>,
+        "crystal": <tag:forge:crystals/uranium>,
+    },
 
     "bronze": {
         "nugget": <tag:forge:nuggets/bronze>,
@@ -262,7 +316,11 @@ var materials as MCTag[string][string] = {
         "dust": <tag:forge:dusts/bronze>,
         "gear": <tag:forge:gears/bronze>,
         "plate": <tag:forge:plates/bronze>,
-        "rod": <tag:forge:rods/bronze>
+        "rod": <tag:forge:rods/bronze>,
+        "dirty_dust": <tag:forge:dirty_dusts/bronze>,
+        "clump": <tag:forge:clumps/bronze>,
+        "shard": <tag:forge:shards/bronze>,
+        "crystal": <tag:forge:crystals/bronze>,
     },
 
     "invar": {
@@ -275,7 +333,11 @@ var materials as MCTag[string][string] = {
         "dust": <tag:forge:dusts/invar>,
         "gear": <tag:forge:gears/invar>,
         "plate": <tag:forge:plates/invar>,
-        "rod": <tag:forge:rods/invar>
+        "rod": <tag:forge:rods/invar>,
+        "dirty_dust": <tag:forge:dirty_dusts/invar>,
+        "clump": <tag:forge:clumps/invar>,
+        "shard": <tag:forge:shards/invar>,
+        "crystal": <tag:forge:crystals/invar>,
     },
 
     "electrum": {
@@ -288,7 +350,11 @@ var materials as MCTag[string][string] = {
         "dust": <tag:forge:dusts/electrum>,
         "gear": <tag:forge:gears/electrum>,
         "plate": <tag:forge:plates/electrum>,
-        "rod": <tag:forge:rods/electrum>
+        "rod": <tag:forge:rods/electrum>,
+        "dirty_dust": <tag:forge:dirty_dusts/electrum>,
+        "clump": <tag:forge:clumps/electrum>,
+        "shard": <tag:forge:shards/electrum>,
+        "crystal": <tag:forge:crystals/electrum>,
     },
 
     "bismuth_brass": {
@@ -301,7 +367,11 @@ var materials as MCTag[string][string] = {
         "dust": <tag:forge:dusts/bismuth_brass>,
         "gear": <tag:forge:gears/bismuth_brass>,
         "plate": <tag:forge:plates/bismuth_brass>,
-        "rod": <tag:forge:rods/bismuth_brass>
+        "rod": <tag:forge:rods/bismuth_brass>,
+        "dirty_dust": <tag:forge:dirty_dusts/bismuth_brass>,
+        "clump": <tag:forge:clumps/bismuth_brass>,
+        "shard": <tag:forge:shards/bismuth_brass>,
+        "crystal": <tag:forge:crystals/bismuth_brass>,
     },
 
     "aluminum_steel": {
@@ -314,7 +384,11 @@ var materials as MCTag[string][string] = {
         "dust": <tag:forge:dusts/aluminum_steel>,
         "gear": <tag:forge:gears/aluminum_steel>,
         "plate": <tag:forge:plates/aluminum_steel>,
-        "rod": <tag:forge:rods/aluminum_steel>
+        "rod": <tag:forge:rods/aluminum_steel>,
+        "dirty_dust": <tag:forge:dirty_dusts/aluminum_steel>,
+        "clump": <tag:forge:clumps/aluminum_steel>,
+        "shard": <tag:forge:shards/aluminum_steel>,
+        "crystal": <tag:forge:crystals/aluminum_steel>,
     },
 
     "bismuth_steel": {
@@ -327,7 +401,11 @@ var materials as MCTag[string][string] = {
         "dust": <tag:forge:dusts/bismuth_steel>,
         "gear": <tag:forge:gears/bismuth_steel>,
         "plate": <tag:forge:plates/bismuth_steel>,
-        "rod": <tag:forge:rods/bismuth_steel>
+        "rod": <tag:forge:rods/bismuth_steel>,
+        "dirty_dust": <tag:forge:dirty_dusts/bismuth_steel>,
+        "clump": <tag:forge:clumps/bismuth_steel>,
+        "shard": <tag:forge:shards/bismuth_steel>,
+        "crystal": <tag:forge:crystals/bismuth_steel>,
     },
 
     "signalum": {
@@ -340,7 +418,11 @@ var materials as MCTag[string][string] = {
         "dust": <tag:forge:dusts/signalum>,
         "gear": <tag:forge:gears/signalum>,
         "plate": <tag:forge:plates/signalum>,
-        "rod": <tag:forge:rods/signalum>
+        "rod": <tag:forge:rods/signalum>,
+        "dirty_dust": <tag:forge:dirty_dusts/signalum>,
+        "clump": <tag:forge:clumps/signalum>,
+        "shard": <tag:forge:shards/signalum>,
+        "crystal": <tag:forge:crystals/signalum>,
     },
 
     "lumium": {
@@ -353,7 +435,11 @@ var materials as MCTag[string][string] = {
         "dust": <tag:forge:dusts/lumium>,
         "gear": <tag:forge:gears/lumium>,
         "plate": <tag:forge:plates/lumium>,
-        "rod": <tag:forge:rods/lumium>
+        "rod": <tag:forge:rods/lumium>,
+        "dirty_dust": <tag:forge:dirty_dusts/lumium>,
+        "clump": <tag:forge:clumps/lumium>,
+        "shard": <tag:forge:shards/lumium>,
+        "crystal": <tag:forge:crystals/lumium>,
     },
 
     "enderium": {
@@ -366,7 +452,11 @@ var materials as MCTag[string][string] = {
         "dust": <tag:forge:dusts/enderium>,
         "gear": <tag:forge:gears/enderium>,
         "plate": <tag:forge:plates/enderium>,
-        "rod": <tag:forge:rods/enderium>
+        "rod": <tag:forge:rods/enderium>,
+        "dirty_dust": <tag:forge:dirty_dusts/enderium>,
+        "clump": <tag:forge:clumps/enderium>,
+        "shard": <tag:forge:shards/enderium>,
+        "crystal": <tag:forge:crystals/enderium>,
     },
 
     "diamond": {
@@ -379,20 +469,28 @@ var materials as MCTag[string][string] = {
         "dust": <tag:forge:dusts/diamond>,
         "gear": <tag:forge:gears/diamond>,
         "plate": <tag:forge:plates/diamond>,
-        "rod": <tag:forge:rods/diamond>
+        "rod": <tag:forge:rods/diamond>,
+        "dirty_dust": <tag:forge:dirty_dusts/diamond>,
+        "clump": <tag:forge:clumps/diamond>,
+        "shard": <tag:forge:shards/diamond>,
+        "crystal": <tag:forge:crystals/diamond>,
     },
 
-    "lapis": {
-        "nugget": <tag:forge:nuggets/lapis>,
-        "ingot": <tag:forge:ingots/lapis>,
-        "gem": <tag:forge:gems/lapis>,
-        "storage_block": <tag:forge:storage_blocks/lapis>,
-        "ore": <tag:forge:ores/lapis>,
-        "ore_deposit": <tag:forge:ore_deposit/lapis>,
-        "dust": <tag:forge:dusts/lapis>,
-        "gear": <tag:forge:gears/lapis>,
-        "plate": <tag:forge:plates/lapis>,
-        "rod": <tag:forge:rods/lapis>
+    "lapis_lazuli": {
+        "nugget": <tag:forge:nuggets/lapis_lazuli>,
+        "ingot": <tag:forge:ingots/lapis_lazuli>,
+        "gem": <tag:forge:gems/lapis_lazuli>,
+        "storage_block": <tag:forge:storage_blocks/lapis_lazuli>,
+        "ore": <tag:forge:ores/lapis_lazuli>,
+        "ore_deposit": <tag:forge:ore_deposit/lapis_lazuli>,
+        "dust": <tag:forge:dusts/lapis_lazuli>,
+        "gear": <tag:forge:gears/lapis_lazuli>,
+        "plate": <tag:forge:plates/lapis_lazuli>,
+        "rod": <tag:forge:rods/lapis_lazuli>,
+        "dirty_dust": <tag:forge:dirty_dusts/lapis_lazuli>,
+        "clump": <tag:forge:clumps/lapis_lazuli>,
+        "shard": <tag:forge:shards/lapis_lazuli>,
+        "crystal": <tag:forge:crystals/lapis_lazuli>,
     },
 
     "emerald": {
@@ -405,7 +503,11 @@ var materials as MCTag[string][string] = {
         "dust": <tag:forge:dusts/emerald>,
         "gear": <tag:forge:gears/emerald>,
         "plate": <tag:forge:plates/emerald>,
-        "rod": <tag:forge:rods/emerald>
+        "rod": <tag:forge:rods/emerald>,
+        "dirty_dust": <tag:forge:dirty_dusts/emerald>,
+        "clump": <tag:forge:clumps/emerald>,
+        "shard": <tag:forge:shards/emerald>,
+        "crystal": <tag:forge:crystals/emerald>,
     },
 
     "quartz": {
@@ -418,59 +520,11 @@ var materials as MCTag[string][string] = {
         "dust": <tag:forge:dusts/quartz>,
         "gear": <tag:forge:gears/quartz>,
         "plate": <tag:forge:plates/quartz>,
-        "rod": <tag:forge:rods/quartz>
-    },
-
-    "amethyst": {
-        "nugget": <tag:forge:nuggets/amethyst>,
-        "ingot": <tag:forge:ingots/amethyst>,
-        "gem": <tag:forge:gems/amethyst>,
-        "storage_block": <tag:forge:storage_blocks/amethyst>,
-        "ore": <tag:forge:ores/amethyst>,
-        "ore_deposit": <tag:forge:ore_deposit/amethyst>,
-        "dust": <tag:forge:dusts/amethyst>,
-        "gear": <tag:forge:gears/amethyst>,
-        "plate": <tag:forge:plates/amethyst>,
-        "rod": <tag:forge:rods/amethyst>
-    },
-
-    "sapphire": {
-        "nugget": <tag:forge:nuggets/sapphire>,
-        "ingot": <tag:forge:ingots/sapphire>,
-        "gem": <tag:forge:gems/sapphire>,
-        "storage_block": <tag:forge:storage_blocks/sapphire>,
-        "ore": <tag:forge:ores/sapphire>,
-        "ore_deposit": <tag:forge:ore_deposit/sapphire>,
-        "dust": <tag:forge:dusts/sapphire>,
-        "gear": <tag:forge:gears/sapphire>,
-        "plate": <tag:forge:plates/sapphire>,
-        "rod": <tag:forge:rods/sapphire>
-    },
-
-    "malachite": {
-        "nugget": <tag:forge:nuggets/malachite>,
-        "ingot": <tag:forge:ingots/malachite>,
-        "gem": <tag:forge:gems/malachite>,
-        "storage_block": <tag:forge:storage_blocks/malachite>,
-        "ore": <tag:forge:ores/malachite>,
-        "ore_deposit": <tag:forge:ore_deposit/malachite>,
-        "dust": <tag:forge:dusts/malachite>,
-        "gear": <tag:forge:gears/malachite>,
-        "plate": <tag:forge:plates/malachite>,
-        "rod": <tag:forge:rods/malachite>
-    },
-
-    "ruby": {
-        "nugget": <tag:forge:nuggets/ruby>,
-        "ingot": <tag:forge:ingots/ruby>,
-        "gem": <tag:forge:gems/ruby>,
-        "storage_block": <tag:forge:storage_blocks/ruby>,
-        "ore": <tag:forge:ores/ruby>,
-        "ore_deposit": <tag:forge:ore_deposit/ruby>,
-        "dust": <tag:forge:dusts/ruby>,
-        "gear": <tag:forge:gears/ruby>,
-        "plate": <tag:forge:plates/ruby>,
-        "rod": <tag:forge:rods/ruby>
+        "rod": <tag:forge:rods/quartz>,
+        "dirty_dust": <tag:forge:dirty_dusts/quartz>,
+        "clump": <tag:forge:clumps/quartz>,
+        "shard": <tag:forge:shards/quartz>,
+        "crystal": <tag:forge:crystals/quartz>,
     },
 
     "redstone": {
@@ -483,7 +537,11 @@ var materials as MCTag[string][string] = {
         "dust": <tag:forge:dusts/redstone>,
         "gear": <tag:forge:gears/redstone>,
         "plate": <tag:forge:plates/redstone>,
-        "rod": <tag:forge:rods/redstone>
+        "rod": <tag:forge:rods/redstone>,
+        "dirty_dust": <tag:forge:dirty_dusts/redstone>,
+        "clump": <tag:forge:clumps/redstone>,
+        "shard": <tag:forge:shards/redstone>,
+        "crystal": <tag:forge:crystals/redstone>,
     },
 
     "glowstone": {
@@ -496,7 +554,11 @@ var materials as MCTag[string][string] = {
         "dust": <tag:forge:dusts/glowstone>,
         "gear": <tag:forge:gears/glowstone>,
         "plate": <tag:forge:plates/glowstone>,
-        "rod": <tag:forge:rods/glowstone>
+        "rod": <tag:forge:rods/glowstone>,
+        "dirty_dust": <tag:forge:dirty_dusts/glowstone>,
+        "clump": <tag:forge:clumps/glowstone>,
+        "shard": <tag:forge:shards/glowstone>,
+        "crystal": <tag:forge:crystals/glowstone>,
     }
 };
 

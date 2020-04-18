@@ -4,31 +4,17 @@ import crafttweaker.api.item.IItemStack;
 import crafttweaker.api.item.IIngredient;
 import crafttweaker.api.tag.MCTag;
 
-public function removeProcessingFor(item as IItemStack) as void {
-
-    // Minecraft
+public function disableItem(item as IItemStack) as void {
     craftingTable.removeRecipe(item);
 	furnace.removeRecipe(item);
 	blastFurnace.removeRecipe(item);
 
-    // TODO: Specify all the mekanism recipes that need to be removed?
-    //<recipetype:mekanism:enriching>.removeByName("mekanism:processing/tin/dust/from_dirty_dust");
-
-    // Jared said this would work too
+    mods.jei.JEI.hideItem(item);
+    mods.jei.JEI.addInfo(item, ["This item is disabled.", 
+		"If you somehow obtained it, please report it on Enigmatica 5's issue tracker.", 
+		"There's a link to it in the Main Menu."]);
     //<recipetype:crafting>.removeByName("mekanism:processing/tin/dust/from_dirty_dust");
 
-    // This new way of doing it will be added
     //recipes.removeByName("mekanism:processing/tin/dust/from_dirty_dust");
 
-    // JEI
-	//JEI.RemoveAndHide(item);
-
-    // Silents Mechanisms
-
-    // Industrial Foregoing
-
-    // Create
-
-    // Mekanism
 }
-			

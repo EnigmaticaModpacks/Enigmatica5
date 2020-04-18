@@ -26,7 +26,7 @@ public function purgeItemTag(tag as MCTag, modPriorities as string[]) as void {
 	for item in tag.items {
 		if (!item.matches(getPreferredItemInTag(tag, modPriorities))) {
 			tag.removeItems(item);
-			removeProcessingFor(item);
+			disableItem(item);
 			
 			// Fallback recipe
 			craftingTable.addShapeless(formatRecipeName(item) + "_conversion_recipe", tag.first(), [item]);

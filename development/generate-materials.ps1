@@ -33,15 +33,10 @@ $Metals = @(
     "lapis_lazuli",
     "emerald",
     "quartz",
-    "amethyst",
-    "sapphire",
-    "malachite",
-    "ruby",
 
     # Dusts
     "redstone",
-    "glowstone",
-    "teslatite"
+    "glowstone"
 )
 
 $Metals | ForEach-Object {
@@ -54,17 +49,13 @@ $Metals | ForEach-Object {
     'ore': <tag:forge:ores/$_>,
     'ore_deposit': <tag:forge:ore_deposit/$_>,
     'dust': <tag:forge:dusts/$_>,
-    //'fluid': <fluid:forge:fluids/$_>,
     'gear': <tag:forge:gears/$_>,
     'plate': <tag:forge:plates/$_>,
     'rod': <tag:forge:rods/$_>,
-    'sheet': <tag:forge:sheets/$_>,
     'dirty_dust': <tag:forge:dirty_dusts/$_>,
     'clump': <tag:forge:clumps/$_>,
     'shard': <tag:forge:shards/$_>,
     'crystal': <tag:forge:crystals/$_>,
-    //'slurry': <tag:forge:slurries/$_>,
-    //'clean_slurry': <tag:forge:clean_slurries/$_>
 },
 "@
     Write-Host $OutputArray
