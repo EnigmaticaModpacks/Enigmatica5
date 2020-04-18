@@ -3845,6 +3845,74 @@
   "installDate": "2020-04-17T20:40:17.8180849Z",
   "installedAddons": [
     {
+      "addonID": 334204,
+      "gameInstanceID": "6273223f-12e2-4cf4-9063-fc2c8dadd1d3",
+      "installedFile": {
+        "id": 2933329,
+        "displayName": "Better Trident Return 1.15.2-1.0.1",
+        "fileName": "bettertridentreturn-1.15.2-1.0.1.jar",
+        "fileDate": "2020-04-18T03:12:55.257Z",
+        "fileLength": 66351,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/2933/329/bettertridentreturn-1.15.2-1.0.1.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 1464943694,
+            "type": 0
+          },
+          {
+            "foldername": "its_meow",
+            "fingerprint": 4066333873,
+            "type": 0
+          },
+          {
+            "foldername": "pack.mcmeta",
+            "fingerprint": 3902403971,
+            "type": 0
+          },
+          {
+            "foldername": "bettertridentreturn.png",
+            "fingerprint": 3533606579,
+            "type": 0
+          }
+        ],
+        "packageFingerprint": 66670458,
+        "gameVersion": [
+          "Forge",
+          "1.15.2"
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
+        "gameVersionDateReleased": "2008-03-01T06:00:00Z",
+        "gameId": 0,
+        "isServerPack": false,
+        "FileNameOnDisk": "bettertridentreturn-1.15.2-1.0.1.jar"
+      },
+      "dateInstalled": "2020-04-18T08:47:00.1753031Z",
+      "dateUpdated": "2020-04-18T08:47:00.1753031Z",
+      "dateLastUpdateAttempted": "2020-04-18T08:47:00.1753031Z",
+      "status": 4,
+      "preferenceAutoInstallUpdates": false,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": null
+    },
+    {
       "addonID": 296887,
       "gameInstanceID": "6273223f-12e2-4cf4-9063-fc2c8dadd1d3",
       "installedFile": {
@@ -4586,6 +4654,84 @@
       "dateUpdated": "2020-02-12T19:28:56.0305327Z",
       "dateLastUpdateAttempted": "2020-02-12T19:28:56.0305327Z",
       "status": 5,
+      "preferenceAutoInstallUpdates": false,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": null
+    },
+    {
+      "addonID": 319194,
+      "gameInstanceID": "6273223f-12e2-4cf4-9063-fc2c8dadd1d3",
+      "installedFile": {
+        "id": 2933236,
+        "displayName": "glassential-forge-1.15.2-1.1.1.jar",
+        "fileName": "glassential-forge-1.15.2-1.1.1.jar",
+        "fileDate": "2020-04-18T00:12:05.85Z",
+        "fileLength": 31806,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/2933/236/glassential-forge-1.15.2-1.1.1.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 3260762017,
+            "type": 0
+          },
+          {
+            "foldername": "lykrast",
+            "fingerprint": 3112129452,
+            "type": 0
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 4115091689,
+            "type": 0
+          },
+          {
+            "foldername": "data",
+            "fingerprint": 3462236109,
+            "type": 0
+          },
+          {
+            "foldername": "logo.png",
+            "fingerprint": 2983663141,
+            "type": 0
+          },
+          {
+            "foldername": "pack.mcmeta",
+            "fingerprint": 3143254585,
+            "type": 0
+          }
+        ],
+        "packageFingerprint": 3146978787,
+        "gameVersion": [
+          "Forge",
+          "1.15.2"
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
+        "gameVersionDateReleased": "2019-08-01T00:00:00Z",
+        "gameId": 0,
+        "isServerPack": false,
+        "FileNameOnDisk": "glassential-forge-1.15.2-1.1.1.jar"
+      },
+      "dateInstalled": "2020-04-18T08:43:25.6165692Z",
+      "dateUpdated": "2020-04-18T08:43:25.8073896Z",
+      "dateLastUpdateAttempted": "2020-04-18T08:43:25.8073896Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -9898,7 +10044,7 @@
       "dateInstalled": "2020-04-16T18:08:38.7724005Z",
       "dateUpdated": "2020-04-16T18:08:38.7724005Z",
       "dateLastUpdateAttempted": "2020-04-16T18:08:38.7724005Z",
-      "status": 5,
+      "status": 3,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -16295,7 +16441,7 @@
       "dateInstalled": "2020-03-28T09:44:06.1422535Z",
       "dateUpdated": "2020-04-17T15:04:56.3975589Z",
       "dateLastUpdateAttempted": "2020-04-17T15:04:56.3975589Z",
-      "status": 4,
+      "status": 3,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
