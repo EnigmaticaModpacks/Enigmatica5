@@ -1,4 +1,4 @@
-#priority 1000
+#priority 1001
 
 import crafttweaker.api.item.IItemStack;
 import crafttweaker.api.item.IIngredient;
@@ -23,11 +23,12 @@ public function getPreferredItemInTag(tag as MCTag, modPriorities as string[]) a
 }
 
 public function purgeItemTag(tag as MCTag, modPriorities as string[]) as void {
+    var preferredItem = getPreferredItemInTag(tag, modPriorities);
 	for item in tag.items {
-		if (!item.matches(getPreferredItemInTag(tag, modPriorities))) {
+		if (!item.matches(preferredItem)) {
 			tag.removeItems(item);
 			disableItem(item);
-			
+
 			// Fallback recipe
 			craftingTable.addShapeless(formatRecipeName(item) + "_conversion_recipe", tag.first(), [item]);
 		}
@@ -329,34 +330,3 @@ public function mekanism_injecting_shard_from_crystal(material as string) as voi
 
     logger.info("mekanism_injecting_shard_from_crystal with " + material + " succesfully ran!");
 }
-
-// TODO: When Slurry can be made with CrT or KJS, make these functions
-public function mekanism_chemicalCrystallizer_crystal_from_slurry(material as string) as void {}
-public function mekanism_chemicalWasher_slurry_clean(material as string) as void {}
-public function mekanism_chemicalDissolutionChamber_slurry_dirty(material as string) as void {}
-
-
-
-
-/* public function minecraft_addEquipmentToNuggetSmelting(material as string) as void {
-    var nuggetTag = BracketHandlers.getTag("forge:nuggets/" + material);
-    var nugget = nuggetTag.first();
-    var equipmentTag = BracketHandlers.getTag("mysticalworld:" + material + "_items");
-    var xp = 1.0;
-    var cookingTime = 200;
-
-    if (equipmentTag.first().matches(<item:minecraft:air>)) {
-        logger.info("Attempted to add Metal Item to Nugget Smelting/Blasting recipes, but no items exist in the ItemTag " + equipmentTag.commandString);
-    }
-    else if (nugget.matches(<item:minecraft:air>)) {
-        logger.info("Attempted to add Metal Item to Nugget Smelting/Blasting recipes, but no items exist in the ItemTag " + nuggetTag.commandString);
-    } 
-    else {
-        for item in equipmentTag.items {
-            blastFurnace.removeRecipe(nuggetTag.first(), item);
-            furnace.removeRecipe(nuggetTag.first(), item);
-            blastFurnace.addRecipe(formatRecipeName(nuggetTag.first()) + "_from_" + formatRecipeName(item), nuggetTag.first(), item, xp, cookingTime);
-            furnace.addRecipe(formatRecipeName(nuggetTag.first()) + "_from_" + formatRecipeName(item), nuggetTag.first(), item, xp, cookingTime);    
-        }  
-    } 
-} */
