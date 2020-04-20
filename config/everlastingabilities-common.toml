@@ -45,7 +45,7 @@
 
 	[core.ability_totem]
 		#If totems should spawn in loot chests.
-		lootChests = true
+		lootChests = false
 		#This many totems combined in a crafting grid produces a new random totem (0 to disable)
 		totemCraftingCount = 3
 		#When combining totems, percentage chance of getting one higher rarity than normal.
