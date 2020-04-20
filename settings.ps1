@@ -1,15 +1,6 @@
 # Settings for the ModpackUploader
 # For details/help see: https://github.com/NillerMedDild/ModpackUploader
 
-# Custom
-
-# $CONFIGS_TO_KEEP = @(
-# 	"defaultsettings",
-# 	"defaultsettings.toml",
-# 	"packmenu.cfg",
-# 	"randompatches.toml"
-# )
-
 $CLIENT_MODS = @(
 	"AppleSkin", 
 	"BetterAdvancements",
@@ -49,10 +40,10 @@ $CURSEFORGE_PROJECT_ID = 357692
 # =====================================================================//
 
 # Default: "1.0.0"
-$MODPACK_VERSION = "0.4.4"
+$MODPACK_VERSION = "0.4.5"
 
 # Only used by the Changelog Generator
-$LAST_MODPACK_VERSION = "0.4.3"
+$LAST_MODPACK_VERSION = "0.4.4"
 
 $FORGE_VERSION=31.1.46
 
