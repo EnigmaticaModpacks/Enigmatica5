@@ -397,8 +397,10 @@
     },
 	{
       "blocks": [
-        "mekanism:osmium_ore",
-        40
+        "powah:uraninite_ore_poor",
+        "powah:uraninite_ore",
+        "powah:uraninite_ore_dense"
+        
       ],
 	  "samples": [
 		"kubejs:osmium_ore_deposit",
