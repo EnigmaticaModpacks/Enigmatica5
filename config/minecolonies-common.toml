@@ -445,6 +445,8 @@
 	boiledleather = ["minecraft:leather*64"]
 	#minecolonies.config.whirlwind.comment
 	whirlwind = ["minecraft:iron_block*32"]
+	#minecolonies.config.loaded.comment
+	loaded = ["minecraft:emerald*64"]
 	#minecolonies.config.provost.comment
 	provost = ["minecraft:diamond*16"]
 	#minecolonies.config.preciseshot.comment
@@ -491,6 +493,8 @@
 	nimble = ["minecraft:rabbit_foot*1"]
 	#minecolonies.config.epicure.comment
 	epicure = ["minecraft:cookie*256"]
+	#minecolonies.config.deeppockets.comment
+	deeppockets = ["minecraft:emerald*256"]
 	#minecolonies.config.penetratingshot.comment
 	penetratingshot = ["minecraft:flint*32"]
 	#minecolonies.config.knighttraining.comment
@@ -515,6 +519,8 @@
 	fullstock = ["minecolonies:blockminecoloniesrack*64"]
 	#minecolonies.config.mightycleave.comment
 	mightycleave = ["minecraft:iron_block*16"]
+	#minecolonies.config.heavilyloaded.comment
+	heavilyloaded = ["minecraft:emerald*128"]
 	#minecolonies.config.squiretraining.comment
 	squiretraining = ["minecraft:shield*5"]
 	#minecolonies.config.woundingshot.comment
