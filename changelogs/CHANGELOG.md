@@ -1,6 +1,10 @@
 ## Enigmatica 5 v0.4.5
 
-*Using Forge-1.15.2-31.1.44*
+*Using Forge-1.15.2-31.1.46*
+
+
+
+##### Note: The gravestone/corpse mod is being changed, meaning Corpses form the Corpse mod will disappear.
 
 
 
@@ -11,19 +15,24 @@
 **Mod Additions**
 
 - Quark Oddities (I know, woops)
-
-**Mod Removals**
+- Better Trident Return [\#201](https://github.com/NillerMedDild/Enigmatica5/issues/201)
+- Glassential [\#200](https://github.com/NillerMedDild/Enigmatica5/issues/200)
+- **Mod Removals**
 
 - Corpse
 - StepUp (Removed temporarily, will be re-added once the server-crash bug is fixed)
+- Unforgiving Void (Magically reappeared)
 
 **Changes**
 
 * Gravestones now come in the form of Totem of Holding from Quark (punch it to get your stuff back)
+* Vanilla recipes should accept Botania dyes [\#182](https://github.com/NillerMedDild/Enigmatica5/issues/182)
 
 **Bug fixes**
 
-- 
+- Unable to Create new server from Enigmatica5Server-0.4.4 Server Files [\#206](https://github.com/NillerMedDild/Enigmatica5/issues/206)
+- Duplicating using death history menu. [\#205](https://github.com/NillerMedDild/Enigmatica5/issues/205)
+- Void deaths crash the server [\#204](https://github.com/NillerMedDild/Enigmatica5/issues/204)
 
 ## Enigmatica 5 v0.4.4
 
