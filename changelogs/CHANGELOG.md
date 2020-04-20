@@ -1,10 +1,30 @@
+## Enigmatica 5 v0.4.6
+
+*Using Forge-1.15.2-31.1.46*
+
+
+
+##### Note: The gravestone/corpse mod is being changed to Quark Oddities Totem of Holding, meaning Corpses form the Corpse mod will disappear.
+
+
+
+*[Mod Updates](https://github.com/NillerMedDild/Enigmatica5/blob/master/changelogs/CHANGELOG_MODS_0.4.6.txt)*
+
+
+
+**Bug fixes**
+
+- Quark Oddities is no longer disabled.
+
+
+
 ## Enigmatica 5 v0.4.5
 
 *Using Forge-1.15.2-31.1.46*
 
 
 
-##### Note: The gravestone/corpse mod is being changed, meaning Corpses form the Corpse mod will disappear.
+##### Note: The gravestone/corpse mod is being changed to Quark Oddities Totem of Holding, which means Corpses form the Corpse mod will disappear.
 
 
 
@@ -17,7 +37,8 @@
 - Quark Oddities (I know, woops)
 - Better Trident Return [\#201](https://github.com/NillerMedDild/Enigmatica5/issues/201)
 - Glassential [\#200](https://github.com/NillerMedDild/Enigmatica5/issues/200)
-- **Mod Removals**
+
+**Mod Removals**
 
 - Corpse
 - StepUp (Removed temporarily, will be re-added once the server-crash bug is fixed)
