@@ -1,0 +1,336 @@
+=======================================
+Enigmatica5 0.4.4 --> Enigmatica5 0.4.5
+=======================================
+
+Added:
+- Better Trident Return
+- Glassential
+- Quark Oddities
+
+Updated:
+	Archer's Paradox (archers_paradox-1.15.2-0.3.0b.jar --> archers_paradox-1.15.2-0.4.0b.jar):
+		archers_paradox-1.15.2-0.4.0b.jar:
+			No changelog available.
+
+	Bookshelf (Bookshelf-1.15.2-5.3.11.jar --> Bookshelf-1.15.2-5.4.13.jar):
+		Bookshelf-1.15.2-5.4.13.jar:
+			* Add method for clearing potion effects from an entity. - Tyler Hancock
+			Huge thanks to my supporters on [Patreon](https://www.patreon.com/Darkhax?MCChangelog?Bookshelf)
+			* Pongo Sapiens
+			* Darkosto
+
+		Bookshelf-1.15.2-5.4.12.jar:
+			* Fixed some tile data not being included in the update tag. - Tyler Hancock
+			* Tile entity sync now updates neighbours correctly. - Tyler Hancock
+			* Updated network channel to 5.4 - Tyler Hancock
+			* Updated forge and MCP. Also ticked base version. - Tyler Hancock
+			* Added util methods to check depth in water. - Tyler Hancock
+			Huge thanks to my supporters on [Patreon](https://www.patreon.com/Darkhax?MCChangelog?Bookshelf)
+			* Pongo Sapiens
+			* Darkosto
+
+	Caelus API (caelus-FORGE-1.15.2-2.0-beta1.jar --> caelus-FORGE-1.15.2-2.0-beta2.jar):
+		caelus-FORGE-1.15.2-2.0-beta2.jar:
+			Changelog
+			All notable changes to this project will be documented in this file.
+			The format is based on [Keep a Changelog]() and this project does not adhere to [Semantic Versioning](). This project uses MCVERSION-MAJORMOD.MAJORAPI.MINOR.PATCH.
+			[2.0-beta2] - 2020.04.18
+			Changed
+			* Simple Takeoff can trigger fireworks mid-flight
+			* Removed restriction on Elytra trigger to match 1.15 Elytra changes [#4](https://github.com/TheIllusiveC4/Caelus/issues/4)
+			[2.0-beta1] - 2020.02.11
+			Added
+			* [API] CaelusAPI#getElytraRender to retrieve the current render state of the elytra on the entity
+			* [API] Added IMC processing for elytra render state, identifier is "elytraRender"/CaelusAPI.IMC.ELYTRA_RENDER and it should supply a Function<LivingEntity,ElytraRender> object
+			Changed
+			* Ported to 1.15.2 Forge
+			Removed
+			* Removed RenderElytraEvent in favor of a simpler IMC method for processing render state
+
+	CoFH Core (cofh_core-1.15.2-0.3.2b.jar --> cofh_core-1.15.2-0.4.0b.jar):
+		cofh_core-1.15.2-0.4.0b.jar:
+			No changelog available.
+
+	Cosmetic Armor Reworked (CosmeticArmorReworked-1.15.2-v1a.jar --> CosmeticArmorReworked-1.15.2-v2.jar):
+		CosmeticArmorReworked-1.15.2-v2.jar:
+			Added a config option under server category for disabling the RecipeBook in the CosmeticArmorInventory.
+			(You can find the config file in "<the world's save folder>/serverconfig")
+			Some code cleanup.
+
+	Curios API (curios-FORGE-1.15.2-2.0.2.1.jar --> curios-FORGE-1.15.2-2.0.2.2.jar):
+		curios-FORGE-1.15.2-2.0.2.2.jar:
+			Changelog
+			All notable changes to this project will be documented in this file.
+			The format is based on [Keep a Changelog]() and this project does not adhere to [Semantic Versioning](). This project uses MCVERSION-MAJORMOD.MAJORAPI.MINOR.PATCH.
+			[2.0.2.2] - 2020.04.19
+			Changed
+			* Changed Recipe Book to dedicated implementation [#48](https://github.com/TheIllusiveC4/Curios/issues/48)
+			* Compressed texture files (thanks Darkhax!) [#49](https://github.com/TheIllusiveC4/Curios/pull/49)
+			[2.0.2.1] - 2020.03.26
+			Added
+			* Added Chinese localization (thank you EnterFor!)
+			[2.0.2] - 2020.03.21
+			Added
+			* Added support for curio attribute modifiers using NBT tags, simply replace "AttributeModifiers" with "CurioAttributeModifiers"
+			[2.0.1] - 2020.03.08
+			Added
+			* [API] ICurio#onCurioAnimate - Called every tick client-side only while curio is equipped
+			[2.0] - 2020.02.24
+			Fixed
+			* Fixed compatibility issue with Ensorcellation's Soulbound enchantment [#41](https://github.com/TheIllusiveC4/Curios/issues/41)
+			[2.0-beta2] - 2020.01.26
+			Changed
+			* Updated to 1.15.2
+			Added
+			* Re-added JEI integration
+			* Added Japanese localization (thanks MORIMORI0317!)
+			Fixed
+			* Fixed generic curio slot icon showing missing texture
+			[2.0-beta] - 2019.12.30
+			Changed
+			* Ported to 1.15.1
+			* [API] ICurio#doRender -> ICurio#render
+			* Curio rendering no longer automatically applies sneaking translations
+			* Curio slot icons need to be manually stitched into the block texture atlas
+
+	Cycle Paintings (Archived file --> cyclepaintings_1.15-1.2.jar):
+		cyclepaintings_1.15-1.2.jar:
+			Fixes incompatibility problem. [#70](https://github.com/ricksouth/serilum-mc-mods/issues/70)
+
+	Cyclic (Cyclic-1.15.2-0.3.2.jar --> Cyclic-1.15.2-0.3.4.jar):
+		Cyclic-1.15.2-0.3.4.jar:
+			Fixed harvester crashing when modded crop drops no seeds
+
+		Cyclic-1.15.2-0.3.3.jar:
+			Config added to disable cables.
+			Fixed Peat Bog conversion chance, and put it in a config value.
+			Excavation enchant improved: now compatible with NBT based blocks such as shulkers to not delete contents; uses forge ForgeHooks.canHarvestBlock on every block for compatibility with all sorts of thing; drop experience orbs such as from ores while harvesting.
+			Fixed scythes.
+			Fix a server crash when picking a block with one of the building scepters.
+			Add tool_mode sound back in for changing modes.
+			Fixed some blocks not dropping their inventory contents on break.
+
+	Double Slabs (DoubleSlabs-1.15-2.2.4 --> DoubleSlabs-1.15-2.2.5):
+		DoubleSlabs-1.15-2.2.5:
+			=Fixed a placement issue below y level 32
+
+	Engineer's Decor (engineersdecor-1.15.2-1.0.20-b4.jar --> engineersdecor-1.15.2-1.0.20-b5.jar):
+		engineersdecor-1.15.2-1.0.20-b5.jar:
+			* v1.0.20-b5  [A] Electrical Furnace can draw in smelting input items from an adjacent inventory when a
+			Hopper is placed in the auxiliary slot.
+			[M] Wrapped Labeled Crate label slot to prevent sorting mods from altering the label.
+			* v1.0.20-b4  [F] Fixed Mineral Smelter fluid voiding on external draining (issue #92, thx papaworld, pupnewfster).
+			* v1.0.20-b3  [M] Labeled Crate: GUI quick-move-all (ctrl-shift click) smart move tweaked, Manual page added.
+			[F] Fixed IE ingredients based default recipes for Factory Dropper and Small Electrical Furnace.
+			[M] Factory Hopper: GUI quick-move-all added.
+			[M] Code structure, simplifications, cap invalidation fixes.
+			[M] Valves: Removed performance caching for testing purposes.
+			* v1.0.20-b2  [A] Added Labeled Crate (storage crate with built-in item frame).
+			* v1.0.20-b1  [A] Electrical Furnace: Added four-position speed switch (off, 100%, 150%, 200%), power consumption
+			increases at higher rate (off, 100%, 200%, 400%).
+			[A] Added Steel Mesh Fence Gate (single or double height gate fitting to the Steel Mesh Fence).
+			[M] Waste Incinerator processing speed tweaked.
+			[F] Fixed steel table visual glitch (thx Urbanxx001).
+			[M] MCP/Forge mappings updated.
+			* v1.0.19-b5  [A] Added right-click display of power and progress information for Block Breaker, Solar Panel, and Tree Cutter.
+			[A] Solar Panel power curve tuned.
+			[A] Mod manual 1st edition release recipe added.
+			[A] Factory Hopper: Resetting NBT when breaking with empty inventory (for stacking), enabled item cap for all sides.
+			[M] Electrical Furnace model polished.
+			* v1.0.19-b4  [A] Ported primary Immersive Engineering dependent recipes (alternative recipes
+			will still work if IE is not installed).
+			[F] Blacklisted Treated Wood Crafting Table in inventorysorter mod (issue #88, thx Nachtflame).
+			[M] Furni comparator output overrides reflect input slots and empty fuel state/power-cutoff.
+			[M] Solar Panel config: Default value for internal battery capacity increased.
+			[F] Block Placer: Shifted GUI player slots 1px to the right.
+			[A] Added mod block tags for slabs, stairs, and walls (PR#89, thanks CrudeAustin for the data).
+			[A] Added experimental Patchouli manual (creative only).
+			* v1.0.19-b3  [M] Config tweaks: Value limit ranges increased to facilitate modpacking.
+			[A] Factory Hopper: Added bottom item handler (CR#227).
+			[M] Block shapes refined.
+			[F] Fixed duping bug (issue #87, thx Nachtflame)
+			* v1.0.19-b2  [F] Fixed Floor Grating item pass-through jitters (thx Cid).
+			[M] Removed obsolete recipe collision testing recipes.
+			[F] Fixed missing Block Breaker dynamic block drops.
+			[F] Block Placer planting race condition issue fixed (issue #83, thx jcardii).
+			[F] Factory Hopper: Added second standard insertion run after smart-insert to circumcent compat issues (issue #84, thx NillerMedDild).
+			[A] Enabled JEI plugin (issue #85, thx ProsperCraft/Goshen).
+			* v1.0.19-b1  [U] Update to 1.15.2.
+			[F] Fixed Tree Cutter / Block Breaker not accepting small energy transfers (thx WindFox, issue #82).
+			* v1.0.18-b4  [A] Ported Treated Wood Crafting Table item rendering.
+			[F] Fixed Milking machine cow path issue, added milking delay cow tracking.
+			[F] Slab / Slab Slice placement adapted to vanilla standard.
+			[M] Lang update ru_ru (PR#77, thanks Smollet777).
+			* v1.0.18-b3  [A] Added Treated Wood Crafting Table tweaks (ctrl-shift moves all same stacks from the
+			inventory, mouse wheel over crafting slot increases/decreases crafting grid stacks).
+			[F] EN Lang file fixed (issue #76, thx Riverstar907).
+			[F] Fixed Tree Cutter not respecting power-required config (thx federsavo, issue #77).
+			[F] Fixed Small Solar Panel not exposing energy capability (thx MatthiasMann, issue #78).
+			* v1.0.18-b2  [M] Lang ru_ru updated (Smollet777).
+			* v1.0.18-b1  [U] Updated to Forge 1.15.1-30.0.16/20190719-1.14.3.
+			[F] Client setup Dist annotation fixed (issue #73, thx hitsu420).
+			[F] Double newline escapes in lang files fixed ("\n" in a tooltip).
+			[M] Updated zh_cn lang file (scikirbypoke).
+			[A] Added opt-out config for the Small Tree Cutter
+			* v1.0.17-b2  [A] Initial port.
+
+	Ensorcellation (ensorcellation-1.15.2-0.3.0b.jar --> ensorcellation-1.15.2-0.4.0b.jar):
+		ensorcellation-1.15.2-0.4.0b.jar:
+			No changelog available.
+
+	Extreme sound muffler (Forge) (extremeSoundMuffler-1.1_forge-1.15.2 --> extremeSoundMuffler-1.2.1_forge-1.15.2):
+		extremeSoundMuffler-1.2.1_forge-1.15.2:
+			Fixed button showing where it shouldn't be. (my bad "-.-)
+
+		extremeSoundMuffler-1.2_forge-1.15.2:
+			Fixed invisible button on creative mode.
+			Fixed Curios compatibility. (Button did not appear in the Curios Inventory)
+
+	Gauges and Switches (rsgauges-1.15.2-1.2.2.jar --> rsgauges-1.15.2-1.2.3-b1.jar):
+		rsgauges-1.15.2-1.2.3-b1.jar:
+			* v1.2.3-b1  [A] Added Door Sensor switch.
+			[M] Lang file zh_cn updated (PR#19, scikirbypoke).
+			-------------------------------------------------------------------
+			* v1.2.2     [R] Release build v1.2.2. Release-to-release changes:
+			* Valve Switch added.
+			* Elevator Button added.
+			* Minor fixes.
+			-------------------------------------------------------------------
+			* v1.2.2-b2   [A] Added Elevator Button.
+			* v1.2.2-b1   [A] Added Valve Switch (idea and model by Jack M).
+			-------------------------------------------------------------------
+			* v1.2.1      [R] Release build v1.2.1. Release-to-release changes:
+			* Industrial Comparator Switch added.
+			-------------------------------------------------------------------
+			* v1.2.1-b1   [A] Added Industrial Comparator Switch.
+			* v1.2.0-b2   [A] Added GIT version logging.
+			[M] Lang en_us: Sensitive Glass block names adapted (issue #15, thx Dimentive).
+			* v1.2.0-b1   [A] Added JEI integration.
+			[M] Model "vanillafication" rework, part 2.
+			[D] Removed obsolete switches (registry not affected).
+			[M] Recipes simplified, recipe conditions unified.
+			[M] Code updates for version compatibility.
+			[A] All block are waterloggable (including Sensitive glass).
+			* v1.1.10-b4  [F] Removed tag reference to minecraft:dirts, which prevented any
+			recipes from being craftable.
+			* v1.1.10-b3  [A] Initial port.
+
+	KubeJS (kubejs-2.6.0.28.jar --> kubejs-2.6.0.29.jar):
+		kubejs-2.6.0.29.jar:
+			* Fixed block item colors not working - LatvianModder
+
+	MineColonies (minecolonies-0.11.840-BETA-universal.jar --> minecolonies-0.11.853-ALPHA-universal.jar):
+		minecolonies-0.11.853-ALPHA-universal.jar:
+			Minecolonies Changelog
+			Version: 0.11.853-ALPHA
+			* Feature/Inv citizen research (#4685)
+			Adds research to enhance citizen inventory up to twice the size
+
+		minecolonies-0.11.852-ALPHA-universal.jar:
+			Minecolonies Changelog
+			Version: 0.11.852-ALPHA
+			No Changes detected!
+
+		minecolonies-0.11.850-ALPHA-universal.jar:
+			Minecolonies Changelog
+			Version: 0.11.850-ALPHA
+			* Publish artifacts (#4677)
+
+		minecolonies-0.11.847-ALPHA-universal.jar:
+			Minecolonies Changelog
+			Version: 0.11.847-ALPHA
+			* Hotfix citizen limit research
+
+		minecolonies-0.11.846-ALPHA-universal.jar:
+			Minecolonies Changelog
+			Version: 0.11.846-ALPHA
+			*
+			Allow to add additional recipes to the baker (#4672)
+			*
+			Allow to add additional recipes to the baker
+			* fix size
+
+		minecolonies-0.11.845-ALPHA-universal.jar:
+			Minecolonies Changelog
+			Version: 0.11.845-ALPHA
+			* Schematics115 (#4670)
+			Add Asian Style
+
+		minecolonies-0.11.844-ALPHA-universal.jar:
+			Minecolonies Changelog
+			Version: 0.11.844-ALPHA
+			* fix #4663 (#4669)
+			Improves calculation of job list in townhall Fix compile error Excempt guards from sleeping rule
+
+	Pane In The Glass (pitg-1.15.2-1.1.0.jar --> pitg-1.15.2-1.2.0.jar):
+		pitg-1.15.2-1.2.0.jar:
+			Add Dual Panes
+			Fix Glazing Tool to work on all panes
+			Fix textures to be consistent for all colors
+
+	Quickstack (quickstack-3.0.2.jar --> quickstack-3.0.3c.jar):
+		quickstack-3.0.3c.jar:
+			Horse inventories have a null containertype too
+
+		quickstack-3.0.3b.jar:
+			* Fixed favoriting attempting to work in creative menu
+
+		quickstack-3.0.3a.jar:
+			Weaken cast to T because CreativeContainer does not subclass PlayerContainer (fixes #8)
+
+		quickstack-3.0.3.jar:
+			added config for valid containers that buttons can appear in, by default includes curios screen
+
+	Ring of Attraction [FORGE] (RingOfAttraction-1.15.2-1.1.26.jar --> RingOfAttraction-1.15.2-1.1.27.jar):
+		RingOfAttraction-1.15.2-1.1.27.jar:
+			Updated Forge to 31.1.46
+			Updated MCP mappings
+
+	Smaller Nether Portals (Archived file --> smallernp_1.15-1.2.jar):
+		smallernp_1.15-1.2.jar:
+			Minor code improvements.
+			You can now place fire around the portal without it disappearing.
+			Improved obsidian around check. [#62](https://github.com/ricksouth/serilum-mc-mods/issues/62)
+
+	Structurize (structurize-0.10.299-ALPHA.jar --> structurize-0.10.302-ALPHA.jar):
+		structurize-0.10.302-ALPHA.jar:
+			Minecolonies Changelog
+			Version: 0.10.302-ALPHA
+			* hotfix #4688
+
+		structurize-0.10.301-ALPHA.jar:
+			Minecolonies Changelog
+			Version: 0.10.301-ALPHA
+			* Feature / Fix: Manual AnchorPos Selection and Placeholder t (#124)
+			Changes proposed in this pull request: - Serialize and Deserialize AnchorPos in Blueprints - Allow manual selection of AnchorPos via ScanTool and Command - Render Red Box around AnchorPos in scans and Build Tool - Fix rotations on Placeholder Block - Fixes gradle publishing stuff Review please
+
+		structurize-0.10.300-ALPHA.jar:
+			Minecolonies Changelog
+			Version: 0.10.300-ALPHA
+			* hotfix exception with bamboo
+
+	Torch Slabs Mod (Torch Slab Mod mc 1.15.2 v1.6.6 --> Torch Slab Mod mc 1.15.2 v1.6.8):
+		Torch Slab Mod mc 1.15.2 v1.6.8:
+			Added support for the mod Bamboo Blocks 1.3, player can now place bamboo torches onto the top of and the sides of half slabs as well as onto lily pad blocks.
+
+		Torch Slab Mod mc 1.15.2 v1.6.7:
+			Fixed a spelling mistake in configuration file, the game will now require you to be "Stepping Cafully" (aka crouching) to place torches on to the side of "Barrel Blocks".
+			Users can delete their configuration file "torchslabmod-server.toml" located in .minecraft\config so that it can properly regenerate. Or you can fix the spelling mistake of "minecraft:barel" to "minecraft:barrel".
+
+	☃ Snow! Real Magic! (SnowRealMagic-1.15.2-1.7.4.jar --> SnowRealMagic-1.15.2-1.7.5.jar):
+		SnowRealMagic-1.15.2-1.7.5.jar:
+			Fix blocks getting darker
+
+	🥝 Kiwi (Kiwi-1.15.2-2.7.0.jar --> Kiwi-1.15.2-2.7.1.jar):
+		Kiwi-1.15.2-2.7.1.jar:
+			Add Yoga layout
+			Add helper methods
+			Add Forge loot table things
+			Note: this update is not recommended to be installed if you do not install my new mod: EverPotion. Sorry for the inconvenience!
+
+Removed:
+- Corpse
+- StepUp
+- Unforgiving Void
+
+Generated using [ChangelogGenerator 2.0.0-pre3](https://github.com/TheRandomLabs/ChangelogGenerator).
