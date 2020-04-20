@@ -10,15 +10,16 @@
 
 **Mod Additions**
 
-- 
+- Quark Oddities (I know, woops)
 
 **Mod Removals**
 
-- 
+- Corpse
+- StepUp (Removed temporarily, will be re-added once the server-crash bug is fixed)
 
 **Changes**
 
-* Platinum can now be used to make some Tetra swords and pickaxe heads
+* Gravestones now come in the form of Totem of Holding from Quark (punch it to get your stuff back)
 
 **Bug fixes**
 
