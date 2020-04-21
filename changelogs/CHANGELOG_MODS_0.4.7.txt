@@ -1,0 +1,18 @@
+=======================================
+Enigmatica5 0.4.6 --> Enigmatica5 0.4.7
+=======================================
+
+Updated:
+	Bookshelf (Bookshelf-1.15.2-5.4.13.jar --> Bookshelf-1.15.2-5.4.14.jar):
+		Bookshelf-1.15.2-5.4.14.jar:
+			* Added loot condition to check if entity is an IMob. - Tyler Hancock
+			* Added a global modifier for simply adding an item. - Tyler Hancock
+			Huge thanks to my supporters on [Patreon](https://www.patreon.com/Darkhax?MCChangelog?Bookshelf)
+			* Pongo Sapiens
+			* Darkosto
+
+	Pane In The Glass (pitg-1.15.2-1.2.0.jar --> pitg-1.15.2-1.2.1.jar):
+		pitg-1.15.2-1.2.1.jar:
+			There was a collision between recipes that caused glass panes to not be craftable from glass blocks. Updated recipes to resolve the collision.
+
+Generated using [ChangelogGenerator 2.0.0-pre3](https://github.com/TheRandomLabs/ChangelogGenerator).

@@ -1,3 +1,24 @@
+## Enigmatica 5 v0.4.7
+
+*Using Forge-1.15.2-31.1.46*
+
+
+
+*[Mod Updates](https://github.com/NillerMedDild/Enigmatica5/blob/master/changelogs/CHANGELOG_MODS_0.4.7.txt)*
+
+
+
+**Changes** 
+
+- EverlastingAbilities: Totems now have a far lower chance of being in loot chests
+
+**Bug fixes**
+
+- Missing Glass Pane recipe [\#212](https://github.com/NillerMedDild/Enigmatica5/issues/212)
+- Uraninite Smelting Recipe Missing [\#211](https://github.com/NillerMedDild/Enigmatica5/issues/211)
+
+
+
 ## Enigmatica 5 v0.4.6
 
 *Using Forge-1.15.2-31.1.46*
