@@ -23,45 +23,45 @@ var recipes as IIngredient[][][IItemStack] = {
     ],
     <item:powah:reactor_starter> * 4 : 
     [
-        [<tag:forge:ingots/uranium>, <item:powah:capacitor_basic_tiny>, <tag:forge:ingots/uranium>], 
+        [<tag:forge:ingots/radioactive>, <item:powah:capacitor_basic_tiny>, <tag:forge:ingots/radioactive>], 
         [<item:powah:capacitor_basic_tiny>, <item:powah:dielectric_casing>, <item:powah:capacitor_basic_tiny>],
-        [<tag:forge:ingots/uranium>, <item:powah:capacitor_basic_tiny>, <tag:forge:ingots/uranium>]
+        [<tag:forge:ingots/radioactive>, <item:powah:capacitor_basic_tiny>, <tag:forge:ingots/radioactive>]
     ],
     <item:powah:reactor_basic> * 4 : 
     [
-        [<tag:forge:ingots/uranium>, <item:powah:capacitor_basic_large>, <tag:forge:ingots/uranium>], 
+        [<tag:forge:ingots/radioactive>, <item:powah:capacitor_basic_large>, <tag:forge:ingots/radioactive>], 
         [<item:powah:capacitor_basic_large>, <item:powah:dielectric_casing>, <item:powah:capacitor_basic_large>],
-        [<tag:forge:ingots/uranium>, <item:powah:capacitor_basic_large>, <tag:forge:ingots/uranium>]
+        [<tag:forge:ingots/radioactive>, <item:powah:capacitor_basic_large>, <tag:forge:ingots/radioactive>]
     ],
     <item:powah:reactor_hardened> * 4 : 
     [
-        [<tag:forge:ingots/uranium>, <item:powah:capacitor_hardened>, <tag:forge:ingots/uranium>], 
+        [<tag:forge:ingots/radioactive>, <item:powah:capacitor_hardened>, <tag:forge:ingots/radioactive>], 
         [<item:powah:capacitor_hardened>, <item:powah:dielectric_casing>, <item:powah:capacitor_hardened>],
-        [<tag:forge:ingots/uranium>, <item:powah:capacitor_hardened>, <tag:forge:ingots/uranium>]
+        [<tag:forge:ingots/radioactive>, <item:powah:capacitor_hardened>, <tag:forge:ingots/radioactive>]
     ],
     <item:powah:reactor_blazing> * 4 : 
     [
-        [<tag:forge:ingots/uranium>, <item:powah:capacitor_blazing>, <tag:forge:ingots/uranium>], 
+        [<tag:forge:ingots/radioactive>, <item:powah:capacitor_blazing>, <tag:forge:ingots/radioactive>], 
         [<item:powah:capacitor_blazing>, <item:powah:dielectric_casing>, <item:powah:capacitor_blazing>],
-        [<tag:forge:ingots/uranium>, <item:powah:capacitor_blazing>, <tag:forge:ingots/uranium>]
+        [<tag:forge:ingots/radioactive>, <item:powah:capacitor_blazing>, <tag:forge:ingots/radioactive>]
     ],
     <item:powah:reactor_niotic> * 4 : 
     [
-        [<tag:forge:ingots/uranium>, <item:powah:capacitor_niotic>, <tag:forge:ingots/uranium>], 
+        [<tag:forge:ingots/radioactive>, <item:powah:capacitor_niotic>, <tag:forge:ingots/radioactive>], 
         [<item:powah:capacitor_niotic>, <item:powah:dielectric_casing>, <item:powah:capacitor_niotic>],
-        [<tag:forge:ingots/uranium>, <item:powah:capacitor_niotic>, <tag:forge:ingots/uranium>]
+        [<tag:forge:ingots/radioactive>, <item:powah:capacitor_niotic>, <tag:forge:ingots/radioactive>]
     ],
     <item:powah:reactor_spirited> * 4 : 
     [
-        [<tag:forge:ingots/uranium>, <item:powah:capacitor_spirited>, <tag:forge:ingots/uranium>], 
+        [<tag:forge:ingots/radioactive>, <item:powah:capacitor_spirited>, <tag:forge:ingots/radioactive>], 
         [<item:powah:capacitor_spirited>, <item:powah:dielectric_casing>, <item:powah:capacitor_spirited>],
-        [<tag:forge:ingots/uranium>, <item:powah:capacitor_spirited>, <tag:forge:ingots/uranium>]
+        [<tag:forge:ingots/radioactive>, <item:powah:capacitor_spirited>, <tag:forge:ingots/radioactive>]
     ],
     <item:powah:reactor_nitro> * 4 : 
     [
-        [<tag:forge:ingots/uranium>, <item:powah:capacitor_nitro>, <tag:forge:ingots/uranium>], 
+        [<tag:forge:ingots/radioactive>, <item:powah:capacitor_nitro>, <tag:forge:ingots/radioactive>], 
         [<item:powah:capacitor_nitro>, <item:powah:dielectric_casing>, <item:powah:capacitor_nitro>],
-        [<tag:forge:ingots/uranium>, <item:powah:capacitor_nitro>, <tag:forge:ingots/uranium>]
+        [<tag:forge:ingots/radioactive>, <item:powah:capacitor_nitro>, <tag:forge:ingots/radioactive>]
     ]
 };
 
