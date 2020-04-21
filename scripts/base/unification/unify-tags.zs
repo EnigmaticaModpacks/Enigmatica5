@@ -306,6 +306,23 @@ var materials as MCTag[string][string] = {
         "crystal": <tag:forge:crystals/uranium>,
     },
 
+    "uraninite": {
+        "nugget": <tag:forge:nuggets/uraninite>,
+        "ingot": <tag:forge:ingots/uraninite>,
+        "gem": <tag:forge:gems/uraninite>,
+        "storage_block": <tag:forge:storage_blocks/uraninite>,
+        "ore": <tag:forge:ores/uraninite>,
+        "ore_deposit": <tag:forge:ore_deposit/uraninite>,
+        "dust": <tag:forge:dusts/uraninite>,
+        "gear": <tag:forge:gears/uraninite>,
+        "plate": <tag:forge:plates/uraninite>,
+        "rod": <tag:forge:rods/uraninite>,
+        "dirty_dust": <tag:forge:dirty_dusts/uraninite>,
+        "clump": <tag:forge:clumps/uraninite>,
+        "shard": <tag:forge:shards/uraninite>,
+        "crystal": <tag:forge:crystals/uraninite>,
+    },
+
     "bronze": {
         "nugget": <tag:forge:nuggets/bronze>,
         "ingot": <tag:forge:ingots/bronze>,
