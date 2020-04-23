@@ -8,16 +8,25 @@
 
 
 
+**Mod Additions**
+
+- Slime Tweaks [\#215](https://github.com/NillerMedDild/Enigmatica5/issues/215)
+- Akashic Tome [\#214](https://github.com/NillerMedDild/Enigmatica5/issues/214)
+- FTB Ranks [\#88](https://github.com/NillerMedDild/Enigmatica5/issues/88)
+
 **Changes** 
 
 - Waystones: Travel in the same dimension now costs 50% less XP
 - Waystones: Travel between dimensions now costs 3 XP levels
+- Tetra Thermal Cell Charge Recipe [\#218](https://github.com/NillerMedDild/Enigmatica5/issues/218)
+- EverlastingAbilities: Totems now have a far far lower chance of being in loot chests *(0%)*
+- Akashic Master Tome recipe
 
 **Bug fixes**
 
-- 
+- Crashing when opening certain windows/GUIs, especially ones from Refined Storage.
 
-
+  
 
 ## Enigmatica 5 v0.4.7
 
