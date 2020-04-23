@@ -1,3 +1,24 @@
+## Enigmatica 5 v0.4.8
+
+*Using Forge-1.15.2-31.1.46*
+
+
+
+*[Mod Updates](https://github.com/NillerMedDild/Enigmatica5/blob/master/changelogs/CHANGELOG_MODS_0.4.8.txt)*
+
+
+
+**Changes** 
+
+- Waystones: Travel in the same dimension now costs 50% less XP
+- Waystones: Travel between dimensions now costs 3 XP levels
+
+**Bug fixes**
+
+- 
+
+
+
 ## Enigmatica 5 v0.4.7
 
 *Using Forge-1.15.2-31.1.46*
