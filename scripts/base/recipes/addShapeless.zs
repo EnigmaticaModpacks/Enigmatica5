@@ -42,8 +42,8 @@ var recipes as IIngredient[][IItemStack] = {
         solcarrot: {id: "solcarrot:food_book" as string, Count: 1}}}) :
     [<item:minecraft:book>, <tag:forge:bookshelves>],
 
-    <item:tetra:magmatic_cell>.withTag({Damage: 128}) :
-    [<item:minecraft:book>, <item:minecraft:book>]
+    <item:tetra:magmatic_cell> :
+    [<item:tetra:magmatic_cell>.withTag({Damage: 128}), <item:powah:capacitor_blazing>, <item:powah:capacitor_blazing>]
 };
 
 for output, input in recipes {

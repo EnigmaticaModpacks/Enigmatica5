@@ -1,5 +1,5 @@
 #priority 99
-
+import mods.powah.Energizing;
 import crafttweaker.api.item.IItemStack;
 import crafttweaker.api.item.IIngredient;
 import crafttweaker.api.tag.MCTag;
@@ -16,6 +16,6 @@ var output = <item:tetra:magmatic_cell>;
     ],
     energy: 250000,
     result: {
-        item: output.registryName,
+        item: output.registryName
     }
 });
