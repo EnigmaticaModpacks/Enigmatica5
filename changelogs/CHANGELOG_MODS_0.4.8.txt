@@ -1,0 +1,294 @@
+=======================================
+Enigmatica5 0.4.7 --> Enigmatica5 0.4.8
+=======================================
+
+Added:
+- Akashic Tome
+- Slime Tweaks
+
+Updated:
+	Biomes O' Plenty (Biomes O' Plenty 1.15.2-10.0.0.353 --> Biomes O' Plenty 1.15.2-10.0.0.355):
+		Biomes O' Plenty 1.15.2-10.0.0.355:
+			github:
+			* refactor biome layers to match vanilla's new 1.15 system (#1571)
+
+		Biomes O' Plenty 1.15.2-10.0.0.354:
+			github:
+			* fix infinite loop in BushTreeFeature (#1589)
+			* fix infinite loop in BushTreeFeature (#1589)
+			* refactor biome layers to match vanilla's new 1.15 system (#1571)
+			github:
+			github:
+
+	Bookshelf (Bookshelf-1.15.2-5.4.14.jar --> Bookshelf-1.15.2-5.4.25.jar):
+		Bookshelf-1.15.2-5.4.25.jar:
+			* CurseForge to Discord webhook test. - Tyler Hancock
+			Huge thanks to my supporters on [Patreon](https://www.patreon.com/Darkhax?MCChangelog?Bookshelf)
+			* Pongo Sapiens
+			* Darkosto
+
+		Bookshelf-1.15.2-5.4.24.jar:
+			* Further testing. - Tyler Hancock
+			Huge thanks to my supporters on [Patreon](https://www.patreon.com/Darkhax?MCChangelog?Bookshelf)
+			* Pongo Sapiens
+			* Darkosto
+
+		Bookshelf-1.15.2-5.4.23.jar:
+			* Too much testing. - Tyler Hancock
+			Huge thanks to my supporters on [Patreon](https://www.patreon.com/Darkhax?MCChangelog?Bookshelf)
+			* Pongo Sapiens
+			* Darkosto
+
+	Cloth Config API (Forge) ([Forge 1.15.x] ClothConfig2-2.0 --> [Forge 1.15.x] ClothConfig2-3.0):
+		[Forge 1.15.x] ClothConfig2-3.0:
+			Feature parity to Fabric Cloth Config v2.13.2
+
+	Glassential (glassential-forge-1.15.2-1.1.1.jar --> glassential-forge-1.15.2-1.1.2.jar):
+		glassential-forge-1.15.2-1.1.2.jar:
+			* ADDED: New textures for all glasses by GentlemanGnu
+			* ADDED: Tooltips for all glasses
+			*  CHANGED: Ethereal (and Reverse Ethereal) Glasses are reverted to their 1.12 behavior, Ethereal is now non solid to players and Reverse is only solid to players (instead of sneaking entities)
+			* If you would like those sneaking ethereal glasses let me know
+
+	Kottle (Kottle-1.5.0.jar --> Kottle-1.5.1.jar):
+		Kottle-1.5.1.jar:
+			Fixed some missing stdlib implementations
+
+	Mekanism (Mekanism-1.15.2-9.10.0.413.jar --> Mekanism-1.15.2-9.10.1.414.jar):
+		Mekanism-1.15.2-9.10.1.414.jar:
+			[53ba2ac](https://github.com/mekanism/Mekanism/commit/53ba2ac8ffecac064da426f80ed60aeb0578c6ae) - Fix redstone emission
+			[5bef9bd](https://github.com/mekanism/Mekanism/commit/5bef9bd799796e8dc5146d00b5acc2f0f170d084) - Fix missing screen and arrow from the fluidic plenisher's GUI
+			[32078ce](https://github.com/mekanism/Mekanism/commit/32078cee94a47e8a4e7090745a2dd56d35f52666) - Fix a broken combiner dye recipe [#6075](https://github.com/mekanism/Mekanism/issues/6075)
+			[bc1962e](https://github.com/mekanism/Mekanism/commit/bc1962ee48bd760fc7cd994f265935809c06dd8f) - tweak combiner description
+			[2837e06](https://github.com/mekanism/Mekanism/commit/2837e0605fa0f8285512ff629a2d2b2952107c69) - Increase coal dust to coal ore in combiner from 3 to 8
+			[52a05f3](https://github.com/mekanism/Mekanism/commit/52a05f30dbd4b20c1b66b646ff8641f7bd954498) - Modifier the recipe builders to not require conditions, and remove all our recipe conditions. NOTE: This will cause "Ignored advancement" warnings to print the first time a player's data is loaded. This can be safely ignored.
+			[301dc9a](https://github.com/mekanism/Mekanism/commit/301dc9a52966c1a0cab1bda203c45b6be4d2b928) - Add extended single item recipe builder for completeness sake
+			[7f05796](https://github.com/mekanism/Mekanism/commit/7f05796f654b2fbeef808dcf92a1d25ef9b6c9c5) - Fix gas burning generator description
+			[a3e3d35](https://github.com/mekanism/Mekanism/commit/a3e3d35beebd1365545a4eb05531586a80f612df) - Start work on cleaning up some stuff about capabilities, minor API change to directly referencing IChemicalTank<Gas, GasStack> to referencing things via helper interfaces like IGasTank to make working with generics easier
+			[90ccd92](https://github.com/mekanism/Mekanism/commit/90ccd92648bd998838bbafcc7668a398b882348d) - Further cleanup capability handling letting the managers validate that they are able to handle a type allowing for the getter to exit earlier if the given capability type is unsupported
+			[f91abfa](https://github.com/mekanism/Mekanism/commit/f91abfa4fd4291a7f1a2d828a5566d435673d74c) - Update dev version of forge and bump CTM version and re-enable it now that the log spam is fixed
+			[3a37e9d](https://github.com/mekanism/Mekanism/commit/3a37e9d1402d15bf942208e65485b967c3279664) - Fix valves ([#6080](https://github.com/mekanism/Mekanism/issues/6080))
+			[b838dd0](https://github.com/mekanism/Mekanism/commit/b838dd0f877ef6ea4970d9994f49924864d77d68) - Only show valves on executed fluid insertions
+			[c670115](https://github.com/mekanism/Mekanism/commit/c67011508980b76177fe6b106b956b024363f082) - Start work on rewriting how we provide capabilities to make it easier to add new capabilities to tiles as well as properly cache the lazy optionals
+			[1d1fa3b](https://github.com/mekanism/Mekanism/commit/1d1fa3b15431e5ffeb45fb3b0c0b9d2198123330) - Continue work on making it easy to cache capabilities. Moved the capability caching into the resolvers, and made self capability implementations not require a NonNullLazy
+			[a52742d](https://github.com/mekanism/Mekanism/commit/a52742d62052259f169475b2d712d96562773ffe) - Invalidate lazy optionals on tile unload, and reduce duplicate code for the energy capability resolvers
+			[aed232c](https://github.com/mekanism/Mekanism/commit/aed232c25df8363ff66ab6535adc8deba0b071e5) - Make the capability handler manager's conform to the ICapabilityResolver spec, and get resolved via it
+			[6bd194b](https://github.com/mekanism/Mekanism/commit/6bd194b3f850bb84c3b761b129382ee1bdb671de) - Handle capability disabling inside of the capability cache, rather than via IToggleableCapability.
+			[a723aa8](https://github.com/mekanism/Mekanism/commit/a723aa806bfe4c3e574045c9af5832461b3f87ed) - Make sure to invalidate capabilities when they are not necessarily valid anymore
+			[43e3489](https://github.com/mekanism/Mekanism/commit/43e3489dbfcb495cf47806b370b74961158eb9de) - Missed file from previous commit
+			[82fa18d](https://github.com/mekanism/Mekanism/commit/82fa18d1a0b6d6da7ba3741ec2601cc80837bd90) - Fix a few tiles registering multiple resolvers, and fix the reactor port not invalidating capabilities
+			[d9dc72e](https://github.com/mekanism/Mekanism/commit/d9dc72e6ae673ec27e5bafdb970ae1446cd7adcd) - JavaDoc the capability caching and resolving system
+			[169094f](https://github.com/mekanism/Mekanism/commit/169094f02ffce570bfb4d355b8df2b901e95c537) - Fix capability resolvers being added to items on the client before capabilities got initialized
+			[964221b](https://github.com/mekanism/Mekanism/commit/964221b858e1b556fa64062548eb540b5299be5d) - Fix validating miner loaded chunks being incorrect, and add some clarifying parenthesis to its range [#6084](https://github.com/mekanism/Mekanism/issues/6084)
+			[6cd8d6f](https://github.com/mekanism/Mekanism/commit/6cd8d6fa13a9226435fe70b5561225fc3375ac84) - Support viewing usages of fluids, and chemicals in gui's from their gauges/bars by hitting JEI's use button key. (Also supports viewing recipes)
+			[10788c3](https://github.com/mekanism/Mekanism/commit/10788c30a69f82ce29e81c8621069b2e5c66719e) - Fix chunks loaded by anchor upgrades not continuing to tick for longer than about 15 seconds if there are no players in the dimension and no vanilla force loaded chunks. [#6083](https://github.com/mekanism/Mekanism/issues/6083)
+			[27bfa38](https://github.com/mekanism/Mekanism/commit/27bfa380450d8edff7d360ad030de434ad835954) - Start adding a few unit tests for testing our distribution logic
+			[28676a1](https://github.com/mekanism/Mekanism/commit/28676a1e40dc56d1b662dd98c83b3f41dae7967c) - Update dev version of various deps + mappings
+			[738e5e6](https://github.com/mekanism/Mekanism/commit/738e5e64e4308a234e6c7db462e3526e3bd25a5c) - New Crowdin translations ([#6073](https://github.com/mekanism/Mekanism/issues/6073))
+			[ce8ab6f](https://github.com/mekanism/Mekanism/commit/ce8ab6f5240f35f33bf1b3b8145ccaea5c1fde40) - Bump version to 9.10.1
+
+	Mekanism Generators (MekanismGenerators-1.15.2-9.10.0.413.jar --> MekanismGenerators-1.15.2-9.10.1.414.jar):
+		MekanismGenerators-1.15.2-9.10.1.414.jar:
+			[53ba2ac](https://github.com/mekanism/Mekanism/commit/53ba2ac8ffecac064da426f80ed60aeb0578c6ae) - Fix redstone emission
+			[5bef9bd](https://github.com/mekanism/Mekanism/commit/5bef9bd799796e8dc5146d00b5acc2f0f170d084) - Fix missing screen and arrow from the fluidic plenisher's GUI
+			[32078ce](https://github.com/mekanism/Mekanism/commit/32078cee94a47e8a4e7090745a2dd56d35f52666) - Fix a broken combiner dye recipe [#6075](https://github.com/mekanism/Mekanism/issues/6075)
+			[bc1962e](https://github.com/mekanism/Mekanism/commit/bc1962ee48bd760fc7cd994f265935809c06dd8f) - tweak combiner description
+			[2837e06](https://github.com/mekanism/Mekanism/commit/2837e0605fa0f8285512ff629a2d2b2952107c69) - Increase coal dust to coal ore in combiner from 3 to 8
+			[52a05f3](https://github.com/mekanism/Mekanism/commit/52a05f30dbd4b20c1b66b646ff8641f7bd954498) - Modifier the recipe builders to not require conditions, and remove all our recipe conditions. NOTE: This will cause "Ignored advancement" warnings to print the first time a player's data is loaded. This can be safely ignored.
+			[301dc9a](https://github.com/mekanism/Mekanism/commit/301dc9a52966c1a0cab1bda203c45b6be4d2b928) - Add extended single item recipe builder for completeness sake
+			[7f05796](https://github.com/mekanism/Mekanism/commit/7f05796f654b2fbeef808dcf92a1d25ef9b6c9c5) - Fix gas burning generator description
+			[a3e3d35](https://github.com/mekanism/Mekanism/commit/a3e3d35beebd1365545a4eb05531586a80f612df) - Start work on cleaning up some stuff about capabilities, minor API change to directly referencing IChemicalTank<Gas, GasStack> to referencing things via helper interfaces like IGasTank to make working with generics easier
+			[90ccd92](https://github.com/mekanism/Mekanism/commit/90ccd92648bd998838bbafcc7668a398b882348d) - Further cleanup capability handling letting the managers validate that they are able to handle a type allowing for the getter to exit earlier if the given capability type is unsupported
+			[f91abfa](https://github.com/mekanism/Mekanism/commit/f91abfa4fd4291a7f1a2d828a5566d435673d74c) - Update dev version of forge and bump CTM version and re-enable it now that the log spam is fixed
+			[3a37e9d](https://github.com/mekanism/Mekanism/commit/3a37e9d1402d15bf942208e65485b967c3279664) - Fix valves ([#6080](https://github.com/mekanism/Mekanism/issues/6080))
+			[b838dd0](https://github.com/mekanism/Mekanism/commit/b838dd0f877ef6ea4970d9994f49924864d77d68) - Only show valves on executed fluid insertions
+			[c670115](https://github.com/mekanism/Mekanism/commit/c67011508980b76177fe6b106b956b024363f082) - Start work on rewriting how we provide capabilities to make it easier to add new capabilities to tiles as well as properly cache the lazy optionals
+			[1d1fa3b](https://github.com/mekanism/Mekanism/commit/1d1fa3b15431e5ffeb45fb3b0c0b9d2198123330) - Continue work on making it easy to cache capabilities. Moved the capability caching into the resolvers, and made self capability implementations not require a NonNullLazy
+			[a52742d](https://github.com/mekanism/Mekanism/commit/a52742d62052259f169475b2d712d96562773ffe) - Invalidate lazy optionals on tile unload, and reduce duplicate code for the energy capability resolvers
+			[aed232c](https://github.com/mekanism/Mekanism/commit/aed232c25df8363ff66ab6535adc8deba0b071e5) - Make the capability handler manager's conform to the ICapabilityResolver spec, and get resolved via it
+			[6bd194b](https://github.com/mekanism/Mekanism/commit/6bd194b3f850bb84c3b761b129382ee1bdb671de) - Handle capability disabling inside of the capability cache, rather than via IToggleableCapability.
+			[a723aa8](https://github.com/mekanism/Mekanism/commit/a723aa806bfe4c3e574045c9af5832461b3f87ed) - Make sure to invalidate capabilities when they are not necessarily valid anymore
+			[43e3489](https://github.com/mekanism/Mekanism/commit/43e3489dbfcb495cf47806b370b74961158eb9de) - Missed file from previous commit
+			[82fa18d](https://github.com/mekanism/Mekanism/commit/82fa18d1a0b6d6da7ba3741ec2601cc80837bd90) - Fix a few tiles registering multiple resolvers, and fix the reactor port not invalidating capabilities
+			[d9dc72e](https://github.com/mekanism/Mekanism/commit/d9dc72e6ae673ec27e5bafdb970ae1446cd7adcd) - JavaDoc the capability caching and resolving system
+			[169094f](https://github.com/mekanism/Mekanism/commit/169094f02ffce570bfb4d355b8df2b901e95c537) - Fix capability resolvers being added to items on the client before capabilities got initialized
+			[964221b](https://github.com/mekanism/Mekanism/commit/964221b858e1b556fa64062548eb540b5299be5d) - Fix validating miner loaded chunks being incorrect, and add some clarifying parenthesis to its range [#6084](https://github.com/mekanism/Mekanism/issues/6084)
+			[6cd8d6f](https://github.com/mekanism/Mekanism/commit/6cd8d6fa13a9226435fe70b5561225fc3375ac84) - Support viewing usages of fluids, and chemicals in gui's from their gauges/bars by hitting JEI's use button key. (Also supports viewing recipes)
+			[10788c3](https://github.com/mekanism/Mekanism/commit/10788c30a69f82ce29e81c8621069b2e5c66719e) - Fix chunks loaded by anchor upgrades not continuing to tick for longer than about 15 seconds if there are no players in the dimension and no vanilla force loaded chunks. [#6083](https://github.com/mekanism/Mekanism/issues/6083)
+			[27bfa38](https://github.com/mekanism/Mekanism/commit/27bfa380450d8edff7d360ad030de434ad835954) - Start adding a few unit tests for testing our distribution logic
+			[28676a1](https://github.com/mekanism/Mekanism/commit/28676a1e40dc56d1b662dd98c83b3f41dae7967c) - Update dev version of various deps + mappings
+			[738e5e6](https://github.com/mekanism/Mekanism/commit/738e5e64e4308a234e6c7db462e3526e3bd25a5c) - New Crowdin translations ([#6073](https://github.com/mekanism/Mekanism/issues/6073))
+			[ce8ab6f](https://github.com/mekanism/Mekanism/commit/ce8ab6f5240f35f33bf1b3b8145ccaea5c1fde40) - Bump version to 9.10.1
+
+	Mekanism Tools (MekanismTools-1.15.2-9.10.0.413.jar --> MekanismTools-1.15.2-9.10.1.414.jar):
+		MekanismTools-1.15.2-9.10.1.414.jar:
+			[53ba2ac](https://github.com/mekanism/Mekanism/commit/53ba2ac8ffecac064da426f80ed60aeb0578c6ae) - Fix redstone emission
+			[5bef9bd](https://github.com/mekanism/Mekanism/commit/5bef9bd799796e8dc5146d00b5acc2f0f170d084) - Fix missing screen and arrow from the fluidic plenisher's GUI
+			[32078ce](https://github.com/mekanism/Mekanism/commit/32078cee94a47e8a4e7090745a2dd56d35f52666) - Fix a broken combiner dye recipe [#6075](https://github.com/mekanism/Mekanism/issues/6075)
+			[bc1962e](https://github.com/mekanism/Mekanism/commit/bc1962ee48bd760fc7cd994f265935809c06dd8f) - tweak combiner description
+			[2837e06](https://github.com/mekanism/Mekanism/commit/2837e0605fa0f8285512ff629a2d2b2952107c69) - Increase coal dust to coal ore in combiner from 3 to 8
+			[52a05f3](https://github.com/mekanism/Mekanism/commit/52a05f30dbd4b20c1b66b646ff8641f7bd954498) - Modifier the recipe builders to not require conditions, and remove all our recipe conditions. NOTE: This will cause "Ignored advancement" warnings to print the first time a player's data is loaded. This can be safely ignored.
+			[301dc9a](https://github.com/mekanism/Mekanism/commit/301dc9a52966c1a0cab1bda203c45b6be4d2b928) - Add extended single item recipe builder for completeness sake
+			[7f05796](https://github.com/mekanism/Mekanism/commit/7f05796f654b2fbeef808dcf92a1d25ef9b6c9c5) - Fix gas burning generator description
+			[a3e3d35](https://github.com/mekanism/Mekanism/commit/a3e3d35beebd1365545a4eb05531586a80f612df) - Start work on cleaning up some stuff about capabilities, minor API change to directly referencing IChemicalTank<Gas, GasStack> to referencing things via helper interfaces like IGasTank to make working with generics easier
+			[90ccd92](https://github.com/mekanism/Mekanism/commit/90ccd92648bd998838bbafcc7668a398b882348d) - Further cleanup capability handling letting the managers validate that they are able to handle a type allowing for the getter to exit earlier if the given capability type is unsupported
+			[f91abfa](https://github.com/mekanism/Mekanism/commit/f91abfa4fd4291a7f1a2d828a5566d435673d74c) - Update dev version of forge and bump CTM version and re-enable it now that the log spam is fixed
+			[3a37e9d](https://github.com/mekanism/Mekanism/commit/3a37e9d1402d15bf942208e65485b967c3279664) - Fix valves ([#6080](https://github.com/mekanism/Mekanism/issues/6080))
+			[b838dd0](https://github.com/mekanism/Mekanism/commit/b838dd0f877ef6ea4970d9994f49924864d77d68) - Only show valves on executed fluid insertions
+			[c670115](https://github.com/mekanism/Mekanism/commit/c67011508980b76177fe6b106b956b024363f082) - Start work on rewriting how we provide capabilities to make it easier to add new capabilities to tiles as well as properly cache the lazy optionals
+			[1d1fa3b](https://github.com/mekanism/Mekanism/commit/1d1fa3b15431e5ffeb45fb3b0c0b9d2198123330) - Continue work on making it easy to cache capabilities. Moved the capability caching into the resolvers, and made self capability implementations not require a NonNullLazy
+			[a52742d](https://github.com/mekanism/Mekanism/commit/a52742d62052259f169475b2d712d96562773ffe) - Invalidate lazy optionals on tile unload, and reduce duplicate code for the energy capability resolvers
+			[aed232c](https://github.com/mekanism/Mekanism/commit/aed232c25df8363ff66ab6535adc8deba0b071e5) - Make the capability handler manager's conform to the ICapabilityResolver spec, and get resolved via it
+			[6bd194b](https://github.com/mekanism/Mekanism/commit/6bd194b3f850bb84c3b761b129382ee1bdb671de) - Handle capability disabling inside of the capability cache, rather than via IToggleableCapability.
+			[a723aa8](https://github.com/mekanism/Mekanism/commit/a723aa806bfe4c3e574045c9af5832461b3f87ed) - Make sure to invalidate capabilities when they are not necessarily valid anymore
+			[43e3489](https://github.com/mekanism/Mekanism/commit/43e3489dbfcb495cf47806b370b74961158eb9de) - Missed file from previous commit
+			[82fa18d](https://github.com/mekanism/Mekanism/commit/82fa18d1a0b6d6da7ba3741ec2601cc80837bd90) - Fix a few tiles registering multiple resolvers, and fix the reactor port not invalidating capabilities
+			[d9dc72e](https://github.com/mekanism/Mekanism/commit/d9dc72e6ae673ec27e5bafdb970ae1446cd7adcd) - JavaDoc the capability caching and resolving system
+			[169094f](https://github.com/mekanism/Mekanism/commit/169094f02ffce570bfb4d355b8df2b901e95c537) - Fix capability resolvers being added to items on the client before capabilities got initialized
+			[964221b](https://github.com/mekanism/Mekanism/commit/964221b858e1b556fa64062548eb540b5299be5d) - Fix validating miner loaded chunks being incorrect, and add some clarifying parenthesis to its range [#6084](https://github.com/mekanism/Mekanism/issues/6084)
+			[6cd8d6f](https://github.com/mekanism/Mekanism/commit/6cd8d6fa13a9226435fe70b5561225fc3375ac84) - Support viewing usages of fluids, and chemicals in gui's from their gauges/bars by hitting JEI's use button key. (Also supports viewing recipes)
+			[10788c3](https://github.com/mekanism/Mekanism/commit/10788c30a69f82ce29e81c8621069b2e5c66719e) - Fix chunks loaded by anchor upgrades not continuing to tick for longer than about 15 seconds if there are no players in the dimension and no vanilla force loaded chunks. [#6083](https://github.com/mekanism/Mekanism/issues/6083)
+			[27bfa38](https://github.com/mekanism/Mekanism/commit/27bfa380450d8edff7d360ad030de434ad835954) - Start adding a few unit tests for testing our distribution logic
+			[28676a1](https://github.com/mekanism/Mekanism/commit/28676a1e40dc56d1b662dd98c83b3f41dae7967c) - Update dev version of various deps + mappings
+			[738e5e6](https://github.com/mekanism/Mekanism/commit/738e5e64e4308a234e6c7db462e3526e3bd25a5c) - New Crowdin translations ([#6073](https://github.com/mekanism/Mekanism/issues/6073))
+			[ce8ab6f](https://github.com/mekanism/Mekanism/commit/ce8ab6f5240f35f33bf1b3b8145ccaea5c1fde40) - Bump version to 9.10.1
+
+	MineColonies (minecolonies-0.11.858-ALPHA-universal.jar --> minecolonies-0.11.871-ALPHA-universal.jar):
+		minecolonies-0.11.871-ALPHA-universal.jar:
+			Minecolonies Changelog
+			Version: 0.11.871-ALPHA
+			* Schematics115 (#4719)
+			Dark Oak Fixes
+
+		minecolonies-0.11.870-ALPHA-universal.jar:
+			Minecolonies Changelog
+			Version: 0.11.870-ALPHA
+			* Jdoc fixes (#4725)
+			List of javadoc fixes
+
+		minecolonies-0.11.869-ALPHA-universal.jar:
+			Minecolonies Changelog
+			Version: 0.11.869-ALPHA
+			* Some equals/serializing fixes (#4724)
+
+		minecolonies-0.11.868-ALPHA-universal.jar:
+			Minecolonies Changelog
+			Version: 0.11.868-ALPHA
+			*
+			Jdoc fixes (#4722)
+			*
+			javadoc fixes, batch #1
+			* second batch
+			* optimize imports
+
+		minecolonies-0.11.867-ALPHA-universal.jar:
+			Minecolonies Changelog
+			Version: 0.11.867-ALPHA
+			* Raiders and other Fixes (#4711)
+			Add support for random pirate ship rotations, disabled for now till spawners are within schematics. Add pathing options, which contains stuff like custom weights and wether swimming/rails etc is allowed Raiders have a lower height cost, and pirates a lower swim cost. Added water-enter cost, which is high and reduced water cost when already swimming
+			Fix: Raids initial spawn position got reworked, no longer spawns in the middle of a colony and is more randomly distributed now. The spawn pos is more dynamic now depending on loaded buildings and keeps a min distance to buildings. Fix: replace deprecated isBlockLoaded with isBlockPresent Fix: Pirates spawning on the very top of their ships Fix: Lumberjack now does cut down leaves in his way, previously he was stuck in pathing before trying to do so. Fix: Water pathing sometimes running off, due to our paths beeing 1block above the water and the entity getting stuck in jumping, no longer accepting other movement. Fix: Pathing jumps with slabs & co Fix: Pathing not working when the destination wasnt reached, now uses the closes node. Fix: Pathing not properly flagging the starting node as swimming/rails Fix: Pathing sometimes early-outing a different node than intended, causing iffy pathing occasionally Fix: Error upon placing townhall with building tool and no colony
+
+		minecolonies-0.11.866-ALPHA-universal.jar:
+			Minecolonies Changelog
+			Version: 0.11.866-ALPHA
+			*
+			Sound rework (#4694)
+			*
+			fix up sound issues
+
+		minecolonies-0.11.865-ALPHA-universal.jar:
+			Minecolonies Changelog
+			Version: 0.11.865-ALPHA
+			* Research adjustments (#4709)
+			Replace stonemason/stonesmelter make req additive
+
+		minecolonies-0.11.864-ALPHA-universal.jar:
+			Minecolonies Changelog
+			Version: 0.11.864-ALPHA
+			* Feature/1.15/warehouse inventory, new inventory tab (#4708)
+			Adds inv button with overview to building
+
+		minecolonies-0.11.863-ALPHA-universal.jar:
+			Minecolonies Changelog
+			Version: 0.11.863-ALPHA
+			* Hotfix university tree level
+
+		minecolonies-0.11.862-ALPHA-universal.jar:
+			Minecolonies Changelog
+			Version: 0.11.862-ALPHA
+			* fix child sounds together, fix placement handling not using forgereg (#4693)
+			Declutters sounds a little bit (step 1) Adds a better way for hut detection for placement handling
+
+		minecolonies-0.11.861-ALPHA-universal.jar:
+			Minecolonies Changelog
+			Version: 0.11.861-ALPHA
+			* hotfix max happiness (#4692)
+			Max happiness fix
+
+		minecolonies-0.11.860-ALPHA-universal.jar:
+			Minecolonies Changelog
+			Version: 0.11.860-ALPHA
+			* fix imports
+			* Hotfix allow to detect non minecolonies hutblock
+
+		minecolonies-0.11.859-ALPHA-universal.jar:
+			Minecolonies Changelog
+			Version: 0.11.859-ALPHA
+			* small fixes (#4691)
+			Fix some university issues Add some more block recipes to the stonemason
+
+	Quickstack (quickstack-3.0.3c.jar --> quickstack-3.0.3c.jar):
+		quickstack-3.0.3c.jar:
+			* fix unregistered modded containers crashing the game, the logger will warn about these.
+
+	RandomPatches (RandomPatches 1.15.2-1.21.1.1 --> RandomPatches 1.15.2-1.21.1.2):
+		RandomPatches 1.15.2-1.21.1.2:
+			Fixed the Toggle Narrator keybind.
+
+		RandomPatches 1.15.2-0.0.0.3-Fabric:
+			Potentially fixed a crash.
+
+	Structurize (structurize-0.10.302-ALPHA.jar --> structurize-0.10.305-ALPHA.jar):
+		structurize-0.10.305-ALPHA.jar:
+			Minecolonies Changelog
+			Version: 0.10.305-ALPHA
+			* Anchor Pos Warning (#125)
+			Adds a warning and stops scan saving if Anchor Pos is set outside schematic to reduce issues
+
+		structurize-0.10.304-ALPHA.jar:
+			Minecolonies Changelog
+			Version: 0.10.304-ALPHA
+			* bandaid fix for structurename handling
+
+		structurize-0.10.303-ALPHA.jar:
+			Minecolonies Changelog
+			Version: 0.10.303-ALPHA
+			* fix accepting other Huts
+
+	Tetra (tetra-1.15.2-2.3.0.jar --> tetra-1.15.2-2.4.0.jar):
+		tetra-1.15.2-2.4.0.jar:
+			Changes:
+			* rebased magic capacity to fit better with enchantability
+			* improved support for Apotheosis enchantments
+			* improved support for Cyclic enchantments
+			* improved support for Ensorcellation enchantments
+			* added support for Enchantable enchantments
+			* added support for Cursed "enchantments"
+			* added support for Naturesaura enchantment
+			* added support for Ma enchants enchantments
+			Fixes:
+			* fixed incorrect damage values from the power enchantment
+			* fixed missing localization for improvements
+			* improved rendering of thrown items
+			* changed positioning for doubled headed tool model
+			* fixed crit harvesting being able to break bedrock
+			Tech features:
+			* added data generator for enchantment compatability
+			* added tech for dynamically transforming item models
+
+	☃ Snow! Real Magic! (SnowRealMagic-1.15.2-1.7.5.jar --> SnowRealMagic-1.15.2-1.8.0.jar):
+		SnowRealMagic-1.15.2-1.8.0.jar:
+			Add method to make snow-covered blocks back to normal
+			Support more blocks
+
+Generated using [ChangelogGenerator 2.0.0-pre3](https://github.com/TheRandomLabs/ChangelogGenerator).
