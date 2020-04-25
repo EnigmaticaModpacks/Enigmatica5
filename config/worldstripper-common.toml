@@ -19,7 +19,7 @@
 	profile2 = ["minecraft:dirt", "minecraft:grass", "minecraft:grass_path", "minecraft:tall_grass", "minecraft:grass_block", "minecraft:stone", "minecraft:diorite", "minecraft:granite", "minecraft:andesite", "minecraft:gravel", "minecraft:sand", "minecraft:sandstone", "minecraft:oak_log", "minecraft:dark_oak_log", "minecraft:spruce_log", "minecraft:birch_log", "minecraft:jungle_log", "minecraft:acacia_log", "minecraft:oak_leaves", "minecraft:dark_oak_leaves", "minecraft:spruce_leaves", "minecraft:birch_leaves", "minecraft:jungle_leaves", "minecraft:acacia_leaves", "minecraft:water", "minecraft:flowing_water", "minecraft:lava", "minecraft:flowing_lava", "minecraft:netherrack", "minecraft:end_stone", "minecraft:podzol", "minecraft:bamboo", "minecraft:seagrass", "minecraft:tall_seagrass"]
 	#Selected Profile
 	#Range: 1 ~ 5
-	selectedProfile = 5
+	selectedProfile = 3
 	#Profile 5 - A list of blocks to strip away from the world
 	profile5 = ["minecraft:dirt", "minecraft:grass", "minecraft:grass_path", "minecraft:tall_grass", "minecraft:grass_block", "minecraft:stone", "minecraft:oak_log", "minecraft:dark_oak_log", "minecraft:spruce_log", "minecraft:birch_log", "minecraft:jungle_log", "minecraft:acacia_log", "minecraft:oak_leaves", "minecraft:dark_oak_leaves", "minecraft:spruce_leaves", "minecraft:birch_leaves", "minecraft:jungle_leaves", "minecraft:acacia_leaves", "minecraft:water", "minecraft:flowing_water", "minecraft:lava", "minecraft:flowing_lava", "minecraft:netherrack", "minecraft:end_stone", "minecraft:podzol", "minecraft:bamboo", "minecraft:seagrass", "minecraft:tall_seagrass"]
 	#Flag 1 will cause a block update. Flag 2 will send the change to clients. Flag 4 will prevent the block from
