@@ -121,24 +121,22 @@
 
 #minecolonies.config.claims.comment
 [claims]
-	#The minimum distance between colony townhalls. [Default: 5]
-	#Range: 1 ~ 200
-	mintownhallpadding = 3
 	#Should the min/max distance from spawn also affect colony placement? [Default: false]
 	restrictcolonyplacement = false
 	#minecolonies.config.officersreceiveadvancements.comment
 	officersreceiveadvancements = true
+	#minecolonies.config.initialcolonysize.comment
+	#Range: 1 ~ 200
+	initialColonySize = 4
 	#Max distance from world spawn. [Default: 8000]
 	#Range: 1000 ~ 100000
 	maxdistancefromworldspawn = 8000
-	#Should the colony have a fixed radius or should it be dynamic. [Default: false]
-	enabledynamiccolonysizes = false
-	#Maximum claim range for a townhall. [Default: 20]
+	#minecolonies.config.maxcolonysize.comment
 	#Range: 1 ~ 50
-	workingrangetownhallchunks = 8
-	#Initial townhall claim size [Default: 5]
+	maxColonySize = 20
+	#minecolonies.config.mincolonydistance.comment
 	#Range: 1 ~ 200
-	townhallpaddingchunk = 1
+	minColonyDistance = 8
 	#Should players be allowed to build their colonies over existing villages? [Default: false]
 	protectvillages = false
 	#Min distance from world spawn. [Default: 512]
@@ -403,6 +401,8 @@
 	isthisredstone = ["minecraft:redstone*128"]
 	#minecolonies.config.improvedleather.comment
 	improvedleather = ["minecraft:leather*32"]
+	#minecolonies.config.thoselungs.comment
+	thoselungs = ["minecraft:glass*64"]
 	#minecolonies.config.dodge.comment
 	dodge = ["minecraft:leather*16"]
 	#minecolonies.config.recipebook.comment
