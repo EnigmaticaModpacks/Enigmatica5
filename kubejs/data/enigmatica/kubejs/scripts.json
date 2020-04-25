@@ -1,28 +1,27 @@
 {
-	"scripts": [
-		{"file": "packmode.js"},
-		{"file": "constants.js"},
-		
-		{"file": "client/client.js"},
+    "scripts": [
+        { "file": "packmode.js" },
+        { "file": "constants.js" },
 
-		{"file": "tags/blocks/forge/stones.js"},
-		{"file": "tags/blocks/forge/ores.js"},
-		{"file": "tags/blocks/forge/materials.js"},
-		{"file": "tags/blocks/forge/storage_blocks.js"},
+        { "file": "client/client.js" },
 
-		{"file": "tags/items/forge/terracotta.js"},
-		{"file": "tags/items/forge/wool.js"},
-		{"file": "tags/items/forge/stones.js"},
-		{"file": "tags/items/forge/storage_blocks.js"},
-		{"file": "tags/items/forge/ores.js"},
-		{"file": "tags/items/forge/gems.js"},
-		{"file": "tags/items/forge/ingots.js"},
-		{"file": "tags/items/forge/materials.js"},
-		{"file": "tags/items/forge/carpet.js"},
-		{"file": "tags/items/forge/concrete_powder.js"},
-		{"file": "tags/items/forge/stained_glass_pane.js"},
+        { "file": "tags/blocks/forge/stones.js" },
+        { "file": "tags/blocks/forge/ores.js" },
+        { "file": "tags/blocks/forge/materials.js" },
+        { "file": "tags/blocks/forge/storage_blocks.js" },
 
-		{"file": "recipes/replace_input.js"}
+        { "file": "tags/items/forge/terracotta.js" },
+        { "file": "tags/items/forge/wool.js" },
+        { "file": "tags/items/forge/stones.js" },
+        { "file": "tags/items/forge/storage_blocks.js" },
+        { "file": "tags/items/forge/ores.js" },
+        { "file": "tags/items/forge/gems.js" },
+        { "file": "tags/items/forge/ingots.js" },
+        { "file": "tags/items/forge/materials.js" },
+        { "file": "tags/items/forge/carpet.js" },
+        { "file": "tags/items/forge/concrete_powder.js" },
+        { "file": "tags/items/forge/stained_glass_pane.js" },
 
-	]
+        { "file": "recipes/replace_input.js" }
+    ]
 }
