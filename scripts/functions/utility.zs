@@ -1,9 +1,11 @@
-#priority 1005
+#priority 1010
 
 import crafttweaker.api.item.IItemStack;
 import crafttweaker.api.item.IIngredient;
 import crafttweaker.api.tag.MCTag;
 import crafttweaker.api.BracketHandlers;
+import crafttweaker.api.data.IData;
+import crafttweaker.api.data.ListData;
 
 
 public function disableItem(item as IItemStack) as void {
@@ -17,9 +19,15 @@ public function disableItem(item as IItemStack) as void {
     craftingTable.removeRecipe(item);
 	furnace.removeRecipe(item);
 	blastFurnace.removeRecipe(item);
-    
-    //<recipetype:crafting>.removeByName("mekanism:processing/tin/dust/from_dirty_dust");
+}
 
-    //recipes.removeByName("mekanism:processing/tin/dust/from_dirty_dust");
-
+function addRecipetypeJsonRecipe(recipetype as string, name as string, output as IItemStack, input as IItemStack, mana as int) as void
+{
+    // Recipetype could be "botania:mana_infusion"
+    var type = BracketHandlers.getRecipeManager(recipetype);
+    type.addJSONRecipe(name,
+    {
+        input: input as IData,
+        output: output as IData
+    });
 }
