@@ -206,6 +206,7 @@
 
 [tools]
 	Pickarang = true
+	"Color Runes" = true
 	"Ancient Tomes" = true
 	"Pathfinder Maps" = true
 	"Slime In A Bucket" = true
@@ -235,6 +236,14 @@
 		#minecraft:ice_mountains,2,8,14,7FE4FF,Ice Mountains Pathfinder Map
 		Customs = []
 		"Xp From Trade" = 5
+
+	[tools.color_runes]
+		"Jungle Temple Weight" = 8
+		"Desert Temple Weight" = 8
+		"Dungeon Weight" = 10
+		"Item Quality" = 0
+		"Apply Cost" = 15
+		"Nether Fortress Weight" = 8
 
 	[tools.ancient_tomes]
 		"Valid Enchantments" = ["minecraft:feather_falling", "minecraft:thorns", "minecraft:sharpness", "minecraft:smite", "minecraft:bane_of_arthropods", "minecraft:knockback", "minecraft:fire_aspect", "minecraft:looting", "minecraft:sweeping", "minecraft:efficiency", "minecraft:unbreaking", "minecraft:fortune", "minecraft:power", "minecraft:punch", "minecraft:luck_of_the_sea", "minecraft:lure", "minecraft:loyalty", "minecraft:riptide", "minecraft:impaling", "minecraft:piercing"]
@@ -742,7 +751,7 @@
 
 			[world.new_stone_types.marble.oregen]
 				"Max Height" = 256
-				"Cluster Count" = 5
+				"Cluster Count" = 3
 				"Min Height" = 0
 				"Cluster Size" = 32
 
@@ -753,10 +762,10 @@
 		[world.new_stone_types.basalt]
 
 			[world.new_stone_types.basalt.oregen]
-				"Max Height" = 256
-				"Cluster Count" = 5
+				"Max Height" = 15
+				"Cluster Count" = 1
 				"Min Height" = 0
-				"Cluster Size" = 32
+				"Cluster Size" = 64
 
 			[world.new_stone_types.basalt.dimensions]
 				Dimensions = ["minecraft:the_nether"]
@@ -766,7 +775,7 @@
 
 			[world.new_stone_types.limestone.oregen]
 				"Max Height" = 256
-				"Cluster Count" = 5
+				"Cluster Count" = 2
 				"Min Height" = 0
 				"Cluster Size" = 32
 
@@ -778,7 +787,7 @@
 
 			[world.new_stone_types.slate.oregen]
 				"Max Height" = 256
-				"Cluster Count" = 5
+				"Cluster Count" = 2
 				"Min Height" = 0
 				"Cluster Size" = 32
 
@@ -790,7 +799,7 @@
 
 			[world.new_stone_types.jasper.oregen]
 				"Max Height" = 256
-				"Cluster Count" = 5
+				"Cluster Count" = 2
 				"Min Height" = 0
 				"Cluster Size" = 32
 
