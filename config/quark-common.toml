@@ -751,7 +751,7 @@
 
 			[world.new_stone_types.marble.oregen]
 				"Max Height" = 256
-				"Cluster Count" = 3
+				"Cluster Count" = 0
 				"Min Height" = 0
 				"Cluster Size" = 32
 
@@ -763,7 +763,7 @@
 
 			[world.new_stone_types.basalt.oregen]
 				"Max Height" = 15
-				"Cluster Count" = 1
+				"Cluster Count" = 0
 				"Min Height" = 0
 				"Cluster Size" = 64
 
@@ -775,7 +775,7 @@
 
 			[world.new_stone_types.limestone.oregen]
 				"Max Height" = 256
-				"Cluster Count" = 2
+				"Cluster Count" = 0
 				"Min Height" = 0
 				"Cluster Size" = 32
 
@@ -787,7 +787,7 @@
 
 			[world.new_stone_types.slate.oregen]
 				"Max Height" = 256
-				"Cluster Count" = 2
+				"Cluster Count" = 0
 				"Min Height" = 0
 				"Cluster Size" = 32
 
@@ -799,7 +799,7 @@
 
 			[world.new_stone_types.jasper.oregen]
 				"Max Height" = 256
-				"Cluster Count" = 2
+				"Cluster Count" = 0
 				"Min Height" = 0
 				"Cluster Size" = 32
 
@@ -922,7 +922,7 @@
 
 		[world.underground_clay.ore_settings]
 			"Max Height" = 60
-			"Cluster Count" = 2
+			"Cluster Count" = 0
 			"Min Height" = 20
 			"Cluster Size" = 20
 

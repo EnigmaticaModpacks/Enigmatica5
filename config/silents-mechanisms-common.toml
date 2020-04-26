@@ -7,7 +7,7 @@
 [world]
 	#Set to 'false' to completely disable ore generation from this mod, ignoring all other settings.
 	#You can also enable/disable ores individually, but this is useful if you plan to use another mod for ore generation.
-	masterSwitch = true
+	masterSwitch = false
 
 	[world.gen]
 
@@ -15,101 +15,101 @@
 			#Minimum Y-coordinate (base height) of veins
 			minHeight = 0
 			#Number of veins per chunk
-			veinCount = 1
+			veinCount = 0
 			#Maximum Y-coordinate (highest level) of veins
 			maxHeight = 18
 			#Size of veins
-			veinSize = 4
+			veinSize = 0
 
 		[world.gen.NICKEL]
 			#Minimum Y-coordinate (base height) of veins
 			minHeight = 0
 			#Number of veins per chunk
-			veinCount = 1
+			veinCount = 0
 			#Maximum Y-coordinate (highest level) of veins
 			maxHeight = 24
 			#Size of veins
-			veinSize = 6
+			veinSize = 0
 
 		[world.gen.BAUXITE]
 			#Minimum Y-coordinate (base height) of veins
 			minHeight = 15
 			#Number of veins per chunk
-			veinCount = 6
+			veinCount = 0
 			#Maximum Y-coordinate (highest level) of veins
 			maxHeight = 50
 			#Size of veins
-			veinSize = 8
+			veinSize = 0
 
 		[world.gen.SILVER]
 			#Minimum Y-coordinate (base height) of veins
 			minHeight = 0
 			#Number of veins per chunk
-			veinCount = 4
+			veinCount = 0
 			#Maximum Y-coordinate (highest level) of veins
 			maxHeight = 40
 			#Size of veins
-			veinSize = 8
+			veinSize = 0
 
 		[world.gen.TIN]
 			#Minimum Y-coordinate (base height) of veins
 			minHeight = 20
 			#Number of veins per chunk
-			veinCount = 8
+			veinCount = 0
 			#Maximum Y-coordinate (highest level) of veins
 			maxHeight = 80
 			#Size of veins
-			veinSize = 8
+			veinSize = 0
 
 		[world.gen.PLATINUM]
 			#Minimum Y-coordinate (base height) of veins
 			minHeight = 5
 			#Number of veins per chunk
-			veinCount = 1
+			veinCount = 0
 			#Maximum Y-coordinate (highest level) of veins
 			maxHeight = 20
 			#Size of veins
-			veinSize = 8
+			veinSize = 0
 
 		[world.gen.COPPER]
 			#Minimum Y-coordinate (base height) of veins
 			minHeight = 40
 			#Number of veins per chunk
-			veinCount = 8
+			veinCount = 0
 			#Maximum Y-coordinate (highest level) of veins
 			maxHeight = 90
 			#Size of veins
-			veinSize = 8
+			veinSize = 0
 
 		[world.gen.BISMUTH]
 			#Minimum Y-coordinate (base height) of veins
 			minHeight = 16
 			#Number of veins per chunk
-			veinCount = 4
+			veinCount = 0
 			#Maximum Y-coordinate (highest level) of veins
 			maxHeight = 64
 			#Size of veins
-			veinSize = 8
+			veinSize = 0
 
 		[world.gen.ZINC]
 			#Minimum Y-coordinate (base height) of veins
 			minHeight = 20
 			#Number of veins per chunk
-			veinCount = 4
+			veinCount = 0
 			#Maximum Y-coordinate (highest level) of veins
 			maxHeight = 60
 			#Size of veins
-			veinSize = 8
+			veinSize = 0
 
 		[world.gen.LEAD]
 			#Minimum Y-coordinate (base height) of veins
 			minHeight = 0
 			#Number of veins per chunk
-			veinCount = 4
+			veinCount = 0
 			#Maximum Y-coordinate (highest level) of veins
 			maxHeight = 30
 			#Size of veins
-			veinSize = 8
+			veinSize = 0
 
 	[world.oilLake]
 		#Chance of oil lakes spawning (1 in chance). Higher numbers = less common. Set 0 to disable.

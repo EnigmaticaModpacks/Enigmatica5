@@ -1,0 +1,12 @@
+{
+    "type": "sphere",
+    "ore": "minecraft:redstone_ore",
+    "stone": "minecraft:stone",
+    "count": 3,
+    "rarity": 1,
+    "min_y": 5,
+    "max_y": 20,
+    "density": 100,
+    "vertical_size": 2,
+    "horizontal_size": 3
+}
