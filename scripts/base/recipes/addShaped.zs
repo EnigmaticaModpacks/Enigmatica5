@@ -20,12 +20,6 @@ var recipes as IIngredient[][][IItemStack] = {
         [<tag:minecraft:logs>], 
         [<tag:minecraft:logs>]
     ],
-    <item:minecraft:chest> * 4 : 
-    [
-        [<tag:minecraft:logs>, <tag:minecraft:logs>, <tag:minecraft:logs>], 
-        [<tag:minecraft:logs>, air, <tag:minecraft:logs>],
-        [<tag:minecraft:logs>, <tag:minecraft:logs>, <tag:minecraft:logs>]
-    ],
     <item:minecraft:chest> : 
     [
         [<tag:minecraft:planks>, <tag:minecraft:planks>, <tag:minecraft:planks>], 
