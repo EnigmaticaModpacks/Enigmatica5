@@ -9,6 +9,7 @@
         { "file": "tags/blocks/forge/ores.js" },
         { "file": "tags/blocks/forge/materials.js" },
         { "file": "tags/blocks/forge/storage_blocks.js" },
+        { "file": "tags/blocks/forge/planks.js" },
 
         { "file": "tags/items/forge/terracotta.js" },
         { "file": "tags/items/forge/wool.js" },
@@ -21,6 +22,7 @@
         { "file": "tags/items/forge/carpet.js" },
         { "file": "tags/items/forge/concrete_powder.js" },
         { "file": "tags/items/forge/stained_glass_pane.js" },
+        { "file": "tags/items/forge/planks.js" },
 
         { "file": "recipes/replace_input.js" }
     ]
