@@ -1,0 +1,38 @@
+{
+    "variants": [
+        {
+            "key": "straight_stave/ancient_wood",
+            "integrity": -2,
+            "magicCapacity": 17,
+            "durability": 260,
+            "damage": 14,
+            "attackSpeed": 1.1,
+            "glyph": {
+                "tint": "723957",
+                "textureX": 128,
+                "textureY": 32
+            },
+            "models": [
+                {
+                    "location": "tetra:items/module/bow/stave/straight/crude",
+                    "tint": "723957"
+                },
+                {
+                    "type": "draw_0",
+                    "location": "tetra:items/module/bow/stave/straight/crude_0",
+                    "tint": "723957"
+                },
+                {
+                    "type": "draw_1",
+                    "location": "tetra:items/module/bow/stave/straight/crude_1",
+                    "tint": "723957"
+                },
+                {
+                    "type": "draw_2",
+                    "location": "tetra:items/module/bow/stave/straight/crude_2",
+                    "tint": "723957"
+                }
+            ]
+        }
+    ]
+}

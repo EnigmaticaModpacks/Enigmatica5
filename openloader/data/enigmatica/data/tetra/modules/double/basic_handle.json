@@ -1,0 +1,21 @@
+{
+    "variants": [
+        {
+            "key": "basic_handle/ancient_wood",
+            "durability": 20,
+            "integrity": 5,
+            "magicCapacity": 17,
+            "attackSpeed": 0.35,
+            "glyph": {
+                "tint": "723957",
+                "textureX": 16
+            },
+            "models": [
+                {
+                    "location": "tetra:items/module/sword/hilt/basic/default",
+                    "tint": "723957"
+                }
+            ]
+        }
+    ]
+}
