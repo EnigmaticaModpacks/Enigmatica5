@@ -195,7 +195,7 @@
 	#Blocks players should be able to final ForgeConfigSpec.IntValueeract with in any colony (Ex vending machines)
 	freetointeractblocks = ["dirt", "0 0 0"]
 	#Should the colony protection be enabled? [Default: true]
-	enablecolonyprotection = true
+	enablecolonyprotection = false
 	#Independent from the colony protection, should explosions be turned off? [Default: true]
 	turnoffexplosionsincolonies = true
 	#Seconds between permission messages. [Default: 30]
