@@ -1,0 +1,23 @@
+
+[general]
+	#Display the author of trophy models on their tooltips.
+	"tooltip credits" = false
+	#Show the date and time you earned the trophy on the tooltip and on hover.
+	"show earnedat" = true
+	#Scale of items on trophies
+	#Range: 0.0 ~ 1.7976931348623157E308
+	scale = 1.5
+	#Emergency killswitch for the in-inventory trophy renderer. Enable in cases of extreme performance issues or client rendering-related crashes.
+	#(Requires a game restart in some cases.)
+	#If this option is enabled, and skipItemBases is not, trophy item bases will render using a 'fast path' that is about as expensive as rendering a grass block item. This fast path is not compatible with the fancy trophy TEISR, to my knowledge.
+	"no teisr" = false
+	#Don't show trophy bases on trophies in your inventory and on other GUIs. Saves on performance.
+	"skip item bases" = false
+	#Don't show the items on top of trophies in your inventory and on other GUIs. Saves on performance.
+	"skip block items" = false
+	#Don't show the items on top of trophies in your inventory and on other GUIs. Saves on performance.
+	"skip item items" = false
+	#Emergency killswitch for the tile entity renderer. Enable in cases of extreme performance issues or client rendering-related crashes.
+	#(Requires a game restart in some cases.)
+	"no tesr" = false
+
