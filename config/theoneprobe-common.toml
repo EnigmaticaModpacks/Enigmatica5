@@ -2,7 +2,7 @@
 showCollarColor = true
 #The maximum amount of slots (empty or not) to show without sneaking
 #Range: 0 ~ 1000
-showSmallChestContentsWithoutSneaking = 0
+showSmallChestContentsWithoutSneaking = 3
 #How much time (ms) to wait before reporting an exception again
 #Range: 1 ~ 10000000
 loggingThrowableTimeout = 20000
@@ -45,7 +45,7 @@ rfbarAlternateFilledColor = "ff430000"
 showItemDetailThresshold = 4
 #Is the probe needed to show the tooltip? 0 = no, 1 = yes, 2 = yes and clients cannot override, 3 = probe needed for extended info only
 #Range: 0 ~ 3
-needsProbe = 3
+needsProbe = 0
 #Color for the tank bar
 tankbarFilledColor = "ff0000dd"
 #A list of blocks for which we don't send NBT over the network. This is mostly useful for blocks that have HUGE NBT in their pickblock (itemstack)
