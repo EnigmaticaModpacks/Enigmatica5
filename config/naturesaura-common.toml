@@ -8,8 +8,6 @@
 	auraToRFRatio = 0.05
 	#Blocks that are exempt from being recognized as generatable ores for the passive ore generation effect. Each entry needs to be formatted as modid:block[prop1=value1,...] where block state properties are optional
 	oreExceptions = []
-	#Additional blocks that several mechanics identify as flowers. Each entry needs to be formatted as modid:block[prop1=value1,...] where block state properties are optional
-	additionalFlowers = []
 	#Additional blocks that are recognized as generatable ores for the passive ore generation effect. Each entry needs to be formatted as oredictEntry:oreWeight:dimension where a higher weight makes the ore more likely to spawn with 5000 being the weight of coal, the default ore with the highest weight, and dimension being any of overworld and nether
 	additionalOres = []
 	#Additional dimensions that map to Aura types that should be present in them. This is useful if you have a modpack with custom dimensions that should have Aura act similarly to an existing dimension in them. Each entry needs to be formatted as dimension_name->aura_type, where aura_type can be any of naturesaura:overworld, naturesaura:nether and naturesaura:end.
@@ -55,6 +53,8 @@
 	particleAmount = 1.0
 	#The percentage of particles that should spawn when there is an excess amount of Aura in the environment, where 1 is 100% and 0 is 0%
 	excessParticleAmount = 1.0
+	#If certain equippable items, like the Environmental Eye, should be rendered on the player
+	renderItemsOnPlayer = true
 	#If particle spawning should respect the particle setting in Minecraft's video settings screen
 	respectVanillaParticleSettings = false
 	#If debug information about Aura around the player should be displayed in the F3 debug menu if the player is in creative mode

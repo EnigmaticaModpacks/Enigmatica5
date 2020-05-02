@@ -158,7 +158,7 @@
 	#Should Mobs attack citizens? [Default: false
 	mobattackcitizens = false
 	#The max size of a barbarian horde. [Default: 20]
-	#Range: 6 ~ 40
+	#Range: 6 ~ 400
 	maxBarbarianSize = 20
 	#Health multiplier for all Guards. [Default: 1.0]
 	#Range: 0.1 ~ 5.0
@@ -367,6 +367,8 @@
 	hormones = ["minecraft:cooked_chicken*64"]
 	#minecolonies.config.city.comment
 	city = ["minecraft:cooked_beef*512"]
+	#minecolonies.config.rainbowheaven.comment
+	rainbowheaven = ["minecraft:poppy*64"]
 	#minecolonies.config.morebooks.comment
 	morebooks = ["minecraft:book*6"]
 	#minecolonies.config.hot.comment
