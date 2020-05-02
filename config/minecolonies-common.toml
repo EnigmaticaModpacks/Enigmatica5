@@ -40,7 +40,7 @@
 	#Should workers work during the rain? [Default: false]
 	workersalwaysworkinrain = false
 	#Should player made schematics be allowed [Default: false]
-	allowplayerschematics = false
+	allowplayerschematics = true
 	#Quantity of dirt per Compost filling. [Default: 1]
 	#Range: 0 ~ 100
 	dirtfromcompost = 1
