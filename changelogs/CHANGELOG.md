@@ -1,3 +1,31 @@
+## 0.4.9 - The Ore Update
+
+*Using Forge-1.15.2-31.1.46*
+
+
+
+*[Mod Updates](https://github.com/NillerMedDild/Enigmatica5/blob/master/changelogs/CHANGELOG_MODS_0.4.9.txt)*
+
+
+
+**Mod Additions**
+
+- 
+
+**Changes** 
+
+- Completely overhauled ore generation!
+  - Far less clutter (Diorite, Andesite, Granite, Marble, Limestone...)
+  - Higher chances of finding ores
+  - Huge ore veins scattered throughout the world. Find traces of them on the surface!
+- MineColonies: Turned off Colony protection, please use FTB Claims instead.
+  - Explosion Protection in MineColonies is still enabled
+- Quark: Pistons can no longer push tile entities. It's a bit too risky to have enabled in a modpack.
+
+**Bug fixes**
+
+- 
+
 ## Enigmatica 5 v0.4.8
 
 *Using Forge-1.15.2-31.1.46*
