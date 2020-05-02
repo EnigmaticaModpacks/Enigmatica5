@@ -330,3 +330,69 @@ public function mekanism_injecting_shard_from_crystal(material as string) as voi
 
     logger.info("mekanism_injecting_shard_from_crystal with " + material + " succesfully ran!");
 }
+
+function addCrushingRecipes(material as string) as void {
+    var ore_deposit_tag = BracketHandlers.getTag("forge:ore_deposits/" + material);
+    var nugget_tag = BracketHandlers.getTag("forge:nuggets/" + material);
+    var dust_tag = BracketHandlers.getTag("forge:dusts/" + material);
+    var gem_tag = BracketHandlers.getTag("forge:gems/" + material);
+
+    var ore_deposit = ore_deposit_tag.first(); 
+    var nugget = nugget_tag.first();
+    var dust = dust_tag.first();
+    var gem = gem_tag.first();
+
+    if (ore_deposit.matches(<item:minecraft:air>)) {
+        logger.info("Attempted to add crushing recipe, but no items exist in the ItemTag " + ore_deposit_tag.commandString);
+        return;
+    }
+
+    if (dust.matches(<item:minecraft:air>)) {
+        logger.info("Attempted to add crushing recipe, but no items exist in the ItemTag " + dust_tag.commandString);
+        return;
+    }
+
+    if (nugget.matches(<item:minecraft:air>)) {
+        var xp = 1.0;
+        var processingTime = 100;
+        blastFurnace.addRecipe("blasting_" + formatRecipeName(nugget) + "_from_ore_deposit", dust, ore_deposit, xp, processingTime / 2);
+        furnace.addRecipe("smelting_" + formatRecipeName(nugget) + "_from_ore_deposit", dust, ore_deposit, xp, processingTime);
+    } else {
+        var xp = 1.0;
+        var processingTime = 100;
+        blastFurnace.addRecipe("blasting_" + formatRecipeName(nugget) + "_from_ore_deposit", nugget, ore_deposit, xp, processingTime / 2);
+        furnace.addRecipe("smelting_" + formatRecipeName(nugget) + "_from_ore_deposit", nugget, ore_deposit, xp, processingTime);
+    }
+
+    <recipetype:mekanism:enriching>.addJSONRecipe("processing/" + material + "/dust/from_ore_deposit",
+    {
+        input: {
+            ingredient: {
+                item: ore_deposit.registryName
+            }
+            
+        },
+        output: {
+            item: dust.registryName
+        }
+    });
+
+    <recipetype:silents_mechanisms:crushing>.addJSONRecipe("processing/" + material + "/chunk/from_ore_deposit",
+    {
+        process_time: 200,
+        ingredient: {
+        item: ore_deposit.registryName
+        },
+    results: [
+        {
+            item: dust.registryName,
+        },
+        {
+            item: <item:minecraft:dirt>.registryName,
+            chance: 0.5 as float
+        }
+    ]
+    });
+
+    logger.info("addCrushingRecipes with " + material + " succesfully ran!");
+}
