@@ -48,6 +48,9 @@
 		[modules.core.straw]
 			enabled = true
 
+		[modules.core.manual]
+			enabled = true
+
 		[modules.core.pink_slime]
 			enabled = true
 
@@ -118,13 +121,7 @@
 	[modules.resource_production]
 		enabled = true
 
-		[modules.resource_production.spores_recreator]
-			enabled = true
-
-		[modules.resource_production.sludge_refiner]
-			enabled = true
-
-		[modules.resource_production.water_condensator]
+		[modules.resource_production.material_stonework_factory]
 			enabled = true
 
 		[modules.resource_production.mechanical_dirt]
@@ -133,7 +130,7 @@
 		[modules.resource_production.block_breaker]
 			enabled = true
 
-		[modules.resource_production.dye_mixer]
+		[modules.resource_production.marine_fisher]
 			enabled = true
 
 		[modules.resource_production.fluid_placer]
@@ -148,10 +145,25 @@
 		[modules.resource_production.fluid_collector]
 			enabled = true
 
+		[modules.resource_production.spores_recreator]
+			enabled = true
+
+		[modules.resource_production.sludge_refiner]
+			enabled = true
+
+		[modules.resource_production.water_condensator]
+			enabled = true
+
+		[modules.resource_production.dye_mixer]
+			enabled = true
+
 	#Random things that don't fit
 	[modules.misc]
 		enabled = true
 
 		[modules.misc.stasis_chamber]
+			enabled = true
+
+		[modules.misc.mob_detector]
 			enabled = true
 
