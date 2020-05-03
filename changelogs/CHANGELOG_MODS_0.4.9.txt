@@ -13,7 +13,6 @@ Added:
 - Passable Foliage
 - Reload Audio Driver (RAD)
 - Simply Trophies
-- Stronger Snowballs
 - Tinkers' Mechworks
 
 Updated:
@@ -1206,7 +1205,51 @@ Updated:
 			## [4.0.1] - 2019-02-28
 			* Fixes Silent Gear [issue #22]([https://github.com/SilentChaos512/Silent-Gear/issues/22](https://github.com/SilentChaos512/Silent-Gear/issues/22))
 
-	Structurize (structurize-0.10.305-ALPHA.jar --> Archived file):
+	Structurize (structurize-0.10.305-ALPHA.jar --> structurize-0.10.313-RELEASE.jar):
+		structurize-0.10.313-RELEASE.jar:
+			Minecolonies Changelog
+			Version: 0.10.313-RELEASE
+			* Revert "Adding Artifactory and publishing logic. (#129)"
+			This reverts commit 8af28ef4625f763f835231299df859f25d426f15. * Fix Optifine compatibility (#113)
+			Fix Optifine compatibility * fix crash * Adding Artifactory and publishing logic. (#129) * Remove primaryAnchorPos boolean because it was causing bugs (#127)
+			Fixes deco placement offset * Anchor Pos Warning (#125)
+			Adds a warning and stops scan saving if Anchor Pos is set outside schematic to reduce issues * bandaid fix for structurename handling * fix accepting other Huts * hotfix #4688 * Feature / Fix: Manual AnchorPos Selection and Placeholder t (#124)
+			Changes proposed in this pull request: - Serialize and Deserialize AnchorPos in Blueprints - Allow manual selection of AnchorPos via ScanTool and Command - Render Red Box around AnchorPos in scans and Build Tool - Fix rotations on Placeholder Block - Fixes gradle publishing stuff Review please * hotfix exception with bamboo * Barrelblock (#123)
+			* Added deco barrel block
+			* Fix memory leak in rendering (#119)
+			*
+			Fix Data Generators, Run generators, And add Floating Carpets! (#117)
+			*
+			Fix Data Generators, Run then, And add Floating Carpets!
+			*
+			Forgot loot tables!
+			* Hotfix datafixer entities and tile entities
+			Don't try to fix non-minecraft things * Hotfix datafixer entities and tile entities * Added lineWidth setter. (#114) * Turn off completely * Merge remote-tracking branch 'origin/version/1.15' into version/1.15 * Fix light substitution block recipe * Fixing the Scissoring box position calculation on Macs (#111)
+			This adapts the calculation to using the Scaled height for the Y offset. Fixes the issues of Mac reporting display sizes wrong. * Fix text field select all/copy/paste/cut * hotfix loading with optifine * fix multiblock right click * Merge remote-tracking branch 'origin/version/1.15' into version/1.15 * Model Optimizations (#107)
+			Optimizes Multiblock model Fixes item display properties Updates the placeholder & substitution blocks to the 1.14+ texture for planks * hotfix item detection * Add not water error * fix #105
+
+		structurize-0.10.312-BETA.jar:
+			Minecolonies Changelog
+			Version: 0.10.312-BETA
+			* Revert "Adding Artifactory and publishing logic. (#129)"
+			This reverts commit 8af28ef4625f763f835231299df859f25d426f15. * Fix Optifine compatibility (#113)
+			Fix Optifine compatibility * fix crash * Adding Artifactory and publishing logic. (#129) * Remove primaryAnchorPos boolean because it was causing bugs (#127)
+			Fixes deco placement offset * Anchor Pos Warning (#125)
+			Adds a warning and stops scan saving if Anchor Pos is set outside schematic to reduce issues * bandaid fix for structurename handling * fix accepting other Huts * hotfix #4688 * Feature / Fix: Manual AnchorPos Selection and Placeholder t (#124)
+			Changes proposed in this pull request: - Serialize and Deserialize AnchorPos in Blueprints - Allow manual selection of AnchorPos via ScanTool and Command - Render Red Box around AnchorPos in scans and Build Tool - Fix rotations on Placeholder Block - Fixes gradle publishing stuff Review please * hotfix exception with bamboo * Barrelblock (#123)
+			* Added deco barrel block
+			* Fix memory leak in rendering (#119)
+			*
+			Fix Data Generators, Run generators, And add Floating Carpets! (#117)
+			*
+			Fix Data Generators, Run then, And add Floating Carpets!
+			*
+			Forgot loot tables!
+			* Hotfix datafixer entities and tile entities
+			Don't try to fix non-minecraft things * Hotfix datafixer entities and tile entities * Added lineWidth setter. (#114) * Turn off completely * Merge remote-tracking branch 'origin/version/1.15' into version/1.15 * Fix light substitution block recipe * Fixing the Scissoring box position calculation on Macs (#111)
+			This adapts the calculation to using the Scaled height for the Y offset. Fixes the issues of Mac reporting display sizes wrong. * Fix text field select all/copy/paste/cut * hotfix loading with optifine * fix multiblock right click * Merge remote-tracking branch 'origin/version/1.15' into version/1.15 * Model Optimizations (#107)
+			Optimizes Multiblock model Fixes item display properties Updates the placeholder & substitution blocks to the 1.14+ texture for planks * hotfix item detection * Add not water error * fix #105
+
 		structurize-0.10.310-ALPHA.jar:
 			Minecolonies Changelog
 			Version: 0.10.310-ALPHA
@@ -1280,5 +1323,23 @@ Updated:
 			Misc:
 			-Forge 1.15.2-31.1.29 pushed a fix for the server.properties so that it now actually works! Put "level-type=ultra_amplified" into the server.properties to generate a world using Ultra Amplified worldtype! As of now, "use-modded-worldtype=ultra-amplified" entry is no longer supported.
 			-Fix en_us.json translation for some biomes.
+
+Removed:
+- Angel Ring
+- Better Bedrock Generator
+- CapabilityProxy
+- Colytra
+- Cooking for Blockheads
+- FastWorkbench
+- JEITweaker
+- Mekanism
+- Neat
+- Refined Storage Addons
+- Server Tab Info
+- Softer Hay Bales
+- Spice of Life: Carrot Edition
+- StoneCatalysts
+- The One Probe
+- Torch Slabs Mod
 
 Generated using [ChangelogGenerator 2.0.0-pre3](https://github.com/TheRandomLabs/ChangelogGenerator).
