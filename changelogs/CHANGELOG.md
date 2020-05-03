@@ -1,6 +1,6 @@
 ## 0.4.9 - The Ore Update
 
-*Using Forge-1.15.2-31.1.46*
+*Using Forge-1.15.2-31.1.63*
 
 
 
@@ -10,21 +10,42 @@
 
 **Mod Additions**
 
-- 
+- Just Enough Resources [\#265](https://github.com/NillerMedDild/Enigmatica5/issues/265)
+- Passable Foliage [\#260](https://github.com/NillerMedDild/Enigmatica5/issues/260)
+- Tinkers' Mechworks \(Drawbridges \o/\) [\#252](https://github.com/NillerMedDild/Enigmatica5/issues/252)
+- Borderless Window [\#251](https://github.com/NillerMedDild/Enigmatica5/issues/251)
+- Simply Trophies [\#250](https://github.com/NillerMedDild/Enigmatica5/issues/250)
+- Ender Mail [\#246](https://github.com/NillerMedDild/Enigmatica5/issues/246)
+- Reload Audio Driver [\#241](https://github.com/NillerMedDild/Enigmatica5/issues/241)
+- Stronger Snowballs [\#236](https://github.com/NillerMedDild/Enigmatica5/issues/236)
+- Cauldron Recipes [\#235](https://github.com/NillerMedDild/Enigmatica5/issues/235)
+- Dark Paintings [\#234](https://github.com/NillerMedDild/Enigmatica5/issues/234)
+- Bedspreads [\#229](https://github.com/NillerMedDild/Enigmatica5/issues/229)
 
 **Changes** 
 
-- Completely overhauled ore generation!
+- Completely overhauled ore generation! (Only spawns in new chunks)
   - Far less clutter (Diorite, Andesite, Granite, Marble, Limestone...)
   - Higher chances of finding ores
   - Huge ore veins scattered throughout the world. Find traces of them on the surface!
 - MineColonies: Turned off Colony protection, please use FTB Claims instead.
   - Explosion Protection in MineColonies is still enabled
+- MineColonies: Enabled player-made schematics
 - Quark: Pistons can no longer push tile entities. It's a bit too risky to have enabled in a modpack.
+- Sticky Piston Shapeless Recipe [\#258](https://github.com/NillerMedDild/Enigmatica5/issues/258)
+- Reconfigure The One Probe Box Style and Placement [\#263](https://github.com/NillerMedDild/Enigmatica5/issues/263)
 
 **Bug fixes**
 
-- 
+- Putting any item from Industrial foregoing into the crafting grid crashes on servers [\#262](https://github.com/NillerMedDild/Enigmatica5/issues/262)
+- Nature's Aura - Recipe for Token of Joy expects small flowers, MC lists this as 'emptytag' - Cosmetic issue only [\#256](https://github.com/NillerMedDild/Enigmatica5/issues/256)
+- RFTools Builder with MineColony [\#245](https://github.com/NillerMedDild/Enigmatica5/issues/245)
+- The game crashed whilst ticking entity Error: java.lang.StackOverflowError: Ticking entity [\#242](https://github.com/NillerMedDild/Enigmatica5/issues/242)
+- The game crashed whilst rendering block entity Error: java.lang.IllegalArgumentException: Cannot use model data for a world other than the current client world [\#240](https://github.com/NillerMedDild/Enigmatica5/issues/240)
+- Fixed Crafting Table Recipe Dupe [\#230](https://github.com/NillerMedDild/Enigmatica5/issues/230)
+- Drag/Pan/Scroll slow in fullscreen Journeymap [\#222](https://github.com/NillerMedDild/Enigmatica5/issues/222)
+
+
 
 ## Enigmatica 5 v0.4.8
 
