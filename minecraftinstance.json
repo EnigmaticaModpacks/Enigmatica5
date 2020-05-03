@@ -30,7 +30,7 @@
   "isUnlocked": true,
   "javaArgsOverride": null,
   "javaDirOverride": null,
-  "lastPlayed": "2020-05-03T20:05:21.4206317Z",
+  "lastPlayed": "2020-05-03T20:44:01.0288182Z",
   "manifest": null,
   "fileDate": "0001-01-01T00:00:00",
   "installedModpack": null,
@@ -179,6 +179,21 @@
       "queryTimestamp": "2020-05-03T10:59:17.3257713Z",
       "fileCount": 1,
       "fileSize": 10795
+    },
+    {
+      "folderName": "industrial-foregoing-1.15.2-2.3.0-6f57752.jar",
+      "fingerprint": 329891105,
+      "fileDateHash": 3467474465,
+      "sectionID": 8,
+      "individualFingerprints": [
+        329891105
+      ],
+      "status": 1,
+      "timestamp": "2020-05-03T20:27:12.6180383Z",
+      "lastWriteTimeUtc": "2020-05-03T20:04:54.6782977Z",
+      "queryTimestamp": "2020-05-03T20:27:13.4548707Z",
+      "fileCount": 1,
+      "fileSize": 1364196
     },
     {
       "folderName": "xnet-1.15-2.0.2-alpha.jar",
@@ -790,21 +805,6 @@
       "fileSize": 862481
     },
     {
-      "folderName": "industrial-foregoing-1.15.2-2.2.2-28d4a81.jar",
-      "fingerprint": 3572556676,
-      "fileDateHash": 520091212,
-      "sectionID": 8,
-      "individualFingerprints": [
-        3572556676
-      ],
-      "status": 1,
-      "timestamp": "2020-03-28T09:44:04.2379313Z",
-      "lastWriteTimeUtc": "2020-03-15T18:53:32.9215718Z",
-      "queryTimestamp": "2020-05-03T10:59:17.3327519Z",
-      "fileCount": 1,
-      "fileSize": 1283484
-    },
-    {
       "folderName": "NetherPortalFix_1.15.2-6.0.2.jar",
       "fingerprint": 1432536888,
       "fileDateHash": 2742787723,
@@ -1147,6 +1147,21 @@
       "fileSize": 325918
     },
     {
+      "folderName": "corail_woodcutter-1.1.3-1.15.2.jar",
+      "fingerprint": 4213660269,
+      "fileDateHash": 181100194,
+      "sectionID": 8,
+      "individualFingerprints": [
+        4213660269
+      ],
+      "status": 1,
+      "timestamp": "2020-05-03T20:27:12.6140759Z",
+      "lastWriteTimeUtc": "2020-05-03T20:04:14.0563303Z",
+      "queryTimestamp": "2020-05-03T20:27:13.4678355Z",
+      "fileCount": 1,
+      "fileSize": 294714
+    },
+    {
       "folderName": "journeymap-1.15.2-5.7.0b2.jar",
       "fingerprint": 347004342,
       "fileDateHash": 1852881290,
@@ -1175,6 +1190,21 @@
       "queryTimestamp": "2020-05-03T10:59:17.3397074Z",
       "fileCount": 1,
       "fileSize": 276526
+    },
+    {
+      "folderName": "FarmingForBlockheads_1.15.2-6.1.2.jar",
+      "fingerprint": 1988291435,
+      "fileDateHash": 3091128422,
+      "sectionID": 8,
+      "individualFingerprints": [
+        1988291435
+      ],
+      "status": 1,
+      "timestamp": "2020-05-03T20:27:12.6160714Z",
+      "lastWriteTimeUtc": "2020-05-03T20:04:36.328924Z",
+      "queryTimestamp": "2020-05-03T20:27:13.4688328Z",
+      "fileCount": 1,
+      "fileSize": 276789
     },
     {
       "folderName": "vanillathings-1.15.2-0.5.7.jar",
@@ -1523,37 +1553,33 @@
     },
     {
       "folderName": "Test World 1",
-      "fingerprint": 3632737765,
-      "fileDateHash": 2011435389,
+      "fingerprint": 736624672,
+      "fileDateHash": 3367408173,
       "sectionID": 10,
       "individualFingerprints": [
         47316383,
         53770214,
-        62468669,
         80383583,
         83699469,
         105246270,
-        262183946,
+        173359904,
         313647334,
         323113851,
         339853837,
-        383775244,
         421096487,
         451381081,
         500036828,
         513901282,
-        563128768,
         587825979,
+        605164534,
+        658622439,
         735438103,
         736896247,
-        744820699,
         763558043,
         775777590,
-        784308987,
+        786153566,
         812326908,
         815673601,
-        890287661,
-        906252284,
         943258501,
         947816226,
         952721532,
@@ -1561,6 +1587,7 @@
         1081268576,
         1170925343,
         1213634163,
+        1350768375,
         1367033121,
         1410249551,
         1413349738,
@@ -1573,7 +1600,9 @@
         1636033102,
         1681925683,
         1722796223,
+        1750410347,
         1783675463,
+        1795561976,
         1878786507,
         1891027954,
         1910053944,
@@ -1588,18 +1617,19 @@
         2309012972,
         2333927826,
         2335654516,
+        2354001212,
         2369659789,
-        2415207248,
+        2387691802,
         2438022517,
         2449411464,
         2494630940,
         2533287518,
         2573305100,
         2606578860,
+        2638462243,
         2653844868,
         2670177609,
         2679129719,
-        2691349406,
         2702430682,
         2742819483,
         2830244769,
@@ -1621,16 +1651,16 @@
         3302304433,
         3304726587,
         3331629385,
-        3362288432,
         3385462366,
         3393879148,
+        3411021570,
         3455094712,
         3477540866,
         3515770741,
         3519701472,
         3539715401,
         3622914299,
-        3771035185,
+        3763400937,
         3771282984,
         3771282984,
         3771282984,
@@ -1644,13 +1674,14 @@
         3771282984,
         3771282984,
         3779001161,
+        3810563219,
         3823137669,
         3833811367,
         3909022314,
+        3920705626,
         3941695100,
         4065291099,
         4076085123,
-        4077942231,
         4149691933,
         4150065028,
         4152640627,
@@ -1659,9 +1690,9 @@
         4222569756
       ],
       "status": 1,
-      "timestamp": "2020-05-03T20:03:05.8323497Z",
-      "lastWriteTimeUtc": "2020-05-03T20:03:04.9426889Z",
-      "queryTimestamp": "2020-05-03T20:03:07.3931467Z",
+      "timestamp": "2020-05-03T20:27:12.6310037Z",
+      "lastWriteTimeUtc": "2020-05-03T20:27:12.089276Z",
+      "queryTimestamp": "2020-05-03T20:27:13.477809Z",
       "fileCount": 19,
       "fileSize": 0
     },
@@ -1930,21 +1961,6 @@
       "fileSize": 999151
     },
     {
-      "folderName": "corail_woodcutter-1.1.2-1.15.2.jar",
-      "fingerprint": 2096500893,
-      "fileDateHash": 630243304,
-      "sectionID": 8,
-      "individualFingerprints": [
-        2096500893
-      ],
-      "status": 1,
-      "timestamp": "2020-04-26T19:02:29.0984888Z",
-      "lastWriteTimeUtc": "2020-04-26T18:48:41.0300706Z",
-      "queryTimestamp": "2020-05-03T10:59:17.3536962Z",
-      "fileCount": 1,
-      "fileSize": 297943
-    },
-    {
       "folderName": "inventorysorter-1.15.2-17.0.0.jar",
       "fingerprint": 3817266820,
       "fileDateHash": 2449183541,
@@ -2065,6 +2081,21 @@
       "fileSize": 453054
     },
     {
+      "folderName": "titanium-1.15.2-2.4.0.jar",
+      "fingerprint": 1336594241,
+      "fileDateHash": 2579333402,
+      "sectionID": 8,
+      "individualFingerprints": [
+        1336594241
+      ],
+      "status": 1,
+      "timestamp": "2020-05-03T20:27:12.6270144Z",
+      "lastWriteTimeUtc": "2020-05-03T20:05:09.6984762Z",
+      "queryTimestamp": "2020-05-03T20:27:13.4857876Z",
+      "fileCount": 1,
+      "fileSize": 532480
+    },
+    {
       "folderName": "borderless-1.15.2-1.0.1.jar",
       "fingerprint": 1857324653,
       "fileDateHash": 4265959605,
@@ -2168,21 +2199,6 @@
       "queryTimestamp": "2020-05-03T10:59:17.3586828Z",
       "fileCount": 1,
       "fileSize": 232016
-    },
-    {
-      "folderName": "FarmingForBlockheads_1.15.2-6.1.1.jar",
-      "fingerprint": 850778617,
-      "fileDateHash": 556503819,
-      "sectionID": 8,
-      "individualFingerprints": [
-        850778617
-      ],
-      "status": 1,
-      "timestamp": "2020-05-02T10:38:45.4125546Z",
-      "lastWriteTimeUtc": "2020-04-30T18:18:55.8935358Z",
-      "queryTimestamp": "2020-05-03T10:59:17.3586828Z",
-      "fileCount": 1,
-      "fileSize": 276491
     },
     {
       "folderName": "GameStages-1.15.2-5.0.2.jar",
@@ -3841,21 +3857,6 @@
       "fileSize": 17913
     },
     {
-      "folderName": "ftb-teams-1.0.0.5.jar",
-      "fingerprint": 189208950,
-      "fileDateHash": 2046292894,
-      "sectionID": 8,
-      "individualFingerprints": [
-        189208950
-      ],
-      "status": 1,
-      "timestamp": "2020-03-28T09:44:04.2359013Z",
-      "lastWriteTimeUtc": "2020-03-11T20:14:15.2424897Z",
-      "queryTimestamp": "2020-05-03T10:59:17.3935996Z",
-      "fileCount": 1,
-      "fileSize": 56385
-    },
-    {
       "folderName": "rftoolspower-1.15-2.0.1-alpha.jar",
       "fingerprint": 1513324104,
       "fileDateHash": 2739346509,
@@ -3869,6 +3870,21 @@
       "queryTimestamp": "2020-05-03T10:59:17.392602Z",
       "fileCount": 1,
       "fileSize": 245889
+    },
+    {
+      "folderName": "ftb-teams-1.0.0.5.jar",
+      "fingerprint": 189208950,
+      "fileDateHash": 2046292894,
+      "sectionID": 8,
+      "individualFingerprints": [
+        189208950
+      ],
+      "status": 1,
+      "timestamp": "2020-03-28T09:44:04.2359013Z",
+      "lastWriteTimeUtc": "2020-03-11T20:14:15.2424897Z",
+      "queryTimestamp": "2020-05-03T10:59:17.3935996Z",
+      "fileCount": 1,
+      "fileSize": 56385
     },
     {
       "folderName": "swingthroughgrass-1.15.2-1.4.0.jar",
@@ -3886,21 +3902,6 @@
       "fileSize": 22255
     },
     {
-      "folderName": "MekanismGenerators-1.15.2-9.10.1.414.jar",
-      "fingerprint": 3040440593,
-      "fileDateHash": 4255567069,
-      "sectionID": 8,
-      "individualFingerprints": [
-        3040440593
-      ],
-      "status": 1,
-      "timestamp": "2020-04-23T19:27:09.0316229Z",
-      "lastWriteTimeUtc": "2020-04-23T18:00:26.4467268Z",
-      "queryTimestamp": "2020-05-03T10:59:17.3945975Z",
-      "fileCount": 1,
-      "fileSize": 817096
-    },
-    {
       "folderName": "incontrol-1.15-4.0.3.jar",
       "fingerprint": 2883953084,
       "fileDateHash": 858626646,
@@ -3914,6 +3915,21 @@
       "queryTimestamp": "2020-05-03T10:59:17.3935996Z",
       "fileCount": 1,
       "fileSize": 138727
+    },
+    {
+      "folderName": "MekanismGenerators-1.15.2-9.10.1.414.jar",
+      "fingerprint": 3040440593,
+      "fileDateHash": 4255567069,
+      "sectionID": 8,
+      "individualFingerprints": [
+        3040440593
+      ],
+      "status": 1,
+      "timestamp": "2020-04-23T19:27:09.0316229Z",
+      "lastWriteTimeUtc": "2020-04-23T18:00:26.4467268Z",
+      "queryTimestamp": "2020-05-03T10:59:17.3945975Z",
+      "fileCount": 1,
+      "fileSize": 817096
     },
     {
       "folderName": "simplybackpacks-1.15.2-1.4.5.jar",
@@ -3946,21 +3962,6 @@
       "fileSize": 999101
     },
     {
-      "folderName": "softerhayb_1.15.2-1.0.jar",
-      "fingerprint": 656277249,
-      "fileDateHash": 3734993985,
-      "sectionID": 8,
-      "individualFingerprints": [
-        656277249
-      ],
-      "status": 1,
-      "timestamp": "2020-03-28T09:44:04.5767988Z",
-      "lastWriteTimeUtc": "2020-03-16T20:42:32.7893485Z",
-      "queryTimestamp": "2020-05-03T10:59:17.3955933Z",
-      "fileCount": 1,
-      "fileSize": 4387
-    },
-    {
       "folderName": "DangerousStoneCutter-1.15.1-1.2.0.jar",
       "fingerprint": 2887421086,
       "fileDateHash": 1917062010,
@@ -3976,6 +3977,21 @@
       "fileSize": 7772
     },
     {
+      "folderName": "softerhayb_1.15.2-1.0.jar",
+      "fingerprint": 656277249,
+      "fileDateHash": 3734993985,
+      "sectionID": 8,
+      "individualFingerprints": [
+        656277249
+      ],
+      "status": 1,
+      "timestamp": "2020-03-28T09:44:04.5767988Z",
+      "lastWriteTimeUtc": "2020-03-16T20:42:32.7893485Z",
+      "queryTimestamp": "2020-05-03T10:59:17.3955933Z",
+      "fileCount": 1,
+      "fileSize": 4387
+    },
+    {
       "folderName": "StorageDrawers-1.15.2-7.0.2.jar",
       "fingerprint": 4282917185,
       "fileDateHash": 991308459,
@@ -3989,21 +4005,6 @@
       "queryTimestamp": "2020-05-03T10:59:17.3955933Z",
       "fileCount": 1,
       "fileSize": 487627
-    },
-    {
-      "folderName": "titanium-1.15.2-2.3.7.jar",
-      "fingerprint": 3367438157,
-      "fileDateHash": 1205231873,
-      "sectionID": 8,
-      "individualFingerprints": [
-        3367438157
-      ],
-      "status": 1,
-      "timestamp": "2020-03-28T09:44:04.6097519Z",
-      "lastWriteTimeUtc": "2020-03-15T18:59:45.5915616Z",
-      "queryTimestamp": "2020-05-03T10:59:17.3965554Z",
-      "fileCount": 1,
-      "fileSize": 502583
     },
     {
       "folderName": "World-Stripper-1.7.2-1.15.1.jar",
@@ -11751,27 +11752,27 @@
       "addonID": 298744,
       "gameInstanceID": "6273223f-12e2-4cf4-9063-fc2c8dadd1d3",
       "installedFile": {
-        "id": 2947431,
-        "displayName": "structurize-0.10.311-RELEASE.jar",
-        "fileName": "structurize-0.10.311-RELEASE.jar",
-        "fileDate": "2020-05-03T16:59:45.4Z",
-        "fileLength": 4734070,
+        "id": 2947588,
+        "displayName": "structurize-0.10.313-RELEASE.jar",
+        "fileName": "structurize-0.10.313-RELEASE.jar",
+        "fileDate": "2020-05-03T20:18:18.537Z",
+        "fileLength": 4986608,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2947/431/structurize-0.10.311-RELEASE.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/2947/588/structurize-0.10.313-RELEASE.jar",
         "isAlternate": false,
-        "alternateFileId": 2947432,
+        "alternateFileId": 2947589,
         "dependencies": [],
         "isAvailable": true,
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 1636689566,
+            "fingerprint": 1104501172,
             "type": 0
           },
           {
             "foldername": "com",
-            "fingerprint": 3491846300,
+            "fingerprint": 2700116235,
             "type": 0
           },
           {
@@ -11781,16 +11782,16 @@
           },
           {
             "foldername": "assets",
-            "fingerprint": 1514233201,
+            "fingerprint": 3600114062,
             "type": 0
           },
           {
             "foldername": "data",
-            "fingerprint": 3873735575,
+            "fingerprint": 3900363599,
             "type": 0
           }
         ],
-        "packageFingerprint": 848734973,
+        "packageFingerprint": 4013214431,
         "gameVersion": [
           "1.15.2"
         ],
@@ -11803,11 +11804,11 @@
         "gameVersionDateReleased": "2008-03-01T06:00:00Z",
         "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "structurize-0.10.311-RELEASE.jar"
+        "FileNameOnDisk": "structurize-0.10.313-RELEASE.jar"
       },
       "dateInstalled": "2020-03-28T09:44:06.1512352Z",
-      "dateUpdated": "2020-05-03T18:19:55.4220786Z",
-      "dateLastUpdateAttempted": "2020-05-03T18:19:55.4220786Z",
+      "dateUpdated": "2020-05-03T20:42:47.8792392Z",
+      "dateLastUpdateAttempted": "2020-05-03T20:42:47.8792392Z",
       "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
@@ -20080,73 +20081,6 @@
       "installedTargets": null
     },
     {
-      "addonID": 283644,
-      "gameInstanceID": "6273223f-12e2-4cf4-9063-fc2c8dadd1d3",
-      "installedFile": {
-        "id": 2870411,
-        "displayName": "Placebo-1.15.2-3.0.2.jar",
-        "fileName": "Placebo-1.15.2-3.0.2.jar",
-        "fileDate": "2020-01-27T19:40:58.457Z",
-        "fileLength": 95444,
-        "releaseType": 1,
-        "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2870/411/Placebo-1.15.2-3.0.2.jar",
-        "isAlternate": false,
-        "alternateFileId": 0,
-        "dependencies": [],
-        "isAvailable": true,
-        "modules": [
-          {
-            "foldername": "META-INF",
-            "fingerprint": 3105682521,
-            "type": 0
-          },
-          {
-            "foldername": "shadows",
-            "fingerprint": 3752561065,
-            "type": 0
-          },
-          {
-            "foldername": "javascript",
-            "fingerprint": 2529988588,
-            "type": 0
-          },
-          {
-            "foldername": "pack.mcmeta",
-            "fingerprint": 3099375411,
-            "type": 0
-          }
-        ],
-        "packageFingerprint": 79463509,
-        "gameVersion": [
-          "1.15.2"
-        ],
-        "hasInstallScript": false,
-        "isCompatibleWithClient": false,
-        "categorySectionPackageType": 0,
-        "restrictProjectFileAccess": 0,
-        "projectStatus": 0,
-        "projectId": 0,
-        "gameVersionDateReleased": "2020-01-22T00:00:00Z",
-        "gameId": 0,
-        "isServerPack": false,
-        "FileNameOnDisk": "Placebo-1.15.2-3.0.2.jar"
-      },
-      "dateInstalled": "2020-01-31T19:36:24.3882919Z",
-      "dateUpdated": "2020-01-31T19:36:24.3882919Z",
-      "dateLastUpdateAttempted": "2020-01-31T19:36:24.3882919Z",
-      "status": 5,
-      "preferenceAutoInstallUpdates": false,
-      "preferenceAlternateFile": false,
-      "preferenceIsIgnored": false,
-      "isModified": false,
-      "isWorkingCopy": false,
-      "isFuzzyMatch": false,
-      "preferenceReleaseType": null,
-      "manifestName": null,
-      "installedTargets": null
-    },
-    {
       "addonID": 324973,
       "gameInstanceID": "6273223f-12e2-4cf4-9063-fc2c8dadd1d3",
       "installedFile": {
@@ -20210,6 +20144,73 @@
       "dateInstalled": "2020-03-12T19:18:50.7383359Z",
       "dateUpdated": "2020-03-12T19:18:50.7403302Z",
       "dateLastUpdateAttempted": "2020-03-12T19:18:50.7403302Z",
+      "status": 5,
+      "preferenceAutoInstallUpdates": false,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": null
+    },
+    {
+      "addonID": 283644,
+      "gameInstanceID": "6273223f-12e2-4cf4-9063-fc2c8dadd1d3",
+      "installedFile": {
+        "id": 2870411,
+        "displayName": "Placebo-1.15.2-3.0.2.jar",
+        "fileName": "Placebo-1.15.2-3.0.2.jar",
+        "fileDate": "2020-01-27T19:40:58.457Z",
+        "fileLength": 95444,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/2870/411/Placebo-1.15.2-3.0.2.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 3105682521,
+            "type": 0
+          },
+          {
+            "foldername": "shadows",
+            "fingerprint": 3752561065,
+            "type": 0
+          },
+          {
+            "foldername": "javascript",
+            "fingerprint": 2529988588,
+            "type": 0
+          },
+          {
+            "foldername": "pack.mcmeta",
+            "fingerprint": 3099375411,
+            "type": 0
+          }
+        ],
+        "packageFingerprint": 79463509,
+        "gameVersion": [
+          "1.15.2"
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
+        "gameVersionDateReleased": "2020-01-22T00:00:00Z",
+        "gameId": 0,
+        "isServerPack": false,
+        "FileNameOnDisk": "Placebo-1.15.2-3.0.2.jar"
+      },
+      "dateInstalled": "2020-01-31T19:36:24.3882919Z",
+      "dateUpdated": "2020-01-31T19:36:24.3882919Z",
+      "dateLastUpdateAttempted": "2020-01-31T19:36:24.3882919Z",
       "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
@@ -20357,6 +20358,93 @@
       "installedTargets": null
     },
     {
+      "addonID": 308240,
+      "gameInstanceID": "6273223f-12e2-4cf4-9063-fc2c8dadd1d3",
+      "installedFile": {
+        "id": 2881912,
+        "displayName": "cherishedworlds-FORGE-1.15.2-3.0.jar",
+        "fileName": "cherishedworlds-FORGE-1.15.2-3.0.jar",
+        "fileDate": "2020-02-15T02:20:34.303Z",
+        "fileLength": 30710,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/2881/912/cherishedworlds-FORGE-1.15.2-3.0.jar",
+        "isAlternate": false,
+        "alternateFileId": 2881913,
+        "dependencies": [],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 384667648,
+            "type": 0
+          },
+          {
+            "foldername": "top",
+            "fingerprint": 3576493076,
+            "type": 0
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 984209658,
+            "type": 0
+          },
+          {
+            "foldername": "CHANGELOG.md",
+            "fingerprint": 1784336708,
+            "type": 0
+          },
+          {
+            "foldername": "cherishedworlds_icon.png",
+            "fingerprint": 1157943607,
+            "type": 0
+          },
+          {
+            "foldername": "licenses",
+            "fingerprint": 641710301,
+            "type": 0
+          },
+          {
+            "foldername": "pack.mcmeta",
+            "fingerprint": 966890514,
+            "type": 0
+          },
+          {
+            "foldername": "README.md",
+            "fingerprint": 472199473,
+            "type": 0
+          }
+        ],
+        "packageFingerprint": 3558417879,
+        "gameVersion": [
+          "1.15.2"
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
+        "gameVersionDateReleased": "2008-03-01T06:00:00Z",
+        "gameId": 0,
+        "isServerPack": false,
+        "FileNameOnDisk": "cherishedworlds-FORGE-1.15.2-3.0.jar"
+      },
+      "dateInstalled": "2020-02-15T19:18:33.6570959Z",
+      "dateUpdated": "2020-02-15T19:18:33.7516198Z",
+      "dateLastUpdateAttempted": "2020-02-15T19:18:33.7516198Z",
+      "status": 5,
+      "preferenceAutoInstallUpdates": false,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": null
+    },
+    {
       "addonID": 298187,
       "gameInstanceID": "6273223f-12e2-4cf4-9063-fc2c8dadd1d3",
       "installedFile": {
@@ -20490,93 +20578,6 @@
       "dateInstalled": "2020-03-29T18:49:23.8876069Z",
       "dateUpdated": "2020-04-30T18:17:46.0785218Z",
       "dateLastUpdateAttempted": "2020-04-30T18:17:46.0785218Z",
-      "status": 5,
-      "preferenceAutoInstallUpdates": false,
-      "preferenceAlternateFile": false,
-      "preferenceIsIgnored": false,
-      "isModified": false,
-      "isWorkingCopy": false,
-      "isFuzzyMatch": false,
-      "preferenceReleaseType": null,
-      "manifestName": null,
-      "installedTargets": null
-    },
-    {
-      "addonID": 308240,
-      "gameInstanceID": "6273223f-12e2-4cf4-9063-fc2c8dadd1d3",
-      "installedFile": {
-        "id": 2881912,
-        "displayName": "cherishedworlds-FORGE-1.15.2-3.0.jar",
-        "fileName": "cherishedworlds-FORGE-1.15.2-3.0.jar",
-        "fileDate": "2020-02-15T02:20:34.303Z",
-        "fileLength": 30710,
-        "releaseType": 1,
-        "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2881/912/cherishedworlds-FORGE-1.15.2-3.0.jar",
-        "isAlternate": false,
-        "alternateFileId": 2881913,
-        "dependencies": [],
-        "isAvailable": true,
-        "modules": [
-          {
-            "foldername": "META-INF",
-            "fingerprint": 384667648,
-            "type": 0
-          },
-          {
-            "foldername": "top",
-            "fingerprint": 3576493076,
-            "type": 0
-          },
-          {
-            "foldername": "assets",
-            "fingerprint": 984209658,
-            "type": 0
-          },
-          {
-            "foldername": "CHANGELOG.md",
-            "fingerprint": 1784336708,
-            "type": 0
-          },
-          {
-            "foldername": "cherishedworlds_icon.png",
-            "fingerprint": 1157943607,
-            "type": 0
-          },
-          {
-            "foldername": "licenses",
-            "fingerprint": 641710301,
-            "type": 0
-          },
-          {
-            "foldername": "pack.mcmeta",
-            "fingerprint": 966890514,
-            "type": 0
-          },
-          {
-            "foldername": "README.md",
-            "fingerprint": 472199473,
-            "type": 0
-          }
-        ],
-        "packageFingerprint": 3558417879,
-        "gameVersion": [
-          "1.15.2"
-        ],
-        "hasInstallScript": false,
-        "isCompatibleWithClient": false,
-        "categorySectionPackageType": 0,
-        "restrictProjectFileAccess": 0,
-        "projectStatus": 0,
-        "projectId": 0,
-        "gameVersionDateReleased": "2008-03-01T06:00:00Z",
-        "gameId": 0,
-        "isServerPack": false,
-        "FileNameOnDisk": "cherishedworlds-FORGE-1.15.2-3.0.jar"
-      },
-      "dateInstalled": "2020-02-15T19:18:33.6570959Z",
-      "dateUpdated": "2020-02-15T19:18:33.7516198Z",
-      "dateLastUpdateAttempted": "2020-02-15T19:18:33.7516198Z",
       "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
