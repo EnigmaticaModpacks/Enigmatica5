@@ -391,6 +391,23 @@ var materials as MCTag[string][string] = {
         "crystal": <tag:forge:crystals/bismuth_brass>,
     },
 
+    "steel": {
+        "nugget": <tag:forge:nuggets/steel>,
+        "ingot": <tag:forge:ingots/steel>,
+        "gem": <tag:forge:gems/steel>,
+        "storage_block": <tag:forge:storage_blocks/steel>,
+        "ore": <tag:forge:ores/steel>,
+        "ore_deposits": <tag:forge:ore_deposits/steel>,
+        "dust": <tag:forge:dusts/steel>,
+        "gear": <tag:forge:gears/steel>,
+        "plate": <tag:forge:plates/steel>,
+        "rod": <tag:forge:rods/steel>,
+        "dirty_dust": <tag:forge:dirty_dusts/steel>,
+        "clump": <tag:forge:clumps/steel>,
+        "shard": <tag:forge:shards/steel>,
+        "crystal": <tag:forge:crystals/steel>,
+    },
+
     "aluminum_steel": {
         "nugget": <tag:forge:nuggets/aluminum_steel>,
         "ingot": <tag:forge:ingots/aluminum_steel>,

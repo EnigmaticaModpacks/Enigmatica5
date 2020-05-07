@@ -331,7 +331,7 @@ public function mekanism_injecting_shard_from_crystal(material as string) as voi
     logger.info("mekanism_injecting_shard_from_crystal with " + material + " succesfully ran!");
 }
 
-function addCrushingRecipes(material as string) as void {
+public function enigmatica_ore_deposit_processing(material as string) as void {
     var ore_deposit_tag = BracketHandlers.getTag("forge:ore_deposits/" + material);
     var nugget_tag = BracketHandlers.getTag("forge:nuggets/" + material);
     var dust_tag = BracketHandlers.getTag("forge:dusts/" + material);
