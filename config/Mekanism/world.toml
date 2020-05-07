@@ -24,7 +24,7 @@
 	#Generation Settings for tin ore.
 	[world_generation.tin]
 		#Chance that tin generates in a chunk.
-		#Range: 1 ~ 65536
+		#Range: 1 ~ 512
 		perChunk = 14
 		#Top offset for calculating height that veins of tin can spawn. Height is calculated by: random.nextInt(maxHeight - topOffset) + bottomOffset
 		topOffset = 0
@@ -36,13 +36,13 @@
 		#Determines if tin ore should be added to world generation.
 		shouldGenerate = false
 		#Maximum number of blocks in a vein of tin.
-		#Range: 1 ~ 65536
+		#Range: 1 ~ 512
 		maxVeinSize = 8
 
 	#Generation Settings for copper ore.
 	[world_generation.copper]
 		#Chance that copper generates in a chunk.
-		#Range: 1 ~ 65536
+		#Range: 1 ~ 512
 		perChunk = 16
 		#Top offset for calculating height that veins of copper can spawn. Height is calculated by: random.nextInt(maxHeight - topOffset) + bottomOffset
 		topOffset = 0
@@ -54,13 +54,13 @@
 		#Determines if copper ore should be added to world generation.
 		shouldGenerate = false
 		#Maximum number of blocks in a vein of copper.
-		#Range: 1 ~ 65536
+		#Range: 1 ~ 512
 		maxVeinSize = 8
 
 	#Generation Settings for osmium ore.
 	[world_generation.osmium]
 		#Chance that osmium generates in a chunk.
-		#Range: 1 ~ 65536
+		#Range: 1 ~ 512
 		perChunk = 12
 		#Top offset for calculating height that veins of osmium can spawn. Height is calculated by: random.nextInt(maxHeight - topOffset) + bottomOffset
 		topOffset = 0
@@ -72,6 +72,6 @@
 		#Determines if osmium ore should be added to world generation.
 		shouldGenerate = false
 		#Maximum number of blocks in a vein of osmium.
-		#Range: 1 ~ 65536
+		#Range: 1 ~ 512
 		maxVeinSize = 8
 

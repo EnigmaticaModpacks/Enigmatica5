@@ -64,27 +64,27 @@
 
 	#Energy Conversion Rate Settings
 	[general.energy_conversion]
-		#Conversion multiplier from Forge Energy to Joules (FE * JoulesToForge = Joules)
-		JoulesToForge = "2.5000"
 		#Displayed energy type in Mekanism GUIs.
 		#Allowed Values: J, FE, EU
 		energyType = "FE"
-		#Conversion multiplier from Joules to EU (Joules * EUToJoules = EU)
-		EUToJoules = "0.1000"
-		#Conversion multiplier from EU to Joules (EU * JoulesToEU = Joules)
-		JoulesToEU = "10"
 		#Disables Forge Energy (FE,RF,IF,uF,CF) power integration. Requires world restart (server-side option in SMP).
 		blacklistForge = false
-		#Conversion multiplier from Joules to Forge Energy (Joules * ForgeToJoules = FE)
-		ForgeToJoules = "0.4000"
 		#Maximum Joules per mB of Steam. Also affects Thermoelectric Boiler.
 		maxEnergyPerSteam = "10"
+		#Conversion multiplier from Forge Energy to Joules (FE * JoulePerForgeEnergy = Joules)
+		JoulePerForgeEnergy = "2.5000"
 		#Disables Flux Networks higher throughput Forge Energy (FE,RF,IF,uF,CF) power integration. Requires world restart (server-side option in SMP). Note: Disabling Forge Energy integration also disables this.
 		blacklistFluxNetworks = false
+		#Conversion multiplier from EU to Joules (EU * JoulePerEU = Joules)
+		JoulePerEU = "10"
 		#Disables IC2 power integration. Requires world restart (server-side option in SMP).
 		blacklistIC2 = false
 		#Burn time for Ethylene (1mB hydrogen + 2*bioFuel/tick*200ticks/100mB * 20x efficiency bonus).
 		EthyleneBurnTime = 40
+		#Conversion multiplier from Joules to EU (Joules * EUPerJoule = EU)
+		EUPerJoule = "0.1000"
+		#Conversion multiplier from Joules to Forge Energy (Joules * ForgeEnergyPerJoule = FE)
+		ForgeEnergyPerJoule = "0.4000"
 		#How much energy is produced per mB of Hydrogen, also affects Electrolytic Separator usage, Ethylene burn rate and Gas generator energy capacity.
 		HydrogenEnergyDensity = "200"
 
