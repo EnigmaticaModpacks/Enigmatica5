@@ -1324,22 +1324,5 @@ Updated:
 			-Forge 1.15.2-31.1.29 pushed a fix for the server.properties so that it now actually works! Put "level-type=ultra_amplified" into the server.properties to generate a world using Ultra Amplified worldtype! As of now, "use-modded-worldtype=ultra-amplified" entry is no longer supported.
 			-Fix en_us.json translation for some biomes.
 
-Removed:
-- Angel Ring
-- Better Bedrock Generator
-- CapabilityProxy
-- Colytra
-- Cooking for Blockheads
-- FastWorkbench
-- JEITweaker
-- Mekanism
-- Neat
-- Refined Storage Addons
-- Server Tab Info
-- Softer Hay Bales
-- Spice of Life: Carrot Edition
-- StoneCatalysts
-- The One Probe
-- Torch Slabs Mod
 
 Generated using [ChangelogGenerator 2.0.0-pre3](https://github.com/TheRandomLabs/ChangelogGenerator).
