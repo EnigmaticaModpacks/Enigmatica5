@@ -27,6 +27,7 @@ $Metals = @(
     "signalum",
     "lumium",
     "enderium",
+    "steel",
 
     # Gems
     "diamond",
