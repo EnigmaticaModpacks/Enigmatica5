@@ -565,6 +565,8 @@
 	bookworm = ["minecraft:bookshelf*6"]
 	#minecolonies.config.magiccompost.comment
 	magiccompost = ["minecraft:wheat_seeds*2048"]
+	#minecolonies.config.whatyaneed.comment
+	whatyaneed = ["minecraft:redstone*64"]
 	#minecolonies.config.bonemeal.comment
 	bonemeal = ["minecraft:wheat_seeds*64"]
 	#minecolonies.config.growth.comment
