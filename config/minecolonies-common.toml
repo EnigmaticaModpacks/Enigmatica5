@@ -195,7 +195,7 @@
 	#Blocks players should be able to final ForgeConfigSpec.IntValueeract with in any colony (Ex vending machines)
 	freetointeractblocks = ["dirt", "0 0 0"]
 	#Should the colony protection be enabled? [Default: true]
-	enablecolonyprotection = false
+	enablecolonyprotection = true
 	#Independent from the colony protection, should explosions be turned off? [Default: true]
 	turnoffexplosionsincolonies = true
 	#Seconds between permission messages. [Default: 30]
@@ -555,6 +555,8 @@
 	captainoftheguard = ["minecraft:shield*64"]
 	#minecolonies.config.fertilizer.comment
 	fertilizer = ["minecraft:wheat_seeds*512"]
+	#minecolonies.config.stringwork.comment
+	stringwork = ["minecraft:string*16"]
 	#minecolonies.config.master.comment
 	master = ["minecraft:bookshelf*32"]
 	#minecolonies.config.parry.comment
