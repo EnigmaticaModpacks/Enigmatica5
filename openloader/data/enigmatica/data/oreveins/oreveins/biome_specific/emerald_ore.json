@@ -9,16 +9,14 @@
     "density": 200,
     "vertical_size": 2,
     "horizontal_size": 5,
-    "biomes": {
-        "biomes": [
-            {
-                "type": "tag",
-                "biomes": "mountain"
-            },
-            {
-                "type": "tag",
-                "biomes": "cold"
-            }
-        ]
-    }
+    "biomes": [
+        {
+            "type": "tag",
+            "biomes": "mountain"
+        },
+        {
+            "type": "tag",
+            "biomes": "cold"
+        }
+    ]
 }
