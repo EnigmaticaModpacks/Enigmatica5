@@ -1,6 +1,6 @@
 ## Enigmatica 5 v0.4.10
 
-*Using Forge-1.15.2-31.1.75*
+*Using Forge-1.15.2-31.1.79*
 
 
 
@@ -10,19 +10,20 @@
 
 **Mod Additions**
 
-- 
-
-**Mod Removals**
-
-* Autorun / Auto Sprint: Key Toggle
-* Bedspreads (Replaced by MultiBeds)
-* Borderless Window
-* Torch Slab Mod
+- MultiBeds [\#285](https://github.com/NillerMedDild/Enigmatica5/issues/285)
+- StepUp [\#284](https://github.com/NillerMedDild/Enigmatica5/issues/284)
+- PneumaticCraft: Repressurized [\#271](https://github.com/NillerMedDild/Enigmatica5/issues/271)
+- Occultism [\#268](https://github.com/NillerMedDild/Enigmatica5/issues/268)
+- Passable Foliage [\#260](https://github.com/NillerMedDild/Enigmatica5/issues/260)
 
 **Changes** 
 
 
 - MineColonies: Re-enabled Colony Protection to prevent a crash bug
+
+- Misc: Right-click Crop harvest drops are now more consistent
+
+- Misc: Wheat -\> Wheat Seeds Recipe [\#288](https://github.com/NillerMedDild/Enigmatica5/issues/288)
 
 - Ore Veins: Replaced normal Nether Quartz generation with custom generation
 
@@ -37,14 +38,26 @@
 
   You can hold shift to activate the items normal behaviour (sign editing / item frame rotating)
   
-  Misc: Right-click Crop harvest is now more consistent
+- Quark: Enable Quark Chest Searching [\#286](https://github.com/NillerMedDild/Enigmatica5/issues/286)
 
 **Bug fixes**
 
 - Ore Veins: Fixed Basalt Generation
 - Ore Veins: Fixed Huge Silver/Lead Veins not spawning
 - Ore Veins: Fixed Huge Emerald Veins not spawning
-- 
+- Issue w/ Tetra workbench - Will not display the 'basic handle' option in 0.4.9. in singleplayer world for double headed tools [\#282](https://github.com/NillerMedDild/Enigmatica5/issues/282)
+- FPS performance problem. [\#280](https://github.com/NillerMedDild/Enigmatica5/issues/280)
+- Disable TrueShot Enchant [\#276](https://github.com/NillerMedDild/Enigmatica5/issues/276)
+- Minecolonies protection crashes when opening old colonies [\#273](https://github.com/NillerMedDild/Enigmatica5/issues/273)
+- Dupe Glitch With Cyclic Pipes and Storage Drawers. [\#264](https://github.com/NillerMedDild/Enigmatica5/issues/264)
+- Steel messed up (Cannot repair Mekanism tools with steel from other mods) [\#270](https://github.com/NillerMedDild/Enigmatica5/issues/270)
+
+**Mod Removals**
+
+* Autorun / Auto Sprint: Key Toggle
+* Bedspreads (Replaced by MultiBeds)
+* Borderless Window
+* Torch Slab Mod
 
 ## 0.4.9 - The Ore Update
 
