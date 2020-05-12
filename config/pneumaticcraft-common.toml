@@ -37,9 +37,6 @@
 	pneumatic_engine_efficiency = 40
 	#Can the Liquid Hopper absorb/dispense fluids into the world with a Dispenser Upgrade?
 	liquid_hopper_dispenser = true
-	#Thermal resistance between opposite faces of the Thermal Compressor. Higher values means heat leaks across (equalizes) more slowly, making the compressor better at converting heat differential to pressure.
-	#Range: 0.0 ~ 1.7976931348623157E308
-	thermal_compressor_thermal_resistance = 150.0
 	#Can the Omnidirectional Hopper dispense items into the world with a Dispenser Upgrade?
 	omni_hopper_dispenser = true
 	#Fuel usage / heat gen multiplier per speed upgrade: usage mult = speedUpgradeUsageMultiplier ^ num_of_speed_upgrades
