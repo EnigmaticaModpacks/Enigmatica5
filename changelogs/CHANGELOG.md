@@ -4,7 +4,7 @@
 
 
 
-*[Mod Updates](https://github.com/NillerMedDild/Enigmatica5/blob/master/changelogs/CHANGELOG_MODS_0.4.8.txt)*
+*[Mod Updates](https://github.com/NillerMedDild/Enigmatica5/blob/master/changelogs/CHANGELOG_MODS_0.4.10.txt)*
 
 
 
@@ -14,15 +14,36 @@
 
 **Mod Removals**
 
-* Borderless Window
 * Autorun / Auto Sprint: Key Toggle
+* Bedspreads (Replaced by MultiBeds)
+* Borderless Window
+* Torch Slab Mod
 
 **Changes** 
 
+
 - MineColonies: Re-enabled Colony Protection to prevent a crash bug
+
+- Ore Veins: Replaced normal Nether Quartz generation with custom generation
+
+- PassableLeaves: Leaves are only passable for Players
+
+- PassthroughSigns: The following items are now ignored if you click them while you're on blocks like chests:
+
+  - Banners
+  - Signs
+  - Paintings
+  - Item Frames
+
+  You can hold shift to activate the items normal behaviour (sign editing / item frame rotating)
+  
+  Misc: Right-click Crop harvest is now more consistent
 
 **Bug fixes**
 
+- Ore Veins: Fixed Basalt Generation
+- Ore Veins: Fixed Huge Silver/Lead Veins not spawning
+- Ore Veins: Fixed Huge Emerald Veins not spawning
 - 
 
 ## 0.4.9 - The Ore Update
