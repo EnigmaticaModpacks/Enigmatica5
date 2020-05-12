@@ -2,12 +2,12 @@
     "type": "sphere",
     "ore": "minecraft:nether_quartz_ore",
     "stone": "minecraft:netherrack",
-    "count": 14,
+    "count": 17,
     "rarity": 1,
-    "min_y": 3,
-    "max_y": 150,
-    "density": 130,
+    "min_y": 15,
+    "max_y": 130,
+    "density": 100,
     "vertical_size": 3,
     "horizontal_size": 3,
-    "dimensions": "minecraft:nether"
+    "dimensions": "minecraft:the_nether"
 }
