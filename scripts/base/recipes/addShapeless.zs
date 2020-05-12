@@ -43,7 +43,10 @@ var recipes as IIngredient[][IItemStack] = {
     [<item:minecraft:book>, <tag:forge:bookshelves>],
 
     <item:tetra:magmatic_cell> :
-    [<item:tetra:magmatic_cell>.withTag({Damage: 128}), <item:powah:capacitor_blazing>, <item:powah:capacitor_blazing>]
+    [<item:tetra:magmatic_cell>.withTag({Damage: 128}), <item:powah:capacitor_blazing>, <item:powah:capacitor_blazing>],
+
+    <item:minecraft:wheat_seeds> :
+    [<item:minecraft:wheat>]
 };
 
 for output, input in recipes {
