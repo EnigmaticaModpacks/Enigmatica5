@@ -13,5 +13,5 @@
 	#Range: 0 ~ 20
 	extraChunkRange = 0
 	#Vanilla ore gen to disable. Must be specified as a list of block states, i.e. minecraft:gold_ore, minecraft:iron_ore, etc.
-	disabledOres = ["minecraft:coal_ore", "minecraft:iron_ore", "minecraft:gold_ore", "minecraft:diamond_ore", "minecraft:lapis_ore", "minecraft:redstone_ore", "minecraft:diamond_ore", "minecraft:andesite", "minecraft:diorite", "minecraft:granite"]
+	disabledOres = ["minecraft:coal_ore", "minecraft:iron_ore", "minecraft:gold_ore", "minecraft:diamond_ore", "minecraft:lapis_ore", "minecraft:redstone_ore", "minecraft:diamond_ore", "minecraft:andesite", "minecraft:diorite", "minecraft:granite", "minecraft:nether_quartz_ore"]
 
