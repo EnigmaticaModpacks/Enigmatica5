@@ -3,6 +3,10 @@
         { "file": "packmode.js" },
         { "file": "constants.js" },
 
+        { "file": "unification/early-removals.js" },
+        { "file": "unification/unify-tags.js" },
+        { "file": "unification/add-processing.js" },
+
         { "file": "tags/blocks/forge/stones.js" },
         { "file": "tags/blocks/forge/ores.js" },
         { "file": "tags/blocks/forge/materials.js" },
@@ -23,6 +27,14 @@
         { "file": "tags/items/forge/planks.js" },
         { "file": "tags/items/forge/dusts.js" },
 
-        { "file": "recipes/replace_input.js" }
+        { "file": "recipes/base/replace_input.js" },
+        { "file": "recipes/base/shaped.js" },
+        { "file": "recipes/base/shapeless.js" },
+
+        { "file": "recipes/normal/shaped.js" },
+        { "file": "recipes/normal/shapeless.js" },
+
+        { "file": "recipes/expert/shaped.js" },
+        { "file": "recipes/expert/shapeless.js" }
     ]
 }
