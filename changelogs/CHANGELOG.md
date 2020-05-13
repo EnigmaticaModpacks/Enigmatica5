@@ -1,3 +1,37 @@
+## Enigmatica 5 v0.4.11
+
+*Using Forge-1.15.2-31.1.87*
+
+
+
+*[Mod Updates](https://github.com/NillerMedDild/Enigmatica5/blob/master/changelogs/CHANGELOG_MODS_0.4.11.txt)*
+
+
+
+**Mod Additions**
+
+- Inventory Tweaks Renewed [\#299](https://github.com/NillerMedDild/Enigmatica5/issues/299)
+- Psi [\#298](https://github.com/NillerMedDild/Enigmatica5/issues/298)
+
+**Changes** 
+
+
+- cannot pick simple farming berries with right click [\#297](https://github.com/NillerMedDild/Enigmatica5/issues/297)
+- Removed FTBQ until issue is resolved [\#296](https://github.com/NillerMedDild/Enigmatica5/issues/296)
+- Messed up Main Menu Buttons [\#294](https://github.com/NillerMedDild/Enigmatica5/issues/294)
+- (Re-fixed) Issue w/ Tetra workbench - Will not display the 'basic handle' option in 0.4.9. in singleplayer world for double headed tools [\#282](https://github.com/NillerMedDild/Enigmatica5/issues/282)
+
+**Bug fixes**
+
+- Occultism Crushing Produces Incorrect Dusts [\#303](https://github.com/NillerMedDild/Enigmatica5/issues/303)
+
+**Mod Removals**
+
+* Bedspread (Replaced by MultiBeds)
+* FTB Quests (Temporarily removed due to a bug)
+
+
+
 ## Enigmatica 5 v0.4.10
 
 *Using Forge-1.15.2-31.1.79*
@@ -20,24 +54,16 @@
 
 
 - MineColonies: Re-enabled Colony Protection to prevent a crash bug
-
 - Misc: Right-click Crop harvest drops are now more consistent
-
 - Misc: Wheat -\> Wheat Seeds Recipe [\#288](https://github.com/NillerMedDild/Enigmatica5/issues/288)
-
 - Ore Veins: Replaced normal Nether Quartz generation with custom generation
-
 - PassableLeaves: Leaves are only passable for Players
-
 - PassthroughSigns: The following items are now ignored if you click them while you're on blocks like chests:
-
   - Banners
   - Signs
   - Paintings
   - Item Frames
-
   You can hold shift to activate the items normal behaviour (sign editing / item frame rotating)
-  
 - Quark: Enable Quark Chest Searching [\#286](https://github.com/NillerMedDild/Enigmatica5/issues/286)
 
 **Bug fixes**
@@ -55,7 +81,6 @@
 **Mod Removals**
 
 * Autorun / Auto Sprint: Key Toggle
-* Bedspreads (Replaced by MultiBeds)
 * Borderless Window
 * Torch Slab Mod
 
