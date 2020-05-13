@@ -1,0 +1,14 @@
+{
+	"outcomes": [
+		{
+			"material": {
+				"tag": "forge:ingots/platinum"
+			},
+			"requiredCapabilities": {
+				"hammer": 3
+			},
+			"moduleKey": "sword/short_blade",
+			"moduleVariant": "short_blade/platinum"
+		}
+	]
+}

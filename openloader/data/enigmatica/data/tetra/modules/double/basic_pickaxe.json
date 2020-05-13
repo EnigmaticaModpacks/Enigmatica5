@@ -1,0 +1,23 @@
+{
+	"variants": [
+		{
+			"key": "basic_pickaxe/platinum",
+			"durability": 202,
+			"integrity": -2,
+			"magicCapacity": 11,
+			"damage": 2,
+			"attackSpeed": -0.2,
+			"capabilities": {
+				"pickaxe": [4, 6.5]
+			},
+			"glyph": {
+				"tint": "d6f6ff",
+				"textureX": 176
+			},
+			"models": [{
+				"location": "tetra:items/module/double/head/basic_pickaxe/metal",
+				"tint": "ccc2ff"
+			}]
+		}
+	]
+}

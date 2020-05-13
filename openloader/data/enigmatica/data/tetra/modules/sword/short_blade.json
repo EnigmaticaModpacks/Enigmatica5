@@ -1,0 +1,20 @@
+{
+	"variants": [
+		{
+			"key": "short_blade/platinum",
+			"durability": 311,
+			"integrity": -1,
+			"magicCapacity": 11,
+			"damage": 5.5,
+			"attackSpeed": 1.5,
+			"capabilities": {
+				"cut": [1, 0.9375]
+			},
+			"glyph": { "tint": "d6f6ff" },
+			"models": [{
+				"location": "tetra:items/module/sword/blade/short/metal",
+				"tint": "ccc2ff"
+			}]
+		}
+	]
+}

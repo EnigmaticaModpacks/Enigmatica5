@@ -1,0 +1,14 @@
+{
+    "outcomes": [
+        {
+            "material": {
+                "tag": "forge:planks/ancient"
+            },
+            "requiredCapabilities": {
+                "axe": 3
+            },
+            "moduleKey": "sword/basic_hilt",
+            "moduleVariant": "basic_hilt/ancient_wood"
+        }
+    ]
+}
