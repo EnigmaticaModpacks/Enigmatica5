@@ -47,6 +47,7 @@ var materials as string[] = [
 
 for material in materials {
     enigmatica_ore_deposit_processing(material);
+    occultism_ore_inot_crushing(material);
 }
 
 // for material, types in materials {

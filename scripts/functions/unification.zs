@@ -394,5 +394,58 @@ public function enigmatica_ore_deposit_processing(material as string) as void {
     ]
     });
 
-    logger.info("addCrushingRecipes with " + material + " succesfully ran!");
+    logger.info("enigmatica_ore_deposit_processing with " + material + " succesfully ran!");
 }
+
+public function occultism_ore_inot_crushing(material as string) as void {
+    var ore_tag = BracketHandlers.getTag("forge:ores/" + material);
+    var dust_tag = BracketHandlers.getTag("forge:dusts/" + material);
+    var ingot_tag = BracketHandlers.getTag("forge:ingots/" + material);
+
+    var ore = ore_tag.first();
+    var dust = dust_tag.first();
+    var ingot = ingot_tag.first();
+
+    if (ore.matches(<item:minecraft:air>)) {
+        logger.info("Attempted to add crushing recipe, but no items exist in the ItemTag " + ore_tag.commandString);
+        return;
+    }
+
+    if (dust.matches(<item:minecraft:air>)) {
+        logger.info("Attempted to add crushing recipe, but no items exist in the ItemTag " + dust_tag.commandString);
+        return;
+    }
+
+    if (ingot.matches(<item:minecraft:air>)) {
+        logger.info("Attempted to add crushing recipe, but no items exist in the ItemTag " + ingot_tag.commandString);
+        return;
+    }
+    <recipetype:occultism:crushing>.addJSONRecipe("processing/" + material + "/dust/from_ore",
+    {
+        ingredient: {
+            item: ore.registryName
+        },
+        
+        result: {
+            item: dust.registryName,
+            count: 2
+        },
+        crushing_time: 200
+    });
+
+    <recipetype:occultism:crushing>.addJSONRecipe("processing/" + material + "/dust/from_ingot",
+    {
+        ingredient: {
+            item: ingot.registryName
+        },
+        
+        result: {
+            item: dust.registryName,
+            count: 1
+        },
+        crushing_time: 200
+    });
+
+    logger.info("occultism_ore_inot_crushing with " + material + " succesfully ran!");
+}
+
