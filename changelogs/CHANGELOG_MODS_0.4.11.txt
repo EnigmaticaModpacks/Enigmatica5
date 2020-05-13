@@ -1,0 +1,76 @@
+=========================================
+Enigmatica5 0.4.10 --> Enigmatica5 0.4.11
+=========================================
+
+Added:
+- Inventory Tweaks Renewed
+- Psi
+
+Updated:
+	Botany Pots (BotanyPots-1.15.2-2.0.17.jar --> BotanyPots-1.15.2-2.0.18.jar):
+		BotanyPots-1.15.2-2.0.18.jar:
+			* Added Chinese (zh_tw). Thanks to yappy2000d. - yappy2000d
+			Like the mod? Consider following me on [Twitter](https://twitter.com/darkhaxdev) and joining the [Discord]()
+			Huge thanks to my supporters on [Patreon](https://www.patreon.com/Darkhax?MCChangelog?BotanyPots)
+			* Pongo Sapiens
+			* Darkosto
+
+	MineColonies (minecolonies-0.11.941-ALPHA-universal.jar --> minecolonies-0.11.945-ALPHA-universal.jar):
+		minecolonies-0.11.945-ALPHA-universal.jar:
+			Minecolonies Changelog
+			Version: 0.11.945-ALPHA
+			* Tavern (#4894)
+			Adds the tavern hut, an early game building for housing
+
+		minecolonies-0.11.944-ALPHA-universal.jar:
+			Minecolonies Changelog
+			Version: 0.11.944-ALPHA
+			* Allow buildings to opt-out from deliveryman (#4973)
+			Feature Suggestion Currently, the deliveryman just randomly picks from all gatherable buildings. This PR adds the option to opt-out from the deliveryman. The building will be left alone, except for when pickup requests (i.e. crafting complete) are sent by the building itself. Be careful though, you now have to clean up after the building yourself.
+			Implementation Additionally to "Static" and "Automatic", there is now a "Pickup: Never" option. Click it. Slightly changed the GUI of the buildings to better accomodate the new feature. Selecting "Pickup: Never" will hide the Priority numbers / decrementors/incrementors to avoid confusion. image
+			image
+			Open Considerations I had to change the current "isPriorityStatic()"-boolean to an enum to fit the third state. This means I had to modify the NBT-data where this is stored. I have written a mini-migration/failsafe into the code, so on NBT-load the current data should be loaded, and then on chunksave the new format should be serialized. Since screwing this up would mean a bunch of trouble, please take special note of AbstractBuildingContainer:104 ff.
+
+		minecolonies-0.11.944-ALPHA-universal.jar:
+			Minecolonies Changelog
+			Version: 0.11.944-ALPHA
+			* Allow buildings to opt-out from deliveryman (#4973)
+			Feature Suggestion Currently, the deliveryman just randomly picks from all gatherable buildings. This PR adds the option to opt-out from the deliveryman. The building will be left alone, except for when pickup requests (i.e. crafting complete) are sent by the building itself. Be careful though, you now have to clean up after the building yourself.
+			Implementation Additionally to "Static" and "Automatic", there is now a "Pickup: Never" option. Click it. Slightly changed the GUI of the buildings to better accomodate the new feature. Selecting "Pickup: Never" will hide the Priority numbers / decrementors/incrementors to avoid confusion. image
+			image
+			Open Considerations I had to change the current "isPriorityStatic()"-boolean to an enum to fit the third state. This means I had to modify the NBT-data where this is stored. I have written a mini-migration/failsafe into the code, so on NBT-load the current data should be loaded, and then on chunksave the new format should be serialized. Since screwing this up would mean a bunch of trouble, please take special note of AbstractBuildingContainer:104 ff.
+
+		minecolonies-0.11.943-ALPHA-universal.jar:
+			Minecolonies Changelog
+			Version: 0.11.943-ALPHA
+			* Schematics115 (#4959)
+			Fortress Fletcher Update
+
+		minecolonies-0.11.942-ALPHA-universal.jar:
+			Minecolonies Changelog
+			Version: 0.11.942-ALPHA
+			* Allow certain requests to have a minimum count (#4968)
+			This PR basically replaces the previous handling where specific workers were able to make requests that were partially fulfilled with a request specific handling. Thus worker can request something with a count and a min count, where the RS will try to fulfill the count and if this is not possible but the system has a bit less it will try to match the minCount.
+			I also removed some of the heavy streams with quicker for loops.
+
+	MoreVanillaLib (morevanillalib-1.15.2-1.2.2.jar --> morevanillalib-1.15.2-1.2.3.jar):
+		morevanillalib-1.15.2-1.2.3.jar:
+			Added localized names for repairing item
+			Updated ru_ru (TheDirectorX)
+			Fixed redstone ore doesn't drop xp
+			Fixed shulker inventory will be cleared
+			Fixed OreExcavation support
+
+	Nature's Aura (NaturesAura-26.0.jar --> NaturesAura-27.0.jar):
+		NaturesAura-27.0.jar:
+			* Added Skyseeker's Gear, a new set of diamond-level tools and armor with special abilities
+			* Fixed the botanist's shovel not creating grass paths
+			* Made items on wood stands look a lot better
+			* Fixed ancient leaves not decaying on their own
+			* Made the sky ingot have more yield with tainted gold again
+			* Fixed the aura type override config not working for some mods
+
+Removed:
+- Bedspreads
+
+Generated using [ChangelogGenerator 2.0.0-pre3](https://github.com/TheRandomLabs/ChangelogGenerator).
