@@ -3,9 +3,9 @@
         { "file": "packmode.js" },
         { "file": "constants.js" },
 
-        { "file": "unification/early-removals.js" },
-        { "file": "unification/unify-tags.js" },
-        { "file": "unification/add-processing.js" },
+        { "file": "unification/early_removals.js" },
+        { "file": "unification/unify_tags.js" },
+        { "file": "unification/add_processing.js" },
 
         { "file": "tags/blocks/forge/stones.js" },
         { "file": "tags/blocks/forge/ores.js" },

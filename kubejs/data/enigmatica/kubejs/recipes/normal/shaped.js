@@ -1,5 +1,5 @@
-if (global.packmode !== packmodes.normal) {
-    return
-}
-
-events.listen('server.datapack.recipes', function (event) {})
+events.listen('server.datapack.recipes', function (event) {
+    if (global.packmode !== packmodes.normal) {
+        return;
+    }
+});
