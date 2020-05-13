@@ -13,17 +13,13 @@
 - Inventory Tweaks Renewed [\#299](https://github.com/NillerMedDild/Enigmatica5/issues/299)
 - Psi [\#298](https://github.com/NillerMedDild/Enigmatica5/issues/298)
 
-**Changes** 
+**Bug fixes**
 
-
+- Occultism Crushing Produces Incorrect Dusts [\#303](https://github.com/NillerMedDild/Enigmatica5/issues/303)
 - cannot pick simple farming berries with right click [\#297](https://github.com/NillerMedDild/Enigmatica5/issues/297)
 - Removed FTBQ until issue is resolved [\#296](https://github.com/NillerMedDild/Enigmatica5/issues/296)
 - Messed up Main Menu Buttons [\#294](https://github.com/NillerMedDild/Enigmatica5/issues/294)
 - (Re-fixed) Issue w/ Tetra workbench - Will not display the 'basic handle' option in 0.4.9. in singleplayer world for double headed tools [\#282](https://github.com/NillerMedDild/Enigmatica5/issues/282)
-
-**Bug fixes**
-
-- Occultism Crushing Produces Incorrect Dusts [\#303](https://github.com/NillerMedDild/Enigmatica5/issues/303)
 
 **Mod Removals**
 
