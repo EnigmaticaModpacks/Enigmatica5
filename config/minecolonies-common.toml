@@ -379,6 +379,8 @@
 	capacity = ["minecolonies:blockminecoloniesrack*32"]
 	#minecolonies.config.livesaver2.comment
 	livesaver2 = ["minecraft:hay_block*64"]
+	#minecolonies.config.letitgrow.comment
+	letitgrow = ["minecolonies:compost*16"]
 	#minecolonies.config.diamondskin.comment
 	diamondskin = ["minecraft:diamond*64"]
 	#minecolonies.config.rails.comment
