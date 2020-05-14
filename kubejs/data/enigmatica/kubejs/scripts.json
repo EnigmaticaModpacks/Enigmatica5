@@ -1,6 +1,7 @@
 {
     "scripts": [
         { "file": "packmode.js" },
+        { "file": "functions.js" },
         { "file": "constants.js" },
 
         { "file": "unification/early_removals.js" },
