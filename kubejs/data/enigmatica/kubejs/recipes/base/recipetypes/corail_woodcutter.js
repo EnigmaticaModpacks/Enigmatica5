@@ -1,21 +1,26 @@
 events.listen('recipes', function (event) {
     vanillaWoodTypes.forEach(function (woodType) {
-        // Drying Rack conflucts with Wood Flooring,
-        // Remove Drying Rack recipe and make Woodcutter recipes for both.
         var drying_rack = 'silents_mechanisms:' + woodType + '_drying_rack';
+        var log = 'minecraft:' + woodType + '_logs';
+        var wood_floor = 'carpetstairsmod:' + woodType + '_wood_floor';
+        var planks = 'minecraft:' + woodType + '_planks';
+
+        // Drying Rack recipe conflicts with Wood Flooring,
         event.remove({ output: drying_rack });
+
+        // Create Woodcutter recipes for both.
         event.recipes.corail_woodcutter.woodcutting({
             ingredient: {
-                tag: 'minecraft:' + woodType + '_logs',
+                tag: log,
             },
-            result: 'carpetstairsmod:' + woodType + '_wood_floor',
+            result: wood_floor,
             count: 24,
         });
         event.recipes.corail_woodcutter.woodcutting({
             ingredient: {
-                item: 'minecraft:' + woodType + '_planks',
+                item: planks,
             },
-            result: 'carpetstairsmod:' + woodType + '_wood_floor',
+            result: wood_floor,
             count: 6,
         });
     });
