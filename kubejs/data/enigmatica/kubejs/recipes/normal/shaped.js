@@ -1,4 +1,4 @@
-events.listen('server.datapack.recipes', function (event) {
+events.listen('recipes', function (event) {
     if (global.packmode !== 'normal') {
         return;
     }

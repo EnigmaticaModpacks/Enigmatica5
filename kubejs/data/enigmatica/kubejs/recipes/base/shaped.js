@@ -1,4 +1,4 @@
-events.listen('server.datapack.recipes', function (event) {
+events.listen('recipes', function (event) {
     var recipes = [
         recipe('pneumaticcraft:speed_upgrade', ['LXL', 'XCX', 'LXL'], {
             L: '#pneumaticcraft:upgrade_components',

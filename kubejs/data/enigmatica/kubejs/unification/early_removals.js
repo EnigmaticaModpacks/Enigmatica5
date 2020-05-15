@@ -1,4 +1,4 @@
-events.listen('server.datapack.recipes', function (event) {
+events.listen('recipes', function (event) {
     event.remove({ output: 'occultism:iron_dust' });
     event.remove({ output: 'occultism:gold_dust' });
     event.remove({ output: 'occultism:silver_dust' });

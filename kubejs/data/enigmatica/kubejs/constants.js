@@ -2,9 +2,9 @@ var oreDimensional = [
     'rftoolsbase:dimensionalshard_overworld',
     'rftoolsbase:dimensionalshard_nether',
     'rftoolsbase:dimensionalshard_end',
-]
+];
 
-var oreUraninite = ['powah:uraninite_ore_poor', 'powah:uraninite_ore', 'powah:uraninite_ore_dense']
+var oreUraninite = ['powah:uraninite_ore_poor', 'powah:uraninite_ore', 'powah:uraninite_ore_dense'];
 
 var colors = [
     'cyan',
@@ -23,6 +23,8 @@ var colors = [
     'pink',
     'gray',
     'light_gray',
-]
+];
 
-var materials = global.materials
+var vanillaWoodTypes = ['oak', 'birch', 'spruce', 'jungle', 'acacia', 'dark_oak'];
+
+var materials = global.materials;
