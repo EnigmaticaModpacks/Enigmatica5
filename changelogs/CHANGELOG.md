@@ -1,3 +1,22 @@
+## Enigmatica 5 v0.4.12
+
+_Using Forge-1.15.2-31.2.0_
+
+_[Mod Updates](https://github.com/NillerMedDild/Enigmatica5/blob/master/changelogs/CHANGELOG_MODS_0.4.12.txt)_
+
+**Mod Additions**
+
+-   
+
+**Bug fixes**
+
+-   
+
+**Mod Removals**
+
+-   MultiBeds (Caused an issue with rendering)
+-   ShetiPhianCore (Dependency of MultiBeds)
+
 ## Enigmatica 5 v0.4.11
 
 _Using Forge-1.15.2-31.1.93_

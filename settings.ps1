@@ -40,12 +40,12 @@ $CURSEFORGE_PROJECT_ID = 357692
 # =====================================================================//
 
 # Default: "1.0.0"
-$MODPACK_VERSION = "0.4.11"
+$MODPACK_VERSION = "0.4.12"
 
 # Only used by the Changelog Generator
-$LAST_MODPACK_VERSION = "0.4.10"
+$LAST_MODPACK_VERSION = "0.4.11"
 
-$FORGE_VERSION=31.1.87
+$FORGE_VERSION = 31.2.0
 
 $CLIENT_FILENAME = "Enigmatica5"
 
@@ -61,9 +61,9 @@ $GAME_VERSIONS = @(7722) # 7675 is 1.15.1, 7722 is 1.15.2
 $CLIENT_CHANGELOG_TYPE = "markdown"
 
 $CLIENT_CHANGELOG = "### Enigmatica 5 v$MODPACK_VERSION <br /> <br />" +
-					"Using Forge-1.15.2-31.1.87 <br /> <br /> " +
-					"[Mod Updates](https://github.com/NillerMedDild/Enigmatica5/blob/master/changelogs/CHANGELOG_MODS_$MODPACK_VERSION.txt) <br /> " +
-					"[Changelog](https://github.com/NillerMedDild/Enigmatica5/blob/master/changelogs/CHANGELOG.md) "
+"Using Forge-1.15.2-31.2.0 <br /> <br /> " +
+"[Mod Updates](https://github.com/NillerMedDild/Enigmatica5/blob/master/changelogs/CHANGELOG_MODS_$MODPACK_VERSION.txt) <br /> " +
+"[Changelog](https://github.com/NillerMedDild/Enigmatica5/blob/master/changelogs/CHANGELOG.md) "
 
 
 # Can be "alpha", "beta" or "release"
@@ -82,29 +82,29 @@ $SERVER_FILE_DISPLAY_NAME = "Enigmatica 5 Server - $MODPACK_VERSION"
 # A continuous line of the folders and files (with extensions) to zip into Server Files.
 # Default: @("mods", "config")
 $CONTENTS_TO_ZIP = @(
-"mods", 
-"config", 
-"defaultconfigs", 
-"openloader", 
-"scripts",
-"kubejs",
-"packmenu",
-"server-start-license.md", 
-"server-start-readme.md", 
-"server-start.bat", 
-"server-start.sh", 
-"settings.cfg", 
-"server.properties", 
-"server-guide.txt")
+	"mods", 
+	"config", 
+	"defaultconfigs", 
+	"openloader", 
+	"scripts",
+	"kubejs",
+	"packmenu",
+	"server-start-license.md", 
+	"server-start-readme.md", 
+	"server-start.bat", 
+	"server-start.sh", 
+	"settings.cfg", 
+	"server.properties", 
+	"server-guide.txt")
 
 $CONTENTS_TO_MOVE = @(
-"server-start-license.md", 
-"server-start-readme.md", 
-"server-start.bat", 
-"server-start.sh", 
-"settings.cfg",  
-"server.properties", 
-"server-guide.txt")
+	"server-start-license.md", 
+	"server-start-readme.md", 
+	"server-start.bat", 
+	"server-start.sh", 
+	"settings.cfg",  
+	"server.properties", 
+	"server-guide.txt")
 
 # Can be "markdown", "text" or "html"
 # Default: $CLIENT_CHANGELOG_TYPE
