@@ -6,11 +6,16 @@ _[Mod Updates](https://github.com/NillerMedDild/Enigmatica5/blob/master/changelo
 
 **Mod Additions**
 
--   
+-   Connected Glass [\#313](https://github.com/NillerMedDild/Enigmatica5/issues/313)
+-   Snow Under Trees [\#311](https://github.com/NillerMedDild/Enigmatica5/issues/311)
+-   XNet Gases [\#309](https://github.com/NillerMedDild/Enigmatica5/issues/309)
 
 **Bug fixes**
 
--   
+-   Duping with Vanillahammers mod [\#308](https://github.com/NillerMedDild/Enigmatica5/issues/308)
+-   PneumaticCraft Speed upgrades have no recipe [\#307](https://github.com/NillerMedDild/Enigmatica5/issues/307)
+-   Pneumatic Armor HUD takes up the full width of the screen [\#306](https://github.com/NillerMedDild/Enigmatica5/issues/306)
+-   Messed up Main Menu Buttons [\#294](https://github.com/NillerMedDild/Enigmatica5/issues/294)
 
 **Mod Removals**
 
