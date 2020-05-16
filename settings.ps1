@@ -124,7 +124,7 @@ $SERVER_RELEASE_TYPE = $CLIENT_RELEASE_TYPE
 
 # Toggle twitch-export-builder (automatic building of the manifest zip) on/off
 # Default: $true
-$ENABLE_MANIFEST_BUILDER_MODULE = $true
+$ENABLE_MANIFEST_BUILDER_MODULE = $false
 
 # Toggle the modpack uploader on/off
 # Setting this to $false will also disable the Server File and Changelog Generator Modules.

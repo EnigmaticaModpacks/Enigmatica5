@@ -51,7 +51,37 @@ if ($ENABLE_MANIFEST_BUILDER_MODULE) {
         Rename-Item -Path "twitch-export-builder_windows_amd64.exe" -NewName $TwitchExportBuilder -ErrorAction SilentlyContinue
     }
     .\TwitchExportBuilder.exe -n "$CLIENT_FILENAME" -p "$MODPACK_VERSION"
+	
+	if ($ENABLE_MANIFEST_BUILDER_MODULE) {
+	Write-Host ""
+    Write-Host "######################################" -ForegroundColor Cyan
+    Write-Host ""
+    Write-Host "Compressing Server files..." -ForegroundColor Green
+    Write-Host ""
+    Write-Host "######################################" -ForegroundColor Cyan
+    Write-Host ""
+
+    $CONTENTS_TO_MOVE | ForEach-Object {
+        $FilePath = "$PSScriptRoot/development/include-in-server-files/$_"
+        Copy-Item -Path $FilePath -Destination $PSScriptRoot
+    }
+
+    $SERVER_FILENAME = "$SERVER_FILENAME.zip"
+    sz a -tzip $SERVER_FILENAME $CONTENTS_TO_ZIP
+
+    $CONTENTS_TO_MOVE | ForEach-Object {
+        $FilePath = "$PSScriptRoot/$_"
+        Remove-Item -Path $FilePath -Force
+    }
+
+    # Write-Host "Removing Client Mods from Server Files" -ForegroundColor Cyan
+    # foreach ($clientMod in $CLIENT_MODS) {
+        # Write-Host "Removing Client Mod $clientMod"
+        # sz d $SERVER_FILENAME "mods/$clientMod*" | Out-Null
+    # }
+	
     Clear-SleepHost
+	}
 }
 
 if ($ENABLE_CHANGELOG_GENERATOR_MODULE -and $ENABLE_MODPACK_UPLOADER_MODULE) {
@@ -66,8 +96,9 @@ if ($ENABLE_CHANGELOG_GENERATOR_MODULE -and $ENABLE_MODPACK_UPLOADER_MODULE) {
     Write-Host ""
     Write-Host "Generating changelog..." -ForegroundColor Green
     Write-Host ""
-
-    java -jar ChangelogGenerator-2.0.0-pre3.jar
+	
+    Start-Process Powershell.exe -Argument "-NoProfile -Command java -jar ChangelogGenerator-2.0.0-pre3.jar"
+    #java -jar ChangelogGenerator-2.0.0-pre3.jar
 	Move-Item -Path changelog.txt -Destination "changelogs/CHANGELOG_MODS_$MODPACK_VERSION.txt"
 	Remove-Item old.json, new.json -ErrorAction SilentlyContinue
 }
@@ -148,35 +179,7 @@ if ($ENABLE_MODPACK_UPLOADER_MODULE) {
 
 if ($ENABLE_SERVER_FILE_MODULE -and $ENABLE_MODPACK_UPLOADER_MODULE) {
     Clear-SleepHost
-    Write-Host ""
-    Write-Host "######################################" -ForegroundColor Cyan
-    Write-Host ""
-    Write-Host "Compressing Server files..." -ForegroundColor Green
-    Write-Host ""
-    Write-Host "######################################" -ForegroundColor Cyan
-    Write-Host ""
-
-    $CONTENTS_TO_MOVE | ForEach-Object {
-        $FilePath = "$PSScriptRoot/development/include-in-server-files/$_"
-        Copy-Item -Path $FilePath -Destination $PSScriptRoot
-    }
-
-    $SERVER_FILENAME = "$SERVER_FILENAME.zip"
-    sz a -tzip $SERVER_FILENAME $CONTENTS_TO_ZIP
-
-    $CONTENTS_TO_MOVE | ForEach-Object {
-        $FilePath = "$PSScriptRoot/$_"
-        Remove-Item -Path $FilePath -Force
-    }
-
-    # Write-Host "Removing Client Mods from Server Files" -ForegroundColor Cyan
-    # foreach ($clientMod in $CLIENT_MODS) {
-        # Write-Host "Removing Client Mod $clientMod"
-        # sz d $SERVER_FILENAME "mods/$clientMod*" | Out-Null
-    # }
-
-    Start-Sleep 1
-
+    
     $SERVER_METADATA = 
     "{
     'changelog': `'$SERVER_CHANGELOG`',
@@ -208,10 +211,3 @@ Write-Host ""
 Write-Host "The Modpack Uploader has completed." -ForegroundColor Green
 Write-Host ""
 Write-Host "######################################" -ForegroundColor Cyan
-
-# $CurlUrl = "https://discordapp.com/api/webhooks/$WEBHOOK_ID/$WEBHOOK_TOKEN"
-# $FilePath = "$CLIENT_FILENAME-$MODPACK_VERSION.zip"
-
-# curl.exe --url $CurlUrl -F ContentType="multipart/form-data" -F content=@$FilePath --progress-bar
-
-# Start-Sleep -Seconds 10
