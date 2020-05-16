@@ -52,7 +52,7 @@ if ($ENABLE_MANIFEST_BUILDER_MODULE) {
     }
     .\TwitchExportBuilder.exe -n "$CLIENT_FILENAME" -p "$MODPACK_VERSION"
 	
-	if ($ENABLE_MANIFEST_BUILDER_MODULE) {
+	if ($ENABLE_SERVER_FILE_MODULE) {
 	Write-Host ""
     Write-Host "######################################" -ForegroundColor Cyan
     Write-Host ""
@@ -97,8 +97,7 @@ if ($ENABLE_CHANGELOG_GENERATOR_MODULE -and $ENABLE_MODPACK_UPLOADER_MODULE) {
     Write-Host "Generating changelog..." -ForegroundColor Green
     Write-Host ""
 	
-    Start-Process Powershell.exe -Argument "-NoProfile -Command java -jar ChangelogGenerator-2.0.0-pre3.jar"
-    #java -jar ChangelogGenerator-2.0.0-pre3.jar
+    java -jar ChangelogGenerator-2.0.0-pre3.jar
 	Move-Item -Path changelog.txt -Destination "changelogs/CHANGELOG_MODS_$MODPACK_VERSION.txt"
 	Remove-Item old.json, new.json -ErrorAction SilentlyContinue
 }
