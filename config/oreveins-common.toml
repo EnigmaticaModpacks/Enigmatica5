@@ -4,8 +4,6 @@
 	debugCommands = true
 	#Stop all vanilla ore gen calls? Warning: this includes calls such as andesite/diorite, and potentially others that internally behave the same as ores. For more customization, see the disabled ores option.
 	noOres = true
-	#Enable veins in the default data pack. (This is the 'oreveins:default_veins' condition)
-	enableDefaultVeins = false
 	#Try to avoid placing veins on the edge of their range as defined by min / max y, so they don't get cut off at the border.
 	avoidVeinCutoffs = true
 	#Extra chunk search range when generating veins

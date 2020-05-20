@@ -46,6 +46,8 @@
 
 #Toggles & config for experimental features
 [experimental]
+	#Enable modular shields
+	shield = false
 	#The base value for number of uses required before a bow can be honed
 	#Range: > -2147483648
 	hone_bow_base = 48
@@ -57,6 +59,9 @@
 	#Integrity multiplier for bow honing, a value of 2 would cause a bow which uses 3 integrity to require 2*3 times as many uses before it can be honed
 	#Range: > -2147483648
 	hone_bow_integrity_multiplier = 32
+	#Integrity multiplier for shield honing, a value of 2 would cause a shield which uses 3 integrity to require 2*3 times as many uses before it can be honed
+	#Range: > -2147483648
+	hone_shield_integrity_multiplier = 32
 	#Enable the stonecutter module for swords, the stonecutter has to be removed from loot tables if this is disabled
 	stonecutter = true
 	#Enable modular bows
@@ -64,4 +69,7 @@
 	#The base value for number of uses required before a single headed implement can be honed
 	#Range: > -2147483648
 	hone_single_headed_base = 48
+	#The base value for number of uses required before a shield can be honed
+	#Range: > -2147483648
+	hone_shield_base = 48
 
