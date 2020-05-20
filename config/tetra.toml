@@ -47,7 +47,7 @@
 #Toggles & config for experimental features
 [experimental]
 	#Enable modular shields
-	shield = false
+	shield = true
 	#The base value for number of uses required before a bow can be honed
 	#Range: > -2147483648
 	hone_bow_base = 48
