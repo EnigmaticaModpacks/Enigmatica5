@@ -38,7 +38,9 @@ var recipes as IIngredient[][IItemStack] = {
         naturesaura: {id: "patchouli:guide_book" as string, Count: 1, tag: {"akashictome:displayName": "{\"translate\":\"item.naturesaura.book.name\"}" as string, "patchouli:book": "naturesaura:book" as string, "akashictome:is_morphing": 1, display: {Name: "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"translate\":\"item.naturesaura.book.name\"}]}" as string}}}, 
         transport: {id: "patchouli:guide_book" as string, Count: 1, tag: {"patchouli:book": "transport:guide" as string}}, 
         engineersdecor: {id: "patchouli:guide_book" as string, Count: 1, tag: {"patchouli:book": "engineersdecor:engineersdecor_manual" as string}}, 
-        rftools: {id: "xnet:xnet_manual" as string, Count: 1}, 
+        psi: {id: "patchouli:guide_book" as string, Count: 1, tag: {"patchouli:book": "psi:encyclopaedia_psionica" as string}},
+        pneumaticcraft: {id: "patchouli:guide_book" as string, Count: 1, tag: {"patchouli:book": "pneumaticcraft:book" as string}},
+        occultism: {id: "occultism:dictionary_of_spirits" as string, Count: 1},
         solcarrot: {id: "solcarrot:food_book" as string, Count: 1}}}) :
     [<item:minecraft:book>, <tag:forge:bookshelves>],
 
