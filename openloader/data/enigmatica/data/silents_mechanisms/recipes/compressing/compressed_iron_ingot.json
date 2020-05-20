@@ -1,0 +1,10 @@
+{
+    "type": "silents_mechanisms:compressing",
+    "process_time": 400,
+    "ingredient": {
+        "tag": "forge:ingots/iron"
+    },
+    "result": {
+        "item": "pneumaticcraft:ingot_iron_compressed"
+    }
+}

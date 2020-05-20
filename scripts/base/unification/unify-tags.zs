@@ -598,12 +598,12 @@ var materials as MCTag[string][string] = {
 
 var modPriorities as string[] = [
     "minecraft",
+    "pneumaticcraft",
     "silents_mechanisms",
 	"mekanism",
     "jaopca",
     "kubejs",
     "botania",
-    "pneumaticcraft",
     "occultism",
     "tmechworks",
     "industrialforegoing",
@@ -620,3 +620,4 @@ for material, types in materials {
         }
     }
 }
+
