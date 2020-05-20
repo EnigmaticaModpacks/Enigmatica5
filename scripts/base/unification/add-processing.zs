@@ -49,13 +49,3 @@ for material in materials {
     enigmatica_ore_deposit_processing(material);
     occultism_ore_inot_crushing(material);
 }
-
-// for material, types in materials {
-//     for type, itemTag in types {
-//         if (type == "ore_deposits") {
-//             if (itemTag.isItemTag) {
-//                 enigmatica_ore_deposit_processing(material);
-//             }
-//         }
-//     }
-// }
