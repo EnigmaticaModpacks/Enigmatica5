@@ -37,7 +37,7 @@ var materials as string[] = [
     "steel",
 
     "diamond",
-    "lapis_lazuli",
+    "lapis",
     "emerald",
     "quartz",
 
@@ -47,5 +47,5 @@ var materials as string[] = [
 
 for material in materials {
     enigmatica_ore_deposit_processing(material);
-    occultism_ore_inot_crushing(material);
+    occultism_ore_ingot_crushing(material);
 }
