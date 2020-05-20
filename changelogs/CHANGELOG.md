@@ -1,8 +1,44 @@
+## Enigmatica 5 v0.4.13
+
+_Using Forge-1.15.2-31.2.0_
+
+
+
+**Please update to a new profile, and then move your Saves folder and the options.txt file, to ensure files are updated correctly. Alternatively you can remove the kubejs, openloader and kubejs folders before updating.**
+
+
+
+**JourneyMap is being removed in this update, which means you will lose your current map progress and waypoints - It's a good idea to write down your waypoints for safekeeping, before updating. **
+
+
+
+_[Mod Updates](https://github.com/NillerMedDild/Enigmatica5/blob/master/changelogs/CHANGELOG_MODS_0.4.12.txt)_
+
+**Mod Additions**
+
+-   Xaero's Minimap
+-   Xaero's Worldmap
+-   Waystones2Waypoints
+-   
+
+**Changes**
+
+* Quark: Disabled Crevices
+
+**Bug fixes**
+
+-   Fixed some lapis unification.
+
+**Mod Removals**
+
+-   Journeymap, due to performance issues
+-   BetterBedrockGenerator (Yung's Better Caves handles this now)
+
 ## Enigmatica 5 v0.4.12
 
 _Using Forge-1.15.2-31.2.0_
 
-_[Mod Updates](https://github.com/NillerMedDild/Enigmatica5/blob/master/changelogs/CHANGELOG_MODS_0.4.12.txt)_
+_[Mod Updates](https://github.com/NillerMedDild/Enigmatica5/blob/master/changelogs/CHANGELOG_MODS_0.4.13.txt)_
 
 **Mod Additions**
 
