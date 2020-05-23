@@ -30,7 +30,7 @@ public function purgeItemTag(tag as MCTag, modPriorities as string[]) as void {
 			disableItem(item);
 
 			// Fallback recipe
-			craftingTable.addShapeless(formatRecipeName(item) + "_conversion_recipe", tag.first(), [item]);
+			craftingTable.addShapeless(formatRecipeName(item) + "_conversion_recipe", tag.firstItem, [item]);
 		}
 	}
 }
@@ -40,26 +40,24 @@ public function enigmatica_ore_deposit_processing(material as string) as void {
     var nugget_tag = BracketHandlers.getTag("forge:nuggets/" + material);
     var dust_tag = BracketHandlers.getTag("forge:dusts/" + material);
 
-    var ore_deposit = ore_deposit_tag.first(); 
-    var nugget = nugget_tag.first();
-    var dust = dust_tag.first();
-
-    if (ore_deposit.matches(<item:minecraft:air>)) {
-        logger.info("Attempted to add crushing recipe, but no items exist in the ItemTag " + ore_deposit_tag.commandString);
+    if (!ore_deposit_tag.isItemTag) {
         return;
     }
 
-    if (dust.matches(<item:minecraft:air>)) {
-        logger.info("Attempted to add crushing recipe, but no items exist in the ItemTag " + dust_tag.commandString);
+    if (!dust_tag.isItemTag) {
         return;
     }
 
-    if (nugget.matches(<item:minecraft:air>)) {
+    var ore_deposit = ore_deposit_tag.firstItem; 
+    var dust = dust_tag.firstItem;
+
+    if (!nugget_tag.isItemTag) {
         var xp = 1.0;
         var processingTime = 100;
         blastFurnace.addRecipe("blasting_" + formatRecipeName(dust) + "_from_ore_deposit", dust, ore_deposit, xp, processingTime / 2);
         furnace.addRecipe("smelting_" + formatRecipeName(dust) + "_from_ore_deposit", dust, ore_deposit, xp, processingTime);
     } else {
+        var nugget = nugget_tag.firstItem;
         var xp = 1.0;
         var processingTime = 100;
         blastFurnace.addRecipe("blasting_" + formatRecipeName(nugget) + "_from_ore_deposit", nugget, ore_deposit, xp, processingTime / 2);
@@ -103,25 +101,24 @@ public function occultism_ore_ingot_crushing(material as string) as void {
     var ore_tag = BracketHandlers.getTag("forge:ores/" + material);
     var dust_tag = BracketHandlers.getTag("forge:dusts/" + material);
     var ingot_tag = BracketHandlers.getTag("forge:ingots/" + material);
-
-    var ore = ore_tag.first();
-    var dust = dust_tag.first();
-    var ingot = ingot_tag.first();
-
-    if (ore.matches(<item:minecraft:air>)) {
-        logger.info("Attempted to add crushing recipe, but no items exist in the ItemTag " + ore_tag.commandString);
+    
+    if (!ore_tag.isItemTag) {
         return;
     }
 
-    if (dust.matches(<item:minecraft:air>)) {
-        logger.info("Attempted to add crushing recipe, but no items exist in the ItemTag " + dust_tag.commandString);
+    if (!dust_tag.isItemTag) {
         return;
     }
 
-    if (ingot.matches(<item:minecraft:air>)) {
-        logger.info("Attempted to add crushing recipe, but no items exist in the ItemTag " + ingot_tag.commandString);
+    if (!ingot_tag.isItemTag) {
         return;
     }
+
+    var ore = ore_tag.firstItem;
+    var dust = dust_tag.firstItem;
+    var ingot = ingot_tag.firstItem;
+
+    
     <recipetype:occultism:crushing>.addJSONRecipe("processing/" + material + "/dust/from_ore",
     {
         ingredient: {
