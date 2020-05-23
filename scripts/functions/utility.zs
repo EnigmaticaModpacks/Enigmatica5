@@ -17,17 +17,17 @@ public function disableItem(item as IItemStack) as void {
 		"There's a link to it in the Main Menu."]);
       
     craftingTable.removeRecipe(item);
-	furnace.removeRecipe(item);
-	blastFurnace.removeRecipe(item);
+    furnace.removeRecipe(item);
+    blastFurnace.removeRecipe(item);
 }
 
-function addRecipetypeJsonRecipe(recipetype as string, name as string, output as IItemStack, input as IItemStack, mana as int) as void
-{
-    // Recipetype could be "botania:mana_infusion"
-    var type = BracketHandlers.getRecipeManager(recipetype);
-    type.addJSONRecipe(name,
-    {
-        input: input as IData,
-        output: output as IData
-    });
-}
+// function addRecipetypeJsonRecipe(recipetype as string, name as string, output as IItemStack, input as IItemStack, mana as int) as void
+// {
+//     // Recipetype could be "botania:mana_infusion"
+//     var type = BracketHandlers.getRecipeManager(recipetype);
+//     type.addJSONRecipe(name,
+//     {
+//         input: input as IData,
+//         output: output as IData
+//     });
+// }
