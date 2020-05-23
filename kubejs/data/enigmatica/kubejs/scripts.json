@@ -4,7 +4,6 @@
         { "file": "functions.js" },
         { "file": "constants.js" },
 
-        { "file": "base/unification/early_removals.js" },
         { "file": "base/unification/unify_tags.js" },
         { "file": "base/unification/add_processing.js" },
 
