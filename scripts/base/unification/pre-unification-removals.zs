@@ -7,5 +7,6 @@ import crafttweaker.api.BracketHandlers;
 <recipetype:occultism:crushing>.removeRecipe(<item:occultism:gold_dust>);
 <recipetype:occultism:crushing>.removeRecipe(<item:occultism:silver_dust>);
 <recipetype:occultism:crushing>.removeRecipe(<item:occultism:copper_dust>);
+<recipetype:occultism:crushing>.removeRecipe(<item:occultism:obsidian_dust>);
 
 <recipetype:mekanism:combining>.removeAll();

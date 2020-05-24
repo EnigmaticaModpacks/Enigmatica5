@@ -593,6 +593,23 @@ var materials as MCTag[string][string] = {
         "clump": <tag:forge:clumps/glowstone>,
         "shard": <tag:forge:shards/glowstone>,
         "crystal": <tag:forge:crystals/glowstone>,
+    },
+
+    "obsidian": {
+        "nugget": <tag:forge:nuggets/obsidian>,
+        "ingot": <tag:forge:ingots/obsidian>,
+        "gem": <tag:forge:gems/obsidian>,
+        "storage_block": <tag:forge:storage_blocks/obsidian>,
+        "ore": <tag:forge:ores/obsidian>,
+        "ore_deposits": <tag:forge:ore_deposits/obsidian>,
+        "dust": <tag:forge:dusts/obsidian>,
+        "gear": <tag:forge:gears/obsidian>,
+        "plate": <tag:forge:plates/obsidian>,
+        "rod": <tag:forge:rods/obsidian>,
+        "dirty_dust": <tag:forge:dirty_dusts/obsidian>,
+        "clump": <tag:forge:clumps/obsidian>,
+        "shard": <tag:forge:shards/obsidian>,
+        "crystal": <tag:forge:crystals/obsidian>,
     }
 };
 
@@ -621,3 +638,31 @@ for material, types in materials {
     }
 }
 
+function getPreferredItemInTag(tag as MCTag, modPriorities as string[]) as IItemStack {
+	for mod in modPriorities {
+		for item in tag.items {
+            var itemOwner = item.registryName.split(":")[0];
+            if (itemOwner == mod) {
+                return item;
+            }
+        }
+    }
+	logger.warning("Unable to find acceptable item in MCTag " + tag.commandString + ". It contained:");
+	for item in tag.items {
+		logger.info(item.registryName);
+	}
+    return <item:minecraft:air>;
+}
+
+function purgeItemTag(tag as MCTag, modPriorities as string[]) as void {
+    var preferredItem = getPreferredItemInTag(tag, modPriorities);
+	for item in tag.items {
+		if (!item.matches(preferredItem)) {
+			tag.removeItems(item);
+			disableItem(item);
+
+			// Fallback recipe
+			craftingTable.addShapeless(formatRecipeName(item) + "_conversion_recipe", tag.firstItem, [item]);
+		}
+	}
+}

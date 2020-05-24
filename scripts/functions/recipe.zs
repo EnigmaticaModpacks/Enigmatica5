@@ -5,10 +5,6 @@ import crafttweaker.api.item.IIngredient;
 import crafttweaker.api.tag.MCTag;
 import crafttweaker.api.BracketHandlers;
 
-public function formatRecipeName(item as IItemStack) as string {
-	return item.translationKey + "_" + item.amount;
-}
-
 public function addShaped(output as IItemStack, input as IIngredient[][], removeOriginalRecipe as bool) as void {
 	var recipeName = formatRecipeName(output);
 

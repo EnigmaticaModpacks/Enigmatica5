@@ -4,9 +4,10 @@ import crafttweaker.api.item.IItemStack;
 import crafttweaker.api.item.IIngredient;
 import crafttweaker.api.tag.MCTag;
 import crafttweaker.api.BracketHandlers;
-import crafttweaker.api.data.IData;
-import crafttweaker.api.data.ListData;
 
+public function formatRecipeName(item as IItemStack) as string {
+	return item.translationKey + "_" + item.amount;
+}
 
 public function disableItem(item as IItemStack) as void {
     // This doesn't actually work, no idea why. It works if I call it outside a function.
@@ -20,14 +21,3 @@ public function disableItem(item as IItemStack) as void {
     furnace.removeRecipe(item);
     blastFurnace.removeRecipe(item);
 }
-
-// function addRecipetypeJsonRecipe(recipetype as string, name as string, output as IItemStack, input as IItemStack, mana as int) as void
-// {
-//     // Recipetype could be "botania:mana_infusion"
-//     var type = BracketHandlers.getRecipeManager(recipetype);
-//     type.addJSONRecipe(name,
-//     {
-//         input: input as IData,
-//         output: output as IData
-//     });
-// }

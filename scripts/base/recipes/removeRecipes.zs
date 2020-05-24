@@ -8,7 +8,10 @@ var itemsToRemoveRecipesFrom as IItemStack[] = [
 	<item:mekanism:advanced_combining_factory>,
 	<item:mekanism:elite_combining_factory>,
 	<item:mekanism:ultimate_combining_factory>,
-	<item:akashictome:tome>
+	
+	<item:akashictome:tome>,
+
+	<item:morevanillalib:obsidian_shard>
 ];
 
 for item in itemsToRemoveRecipesFrom {
