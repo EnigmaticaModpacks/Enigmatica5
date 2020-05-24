@@ -16,6 +16,6 @@ var xp = 0.25;
 var processingTime = 100;
 
 for input, output in recipes {
-    blastFurnace.addRecipe("blasting_" + formatRecipeName(ingot) + "_from_occultism_dust", output, input, xp, processingTime / 2);
-    furnace.addRecipe("smelting_" + formatRecipeName(ingot) + "_from_occultism_dust", output, input, xp, processingTime);
+    blastFurnace.addRecipe("blasting_" + formatRecipeName(output) + "_from_occultism_dust", output, input, xp, processingTime / 2);
+    furnace.addRecipe("smelting_" + formatRecipeName(output) + "_from_occultism_dust", output, input, xp, processingTime);
 }
