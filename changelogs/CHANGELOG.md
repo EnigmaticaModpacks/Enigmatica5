@@ -19,16 +19,24 @@ _Using Forge-1.15.2-31.2.0_ | _[Mod Updates](https://github.com/NillerMedDild/En
 -   Xaero's Minimap
 -   Xaero's Worldmap
 -   Waystones2Waypoints
--   
+-   Serverconfig Updater [\#322](https://github.com/NillerMedDild/Enigmatica5/issues/322)
+-   Yungs Better Caves [\#292](https://github.com/NillerMedDild/Enigmatica5/issues/292)
+-   Old Java Warning [\#152](https://github.com/NillerMedDild/Enigmatica5/issues/152)
 
 **Changes**
 
-* Quark: Disabled Crevices
+* AkashicTome: Add PneumaticCraft + Occultism + Psi in recipe [\#293](https://github.com/NillerMedDild/Enigmatica5/issues/293)
 * EverlastingAbilities: Disabled the Weakness ability 
+* Quark: Disabled Crevices
+* Re-Do Lapis Ore Deposit [\#266](https://github.com/NillerMedDild/Enigmatica5/issues/266)
 
 **Bug fixes**
 
 -   Fixed some lapis unification.
+-   Server becomes unresponsive [\#321](https://github.com/NillerMedDild/Enigmatica5/issues/321)
+-   PNC Compressed Iron issues [\#316](https://github.com/NillerMedDild/Enigmatica5/issues/316)
+-   Silver ore enriching makes wrong type of silver dust [\#315](https://github.com/NillerMedDild/Enigmatica5/issues/315)
+-   \[0.4.10\] Invalid scripts? [\#301](https://github.com/NillerMedDild/Enigmatica5/issues/301)
 
 **Mod Removals**
 
