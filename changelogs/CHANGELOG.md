@@ -1,18 +1,18 @@
 ## Enigmatica 5 v0.4.13
 
-_Using Forge-1.15.2-31.2.0_
+**Please remove the following folders before updating, to ensure files are updated correctly:**
 
-
-
-**Please update to a new profile, and then move your Saves folder and the options.txt file, to ensure files are updated correctly. Alternatively you can remove the kubejs, openloader and kubejs folders before updating.**
-
-
+* Config
+* KubeJS
+* Mods
+* Openloader
+* Scripts
 
 **JourneyMap is being removed in this update, which means you will lose your current map progress and waypoints - It's a good idea to write down your waypoints for safekeeping, before updating. **
 
 
 
-_[Mod Updates](https://github.com/NillerMedDild/Enigmatica5/blob/master/changelogs/CHANGELOG_MODS_0.4.12.txt)_
+_Using Forge-1.15.2-31.2.0_ | _[Mod Updates](https://github.com/NillerMedDild/Enigmatica5/blob/master/changelogs/CHANGELOG_MODS_0.4.12.txt)_
 
 **Mod Additions**
 
@@ -24,6 +24,7 @@ _[Mod Updates](https://github.com/NillerMedDild/Enigmatica5/blob/master/changelo
 **Changes**
 
 * Quark: Disabled Crevices
+* EverlastingAbilities: Disabled the Weakness ability 
 
 **Bug fixes**
 
