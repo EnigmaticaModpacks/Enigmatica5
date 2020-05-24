@@ -24,7 +24,7 @@
 		powerPerOperation = 400
 
 	[MachineAgricultureHusbandryConfig.SewageComposterConfig]
-		#Amount of Power Consumed per Tick - Default: [400FE]
+		#Amount of Power Consumed per Tick - Default: [40FE]
 		powerPerTick = 400
 		#Max Stored Power [FE] - Default: [10000 FE]
 		maxStoredPower = 10000
@@ -50,7 +50,7 @@
 		maxStoredPower = 10000
 		#Cooldown Time in Ticks [20 Ticks per Second] - Default: [100 (5s)]
 		maxProgress = 40
-		#Amount of Power Consumer per Operation - Default: [400FE]
+		#Amount of Power Consumer per Operation - Default: [1000FE]
 		powerPerOperation = 1000
 
 	[MachineAgricultureHusbandryConfig.AnimalBabySeparatorConfig]
