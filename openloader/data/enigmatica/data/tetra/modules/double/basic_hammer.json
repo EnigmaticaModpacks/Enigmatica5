@@ -1,0 +1,604 @@
+{
+  "variants": [
+    {
+      "key": "basic_hammer/mahogany",
+      "durability": 300,
+      "integrity": 0,
+      "magicCapacity": 88,
+      "damage": 7,
+      "attackSpeed": -0.45,
+      "glyph": {
+        "tint": "e69963",
+        "textureX": 64
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/double/head/basic_hammer/metal",
+          "tint": "e69963"
+        }
+      ],
+      "capabilities": {
+        "hammer": [
+          2,
+          10
+        ]
+      }
+    },
+    {
+      "key": "basic_hammer/jacaranda",
+      "durability": 300,
+      "integrity": 0,
+      "magicCapacity": 80,
+      "damage": 7,
+      "attackSpeed": -0.45,
+      "glyph": {
+        "tint": "e6d4c8",
+        "textureX": 64
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/double/head/basic_hammer/metal",
+          "tint": "e6d4c8"
+        }
+      ],
+      "capabilities": {
+        "hammer": [
+          2,
+          10
+        ]
+      }
+    },
+    {
+      "key": "basic_hammer/palm",
+      "durability": 300,
+      "integrity": 0,
+      "magicCapacity": 80,
+      "damage": 7,
+      "attackSpeed": -0.45,
+      "glyph": {
+        "tint": "db9d51",
+        "textureX": 64
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/double/head/basic_hammer/metal",
+          "tint": "db9d51"
+        }
+      ],
+      "capabilities": {
+        "hammer": [
+          2,
+          10
+        ]
+      }
+    },
+    {
+      "key": "basic_hammer/willow",
+      "durability": 300,
+      "integrity": 0,
+      "magicCapacity": 96,
+      "damage": 7,
+      "attackSpeed": -0.45,
+      "glyph": {
+        "tint": "7bc78d",
+        "textureX": 64
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/double/head/basic_hammer/metal",
+          "tint": "7bc78d"
+        }
+      ],
+      "capabilities": {
+        "hammer": [
+          2,
+          10
+        ]
+      }
+    },
+    {
+      "key": "basic_hammer/dead",
+      "durability": 300,
+      "integrity": 0,
+      "magicCapacity": 52,
+      "damage": 7,
+      "attackSpeed": -0.45,
+      "glyph": {
+        "tint": "a1ada4",
+        "textureX": 64
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/double/head/basic_hammer/metal",
+          "tint": "a1ada4"
+        }
+      ],
+      "capabilities": {
+        "hammer": [
+          2,
+          10
+        ]
+      }
+    },
+    {
+      "key": "basic_hammer/magic",
+      "durability": 300,
+      "integrity": 0,
+      "magicCapacity": 164,
+      "damage": 7,
+      "attackSpeed": -0.45,
+      "glyph": {
+        "tint": "4567b0",
+        "textureX": 64
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/double/head/basic_hammer/metal",
+          "tint": "4567b0"
+        }
+      ],
+      "capabilities": {
+        "hammer": [
+          2,
+          10
+        ]
+      }
+    },
+    {
+      "key": "basic_hammer/umbran",
+      "durability": 300,
+      "integrity": 0,
+      "magicCapacity": 156,
+      "damage": 7,
+      "attackSpeed": -0.45,
+      "glyph": {
+        "tint": "8768a6",
+        "textureX": 64
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/double/head/basic_hammer/metal",
+          "tint": "8768a6"
+        }
+      ],
+      "capabilities": {
+        "hammer": [
+          2,
+          10
+        ]
+      }
+    },
+    {
+      "key": "basic_hammer/hellbark",
+      "durability": 300,
+      "integrity": 0,
+      "magicCapacity": 156,
+      "damage": 7,
+      "attackSpeed": -0.45,
+      "glyph": {
+        "tint": "544b5e",
+        "textureX": 64
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/double/head/basic_hammer/metal",
+          "tint": "544b5e"
+        }
+      ],
+      "capabilities": {
+        "hammer": [
+          2,
+          10
+        ]
+      }
+    },
+    {
+      "key": "basic_hammer/ancient",
+      "durability": 300,
+      "integrity": 0,
+      "magicCapacity": 176,
+      "damage": 7,
+      "attackSpeed": -0.45,
+      "glyph": {
+        "tint": "84538c",
+        "textureX": 64
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/double/head/basic_hammer/metal",
+          "tint": "84538c"
+        }
+      ],
+      "capabilities": {
+        "hammer": [
+          2,
+          10
+        ]
+      }
+    },
+    {
+      "key": "basic_hammer/fir",
+      "durability": 300,
+      "integrity": 0,
+      "magicCapacity": 88,
+      "damage": 7,
+      "attackSpeed": -0.45,
+      "glyph": {
+        "tint": "8a817d",
+        "textureX": 64
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/double/head/basic_hammer/metal",
+          "tint": "8a817d"
+        }
+      ],
+      "capabilities": {
+        "hammer": [
+          2,
+          10
+        ]
+      }
+    },
+    {
+      "key": "basic_hammer/redwood",
+      "durability": 300,
+      "integrity": 0,
+      "magicCapacity": 88,
+      "damage": 7,
+      "attackSpeed": -0.45,
+      "glyph": {
+        "tint": "96421d",
+        "textureX": 64
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/double/head/basic_hammer/metal",
+          "tint": "96421d"
+        }
+      ],
+      "capabilities": {
+        "hammer": [
+          2,
+          10
+        ]
+      }
+    },
+    {
+      "key": "basic_hammer/cherry",
+      "durability": 300,
+      "integrity": 0,
+      "magicCapacity": 90,
+      "damage": 7,
+      "attackSpeed": -0.45,
+      "glyph": {
+        "tint": "851d19",
+        "textureX": 64
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/double/head/basic_hammer/metal",
+          "tint": "851d19"
+        }
+      ],
+      "capabilities": {
+        "hammer": [
+          2,
+          10
+        ]
+      }
+    },
+    {
+      "key": "basic_hammer/platinum",
+      "durability": 521,
+      "integrity": -2,
+      "magicCapacity": 134,
+      "damage": 8,
+      "attackSpeed": -0.45,
+      "glyph": {
+        "tint": "d6f6ff",
+        "textureX": 64
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/double/head/basic_hammer/metal",
+          "tint": "e69963"
+        }
+      ],
+      "capabilities": {
+        "hammer": [
+          4,
+          18
+        ]
+      }
+    },
+    {
+      "key": "basic_hammer/lapis",
+      "durability": 300,
+      "integrity": -1,
+      "magicCapacity": 122,
+      "damage": 7,
+      "attackSpeed": -0.45,
+      "glyph": {
+        "tint": "3327db",
+        "textureX": 64
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/double/head/basic_hammer/metal",
+          "tint": "3327db"
+        }
+      ],
+      "capabilities": {
+        "hammer": [
+          2,
+          10
+        ]
+      }
+    },
+    {
+      "key": "basic_hammer/osmium",
+      "durability": 300,
+      "integrity": -1,
+      "magicCapacity": 112,
+      "damage": 7,
+      "attackSpeed": -0.45,
+      "glyph": {
+        "tint": "a7aed9",
+        "textureX": 64
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/double/head/basic_hammer/metal",
+          "tint": "a7aed9"
+        }
+      ],
+      "capabilities": {
+        "hammer": [
+          2,
+          10
+        ]
+      }
+    },
+    {
+      "key": "basic_hammer/refined_glowstone",
+      "durability": 521,
+      "integrity": -2,
+      "magicCapacity": 154,
+      "damage": 8,
+      "attackSpeed": -0.45,
+      "glyph": {
+        "tint": "eeff00",
+        "textureX": 64
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/double/head/basic_hammer/metal",
+          "tint": "eeff00"
+        }
+      ],
+      "capabilities": {
+        "hammer": [
+          4,
+          18
+        ]
+      }
+    },
+    {
+      "key": "basic_hammer/refined_obsidian",
+      "durability": 720,
+      "integrity": -3,
+      "magicCapacity": 168,
+      "damage": 9,
+      "attackSpeed": -0.65,
+      "glyph": {
+        "tint": "6e1f9c",
+        "textureX": 64
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/double/head/basic_hammer/obsidian",
+          "tint": "6e1f9c"
+        }
+      ],
+      "capabilities": {
+        "hammer": [
+          4,
+          20
+        ]
+      }
+    },
+    {
+      "key": "basic_hammer/andesite_alloy",
+      "durability": 300,
+      "integrity": 0,
+      "magicCapacity": 108,
+      "damage": 7,
+      "attackSpeed": -0.45,
+      "glyph": {
+        "tint": "a3adac",
+        "textureX": 64
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/double/head/basic_hammer/metal",
+          "tint": "a3adac"
+        }
+      ],
+      "capabilities": {
+        "hammer": [
+          2,
+          10
+        ]
+      }
+    },
+    {
+      "key": "basic_hammer/pink_slime",
+      "durability": 300,
+      "integrity": 0,
+      "magicCapacity": 108,
+      "damage": 7,
+      "attackSpeed": -0.45,
+      "glyph": {
+        "tint": "df3ce8",
+        "textureX": 64
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/double/head/basic_hammer/metal",
+          "tint": "df3ce8"
+        }
+      ],
+      "capabilities": {
+        "hammer": [
+          2,
+          10
+        ]
+      }
+    },
+    {
+      "key": "basic_hammer/iesnium",
+      "durability": 300,
+      "integrity": 0,
+      "magicCapacity": 108,
+      "damage": 7,
+      "attackSpeed": -0.45,
+      "glyph": {
+        "tint": "aadef0",
+        "textureX": 64
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/double/head/basic_hammer/metal",
+          "tint": "aadef0"
+        }
+      ],
+      "capabilities": {
+        "hammer": [
+          2,
+          10
+        ]
+      }
+    },
+    {
+      "key": "basic_hammer/compressed_iron",
+      "durability": 300,
+      "integrity": 0,
+      "magicCapacity": 108,
+      "damage": 7,
+      "attackSpeed": -0.45,
+      "glyph": {
+        "tint": "5e6a6e",
+        "textureX": 64
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/double/head/basic_hammer/metal",
+          "tint": "5e6a6e"
+        }
+      ],
+      "capabilities": {
+        "hammer": [
+          2,
+          10
+        ]
+      }
+    },
+    {
+      "key": "basic_hammer/energized_steel",
+      "durability": 521,
+      "integrity": 0,
+      "magicCapacity": 108,
+      "damage": 8,
+      "attackSpeed": -0.45,
+      "glyph": {
+        "tint": "dbd2a4",
+        "textureX": 64
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/double/head/basic_hammer/metal",
+          "tint": "dbd2a4"
+        }
+      ],
+      "capabilities": {
+        "hammer": [
+          4,
+          18
+        ]
+      }
+    },
+    {
+      "key": "basic_hammer/niotic",
+      "durability": 300,
+      "integrity": 0,
+      "magicCapacity": 108,
+      "damage": 7,
+      "attackSpeed": -0.45,
+      "glyph": {
+        "tint": "1cc9e8",
+        "textureX": 64
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/double/head/basic_hammer/metal",
+          "tint": "1cc9e8"
+        }
+      ],
+      "capabilities": {
+        "hammer": [
+          2,
+          10
+        ]
+      }
+    },
+    {
+      "key": "basic_hammer/spirited",
+      "durability": 720,
+      "integrity": 0,
+      "magicCapacity": 108,
+      "damage": 9,
+      "attackSpeed": -0.65,
+      "glyph": {
+        "tint": "13eb21",
+        "textureX": 64
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/double/head/basic_hammer/obsidian",
+          "tint": "13eb21"
+        }
+      ],
+      "capabilities": {
+        "hammer": [
+          4,
+          20
+        ]
+      }
+    },
+    {
+      "key": "basic_hammer/nitro",
+      "durability": 720,
+      "integrity": 0,
+      "magicCapacity": 108,
+      "damage": 9,
+      "attackSpeed": -0.65,
+      "glyph": {
+        "tint": "d11608",
+        "textureX": 64
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/double/head/basic_hammer/obsidian",
+          "tint": "d11608"
+        }
+      ],
+      "capabilities": {
+        "hammer": [
+          4,
+          20
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+[
+    {
+        "predicate": { "item": "mekanismtools:bronze_shovel" },
+        "item": "tetra:modular_single",
+        "modules": {
+            "single/basic_shovel": ["single/basic_shovel", "basic_shovel/bronze"],
+            "single/handle": ["single/basic_handle", "basic_handle/stick"]
+        }
+    },
+    {
+        "predicate": { "item": "mekanismtools:lapis_lazuli_shovel" },
+        "item": "tetra:modular_single",
+        "modules": {
+            "single/basic_shovel": ["single/basic_shovel", "basic_shovel/lapis"],
+            "single/handle": ["single/basic_handle", "basic_handle/stick"]
+        }
+    },
+    {
+        "predicate": { "item": "mekanismtools:osmium_shovel" },
+        "item": "tetra:modular_single",
+        "modules": {
+            "single/basic_shovel": ["single/basic_shovel", "basic_shovel/osmium"],
+            "single/handle": ["single/basic_handle", "basic_handle/stick"]
+        }
+    },
+    {
+        "predicate": { "item": "mekanismtools:refined_glowstone_shovel" },
+        "item": "tetra:modular_single",
+        "modules": {
+            "single/basic_shovel": ["single/basic_shovel", "basic_shovel/refined_glowstone"],
+            "single/handle": ["single/basic_handle", "basic_handle/stick"]
+        }
+    },
+    {
+        "predicate": { "item": "mekanismtools:refined_obsidian_shovel" },
+        "item": "tetra:modular_single",
+        "modules": {
+            "single/basic_shovel": ["single/basic_shovel", "basic_shovel/refined_obsidian"],
+            "single/handle": ["single/basic_handle", "basic_handle/stick"]
+        }
+    },
+    {
+        "predicate": { "item": "mekanism:steel_shovel" },
+        "item": "tetra:modular_single",
+        "modules": {
+            "single/basic_shovel": ["single/basic_shovel", "basic_shovel/steel"],
+            "single/handle": ["single/basic_handle", "basic_handle/stick"]
+        }
+    }
+]

@@ -1,23 +1,604 @@
 {
-	"variants": [
-		{
-			"key": "basic_pickaxe/platinum",
-			"durability": 202,
-			"integrity": -2,
-			"magicCapacity": 11,
-			"damage": 2,
-			"attackSpeed": -0.2,
-			"capabilities": {
-				"pickaxe": [4, 6.5]
-			},
-			"glyph": {
-				"tint": "d6f6ff",
-				"textureX": 176
-			},
-			"models": [{
-				"location": "tetra:items/module/double/head/basic_pickaxe/metal",
-				"tint": "ccc2ff"
-			}]
-		}
-	]
+  "variants": [
+    {
+      "key": "basic_pickaxe/mahogany",
+      "durability": 20,
+      "integrity": 0,
+      "magicCapacity": 88,
+      "damage": 1,
+      "attackSpeed": -0.2,
+      "glyph": {
+        "tint": "e69963",
+        "textureX": 176
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/double/head/basic_pickaxe/crude",
+          "tint": "e69963"
+        }
+      ],
+      "capabilities": {
+        "pickaxe": [
+          0,
+          1.6667
+        ]
+      }
+    },
+    {
+      "key": "basic_pickaxe/jacaranda",
+      "durability": 20,
+      "integrity": 0,
+      "magicCapacity": 80,
+      "damage": 1,
+      "attackSpeed": -0.2,
+      "glyph": {
+        "tint": "e6d4c8",
+        "textureX": 176
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/double/head/basic_pickaxe/crude",
+          "tint": "e6d4c8"
+        }
+      ],
+      "capabilities": {
+        "pickaxe": [
+          0,
+          1.6667
+        ]
+      }
+    },
+    {
+      "key": "basic_pickaxe/palm",
+      "durability": 20,
+      "integrity": 0,
+      "magicCapacity": 80,
+      "damage": 1,
+      "attackSpeed": -0.2,
+      "glyph": {
+        "tint": "db9d51",
+        "textureX": 176
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/double/head/basic_pickaxe/crude",
+          "tint": "db9d51"
+        }
+      ],
+      "capabilities": {
+        "pickaxe": [
+          0,
+          1.6667
+        ]
+      }
+    },
+    {
+      "key": "basic_pickaxe/willow",
+      "durability": 20,
+      "integrity": 0,
+      "magicCapacity": 96,
+      "damage": 1,
+      "attackSpeed": -0.2,
+      "glyph": {
+        "tint": "7bc78d",
+        "textureX": 176
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/double/head/basic_pickaxe/crude",
+          "tint": "7bc78d"
+        }
+      ],
+      "capabilities": {
+        "pickaxe": [
+          0,
+          1.6667
+        ]
+      }
+    },
+    {
+      "key": "basic_pickaxe/dead",
+      "durability": 20,
+      "integrity": 0,
+      "magicCapacity": 52,
+      "damage": 1,
+      "attackSpeed": -0.2,
+      "glyph": {
+        "tint": "a1ada4",
+        "textureX": 176
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/double/head/basic_pickaxe/crude",
+          "tint": "a1ada4"
+        }
+      ],
+      "capabilities": {
+        "pickaxe": [
+          0,
+          1.6667
+        ]
+      }
+    },
+    {
+      "key": "basic_pickaxe/magic",
+      "durability": 20,
+      "integrity": 0,
+      "magicCapacity": 164,
+      "damage": 1,
+      "attackSpeed": -0.2,
+      "glyph": {
+        "tint": "4567b0",
+        "textureX": 176
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/double/head/basic_pickaxe/crude",
+          "tint": "4567b0"
+        }
+      ],
+      "capabilities": {
+        "pickaxe": [
+          0,
+          1.6667
+        ]
+      }
+    },
+    {
+      "key": "basic_pickaxe/umbran",
+      "durability": 20,
+      "integrity": 0,
+      "magicCapacity": 156,
+      "damage": 1,
+      "attackSpeed": -0.2,
+      "glyph": {
+        "tint": "8768a6",
+        "textureX": 176
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/double/head/basic_pickaxe/crude",
+          "tint": "8768a6"
+        }
+      ],
+      "capabilities": {
+        "pickaxe": [
+          0,
+          1.6667
+        ]
+      }
+    },
+    {
+      "key": "basic_pickaxe/hellbark",
+      "durability": 20,
+      "integrity": 0,
+      "magicCapacity": 156,
+      "damage": 1,
+      "attackSpeed": -0.2,
+      "glyph": {
+        "tint": "544b5e",
+        "textureX": 176
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/double/head/basic_pickaxe/crude",
+          "tint": "544b5e"
+        }
+      ],
+      "capabilities": {
+        "pickaxe": [
+          0,
+          1.6667
+        ]
+      }
+    },
+    {
+      "key": "basic_pickaxe/ancient",
+      "durability": 20,
+      "integrity": 0,
+      "magicCapacity": 176,
+      "damage": 1,
+      "attackSpeed": -0.2,
+      "glyph": {
+        "tint": "84538c",
+        "textureX": 176
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/double/head/basic_pickaxe/crude",
+          "tint": "84538c"
+        }
+      ],
+      "capabilities": {
+        "pickaxe": [
+          0,
+          1.6667
+        ]
+      }
+    },
+    {
+      "key": "basic_pickaxe/fir",
+      "durability": 20,
+      "integrity": 0,
+      "magicCapacity": 88,
+      "damage": 1,
+      "attackSpeed": -0.2,
+      "glyph": {
+        "tint": "8a817d",
+        "textureX": 176
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/double/head/basic_pickaxe/crude",
+          "tint": "8a817d"
+        }
+      ],
+      "capabilities": {
+        "pickaxe": [
+          0,
+          1.6667
+        ]
+      }
+    },
+    {
+      "key": "basic_pickaxe/redwood",
+      "durability": 20,
+      "integrity": 0,
+      "magicCapacity": 88,
+      "damage": 1,
+      "attackSpeed": -0.2,
+      "glyph": {
+        "tint": "96421d",
+        "textureX": 176
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/double/head/basic_pickaxe/crude",
+          "tint": "96421d"
+        }
+      ],
+      "capabilities": {
+        "pickaxe": [
+          0,
+          1.6667
+        ]
+      }
+    },
+    {
+      "key": "basic_pickaxe/cherry",
+      "durability": 20,
+      "integrity": 0,
+      "magicCapacity": 90,
+      "damage": 1,
+      "attackSpeed": -0.2,
+      "glyph": {
+        "tint": "851d19",
+        "textureX": 176
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/double/head/basic_pickaxe/crude",
+          "tint": "851d19"
+        }
+      ],
+      "capabilities": {
+        "pickaxe": [
+          0,
+          1.6667
+        ]
+      }
+    },
+    {
+      "key": "basic_pickaxe/platinum",
+      "durability": 771,
+      "integrity": -2,
+      "magicCapacity": 134,
+      "damage": 4,
+      "attackSpeed": -0.2,
+      "glyph": {
+        "tint": "d6f6ff",
+        "textureX": 176
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/double/head/basic_pickaxe/shiny",
+          "tint": "e69963"
+        }
+      ],
+      "capabilities": {
+        "pickaxe": [
+          3,
+          6.6667
+        ]
+      }
+    },
+    {
+      "key": "basic_pickaxe/lapis",
+      "durability": 115,
+      "integrity": -1,
+      "magicCapacity": 122,
+      "damage": 3,
+      "attackSpeed": -0.2,
+      "glyph": {
+        "tint": "3327db",
+        "textureX": 176
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/double/head/basic_pickaxe/metal",
+          "tint": "3327db"
+        }
+      ],
+      "capabilities": {
+        "pickaxe": [
+          2,
+          5
+        ]
+      }
+    },
+    {
+      "key": "basic_pickaxe/osmium",
+      "durability": 115,
+      "integrity": -1,
+      "magicCapacity": 112,
+      "damage": 3,
+      "attackSpeed": -0.2,
+      "glyph": {
+        "tint": "a7aed9",
+        "textureX": 176
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/double/head/basic_pickaxe/metal",
+          "tint": "a7aed9"
+        }
+      ],
+      "capabilities": {
+        "pickaxe": [
+          2,
+          5
+        ]
+      }
+    },
+    {
+      "key": "basic_pickaxe/refined_glowstone",
+      "durability": 202,
+      "integrity": -2,
+      "magicCapacity": 154,
+      "damage": 2,
+      "attackSpeed": -0.2,
+      "glyph": {
+        "tint": "eeff00",
+        "textureX": 176
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/double/head/basic_pickaxe/metal",
+          "tint": "eeff00"
+        }
+      ],
+      "capabilities": {
+        "pickaxe": [
+          4,
+          6.5
+        ]
+      }
+    },
+    {
+      "key": "basic_pickaxe/refined_obsidian",
+      "durability": 771,
+      "integrity": -3,
+      "magicCapacity": 168,
+      "damage": 4,
+      "attackSpeed": -0.2,
+      "glyph": {
+        "tint": "6e1f9c",
+        "textureX": 176
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/double/head/basic_pickaxe/shiny",
+          "tint": "6e1f9c"
+        }
+      ],
+      "capabilities": {
+        "pickaxe": [
+          3,
+          6.6667
+        ]
+      }
+    },
+    {
+      "key": "basic_pickaxe/andesite_alloy",
+      "durability": 115,
+      "integrity": 0,
+      "magicCapacity": 108,
+      "damage": 3,
+      "attackSpeed": -0.2,
+      "glyph": {
+        "tint": "a3adac",
+        "textureX": 176
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/double/head/basic_pickaxe/metal",
+          "tint": "a3adac"
+        }
+      ],
+      "capabilities": {
+        "pickaxe": [
+          2,
+          5
+        ]
+      }
+    },
+    {
+      "key": "basic_pickaxe/pink_slime",
+      "durability": 115,
+      "integrity": 0,
+      "magicCapacity": 108,
+      "damage": 3,
+      "attackSpeed": -0.2,
+      "glyph": {
+        "tint": "df3ce8",
+        "textureX": 176
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/double/head/basic_pickaxe/metal",
+          "tint": "df3ce8"
+        }
+      ],
+      "capabilities": {
+        "pickaxe": [
+          2,
+          5
+        ]
+      }
+    },
+    {
+      "key": "basic_pickaxe/iesnium",
+      "durability": 115,
+      "integrity": 0,
+      "magicCapacity": 108,
+      "damage": 3,
+      "attackSpeed": -0.2,
+      "glyph": {
+        "tint": "aadef0",
+        "textureX": 176
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/double/head/basic_pickaxe/metal",
+          "tint": "aadef0"
+        }
+      ],
+      "capabilities": {
+        "pickaxe": [
+          2,
+          5
+        ]
+      }
+    },
+    {
+      "key": "basic_pickaxe/compressed_iron",
+      "durability": 115,
+      "integrity": 0,
+      "magicCapacity": 108,
+      "damage": 3,
+      "attackSpeed": -0.2,
+      "glyph": {
+        "tint": "5e6a6e",
+        "textureX": 176
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/double/head/basic_pickaxe/metal",
+          "tint": "5e6a6e"
+        }
+      ],
+      "capabilities": {
+        "pickaxe": [
+          2,
+          5
+        ]
+      }
+    },
+    {
+      "key": "basic_pickaxe/energized_steel",
+      "durability": 202,
+      "integrity": 0,
+      "magicCapacity": 108,
+      "damage": 2,
+      "attackSpeed": -0.2,
+      "glyph": {
+        "tint": "dbd2a4",
+        "textureX": 176
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/double/head/basic_pickaxe/metal",
+          "tint": "dbd2a4"
+        }
+      ],
+      "capabilities": {
+        "pickaxe": [
+          4,
+          6.5
+        ]
+      }
+    },
+    {
+      "key": "basic_pickaxe/niotic",
+      "durability": 115,
+      "integrity": 0,
+      "magicCapacity": 108,
+      "damage": 3,
+      "attackSpeed": -0.2,
+      "glyph": {
+        "tint": "1cc9e8",
+        "textureX": 176
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/double/head/basic_pickaxe/metal",
+          "tint": "1cc9e8"
+        }
+      ],
+      "capabilities": {
+        "pickaxe": [
+          2,
+          5
+        ]
+      }
+    },
+    {
+      "key": "basic_pickaxe/spirited",
+      "durability": 771,
+      "integrity": 0,
+      "magicCapacity": 108,
+      "damage": 4,
+      "attackSpeed": -0.2,
+      "glyph": {
+        "tint": "13eb21",
+        "textureX": 176
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/double/head/basic_pickaxe/shiny",
+          "tint": "13eb21"
+        }
+      ],
+      "capabilities": {
+        "pickaxe": [
+          3,
+          6.6667
+        ]
+      }
+    },
+    {
+      "key": "basic_pickaxe/nitro",
+      "durability": 771,
+      "integrity": 0,
+      "magicCapacity": 108,
+      "damage": 4,
+      "attackSpeed": -0.2,
+      "glyph": {
+        "tint": "d11608",
+        "textureX": 176
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/double/head/basic_pickaxe/shiny",
+          "tint": "d11608"
+        }
+      ],
+      "capabilities": {
+        "pickaxe": [
+          3,
+          6.6667
+        ]
+      }
+    }
+  ]
 }

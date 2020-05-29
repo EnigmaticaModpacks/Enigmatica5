@@ -1,0 +1,56 @@
+[
+    {
+        "predicate": { "item": "mekanismtools:bronze_pickaxe" },
+        "item": "tetra:modular_double",
+        "modules": {
+            "double/head_left": ["double/basic_pickaxe_left", "basic_pickaxe/bronze"],
+            "double/head_right": ["double/basic_pickaxe_right", "basic_pickaxe/bronze"],
+            "double/handle": ["double/basic_handle", "basic_handle/stick"]
+        }
+    },
+    {
+        "predicate": { "item": "mekanismtools:lapis_lazuli_pickaxe" },
+        "item": "tetra:modular_double",
+        "modules": {
+            "double/head_left": ["double/basic_pickaxe_left", "basic_pickaxe/lapis"],
+            "double/head_right": ["double/basic_pickaxe_right", "basic_pickaxe/lapis"],
+            "double/handle": ["double/basic_handle", "basic_handle/stick"]
+        }
+    },
+    {
+        "predicate": { "item": "mekanismtools:osmium_pickaxe" },
+        "item": "tetra:modular_double",
+        "modules": {
+            "double/head_left": ["double/basic_pickaxe_left", "basic_pickaxe/osmium"],
+            "double/head_right": ["double/basic_pickaxe_right", "basic_pickaxe/osmium"],
+            "double/handle": ["double/basic_handle", "basic_handle/stick"]
+        }
+    },
+    {
+        "predicate": { "item": "mekanismtools:refined_glowstone_pickaxe" },
+        "item": "tetra:modular_double",
+        "modules": {
+            "double/head_left": ["double/basic_pickaxe_left", "basic_pickaxe/refined_glowstone"],
+            "double/head_right": ["double/basic_pickaxe_right", "basic_pickaxe/refined_glowstone"],
+            "double/handle": ["double/basic_handle", "basic_handle/stick"]
+        }
+    },
+    {
+        "predicate": { "item": "mekanismtools:refined_obsidian_pickaxe" },
+        "item": "tetra:modular_double",
+        "modules": {
+            "double/head_left": ["double/basic_pickaxe_left", "basic_pickaxe/refined_obsidian"],
+            "double/head_right": ["double/basic_pickaxe_right", "basic_pickaxe/refined_obsidian"],
+            "double/handle": ["double/basic_handle", "basic_handle/stick"]
+        }
+    },
+    {
+        "predicate": { "item": "mekanism:steel_pickaxe" },
+        "item": "tetra:modular_double",
+        "modules": {
+            "double/head_left": ["double/basic_pickaxe_left", "basic_pickaxe/steel"],
+            "double/head_right": ["double/basic_pickaxe_right", "basic_pickaxe/steel"],
+            "double/handle": ["double/basic_handle", "basic_handle/stick"]
+        }
+    }
+]
