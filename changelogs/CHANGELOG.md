@@ -1,3 +1,26 @@
+## Enigmatica 5 v0.4.14
+
+_Using Forge-1.15.2-31.2.0_
+
+_[Mod Updates](https://github.com/NillerMedDild/Enigmatica5/blob/master/changelogs/CHANGELOG_MODS_0.4.14.txt)_
+
+**Mod Additions**
+
+-   
+
+**Bug fixes**
+
+-   
+
+**Mod Removals**
+
+-   Conduits Prevent Drowned
+-   Cycle Paintings
+-   Easy Elytra Takeoff
+-   Nether Portal Spread
+-   Small Nether Portal
+-   Softer Hay Bales
+
 ## Enigmatica 5 v0.4.13
 
 **Please remove the following folders before updating, to ensure files are updated correctly:**
@@ -47,7 +70,7 @@ _Using Forge-1.15.2-31.2.0_ | _[Mod Updates](https://github.com/NillerMedDild/En
 
 _Using Forge-1.15.2-31.2.0_
 
-_[Mod Updates](https://github.com/NillerMedDild/Enigmatica5/blob/master/changelogs/CHANGELOG_MODS_0.4.13.txt)_
+_[Mod Updates](https://github.com/NillerMedDild/Enigmatica5/blob/master/changelogs/CHANGELOG_MODS_0.4.12.txt)_
 
 **Mod Additions**
 
