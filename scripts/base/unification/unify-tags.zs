@@ -610,6 +610,23 @@ var materials as MCTag[string][string] = {
         "clump": <tag:forge:clumps/obsidian>,
         "shard": <tag:forge:shards/obsidian>,
         "crystal": <tag:forge:crystals/obsidian>,
+    },
+
+    "iesmium": {
+        "nugget": <tag:forge:nuggets/iesmium>,
+        "ingot": <tag:forge:ingots/iesmium>,
+        "gem": <tag:forge:gems/iesmium>,
+        "storage_block": <tag:forge:storage_blocks/iesmium>,
+        "ore": <tag:forge:ores/iesmium>,
+        "ore_deposits": <tag:forge:ore_deposits/iesmium>,
+        "dust": <tag:forge:dusts/iesmium>,
+        "gear": <tag:forge:gears/iesmium>,
+        "plate": <tag:forge:plates/iesmium>,
+        "rod": <tag:forge:rods/iesmium>,
+        "dirty_dust": <tag:forge:dirty_dusts/iesmium>,
+        "clump": <tag:forge:clumps/iesmium>,
+        "shard": <tag:forge:shards/iesmium>,
+        "crystal": <tag:forge:crystals/iesmium>,
     }
 };
 
