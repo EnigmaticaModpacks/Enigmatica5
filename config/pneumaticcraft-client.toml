@@ -38,9 +38,27 @@
 	path_update_setting = "NORMAL"
 
 [sound]
+	#Volume level of the Jet Boots in normal flight mode
+	#Range: 0.0 ~ 2.0
+	jetboots_volume = 0.5
+	#Volume level of the hand-held Minigun
+	#Range: 0.0 ~ 2.0
+	minigun_volume_held = 0.3
+	#Volume level of the Sentry Turret's Minigun
+	#Range: 0.0 ~ 2.0
+	minigun_volume_sentry_turret = 0.3
 	#Volume level of the Elevator *clunk* while starting/stopping
 	#Range: 0.0 ~ 2.0
 	elevator_volume_start_stop = 0.5
+	#Volume level of drone-mounted Miniguns
+	#Range: 0.0 ~ 2.0
+	minigun_volume_drone = 0.3
+	#Volume level of the Jet Boots when in Builder Mode
+	#Range: 0.0 ~ 2.0
+	jetboots_volume_builder_mode = 0.5
+	#Volume level of air leaks from unconnected tubes/machines. Beware: turning this off could lead to undetected leaks wasting pressure forever!
+	#Range: 0.0 ~ 2.0
+	air_leak_volume = 0.5
 	#Volume level of the Elevator while running
 	#Range: 0.0 ~ 2.0
 	elevator_volume_running = 1.0
