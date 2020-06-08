@@ -634,6 +634,8 @@ var modPriorities as string[] = [
     "minecraft",
     "pneumaticcraft",
     "silents_mechanisms",
+    "create",
+    "immersiveengineering",
 	"mekanism",
     "jaopca",
     "kubejs",
