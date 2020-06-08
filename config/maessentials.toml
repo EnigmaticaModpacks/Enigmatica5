@@ -1,4 +1,12 @@
 
+[afk]
+	auto = true
+	#Range: > 1
+	auto_time = 600
+	#Range: > 0
+	auto_kick = 0
+
+
 #Command Config
 [Commands]
 
@@ -162,4 +170,3 @@
 	[Commands.god]
 		#Enable command: /god
 		enable = true
-
