@@ -1,136 +1,14 @@
 {
-  "outcomes": [
-    {
-      "material": {
-        "item": "biomesoplenty:mahogany_planks",
-        "count": 2
-      },
-      "requiredCapabilities": {
-        "axe": 2
-      },
-      "moduleKey": "bow/straight_stave",
-      "moduleVariant": "straight_stave/mahogany"
-    },
-    {
-      "material": {
-        "item": "biomesoplenty:jacaranda_planks",
-        "count": 2
-      },
-      "requiredCapabilities": {
-        "axe": 2
-      },
-      "moduleKey": "bow/straight_stave",
-      "moduleVariant": "straight_stave/jacaranda"
-    },
-    {
-      "material": {
-        "item": "biomesoplenty:palm_planks",
-        "count": 2
-      },
-      "requiredCapabilities": {
-        "axe": 2
-      },
-      "moduleKey": "bow/straight_stave",
-      "moduleVariant": "straight_stave/palm"
-    },
-    {
-      "material": {
-        "item": "biomesoplenty:willow_planks",
-        "count": 2
-      },
-      "requiredCapabilities": {
-        "axe": 2
-      },
-      "moduleKey": "bow/straight_stave",
-      "moduleVariant": "straight_stave/willow"
-    },
-    {
-      "material": {
-        "item": "biomesoplenty:dead_planks",
-        "count": 2
-      },
-      "requiredCapabilities": {
-        "axe": 2
-      },
-      "moduleKey": "bow/straight_stave",
-      "moduleVariant": "straight_stave/dead"
-    },
-    {
-      "material": {
-        "item": "biomesoplenty:magic_planks",
-        "count": 2
-      },
-      "requiredCapabilities": {
-        "axe": 2
-      },
-      "moduleKey": "bow/straight_stave",
-      "moduleVariant": "straight_stave/magic"
-    },
-    {
-      "material": {
-        "item": "biomesoplenty:umbran_planks",
-        "count": 2
-      },
-      "requiredCapabilities": {
-        "axe": 2
-      },
-      "moduleKey": "bow/straight_stave",
-      "moduleVariant": "straight_stave/umbran"
-    },
-    {
-      "material": {
-        "item": "biomesoplenty:hellbark_planks",
-        "count": 2
-      },
-      "requiredCapabilities": {
-        "axe": 2
-      },
-      "moduleKey": "bow/straight_stave",
-      "moduleVariant": "straight_stave/hellbark"
-    },
-    {
-      "material": {
-        "item": "biomesoplenty:fir_planks",
-        "count": 2
-      },
-      "requiredCapabilities": {
-        "axe": 2
-      },
-      "moduleKey": "bow/straight_stave",
-      "moduleVariant": "straight_stave/ancient"
-    },
-    {
-      "material": {
-        "item": "biomesoplenty:fir_planks",
-        "count": 2
-      },
-      "requiredCapabilities": {
-        "axe": 2
-      },
-      "moduleKey": "bow/straight_stave",
-      "moduleVariant": "straight_stave/fir"
-    },
-    {
-      "material": {
-        "item": "biomesoplenty:redwood_planks",
-        "count": 2
-      },
-      "requiredCapabilities": {
-        "axe": 2
-      },
-      "moduleKey": "bow/straight_stave",
-      "moduleVariant": "straight_stave/redwood"
-    },
-    {
-      "material": {
-        "item": "biomesoplenty:cherry_planks",
-        "count": 2
-      },
-      "requiredCapabilities": {
-        "axe": 2
-      },
-      "moduleKey": "bow/straight_stave",
-      "moduleVariant": "straight_stave/cherry"
-    }
-  ]
+    "outcomes": [
+        {
+            "material": {
+                "tag": "forge:planks/ancient"
+            },
+            "requiredCapabilities": {
+                "axe": 2
+            },
+            "moduleKey": "bow/straight_stave",
+            "moduleVariant": "straight_stave/ancient_wood"
+        }
+    ]
 }
