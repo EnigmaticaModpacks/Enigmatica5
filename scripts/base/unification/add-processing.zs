@@ -161,5 +161,5 @@ function occultism_ore_ingot_crushing(material as string) as void {
         crushing_time: 200
     });
 
-    logger.info("occultism_ore_inot_crushing with " + material + " succesfully ran!");
+    logger.info("occultism_ore_ingot_crushing with " + material + " succesfully ran!");
 }
