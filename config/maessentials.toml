@@ -1,17 +1,20 @@
 
 [afk]
 	auto = true
-	#Range: > 1
-	auto_time = 600
 	#Range: > 0
 	auto_kick = 0
-
+	#Range: > 1
+	auto_time = 600
 
 #Command Config
 [Commands]
 
 	[Commands.broadcast]
 		#Enable command: /broadcast
+		enable = true
+
+	[Commands.repair]
+		#Enable command: /repair
 		enable = true
 
 	[Commands.endc]
@@ -119,11 +122,6 @@
 		cooldown_player = 20
 
 	[Commands.afk]
-		auto = true
-		#Range: > 0
-		auto_kick = 0
-		#Range: > 1
-		auto_time = 600
 		#Range: > 0
 		cooldown = 30
 		command = true
@@ -170,3 +168,4 @@
 	[Commands.god]
 		#Enable command: /god
 		enable = true
+
