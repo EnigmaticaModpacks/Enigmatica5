@@ -1,12 +1,16 @@
 ## Enigmatica 5 v0.4.14
 
-_Using Forge-1.15.2-31.2.0_
+_Using Forge-1.15.2-31.2.9_
 
 _[Mod Updates](https://github.com/NillerMedDild/Enigmatica5/blob/master/changelogs/CHANGELOG_MODS_0.4.14.txt)_
 
 **Mod Additions**
 
 -   
+
+**Changes**
+
+* Apotheosis: Disabled the increased spawn rate of Wandering Traders .
 
 **Bug fixes**
 
