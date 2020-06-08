@@ -547,8 +547,8 @@ var materials as MCTag[string][string] = {
     "quartz": {
         "nugget": <tag:forge:nuggets/quartz>,
         "ingot": <tag:forge:ingots/quartz>,
-        "gem": <tag:forge:gems/quartz>,
-        "storage_block": <tag:forge:storage_blocks/quartz>,
+        //"gem": <tag:forge:gems/quartz>,
+        //"storage_block": <tag:forge:storage_blocks/quartz>,
         "ore": <tag:forge:ores/quartz>,
         "ore_deposits": <tag:forge:ore_deposits/quartz>,
         "dust": <tag:forge:dusts/quartz>,
