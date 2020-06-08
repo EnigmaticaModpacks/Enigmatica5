@@ -4,9 +4,6 @@
         { "file": "functions.js" },
         { "file": "constants.js" },
 
-        { "file": "base/unification/unify_tags.js" },
-        { "file": "base/unification/add_processing.js" },
-
         { "file": "base/tags/blocks/forge/stones.js" },
         { "file": "base/tags/blocks/forge/ores.js" },
         { "file": "base/tags/blocks/forge/materials.js" },
