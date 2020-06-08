@@ -6,15 +6,23 @@ _[Mod Updates](https://github.com/NillerMedDild/Enigmatica5/blob/master/changelo
 
 **Mod Additions**
 
--   
+-   Create! [\#346](https://github.com/NillerMedDild/Enigmatica5/issues/346)
+-   Ender Storage [\#336](https://github.com/NillerMedDild/Enigmatica5/issues/336)
 
 **Changes**
 
 * Apotheosis: Disabled the increased spawn rate of Wandering Traders .
+* RealisticOreVeins: Made huge veins less common
 
 **Bug fixes**
 
--   
+-   Minecolonies Florist can generate Botania flowers, including functional flowers [\#347](https://github.com/NillerMedDild/Enigmatica5/issues/347)
+-   XNet facades don't work correctly [\#341](https://github.com/NillerMedDild/Enigmatica5/issues/341)
+-   Some Botania Quartz is uncraftable.  [\#334](https://github.com/NillerMedDild/Enigmatica5/issues/334)
+-   Whoops mod functionality consumes 2 logs/stones instead of 1 when right-clicking [\#331](https://github.com/NillerMedDild/Enigmatica5/issues/331)
+-   Cooking Cactus in a furnace gives Charcoal [\#330](https://github.com/NillerMedDild/Enigmatica5/issues/330)
+-   Mining Gadget Laser not centered on block.  [\#312](https://github.com/NillerMedDild/Enigmatica5/issues/312)
+-   Simple Farming Cherry Tree Crash [\#11](https://github.com/NillerMedDild/Enigmatica5/issues/11)
 
 **Mod Removals**
 
