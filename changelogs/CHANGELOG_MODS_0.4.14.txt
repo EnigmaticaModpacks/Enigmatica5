@@ -518,6 +518,13 @@ Updated:
 		industrial-foregoing-1.15.2-2.3.2-e3bf186.jar:
 			[https://github.com/InnovativeOnlineIndustries/Industrial-Foregoing/blob/changelog/CHANGELOG.md](https://github.com/InnovativeOnlineIndustries/Industrial-Foregoing/blob/changelog/CHANGELOG.md)
 
+	Interactio - In-World Crafting with Datapacks! (Interactio-1.15.2-2.0.2.jar --> Interactio-1.15.2-2.0.3.jar):
+		Interactio-1.15.2-2.0.3.jar:
+			This is another smaller intermediate release while I'm still preoccupied with uni and other irl stuff, but it features quite a useful change to Block Explosion recipes.
+			(It also adds "block ingredients", so you can now use block tags and block lists for block inputs in recipes!)
+			[- Add Block explosion dropping items (](https://github.com/MaxNeedsSnacks/Interactio/pull/11/commits/d2ca21f96fd88a76894d492ffaf5135a5cfaed87)[#13](https://github.com/MaxNeedsSnacks/Interactio/issues/13)[)](https://github.com/MaxNeedsSnacks/Interactio/pull/11/commits/d2ca21f96fd88a76894d492ffaf5135a5cfaed87)
+			You can now use either item or block outputs with block explosion recipes! Using items causes them to be spawned in the world when the block explodes (kind of like custom drops), while using a block will cause it to replace the exploded block. Keep in mind you can only use either item or block outputs for one given recipe!
+
 	JAOPCA (JAOPCA-1.15.2-3.2.0.9.jar --> JAOPCA-1.15.2-3.2.0.10.jar):
 		JAOPCA-1.15.2-3.2.0.10.jar:
 			Updated Flux
@@ -578,7 +585,10 @@ Updated:
 			[eaa1061](https://github.com/mekanism/Mekanism/commit/eaa106115b4ba12d44b92c4777a9b528a8f442a0) - New Crowdin translations ([#6169](https://github.com/mekanism/Mekanism/issues/6169))
 			[b39588a](https://github.com/mekanism/Mekanism/commit/b39588aae8073b3c2a70b1ac92108d8c96d82f31) - Bump version to 9.10.7
 
-	MineColonies (minecolonies-1.15.2-0.11.948-universal --> minecolonies-1.15.2-0.11.957-universal.jar):
+	MineColonies (minecolonies-1.15.2-0.11.948-universal --> minecolonies-1.15.2-0.11.958-universal.jar):
+		minecolonies-1.15.2-0.11.958-universal.jar:
+			Minecolonies: - Added new colonist texture style for medieval players. - Update to latest forge - Improve lumberjack stuck handling - Add some helpful research (check out the technology tab) - Schematic update - Adds vikings and fix pirate ship issues
+
 		minecolonies-1.15.2-0.11.957-universal.jar:
 			Fix structurize dependency
 
@@ -694,6 +704,13 @@ Updated:
 	RFTools Storage (rftoolsstorage-1.15-1.1.3-beta.jar --> rftoolsstorage-1.15-1.1.4-beta.jar):
 		rftoolsstorage-1.15-1.1.4-beta.jar:
 			* Fixed various problems with modular storage. It was mostly broken after last update
+
+	RandomPatches (RandomPatches 1.15.2-1.21.1.2 --> RandomPatches 1.15.2-1.21.1.4):
+		RandomPatches 1.15.2-1.21.1.4:
+			Attempted another read timeout fix.
+
+		RandomPatches 1.15.2-1.21.1.3:
+			Attempted to fix the read timeout patch.
 
 	Realistic Ore Veins (oreveins-forge-1.15.2-5.1.2.jar --> oreveins-forge-1.15.2-5.1.3.jar):
 		oreveins-forge-1.15.2-5.1.3.jar:
@@ -1000,7 +1017,10 @@ Updated:
 			-StepUp shouldn't continue to change stepHeight value on disable after it does it once.
 			This should allow items from other mods to activate their own step assist.
 
-	Structurize (structurize-0.10.315-ALPHA.jar --> structurize-0.10.321-ALPHA.jar):
+	Structurize (structurize-0.10.315-ALPHA.jar --> structurize-0.10.322-ALPHA.jar):
+		structurize-0.10.322-ALPHA.jar:
+			* Remove memory leak with waypoints - Added a bunch of tags to our blocks - Fix some log spam - Update to latest forge - Fix substitution block handling - Allow fluid compat for multiblocks.
+
 		structurize-0.10.321-ALPHA.jar:
 			Fix up stuff
 
@@ -1013,7 +1033,24 @@ Updated:
 		structurize-0.10.316-ALPHA:
 			Add tag support to scans
 
-	Tetra (tetra-1.15.2-2.7.1.jar --> tetra-1.15.2-2.7.2.jar):
+	Tetra (tetra-1.15.2-2.7.1.jar --> tetra-1.15.2-2.8.1.jar):
+		tetra-1.15.2-2.8.1.jar:
+			Fixes:
+			* added missing textures for new shield improvements
+
+		tetra-1.15.2-2.8.0.jar:
+			Changes:
+			* added straps module for shield grip slot
+			* added base damage and cooldown for shields
+			* added sturdy boss module for shields
+			* added aerodynamic trim improvement for shieldplates
+			* enabled additional enchantments for shields
+			Fixes:
+			* fixed incorrect damaged caused from thrown items
+			* fixed incorrect stat bar display of speed from improvements
+			Tech changes:
+			* added support for improvement based synergies
+
 		tetra-1.15.2-2.7.2.jar:
 			Tech changes:
 			* changed schema outcome ordering to always consider tag outcomes last
