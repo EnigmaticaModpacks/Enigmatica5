@@ -1,10 +1,19 @@
-## Enigmatica 5 v0.4.14
+## Enigmatica 5 v0.4.15
 
 **Note: The mod Double Slabs that allows two different slabs to be within the same block has been removed in this update, any Double Slabs consisting of two different slabs will be removed by updating.**
 
+_Using Forge-1.15.2-31.2.9_ | _[Mod Updates](https://github.com/NillerMedDild/Enigmatica5/blob/master/changelogs/CHANGELOG_MODS_0.4.15.txt)_
+
+**Mod Removals**
+
+* Double Slabs
+
+
+
+## Enigmatica 5 v0.4.14
+
 _Using Forge-1.15.2-31.2.9_ | _[Mod Updates](https://github.com/NillerMedDild/Enigmatica5/blob/master/changelogs/CHANGELOG_MODS_0.4.14.txt)_
 
-<hr/>
 
 **Mod Additions**
 
@@ -36,7 +45,7 @@ _Using Forge-1.15.2-31.2.9_ | _[Mod Updates](https://github.com/NillerMedDild/En
 -   Small Nether Portal
 -   Softer Hay Bales
 
-<hr/>
+
 
 ## Enigmatica 5 v0.4.13
 
@@ -54,7 +63,7 @@ _Using Forge-1.15.2-31.2.9_ | _[Mod Updates](https://github.com/NillerMedDild/En
 
 _Using Forge-1.15.2-31.2.0_ | _[Mod Updates](https://github.com/NillerMedDild/Enigmatica5/blob/master/changelogs/CHANGELOG_MODS_0.4.13.txt)_
 
-<hr/>
+
 
 **Mod Additions**
 
@@ -85,7 +94,7 @@ _Using Forge-1.15.2-31.2.0_ | _[Mod Updates](https://github.com/NillerMedDild/En
 -   Journeymap, due to performance issues
 -   BetterBedrockGenerator (Yung's Better Caves handles this now)
 
-<hr/>
+
 
 ## Enigmatica 5 v0.4.12
 
@@ -111,7 +120,7 @@ _[Mod Updates](https://github.com/NillerMedDild/Enigmatica5/blob/master/changelo
 -   MultiBeds (Caused an issue with rendering)
 -   ShetiPhianCore (Dependency of MultiBeds)
 
-<hr/>
+
 
 ## Enigmatica 5 v0.4.11
 
@@ -137,7 +146,7 @@ _[Mod Updates](https://github.com/NillerMedDild/Enigmatica5/blob/master/changelo
 -   Bedspread (Replaced by MultiBeds)
 -   FTB Quests (Temporarily removed due to a bug)
 
-<hr/>
+
 
 ## Enigmatica 5 v0.4.10
 
@@ -186,7 +195,7 @@ _[Mod Updates](https://github.com/NillerMedDild/Enigmatica5/blob/master/changelo
 -   Borderless Window
 -   Torch Slab Mod
 
-<hr/>
+
 
 ## 0.4.9 - The Ore Update
 
@@ -231,7 +240,7 @@ _[Mod Updates](https://github.com/NillerMedDild/Enigmatica5/blob/master/changelo
 -   Fixed Crafting Table Recipe Dupe [\#230](https://github.com/NillerMedDild/Enigmatica5/issues/230)
 -   Drag/Pan/Scroll slow in fullscreen Journeymap [\#222](https://github.com/NillerMedDild/Enigmatica5/issues/222)
 
-<hr/>
+
 
 ## Enigmatica 5 v0.4.8
 
@@ -257,7 +266,7 @@ _[Mod Updates](https://github.com/NillerMedDild/Enigmatica5/blob/master/changelo
 
 -   Crashing when opening certain windows/GUIs, especially ones from Refined Storage.
 
-<hr/>
+
 
 ## Enigmatica 5 v0.4.7
 
@@ -274,7 +283,7 @@ _[Mod Updates](https://github.com/NillerMedDild/Enigmatica5/blob/master/changelo
 -   Missing Glass Pane recipe [\#212](https://github.com/NillerMedDild/Enigmatica5/issues/212)
 -   Uraninite Smelting Recipe Missing [\#211](https://github.com/NillerMedDild/Enigmatica5/issues/211)
 
-<hr/>
+
 
 ## Enigmatica 5 v0.4.6
 
