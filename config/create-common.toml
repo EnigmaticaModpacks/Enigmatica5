@@ -13,154 +13,154 @@
 
 		[worldgen.v1.copper_ore]
 			#
-			#Whether to spawn this in your World
-			enable = false
-			#
 			#Range: > 0
-			clusterSize = 18
+			minHeight = 40
 			#
 			#Range: > 0
 			clusterCount = 2
 			#
 			#Range: > 0
-			minHeight = 40
-			#
-			#Range: > 0
 			maxHeight = 86
-
-		[worldgen.v1.copper_ore_ocean]
 			#
 			#Whether to spawn this in your World
 			enable = false
 			#
 			#Range: > 0
-			clusterSize = 15
+			clusterSize = 18
+
+		[worldgen.v1.weathered_limestone]
+			#
+			#Range: > 0
+			minHeight = 10
+			#
+			#Range: 0.0 ~ 1.0
+			clusterChance = 0.03125
+			#
+			#Range: > 0
+			maxHeight = 30
+			#
+			#Whether to spawn this in your World
+			enable = false
+			#
+			#Range: > 0
+			clusterSize = 128
+
+		[worldgen.v1.zinc_ore]
+			#
+			#Range: > 0
+			minHeight = 15
 			#
 			#Range: > 0
 			clusterCount = 4
 			#
 			#Range: > 0
-			minHeight = 20
-			#
-			#Range: > 0
-			maxHeight = 55
-
-		[worldgen.v1.zinc_ore]
+			maxHeight = 70
 			#
 			#Whether to spawn this in your World
 			enable = false
 			#
 			#Range: > 0
 			clusterSize = 14
-			#
-			#Range: > 0
-			clusterCount = 4
-			#
-			#Range: > 0
-			minHeight = 15
-			#
-			#Range: > 0
-			maxHeight = 70
 
 		[worldgen.v1.zinc_ore_desert]
+			#
+			#Range: > 0
+			minHeight = 10
+			#
+			#Range: > 0
+			clusterCount = 5
+			#
+			#Range: > 0
+			maxHeight = 85
 			#
 			#Whether to spawn this in your World
 			enable = false
 			#
 			#Range: > 0
 			clusterSize = 17
-			#
-			#Range: > 0
-			clusterCount = 5
-			#
-			#Range: > 0
-			minHeight = 10
-			#
-			#Range: > 0
-			maxHeight = 85
 
 		[worldgen.v1.limestone]
-			#
-			#Whether to spawn this in your World
-			enable = false
-			#
-			#Range: > 0
-			clusterSize = 128
-			#
-			#Range: 0.0 ~ 1.0
-			clusterChance = 0.03125
 			#
 			#Range: > 0
 			minHeight = 30
 			#
+			#Range: 0.0 ~ 1.0
+			clusterChance = 0.03125
+			#
 			#Range: > 0
 			maxHeight = 70
-
-		[worldgen.v1.weathered_limestone]
 			#
 			#Whether to spawn this in your World
 			enable = false
 			#
 			#Range: > 0
 			clusterSize = 128
-			#
-			#Range: 0.0 ~ 1.0
-			clusterChance = 0.03125
-			#
-			#Range: > 0
-			minHeight = 10
-			#
-			#Range: > 0
-			maxHeight = 30
 
 		[worldgen.v1.dolomite]
 			#
-			#Whether to spawn this in your World
-			enable = false
-			#
 			#Range: > 0
-			clusterSize = 128
+			minHeight = 20
 			#
 			#Range: 0.0 ~ 1.0
 			clusterChance = 0.015625
 			#
 			#Range: > 0
+			maxHeight = 70
+			#
+			#Whether to spawn this in your World
+			enable = false
+			#
+			#Range: > 0
+			clusterSize = 128
+
+		[worldgen.v1.copper_ore_ocean]
+			#
+			#Range: > 0
 			minHeight = 20
 			#
 			#Range: > 0
-			maxHeight = 70
+			clusterCount = 4
+			#
+			#Range: > 0
+			maxHeight = 55
+			#
+			#Whether to spawn this in your World
+			enable = false
+			#
+			#Range: > 0
+			clusterSize = 15
 
 		[worldgen.v1.gabbro]
 			#
-			#Whether to spawn this in your World
-			enable = false
-			#
 			#Range: > 0
-			clusterSize = 128
+			minHeight = 20
 			#
 			#Range: 0.0 ~ 1.0
 			clusterChance = 0.015625
 			#
 			#Range: > 0
-			minHeight = 20
-			#
-			#Range: > 0
 			maxHeight = 70
-
-		[worldgen.v1.scoria]
 			#
 			#Whether to spawn this in your World
 			enable = false
 			#
 			#Range: > 0
 			clusterSize = 128
-			#
-			#Range: 0.0 ~ 1.0
-			clusterChance = 0.03125
+
+		[worldgen.v1.scoria]
 			#
 			#Range: > 0
 			minHeight = 0
 			#
+			#Range: 0.0 ~ 1.0
+			clusterChance = 0.03125
+			#
 			#Range: > 0
 			maxHeight = 10
+			#
+			#Whether to spawn this in your World
+			enable = false
+			#
+			#Range: > 0
+			clusterSize = 128
 

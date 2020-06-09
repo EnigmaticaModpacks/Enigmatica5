@@ -353,6 +353,8 @@
 	reinforced = ["minecraft:diamond*32"]
 	#minecolonies.config.resistance.comment
 	resistance = ["minecraft:golden_apple*1"]
+	#minecolonies.config.gildedhammer.comment
+	gildedhammer = ["minecraft:gravel*64", "minecraft:sand*64", "minecraft:clay*64"]
 	#minecolonies.config.evasion.comment
 	evasion = ["minecraft:leather*64"]
 	#minecolonies.config.agile.comment
@@ -375,6 +377,8 @@
 	hot = ["minecraft:lava_bucket*4"]
 	#minecolonies.config.tools.comment
 	tools = ["minecraft:iron_ingot*256"]
+	#minecolonies.config.hotboots.comment
+	hotboots = ["minecraft:leather*32", "minecraft:iron_ingot*16"]
 	#minecolonies.config.capacity.comment
 	capacity = ["minecolonies:blockminecoloniesrack*32"]
 	#minecolonies.config.livesaver2.comment
@@ -515,6 +519,8 @@
 	redstonepowered = ["minecraft:redstone*256"]
 	#minecolonies.config.powerattack.comment
 	powerattack = ["minecraft:iron_block*4"]
+	#minecolonies.config.doubletrouble.comment
+	doubletrouble = ["minecraft:bamboo*64", "minecraft:sugar_cane*64", "minecraft:cactus*64"]
 	#minecolonies.config.hotfoot.comment
 	hotfoot = ["minecraft:emerald*64"]
 	#minecolonies.config.gourmand.comment
@@ -577,6 +583,8 @@
 	indefatigability = ["minecraft:golden_apple*64"]
 	#minecolonies.config.avoid.comment
 	avoid = ["minecraft:emerald*8"]
+	#minecolonies.config.taunt.comment
+	taunt = ["minecraft:rotten_flesh*8", "minecraft:bone*8", "minecraft:spider_eye*8"]
 	#minecolonies.config.outpost.comment
 	outpost = ["minecraft:cooked_beef*64"]
 
