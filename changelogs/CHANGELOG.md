@@ -1,5 +1,7 @@
 ## Enigmatica 5 v0.4.14
 
+**Note: The mod Double Slabs that allows two different slabs to be within the same block has been removed in this update, any Double Slabs consisting of two different slabs will be removed by updating.**
+
 _Using Forge-1.15.2-31.2.9_
 
 _[Mod Updates](https://github.com/NillerMedDild/Enigmatica5/blob/master/changelogs/CHANGELOG_MODS_0.4.14.txt)_
@@ -26,6 +28,7 @@ _[Mod Updates](https://github.com/NillerMedDild/Enigmatica5/blob/master/changelo
 
 **Mod Removals**
 
+-   DoubleSlabs
 -   Conduits Prevent Drowned
 -   Cycle Paintings
 -   Easy Elytra Takeoff
