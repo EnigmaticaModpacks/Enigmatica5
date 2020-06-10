@@ -2,11 +2,7 @@
     "type": "sphere",
     "ore": [
         {
-            "block": "silents_mechanisms:platinum_ore",
-            "weight": 10
-        },
-        {
-            "block": "silents_mechanisms:nickel_ore",
+            "block": "immersiveengineering:ore_nickel",
             "weight": 15
         },
         {

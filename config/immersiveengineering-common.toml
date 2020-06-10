@@ -27,14 +27,14 @@
 	#A config setting to enable debug features. These features may vary between releases, may cause crashes, and are unsupported. Do not enable unless asked to by a developer of IE.
 	enableDebug = false
 	#Set this to false to hide the update news in the manual
-	showUpdateNews = true
+	showUpdateNews = false
 	#Set this to false to disable the super awesome looking nixie tube front for the voltmeter and other things
 	nixietubeFont = true
 	#A list of preferred Mod IDs that results of IE processes should stem from, aka which mod you want the copper to come from.
 	#This affects the ores dug by the excavator, as well as those crushing recipes that don't have associated IE items. This list is in oreder of priority.
-	preferredOres = ["immersiveengineering"]
+	preferredOres = ["minecraft", "immersiveengineering", "create", "mekanism", "jaopca", "kubejs", "botania", "pneumaticcraft", "occultism", "tmechworks", "industrialforegoing", "botania", "quark"]
 	#Controls if item tooltips should contain the tags names of items. These tooltips are only visible in advanced tooltip mode (F3+H)
-	tagTooltips = true
+	tagTooltips = false
 	#Set this to true if you suffer from bad eyesight. The Engineer's manual will be switched to a bold and darker text to improve readability.
 	#Note that this may lead to a break of formatting and have text go off the page in some instances. This is unavoidable.
 	badEyesight = false
@@ -278,7 +278,7 @@
 	#A blacklist of dimensions in which IE ores won't spawn. By default this is Nether and End
 	dimension_blocklist = ["minecraft:the_nether", "minecraft:the_end"]
 	#Set this to false to disable the logging of the chunks that were flagged for retrogen.
-	retrogen_log_flagChunk = true
+	retrogen_log_flagChunk = false
 	#The retrogeneration key. Basically IE checks if this key is saved in the chunks data. If it isn't, it will perform retrogen on all ores marked for retrogen.
 	#Change this in combination with the retrogen booleans to regen only some of the ores.
 	retrogen_key = "DEFAULT"
@@ -295,7 +295,7 @@
 		avg_veins_per_chunk = 2
 		#The maximum size of a vein. Set to 0 to disable generation
 		#Range: > 0
-		vein_size = 6
+		vein_size = 0
 		#Set this to true to allow retro-generation of nickel Ore.
 		retrogen_enable = false
 		#The minimum Y coordinate this ore can spawn at
@@ -312,7 +312,7 @@
 		avg_veins_per_chunk = 8
 		#The maximum size of a vein. Set to 0 to disable generation
 		#Range: > 0
-		vein_size = 8
+		vein_size = 0
 		#Set this to true to allow retro-generation of copper Ore.
 		retrogen_enable = false
 		#The minimum Y coordinate this ore can spawn at
@@ -329,7 +329,7 @@
 		avg_veins_per_chunk = 8
 		#The maximum size of a vein. Set to 0 to disable generation
 		#Range: > 0
-		vein_size = 4
+		vein_size = 0
 		#Set this to true to allow retro-generation of bauxite Ore.
 		retrogen_enable = false
 		#The minimum Y coordinate this ore can spawn at
@@ -346,7 +346,7 @@
 		avg_veins_per_chunk = 4
 		#The maximum size of a vein. Set to 0 to disable generation
 		#Range: > 0
-		vein_size = 8
+		vein_size = 0
 		#Set this to true to allow retro-generation of silver Ore.
 		retrogen_enable = false
 		#The minimum Y coordinate this ore can spawn at
@@ -363,7 +363,7 @@
 		avg_veins_per_chunk = 2
 		#The maximum size of a vein. Set to 0 to disable generation
 		#Range: > 0
-		vein_size = 4
+		vein_size = 0
 		#Set this to true to allow retro-generation of uranium Ore.
 		retrogen_enable = false
 		#The minimum Y coordinate this ore can spawn at
@@ -380,7 +380,7 @@
 		avg_veins_per_chunk = 4
 		#The maximum size of a vein. Set to 0 to disable generation
 		#Range: > 0
-		vein_size = 6
+		vein_size = 0
 		#Set this to true to allow retro-generation of lead Ore.
 		retrogen_enable = false
 		#The minimum Y coordinate this ore can spawn at

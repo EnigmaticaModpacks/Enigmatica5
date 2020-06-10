@@ -54,8 +54,8 @@ for material in materials {
 
 function enigmatica_ore_deposit_processing(material as string) as void {
     var ore_deposit_tag = BracketHandlers.getTag("forge:ore_deposits/" + material);
-    var nugget_tag = BracketHandlers.getTag("forge:nuggets/" + material);
     var dust_tag = BracketHandlers.getTag("forge:dusts/" + material);
+    var nugget_tag = BracketHandlers.getTag("forge:nuggets/" + material);
 
     if (!ore_deposit_tag.isItemTag) {
         return;
@@ -67,7 +67,7 @@ function enigmatica_ore_deposit_processing(material as string) as void {
 
     var ore_deposit = ore_deposit_tag.firstItem; 
     var dust = dust_tag.firstItem;
-
+    
     if (!nugget_tag.isItemTag) {
         var xp = 1.0;
         var processingTime = 100;
@@ -94,21 +94,43 @@ function enigmatica_ore_deposit_processing(material as string) as void {
         }
     });
 
-    <recipetype:silents_mechanisms:crushing>.addJSONRecipe("processing/" + material + "/chunk/from_ore_deposit",
+    <recipetype:create:crushing>.addJSONRecipe("processing/" + material + "/dust/from_ore_deposit",
     {
-        process_time: 200,
-        ingredient: {
-        item: ore_deposit.registryName
-        },
+    ingredients: [
+        {
+            item: ore_deposit.registryName,
+            count: 1
+        }
+    ], 
     results: [
         {
             item: dust.registryName,
+            count: 1
         },
         {
-            item: <item:minecraft:dirt>.registryName,
-            chance: 0.5 as float
+            item: dust.registryName,
+            chance: 0.25 as float,
+            count: 1
+        },
+        {
+            item: "minecraft:dirt",
+            chance: 0.5 as float,
+            count: 1
         }
-    ]
+    ],
+    processingTime: 500
+    });
+
+    <recipetype:immersiveengineering:crusher>.addJSONRecipe("processing/" + material + "/dust/from_ore_deposit",
+    {
+    secondaries: [],
+    result: {
+        tag: "forge:dusts/" + material
+    },
+    input: {
+        item: ore_deposit.registryName
+    },
+    energy: 2000 as int
     });
 
     logger.info("enigmatica_ore_deposit_processing with " + material + " succesfully ran!");

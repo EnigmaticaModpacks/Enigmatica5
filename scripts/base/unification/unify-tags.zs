@@ -627,6 +627,11 @@ var materials as MCTag[string][string] = {
         "clump": <tag:forge:clumps/iesmium>,
         "shard": <tag:forge:shards/iesmium>,
         "crystal": <tag:forge:crystals/iesmium>,
+    },
+
+    "sulfur": {
+        "storage_block": <tag:forge:storage_blocks/sulfur>,
+        "dust": <tag:forge:dusts/sulfur>
     }
 };
 
