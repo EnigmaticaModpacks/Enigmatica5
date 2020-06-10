@@ -1,0 +1,267 @@
+{
+  "outcomes": [
+    {
+      "material": {
+        "item": "biomesoplenty:mahogany_planks",
+        "count": 2
+      },
+      "requiredCapabilities": {
+        "axe": 2
+      },
+      "moduleKey": "shield/tower",
+      "moduleVariant": "tower/mahogany"
+    },
+    {
+      "material": {
+        "item": "biomesoplenty:jacaranda_planks",
+        "count": 2
+      },
+      "requiredCapabilities": {
+        "axe": 2
+      },
+      "moduleKey": "shield/tower",
+      "moduleVariant": "tower/jacaranda"
+    },
+    {
+      "material": {
+        "item": "biomesoplenty:palm_planks",
+        "count": 2
+      },
+      "requiredCapabilities": {
+        "axe": 2
+      },
+      "moduleKey": "shield/tower",
+      "moduleVariant": "tower/palm"
+    },
+    {
+      "material": {
+        "item": "biomesoplenty:willow_planks",
+        "count": 2
+      },
+      "requiredCapabilities": {
+        "axe": 2
+      },
+      "moduleKey": "shield/tower",
+      "moduleVariant": "tower/willow"
+    },
+    {
+      "material": {
+        "item": "biomesoplenty:dead_planks",
+        "count": 2
+      },
+      "requiredCapabilities": {
+        "axe": 2
+      },
+      "moduleKey": "shield/tower",
+      "moduleVariant": "tower/dead"
+    },
+    {
+      "material": {
+        "item": "biomesoplenty:magic_planks",
+        "count": 2
+      },
+      "requiredCapabilities": {
+        "axe": 2
+      },
+      "moduleKey": "shield/tower",
+      "moduleVariant": "tower/magic"
+    },
+    {
+      "material": {
+        "item": "biomesoplenty:umbran_planks",
+        "count": 2
+      },
+      "requiredCapabilities": {
+        "axe": 2
+      },
+      "moduleKey": "shield/tower",
+      "moduleVariant": "tower/umbran"
+    },
+    {
+      "material": {
+        "item": "biomesoplenty:hellbark_planks",
+        "count": 2
+      },
+      "requiredCapabilities": {
+        "axe": 2
+      },
+      "moduleKey": "shield/tower",
+      "moduleVariant": "tower/hellbark"
+    },
+    {
+      "material": {
+        "item": "biomesoplenty:fir_planks",
+        "count": 2
+      },
+      "requiredCapabilities": {
+        "axe": 2
+      },
+      "moduleKey": "shield/tower",
+      "moduleVariant": "tower/ancient"
+    },
+    {
+      "material": {
+        "item": "biomesoplenty:fir_planks",
+        "count": 2
+      },
+      "requiredCapabilities": {
+        "axe": 2
+      },
+      "moduleKey": "shield/tower",
+      "moduleVariant": "tower/fir"
+    },
+    {
+      "material": {
+        "item": "biomesoplenty:redwood_planks",
+        "count": 2
+      },
+      "requiredCapabilities": {
+        "axe": 2
+      },
+      "moduleKey": "shield/tower",
+      "moduleVariant": "tower/redwood"
+    },
+    {
+      "material": {
+        "item": "biomesoplenty:cherry_planks",
+        "count": 2
+      },
+      "requiredCapabilities": {
+        "axe": 2
+      },
+      "moduleKey": "shield/tower",
+      "moduleVariant": "tower/cherry"
+    },
+    {
+      "material": {
+        "tag": "forge:ingots/platinum"
+      },
+      "requiredCapabilities": {
+        "hammer": 4
+      },
+      "moduleKey": "shield/tower",
+      "moduleVariant": "tower/platinum"
+    },
+    {
+      "material": {
+        "tag": "forge:gems/lapis",
+        "count": 2
+      },
+      "requiredCapabilities": {
+        "hammer": 3
+      },
+      "moduleKey": "shield/tower",
+      "moduleVariant": "tower/lapis"
+    },
+    {
+      "material": {
+        "tag": "forge:ingots/osmium"
+      },
+      "requiredCapabilities": {
+        "hammer": 3
+      },
+      "moduleKey": "shield/tower",
+      "moduleVariant": "tower/osmium"
+    },
+    {
+      "material": {
+        "tag": "forge:ingots/refined_glowstone"
+      },
+      "requiredCapabilities": {
+        "hammer": 4
+      },
+      "moduleKey": "shield/tower",
+      "moduleVariant": "tower/refined_glowstone"
+    },
+    {
+      "material": {
+        "tag": "forge:ingots/refined_obsidian"
+      },
+      "requiredCapabilities": {
+        "hammer": 5
+      },
+      "moduleKey": "shield/tower",
+      "moduleVariant": "tower/refined_obsidian"
+    },
+    {
+      "material": {
+        "tag": "forge:ingots/andesite_alloy"
+      },
+      "requiredCapabilities": {
+        "hammer": 3
+      },
+      "moduleKey": "shield/tower",
+      "moduleVariant": "tower/andesite_alloy"
+    },
+    {
+      "material": {
+        "item": "industrialforegoing:pink_slime_ingot"
+      },
+      "requiredCapabilities": {
+        "hammer": 3
+      },
+      "moduleKey": "shield/tower",
+      "moduleVariant": "tower/pink_slime"
+    },
+    {
+      "material": {
+        "tag": "forge:ingots/iesnum"
+      },
+      "requiredCapabilities": {
+        "hammer": 3
+      },
+      "moduleKey": "shield/tower",
+      "moduleVariant": "tower/iesnium"
+    },
+    {
+      "material": {
+        "tag": "forge:ingots/compressed_iron"
+      },
+      "requiredCapabilities": {
+        "hammer": 3
+      },
+      "moduleKey": "shield/tower",
+      "moduleVariant": "tower/compressed_iron"
+    },
+    {
+      "material": {
+        "tag": "forge:ingots/energized_steel"
+      },
+      "requiredCapabilities": {
+        "hammer": 3
+      },
+      "moduleKey": "shield/tower",
+      "moduleVariant": "tower/energized_steel"
+    },
+    {
+      "material": {
+        "item": "powah:crystal_niotic"
+      },
+      "requiredCapabilities": {
+        "hammer": 3
+      },
+      "moduleKey": "shield/tower",
+      "moduleVariant": "tower/niotic"
+    },
+    {
+      "material": {
+        "item": "powah:crystal_spirited"
+      },
+      "requiredCapabilities": {
+        "hammer": 3
+      },
+      "moduleKey": "shield/tower",
+      "moduleVariant": "tower/spirited"
+    },
+    {
+      "material": {
+        "item": "powah:crystal_nitro"
+      },
+      "requiredCapabilities": {
+        "hammer": 3
+      },
+      "moduleKey": "shield/tower",
+      "moduleVariant": "tower/nitro"
+    }
+  ]
+}

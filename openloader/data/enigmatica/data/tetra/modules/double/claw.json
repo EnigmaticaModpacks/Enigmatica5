@@ -1,0 +1,704 @@
+{
+  "variants": [
+    {
+      "key": "claw/mahogany",
+      "durability": 18,
+      "integrity": 0,
+      "magicCapacity": 88,
+      "damage": 0,
+      "attackSpeed": -0.3,
+      "glyph": {
+        "tint": "e69963",
+        "textureX": 64,
+        "textureY": 32
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/double/head/claw/crude",
+          "tint": "e69963"
+        }
+      ],
+      "capabilities": {
+        "pry": [
+          1,
+          1.5
+        ]
+      },
+      "effects": {
+        "denailing": 1
+      }
+    },
+    {
+      "key": "claw/jacaranda",
+      "durability": 18,
+      "integrity": 0,
+      "magicCapacity": 80,
+      "damage": 0,
+      "attackSpeed": -0.3,
+      "glyph": {
+        "tint": "e6d4c8",
+        "textureX": 64,
+        "textureY": 32
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/double/head/claw/crude",
+          "tint": "e6d4c8"
+        }
+      ],
+      "capabilities": {
+        "pry": [
+          1,
+          1.5
+        ]
+      },
+      "effects": {
+        "denailing": 1
+      }
+    },
+    {
+      "key": "claw/palm",
+      "durability": 18,
+      "integrity": 0,
+      "magicCapacity": 80,
+      "damage": 0,
+      "attackSpeed": -0.3,
+      "glyph": {
+        "tint": "db9d51",
+        "textureX": 64,
+        "textureY": 32
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/double/head/claw/crude",
+          "tint": "db9d51"
+        }
+      ],
+      "capabilities": {
+        "pry": [
+          1,
+          1.5
+        ]
+      },
+      "effects": {
+        "denailing": 1
+      }
+    },
+    {
+      "key": "claw/willow",
+      "durability": 18,
+      "integrity": 0,
+      "magicCapacity": 96,
+      "damage": 0,
+      "attackSpeed": -0.3,
+      "glyph": {
+        "tint": "7bc78d",
+        "textureX": 64,
+        "textureY": 32
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/double/head/claw/crude",
+          "tint": "7bc78d"
+        }
+      ],
+      "capabilities": {
+        "pry": [
+          1,
+          1.5
+        ]
+      },
+      "effects": {
+        "denailing": 1
+      }
+    },
+    {
+      "key": "claw/dead",
+      "durability": 18,
+      "integrity": 0,
+      "magicCapacity": 52,
+      "damage": 0,
+      "attackSpeed": -0.3,
+      "glyph": {
+        "tint": "a1ada4",
+        "textureX": 64,
+        "textureY": 32
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/double/head/claw/crude",
+          "tint": "a1ada4"
+        }
+      ],
+      "capabilities": {
+        "pry": [
+          1,
+          1.5
+        ]
+      },
+      "effects": {
+        "denailing": 1
+      }
+    },
+    {
+      "key": "claw/magic",
+      "durability": 18,
+      "integrity": 0,
+      "magicCapacity": 164,
+      "damage": 0,
+      "attackSpeed": -0.3,
+      "glyph": {
+        "tint": "4567b0",
+        "textureX": 64,
+        "textureY": 32
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/double/head/claw/crude",
+          "tint": "4567b0"
+        }
+      ],
+      "capabilities": {
+        "pry": [
+          1,
+          1.5
+        ]
+      },
+      "effects": {
+        "denailing": 1
+      }
+    },
+    {
+      "key": "claw/umbran",
+      "durability": 18,
+      "integrity": 0,
+      "magicCapacity": 156,
+      "damage": 0,
+      "attackSpeed": -0.3,
+      "glyph": {
+        "tint": "8768a6",
+        "textureX": 64,
+        "textureY": 32
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/double/head/claw/crude",
+          "tint": "8768a6"
+        }
+      ],
+      "capabilities": {
+        "pry": [
+          1,
+          1.5
+        ]
+      },
+      "effects": {
+        "denailing": 1
+      }
+    },
+    {
+      "key": "claw/hellbark",
+      "durability": 18,
+      "integrity": 0,
+      "magicCapacity": 156,
+      "damage": 0,
+      "attackSpeed": -0.3,
+      "glyph": {
+        "tint": "544b5e",
+        "textureX": 64,
+        "textureY": 32
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/double/head/claw/crude",
+          "tint": "544b5e"
+        }
+      ],
+      "capabilities": {
+        "pry": [
+          1,
+          1.5
+        ]
+      },
+      "effects": {
+        "denailing": 1
+      }
+    },
+    {
+      "key": "claw/ancient",
+      "durability": 18,
+      "integrity": 0,
+      "magicCapacity": 176,
+      "damage": 0,
+      "attackSpeed": -0.3,
+      "glyph": {
+        "tint": "84538c",
+        "textureX": 64,
+        "textureY": 32
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/double/head/claw/crude",
+          "tint": "84538c"
+        }
+      ],
+      "capabilities": {
+        "pry": [
+          1,
+          1.5
+        ]
+      },
+      "effects": {
+        "denailing": 1
+      }
+    },
+    {
+      "key": "claw/fir",
+      "durability": 18,
+      "integrity": 0,
+      "magicCapacity": 88,
+      "damage": 0,
+      "attackSpeed": -0.3,
+      "glyph": {
+        "tint": "8a817d",
+        "textureX": 64,
+        "textureY": 32
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/double/head/claw/crude",
+          "tint": "8a817d"
+        }
+      ],
+      "capabilities": {
+        "pry": [
+          1,
+          1.5
+        ]
+      },
+      "effects": {
+        "denailing": 1
+      }
+    },
+    {
+      "key": "claw/redwood",
+      "durability": 18,
+      "integrity": 0,
+      "magicCapacity": 88,
+      "damage": 0,
+      "attackSpeed": -0.3,
+      "glyph": {
+        "tint": "96421d",
+        "textureX": 64,
+        "textureY": 32
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/double/head/claw/crude",
+          "tint": "96421d"
+        }
+      ],
+      "capabilities": {
+        "pry": [
+          1,
+          1.5
+        ]
+      },
+      "effects": {
+        "denailing": 1
+      }
+    },
+    {
+      "key": "claw/cherry",
+      "durability": 18,
+      "integrity": 0,
+      "magicCapacity": 90,
+      "damage": 0,
+      "attackSpeed": -0.3,
+      "glyph": {
+        "tint": "851d19",
+        "textureX": 64,
+        "textureY": 32
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/double/head/claw/crude",
+          "tint": "851d19"
+        }
+      ],
+      "capabilities": {
+        "pry": [
+          1,
+          1.5
+        ]
+      },
+      "effects": {
+        "denailing": 1
+      }
+    },
+    {
+      "key": "claw/platinum",
+      "durability": 640,
+      "integrity": -2,
+      "magicCapacity": 134,
+      "damage": 1,
+      "attackSpeed": -0.4,
+      "glyph": {
+        "tint": "d6f6ff",
+        "textureX": 64,
+        "textureY": 32
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/double/head/claw/shiny",
+          "tint": "e69963"
+        }
+      ],
+      "capabilities": {
+        "pry": [
+          1,
+          4.1
+        ]
+      },
+      "effects": {
+        "denailing": 1
+      }
+    },
+    {
+      "key": "claw/lapis",
+      "durability": 125,
+      "integrity": -1,
+      "magicCapacity": 122,
+      "damage": 1,
+      "attackSpeed": -0.4,
+      "glyph": {
+        "tint": "3327db",
+        "textureX": 64,
+        "textureY": 32
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/double/head/claw/metal",
+          "tint": "3327db"
+        }
+      ],
+      "capabilities": {
+        "pry": [
+          1,
+          3.4
+        ]
+      },
+      "effects": {
+        "denailing": 1
+      }
+    },
+    {
+      "key": "claw/osmium",
+      "durability": 125,
+      "integrity": -1,
+      "magicCapacity": 112,
+      "damage": 1,
+      "attackSpeed": -0.4,
+      "glyph": {
+        "tint": "a7aed9",
+        "textureX": 64,
+        "textureY": 32
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/double/head/claw/metal",
+          "tint": "a7aed9"
+        }
+      ],
+      "capabilities": {
+        "pry": [
+          1,
+          3.4
+        ]
+      },
+      "effects": {
+        "denailing": 1
+      }
+    },
+    {
+      "key": "claw/refined_glowstone",
+      "durability": 318,
+      "integrity": -2,
+      "magicCapacity": 154,
+      "damage": 1,
+      "attackSpeed": -0.35,
+      "glyph": {
+        "tint": "eeff00",
+        "textureX": 64,
+        "textureY": 32
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/double/head/claw/metal",
+          "tint": "eeff00"
+        }
+      ],
+      "capabilities": {
+        "pry": [
+          2,
+          4.2
+        ]
+      },
+      "effects": {
+        "denailing": 1
+      }
+    },
+    {
+      "key": "claw/refined_obsidian",
+      "durability": 640,
+      "integrity": -3,
+      "magicCapacity": 168,
+      "damage": 1,
+      "attackSpeed": -0.4,
+      "glyph": {
+        "tint": "6e1f9c",
+        "textureX": 64,
+        "textureY": 32
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/double/head/claw/shiny",
+          "tint": "6e1f9c"
+        }
+      ],
+      "capabilities": {
+        "pry": [
+          1,
+          4.1
+        ]
+      },
+      "effects": {
+        "denailing": 1
+      }
+    },
+    {
+      "key": "claw/andesite_alloy",
+      "durability": 125,
+      "integrity": 0,
+      "magicCapacity": 108,
+      "damage": 1,
+      "attackSpeed": -0.4,
+      "glyph": {
+        "tint": "a3adac",
+        "textureX": 64,
+        "textureY": 32
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/double/head/claw/metal",
+          "tint": "a3adac"
+        }
+      ],
+      "capabilities": {
+        "pry": [
+          1,
+          3.4
+        ]
+      },
+      "effects": {
+        "denailing": 1
+      }
+    },
+    {
+      "key": "claw/pink_slime",
+      "durability": 125,
+      "integrity": 0,
+      "magicCapacity": 108,
+      "damage": 1,
+      "attackSpeed": -0.4,
+      "glyph": {
+        "tint": "df3ce8",
+        "textureX": 64,
+        "textureY": 32
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/double/head/claw/metal",
+          "tint": "df3ce8"
+        }
+      ],
+      "capabilities": {
+        "pry": [
+          1,
+          3.4
+        ]
+      },
+      "effects": {
+        "denailing": 1
+      }
+    },
+    {
+      "key": "claw/iesnium",
+      "durability": 125,
+      "integrity": 0,
+      "magicCapacity": 108,
+      "damage": 1,
+      "attackSpeed": -0.4,
+      "glyph": {
+        "tint": "aadef0",
+        "textureX": 64,
+        "textureY": 32
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/double/head/claw/metal",
+          "tint": "aadef0"
+        }
+      ],
+      "capabilities": {
+        "pry": [
+          1,
+          3.4
+        ]
+      },
+      "effects": {
+        "denailing": 1
+      }
+    },
+    {
+      "key": "claw/compressed_iron",
+      "durability": 125,
+      "integrity": 0,
+      "magicCapacity": 108,
+      "damage": 1,
+      "attackSpeed": -0.4,
+      "glyph": {
+        "tint": "5e6a6e",
+        "textureX": 64,
+        "textureY": 32
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/double/head/claw/metal",
+          "tint": "5e6a6e"
+        }
+      ],
+      "capabilities": {
+        "pry": [
+          1,
+          3.4
+        ]
+      },
+      "effects": {
+        "denailing": 1
+      }
+    },
+    {
+      "key": "claw/energized_steel",
+      "durability": 318,
+      "integrity": 0,
+      "magicCapacity": 108,
+      "damage": 1,
+      "attackSpeed": -0.35,
+      "glyph": {
+        "tint": "dbd2a4",
+        "textureX": 64,
+        "textureY": 32
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/double/head/claw/metal",
+          "tint": "dbd2a4"
+        }
+      ],
+      "capabilities": {
+        "pry": [
+          2,
+          4.2
+        ]
+      },
+      "effects": {
+        "denailing": 1
+      }
+    },
+    {
+      "key": "claw/niotic",
+      "durability": 125,
+      "integrity": 0,
+      "magicCapacity": 108,
+      "damage": 1,
+      "attackSpeed": -0.4,
+      "glyph": {
+        "tint": "1cc9e8",
+        "textureX": 64,
+        "textureY": 32
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/double/head/claw/metal",
+          "tint": "1cc9e8"
+        }
+      ],
+      "capabilities": {
+        "pry": [
+          1,
+          3.4
+        ]
+      },
+      "effects": {
+        "denailing": 1
+      }
+    },
+    {
+      "key": "claw/spirited",
+      "durability": 640,
+      "integrity": 0,
+      "magicCapacity": 108,
+      "damage": 1,
+      "attackSpeed": -0.4,
+      "glyph": {
+        "tint": "13eb21",
+        "textureX": 64,
+        "textureY": 32
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/double/head/claw/shiny",
+          "tint": "13eb21"
+        }
+      ],
+      "capabilities": {
+        "pry": [
+          1,
+          4.1
+        ]
+      },
+      "effects": {
+        "denailing": 1
+      }
+    },
+    {
+      "key": "claw/nitro",
+      "durability": 640,
+      "integrity": 0,
+      "magicCapacity": 108,
+      "damage": 1,
+      "attackSpeed": -0.4,
+      "glyph": {
+        "tint": "d11608",
+        "textureX": 64,
+        "textureY": 32
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/double/head/claw/shiny",
+          "tint": "d11608"
+        }
+      ],
+      "capabilities": {
+        "pry": [
+          1,
+          4.1
+        ]
+      },
+      "effects": {
+        "denailing": 1
+      }
+    }
+  ]
+}

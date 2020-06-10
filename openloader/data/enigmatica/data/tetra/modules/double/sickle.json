@@ -1,0 +1,754 @@
+{
+  "variants": [
+    {
+      "key": "sickle/mahogany",
+      "durability": 20,
+      "integrity": 0,
+      "magicCapacity": 88,
+      "damage": 1,
+      "attackSpeed": -0.4,
+      "glyph": {
+        "tint": "e69963",
+        "textureX": 32,
+        "textureY": 32
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/double/head/sickle/crude",
+          "tint": "e69963"
+        }
+      ],
+      "capabilities": {
+        "cut": [
+          1,
+          1.6667
+        ]
+      },
+      "effects": {
+        "strikingCut": 1,
+        "sweepingStrike": 1,
+        "sweeping": 1
+      }
+    },
+    {
+      "key": "sickle/jacaranda",
+      "durability": 20,
+      "integrity": 0,
+      "magicCapacity": 80,
+      "damage": 1,
+      "attackSpeed": -0.4,
+      "glyph": {
+        "tint": "e6d4c8",
+        "textureX": 32,
+        "textureY": 32
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/double/head/sickle/crude",
+          "tint": "e6d4c8"
+        }
+      ],
+      "capabilities": {
+        "cut": [
+          1,
+          1.6667
+        ]
+      },
+      "effects": {
+        "strikingCut": 1,
+        "sweepingStrike": 1,
+        "sweeping": 1
+      }
+    },
+    {
+      "key": "sickle/palm",
+      "durability": 20,
+      "integrity": 0,
+      "magicCapacity": 80,
+      "damage": 1,
+      "attackSpeed": -0.4,
+      "glyph": {
+        "tint": "db9d51",
+        "textureX": 32,
+        "textureY": 32
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/double/head/sickle/crude",
+          "tint": "db9d51"
+        }
+      ],
+      "capabilities": {
+        "cut": [
+          1,
+          1.6667
+        ]
+      },
+      "effects": {
+        "strikingCut": 1,
+        "sweepingStrike": 1,
+        "sweeping": 1
+      }
+    },
+    {
+      "key": "sickle/willow",
+      "durability": 20,
+      "integrity": 0,
+      "magicCapacity": 96,
+      "damage": 1,
+      "attackSpeed": -0.4,
+      "glyph": {
+        "tint": "7bc78d",
+        "textureX": 32,
+        "textureY": 32
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/double/head/sickle/crude",
+          "tint": "7bc78d"
+        }
+      ],
+      "capabilities": {
+        "cut": [
+          1,
+          1.6667
+        ]
+      },
+      "effects": {
+        "strikingCut": 1,
+        "sweepingStrike": 1,
+        "sweeping": 1
+      }
+    },
+    {
+      "key": "sickle/dead",
+      "durability": 20,
+      "integrity": 0,
+      "magicCapacity": 52,
+      "damage": 1,
+      "attackSpeed": -0.4,
+      "glyph": {
+        "tint": "a1ada4",
+        "textureX": 32,
+        "textureY": 32
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/double/head/sickle/crude",
+          "tint": "a1ada4"
+        }
+      ],
+      "capabilities": {
+        "cut": [
+          1,
+          1.6667
+        ]
+      },
+      "effects": {
+        "strikingCut": 1,
+        "sweepingStrike": 1,
+        "sweeping": 1
+      }
+    },
+    {
+      "key": "sickle/magic",
+      "durability": 20,
+      "integrity": 0,
+      "magicCapacity": 164,
+      "damage": 1,
+      "attackSpeed": -0.4,
+      "glyph": {
+        "tint": "4567b0",
+        "textureX": 32,
+        "textureY": 32
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/double/head/sickle/crude",
+          "tint": "4567b0"
+        }
+      ],
+      "capabilities": {
+        "cut": [
+          1,
+          1.6667
+        ]
+      },
+      "effects": {
+        "strikingCut": 1,
+        "sweepingStrike": 1,
+        "sweeping": 1
+      }
+    },
+    {
+      "key": "sickle/umbran",
+      "durability": 20,
+      "integrity": 0,
+      "magicCapacity": 156,
+      "damage": 1,
+      "attackSpeed": -0.4,
+      "glyph": {
+        "tint": "8768a6",
+        "textureX": 32,
+        "textureY": 32
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/double/head/sickle/crude",
+          "tint": "8768a6"
+        }
+      ],
+      "capabilities": {
+        "cut": [
+          1,
+          1.6667
+        ]
+      },
+      "effects": {
+        "strikingCut": 1,
+        "sweepingStrike": 1,
+        "sweeping": 1
+      }
+    },
+    {
+      "key": "sickle/hellbark",
+      "durability": 20,
+      "integrity": 0,
+      "magicCapacity": 156,
+      "damage": 1,
+      "attackSpeed": -0.4,
+      "glyph": {
+        "tint": "544b5e",
+        "textureX": 32,
+        "textureY": 32
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/double/head/sickle/crude",
+          "tint": "544b5e"
+        }
+      ],
+      "capabilities": {
+        "cut": [
+          1,
+          1.6667
+        ]
+      },
+      "effects": {
+        "strikingCut": 1,
+        "sweepingStrike": 1,
+        "sweeping": 1
+      }
+    },
+    {
+      "key": "sickle/ancient",
+      "durability": 20,
+      "integrity": 0,
+      "magicCapacity": 176,
+      "damage": 1,
+      "attackSpeed": -0.4,
+      "glyph": {
+        "tint": "84538c",
+        "textureX": 32,
+        "textureY": 32
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/double/head/sickle/crude",
+          "tint": "84538c"
+        }
+      ],
+      "capabilities": {
+        "cut": [
+          1,
+          1.6667
+        ]
+      },
+      "effects": {
+        "strikingCut": 1,
+        "sweepingStrike": 1,
+        "sweeping": 1
+      }
+    },
+    {
+      "key": "sickle/fir",
+      "durability": 20,
+      "integrity": 0,
+      "magicCapacity": 88,
+      "damage": 1,
+      "attackSpeed": -0.4,
+      "glyph": {
+        "tint": "8a817d",
+        "textureX": 32,
+        "textureY": 32
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/double/head/sickle/crude",
+          "tint": "8a817d"
+        }
+      ],
+      "capabilities": {
+        "cut": [
+          1,
+          1.6667
+        ]
+      },
+      "effects": {
+        "strikingCut": 1,
+        "sweepingStrike": 1,
+        "sweeping": 1
+      }
+    },
+    {
+      "key": "sickle/redwood",
+      "durability": 20,
+      "integrity": 0,
+      "magicCapacity": 88,
+      "damage": 1,
+      "attackSpeed": -0.4,
+      "glyph": {
+        "tint": "96421d",
+        "textureX": 32,
+        "textureY": 32
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/double/head/sickle/crude",
+          "tint": "96421d"
+        }
+      ],
+      "capabilities": {
+        "cut": [
+          1,
+          1.6667
+        ]
+      },
+      "effects": {
+        "strikingCut": 1,
+        "sweepingStrike": 1,
+        "sweeping": 1
+      }
+    },
+    {
+      "key": "sickle/cherry",
+      "durability": 20,
+      "integrity": 0,
+      "magicCapacity": 90,
+      "damage": 1,
+      "attackSpeed": -0.4,
+      "glyph": {
+        "tint": "851d19",
+        "textureX": 32,
+        "textureY": 32
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/double/head/sickle/crude",
+          "tint": "851d19"
+        }
+      ],
+      "capabilities": {
+        "cut": [
+          1,
+          1.6667
+        ]
+      },
+      "effects": {
+        "strikingCut": 1,
+        "sweepingStrike": 1,
+        "sweeping": 1
+      }
+    },
+    {
+      "key": "sickle/platinum",
+      "durability": 771,
+      "integrity": -2,
+      "magicCapacity": 134,
+      "damage": 2,
+      "attackSpeed": -0.4,
+      "glyph": {
+        "tint": "d6f6ff",
+        "textureX": 32,
+        "textureY": 32
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/double/head/sickle/shiny",
+          "tint": "e69963"
+        }
+      ],
+      "capabilities": {
+        "cut": [
+          1,
+          6.6667
+        ]
+      },
+      "effects": {
+        "strikingCut": 1,
+        "sweepingStrike": 1,
+        "sweeping": 1
+      }
+    },
+    {
+      "key": "sickle/lapis",
+      "durability": 115,
+      "integrity": -1,
+      "magicCapacity": 122,
+      "damage": 2,
+      "attackSpeed": -0.4,
+      "glyph": {
+        "tint": "3327db",
+        "textureX": 32,
+        "textureY": 32
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/double/head/sickle/metal",
+          "tint": "3327db"
+        }
+      ],
+      "capabilities": {
+        "cut": [
+          1,
+          5
+        ]
+      },
+      "effects": {
+        "strikingCut": 1,
+        "sweepingStrike": 1,
+        "sweeping": 1
+      }
+    },
+    {
+      "key": "sickle/osmium",
+      "durability": 115,
+      "integrity": -1,
+      "magicCapacity": 112,
+      "damage": 2,
+      "attackSpeed": -0.4,
+      "glyph": {
+        "tint": "a7aed9",
+        "textureX": 32,
+        "textureY": 32
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/double/head/sickle/metal",
+          "tint": "a7aed9"
+        }
+      ],
+      "capabilities": {
+        "cut": [
+          1,
+          5
+        ]
+      },
+      "effects": {
+        "strikingCut": 1,
+        "sweepingStrike": 1,
+        "sweeping": 1
+      }
+    },
+    {
+      "key": "sickle/refined_glowstone",
+      "durability": 328,
+      "integrity": -2,
+      "magicCapacity": 154,
+      "damage": 2,
+      "attackSpeed": -0.35,
+      "glyph": {
+        "tint": "eeff00",
+        "textureX": 32,
+        "textureY": 32
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/double/head/sickle/metal",
+          "tint": "eeff00"
+        }
+      ],
+      "capabilities": {
+        "cut": [
+          2,
+          6.5
+        ]
+      },
+      "effects": {
+        "strikingCut": 1,
+        "sweepingStrike": 1,
+        "sweeping": 1
+      }
+    },
+    {
+      "key": "sickle/refined_obsidian",
+      "durability": 771,
+      "integrity": -3,
+      "magicCapacity": 168,
+      "damage": 2,
+      "attackSpeed": -0.4,
+      "glyph": {
+        "tint": "6e1f9c",
+        "textureX": 32,
+        "textureY": 32
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/double/head/sickle/shiny",
+          "tint": "6e1f9c"
+        }
+      ],
+      "capabilities": {
+        "cut": [
+          1,
+          6.6667
+        ]
+      },
+      "effects": {
+        "strikingCut": 1,
+        "sweepingStrike": 1,
+        "sweeping": 1
+      }
+    },
+    {
+      "key": "sickle/andesite_alloy",
+      "durability": 115,
+      "integrity": 0,
+      "magicCapacity": 108,
+      "damage": 2,
+      "attackSpeed": -0.4,
+      "glyph": {
+        "tint": "a3adac",
+        "textureX": 32,
+        "textureY": 32
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/double/head/sickle/metal",
+          "tint": "a3adac"
+        }
+      ],
+      "capabilities": {
+        "cut": [
+          1,
+          5
+        ]
+      },
+      "effects": {
+        "strikingCut": 1,
+        "sweepingStrike": 1,
+        "sweeping": 1
+      }
+    },
+    {
+      "key": "sickle/pink_slime",
+      "durability": 115,
+      "integrity": 0,
+      "magicCapacity": 108,
+      "damage": 2,
+      "attackSpeed": -0.4,
+      "glyph": {
+        "tint": "df3ce8",
+        "textureX": 32,
+        "textureY": 32
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/double/head/sickle/metal",
+          "tint": "df3ce8"
+        }
+      ],
+      "capabilities": {
+        "cut": [
+          1,
+          5
+        ]
+      },
+      "effects": {
+        "strikingCut": 1,
+        "sweepingStrike": 1,
+        "sweeping": 1
+      }
+    },
+    {
+      "key": "sickle/iesnium",
+      "durability": 115,
+      "integrity": 0,
+      "magicCapacity": 108,
+      "damage": 2,
+      "attackSpeed": -0.4,
+      "glyph": {
+        "tint": "aadef0",
+        "textureX": 32,
+        "textureY": 32
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/double/head/sickle/metal",
+          "tint": "aadef0"
+        }
+      ],
+      "capabilities": {
+        "cut": [
+          1,
+          5
+        ]
+      },
+      "effects": {
+        "strikingCut": 1,
+        "sweepingStrike": 1,
+        "sweeping": 1
+      }
+    },
+    {
+      "key": "sickle/compressed_iron",
+      "durability": 115,
+      "integrity": 0,
+      "magicCapacity": 108,
+      "damage": 2,
+      "attackSpeed": -0.4,
+      "glyph": {
+        "tint": "5e6a6e",
+        "textureX": 32,
+        "textureY": 32
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/double/head/sickle/metal",
+          "tint": "5e6a6e"
+        }
+      ],
+      "capabilities": {
+        "cut": [
+          1,
+          5
+        ]
+      },
+      "effects": {
+        "strikingCut": 1,
+        "sweepingStrike": 1,
+        "sweeping": 1
+      }
+    },
+    {
+      "key": "sickle/energized_steel",
+      "durability": 328,
+      "integrity": 0,
+      "magicCapacity": 108,
+      "damage": 2,
+      "attackSpeed": -0.35,
+      "glyph": {
+        "tint": "dbd2a4",
+        "textureX": 32,
+        "textureY": 32
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/double/head/sickle/metal",
+          "tint": "dbd2a4"
+        }
+      ],
+      "capabilities": {
+        "cut": [
+          2,
+          6.5
+        ]
+      },
+      "effects": {
+        "strikingCut": 1,
+        "sweepingStrike": 1,
+        "sweeping": 1
+      }
+    },
+    {
+      "key": "sickle/niotic",
+      "durability": 115,
+      "integrity": 0,
+      "magicCapacity": 108,
+      "damage": 2,
+      "attackSpeed": -0.4,
+      "glyph": {
+        "tint": "1cc9e8",
+        "textureX": 32,
+        "textureY": 32
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/double/head/sickle/metal",
+          "tint": "1cc9e8"
+        }
+      ],
+      "capabilities": {
+        "cut": [
+          1,
+          5
+        ]
+      },
+      "effects": {
+        "strikingCut": 1,
+        "sweepingStrike": 1,
+        "sweeping": 1
+      }
+    },
+    {
+      "key": "sickle/spirited",
+      "durability": 771,
+      "integrity": 0,
+      "magicCapacity": 108,
+      "damage": 2,
+      "attackSpeed": -0.4,
+      "glyph": {
+        "tint": "13eb21",
+        "textureX": 32,
+        "textureY": 32
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/double/head/sickle/shiny",
+          "tint": "13eb21"
+        }
+      ],
+      "capabilities": {
+        "cut": [
+          1,
+          6.6667
+        ]
+      },
+      "effects": {
+        "strikingCut": 1,
+        "sweepingStrike": 1,
+        "sweeping": 1
+      }
+    },
+    {
+      "key": "sickle/nitro",
+      "durability": 771,
+      "integrity": 0,
+      "magicCapacity": 108,
+      "damage": 2,
+      "attackSpeed": -0.4,
+      "glyph": {
+        "tint": "d11608",
+        "textureX": 32,
+        "textureY": 32
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/double/head/sickle/shiny",
+          "tint": "d11608"
+        }
+      ],
+      "capabilities": {
+        "cut": [
+          1,
+          6.6667
+        ]
+      },
+      "effects": {
+        "strikingCut": 1,
+        "sweepingStrike": 1,
+        "sweeping": 1
+      }
+    }
+  ]
+}
