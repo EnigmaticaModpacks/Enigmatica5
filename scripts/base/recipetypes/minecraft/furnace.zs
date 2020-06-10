@@ -6,13 +6,11 @@ import crafttweaker.api.tag.MCTag;
 import crafttweaker.api.BracketHandlers;
 
 var recipes as IItemStack[IItemStack] = {
-    <item:occultism:iron_dust> : <tag:forge:ingots/iron>.firstItem,
-    <item:occultism:gold_dust> : <tag:forge:ingots/gold>.firstItem,
-    <item:occultism:copper_dust> : <tag:forge:ingots/copper>.firstItem,
-    <item:occultism:silver_dust> : <tag:forge:ingots/silver>.firstItem
+    <item:create:crushed_copper_ore> : <tag:forge:ingots/copper>.firstItem,
+    <item:jaopca:create_crushed_ores.silver> : <tag:forge:ingots/silver>.firstItem
 };
 
-var xp = 0.25;
+var xp = 0.1;
 var processingTime = 100;
 
 for input, output in recipes {
