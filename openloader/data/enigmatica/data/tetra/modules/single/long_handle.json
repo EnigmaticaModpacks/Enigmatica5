@@ -217,24 +217,6 @@
       ]
     },
     {
-      "key": "long_handle/platinum",
-      "durability": 244,
-      "integrity": -2,
-      "magicCapacity": 134,
-      "range": 2.5,
-      "attackSpeed": -0.2,
-      "glyph": {
-        "tint": "d6f6ff",
-        "textureX": 16
-      },
-      "models": [
-        {
-          "location": "tetra:items/module/single/handle/long/default",
-          "tint": "e69963"
-        }
-      ]
-    },
-    {
       "key": "long_handle/lapis",
       "durability": 58,
       "integrity": -1,
@@ -325,9 +307,27 @@
       ]
     },
     {
+      "key": "long_handle/zinc",
+      "durability": 58,
+      "integrity": -1,
+      "magicCapacity": 86,
+      "range": 2.5,
+      "attackSpeed": -0.2,
+      "glyph": {
+        "tint": "e1e9f2",
+        "textureX": 16
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/single/handle/long/default",
+          "tint": "e1e9f2"
+        }
+      ]
+    },
+    {
       "key": "long_handle/pink_slime",
       "durability": 58,
-      "integrity": 0,
+      "integrity": -1,
       "magicCapacity": 108,
       "range": 2.5,
       "attackSpeed": -0.2,
@@ -345,8 +345,8 @@
     {
       "key": "long_handle/iesnium",
       "durability": 58,
-      "integrity": 0,
-      "magicCapacity": 108,
+      "integrity": -1,
+      "magicCapacity": 168,
       "range": 2.5,
       "attackSpeed": -0.2,
       "glyph": {
@@ -361,10 +361,208 @@
       ]
     },
     {
-      "key": "long_handle/compressed_iron",
-      "durability": 58,
+      "key": "long_handle/treated_wood",
+      "durability": 31,
       "integrity": 0,
-      "magicCapacity": 108,
+      "magicCapacity": 118,
+      "range": 2.5,
+      "attackSpeed": -0.1,
+      "glyph": {
+        "tint": "8f380a",
+        "textureX": 16
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/single/handle/long/default",
+          "tint": "8f380a"
+        }
+      ]
+    },
+    {
+      "key": "long_handle/aluminum",
+      "durability": 58,
+      "integrity": -1,
+      "magicCapacity": 78,
+      "range": 2.5,
+      "attackSpeed": -0.2,
+      "glyph": {
+        "tint": "dce2e8",
+        "textureX": 16
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/single/handle/long/default",
+          "tint": "dce2e8"
+        }
+      ]
+    },
+    {
+      "key": "long_handle/constantan",
+      "durability": 58,
+      "integrity": -1,
+      "magicCapacity": 110,
+      "range": 2.5,
+      "attackSpeed": -0.2,
+      "glyph": {
+        "tint": "d46326",
+        "textureX": 16
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/single/handle/long/default",
+          "tint": "d46326"
+        }
+      ]
+    },
+    {
+      "key": "long_handle/uranium",
+      "durability": 58,
+      "integrity": -1,
+      "magicCapacity": 170,
+      "range": 2.5,
+      "attackSpeed": -0.2,
+      "glyph": {
+        "tint": "538a71",
+        "textureX": 16
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/single/handle/long/default",
+          "tint": "538a71"
+        }
+      ]
+    },
+    {
+      "key": "long_handle/infused_iron",
+      "durability": 58,
+      "integrity": -1,
+      "magicCapacity": 158,
+      "range": 2.5,
+      "attackSpeed": -0.2,
+      "glyph": {
+        "tint": "8a117",
+        "textureX": 16
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/single/handle/long/default",
+          "tint": "8a117"
+        }
+      ]
+    },
+    {
+      "key": "long_handle/sky",
+      "durability": 244,
+      "integrity": -4,
+      "magicCapacity": 178,
+      "range": 2.5,
+      "attackSpeed": -0.2,
+      "glyph": {
+        "tint": "78ffff",
+        "textureX": 16
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/single/handle/long/default",
+          "tint": "78ffff"
+        }
+      ]
+    },
+    {
+      "key": "long_handle/manasteel",
+      "durability": 58,
+      "integrity": -2,
+      "magicCapacity": 150,
+      "range": 2.5,
+      "attackSpeed": -0.2,
+      "glyph": {
+        "tint": "104bc2",
+        "textureX": 16
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/single/handle/long/default",
+          "tint": "104bc2"
+        }
+      ]
+    },
+    {
+      "key": "long_handle/elementium",
+      "durability": 244,
+      "integrity": -3,
+      "magicCapacity": 178,
+      "range": 2.5,
+      "attackSpeed": -0.2,
+      "glyph": {
+        "tint": "cb0be0",
+        "textureX": 16
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/single/handle/long/default",
+          "tint": "cb0be0"
+        }
+      ]
+    },
+    {
+      "key": "long_handle/terrasteel",
+      "durability": 244,
+      "integrity": -4,
+      "magicCapacity": 192,
+      "range": 2.5,
+      "attackSpeed": -0.2,
+      "glyph": {
+        "tint": "8c71b",
+        "textureX": 16
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/single/handle/long/default",
+          "tint": "8c71b"
+        }
+      ]
+    },
+    {
+      "key": "long_handle/gaia_spirit",
+      "durability": 244,
+      "integrity": -5,
+      "magicCapacity": 208,
+      "range": 2.5,
+      "attackSpeed": -0.2,
+      "glyph": {
+        "tint": "80bdb9",
+        "textureX": 16
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/single/handle/long/default",
+          "tint": "80bdb9"
+        }
+      ]
+    },
+    {
+      "key": "long_handle/neptunium",
+      "durability": 244,
+      "integrity": -4,
+      "magicCapacity": 158,
+      "range": 2.5,
+      "attackSpeed": -0.2,
+      "glyph": {
+        "tint": "2de0c2",
+        "textureX": 16
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/single/handle/long/default",
+          "tint": "2de0c2"
+        }
+      ]
+    },
+    {
+      "key": "long_handle/compressed_iron",
+      "durability": 244,
+      "integrity": -1,
+      "magicCapacity": 112,
       "range": 2.5,
       "attackSpeed": -0.2,
       "glyph": {
@@ -381,7 +579,7 @@
     {
       "key": "long_handle/energized_steel",
       "durability": 244,
-      "integrity": 0,
+      "integrity": -2,
       "magicCapacity": 108,
       "range": 2.5,
       "attackSpeed": -0.2,
@@ -399,7 +597,7 @@
     {
       "key": "long_handle/niotic",
       "durability": 58,
-      "integrity": 0,
+      "integrity": -2,
       "magicCapacity": 108,
       "range": 2.5,
       "attackSpeed": -0.2,
@@ -417,7 +615,7 @@
     {
       "key": "long_handle/spirited",
       "durability": 244,
-      "integrity": 0,
+      "integrity": -3,
       "magicCapacity": 108,
       "range": 2.5,
       "attackSpeed": -0.2,
@@ -435,7 +633,7 @@
     {
       "key": "long_handle/nitro",
       "durability": 244,
-      "integrity": 0,
+      "integrity": -4,
       "magicCapacity": 108,
       "range": 2.5,
       "attackSpeed": -0.2,

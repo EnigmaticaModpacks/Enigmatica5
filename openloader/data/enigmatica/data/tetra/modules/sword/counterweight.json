@@ -241,26 +241,6 @@
       "magicCapacity": 90
     },
     {
-      "key": "counterweight/platinum",
-      "durability": 33,
-      "integrity": -2,
-      "effects": {
-        "counterweight": 4
-      },
-      "glyph": {
-        "tint": "d6f6ff",
-        "textureX": 32,
-        "textureY": 16
-      },
-      "models": [
-        {
-          "location": "tetra:items/module/sword/pommel/counterweight/default",
-          "tint": "e69963"
-        }
-      ],
-      "magicCapacity": 134
-    },
-    {
       "key": "counterweight/lapis",
       "durability": 21,
       "integrity": -1,
@@ -361,9 +341,29 @@
       "magicCapacity": 108
     },
     {
+      "key": "counterweight/zinc",
+      "durability": 21,
+      "integrity": -1,
+      "effects": {
+        "counterweight": 4
+      },
+      "glyph": {
+        "tint": "e1e9f2",
+        "textureX": 32,
+        "textureY": 16
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/sword/pommel/counterweight/default",
+          "tint": "e1e9f2"
+        }
+      ],
+      "magicCapacity": 86
+    },
+    {
       "key": "counterweight/pink_slime",
       "durability": 21,
-      "integrity": 0,
+      "integrity": -1,
       "effects": {
         "counterweight": 4
       },
@@ -383,7 +383,7 @@
     {
       "key": "counterweight/iesnium",
       "durability": 21,
-      "integrity": 0,
+      "integrity": -1,
       "effects": {
         "counterweight": 4
       },
@@ -398,12 +398,232 @@
           "tint": "aadef0"
         }
       ],
-      "magicCapacity": 108
+      "magicCapacity": 168
+    },
+    {
+      "key": "counterweight/treated_wood",
+      "durability": 8,
+      "integrity": 0,
+      "effects": {
+        "counterweight": 2
+      },
+      "glyph": {
+        "tint": "8f380a",
+        "textureX": 32,
+        "textureY": 16
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/sword/pommel/counterweight/default",
+          "tint": "8f380a"
+        }
+      ],
+      "magicCapacity": 118
+    },
+    {
+      "key": "counterweight/aluminum",
+      "durability": 21,
+      "integrity": -1,
+      "effects": {
+        "counterweight": 4
+      },
+      "glyph": {
+        "tint": "dce2e8",
+        "textureX": 32,
+        "textureY": 16
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/sword/pommel/counterweight/default",
+          "tint": "dce2e8"
+        }
+      ],
+      "magicCapacity": 78
+    },
+    {
+      "key": "counterweight/constantan",
+      "durability": 21,
+      "integrity": -1,
+      "effects": {
+        "counterweight": 4
+      },
+      "glyph": {
+        "tint": "d46326",
+        "textureX": 32,
+        "textureY": 16
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/sword/pommel/counterweight/default",
+          "tint": "d46326"
+        }
+      ],
+      "magicCapacity": 110
+    },
+    {
+      "key": "counterweight/uranium",
+      "durability": 21,
+      "integrity": -1,
+      "effects": {
+        "counterweight": 4
+      },
+      "glyph": {
+        "tint": "538a71",
+        "textureX": 32,
+        "textureY": 16
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/sword/pommel/counterweight/default",
+          "tint": "538a71"
+        }
+      ],
+      "magicCapacity": 170
+    },
+    {
+      "key": "counterweight/infused_iron",
+      "durability": 21,
+      "integrity": -1,
+      "effects": {
+        "counterweight": 4
+      },
+      "glyph": {
+        "tint": "8a117",
+        "textureX": 32,
+        "textureY": 16
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/sword/pommel/counterweight/default",
+          "tint": "8a117"
+        }
+      ],
+      "magicCapacity": 158
+    },
+    {
+      "key": "counterweight/sky",
+      "durability": 33,
+      "integrity": -4,
+      "effects": {
+        "counterweight": 4
+      },
+      "glyph": {
+        "tint": "78ffff",
+        "textureX": 32,
+        "textureY": 16
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/sword/pommel/counterweight/default",
+          "tint": "78ffff"
+        }
+      ],
+      "magicCapacity": 178
+    },
+    {
+      "key": "counterweight/manasteel",
+      "durability": 21,
+      "integrity": -2,
+      "effects": {
+        "counterweight": 4
+      },
+      "glyph": {
+        "tint": "104bc2",
+        "textureX": 32,
+        "textureY": 16
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/sword/pommel/counterweight/default",
+          "tint": "104bc2"
+        }
+      ],
+      "magicCapacity": 150
+    },
+    {
+      "key": "counterweight/elementium",
+      "durability": 28,
+      "integrity": -3,
+      "effects": {
+        "counterweight": 4
+      },
+      "glyph": {
+        "tint": "cb0be0",
+        "textureX": 32,
+        "textureY": 16
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/sword/pommel/counterweight/default",
+          "tint": "cb0be0"
+        }
+      ],
+      "magicCapacity": 178
+    },
+    {
+      "key": "counterweight/terrasteel",
+      "durability": 33,
+      "integrity": -4,
+      "effects": {
+        "counterweight": 4
+      },
+      "glyph": {
+        "tint": "8c71b",
+        "textureX": 32,
+        "textureY": 16
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/sword/pommel/counterweight/default",
+          "tint": "8c71b"
+        }
+      ],
+      "magicCapacity": 192
+    },
+    {
+      "key": "counterweight/gaia_spirit",
+      "durability": 38,
+      "integrity": -5,
+      "effects": {
+        "counterweight": 6
+      },
+      "glyph": {
+        "tint": "80bdb9",
+        "textureX": 32,
+        "textureY": 16
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/sword/pommel/counterweight/default",
+          "tint": "80bdb9"
+        }
+      ],
+      "magicCapacity": 208
+    },
+    {
+      "key": "counterweight/neptunium",
+      "durability": 38,
+      "integrity": -4,
+      "effects": {
+        "counterweight": 6
+      },
+      "glyph": {
+        "tint": "2de0c2",
+        "textureX": 32,
+        "textureY": 16
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/sword/pommel/counterweight/default",
+          "tint": "2de0c2"
+        }
+      ],
+      "magicCapacity": 158
     },
     {
       "key": "counterweight/compressed_iron",
-      "durability": 21,
-      "integrity": 0,
+      "durability": 28,
+      "integrity": -1,
       "effects": {
         "counterweight": 4
       },
@@ -418,12 +638,12 @@
           "tint": "5e6a6e"
         }
       ],
-      "magicCapacity": 108
+      "magicCapacity": 112
     },
     {
       "key": "counterweight/energized_steel",
       "durability": 28,
-      "integrity": 0,
+      "integrity": -2,
       "effects": {
         "counterweight": 4
       },
@@ -443,7 +663,7 @@
     {
       "key": "counterweight/niotic",
       "durability": 21,
-      "integrity": 0,
+      "integrity": -2,
       "effects": {
         "counterweight": 4
       },
@@ -463,7 +683,7 @@
     {
       "key": "counterweight/spirited",
       "durability": 38,
-      "integrity": 0,
+      "integrity": -3,
       "effects": {
         "counterweight": 6
       },
@@ -483,7 +703,7 @@
     {
       "key": "counterweight/nitro",
       "durability": 38,
-      "integrity": 0,
+      "integrity": -4,
       "effects": {
         "counterweight": 6
       },

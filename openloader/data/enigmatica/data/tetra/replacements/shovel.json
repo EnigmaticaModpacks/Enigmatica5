@@ -46,5 +46,13 @@
             "single/basic_shovel": ["single/basic_shovel", "basic_shovel/steel"],
             "single/handle": ["single/basic_handle", "basic_handle/stick"]
         }
+    },
+    {
+        "predicate": { "item": "immersiveengineering:shovel_steel" },
+        "item": "tetra:modular_single",
+        "modules": {
+            "single/basic_shovel": ["single/basic_shovel", "basic_shovel/steel"],
+            "single/handle": ["single/basic_handle", "basic_handle/treated_wood"]
+        }
     }
 ]

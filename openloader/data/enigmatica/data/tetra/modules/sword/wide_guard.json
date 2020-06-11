@@ -253,27 +253,6 @@
       "magicCapacity": 90
     },
     {
-      "key": "wide_guard/platinum",
-      "durability": 55,
-      "integrity": -2,
-      "attackSpeed": -0.2,
-      "effects": {
-        "armor": 3
-      },
-      "glyph": {
-        "tint": "d6f6ff",
-        "textureX": 40,
-        "textureY": 16
-      },
-      "models": [
-        {
-          "location": "tetra:items/module/sword/guard/wide_guard/shiny",
-          "tint": "e69963"
-        }
-      ],
-      "magicCapacity": 134
-    },
-    {
       "key": "wide_guard/lapis",
       "durability": 45,
       "integrity": -1,
@@ -379,9 +358,30 @@
       "magicCapacity": 108
     },
     {
+      "key": "wide_guard/zinc",
+      "durability": 45,
+      "integrity": -1,
+      "attackSpeed": -0.3,
+      "effects": {
+        "armor": 2
+      },
+      "glyph": {
+        "tint": "e1e9f2",
+        "textureX": 40,
+        "textureY": 16
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/sword/guard/wide_guard/metal",
+          "tint": "e1e9f2"
+        }
+      ],
+      "magicCapacity": 86
+    },
+    {
       "key": "wide_guard/pink_slime",
       "durability": 45,
-      "integrity": 0,
+      "integrity": -1,
       "attackSpeed": -0.3,
       "effects": {
         "armor": 2
@@ -402,7 +402,7 @@
     {
       "key": "wide_guard/iesnium",
       "durability": 45,
-      "integrity": 0,
+      "integrity": -1,
       "attackSpeed": -0.3,
       "effects": {
         "armor": 2
@@ -418,15 +418,246 @@
           "tint": "aadef0"
         }
       ],
-      "magicCapacity": 108
+      "magicCapacity": 168
     },
     {
-      "key": "wide_guard/compressed_iron",
-      "durability": 45,
+      "key": "wide_guard/treated_wood",
+      "durability": 12,
       "integrity": 0,
+      "attackSpeed": -0.1,
+      "effects": {
+        "armor": 1
+      },
+      "glyph": {
+        "tint": "8f380a",
+        "textureX": 40,
+        "textureY": 16
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/sword/guard/wide_guard/crude",
+          "tint": "8f380a"
+        }
+      ],
+      "magicCapacity": 118
+    },
+    {
+      "key": "wide_guard/aluminum",
+      "durability": 45,
+      "integrity": -1,
       "attackSpeed": -0.3,
       "effects": {
         "armor": 2
+      },
+      "glyph": {
+        "tint": "dce2e8",
+        "textureX": 40,
+        "textureY": 16
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/sword/guard/wide_guard/metal",
+          "tint": "dce2e8"
+        }
+      ],
+      "magicCapacity": 78
+    },
+    {
+      "key": "wide_guard/constantan",
+      "durability": 45,
+      "integrity": -1,
+      "attackSpeed": -0.3,
+      "effects": {
+        "armor": 2
+      },
+      "glyph": {
+        "tint": "d46326",
+        "textureX": 40,
+        "textureY": 16
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/sword/guard/wide_guard/metal",
+          "tint": "d46326"
+        }
+      ],
+      "magicCapacity": 110
+    },
+    {
+      "key": "wide_guard/uranium",
+      "durability": 45,
+      "integrity": -1,
+      "attackSpeed": -0.3,
+      "effects": {
+        "armor": 2
+      },
+      "glyph": {
+        "tint": "538a71",
+        "textureX": 40,
+        "textureY": 16
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/sword/guard/wide_guard/metal",
+          "tint": "538a71"
+        }
+      ],
+      "magicCapacity": 170
+    },
+    {
+      "key": "wide_guard/infused_iron",
+      "durability": 45,
+      "integrity": -1,
+      "attackSpeed": -0.3,
+      "effects": {
+        "armor": 2
+      },
+      "glyph": {
+        "tint": "8a117",
+        "textureX": 40,
+        "textureY": 16
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/sword/guard/wide_guard/metal",
+          "tint": "8a117"
+        }
+      ],
+      "magicCapacity": 158
+    },
+    {
+      "key": "wide_guard/sky",
+      "durability": 55,
+      "integrity": -4,
+      "attackSpeed": -0.2,
+      "effects": {
+        "armor": 3
+      },
+      "glyph": {
+        "tint": "78ffff",
+        "textureX": 40,
+        "textureY": 16
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/sword/guard/wide_guard/shiny",
+          "tint": "78ffff"
+        }
+      ],
+      "magicCapacity": 178
+    },
+    {
+      "key": "wide_guard/manasteel",
+      "durability": 45,
+      "integrity": -2,
+      "attackSpeed": -0.3,
+      "effects": {
+        "armor": 2
+      },
+      "glyph": {
+        "tint": "104bc2",
+        "textureX": 40,
+        "textureY": 16
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/sword/guard/wide_guard/metal",
+          "tint": "104bc2"
+        }
+      ],
+      "magicCapacity": 150
+    },
+    {
+      "key": "wide_guard/elementium",
+      "durability": 68,
+      "integrity": -3,
+      "attackSpeed": -0.2,
+      "effects": {
+        "armor": 5
+      },
+      "glyph": {
+        "tint": "cb0be0",
+        "textureX": 40,
+        "textureY": 16
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/sword/guard/wide_guard/metal",
+          "tint": "cb0be0"
+        }
+      ],
+      "magicCapacity": 178
+    },
+    {
+      "key": "wide_guard/terrasteel",
+      "durability": 55,
+      "integrity": -4,
+      "attackSpeed": -0.2,
+      "effects": {
+        "armor": 3
+      },
+      "glyph": {
+        "tint": "8c71b",
+        "textureX": 40,
+        "textureY": 16
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/sword/guard/wide_guard/shiny",
+          "tint": "8c71b"
+        }
+      ],
+      "magicCapacity": 192
+    },
+    {
+      "key": "wide_guard/gaia_spirit",
+      "durability": 87,
+      "integrity": -5,
+      "attackSpeed": -0.5,
+      "effects": {
+        "armor": 5
+      },
+      "glyph": {
+        "tint": "80bdb9",
+        "textureX": 40,
+        "textureY": 16
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/sword/guard/wide_guard/crude",
+          "tint": "80bdb9"
+        }
+      ],
+      "magicCapacity": 208
+    },
+    {
+      "key": "wide_guard/neptunium",
+      "durability": 87,
+      "integrity": -4,
+      "attackSpeed": -0.5,
+      "effects": {
+        "armor": 5
+      },
+      "glyph": {
+        "tint": "2de0c2",
+        "textureX": 40,
+        "textureY": 16
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/sword/guard/wide_guard/crude",
+          "tint": "2de0c2"
+        }
+      ],
+      "magicCapacity": 158
+    },
+    {
+      "key": "wide_guard/compressed_iron",
+      "durability": 68,
+      "integrity": -1,
+      "attackSpeed": -0.2,
+      "effects": {
+        "armor": 5
       },
       "glyph": {
         "tint": "5e6a6e",
@@ -439,12 +670,12 @@
           "tint": "5e6a6e"
         }
       ],
-      "magicCapacity": 108
+      "magicCapacity": 112
     },
     {
       "key": "wide_guard/energized_steel",
       "durability": 68,
-      "integrity": 0,
+      "integrity": -2,
       "attackSpeed": -0.2,
       "effects": {
         "armor": 5
@@ -465,7 +696,7 @@
     {
       "key": "wide_guard/niotic",
       "durability": 45,
-      "integrity": 0,
+      "integrity": -2,
       "attackSpeed": -0.3,
       "effects": {
         "armor": 2
@@ -486,7 +717,7 @@
     {
       "key": "wide_guard/spirited",
       "durability": 87,
-      "integrity": 0,
+      "integrity": -3,
       "attackSpeed": -0.5,
       "effects": {
         "armor": 5
@@ -507,7 +738,7 @@
     {
       "key": "wide_guard/nitro",
       "durability": 87,
-      "integrity": 0,
+      "integrity": -4,
       "attackSpeed": -0.5,
       "effects": {
         "armor": 5

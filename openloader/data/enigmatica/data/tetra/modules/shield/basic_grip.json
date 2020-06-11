@@ -217,24 +217,6 @@
       ]
     },
     {
-      "key": "basic_grip/platinum",
-      "durability": 20,
-      "integrity": -2,
-      "magicCapacity": 134,
-      "glyph": {
-        "tint": "d6f6ff",
-        "textureX": 16,
-        "textureY": 48
-      },
-      "models": [
-        {
-          "type": "shield_grip",
-          "location": "tetra:items/module/shield/grip/basic_grip/default",
-          "tint": "e69963"
-        }
-      ]
-    },
-    {
       "key": "basic_grip/lapis",
       "durability": 20,
       "integrity": -1,
@@ -325,9 +307,27 @@
       ]
     },
     {
+      "key": "basic_grip/zinc",
+      "durability": 20,
+      "integrity": -1,
+      "magicCapacity": 86,
+      "glyph": {
+        "tint": "e1e9f2",
+        "textureX": 16,
+        "textureY": 48
+      },
+      "models": [
+        {
+          "type": "shield_grip",
+          "location": "tetra:items/module/shield/grip/basic_grip/default",
+          "tint": "e1e9f2"
+        }
+      ]
+    },
+    {
       "key": "basic_grip/pink_slime",
       "durability": 20,
-      "integrity": 0,
+      "integrity": -1,
       "magicCapacity": 108,
       "glyph": {
         "tint": "df3ce8",
@@ -345,8 +345,8 @@
     {
       "key": "basic_grip/iesnium",
       "durability": 20,
-      "integrity": 0,
-      "magicCapacity": 108,
+      "integrity": -1,
+      "magicCapacity": 168,
       "glyph": {
         "tint": "aadef0",
         "textureX": 16,
@@ -361,10 +361,208 @@
       ]
     },
     {
-      "key": "basic_grip/compressed_iron",
+      "key": "basic_grip/treated_wood",
       "durability": 20,
       "integrity": 0,
-      "magicCapacity": 108,
+      "magicCapacity": 118,
+      "glyph": {
+        "tint": "8f380a",
+        "textureX": 16,
+        "textureY": 48
+      },
+      "models": [
+        {
+          "type": "shield_grip",
+          "location": "tetra:items/module/shield/grip/basic_grip/default",
+          "tint": "8f380a"
+        }
+      ]
+    },
+    {
+      "key": "basic_grip/aluminum",
+      "durability": 20,
+      "integrity": -1,
+      "magicCapacity": 78,
+      "glyph": {
+        "tint": "dce2e8",
+        "textureX": 16,
+        "textureY": 48
+      },
+      "models": [
+        {
+          "type": "shield_grip",
+          "location": "tetra:items/module/shield/grip/basic_grip/default",
+          "tint": "dce2e8"
+        }
+      ]
+    },
+    {
+      "key": "basic_grip/constantan",
+      "durability": 20,
+      "integrity": -1,
+      "magicCapacity": 110,
+      "glyph": {
+        "tint": "d46326",
+        "textureX": 16,
+        "textureY": 48
+      },
+      "models": [
+        {
+          "type": "shield_grip",
+          "location": "tetra:items/module/shield/grip/basic_grip/default",
+          "tint": "d46326"
+        }
+      ]
+    },
+    {
+      "key": "basic_grip/uranium",
+      "durability": 20,
+      "integrity": -1,
+      "magicCapacity": 170,
+      "glyph": {
+        "tint": "538a71",
+        "textureX": 16,
+        "textureY": 48
+      },
+      "models": [
+        {
+          "type": "shield_grip",
+          "location": "tetra:items/module/shield/grip/basic_grip/default",
+          "tint": "538a71"
+        }
+      ]
+    },
+    {
+      "key": "basic_grip/infused_iron",
+      "durability": 20,
+      "integrity": -1,
+      "magicCapacity": 158,
+      "glyph": {
+        "tint": "8a117",
+        "textureX": 16,
+        "textureY": 48
+      },
+      "models": [
+        {
+          "type": "shield_grip",
+          "location": "tetra:items/module/shield/grip/basic_grip/default",
+          "tint": "8a117"
+        }
+      ]
+    },
+    {
+      "key": "basic_grip/sky",
+      "durability": 20,
+      "integrity": -4,
+      "magicCapacity": 178,
+      "glyph": {
+        "tint": "78ffff",
+        "textureX": 16,
+        "textureY": 48
+      },
+      "models": [
+        {
+          "type": "shield_grip",
+          "location": "tetra:items/module/shield/grip/basic_grip/default",
+          "tint": "78ffff"
+        }
+      ]
+    },
+    {
+      "key": "basic_grip/manasteel",
+      "durability": 20,
+      "integrity": -2,
+      "magicCapacity": 150,
+      "glyph": {
+        "tint": "104bc2",
+        "textureX": 16,
+        "textureY": 48
+      },
+      "models": [
+        {
+          "type": "shield_grip",
+          "location": "tetra:items/module/shield/grip/basic_grip/default",
+          "tint": "104bc2"
+        }
+      ]
+    },
+    {
+      "key": "basic_grip/elementium",
+      "durability": 20,
+      "integrity": -3,
+      "magicCapacity": 178,
+      "glyph": {
+        "tint": "cb0be0",
+        "textureX": 16,
+        "textureY": 48
+      },
+      "models": [
+        {
+          "type": "shield_grip",
+          "location": "tetra:items/module/shield/grip/basic_grip/default",
+          "tint": "cb0be0"
+        }
+      ]
+    },
+    {
+      "key": "basic_grip/terrasteel",
+      "durability": 20,
+      "integrity": -4,
+      "magicCapacity": 192,
+      "glyph": {
+        "tint": "8c71b",
+        "textureX": 16,
+        "textureY": 48
+      },
+      "models": [
+        {
+          "type": "shield_grip",
+          "location": "tetra:items/module/shield/grip/basic_grip/default",
+          "tint": "8c71b"
+        }
+      ]
+    },
+    {
+      "key": "basic_grip/gaia_spirit",
+      "durability": 20,
+      "integrity": -5,
+      "magicCapacity": 208,
+      "glyph": {
+        "tint": "80bdb9",
+        "textureX": 16,
+        "textureY": 48
+      },
+      "models": [
+        {
+          "type": "shield_grip",
+          "location": "tetra:items/module/shield/grip/basic_grip/default",
+          "tint": "80bdb9"
+        }
+      ]
+    },
+    {
+      "key": "basic_grip/neptunium",
+      "durability": 20,
+      "integrity": -4,
+      "magicCapacity": 158,
+      "glyph": {
+        "tint": "2de0c2",
+        "textureX": 16,
+        "textureY": 48
+      },
+      "models": [
+        {
+          "type": "shield_grip",
+          "location": "tetra:items/module/shield/grip/basic_grip/default",
+          "tint": "2de0c2"
+        }
+      ]
+    },
+    {
+      "key": "basic_grip/compressed_iron",
+      "durability": 20,
+      "integrity": -1,
+      "magicCapacity": 112,
       "glyph": {
         "tint": "5e6a6e",
         "textureX": 16,
@@ -381,7 +579,7 @@
     {
       "key": "basic_grip/energized_steel",
       "durability": 20,
-      "integrity": 0,
+      "integrity": -2,
       "magicCapacity": 108,
       "glyph": {
         "tint": "dbd2a4",
@@ -399,7 +597,7 @@
     {
       "key": "basic_grip/niotic",
       "durability": 20,
-      "integrity": 0,
+      "integrity": -2,
       "magicCapacity": 108,
       "glyph": {
         "tint": "1cc9e8",
@@ -417,7 +615,7 @@
     {
       "key": "basic_grip/spirited",
       "durability": 20,
-      "integrity": 0,
+      "integrity": -3,
       "magicCapacity": 108,
       "glyph": {
         "tint": "13eb21",
@@ -435,7 +633,7 @@
     {
       "key": "basic_grip/nitro",
       "durability": 20,
-      "integrity": 0,
+      "integrity": -4,
       "magicCapacity": 108,
       "glyph": {
         "tint": "d11608",

@@ -134,16 +134,6 @@
     },
     {
       "material": {
-        "tag": "forge:ingots/platinum"
-      },
-      "requiredCapabilities": {
-        "hammer": 4
-      },
-      "moduleKey": "single/long_handle",
-      "moduleVariant": "long_handle/platinum"
-    },
-    {
-      "material": {
         "tag": "forge:gems/lapis",
         "count": 2
       },
@@ -185,13 +175,23 @@
     },
     {
       "material": {
-        "tag": "forge:ingots/andesite_alloy"
+        "item": "create:andesite_alloy"
       },
       "requiredCapabilities": {
         "hammer": 3
       },
       "moduleKey": "single/long_handle",
       "moduleVariant": "long_handle/andesite_alloy"
+    },
+    {
+      "material": {
+        "tag": "forge:ingots/zinc"
+      },
+      "requiredCapabilities": {
+        "hammer": 3
+      },
+      "moduleKey": "single/long_handle",
+      "moduleVariant": "long_handle/zinc"
     },
     {
       "material": {
@@ -212,6 +212,117 @@
       },
       "moduleKey": "single/long_handle",
       "moduleVariant": "long_handle/iesnium"
+    },
+    {
+      "material": {
+        "tag": "forge:treated_wood",
+        "count": 2
+      },
+      "requiredCapabilities": {
+        "axe": 2
+      },
+      "moduleKey": "single/long_handle",
+      "moduleVariant": "long_handle/treated_wood"
+    },
+    {
+      "material": {
+        "tag": "forge:ingots/aluminum"
+      },
+      "requiredCapabilities": {
+        "hammer": 1
+      },
+      "moduleKey": "single/long_handle",
+      "moduleVariant": "long_handle/aluminum"
+    },
+    {
+      "material": {
+        "tag": "forge:ingots/constantan"
+      },
+      "requiredCapabilities": {
+        "hammer": 2
+      },
+      "moduleKey": "single/long_handle",
+      "moduleVariant": "long_handle/constantan"
+    },
+    {
+      "material": {
+        "tag": "forge:ingots/uranium"
+      },
+      "requiredCapabilities": {
+        "hammer": 3
+      },
+      "moduleKey": "single/long_handle",
+      "moduleVariant": "long_handle/uranium"
+    },
+    {
+      "material": {
+        "item": "naturesaura:infused_iron"
+      },
+      "requiredCapabilities": {
+        "hammer": 2
+      },
+      "moduleKey": "single/long_handle",
+      "moduleVariant": "long_handle/infused_iron"
+    },
+    {
+      "material": {
+        "item": "naturesaura:sky_ingot"
+      },
+      "requiredCapabilities": {
+        "hammer": 3
+      },
+      "moduleKey": "single/long_handle",
+      "moduleVariant": "long_handle/sky"
+    },
+    {
+      "material": {
+        "tag": "forge:ingots/manasteel"
+      },
+      "requiredCapabilities": {
+        "hammer": 2
+      },
+      "moduleKey": "single/long_handle",
+      "moduleVariant": "long_handle/manasteel"
+    },
+    {
+      "material": {
+        "tag": "forge:ingots/elementium"
+      },
+      "requiredCapabilities": {
+        "hammer": 3
+      },
+      "moduleKey": "single/long_handle",
+      "moduleVariant": "long_handle/elementium"
+    },
+    {
+      "material": {
+        "tag": "forge:ingots/terrasteel"
+      },
+      "requiredCapabilities": {
+        "hammer": 4
+      },
+      "moduleKey": "single/long_handle",
+      "moduleVariant": "long_handle/terrasteel"
+    },
+    {
+      "material": {
+        "item": "botania:gaia_ingot"
+      },
+      "requiredCapabilities": {
+        "hammer": 5
+      },
+      "moduleKey": "single/long_handle",
+      "moduleVariant": "long_handle/gaia_spirit"
+    },
+    {
+      "material": {
+        "tag": "forge:ingots/neptunium"
+      },
+      "requiredCapabilities": {
+        "hammer": 5
+      },
+      "moduleKey": "single/long_handle",
+      "moduleVariant": "long_handle/neptunium"
     },
     {
       "material": {

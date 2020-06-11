@@ -241,26 +241,6 @@
       "magicCapacity": 90
     },
     {
-      "key": "forefinger_ring/platinum",
-      "durability": 55,
-      "integrity": -2,
-      "effects": {
-        "quickStrike": 4
-      },
-      "glyph": {
-        "tint": "d6f6ff",
-        "textureX": 48,
-        "textureY": 16
-      },
-      "models": [
-        {
-          "location": "tetra:items/module/sword/guard/forefinger_ring/default",
-          "tint": "e69963"
-        }
-      ],
-      "magicCapacity": 134
-    },
-    {
       "key": "forefinger_ring/lapis",
       "durability": 45,
       "integrity": -1,
@@ -361,9 +341,29 @@
       "magicCapacity": 108
     },
     {
+      "key": "forefinger_ring/zinc",
+      "durability": 45,
+      "integrity": -1,
+      "effects": {
+        "quickStrike": 4
+      },
+      "glyph": {
+        "tint": "e1e9f2",
+        "textureX": 48,
+        "textureY": 16
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/sword/guard/forefinger_ring/default",
+          "tint": "e1e9f2"
+        }
+      ],
+      "magicCapacity": 86
+    },
+    {
       "key": "forefinger_ring/pink_slime",
       "durability": 45,
-      "integrity": 0,
+      "integrity": -1,
       "effects": {
         "quickStrike": 4
       },
@@ -383,7 +383,7 @@
     {
       "key": "forefinger_ring/iesnium",
       "durability": 45,
-      "integrity": 0,
+      "integrity": -1,
       "effects": {
         "quickStrike": 4
       },
@@ -398,12 +398,232 @@
           "tint": "aadef0"
         }
       ],
-      "magicCapacity": 108
+      "magicCapacity": 168
+    },
+    {
+      "key": "forefinger_ring/treated_wood",
+      "durability": 12,
+      "integrity": 0,
+      "effects": {
+        "quickStrike": 4
+      },
+      "glyph": {
+        "tint": "8f380a",
+        "textureX": 48,
+        "textureY": 16
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/sword/guard/forefinger_ring/default",
+          "tint": "8f380a"
+        }
+      ],
+      "magicCapacity": 118
+    },
+    {
+      "key": "forefinger_ring/aluminum",
+      "durability": 45,
+      "integrity": -1,
+      "effects": {
+        "quickStrike": 4
+      },
+      "glyph": {
+        "tint": "dce2e8",
+        "textureX": 48,
+        "textureY": 16
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/sword/guard/forefinger_ring/default",
+          "tint": "dce2e8"
+        }
+      ],
+      "magicCapacity": 78
+    },
+    {
+      "key": "forefinger_ring/constantan",
+      "durability": 45,
+      "integrity": -1,
+      "effects": {
+        "quickStrike": 4
+      },
+      "glyph": {
+        "tint": "d46326",
+        "textureX": 48,
+        "textureY": 16
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/sword/guard/forefinger_ring/default",
+          "tint": "d46326"
+        }
+      ],
+      "magicCapacity": 110
+    },
+    {
+      "key": "forefinger_ring/uranium",
+      "durability": 45,
+      "integrity": -1,
+      "effects": {
+        "quickStrike": 4
+      },
+      "glyph": {
+        "tint": "538a71",
+        "textureX": 48,
+        "textureY": 16
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/sword/guard/forefinger_ring/default",
+          "tint": "538a71"
+        }
+      ],
+      "magicCapacity": 170
+    },
+    {
+      "key": "forefinger_ring/infused_iron",
+      "durability": 45,
+      "integrity": -1,
+      "effects": {
+        "quickStrike": 4
+      },
+      "glyph": {
+        "tint": "8a117",
+        "textureX": 48,
+        "textureY": 16
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/sword/guard/forefinger_ring/default",
+          "tint": "8a117"
+        }
+      ],
+      "magicCapacity": 158
+    },
+    {
+      "key": "forefinger_ring/sky",
+      "durability": 55,
+      "integrity": -4,
+      "effects": {
+        "quickStrike": 4
+      },
+      "glyph": {
+        "tint": "78ffff",
+        "textureX": 48,
+        "textureY": 16
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/sword/guard/forefinger_ring/default",
+          "tint": "78ffff"
+        }
+      ],
+      "magicCapacity": 178
+    },
+    {
+      "key": "forefinger_ring/manasteel",
+      "durability": 45,
+      "integrity": -2,
+      "effects": {
+        "quickStrike": 4
+      },
+      "glyph": {
+        "tint": "104bc2",
+        "textureX": 48,
+        "textureY": 16
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/sword/guard/forefinger_ring/default",
+          "tint": "104bc2"
+        }
+      ],
+      "magicCapacity": 150
+    },
+    {
+      "key": "forefinger_ring/elementium",
+      "durability": 68,
+      "integrity": -3,
+      "effects": {
+        "quickStrike": 4
+      },
+      "glyph": {
+        "tint": "cb0be0",
+        "textureX": 48,
+        "textureY": 16
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/sword/guard/forefinger_ring/default",
+          "tint": "cb0be0"
+        }
+      ],
+      "magicCapacity": 178
+    },
+    {
+      "key": "forefinger_ring/terrasteel",
+      "durability": 55,
+      "integrity": -4,
+      "effects": {
+        "quickStrike": 4
+      },
+      "glyph": {
+        "tint": "8c71b",
+        "textureX": 48,
+        "textureY": 16
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/sword/guard/forefinger_ring/default",
+          "tint": "8c71b"
+        }
+      ],
+      "magicCapacity": 192
+    },
+    {
+      "key": "forefinger_ring/gaia_spirit",
+      "durability": 87,
+      "integrity": -5,
+      "effects": {
+        "quickStrike": 4
+      },
+      "glyph": {
+        "tint": "80bdb9",
+        "textureX": 48,
+        "textureY": 16
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/sword/guard/forefinger_ring/default",
+          "tint": "80bdb9"
+        }
+      ],
+      "magicCapacity": 208
+    },
+    {
+      "key": "forefinger_ring/neptunium",
+      "durability": 87,
+      "integrity": -4,
+      "effects": {
+        "quickStrike": 4
+      },
+      "glyph": {
+        "tint": "2de0c2",
+        "textureX": 48,
+        "textureY": 16
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/sword/guard/forefinger_ring/default",
+          "tint": "2de0c2"
+        }
+      ],
+      "magicCapacity": 158
     },
     {
       "key": "forefinger_ring/compressed_iron",
-      "durability": 45,
-      "integrity": 0,
+      "durability": 68,
+      "integrity": -1,
       "effects": {
         "quickStrike": 4
       },
@@ -418,12 +638,12 @@
           "tint": "5e6a6e"
         }
       ],
-      "magicCapacity": 108
+      "magicCapacity": 112
     },
     {
       "key": "forefinger_ring/energized_steel",
       "durability": 68,
-      "integrity": 0,
+      "integrity": -2,
       "effects": {
         "quickStrike": 4
       },
@@ -443,7 +663,7 @@
     {
       "key": "forefinger_ring/niotic",
       "durability": 45,
-      "integrity": 0,
+      "integrity": -2,
       "effects": {
         "quickStrike": 4
       },
@@ -463,7 +683,7 @@
     {
       "key": "forefinger_ring/spirited",
       "durability": 87,
-      "integrity": 0,
+      "integrity": -3,
       "effects": {
         "quickStrike": 4
       },
@@ -483,7 +703,7 @@
     {
       "key": "forefinger_ring/nitro",
       "durability": 87,
-      "integrity": 0,
+      "integrity": -4,
       "effects": {
         "quickStrike": 4
       },

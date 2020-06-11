@@ -205,23 +205,6 @@
       ]
     },
     {
-      "key": "basic_hilt/platinum",
-      "durability": 64,
-      "integrity": -2,
-      "magicCapacity": 134,
-      "attackSpeed": 0.2,
-      "glyph": {
-        "tint": "d6f6ff",
-        "textureX": 16
-      },
-      "models": [
-        {
-          "location": "tetra:items/module/sword/hilt/basic/default",
-          "tint": "e69963"
-        }
-      ]
-    },
-    {
       "key": "basic_hilt/lapis",
       "durability": 32,
       "integrity": -1,
@@ -307,9 +290,26 @@
       ]
     },
     {
+      "key": "basic_hilt/zinc",
+      "durability": 32,
+      "integrity": -1,
+      "magicCapacity": 86,
+      "attackSpeed": 0.25,
+      "glyph": {
+        "tint": "e1e9f2",
+        "textureX": 16
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/sword/hilt/basic/default",
+          "tint": "e1e9f2"
+        }
+      ]
+    },
+    {
       "key": "basic_hilt/pink_slime",
       "durability": 32,
-      "integrity": 0,
+      "integrity": -1,
       "magicCapacity": 108,
       "attackSpeed": 0.25,
       "glyph": {
@@ -326,8 +326,8 @@
     {
       "key": "basic_hilt/iesnium",
       "durability": 32,
-      "integrity": 0,
-      "magicCapacity": 108,
+      "integrity": -1,
+      "magicCapacity": 168,
       "attackSpeed": 0.25,
       "glyph": {
         "tint": "aadef0",
@@ -341,11 +341,198 @@
       ]
     },
     {
-      "key": "basic_hilt/compressed_iron",
-      "durability": 32,
+      "key": "basic_hilt/treated_wood",
+      "durability": 17,
       "integrity": 0,
-      "magicCapacity": 108,
+      "magicCapacity": 118,
+      "attackSpeed": 0.35,
+      "glyph": {
+        "tint": "8f380a",
+        "textureX": 16
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/sword/hilt/basic/default",
+          "tint": "8f380a"
+        }
+      ]
+    },
+    {
+      "key": "basic_hilt/aluminum",
+      "durability": 32,
+      "integrity": -1,
+      "magicCapacity": 78,
       "attackSpeed": 0.25,
+      "glyph": {
+        "tint": "dce2e8",
+        "textureX": 16
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/sword/hilt/basic/default",
+          "tint": "dce2e8"
+        }
+      ]
+    },
+    {
+      "key": "basic_hilt/constantan",
+      "durability": 32,
+      "integrity": -1,
+      "magicCapacity": 110,
+      "attackSpeed": 0.25,
+      "glyph": {
+        "tint": "d46326",
+        "textureX": 16
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/sword/hilt/basic/default",
+          "tint": "d46326"
+        }
+      ]
+    },
+    {
+      "key": "basic_hilt/uranium",
+      "durability": 32,
+      "integrity": -1,
+      "magicCapacity": 170,
+      "attackSpeed": 0.25,
+      "glyph": {
+        "tint": "538a71",
+        "textureX": 16
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/sword/hilt/basic/default",
+          "tint": "538a71"
+        }
+      ]
+    },
+    {
+      "key": "basic_hilt/infused_iron",
+      "durability": 32,
+      "integrity": -1,
+      "magicCapacity": 158,
+      "attackSpeed": 0.25,
+      "glyph": {
+        "tint": "8a117",
+        "textureX": 16
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/sword/hilt/basic/default",
+          "tint": "8a117"
+        }
+      ]
+    },
+    {
+      "key": "basic_hilt/sky",
+      "durability": 64,
+      "integrity": -4,
+      "magicCapacity": 178,
+      "attackSpeed": 0.2,
+      "glyph": {
+        "tint": "78ffff",
+        "textureX": 16
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/sword/hilt/basic/default",
+          "tint": "78ffff"
+        }
+      ]
+    },
+    {
+      "key": "basic_hilt/manasteel",
+      "durability": 32,
+      "integrity": -2,
+      "magicCapacity": 150,
+      "attackSpeed": 0.25,
+      "glyph": {
+        "tint": "104bc2",
+        "textureX": 16
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/sword/hilt/basic/default",
+          "tint": "104bc2"
+        }
+      ]
+    },
+    {
+      "key": "basic_hilt/elementium",
+      "durability": 64,
+      "integrity": -3,
+      "magicCapacity": 178,
+      "attackSpeed": 0.2,
+      "glyph": {
+        "tint": "cb0be0",
+        "textureX": 16
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/sword/hilt/basic/default",
+          "tint": "cb0be0"
+        }
+      ]
+    },
+    {
+      "key": "basic_hilt/terrasteel",
+      "durability": 64,
+      "integrity": -4,
+      "magicCapacity": 192,
+      "attackSpeed": 0.2,
+      "glyph": {
+        "tint": "8c71b",
+        "textureX": 16
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/sword/hilt/basic/default",
+          "tint": "8c71b"
+        }
+      ]
+    },
+    {
+      "key": "basic_hilt/gaia_spirit",
+      "durability": 64,
+      "integrity": -5,
+      "magicCapacity": 208,
+      "attackSpeed": 0.2,
+      "glyph": {
+        "tint": "80bdb9",
+        "textureX": 16
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/sword/hilt/basic/default",
+          "tint": "80bdb9"
+        }
+      ]
+    },
+    {
+      "key": "basic_hilt/neptunium",
+      "durability": 64,
+      "integrity": -4,
+      "magicCapacity": 158,
+      "attackSpeed": 0.2,
+      "glyph": {
+        "tint": "2de0c2",
+        "textureX": 16
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/sword/hilt/basic/default",
+          "tint": "2de0c2"
+        }
+      ]
+    },
+    {
+      "key": "basic_hilt/compressed_iron",
+      "durability": 64,
+      "integrity": -1,
+      "magicCapacity": 112,
+      "attackSpeed": 0.2,
       "glyph": {
         "tint": "5e6a6e",
         "textureX": 16
@@ -360,7 +547,7 @@
     {
       "key": "basic_hilt/energized_steel",
       "durability": 64,
-      "integrity": 0,
+      "integrity": -2,
       "magicCapacity": 108,
       "attackSpeed": 0.2,
       "glyph": {
@@ -377,7 +564,7 @@
     {
       "key": "basic_hilt/niotic",
       "durability": 32,
-      "integrity": 0,
+      "integrity": -2,
       "magicCapacity": 108,
       "attackSpeed": 0.25,
       "glyph": {
@@ -394,7 +581,7 @@
     {
       "key": "basic_hilt/spirited",
       "durability": 64,
-      "integrity": 0,
+      "integrity": -3,
       "magicCapacity": 108,
       "attackSpeed": 0.2,
       "glyph": {
@@ -411,7 +598,7 @@
     {
       "key": "basic_hilt/nitro",
       "durability": 64,
-      "integrity": 0,
+      "integrity": -4,
       "magicCapacity": 108,
       "attackSpeed": 0.2,
       "glyph": {

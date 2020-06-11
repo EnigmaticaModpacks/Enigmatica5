@@ -134,16 +134,6 @@
     },
     {
       "material": {
-        "tag": "forge:ingots/platinum"
-      },
-      "requiredCapabilities": {
-        "hammer": 4
-      },
-      "moduleKey": "sword/decorative_pommel",
-      "moduleVariant": "decorative_pommel/platinum"
-    },
-    {
-      "material": {
         "tag": "forge:gems/lapis",
         "count": 2
       },
@@ -185,13 +175,23 @@
     },
     {
       "material": {
-        "tag": "forge:ingots/andesite_alloy"
+        "item": "create:andesite_alloy"
       },
       "requiredCapabilities": {
         "hammer": 3
       },
       "moduleKey": "sword/decorative_pommel",
       "moduleVariant": "decorative_pommel/andesite_alloy"
+    },
+    {
+      "material": {
+        "tag": "forge:ingots/zinc"
+      },
+      "requiredCapabilities": {
+        "hammer": 3
+      },
+      "moduleKey": "sword/decorative_pommel",
+      "moduleVariant": "decorative_pommel/zinc"
     },
     {
       "material": {
@@ -212,6 +212,117 @@
       },
       "moduleKey": "sword/decorative_pommel",
       "moduleVariant": "decorative_pommel/iesnium"
+    },
+    {
+      "material": {
+        "tag": "forge:treated_wood",
+        "count": 2
+      },
+      "requiredCapabilities": {
+        "axe": 2
+      },
+      "moduleKey": "sword/decorative_pommel",
+      "moduleVariant": "decorative_pommel/treated_wood"
+    },
+    {
+      "material": {
+        "tag": "forge:ingots/aluminum"
+      },
+      "requiredCapabilities": {
+        "hammer": 1
+      },
+      "moduleKey": "sword/decorative_pommel",
+      "moduleVariant": "decorative_pommel/aluminum"
+    },
+    {
+      "material": {
+        "tag": "forge:ingots/constantan"
+      },
+      "requiredCapabilities": {
+        "hammer": 2
+      },
+      "moduleKey": "sword/decorative_pommel",
+      "moduleVariant": "decorative_pommel/constantan"
+    },
+    {
+      "material": {
+        "tag": "forge:ingots/uranium"
+      },
+      "requiredCapabilities": {
+        "hammer": 3
+      },
+      "moduleKey": "sword/decorative_pommel",
+      "moduleVariant": "decorative_pommel/uranium"
+    },
+    {
+      "material": {
+        "item": "naturesaura:infused_iron"
+      },
+      "requiredCapabilities": {
+        "hammer": 2
+      },
+      "moduleKey": "sword/decorative_pommel",
+      "moduleVariant": "decorative_pommel/infused_iron"
+    },
+    {
+      "material": {
+        "item": "naturesaura:sky_ingot"
+      },
+      "requiredCapabilities": {
+        "hammer": 3
+      },
+      "moduleKey": "sword/decorative_pommel",
+      "moduleVariant": "decorative_pommel/sky"
+    },
+    {
+      "material": {
+        "tag": "forge:ingots/manasteel"
+      },
+      "requiredCapabilities": {
+        "hammer": 2
+      },
+      "moduleKey": "sword/decorative_pommel",
+      "moduleVariant": "decorative_pommel/manasteel"
+    },
+    {
+      "material": {
+        "tag": "forge:ingots/elementium"
+      },
+      "requiredCapabilities": {
+        "hammer": 3
+      },
+      "moduleKey": "sword/decorative_pommel",
+      "moduleVariant": "decorative_pommel/elementium"
+    },
+    {
+      "material": {
+        "tag": "forge:ingots/terrasteel"
+      },
+      "requiredCapabilities": {
+        "hammer": 4
+      },
+      "moduleKey": "sword/decorative_pommel",
+      "moduleVariant": "decorative_pommel/terrasteel"
+    },
+    {
+      "material": {
+        "item": "botania:gaia_ingot"
+      },
+      "requiredCapabilities": {
+        "hammer": 5
+      },
+      "moduleKey": "sword/decorative_pommel",
+      "moduleVariant": "decorative_pommel/gaia_spirit"
+    },
+    {
+      "material": {
+        "tag": "forge:ingots/neptunium"
+      },
+      "requiredCapabilities": {
+        "hammer": 5
+      },
+      "moduleKey": "sword/decorative_pommel",
+      "moduleVariant": "decorative_pommel/neptunium"
     },
     {
       "material": {

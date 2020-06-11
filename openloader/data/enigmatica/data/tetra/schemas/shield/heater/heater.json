@@ -134,16 +134,6 @@
     },
     {
       "material": {
-        "tag": "forge:ingots/platinum"
-      },
-      "requiredCapabilities": {
-        "hammer": 4
-      },
-      "moduleKey": "shield/heater",
-      "moduleVariant": "heater/platinum"
-    },
-    {
-      "material": {
         "tag": "forge:gems/lapis",
         "count": 2
       },
@@ -185,13 +175,23 @@
     },
     {
       "material": {
-        "tag": "forge:ingots/andesite_alloy"
+        "item": "create:andesite_alloy"
       },
       "requiredCapabilities": {
         "hammer": 3
       },
       "moduleKey": "shield/heater",
       "moduleVariant": "heater/andesite_alloy"
+    },
+    {
+      "material": {
+        "tag": "forge:ingots/zinc"
+      },
+      "requiredCapabilities": {
+        "hammer": 3
+      },
+      "moduleKey": "shield/heater",
+      "moduleVariant": "heater/zinc"
     },
     {
       "material": {
@@ -212,6 +212,117 @@
       },
       "moduleKey": "shield/heater",
       "moduleVariant": "heater/iesnium"
+    },
+    {
+      "material": {
+        "tag": "forge:treated_wood",
+        "count": 2
+      },
+      "requiredCapabilities": {
+        "axe": 2
+      },
+      "moduleKey": "shield/heater",
+      "moduleVariant": "heater/treated_wood"
+    },
+    {
+      "material": {
+        "tag": "forge:ingots/aluminum"
+      },
+      "requiredCapabilities": {
+        "hammer": 1
+      },
+      "moduleKey": "shield/heater",
+      "moduleVariant": "heater/aluminum"
+    },
+    {
+      "material": {
+        "tag": "forge:ingots/constantan"
+      },
+      "requiredCapabilities": {
+        "hammer": 2
+      },
+      "moduleKey": "shield/heater",
+      "moduleVariant": "heater/constantan"
+    },
+    {
+      "material": {
+        "tag": "forge:ingots/uranium"
+      },
+      "requiredCapabilities": {
+        "hammer": 3
+      },
+      "moduleKey": "shield/heater",
+      "moduleVariant": "heater/uranium"
+    },
+    {
+      "material": {
+        "item": "naturesaura:infused_iron"
+      },
+      "requiredCapabilities": {
+        "hammer": 2
+      },
+      "moduleKey": "shield/heater",
+      "moduleVariant": "heater/infused_iron"
+    },
+    {
+      "material": {
+        "item": "naturesaura:sky_ingot"
+      },
+      "requiredCapabilities": {
+        "hammer": 3
+      },
+      "moduleKey": "shield/heater",
+      "moduleVariant": "heater/sky"
+    },
+    {
+      "material": {
+        "tag": "forge:ingots/manasteel"
+      },
+      "requiredCapabilities": {
+        "hammer": 2
+      },
+      "moduleKey": "shield/heater",
+      "moduleVariant": "heater/manasteel"
+    },
+    {
+      "material": {
+        "tag": "forge:ingots/elementium"
+      },
+      "requiredCapabilities": {
+        "hammer": 3
+      },
+      "moduleKey": "shield/heater",
+      "moduleVariant": "heater/elementium"
+    },
+    {
+      "material": {
+        "tag": "forge:ingots/terrasteel"
+      },
+      "requiredCapabilities": {
+        "hammer": 4
+      },
+      "moduleKey": "shield/heater",
+      "moduleVariant": "heater/terrasteel"
+    },
+    {
+      "material": {
+        "item": "botania:gaia_ingot"
+      },
+      "requiredCapabilities": {
+        "hammer": 5
+      },
+      "moduleKey": "shield/heater",
+      "moduleVariant": "heater/gaia_spirit"
+    },
+    {
+      "material": {
+        "tag": "forge:ingots/neptunium"
+      },
+      "requiredCapabilities": {
+        "hammer": 5
+      },
+      "moduleKey": "shield/heater",
+      "moduleVariant": "heater/neptunium"
     },
     {
       "material": {

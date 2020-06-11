@@ -1,5 +1,5 @@
-[	
-	{
+[
+    {
         "predicate": { "item": "mekanismtools:bronze_hoe" },
         "item": "tetra:modular_double",
         "modules": {
@@ -51,6 +51,15 @@
             "double/head_left": ["double/hoe_left", "hoe/steel"],
             "double/head_right": ["double/butt_right", "butt/steel"],
             "double/handle": ["double/basic_handle", "basic_handle/stick"]
+        }
+    },
+    {
+        "predicate": { "item": "immersiveengineering:hoe_steel" },
+        "item": "tetra:modular_double",
+        "modules": {
+            "double/head_left": ["double/hoe_left", "hoe/steel"],
+            "double/head_right": ["double/butt_right", "butt/steel"],
+            "double/handle": ["double/basic_handle", "basic_handle/treated_wood"]
         }
     }
 ]

@@ -325,33 +325,6 @@
       ]
     },
     {
-      "key": "heavy_blade/platinum",
-      "durability": 790,
-      "integrity": -2,
-      "magicCapacity": 134,
-      "damage": 7,
-      "attackSpeed": -0.7,
-      "glyph": {
-        "tint": "d6f6ff",
-        "textureX": 48
-      },
-      "effects": {
-        "sweeping": 3
-      },
-      "capabilities": {
-        "cut": [
-          1,
-          1
-        ]
-      },
-      "models": [
-        {
-          "location": "tetra:items/module/sword/blade/heavy/metal",
-          "tint": "e69963"
-        }
-      ]
-    },
-    {
       "key": "heavy_blade/lapis",
       "durability": 450,
       "integrity": -1,
@@ -487,9 +460,36 @@
       ]
     },
     {
+      "key": "heavy_blade/zinc",
+      "durability": 450,
+      "integrity": -1,
+      "magicCapacity": 86,
+      "damage": 6,
+      "attackSpeed": -0.6,
+      "glyph": {
+        "tint": "e1e9f2",
+        "textureX": 48
+      },
+      "effects": {
+        "sweeping": 3
+      },
+      "capabilities": {
+        "cut": [
+          1,
+          1
+        ]
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/sword/blade/heavy/metal",
+          "tint": "e1e9f2"
+        }
+      ]
+    },
+    {
       "key": "heavy_blade/pink_slime",
       "durability": 450,
-      "integrity": 0,
+      "integrity": -1,
       "magicCapacity": 108,
       "damage": 6,
       "attackSpeed": -0.6,
@@ -516,8 +516,8 @@
     {
       "key": "heavy_blade/iesnium",
       "durability": 450,
-      "integrity": 0,
-      "magicCapacity": 108,
+      "integrity": -1,
+      "magicCapacity": 168,
       "damage": 6,
       "attackSpeed": -0.6,
       "glyph": {
@@ -541,12 +541,309 @@
       ]
     },
     {
-      "key": "heavy_blade/compressed_iron",
-      "durability": 450,
+      "key": "heavy_blade/treated_wood",
+      "durability": 100,
       "integrity": 0,
-      "magicCapacity": 108,
+      "magicCapacity": 118,
+      "damage": 3,
+      "attackSpeed": -0.4,
+      "glyph": {
+        "tint": "8f380a",
+        "textureX": 48
+      },
+      "effects": {
+        "sweeping": 3
+      },
+      "capabilities": {
+        "cut": [
+          1,
+          1
+        ]
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/sword/blade/heavy/crude",
+          "tint": "8f380a"
+        }
+      ]
+    },
+    {
+      "key": "heavy_blade/aluminum",
+      "durability": 450,
+      "integrity": -1,
+      "magicCapacity": 78,
       "damage": 6,
       "attackSpeed": -0.6,
+      "glyph": {
+        "tint": "dce2e8",
+        "textureX": 48
+      },
+      "effects": {
+        "sweeping": 3
+      },
+      "capabilities": {
+        "cut": [
+          1,
+          1
+        ]
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/sword/blade/heavy/metal",
+          "tint": "dce2e8"
+        }
+      ]
+    },
+    {
+      "key": "heavy_blade/constantan",
+      "durability": 450,
+      "integrity": -1,
+      "magicCapacity": 110,
+      "damage": 6,
+      "attackSpeed": -0.6,
+      "glyph": {
+        "tint": "d46326",
+        "textureX": 48
+      },
+      "effects": {
+        "sweeping": 3
+      },
+      "capabilities": {
+        "cut": [
+          1,
+          1
+        ]
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/sword/blade/heavy/metal",
+          "tint": "d46326"
+        }
+      ]
+    },
+    {
+      "key": "heavy_blade/uranium",
+      "durability": 450,
+      "integrity": -1,
+      "magicCapacity": 170,
+      "damage": 6,
+      "attackSpeed": -0.6,
+      "glyph": {
+        "tint": "538a71",
+        "textureX": 48
+      },
+      "effects": {
+        "sweeping": 3
+      },
+      "capabilities": {
+        "cut": [
+          1,
+          1
+        ]
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/sword/blade/heavy/metal",
+          "tint": "538a71"
+        }
+      ]
+    },
+    {
+      "key": "heavy_blade/infused_iron",
+      "durability": 450,
+      "integrity": -1,
+      "magicCapacity": 158,
+      "damage": 6,
+      "attackSpeed": -0.6,
+      "glyph": {
+        "tint": "8a117",
+        "textureX": 48
+      },
+      "effects": {
+        "sweeping": 3
+      },
+      "capabilities": {
+        "cut": [
+          1,
+          1
+        ]
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/sword/blade/heavy/metal",
+          "tint": "8a117"
+        }
+      ]
+    },
+    {
+      "key": "heavy_blade/sky",
+      "durability": 790,
+      "integrity": -4,
+      "magicCapacity": 178,
+      "damage": 7,
+      "attackSpeed": -0.7,
+      "glyph": {
+        "tint": "78ffff",
+        "textureX": 48
+      },
+      "effects": {
+        "sweeping": 3
+      },
+      "capabilities": {
+        "cut": [
+          1,
+          1
+        ]
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/sword/blade/heavy/metal",
+          "tint": "78ffff"
+        }
+      ]
+    },
+    {
+      "key": "heavy_blade/manasteel",
+      "durability": 450,
+      "integrity": -2,
+      "magicCapacity": 150,
+      "damage": 6,
+      "attackSpeed": -0.6,
+      "glyph": {
+        "tint": "104bc2",
+        "textureX": 48
+      },
+      "effects": {
+        "sweeping": 3
+      },
+      "capabilities": {
+        "cut": [
+          1,
+          1
+        ]
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/sword/blade/heavy/metal",
+          "tint": "104bc2"
+        }
+      ]
+    },
+    {
+      "key": "heavy_blade/elementium",
+      "durability": 790,
+      "integrity": -3,
+      "magicCapacity": 178,
+      "damage": 7,
+      "attackSpeed": -0.7,
+      "glyph": {
+        "tint": "cb0be0",
+        "textureX": 48
+      },
+      "effects": {
+        "sweeping": 3
+      },
+      "capabilities": {
+        "cut": [
+          1,
+          1
+        ]
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/sword/blade/heavy/metal",
+          "tint": "cb0be0"
+        }
+      ]
+    },
+    {
+      "key": "heavy_blade/terrasteel",
+      "durability": 790,
+      "integrity": -4,
+      "magicCapacity": 192,
+      "damage": 7,
+      "attackSpeed": -0.7,
+      "glyph": {
+        "tint": "8c71b",
+        "textureX": 48
+      },
+      "effects": {
+        "sweeping": 3
+      },
+      "capabilities": {
+        "cut": [
+          1,
+          1
+        ]
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/sword/blade/heavy/metal",
+          "tint": "8c71b"
+        }
+      ]
+    },
+    {
+      "key": "heavy_blade/gaia_spirit",
+      "durability": 2423,
+      "integrity": -5,
+      "magicCapacity": 208,
+      "damage": 9,
+      "attackSpeed": -0.8,
+      "glyph": {
+        "tint": "80bdb9",
+        "textureX": 48
+      },
+      "effects": {
+        "sweeping": 3
+      },
+      "capabilities": {
+        "cut": [
+          1,
+          1
+        ]
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/sword/blade/heavy/grainy",
+          "tint": "80bdb9"
+        }
+      ]
+    },
+    {
+      "key": "heavy_blade/neptunium",
+      "durability": 2423,
+      "integrity": -4,
+      "magicCapacity": 158,
+      "damage": 9,
+      "attackSpeed": -0.8,
+      "glyph": {
+        "tint": "2de0c2",
+        "textureX": 48
+      },
+      "effects": {
+        "sweeping": 3
+      },
+      "capabilities": {
+        "cut": [
+          1,
+          1
+        ]
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/sword/blade/heavy/grainy",
+          "tint": "2de0c2"
+        }
+      ]
+    },
+    {
+      "key": "heavy_blade/compressed_iron",
+      "durability": 790,
+      "integrity": -1,
+      "magicCapacity": 112,
+      "damage": 7,
+      "attackSpeed": -0.7,
       "glyph": {
         "tint": "5e6a6e",
         "textureX": 48
@@ -570,7 +867,7 @@
     {
       "key": "heavy_blade/energized_steel",
       "durability": 790,
-      "integrity": 0,
+      "integrity": -2,
       "magicCapacity": 108,
       "damage": 7,
       "attackSpeed": -0.7,
@@ -597,7 +894,7 @@
     {
       "key": "heavy_blade/niotic",
       "durability": 450,
-      "integrity": 0,
+      "integrity": -2,
       "magicCapacity": 108,
       "damage": 6,
       "attackSpeed": -0.6,
@@ -624,7 +921,7 @@
     {
       "key": "heavy_blade/spirited",
       "durability": 2423,
-      "integrity": 0,
+      "integrity": -3,
       "magicCapacity": 108,
       "damage": 9,
       "attackSpeed": -0.8,
@@ -651,7 +948,7 @@
     {
       "key": "heavy_blade/nitro",
       "durability": 2423,
-      "integrity": 0,
+      "integrity": -4,
       "magicCapacity": 108,
       "damage": 9,
       "attackSpeed": -0.8,

@@ -289,30 +289,6 @@
       ]
     },
     {
-      "key": "short_blade/platinum",
-      "durability": 270,
-      "integrity": -2,
-      "magicCapacity": 134,
-      "damage": 5,
-      "attackSpeed": 1.5,
-      "capabilities": {
-        "cut": [
-          2,
-          0.7
-        ]
-      },
-      "glyph": {
-        "tint": "d6f6ff",
-        "textureX": 32
-      },
-      "models": [
-        {
-          "location": "tetra:items/module/sword/blade/short/shiny",
-          "tint": "e69963"
-        }
-      ]
-    },
-    {
       "key": "short_blade/lapis",
       "durability": 120,
       "integrity": -1,
@@ -433,9 +409,33 @@
       ]
     },
     {
+      "key": "short_blade/zinc",
+      "durability": 120,
+      "integrity": -1,
+      "magicCapacity": 86,
+      "damage": 4,
+      "attackSpeed": 1.5,
+      "glyph": {
+        "tint": "e1e9f2",
+        "textureX": 32
+      },
+      "capabilities": {
+        "cut": [
+          2,
+          0.7
+        ]
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/sword/blade/short/metal",
+          "tint": "e1e9f2"
+        }
+      ]
+    },
+    {
       "key": "short_blade/pink_slime",
       "durability": 120,
-      "integrity": 0,
+      "integrity": -1,
       "magicCapacity": 108,
       "damage": 4,
       "attackSpeed": 1.5,
@@ -459,8 +459,8 @@
     {
       "key": "short_blade/iesnium",
       "durability": 120,
-      "integrity": 0,
-      "magicCapacity": 108,
+      "integrity": -1,
+      "magicCapacity": 168,
       "damage": 4,
       "attackSpeed": 1.5,
       "glyph": {
@@ -481,11 +481,275 @@
       ]
     },
     {
-      "key": "short_blade/compressed_iron",
-      "durability": 120,
+      "key": "short_blade/treated_wood",
+      "durability": 40,
       "integrity": 0,
-      "magicCapacity": 108,
+      "magicCapacity": 118,
+      "damage": 1,
+      "attackSpeed": 2.2,
+      "glyph": {
+        "tint": "8f380a",
+        "textureX": 32
+      },
+      "capabilities": {
+        "cut": [
+          2,
+          0.7
+        ]
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/sword/blade/short/crude",
+          "tint": "8f380a"
+        }
+      ]
+    },
+    {
+      "key": "short_blade/aluminum",
+      "durability": 120,
+      "integrity": -1,
+      "magicCapacity": 78,
       "damage": 4,
+      "attackSpeed": 1.5,
+      "glyph": {
+        "tint": "dce2e8",
+        "textureX": 32
+      },
+      "capabilities": {
+        "cut": [
+          2,
+          0.7
+        ]
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/sword/blade/short/metal",
+          "tint": "dce2e8"
+        }
+      ]
+    },
+    {
+      "key": "short_blade/constantan",
+      "durability": 120,
+      "integrity": -1,
+      "magicCapacity": 110,
+      "damage": 4,
+      "attackSpeed": 1.5,
+      "glyph": {
+        "tint": "d46326",
+        "textureX": 32
+      },
+      "capabilities": {
+        "cut": [
+          2,
+          0.7
+        ]
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/sword/blade/short/metal",
+          "tint": "d46326"
+        }
+      ]
+    },
+    {
+      "key": "short_blade/uranium",
+      "durability": 120,
+      "integrity": -1,
+      "magicCapacity": 170,
+      "damage": 4,
+      "attackSpeed": 1.5,
+      "glyph": {
+        "tint": "538a71",
+        "textureX": 32
+      },
+      "capabilities": {
+        "cut": [
+          2,
+          0.7
+        ]
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/sword/blade/short/metal",
+          "tint": "538a71"
+        }
+      ]
+    },
+    {
+      "key": "short_blade/infused_iron",
+      "durability": 120,
+      "integrity": -1,
+      "magicCapacity": 158,
+      "damage": 4,
+      "attackSpeed": 1.5,
+      "glyph": {
+        "tint": "8a117",
+        "textureX": 32
+      },
+      "capabilities": {
+        "cut": [
+          2,
+          0.7
+        ]
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/sword/blade/short/metal",
+          "tint": "8a117"
+        }
+      ]
+    },
+    {
+      "key": "short_blade/sky",
+      "durability": 270,
+      "integrity": -4,
+      "magicCapacity": 178,
+      "damage": 5,
+      "attackSpeed": 1.5,
+      "capabilities": {
+        "cut": [
+          2,
+          0.7
+        ]
+      },
+      "glyph": {
+        "tint": "78ffff",
+        "textureX": 32
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/sword/blade/short/shiny",
+          "tint": "78ffff"
+        }
+      ]
+    },
+    {
+      "key": "short_blade/manasteel",
+      "durability": 120,
+      "integrity": -2,
+      "magicCapacity": 150,
+      "damage": 4,
+      "attackSpeed": 1.5,
+      "glyph": {
+        "tint": "104bc2",
+        "textureX": 32
+      },
+      "capabilities": {
+        "cut": [
+          2,
+          0.7
+        ]
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/sword/blade/short/metal",
+          "tint": "104bc2"
+        }
+      ]
+    },
+    {
+      "key": "short_blade/elementium",
+      "durability": 311,
+      "integrity": -3,
+      "magicCapacity": 178,
+      "damage": 5.5,
+      "attackSpeed": 1.5,
+      "glyph": {
+        "tint": "cb0be0",
+        "textureX": 32
+      },
+      "capabilities": {
+        "cut": [
+          2,
+          0.7
+        ]
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/sword/blade/short/metal",
+          "tint": "cb0be0"
+        }
+      ]
+    },
+    {
+      "key": "short_blade/terrasteel",
+      "durability": 270,
+      "integrity": -4,
+      "magicCapacity": 192,
+      "damage": 5,
+      "attackSpeed": 1.5,
+      "capabilities": {
+        "cut": [
+          2,
+          0.7
+        ]
+      },
+      "glyph": {
+        "tint": "8c71b",
+        "textureX": 32
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/sword/blade/short/shiny",
+          "tint": "8c71b"
+        }
+      ]
+    },
+    {
+      "key": "short_blade/gaia_spirit",
+      "durability": 270,
+      "integrity": -5,
+      "magicCapacity": 208,
+      "damage": 5,
+      "attackSpeed": 1.5,
+      "capabilities": {
+        "cut": [
+          2,
+          0.7
+        ]
+      },
+      "glyph": {
+        "tint": "80bdb9",
+        "textureX": 32
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/sword/blade/short/shiny",
+          "tint": "80bdb9"
+        }
+      ]
+    },
+    {
+      "key": "short_blade/neptunium",
+      "durability": 270,
+      "integrity": -4,
+      "magicCapacity": 158,
+      "damage": 5,
+      "attackSpeed": 1.5,
+      "capabilities": {
+        "cut": [
+          2,
+          0.7
+        ]
+      },
+      "glyph": {
+        "tint": "2de0c2",
+        "textureX": 32
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/sword/blade/short/shiny",
+          "tint": "2de0c2"
+        }
+      ]
+    },
+    {
+      "key": "short_blade/compressed_iron",
+      "durability": 311,
+      "integrity": -1,
+      "magicCapacity": 112,
+      "damage": 5.5,
       "attackSpeed": 1.5,
       "glyph": {
         "tint": "5e6a6e",
@@ -507,7 +771,7 @@
     {
       "key": "short_blade/energized_steel",
       "durability": 311,
-      "integrity": 0,
+      "integrity": -2,
       "magicCapacity": 108,
       "damage": 5.5,
       "attackSpeed": 1.5,
@@ -531,7 +795,7 @@
     {
       "key": "short_blade/niotic",
       "durability": 120,
-      "integrity": 0,
+      "integrity": -2,
       "magicCapacity": 108,
       "damage": 4,
       "attackSpeed": 1.5,
@@ -555,7 +819,7 @@
     {
       "key": "short_blade/spirited",
       "durability": 270,
-      "integrity": 0,
+      "integrity": -3,
       "magicCapacity": 108,
       "damage": 5,
       "attackSpeed": 1.5,
@@ -579,7 +843,7 @@
     {
       "key": "short_blade/nitro",
       "durability": 270,
-      "integrity": 0,
+      "integrity": -4,
       "magicCapacity": 108,
       "damage": 5,
       "attackSpeed": 1.5,

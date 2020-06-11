@@ -289,30 +289,6 @@
       "magicCapacity": 90
     },
     {
-      "key": "grip_loop/platinum",
-      "durability": 55,
-      "integrity": -2,
-      "range": 1,
-      "effects": {
-        "sweeping": [
-          0,
-          2
-        ]
-      },
-      "glyph": {
-        "tint": "d6f6ff",
-        "textureX": 56,
-        "textureY": 16
-      },
-      "models": [
-        {
-          "location": "tetra:items/module/sword/pommel/grip_loop/default",
-          "tint": "e69963"
-        }
-      ],
-      "magicCapacity": 134
-    },
-    {
       "key": "grip_loop/lapis",
       "durability": 45,
       "integrity": -1,
@@ -433,9 +409,33 @@
       "magicCapacity": 108
     },
     {
+      "key": "grip_loop/zinc",
+      "durability": 45,
+      "integrity": -1,
+      "range": 1.5,
+      "effects": {
+        "sweeping": [
+          0,
+          2
+        ]
+      },
+      "glyph": {
+        "tint": "e1e9f2",
+        "textureX": 56,
+        "textureY": 16
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/sword/pommel/grip_loop/default",
+          "tint": "e1e9f2"
+        }
+      ],
+      "magicCapacity": 86
+    },
+    {
       "key": "grip_loop/pink_slime",
       "durability": 45,
-      "integrity": 0,
+      "integrity": -1,
       "range": 1.5,
       "effects": {
         "sweeping": [
@@ -459,7 +459,7 @@
     {
       "key": "grip_loop/iesnium",
       "durability": 45,
-      "integrity": 0,
+      "integrity": -1,
       "range": 1.5,
       "effects": {
         "sweeping": [
@@ -478,12 +478,276 @@
           "tint": "aadef0"
         }
       ],
-      "magicCapacity": 108
+      "magicCapacity": 168
+    },
+    {
+      "key": "grip_loop/treated_wood",
+      "durability": 12,
+      "integrity": 0,
+      "range": 1,
+      "effects": {
+        "sweeping": [
+          0,
+          2
+        ]
+      },
+      "glyph": {
+        "tint": "8f380a",
+        "textureX": 56,
+        "textureY": 16
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/sword/pommel/grip_loop/default",
+          "tint": "8f380a"
+        }
+      ],
+      "magicCapacity": 118
+    },
+    {
+      "key": "grip_loop/aluminum",
+      "durability": 45,
+      "integrity": -1,
+      "range": 1.5,
+      "effects": {
+        "sweeping": [
+          0,
+          2
+        ]
+      },
+      "glyph": {
+        "tint": "dce2e8",
+        "textureX": 56,
+        "textureY": 16
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/sword/pommel/grip_loop/default",
+          "tint": "dce2e8"
+        }
+      ],
+      "magicCapacity": 78
+    },
+    {
+      "key": "grip_loop/constantan",
+      "durability": 45,
+      "integrity": -1,
+      "range": 1.5,
+      "effects": {
+        "sweeping": [
+          0,
+          2
+        ]
+      },
+      "glyph": {
+        "tint": "d46326",
+        "textureX": 56,
+        "textureY": 16
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/sword/pommel/grip_loop/default",
+          "tint": "d46326"
+        }
+      ],
+      "magicCapacity": 110
+    },
+    {
+      "key": "grip_loop/uranium",
+      "durability": 45,
+      "integrity": -1,
+      "range": 1.5,
+      "effects": {
+        "sweeping": [
+          0,
+          2
+        ]
+      },
+      "glyph": {
+        "tint": "538a71",
+        "textureX": 56,
+        "textureY": 16
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/sword/pommel/grip_loop/default",
+          "tint": "538a71"
+        }
+      ],
+      "magicCapacity": 170
+    },
+    {
+      "key": "grip_loop/infused_iron",
+      "durability": 45,
+      "integrity": -1,
+      "range": 1.5,
+      "effects": {
+        "sweeping": [
+          0,
+          2
+        ]
+      },
+      "glyph": {
+        "tint": "8a117",
+        "textureX": 56,
+        "textureY": 16
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/sword/pommel/grip_loop/default",
+          "tint": "8a117"
+        }
+      ],
+      "magicCapacity": 158
+    },
+    {
+      "key": "grip_loop/sky",
+      "durability": 55,
+      "integrity": -4,
+      "range": 1,
+      "effects": {
+        "sweeping": [
+          0,
+          2
+        ]
+      },
+      "glyph": {
+        "tint": "78ffff",
+        "textureX": 56,
+        "textureY": 16
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/sword/pommel/grip_loop/default",
+          "tint": "78ffff"
+        }
+      ],
+      "magicCapacity": 178
+    },
+    {
+      "key": "grip_loop/manasteel",
+      "durability": 45,
+      "integrity": -2,
+      "range": 1.5,
+      "effects": {
+        "sweeping": [
+          0,
+          2
+        ]
+      },
+      "glyph": {
+        "tint": "104bc2",
+        "textureX": 56,
+        "textureY": 16
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/sword/pommel/grip_loop/default",
+          "tint": "104bc2"
+        }
+      ],
+      "magicCapacity": 150
+    },
+    {
+      "key": "grip_loop/elementium",
+      "durability": 68,
+      "integrity": -3,
+      "range": 1.5,
+      "effects": {
+        "sweeping": [
+          0,
+          2
+        ]
+      },
+      "glyph": {
+        "tint": "cb0be0",
+        "textureX": 56,
+        "textureY": 16
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/sword/pommel/grip_loop/default",
+          "tint": "cb0be0"
+        }
+      ],
+      "magicCapacity": 178
+    },
+    {
+      "key": "grip_loop/terrasteel",
+      "durability": 55,
+      "integrity": -4,
+      "range": 1,
+      "effects": {
+        "sweeping": [
+          0,
+          2
+        ]
+      },
+      "glyph": {
+        "tint": "8c71b",
+        "textureX": 56,
+        "textureY": 16
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/sword/pommel/grip_loop/default",
+          "tint": "8c71b"
+        }
+      ],
+      "magicCapacity": 192
+    },
+    {
+      "key": "grip_loop/gaia_spirit",
+      "durability": 87,
+      "integrity": -5,
+      "range": 1,
+      "effects": {
+        "sweeping": [
+          0,
+          2
+        ]
+      },
+      "glyph": {
+        "tint": "80bdb9",
+        "textureX": 56,
+        "textureY": 16
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/sword/pommel/grip_loop/default",
+          "tint": "80bdb9"
+        }
+      ],
+      "magicCapacity": 208
+    },
+    {
+      "key": "grip_loop/neptunium",
+      "durability": 87,
+      "integrity": -4,
+      "range": 1,
+      "effects": {
+        "sweeping": [
+          0,
+          2
+        ]
+      },
+      "glyph": {
+        "tint": "2de0c2",
+        "textureX": 56,
+        "textureY": 16
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/sword/pommel/grip_loop/default",
+          "tint": "2de0c2"
+        }
+      ],
+      "magicCapacity": 158
     },
     {
       "key": "grip_loop/compressed_iron",
-      "durability": 45,
-      "integrity": 0,
+      "durability": 68,
+      "integrity": -1,
       "range": 1.5,
       "effects": {
         "sweeping": [
@@ -502,12 +766,12 @@
           "tint": "5e6a6e"
         }
       ],
-      "magicCapacity": 108
+      "magicCapacity": 112
     },
     {
       "key": "grip_loop/energized_steel",
       "durability": 68,
-      "integrity": 0,
+      "integrity": -2,
       "range": 1.5,
       "effects": {
         "sweeping": [
@@ -531,7 +795,7 @@
     {
       "key": "grip_loop/niotic",
       "durability": 45,
-      "integrity": 0,
+      "integrity": -2,
       "range": 1.5,
       "effects": {
         "sweeping": [
@@ -555,7 +819,7 @@
     {
       "key": "grip_loop/spirited",
       "durability": 87,
-      "integrity": 0,
+      "integrity": -3,
       "range": 1,
       "effects": {
         "sweeping": [
@@ -579,7 +843,7 @@
     {
       "key": "grip_loop/nitro",
       "durability": 87,
-      "integrity": 0,
+      "integrity": -4,
       "range": 1,
       "effects": {
         "sweeping": [

@@ -253,27 +253,6 @@
       "magicCapacity": 90
     },
     {
-      "key": "reinforced_fuller/platinum",
-      "durability": 98,
-      "integrity": -2,
-      "attackSpeed": -0.7,
-      "effects": {
-        "unbreaking": 1
-      },
-      "glyph": {
-        "tint": "d6f6ff",
-        "textureX": 72,
-        "textureY": 16
-      },
-      "models": [
-        {
-          "location": "tetra:items/module/sword/fuller/reinforced_fuller/default",
-          "tint": "e69963"
-        }
-      ],
-      "magicCapacity": 134
-    },
-    {
       "key": "reinforced_fuller/lapis",
       "durability": 65,
       "integrity": -1,
@@ -379,9 +358,30 @@
       "magicCapacity": 108
     },
     {
+      "key": "reinforced_fuller/zinc",
+      "durability": 65,
+      "integrity": -1,
+      "attackSpeed": -0.9,
+      "effects": {
+        "unbreaking": 1
+      },
+      "glyph": {
+        "tint": "e1e9f2",
+        "textureX": 72,
+        "textureY": 16
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/sword/fuller/reinforced_fuller/default",
+          "tint": "e1e9f2"
+        }
+      ],
+      "magicCapacity": 86
+    },
+    {
       "key": "reinforced_fuller/pink_slime",
       "durability": 65,
-      "integrity": 0,
+      "integrity": -1,
       "attackSpeed": -0.9,
       "effects": {
         "unbreaking": 1
@@ -402,7 +402,7 @@
     {
       "key": "reinforced_fuller/iesnium",
       "durability": 65,
-      "integrity": 0,
+      "integrity": -1,
       "attackSpeed": -0.9,
       "effects": {
         "unbreaking": 1
@@ -418,13 +418,244 @@
           "tint": "aadef0"
         }
       ],
-      "magicCapacity": 108
+      "magicCapacity": 168
+    },
+    {
+      "key": "reinforced_fuller/treated_wood",
+      "durability": 21,
+      "integrity": 0,
+      "attackSpeed": -0.7,
+      "effects": {
+        "unbreaking": 1
+      },
+      "glyph": {
+        "tint": "8f380a",
+        "textureX": 72,
+        "textureY": 16
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/sword/fuller/reinforced_fuller/default",
+          "tint": "8f380a"
+        }
+      ],
+      "magicCapacity": 118
+    },
+    {
+      "key": "reinforced_fuller/aluminum",
+      "durability": 65,
+      "integrity": -1,
+      "attackSpeed": -0.9,
+      "effects": {
+        "unbreaking": 1
+      },
+      "glyph": {
+        "tint": "dce2e8",
+        "textureX": 72,
+        "textureY": 16
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/sword/fuller/reinforced_fuller/default",
+          "tint": "dce2e8"
+        }
+      ],
+      "magicCapacity": 78
+    },
+    {
+      "key": "reinforced_fuller/constantan",
+      "durability": 65,
+      "integrity": -1,
+      "attackSpeed": -0.9,
+      "effects": {
+        "unbreaking": 1
+      },
+      "glyph": {
+        "tint": "d46326",
+        "textureX": 72,
+        "textureY": 16
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/sword/fuller/reinforced_fuller/default",
+          "tint": "d46326"
+        }
+      ],
+      "magicCapacity": 110
+    },
+    {
+      "key": "reinforced_fuller/uranium",
+      "durability": 65,
+      "integrity": -1,
+      "attackSpeed": -0.9,
+      "effects": {
+        "unbreaking": 1
+      },
+      "glyph": {
+        "tint": "538a71",
+        "textureX": 72,
+        "textureY": 16
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/sword/fuller/reinforced_fuller/default",
+          "tint": "538a71"
+        }
+      ],
+      "magicCapacity": 170
+    },
+    {
+      "key": "reinforced_fuller/infused_iron",
+      "durability": 65,
+      "integrity": -1,
+      "attackSpeed": -0.9,
+      "effects": {
+        "unbreaking": 1
+      },
+      "glyph": {
+        "tint": "8a117",
+        "textureX": 72,
+        "textureY": 16
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/sword/fuller/reinforced_fuller/default",
+          "tint": "8a117"
+        }
+      ],
+      "magicCapacity": 158
+    },
+    {
+      "key": "reinforced_fuller/sky",
+      "durability": 98,
+      "integrity": -4,
+      "attackSpeed": -0.7,
+      "effects": {
+        "unbreaking": 1
+      },
+      "glyph": {
+        "tint": "78ffff",
+        "textureX": 72,
+        "textureY": 16
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/sword/fuller/reinforced_fuller/default",
+          "tint": "78ffff"
+        }
+      ],
+      "magicCapacity": 178
+    },
+    {
+      "key": "reinforced_fuller/manasteel",
+      "durability": 65,
+      "integrity": -2,
+      "attackSpeed": -0.9,
+      "effects": {
+        "unbreaking": 1
+      },
+      "glyph": {
+        "tint": "104bc2",
+        "textureX": 72,
+        "textureY": 16
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/sword/fuller/reinforced_fuller/default",
+          "tint": "104bc2"
+        }
+      ],
+      "magicCapacity": 150
+    },
+    {
+      "key": "reinforced_fuller/elementium",
+      "durability": 122,
+      "integrity": -3,
+      "attackSpeed": -0.7,
+      "effects": {
+        "unbreaking": 1
+      },
+      "glyph": {
+        "tint": "cb0be0",
+        "textureX": 72,
+        "textureY": 16
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/sword/fuller/reinforced_fuller/default",
+          "tint": "cb0be0"
+        }
+      ],
+      "magicCapacity": 178
+    },
+    {
+      "key": "reinforced_fuller/terrasteel",
+      "durability": 98,
+      "integrity": -4,
+      "attackSpeed": -0.7,
+      "effects": {
+        "unbreaking": 1
+      },
+      "glyph": {
+        "tint": "8c71b",
+        "textureX": 72,
+        "textureY": 16
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/sword/fuller/reinforced_fuller/default",
+          "tint": "8c71b"
+        }
+      ],
+      "magicCapacity": 192
+    },
+    {
+      "key": "reinforced_fuller/gaia_spirit",
+      "durability": 154,
+      "integrity": -5,
+      "attackSpeed": -1,
+      "effects": {
+        "unbreaking": 1
+      },
+      "glyph": {
+        "tint": "80bdb9",
+        "textureX": 72,
+        "textureY": 16
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/sword/fuller/reinforced_fuller/default",
+          "tint": "80bdb9"
+        }
+      ],
+      "magicCapacity": 208
+    },
+    {
+      "key": "reinforced_fuller/neptunium",
+      "durability": 154,
+      "integrity": -4,
+      "attackSpeed": -1,
+      "effects": {
+        "unbreaking": 1
+      },
+      "glyph": {
+        "tint": "2de0c2",
+        "textureX": 72,
+        "textureY": 16
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/sword/fuller/reinforced_fuller/default",
+          "tint": "2de0c2"
+        }
+      ],
+      "magicCapacity": 158
     },
     {
       "key": "reinforced_fuller/compressed_iron",
-      "durability": 65,
-      "integrity": 0,
-      "attackSpeed": -0.9,
+      "durability": 122,
+      "integrity": -1,
+      "attackSpeed": -0.7,
       "effects": {
         "unbreaking": 1
       },
@@ -439,12 +670,12 @@
           "tint": "5e6a6e"
         }
       ],
-      "magicCapacity": 108
+      "magicCapacity": 112
     },
     {
       "key": "reinforced_fuller/energized_steel",
       "durability": 122,
-      "integrity": 0,
+      "integrity": -2,
       "attackSpeed": -0.7,
       "effects": {
         "unbreaking": 1
@@ -465,7 +696,7 @@
     {
       "key": "reinforced_fuller/niotic",
       "durability": 65,
-      "integrity": 0,
+      "integrity": -2,
       "attackSpeed": -0.9,
       "effects": {
         "unbreaking": 1
@@ -486,7 +717,7 @@
     {
       "key": "reinforced_fuller/spirited",
       "durability": 154,
-      "integrity": 0,
+      "integrity": -3,
       "attackSpeed": -1,
       "effects": {
         "unbreaking": 1
@@ -507,7 +738,7 @@
     {
       "key": "reinforced_fuller/nitro",
       "durability": 154,
-      "integrity": 0,
+      "integrity": -4,
       "attackSpeed": -1,
       "effects": {
         "unbreaking": 1

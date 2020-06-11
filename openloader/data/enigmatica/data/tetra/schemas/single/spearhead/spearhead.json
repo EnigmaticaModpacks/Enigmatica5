@@ -134,16 +134,6 @@
     },
     {
       "material": {
-        "tag": "forge:ingots/platinum"
-      },
-      "requiredCapabilities": {
-        "hammer": 4
-      },
-      "moduleKey": "single/spearhead",
-      "moduleVariant": "spearhead/platinum"
-    },
-    {
-      "material": {
         "tag": "forge:gems/lapis",
         "count": 2
       },
@@ -185,13 +175,23 @@
     },
     {
       "material": {
-        "tag": "forge:ingots/andesite_alloy"
+        "item": "create:andesite_alloy"
       },
       "requiredCapabilities": {
         "hammer": 3
       },
       "moduleKey": "single/spearhead",
       "moduleVariant": "spearhead/andesite_alloy"
+    },
+    {
+      "material": {
+        "tag": "forge:ingots/zinc"
+      },
+      "requiredCapabilities": {
+        "hammer": 3
+      },
+      "moduleKey": "single/spearhead",
+      "moduleVariant": "spearhead/zinc"
     },
     {
       "material": {
@@ -212,6 +212,117 @@
       },
       "moduleKey": "single/spearhead",
       "moduleVariant": "spearhead/iesnium"
+    },
+    {
+      "material": {
+        "tag": "forge:treated_wood",
+        "count": 2
+      },
+      "requiredCapabilities": {
+        "axe": 2
+      },
+      "moduleKey": "single/spearhead",
+      "moduleVariant": "spearhead/treated_wood"
+    },
+    {
+      "material": {
+        "tag": "forge:ingots/aluminum"
+      },
+      "requiredCapabilities": {
+        "hammer": 1
+      },
+      "moduleKey": "single/spearhead",
+      "moduleVariant": "spearhead/aluminum"
+    },
+    {
+      "material": {
+        "tag": "forge:ingots/constantan"
+      },
+      "requiredCapabilities": {
+        "hammer": 2
+      },
+      "moduleKey": "single/spearhead",
+      "moduleVariant": "spearhead/constantan"
+    },
+    {
+      "material": {
+        "tag": "forge:ingots/uranium"
+      },
+      "requiredCapabilities": {
+        "hammer": 3
+      },
+      "moduleKey": "single/spearhead",
+      "moduleVariant": "spearhead/uranium"
+    },
+    {
+      "material": {
+        "item": "naturesaura:infused_iron"
+      },
+      "requiredCapabilities": {
+        "hammer": 2
+      },
+      "moduleKey": "single/spearhead",
+      "moduleVariant": "spearhead/infused_iron"
+    },
+    {
+      "material": {
+        "item": "naturesaura:sky_ingot"
+      },
+      "requiredCapabilities": {
+        "hammer": 3
+      },
+      "moduleKey": "single/spearhead",
+      "moduleVariant": "spearhead/sky"
+    },
+    {
+      "material": {
+        "tag": "forge:ingots/manasteel"
+      },
+      "requiredCapabilities": {
+        "hammer": 2
+      },
+      "moduleKey": "single/spearhead",
+      "moduleVariant": "spearhead/manasteel"
+    },
+    {
+      "material": {
+        "tag": "forge:ingots/elementium"
+      },
+      "requiredCapabilities": {
+        "hammer": 3
+      },
+      "moduleKey": "single/spearhead",
+      "moduleVariant": "spearhead/elementium"
+    },
+    {
+      "material": {
+        "tag": "forge:ingots/terrasteel"
+      },
+      "requiredCapabilities": {
+        "hammer": 4
+      },
+      "moduleKey": "single/spearhead",
+      "moduleVariant": "spearhead/terrasteel"
+    },
+    {
+      "material": {
+        "item": "botania:gaia_ingot"
+      },
+      "requiredCapabilities": {
+        "hammer": 5
+      },
+      "moduleKey": "single/spearhead",
+      "moduleVariant": "spearhead/gaia_spirit"
+    },
+    {
+      "material": {
+        "tag": "forge:ingots/neptunium"
+      },
+      "requiredCapabilities": {
+        "hammer": 5
+      },
+      "moduleKey": "single/spearhead",
+      "moduleVariant": "spearhead/neptunium"
     },
     {
       "material": {

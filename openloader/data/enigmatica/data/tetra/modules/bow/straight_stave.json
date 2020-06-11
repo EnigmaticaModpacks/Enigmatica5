@@ -409,40 +409,6 @@
       ]
     },
     {
-      "key": "straight_stave/platinum",
-      "integrity": -2,
-      "magicCapacity": 134,
-      "durability": 268,
-      "damage": 12,
-      "attackSpeed": 1,
-      "glyph": {
-        "tint": "d6f6ff",
-        "textureX": 128,
-        "textureY": 32
-      },
-      "models": [
-        {
-          "location": "tetra:items/module/bow/stave/straight/crude",
-          "tint": "e69963"
-        },
-        {
-          "type": "draw_0",
-          "location": "tetra:items/module/bow/stave/straight/crude_0",
-          "tint": "e69963"
-        },
-        {
-          "type": "draw_1",
-          "location": "tetra:items/module/bow/stave/straight/crude_1",
-          "tint": "e69963"
-        },
-        {
-          "type": "draw_2",
-          "location": "tetra:items/module/bow/stave/straight/crude_2",
-          "tint": "e69963"
-        }
-      ]
-    },
-    {
       "key": "straight_stave/lapis",
       "integrity": -1,
       "magicCapacity": 122,
@@ -613,8 +579,42 @@
       ]
     },
     {
+      "key": "straight_stave/zinc",
+      "integrity": -1,
+      "magicCapacity": 86,
+      "durability": 268,
+      "damage": 12,
+      "attackSpeed": 1,
+      "glyph": {
+        "tint": "e1e9f2",
+        "textureX": 128,
+        "textureY": 32
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/bow/stave/straight/crude",
+          "tint": "e1e9f2"
+        },
+        {
+          "type": "draw_0",
+          "location": "tetra:items/module/bow/stave/straight/crude_0",
+          "tint": "e1e9f2"
+        },
+        {
+          "type": "draw_1",
+          "location": "tetra:items/module/bow/stave/straight/crude_1",
+          "tint": "e1e9f2"
+        },
+        {
+          "type": "draw_2",
+          "location": "tetra:items/module/bow/stave/straight/crude_2",
+          "tint": "e1e9f2"
+        }
+      ]
+    },
+    {
       "key": "straight_stave/pink_slime",
-      "integrity": 0,
+      "integrity": -1,
       "magicCapacity": 108,
       "durability": 268,
       "damage": 12,
@@ -648,8 +648,8 @@
     },
     {
       "key": "straight_stave/iesnium",
-      "integrity": 0,
-      "magicCapacity": 108,
+      "integrity": -1,
+      "magicCapacity": 168,
       "durability": 268,
       "damage": 12,
       "attackSpeed": 1,
@@ -681,9 +681,383 @@
       ]
     },
     {
-      "key": "straight_stave/compressed_iron",
+      "key": "straight_stave/treated_wood",
       "integrity": 0,
-      "magicCapacity": 108,
+      "magicCapacity": 118,
+      "durability": 268,
+      "damage": 12,
+      "attackSpeed": 1,
+      "glyph": {
+        "tint": "8f380a",
+        "textureX": 128,
+        "textureY": 32
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/bow/stave/straight/crude",
+          "tint": "8f380a"
+        },
+        {
+          "type": "draw_0",
+          "location": "tetra:items/module/bow/stave/straight/crude_0",
+          "tint": "8f380a"
+        },
+        {
+          "type": "draw_1",
+          "location": "tetra:items/module/bow/stave/straight/crude_1",
+          "tint": "8f380a"
+        },
+        {
+          "type": "draw_2",
+          "location": "tetra:items/module/bow/stave/straight/crude_2",
+          "tint": "8f380a"
+        }
+      ]
+    },
+    {
+      "key": "straight_stave/aluminum",
+      "integrity": -1,
+      "magicCapacity": 78,
+      "durability": 268,
+      "damage": 12,
+      "attackSpeed": 1,
+      "glyph": {
+        "tint": "dce2e8",
+        "textureX": 128,
+        "textureY": 32
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/bow/stave/straight/crude",
+          "tint": "dce2e8"
+        },
+        {
+          "type": "draw_0",
+          "location": "tetra:items/module/bow/stave/straight/crude_0",
+          "tint": "dce2e8"
+        },
+        {
+          "type": "draw_1",
+          "location": "tetra:items/module/bow/stave/straight/crude_1",
+          "tint": "dce2e8"
+        },
+        {
+          "type": "draw_2",
+          "location": "tetra:items/module/bow/stave/straight/crude_2",
+          "tint": "dce2e8"
+        }
+      ]
+    },
+    {
+      "key": "straight_stave/constantan",
+      "integrity": -1,
+      "magicCapacity": 110,
+      "durability": 268,
+      "damage": 12,
+      "attackSpeed": 1,
+      "glyph": {
+        "tint": "d46326",
+        "textureX": 128,
+        "textureY": 32
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/bow/stave/straight/crude",
+          "tint": "d46326"
+        },
+        {
+          "type": "draw_0",
+          "location": "tetra:items/module/bow/stave/straight/crude_0",
+          "tint": "d46326"
+        },
+        {
+          "type": "draw_1",
+          "location": "tetra:items/module/bow/stave/straight/crude_1",
+          "tint": "d46326"
+        },
+        {
+          "type": "draw_2",
+          "location": "tetra:items/module/bow/stave/straight/crude_2",
+          "tint": "d46326"
+        }
+      ]
+    },
+    {
+      "key": "straight_stave/uranium",
+      "integrity": -1,
+      "magicCapacity": 170,
+      "durability": 268,
+      "damage": 12,
+      "attackSpeed": 1,
+      "glyph": {
+        "tint": "538a71",
+        "textureX": 128,
+        "textureY": 32
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/bow/stave/straight/crude",
+          "tint": "538a71"
+        },
+        {
+          "type": "draw_0",
+          "location": "tetra:items/module/bow/stave/straight/crude_0",
+          "tint": "538a71"
+        },
+        {
+          "type": "draw_1",
+          "location": "tetra:items/module/bow/stave/straight/crude_1",
+          "tint": "538a71"
+        },
+        {
+          "type": "draw_2",
+          "location": "tetra:items/module/bow/stave/straight/crude_2",
+          "tint": "538a71"
+        }
+      ]
+    },
+    {
+      "key": "straight_stave/infused_iron",
+      "integrity": -1,
+      "magicCapacity": 158,
+      "durability": 268,
+      "damage": 12,
+      "attackSpeed": 1,
+      "glyph": {
+        "tint": "8a117",
+        "textureX": 128,
+        "textureY": 32
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/bow/stave/straight/crude",
+          "tint": "8a117"
+        },
+        {
+          "type": "draw_0",
+          "location": "tetra:items/module/bow/stave/straight/crude_0",
+          "tint": "8a117"
+        },
+        {
+          "type": "draw_1",
+          "location": "tetra:items/module/bow/stave/straight/crude_1",
+          "tint": "8a117"
+        },
+        {
+          "type": "draw_2",
+          "location": "tetra:items/module/bow/stave/straight/crude_2",
+          "tint": "8a117"
+        }
+      ]
+    },
+    {
+      "key": "straight_stave/sky",
+      "integrity": -4,
+      "magicCapacity": 178,
+      "durability": 268,
+      "damage": 12,
+      "attackSpeed": 1,
+      "glyph": {
+        "tint": "78ffff",
+        "textureX": 128,
+        "textureY": 32
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/bow/stave/straight/crude",
+          "tint": "78ffff"
+        },
+        {
+          "type": "draw_0",
+          "location": "tetra:items/module/bow/stave/straight/crude_0",
+          "tint": "78ffff"
+        },
+        {
+          "type": "draw_1",
+          "location": "tetra:items/module/bow/stave/straight/crude_1",
+          "tint": "78ffff"
+        },
+        {
+          "type": "draw_2",
+          "location": "tetra:items/module/bow/stave/straight/crude_2",
+          "tint": "78ffff"
+        }
+      ]
+    },
+    {
+      "key": "straight_stave/manasteel",
+      "integrity": -2,
+      "magicCapacity": 150,
+      "durability": 268,
+      "damage": 12,
+      "attackSpeed": 1,
+      "glyph": {
+        "tint": "104bc2",
+        "textureX": 128,
+        "textureY": 32
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/bow/stave/straight/crude",
+          "tint": "104bc2"
+        },
+        {
+          "type": "draw_0",
+          "location": "tetra:items/module/bow/stave/straight/crude_0",
+          "tint": "104bc2"
+        },
+        {
+          "type": "draw_1",
+          "location": "tetra:items/module/bow/stave/straight/crude_1",
+          "tint": "104bc2"
+        },
+        {
+          "type": "draw_2",
+          "location": "tetra:items/module/bow/stave/straight/crude_2",
+          "tint": "104bc2"
+        }
+      ]
+    },
+    {
+      "key": "straight_stave/elementium",
+      "integrity": -3,
+      "magicCapacity": 178,
+      "durability": 268,
+      "damage": 12,
+      "attackSpeed": 1,
+      "glyph": {
+        "tint": "cb0be0",
+        "textureX": 128,
+        "textureY": 32
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/bow/stave/straight/crude",
+          "tint": "cb0be0"
+        },
+        {
+          "type": "draw_0",
+          "location": "tetra:items/module/bow/stave/straight/crude_0",
+          "tint": "cb0be0"
+        },
+        {
+          "type": "draw_1",
+          "location": "tetra:items/module/bow/stave/straight/crude_1",
+          "tint": "cb0be0"
+        },
+        {
+          "type": "draw_2",
+          "location": "tetra:items/module/bow/stave/straight/crude_2",
+          "tint": "cb0be0"
+        }
+      ]
+    },
+    {
+      "key": "straight_stave/terrasteel",
+      "integrity": -4,
+      "magicCapacity": 192,
+      "durability": 268,
+      "damage": 12,
+      "attackSpeed": 1,
+      "glyph": {
+        "tint": "8c71b",
+        "textureX": 128,
+        "textureY": 32
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/bow/stave/straight/crude",
+          "tint": "8c71b"
+        },
+        {
+          "type": "draw_0",
+          "location": "tetra:items/module/bow/stave/straight/crude_0",
+          "tint": "8c71b"
+        },
+        {
+          "type": "draw_1",
+          "location": "tetra:items/module/bow/stave/straight/crude_1",
+          "tint": "8c71b"
+        },
+        {
+          "type": "draw_2",
+          "location": "tetra:items/module/bow/stave/straight/crude_2",
+          "tint": "8c71b"
+        }
+      ]
+    },
+    {
+      "key": "straight_stave/gaia_spirit",
+      "integrity": -5,
+      "magicCapacity": 208,
+      "durability": 268,
+      "damage": 12,
+      "attackSpeed": 1,
+      "glyph": {
+        "tint": "80bdb9",
+        "textureX": 128,
+        "textureY": 32
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/bow/stave/straight/crude",
+          "tint": "80bdb9"
+        },
+        {
+          "type": "draw_0",
+          "location": "tetra:items/module/bow/stave/straight/crude_0",
+          "tint": "80bdb9"
+        },
+        {
+          "type": "draw_1",
+          "location": "tetra:items/module/bow/stave/straight/crude_1",
+          "tint": "80bdb9"
+        },
+        {
+          "type": "draw_2",
+          "location": "tetra:items/module/bow/stave/straight/crude_2",
+          "tint": "80bdb9"
+        }
+      ]
+    },
+    {
+      "key": "straight_stave/neptunium",
+      "integrity": -4,
+      "magicCapacity": 158,
+      "durability": 268,
+      "damage": 12,
+      "attackSpeed": 1,
+      "glyph": {
+        "tint": "2de0c2",
+        "textureX": 128,
+        "textureY": 32
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/bow/stave/straight/crude",
+          "tint": "2de0c2"
+        },
+        {
+          "type": "draw_0",
+          "location": "tetra:items/module/bow/stave/straight/crude_0",
+          "tint": "2de0c2"
+        },
+        {
+          "type": "draw_1",
+          "location": "tetra:items/module/bow/stave/straight/crude_1",
+          "tint": "2de0c2"
+        },
+        {
+          "type": "draw_2",
+          "location": "tetra:items/module/bow/stave/straight/crude_2",
+          "tint": "2de0c2"
+        }
+      ]
+    },
+    {
+      "key": "straight_stave/compressed_iron",
+      "integrity": -1,
+      "magicCapacity": 112,
       "durability": 268,
       "damage": 12,
       "attackSpeed": 1,
@@ -716,7 +1090,7 @@
     },
     {
       "key": "straight_stave/energized_steel",
-      "integrity": 0,
+      "integrity": -2,
       "magicCapacity": 108,
       "durability": 268,
       "damage": 12,
@@ -750,7 +1124,7 @@
     },
     {
       "key": "straight_stave/niotic",
-      "integrity": 0,
+      "integrity": -2,
       "magicCapacity": 108,
       "durability": 268,
       "damage": 12,
@@ -784,7 +1158,7 @@
     },
     {
       "key": "straight_stave/spirited",
-      "integrity": 0,
+      "integrity": -3,
       "magicCapacity": 108,
       "durability": 268,
       "damage": 12,
@@ -818,7 +1192,7 @@
     },
     {
       "key": "straight_stave/nitro",
-      "integrity": 0,
+      "integrity": -4,
       "magicCapacity": 108,
       "durability": 268,
       "damage": 12,

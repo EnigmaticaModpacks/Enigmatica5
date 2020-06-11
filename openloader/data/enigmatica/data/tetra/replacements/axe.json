@@ -52,5 +52,14 @@
             "double/head_right": ["double/butt_right", "butt/steel"],
             "double/handle": ["double/basic_handle", "basic_handle/stick"]
         }
+    },
+    {
+        "predicate": { "item": "immersiveengineering:axe_steel" },
+        "item": "tetra:modular_double",
+        "modules": {
+            "double/head_left": ["double/basic_axe_left", "basic_axe/steel"],
+            "double/head_right": ["double/butt_right", "butt/steel"],
+            "double/handle": ["double/basic_handle", "basic_handle/treated_wood"]
+        }
     }
 ]

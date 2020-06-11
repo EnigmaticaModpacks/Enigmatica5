@@ -241,26 +241,6 @@
       ]
     },
     {
-      "key": "tower/platinum",
-      "durability": 480,
-      "integrity": -2,
-      "magicCapacity": 134,
-      "effects": {
-        "blocking": 10
-      },
-      "glyph": {
-        "tint": "d6f6ff",
-        "textureY": 48
-      },
-      "models": [
-        {
-          "type": "shield_tower",
-          "location": "tetra:items/module/shield/plate/tower/metal",
-          "tint": "e69963"
-        }
-      ]
-    },
-    {
       "key": "tower/lapis",
       "durability": 310,
       "integrity": -1,
@@ -361,9 +341,29 @@
       ]
     },
     {
+      "key": "tower/zinc",
+      "durability": 310,
+      "integrity": -1,
+      "magicCapacity": 86,
+      "effects": {
+        "blocking": 10
+      },
+      "glyph": {
+        "tint": "e1e9f2",
+        "textureY": 48
+      },
+      "models": [
+        {
+          "type": "shield_tower",
+          "location": "tetra:items/module/shield/plate/tower/metal",
+          "tint": "e1e9f2"
+        }
+      ]
+    },
+    {
       "key": "tower/pink_slime",
       "durability": 310,
-      "integrity": 0,
+      "integrity": -1,
       "magicCapacity": 108,
       "effects": {
         "blocking": 10
@@ -383,8 +383,8 @@
     {
       "key": "tower/iesnium",
       "durability": 310,
-      "integrity": 0,
-      "magicCapacity": 108,
+      "integrity": -1,
+      "magicCapacity": 168,
       "effects": {
         "blocking": 10
       },
@@ -401,10 +401,230 @@
       ]
     },
     {
-      "key": "tower/compressed_iron",
-      "durability": 310,
+      "key": "tower/treated_wood",
+      "durability": 203,
       "integrity": 0,
-      "magicCapacity": 108,
+      "magicCapacity": 118,
+      "effects": {
+        "blocking": 10
+      },
+      "glyph": {
+        "tint": "8f380a",
+        "textureY": 48
+      },
+      "models": [
+        {
+          "type": "shield_tower",
+          "location": "tetra:items/module/shield/plate/tower/wooden",
+          "tint": "8f380a"
+        }
+      ]
+    },
+    {
+      "key": "tower/aluminum",
+      "durability": 310,
+      "integrity": -1,
+      "magicCapacity": 78,
+      "effects": {
+        "blocking": 10
+      },
+      "glyph": {
+        "tint": "dce2e8",
+        "textureY": 48
+      },
+      "models": [
+        {
+          "type": "shield_tower",
+          "location": "tetra:items/module/shield/plate/tower/metal",
+          "tint": "dce2e8"
+        }
+      ]
+    },
+    {
+      "key": "tower/constantan",
+      "durability": 310,
+      "integrity": -1,
+      "magicCapacity": 110,
+      "effects": {
+        "blocking": 10
+      },
+      "glyph": {
+        "tint": "d46326",
+        "textureY": 48
+      },
+      "models": [
+        {
+          "type": "shield_tower",
+          "location": "tetra:items/module/shield/plate/tower/metal",
+          "tint": "d46326"
+        }
+      ]
+    },
+    {
+      "key": "tower/uranium",
+      "durability": 310,
+      "integrity": -1,
+      "magicCapacity": 170,
+      "effects": {
+        "blocking": 10
+      },
+      "glyph": {
+        "tint": "538a71",
+        "textureY": 48
+      },
+      "models": [
+        {
+          "type": "shield_tower",
+          "location": "tetra:items/module/shield/plate/tower/metal",
+          "tint": "538a71"
+        }
+      ]
+    },
+    {
+      "key": "tower/infused_iron",
+      "durability": 310,
+      "integrity": -1,
+      "magicCapacity": 158,
+      "effects": {
+        "blocking": 10
+      },
+      "glyph": {
+        "tint": "8a117",
+        "textureY": 48
+      },
+      "models": [
+        {
+          "type": "shield_tower",
+          "location": "tetra:items/module/shield/plate/tower/metal",
+          "tint": "8a117"
+        }
+      ]
+    },
+    {
+      "key": "tower/sky",
+      "durability": 480,
+      "integrity": -4,
+      "magicCapacity": 178,
+      "effects": {
+        "blocking": 10
+      },
+      "glyph": {
+        "tint": "78ffff",
+        "textureY": 48
+      },
+      "models": [
+        {
+          "type": "shield_tower",
+          "location": "tetra:items/module/shield/plate/tower/metal",
+          "tint": "78ffff"
+        }
+      ]
+    },
+    {
+      "key": "tower/manasteel",
+      "durability": 310,
+      "integrity": -2,
+      "magicCapacity": 150,
+      "effects": {
+        "blocking": 10
+      },
+      "glyph": {
+        "tint": "104bc2",
+        "textureY": 48
+      },
+      "models": [
+        {
+          "type": "shield_tower",
+          "location": "tetra:items/module/shield/plate/tower/metal",
+          "tint": "104bc2"
+        }
+      ]
+    },
+    {
+      "key": "tower/elementium",
+      "durability": 480,
+      "integrity": -3,
+      "magicCapacity": 178,
+      "effects": {
+        "blocking": 10
+      },
+      "glyph": {
+        "tint": "cb0be0",
+        "textureY": 48
+      },
+      "models": [
+        {
+          "type": "shield_tower",
+          "location": "tetra:items/module/shield/plate/tower/metal",
+          "tint": "cb0be0"
+        }
+      ]
+    },
+    {
+      "key": "tower/terrasteel",
+      "durability": 480,
+      "integrity": -4,
+      "magicCapacity": 192,
+      "effects": {
+        "blocking": 10
+      },
+      "glyph": {
+        "tint": "8c71b",
+        "textureY": 48
+      },
+      "models": [
+        {
+          "type": "shield_tower",
+          "location": "tetra:items/module/shield/plate/tower/metal",
+          "tint": "8c71b"
+        }
+      ]
+    },
+    {
+      "key": "tower/gaia_spirit",
+      "durability": 480,
+      "integrity": -5,
+      "magicCapacity": 208,
+      "effects": {
+        "blocking": 10
+      },
+      "glyph": {
+        "tint": "80bdb9",
+        "textureY": 48
+      },
+      "models": [
+        {
+          "type": "shield_tower",
+          "location": "tetra:items/module/shield/plate/tower/metal",
+          "tint": "80bdb9"
+        }
+      ]
+    },
+    {
+      "key": "tower/neptunium",
+      "durability": 480,
+      "integrity": -4,
+      "magicCapacity": 158,
+      "effects": {
+        "blocking": 10
+      },
+      "glyph": {
+        "tint": "2de0c2",
+        "textureY": 48
+      },
+      "models": [
+        {
+          "type": "shield_tower",
+          "location": "tetra:items/module/shield/plate/tower/metal",
+          "tint": "2de0c2"
+        }
+      ]
+    },
+    {
+      "key": "tower/compressed_iron",
+      "durability": 480,
+      "integrity": -1,
+      "magicCapacity": 112,
       "effects": {
         "blocking": 10
       },
@@ -423,7 +643,7 @@
     {
       "key": "tower/energized_steel",
       "durability": 480,
-      "integrity": 0,
+      "integrity": -2,
       "magicCapacity": 108,
       "effects": {
         "blocking": 10
@@ -443,7 +663,7 @@
     {
       "key": "tower/niotic",
       "durability": 310,
-      "integrity": 0,
+      "integrity": -2,
       "magicCapacity": 108,
       "effects": {
         "blocking": 10
@@ -463,7 +683,7 @@
     {
       "key": "tower/spirited",
       "durability": 480,
-      "integrity": 0,
+      "integrity": -3,
       "magicCapacity": 108,
       "effects": {
         "blocking": 10
@@ -483,7 +703,7 @@
     {
       "key": "tower/nitro",
       "durability": 480,
-      "integrity": 0,
+      "integrity": -4,
       "magicCapacity": 108,
       "effects": {
         "blocking": 10

@@ -325,33 +325,6 @@
       }
     },
     {
-      "key": "basic_axe/platinum",
-      "durability": 992,
-      "integrity": -2,
-      "magicCapacity": 134,
-      "damage": 8,
-      "attackSpeed": -0.7,
-      "glyph": {
-        "tint": "d6f6ff",
-        "textureX": 144
-      },
-      "models": [
-        {
-          "location": "tetra:items/module/double/head/basic_axe/shiny",
-          "tint": "e69963"
-        }
-      ],
-      "capabilities": {
-        "axe": [
-          4,
-          8
-        ]
-      },
-      "effects": {
-        "stripping": 1
-      }
-    },
-    {
       "key": "basic_axe/lapis",
       "durability": 193,
       "integrity": -1,
@@ -487,9 +460,36 @@
       }
     },
     {
+      "key": "basic_axe/zinc",
+      "durability": 193,
+      "integrity": -1,
+      "magicCapacity": 86,
+      "damage": 8,
+      "attackSpeed": -0.7,
+      "glyph": {
+        "tint": "e1e9f2",
+        "textureX": 144
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/double/head/basic_axe/metal",
+          "tint": "e1e9f2"
+        }
+      ],
+      "capabilities": {
+        "axe": [
+          3,
+          6.6666667
+        ]
+      },
+      "effects": {
+        "stripping": 1
+      }
+    },
+    {
       "key": "basic_axe/pink_slime",
       "durability": 193,
-      "integrity": 0,
+      "integrity": -1,
       "magicCapacity": 108,
       "damage": 8,
       "attackSpeed": -0.7,
@@ -516,8 +516,8 @@
     {
       "key": "basic_axe/iesnium",
       "durability": 193,
-      "integrity": 0,
-      "magicCapacity": 108,
+      "integrity": -1,
+      "magicCapacity": 168,
       "damage": 8,
       "attackSpeed": -0.7,
       "glyph": {
@@ -541,20 +541,47 @@
       }
     },
     {
-      "key": "basic_axe/compressed_iron",
-      "durability": 193,
+      "key": "basic_axe/treated_wood",
+      "durability": 26,
       "integrity": 0,
-      "magicCapacity": 108,
+      "magicCapacity": 118,
+      "damage": 6,
+      "attackSpeed": -0.7,
+      "glyph": {
+        "tint": "8f380a",
+        "textureX": 144
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/double/head/basic_axe/crude",
+          "tint": "8f380a"
+        }
+      ],
+      "capabilities": {
+        "axe": [
+          1,
+          2.5
+        ]
+      },
+      "effects": {
+        "stripping": 1
+      }
+    },
+    {
+      "key": "basic_axe/aluminum",
+      "durability": 193,
+      "integrity": -1,
+      "magicCapacity": 78,
       "damage": 8,
       "attackSpeed": -0.7,
       "glyph": {
-        "tint": "5e6a6e",
+        "tint": "dce2e8",
         "textureX": 144
       },
       "models": [
         {
           "location": "tetra:items/module/double/head/basic_axe/metal",
-          "tint": "5e6a6e"
+          "tint": "dce2e8"
         }
       ],
       "capabilities": {
@@ -568,9 +595,279 @@
       }
     },
     {
+      "key": "basic_axe/constantan",
+      "durability": 193,
+      "integrity": -1,
+      "magicCapacity": 110,
+      "damage": 8,
+      "attackSpeed": -0.7,
+      "glyph": {
+        "tint": "d46326",
+        "textureX": 144
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/double/head/basic_axe/metal",
+          "tint": "d46326"
+        }
+      ],
+      "capabilities": {
+        "axe": [
+          3,
+          6.6666667
+        ]
+      },
+      "effects": {
+        "stripping": 1
+      }
+    },
+    {
+      "key": "basic_axe/uranium",
+      "durability": 193,
+      "integrity": -1,
+      "magicCapacity": 170,
+      "damage": 8,
+      "attackSpeed": -0.7,
+      "glyph": {
+        "tint": "538a71",
+        "textureX": 144
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/double/head/basic_axe/metal",
+          "tint": "538a71"
+        }
+      ],
+      "capabilities": {
+        "axe": [
+          3,
+          6.6666667
+        ]
+      },
+      "effects": {
+        "stripping": 1
+      }
+    },
+    {
+      "key": "basic_axe/infused_iron",
+      "durability": 193,
+      "integrity": -1,
+      "magicCapacity": 158,
+      "damage": 8,
+      "attackSpeed": -0.7,
+      "glyph": {
+        "tint": "8a117",
+        "textureX": 144
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/double/head/basic_axe/metal",
+          "tint": "8a117"
+        }
+      ],
+      "capabilities": {
+        "axe": [
+          3,
+          6.6666667
+        ]
+      },
+      "effects": {
+        "stripping": 1
+      }
+    },
+    {
+      "key": "basic_axe/sky",
+      "durability": 992,
+      "integrity": -4,
+      "magicCapacity": 178,
+      "damage": 8,
+      "attackSpeed": -0.7,
+      "glyph": {
+        "tint": "78ffff",
+        "textureX": 144
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/double/head/basic_axe/shiny",
+          "tint": "78ffff"
+        }
+      ],
+      "capabilities": {
+        "axe": [
+          4,
+          8
+        ]
+      },
+      "effects": {
+        "stripping": 1
+      }
+    },
+    {
+      "key": "basic_axe/manasteel",
+      "durability": 193,
+      "integrity": -2,
+      "magicCapacity": 150,
+      "damage": 8,
+      "attackSpeed": -0.7,
+      "glyph": {
+        "tint": "104bc2",
+        "textureX": 144
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/double/head/basic_axe/metal",
+          "tint": "104bc2"
+        }
+      ],
+      "capabilities": {
+        "axe": [
+          3,
+          6.6666667
+        ]
+      },
+      "effects": {
+        "stripping": 1
+      }
+    },
+    {
+      "key": "basic_axe/elementium",
+      "durability": 394,
+      "integrity": -3,
+      "magicCapacity": 178,
+      "damage": 8,
+      "attackSpeed": -0.6,
+      "glyph": {
+        "tint": "cb0be0",
+        "textureX": 144
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/double/head/basic_axe/metal",
+          "tint": "cb0be0"
+        }
+      ],
+      "capabilities": {
+        "axe": [
+          4,
+          8.2
+        ]
+      },
+      "effects": {
+        "stripping": 1
+      }
+    },
+    {
+      "key": "basic_axe/terrasteel",
+      "durability": 992,
+      "integrity": -4,
+      "magicCapacity": 192,
+      "damage": 8,
+      "attackSpeed": -0.7,
+      "glyph": {
+        "tint": "8c71b",
+        "textureX": 144
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/double/head/basic_axe/shiny",
+          "tint": "8c71b"
+        }
+      ],
+      "capabilities": {
+        "axe": [
+          4,
+          8
+        ]
+      },
+      "effects": {
+        "stripping": 1
+      }
+    },
+    {
+      "key": "basic_axe/gaia_spirit",
+      "durability": 992,
+      "integrity": -5,
+      "magicCapacity": 208,
+      "damage": 8,
+      "attackSpeed": -0.7,
+      "glyph": {
+        "tint": "80bdb9",
+        "textureX": 144
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/double/head/basic_axe/shiny",
+          "tint": "80bdb9"
+        }
+      ],
+      "capabilities": {
+        "axe": [
+          4,
+          8
+        ]
+      },
+      "effects": {
+        "stripping": 1
+      }
+    },
+    {
+      "key": "basic_axe/neptunium",
+      "durability": 992,
+      "integrity": -4,
+      "magicCapacity": 158,
+      "damage": 8,
+      "attackSpeed": -0.7,
+      "glyph": {
+        "tint": "2de0c2",
+        "textureX": 144
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/double/head/basic_axe/shiny",
+          "tint": "2de0c2"
+        }
+      ],
+      "capabilities": {
+        "axe": [
+          4,
+          8
+        ]
+      },
+      "effects": {
+        "stripping": 1
+      }
+    },
+    {
+      "key": "basic_axe/compressed_iron",
+      "durability": 394,
+      "integrity": -1,
+      "magicCapacity": 112,
+      "damage": 8,
+      "attackSpeed": -0.6,
+      "glyph": {
+        "tint": "5e6a6e",
+        "textureX": 144
+      },
+      "models": [
+        {
+          "location": "tetra:items/module/double/head/basic_axe/metal",
+          "tint": "5e6a6e"
+        }
+      ],
+      "capabilities": {
+        "axe": [
+          4,
+          8.2
+        ]
+      },
+      "effects": {
+        "stripping": 1
+      }
+    },
+    {
       "key": "basic_axe/energized_steel",
       "durability": 394,
-      "integrity": 0,
+      "integrity": -2,
       "magicCapacity": 108,
       "damage": 8,
       "attackSpeed": -0.6,
@@ -597,7 +894,7 @@
     {
       "key": "basic_axe/niotic",
       "durability": 193,
-      "integrity": 0,
+      "integrity": -2,
       "magicCapacity": 108,
       "damage": 8,
       "attackSpeed": -0.7,
@@ -624,7 +921,7 @@
     {
       "key": "basic_axe/spirited",
       "durability": 992,
-      "integrity": 0,
+      "integrity": -3,
       "magicCapacity": 108,
       "damage": 8,
       "attackSpeed": -0.7,
@@ -651,7 +948,7 @@
     {
       "key": "basic_axe/nitro",
       "durability": 992,
-      "integrity": 0,
+      "integrity": -4,
       "magicCapacity": 108,
       "damage": 8,
       "attackSpeed": -0.7,
