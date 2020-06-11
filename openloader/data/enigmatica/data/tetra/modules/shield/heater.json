@@ -1,868 +1,760 @@
 {
-  "variants": [
-    {
-      "key": "heater/mahogany",
-      "durability": 243,
-      "integrity": 0,
-      "magicCapacity": 88,
-      "effects": {
-        "blocking": [
-          2,
-          4
-        ]
-      },
-      "glyph": {
-        "tint": "e69963",
-        "textureX": 32,
-        "textureY": 48
-      },
-      "models": [
+    "variants": [
         {
-          "type": "shield_heater",
-          "location": "tetra:items/module/shield/plate/heater/wooden",
-          "tint": "e69963"
-        }
-      ]
-    },
-    {
-      "key": "heater/jacaranda",
-      "durability": 243,
-      "integrity": 0,
-      "magicCapacity": 80,
-      "effects": {
-        "blocking": [
-          2,
-          4
-        ]
-      },
-      "glyph": {
-        "tint": "e6d4c8",
-        "textureX": 32,
-        "textureY": 48
-      },
-      "models": [
+            "key": "heater/mahogany",
+            "durability": 263,
+            "integrity": 0,
+            "magicCapacity": 88,
+            "effects": {
+                "blocking": [2, 4]
+            },
+            "glyph": {
+                "tint": "e69963",
+                "textureX": 32,
+                "textureY": 48
+            },
+            "models": [
+                {
+                    "type": "shield_heater",
+                    "location": "tetra:items/module/shield/plate/heater/wooden",
+                    "tint": "e69963"
+                }
+            ]
+        },
         {
-          "type": "shield_heater",
-          "location": "tetra:items/module/shield/plate/heater/wooden",
-          "tint": "e6d4c8"
-        }
-      ]
-    },
-    {
-      "key": "heater/palm",
-      "durability": 243,
-      "integrity": 0,
-      "magicCapacity": 80,
-      "effects": {
-        "blocking": [
-          2,
-          4
-        ]
-      },
-      "glyph": {
-        "tint": "db9d51",
-        "textureX": 32,
-        "textureY": 48
-      },
-      "models": [
+            "key": "heater/jacaranda",
+            "durability": 243,
+            "integrity": 0,
+            "magicCapacity": 80,
+            "effects": {
+                "blocking": [2, 4]
+            },
+            "glyph": {
+                "tint": "e6d4c8",
+                "textureX": 32,
+                "textureY": 48
+            },
+            "models": [
+                {
+                    "type": "shield_heater",
+                    "location": "tetra:items/module/shield/plate/heater/wooden",
+                    "tint": "e6d4c8"
+                }
+            ]
+        },
         {
-          "type": "shield_heater",
-          "location": "tetra:items/module/shield/plate/heater/wooden",
-          "tint": "db9d51"
-        }
-      ]
-    },
-    {
-      "key": "heater/willow",
-      "durability": 243,
-      "integrity": 0,
-      "magicCapacity": 96,
-      "effects": {
-        "blocking": [
-          2,
-          4
-        ]
-      },
-      "glyph": {
-        "tint": "7bc78d",
-        "textureX": 32,
-        "textureY": 48
-      },
-      "models": [
+            "key": "heater/palm",
+            "durability": 243,
+            "integrity": 0,
+            "magicCapacity": 80,
+            "effects": {
+                "blocking": [2, 4]
+            },
+            "glyph": {
+                "tint": "db9d51",
+                "textureX": 32,
+                "textureY": 48
+            },
+            "models": [
+                {
+                    "type": "shield_heater",
+                    "location": "tetra:items/module/shield/plate/heater/wooden",
+                    "tint": "db9d51"
+                }
+            ]
+        },
         {
-          "type": "shield_heater",
-          "location": "tetra:items/module/shield/plate/heater/wooden",
-          "tint": "7bc78d"
-        }
-      ]
-    },
-    {
-      "key": "heater/dead",
-      "durability": 243,
-      "integrity": 0,
-      "magicCapacity": 52,
-      "effects": {
-        "blocking": [
-          2,
-          4
-        ]
-      },
-      "glyph": {
-        "tint": "a1ada4",
-        "textureX": 32,
-        "textureY": 48
-      },
-      "models": [
+            "key": "heater/willow",
+            "durability": 243,
+            "integrity": 0,
+            "magicCapacity": 96,
+            "effects": {
+                "blocking": [2, 4]
+            },
+            "glyph": {
+                "tint": "7bc78d",
+                "textureX": 32,
+                "textureY": 48
+            },
+            "models": [
+                {
+                    "type": "shield_heater",
+                    "location": "tetra:items/module/shield/plate/heater/wooden",
+                    "tint": "7bc78d"
+                }
+            ]
+        },
         {
-          "type": "shield_heater",
-          "location": "tetra:items/module/shield/plate/heater/wooden",
-          "tint": "a1ada4"
-        }
-      ]
-    },
-    {
-      "key": "heater/magic",
-      "durability": 243,
-      "integrity": 0,
-      "magicCapacity": 164,
-      "effects": {
-        "blocking": [
-          2,
-          4
-        ]
-      },
-      "glyph": {
-        "tint": "4567b0",
-        "textureX": 32,
-        "textureY": 48
-      },
-      "models": [
+            "key": "heater/dead",
+            "durability": 243,
+            "integrity": 0,
+            "magicCapacity": 52,
+            "effects": {
+                "blocking": [2, 4]
+            },
+            "glyph": {
+                "tint": "a1ada4",
+                "textureX": 32,
+                "textureY": 48
+            },
+            "models": [
+                {
+                    "type": "shield_heater",
+                    "location": "tetra:items/module/shield/plate/heater/wooden",
+                    "tint": "a1ada4"
+                }
+            ]
+        },
         {
-          "type": "shield_heater",
-          "location": "tetra:items/module/shield/plate/heater/wooden",
-          "tint": "4567b0"
-        }
-      ]
-    },
-    {
-      "key": "heater/umbran",
-      "durability": 243,
-      "integrity": 0,
-      "magicCapacity": 156,
-      "effects": {
-        "blocking": [
-          2,
-          4
-        ]
-      },
-      "glyph": {
-        "tint": "8768a6",
-        "textureX": 32,
-        "textureY": 48
-      },
-      "models": [
+            "key": "heater/magic",
+            "durability": 243,
+            "integrity": 0,
+            "magicCapacity": 164,
+            "effects": {
+                "blocking": [2, 4]
+            },
+            "glyph": {
+                "tint": "4567b0",
+                "textureX": 32,
+                "textureY": 48
+            },
+            "models": [
+                {
+                    "type": "shield_heater",
+                    "location": "tetra:items/module/shield/plate/heater/wooden",
+                    "tint": "4567b0"
+                }
+            ]
+        },
         {
-          "type": "shield_heater",
-          "location": "tetra:items/module/shield/plate/heater/wooden",
-          "tint": "8768a6"
-        }
-      ]
-    },
-    {
-      "key": "heater/hellbark",
-      "durability": 243,
-      "integrity": 0,
-      "magicCapacity": 156,
-      "effects": {
-        "blocking": [
-          2,
-          4
-        ]
-      },
-      "glyph": {
-        "tint": "544b5e",
-        "textureX": 32,
-        "textureY": 48
-      },
-      "models": [
+            "key": "heater/umbran",
+            "durability": 243,
+            "integrity": 0,
+            "magicCapacity": 156,
+            "effects": {
+                "blocking": [2, 4]
+            },
+            "glyph": {
+                "tint": "8768a6",
+                "textureX": 32,
+                "textureY": 48
+            },
+            "models": [
+                {
+                    "type": "shield_heater",
+                    "location": "tetra:items/module/shield/plate/heater/wooden",
+                    "tint": "8768a6"
+                }
+            ]
+        },
         {
-          "type": "shield_heater",
-          "location": "tetra:items/module/shield/plate/heater/wooden",
-          "tint": "544b5e"
-        }
-      ]
-    },
-    {
-      "key": "heater/ancient",
-      "durability": 243,
-      "integrity": 0,
-      "magicCapacity": 176,
-      "effects": {
-        "blocking": [
-          2,
-          4
-        ]
-      },
-      "glyph": {
-        "tint": "84538c",
-        "textureX": 32,
-        "textureY": 48
-      },
-      "models": [
+            "key": "heater/hellbark",
+            "durability": 243,
+            "integrity": 0,
+            "magicCapacity": 156,
+            "effects": {
+                "blocking": [2, 4]
+            },
+            "glyph": {
+                "tint": "544b5e",
+                "textureX": 32,
+                "textureY": 48
+            },
+            "models": [
+                {
+                    "type": "shield_heater",
+                    "location": "tetra:items/module/shield/plate/heater/wooden",
+                    "tint": "544b5e"
+                }
+            ]
+        },
         {
-          "type": "shield_heater",
-          "location": "tetra:items/module/shield/plate/heater/wooden",
-          "tint": "84538c"
-        }
-      ]
-    },
-    {
-      "key": "heater/fir",
-      "durability": 243,
-      "integrity": 0,
-      "magicCapacity": 88,
-      "effects": {
-        "blocking": [
-          2,
-          4
-        ]
-      },
-      "glyph": {
-        "tint": "8a817d",
-        "textureX": 32,
-        "textureY": 48
-      },
-      "models": [
+            "key": "heater/ancient",
+            "durability": 243,
+            "integrity": 0,
+            "magicCapacity": 176,
+            "effects": {
+                "blocking": [2, 4]
+            },
+            "glyph": {
+                "tint": "84538c",
+                "textureX": 32,
+                "textureY": 48
+            },
+            "models": [
+                {
+                    "type": "shield_heater",
+                    "location": "tetra:items/module/shield/plate/heater/wooden",
+                    "tint": "84538c"
+                }
+            ]
+        },
         {
-          "type": "shield_heater",
-          "location": "tetra:items/module/shield/plate/heater/wooden",
-          "tint": "8a817d"
-        }
-      ]
-    },
-    {
-      "key": "heater/redwood",
-      "durability": 243,
-      "integrity": 0,
-      "magicCapacity": 88,
-      "effects": {
-        "blocking": [
-          2,
-          4
-        ]
-      },
-      "glyph": {
-        "tint": "96421d",
-        "textureX": 32,
-        "textureY": 48
-      },
-      "models": [
+            "key": "heater/fir",
+            "durability": 243,
+            "integrity": 0,
+            "magicCapacity": 88,
+            "effects": {
+                "blocking": [2, 4]
+            },
+            "glyph": {
+                "tint": "8a817d",
+                "textureX": 32,
+                "textureY": 48
+            },
+            "models": [
+                {
+                    "type": "shield_heater",
+                    "location": "tetra:items/module/shield/plate/heater/wooden",
+                    "tint": "8a817d"
+                }
+            ]
+        },
         {
-          "type": "shield_heater",
-          "location": "tetra:items/module/shield/plate/heater/wooden",
-          "tint": "96421d"
-        }
-      ]
-    },
-    {
-      "key": "heater/cherry",
-      "durability": 243,
-      "integrity": 0,
-      "magicCapacity": 90,
-      "effects": {
-        "blocking": [
-          2,
-          4
-        ]
-      },
-      "glyph": {
-        "tint": "851d19",
-        "textureX": 32,
-        "textureY": 48
-      },
-      "models": [
+            "key": "heater/redwood",
+            "durability": 243,
+            "integrity": 0,
+            "magicCapacity": 88,
+            "effects": {
+                "blocking": [2, 4]
+            },
+            "glyph": {
+                "tint": "96421d",
+                "textureX": 32,
+                "textureY": 48
+            },
+            "models": [
+                {
+                    "type": "shield_heater",
+                    "location": "tetra:items/module/shield/plate/heater/wooden",
+                    "tint": "96421d"
+                }
+            ]
+        },
         {
-          "type": "shield_heater",
-          "location": "tetra:items/module/shield/plate/heater/wooden",
-          "tint": "851d19"
-        }
-      ]
-    },
-    {
-      "key": "heater/lapis",
-      "durability": 372,
-      "integrity": -1,
-      "magicCapacity": 122,
-      "effects": {
-        "blocking": [
-          2,
-          4
-        ]
-      },
-      "glyph": {
-        "tint": "3327db",
-        "textureX": 32,
-        "textureY": 48
-      },
-      "models": [
+            "key": "heater/cherry",
+            "durability": 243,
+            "integrity": 0,
+            "magicCapacity": 90,
+            "effects": {
+                "blocking": [2, 4]
+            },
+            "glyph": {
+                "tint": "851d19",
+                "textureX": 32,
+                "textureY": 48
+            },
+            "models": [
+                {
+                    "type": "shield_heater",
+                    "location": "tetra:items/module/shield/plate/heater/wooden",
+                    "tint": "851d19"
+                }
+            ]
+        },
         {
-          "type": "shield_heater",
-          "location": "tetra:items/module/shield/plate/heater/metal",
-          "tint": "3327db"
-        }
-      ]
-    },
-    {
-      "key": "heater/osmium",
-      "durability": 372,
-      "integrity": -1,
-      "magicCapacity": 112,
-      "effects": {
-        "blocking": [
-          2,
-          4
-        ]
-      },
-      "glyph": {
-        "tint": "a7aed9",
-        "textureX": 32,
-        "textureY": 48
-      },
-      "models": [
+            "key": "heater/lapis",
+            "durability": 372,
+            "integrity": -1,
+            "magicCapacity": 122,
+            "effects": {
+                "blocking": [2, 4]
+            },
+            "glyph": {
+                "tint": "3327db",
+                "textureX": 32,
+                "textureY": 48
+            },
+            "models": [
+                {
+                    "type": "shield_heater",
+                    "location": "tetra:items/module/shield/plate/heater/metal",
+                    "tint": "3327db"
+                }
+            ]
+        },
         {
-          "type": "shield_heater",
-          "location": "tetra:items/module/shield/plate/heater/metal",
-          "tint": "a7aed9"
-        }
-      ]
-    },
-    {
-      "key": "heater/refined_glowstone",
-      "durability": 576,
-      "integrity": -2,
-      "magicCapacity": 154,
-      "effects": {
-        "blocking": [
-          2,
-          4
-        ]
-      },
-      "glyph": {
-        "tint": "eeff00",
-        "textureX": 32,
-        "textureY": 48
-      },
-      "models": [
+            "key": "heater/osmium",
+            "durability": 372,
+            "integrity": -1,
+            "magicCapacity": 112,
+            "effects": {
+                "blocking": [2, 4]
+            },
+            "glyph": {
+                "tint": "a7aed9",
+                "textureX": 32,
+                "textureY": 48
+            },
+            "models": [
+                {
+                    "type": "shield_heater",
+                    "location": "tetra:items/module/shield/plate/heater/metal",
+                    "tint": "a7aed9"
+                }
+            ]
+        },
         {
-          "type": "shield_heater",
-          "location": "tetra:items/module/shield/plate/heater/metal",
-          "tint": "eeff00"
-        }
-      ]
-    },
-    {
-      "key": "heater/refined_obsidian",
-      "durability": 576,
-      "integrity": -3,
-      "magicCapacity": 168,
-      "effects": {
-        "blocking": [
-          2,
-          4
-        ]
-      },
-      "glyph": {
-        "tint": "6e1f9c",
-        "textureX": 32,
-        "textureY": 48
-      },
-      "models": [
+            "key": "heater/refined_glowstone",
+            "durability": 576,
+            "integrity": -2,
+            "magicCapacity": 154,
+            "effects": {
+                "blocking": [2, 4]
+            },
+            "glyph": {
+                "tint": "eeff00",
+                "textureX": 32,
+                "textureY": 48
+            },
+            "models": [
+                {
+                    "type": "shield_heater",
+                    "location": "tetra:items/module/shield/plate/heater/metal",
+                    "tint": "eeff00"
+                }
+            ]
+        },
         {
-          "type": "shield_heater",
-          "location": "tetra:items/module/shield/plate/heater/metal",
-          "tint": "6e1f9c"
-        }
-      ]
-    },
-    {
-      "key": "heater/andesite_alloy",
-      "durability": 372,
-      "integrity": 0,
-      "magicCapacity": 108,
-      "effects": {
-        "blocking": [
-          2,
-          4
-        ]
-      },
-      "glyph": {
-        "tint": "a3adac",
-        "textureX": 32,
-        "textureY": 48
-      },
-      "models": [
+            "key": "heater/refined_obsidian",
+            "durability": 576,
+            "integrity": -3,
+            "magicCapacity": 168,
+            "effects": {
+                "blocking": [2, 4]
+            },
+            "glyph": {
+                "tint": "6e1f9c",
+                "textureX": 32,
+                "textureY": 48
+            },
+            "models": [
+                {
+                    "type": "shield_heater",
+                    "location": "tetra:items/module/shield/plate/heater/metal",
+                    "tint": "6e1f9c"
+                }
+            ]
+        },
         {
-          "type": "shield_heater",
-          "location": "tetra:items/module/shield/plate/heater/metal",
-          "tint": "a3adac"
-        }
-      ]
-    },
-    {
-      "key": "heater/zinc",
-      "durability": 372,
-      "integrity": -1,
-      "magicCapacity": 86,
-      "effects": {
-        "blocking": [
-          2,
-          4
-        ]
-      },
-      "glyph": {
-        "tint": "e1e9f2",
-        "textureX": 32,
-        "textureY": 48
-      },
-      "models": [
+            "key": "heater/andesite_alloy",
+            "durability": 372,
+            "integrity": 0,
+            "magicCapacity": 108,
+            "effects": {
+                "blocking": [2, 4]
+            },
+            "glyph": {
+                "tint": "a3adac",
+                "textureX": 32,
+                "textureY": 48
+            },
+            "models": [
+                {
+                    "type": "shield_heater",
+                    "location": "tetra:items/module/shield/plate/heater/metal",
+                    "tint": "a3adac"
+                }
+            ]
+        },
         {
-          "type": "shield_heater",
-          "location": "tetra:items/module/shield/plate/heater/metal",
-          "tint": "e1e9f2"
-        }
-      ]
-    },
-    {
-      "key": "heater/pink_slime",
-      "durability": 372,
-      "integrity": -1,
-      "magicCapacity": 108,
-      "effects": {
-        "blocking": [
-          2,
-          4
-        ]
-      },
-      "glyph": {
-        "tint": "df3ce8",
-        "textureX": 32,
-        "textureY": 48
-      },
-      "models": [
+            "key": "heater/zinc",
+            "durability": 372,
+            "integrity": -1,
+            "magicCapacity": 86,
+            "effects": {
+                "blocking": [2, 4]
+            },
+            "glyph": {
+                "tint": "e1e9f2",
+                "textureX": 32,
+                "textureY": 48
+            },
+            "models": [
+                {
+                    "type": "shield_heater",
+                    "location": "tetra:items/module/shield/plate/heater/metal",
+                    "tint": "e1e9f2"
+                }
+            ]
+        },
         {
-          "type": "shield_heater",
-          "location": "tetra:items/module/shield/plate/heater/metal",
-          "tint": "df3ce8"
-        }
-      ]
-    },
-    {
-      "key": "heater/iesnium",
-      "durability": 372,
-      "integrity": -1,
-      "magicCapacity": 168,
-      "effects": {
-        "blocking": [
-          2,
-          4
-        ]
-      },
-      "glyph": {
-        "tint": "aadef0",
-        "textureX": 32,
-        "textureY": 48
-      },
-      "models": [
+            "key": "heater/pink_slime",
+            "durability": 372,
+            "integrity": -1,
+            "magicCapacity": 108,
+            "effects": {
+                "blocking": [2, 4]
+            },
+            "glyph": {
+                "tint": "df3ce8",
+                "textureX": 32,
+                "textureY": 48
+            },
+            "models": [
+                {
+                    "type": "shield_heater",
+                    "location": "tetra:items/module/shield/plate/heater/metal",
+                    "tint": "df3ce8"
+                }
+            ]
+        },
         {
-          "type": "shield_heater",
-          "location": "tetra:items/module/shield/plate/heater/metal",
-          "tint": "aadef0"
-        }
-      ]
-    },
-    {
-      "key": "heater/treated_wood",
-      "durability": 243,
-      "integrity": 0,
-      "magicCapacity": 118,
-      "effects": {
-        "blocking": [
-          2,
-          4
-        ]
-      },
-      "glyph": {
-        "tint": "8f380a",
-        "textureX": 32,
-        "textureY": 48
-      },
-      "models": [
+            "key": "heater/iesnium",
+            "durability": 372,
+            "integrity": -1,
+            "magicCapacity": 168,
+            "effects": {
+                "blocking": [2, 4]
+            },
+            "glyph": {
+                "tint": "aadef0",
+                "textureX": 32,
+                "textureY": 48
+            },
+            "models": [
+                {
+                    "type": "shield_heater",
+                    "location": "tetra:items/module/shield/plate/heater/metal",
+                    "tint": "aadef0"
+                }
+            ]
+        },
         {
-          "type": "shield_heater",
-          "location": "tetra:items/module/shield/plate/heater/wooden",
-          "tint": "8f380a"
-        }
-      ]
-    },
-    {
-      "key": "heater/aluminum",
-      "durability": 372,
-      "integrity": -1,
-      "magicCapacity": 78,
-      "effects": {
-        "blocking": [
-          2,
-          4
-        ]
-      },
-      "glyph": {
-        "tint": "dce2e8",
-        "textureX": 32,
-        "textureY": 48
-      },
-      "models": [
+            "key": "heater/treated_wood",
+            "durability": 243,
+            "integrity": 0,
+            "magicCapacity": 118,
+            "effects": {
+                "blocking": [2, 4]
+            },
+            "glyph": {
+                "tint": "8f380a",
+                "textureX": 32,
+                "textureY": 48
+            },
+            "models": [
+                {
+                    "type": "shield_heater",
+                    "location": "tetra:items/module/shield/plate/heater/wooden",
+                    "tint": "8f380a"
+                }
+            ]
+        },
         {
-          "type": "shield_heater",
-          "location": "tetra:items/module/shield/plate/heater/metal",
-          "tint": "dce2e8"
-        }
-      ]
-    },
-    {
-      "key": "heater/constantan",
-      "durability": 372,
-      "integrity": -1,
-      "magicCapacity": 110,
-      "effects": {
-        "blocking": [
-          2,
-          4
-        ]
-      },
-      "glyph": {
-        "tint": "d46326",
-        "textureX": 32,
-        "textureY": 48
-      },
-      "models": [
+            "key": "heater/aluminum",
+            "durability": 372,
+            "integrity": -1,
+            "magicCapacity": 78,
+            "effects": {
+                "blocking": [2, 4]
+            },
+            "glyph": {
+                "tint": "dce2e8",
+                "textureX": 32,
+                "textureY": 48
+            },
+            "models": [
+                {
+                    "type": "shield_heater",
+                    "location": "tetra:items/module/shield/plate/heater/metal",
+                    "tint": "dce2e8"
+                }
+            ]
+        },
         {
-          "type": "shield_heater",
-          "location": "tetra:items/module/shield/plate/heater/metal",
-          "tint": "d46326"
-        }
-      ]
-    },
-    {
-      "key": "heater/uranium",
-      "durability": 372,
-      "integrity": -1,
-      "magicCapacity": 170,
-      "effects": {
-        "blocking": [
-          2,
-          4
-        ]
-      },
-      "glyph": {
-        "tint": "538a71",
-        "textureX": 32,
-        "textureY": 48
-      },
-      "models": [
+            "key": "heater/constantan",
+            "durability": 372,
+            "integrity": -1,
+            "magicCapacity": 110,
+            "effects": {
+                "blocking": [2, 4]
+            },
+            "glyph": {
+                "tint": "d46326",
+                "textureX": 32,
+                "textureY": 48
+            },
+            "models": [
+                {
+                    "type": "shield_heater",
+                    "location": "tetra:items/module/shield/plate/heater/metal",
+                    "tint": "d46326"
+                }
+            ]
+        },
         {
-          "type": "shield_heater",
-          "location": "tetra:items/module/shield/plate/heater/metal",
-          "tint": "538a71"
-        }
-      ]
-    },
-    {
-      "key": "heater/infused_iron",
-      "durability": 372,
-      "integrity": -1,
-      "magicCapacity": 158,
-      "effects": {
-        "blocking": [
-          2,
-          4
-        ]
-      },
-      "glyph": {
-        "tint": "8a117",
-        "textureX": 32,
-        "textureY": 48
-      },
-      "models": [
+            "key": "heater/uranium",
+            "durability": 372,
+            "integrity": -1,
+            "magicCapacity": 170,
+            "effects": {
+                "blocking": [2, 4]
+            },
+            "glyph": {
+                "tint": "538a71",
+                "textureX": 32,
+                "textureY": 48
+            },
+            "models": [
+                {
+                    "type": "shield_heater",
+                    "location": "tetra:items/module/shield/plate/heater/metal",
+                    "tint": "538a71"
+                }
+            ]
+        },
         {
-          "type": "shield_heater",
-          "location": "tetra:items/module/shield/plate/heater/metal",
-          "tint": "8a117"
-        }
-      ]
-    },
-    {
-      "key": "heater/sky",
-      "durability": 576,
-      "integrity": -4,
-      "magicCapacity": 178,
-      "effects": {
-        "blocking": [
-          2,
-          4
-        ]
-      },
-      "glyph": {
-        "tint": "78ffff",
-        "textureX": 32,
-        "textureY": 48
-      },
-      "models": [
+            "key": "heater/infused_iron",
+            "durability": 372,
+            "integrity": -1,
+            "magicCapacity": 158,
+            "effects": {
+                "blocking": [2, 4]
+            },
+            "glyph": {
+                "tint": "8a117",
+                "textureX": 32,
+                "textureY": 48
+            },
+            "models": [
+                {
+                    "type": "shield_heater",
+                    "location": "tetra:items/module/shield/plate/heater/metal",
+                    "tint": "8a117"
+                }
+            ]
+        },
         {
-          "type": "shield_heater",
-          "location": "tetra:items/module/shield/plate/heater/metal",
-          "tint": "78ffff"
-        }
-      ]
-    },
-    {
-      "key": "heater/manasteel",
-      "durability": 372,
-      "integrity": -2,
-      "magicCapacity": 150,
-      "effects": {
-        "blocking": [
-          2,
-          4
-        ]
-      },
-      "glyph": {
-        "tint": "104bc2",
-        "textureX": 32,
-        "textureY": 48
-      },
-      "models": [
+            "key": "heater/sky",
+            "durability": 576,
+            "integrity": -4,
+            "magicCapacity": 178,
+            "effects": {
+                "blocking": [2, 4]
+            },
+            "glyph": {
+                "tint": "78ffff",
+                "textureX": 32,
+                "textureY": 48
+            },
+            "models": [
+                {
+                    "type": "shield_heater",
+                    "location": "tetra:items/module/shield/plate/heater/metal",
+                    "tint": "78ffff"
+                }
+            ]
+        },
         {
-          "type": "shield_heater",
-          "location": "tetra:items/module/shield/plate/heater/metal",
-          "tint": "104bc2"
-        }
-      ]
-    },
-    {
-      "key": "heater/elementium",
-      "durability": 576,
-      "integrity": -3,
-      "magicCapacity": 178,
-      "effects": {
-        "blocking": [
-          2,
-          4
-        ]
-      },
-      "glyph": {
-        "tint": "cb0be0",
-        "textureX": 32,
-        "textureY": 48
-      },
-      "models": [
+            "key": "heater/manasteel",
+            "durability": 372,
+            "integrity": -2,
+            "magicCapacity": 150,
+            "effects": {
+                "blocking": [2, 4]
+            },
+            "glyph": {
+                "tint": "104bc2",
+                "textureX": 32,
+                "textureY": 48
+            },
+            "models": [
+                {
+                    "type": "shield_heater",
+                    "location": "tetra:items/module/shield/plate/heater/metal",
+                    "tint": "104bc2"
+                }
+            ]
+        },
         {
-          "type": "shield_heater",
-          "location": "tetra:items/module/shield/plate/heater/metal",
-          "tint": "cb0be0"
-        }
-      ]
-    },
-    {
-      "key": "heater/terrasteel",
-      "durability": 576,
-      "integrity": -4,
-      "magicCapacity": 192,
-      "effects": {
-        "blocking": [
-          2,
-          4
-        ]
-      },
-      "glyph": {
-        "tint": "8c71b",
-        "textureX": 32,
-        "textureY": 48
-      },
-      "models": [
+            "key": "heater/elementium",
+            "durability": 576,
+            "integrity": -3,
+            "magicCapacity": 178,
+            "effects": {
+                "blocking": [2, 4]
+            },
+            "glyph": {
+                "tint": "cb0be0",
+                "textureX": 32,
+                "textureY": 48
+            },
+            "models": [
+                {
+                    "type": "shield_heater",
+                    "location": "tetra:items/module/shield/plate/heater/metal",
+                    "tint": "cb0be0"
+                }
+            ]
+        },
         {
-          "type": "shield_heater",
-          "location": "tetra:items/module/shield/plate/heater/metal",
-          "tint": "8c71b"
-        }
-      ]
-    },
-    {
-      "key": "heater/gaia_spirit",
-      "durability": 576,
-      "integrity": -5,
-      "magicCapacity": 208,
-      "effects": {
-        "blocking": [
-          2,
-          4
-        ]
-      },
-      "glyph": {
-        "tint": "80bdb9",
-        "textureX": 32,
-        "textureY": 48
-      },
-      "models": [
+            "key": "heater/terrasteel",
+            "durability": 576,
+            "integrity": -4,
+            "magicCapacity": 192,
+            "effects": {
+                "blocking": [2, 4]
+            },
+            "glyph": {
+                "tint": "8c71b",
+                "textureX": 32,
+                "textureY": 48
+            },
+            "models": [
+                {
+                    "type": "shield_heater",
+                    "location": "tetra:items/module/shield/plate/heater/metal",
+                    "tint": "8c71b"
+                }
+            ]
+        },
         {
-          "type": "shield_heater",
-          "location": "tetra:items/module/shield/plate/heater/metal",
-          "tint": "80bdb9"
-        }
-      ]
-    },
-    {
-      "key": "heater/neptunium",
-      "durability": 576,
-      "integrity": -4,
-      "magicCapacity": 158,
-      "effects": {
-        "blocking": [
-          2,
-          4
-        ]
-      },
-      "glyph": {
-        "tint": "2de0c2",
-        "textureX": 32,
-        "textureY": 48
-      },
-      "models": [
+            "key": "heater/gaia_spirit",
+            "durability": 576,
+            "integrity": -5,
+            "magicCapacity": 208,
+            "effects": {
+                "blocking": [2, 4]
+            },
+            "glyph": {
+                "tint": "80bdb9",
+                "textureX": 32,
+                "textureY": 48
+            },
+            "models": [
+                {
+                    "type": "shield_heater",
+                    "location": "tetra:items/module/shield/plate/heater/metal",
+                    "tint": "80bdb9"
+                }
+            ]
+        },
         {
-          "type": "shield_heater",
-          "location": "tetra:items/module/shield/plate/heater/metal",
-          "tint": "2de0c2"
-        }
-      ]
-    },
-    {
-      "key": "heater/compressed_iron",
-      "durability": 576,
-      "integrity": -1,
-      "magicCapacity": 112,
-      "effects": {
-        "blocking": [
-          2,
-          4
-        ]
-      },
-      "glyph": {
-        "tint": "5e6a6e",
-        "textureX": 32,
-        "textureY": 48
-      },
-      "models": [
+            "key": "heater/neptunium",
+            "durability": 576,
+            "integrity": -4,
+            "magicCapacity": 158,
+            "effects": {
+                "blocking": [2, 4]
+            },
+            "glyph": {
+                "tint": "2de0c2",
+                "textureX": 32,
+                "textureY": 48
+            },
+            "models": [
+                {
+                    "type": "shield_heater",
+                    "location": "tetra:items/module/shield/plate/heater/metal",
+                    "tint": "2de0c2"
+                }
+            ]
+        },
         {
-          "type": "shield_heater",
-          "location": "tetra:items/module/shield/plate/heater/metal",
-          "tint": "5e6a6e"
-        }
-      ]
-    },
-    {
-      "key": "heater/energized_steel",
-      "durability": 576,
-      "integrity": -2,
-      "magicCapacity": 108,
-      "effects": {
-        "blocking": [
-          2,
-          4
-        ]
-      },
-      "glyph": {
-        "tint": "dbd2a4",
-        "textureX": 32,
-        "textureY": 48
-      },
-      "models": [
+            "key": "heater/compressed_iron",
+            "durability": 576,
+            "integrity": -1,
+            "magicCapacity": 112,
+            "effects": {
+                "blocking": [2, 4]
+            },
+            "glyph": {
+                "tint": "5e6a6e",
+                "textureX": 32,
+                "textureY": 48
+            },
+            "models": [
+                {
+                    "type": "shield_heater",
+                    "location": "tetra:items/module/shield/plate/heater/metal",
+                    "tint": "5e6a6e"
+                }
+            ]
+        },
         {
-          "type": "shield_heater",
-          "location": "tetra:items/module/shield/plate/heater/metal",
-          "tint": "dbd2a4"
-        }
-      ]
-    },
-    {
-      "key": "heater/niotic",
-      "durability": 372,
-      "integrity": -2,
-      "magicCapacity": 108,
-      "effects": {
-        "blocking": [
-          2,
-          4
-        ]
-      },
-      "glyph": {
-        "tint": "1cc9e8",
-        "textureX": 32,
-        "textureY": 48
-      },
-      "models": [
+            "key": "heater/energized_steel",
+            "durability": 576,
+            "integrity": -2,
+            "magicCapacity": 108,
+            "effects": {
+                "blocking": [2, 4]
+            },
+            "glyph": {
+                "tint": "dbd2a4",
+                "textureX": 32,
+                "textureY": 48
+            },
+            "models": [
+                {
+                    "type": "shield_heater",
+                    "location": "tetra:items/module/shield/plate/heater/metal",
+                    "tint": "dbd2a4"
+                }
+            ]
+        },
         {
-          "type": "shield_heater",
-          "location": "tetra:items/module/shield/plate/heater/metal",
-          "tint": "1cc9e8"
-        }
-      ]
-    },
-    {
-      "key": "heater/spirited",
-      "durability": 576,
-      "integrity": -3,
-      "magicCapacity": 108,
-      "effects": {
-        "blocking": [
-          2,
-          4
-        ]
-      },
-      "glyph": {
-        "tint": "13eb21",
-        "textureX": 32,
-        "textureY": 48
-      },
-      "models": [
+            "key": "heater/niotic",
+            "durability": 372,
+            "integrity": -2,
+            "magicCapacity": 108,
+            "effects": {
+                "blocking": [2, 4]
+            },
+            "glyph": {
+                "tint": "1cc9e8",
+                "textureX": 32,
+                "textureY": 48
+            },
+            "models": [
+                {
+                    "type": "shield_heater",
+                    "location": "tetra:items/module/shield/plate/heater/metal",
+                    "tint": "1cc9e8"
+                }
+            ]
+        },
         {
-          "type": "shield_heater",
-          "location": "tetra:items/module/shield/plate/heater/metal",
-          "tint": "13eb21"
-        }
-      ]
-    },
-    {
-      "key": "heater/nitro",
-      "durability": 576,
-      "integrity": -4,
-      "magicCapacity": 108,
-      "effects": {
-        "blocking": [
-          2,
-          4
-        ]
-      },
-      "glyph": {
-        "tint": "d11608",
-        "textureX": 32,
-        "textureY": 48
-      },
-      "models": [
+            "key": "heater/spirited",
+            "durability": 576,
+            "integrity": -3,
+            "magicCapacity": 108,
+            "effects": {
+                "blocking": [2, 4]
+            },
+            "glyph": {
+                "tint": "13eb21",
+                "textureX": 32,
+                "textureY": 48
+            },
+            "models": [
+                {
+                    "type": "shield_heater",
+                    "location": "tetra:items/module/shield/plate/heater/metal",
+                    "tint": "13eb21"
+                }
+            ]
+        },
         {
-          "type": "shield_heater",
-          "location": "tetra:items/module/shield/plate/heater/metal",
-          "tint": "d11608"
+            "key": "heater/nitro",
+            "durability": 576,
+            "integrity": -4,
+            "magicCapacity": 108,
+            "effects": {
+                "blocking": [2, 4]
+            },
+            "glyph": {
+                "tint": "d11608",
+                "textureX": 32,
+                "textureY": 48
+            },
+            "models": [
+                {
+                    "type": "shield_heater",
+                    "location": "tetra:items/module/shield/plate/heater/metal",
+                    "tint": "d11608"
+                }
+            ]
         }
-      ]
-    }
-  ]
+    ]
 }

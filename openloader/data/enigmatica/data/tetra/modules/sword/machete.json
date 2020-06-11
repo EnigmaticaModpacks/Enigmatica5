@@ -2,7 +2,7 @@
   "variants": [
     {
       "key": "machete/mahogany",
-      "durability": 50,
+      "durability": 70,
       "integrity": 0,
       "magicCapacity": 88,
       "damage": 3,
@@ -20,7 +20,7 @@
       "capabilities": {
         "cut": [
           1,
-          0.9375
+          1.0
         ]
       },
       "models": [

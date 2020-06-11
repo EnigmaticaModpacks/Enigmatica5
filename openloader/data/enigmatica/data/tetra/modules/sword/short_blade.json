@@ -2,10 +2,10 @@
   "variants": [
     {
       "key": "short_blade/mahogany",
-      "durability": 40,
+      "durability": 60,
       "integrity": 0,
       "magicCapacity": 88,
-      "damage": 1,
+      "damage": 2,
       "attackSpeed": 2.2,
       "glyph": {
         "tint": "e69963",
@@ -14,7 +14,7 @@
       "capabilities": {
         "cut": [
           2,
-          0.7
+          0.9
         ]
       },
       "models": [
