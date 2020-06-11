@@ -2,15 +2,15 @@
   "variants": [
     {
       "key": "stonecutter/mahogany",
-      "durability": 771,
+      "durability": 80,
       "integrity": 0,
       "magicCapacity": 88,
       "damage": 3,
       "attackSpeed": -1.6,
       "capabilities": {
         "pickaxe": [
-          3,
-          5.5
+          0,
+          1.5
         ]
       },
       "effects": {
