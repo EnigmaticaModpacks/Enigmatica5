@@ -202,7 +202,7 @@
         },
         {
             "key": "basic_shovel/ancient",
-            "durability": 20,
+            "durability": 40,
             "integrity": 0,
             "magicCapacity": 176,
             "damage": 0,
@@ -222,7 +222,7 @@
                 "flattening": 1
             },
             "capabilities": {
-                "shovel": [1, 2.5]
+                "shovel": [1, 3.0]
             }
         },
         {

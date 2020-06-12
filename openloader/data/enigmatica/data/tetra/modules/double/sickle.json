@@ -218,7 +218,7 @@
         },
         {
             "key": "sickle/ancient",
-            "durability": 20,
+            "durability": 40,
             "integrity": 0,
             "magicCapacity": 176,
             "damage": 1,
@@ -235,7 +235,7 @@
                 }
             ],
             "capabilities": {
-                "cut": [1, 1.6667]
+                "cut": [1, 1.9]
             },
             "effects": {
                 "strikingCut": 1,

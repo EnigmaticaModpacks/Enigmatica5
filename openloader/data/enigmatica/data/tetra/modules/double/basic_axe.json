@@ -194,10 +194,10 @@
         },
         {
             "key": "basic_axe/ancient",
-            "durability": 26,
+            "durability": 46,
             "integrity": 0,
             "magicCapacity": 176,
-            "damage": 6,
+            "damage": 7,
             "attackSpeed": -0.7,
             "glyph": {
                 "tint": "84538c",
@@ -210,7 +210,7 @@
                 }
             ],
             "capabilities": {
-                "axe": [1, 2.5]
+                "axe": [1, 3.0]
             },
             "effects": {
                 "stripping": 1

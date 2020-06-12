@@ -1,652 +1,652 @@
 {
-  "variants": [
-    {
-      "key": "makeshift_guard/mahogany",
-      "durability": 46,
-      "attackSpeed": -0.15,
-      "glyph": {
-        "tint": "e69963",
-        "textureX": 7,
-        "textureY": 16
-      },
-      "models": [
+    "variants": [
         {
-          "location": "tetra:items/module/sword/guard/makeshift_guard/default",
-          "tint": "e69963"
-        }
-      ],
-      "magicCapacity": 88,
-      "integrity": 0
-    },
-    {
-      "key": "makeshift_guard/jacaranda",
-      "durability": 6,
-      "attackSpeed": -0.15,
-      "glyph": {
-        "tint": "e6d4c8",
-        "textureX": 7,
-        "textureY": 16
-      },
-      "models": [
+            "key": "makeshift_guard/mahogany",
+            "durability": 46,
+            "attackSpeed": -0.15,
+            "glyph": {
+                "tint": "e69963",
+                "textureX": 7,
+                "textureY": 16
+            },
+            "models": [
+                {
+                    "location": "tetra:items/module/sword/guard/makeshift_guard/default",
+                    "tint": "e69963"
+                }
+            ],
+            "magicCapacity": 88,
+            "integrity": 0
+        },
         {
-          "location": "tetra:items/module/sword/guard/makeshift_guard/default",
-          "tint": "e6d4c8"
-        }
-      ],
-      "magicCapacity": 80,
-      "integrity": 0
-    },
-    {
-      "key": "makeshift_guard/palm",
-      "durability": 6,
-      "attackSpeed": -0.15,
-      "glyph": {
-        "tint": "db9d51",
-        "textureX": 7,
-        "textureY": 16
-      },
-      "models": [
+            "key": "makeshift_guard/jacaranda",
+            "durability": 6,
+            "attackSpeed": -0.15,
+            "glyph": {
+                "tint": "e6d4c8",
+                "textureX": 7,
+                "textureY": 16
+            },
+            "models": [
+                {
+                    "location": "tetra:items/module/sword/guard/makeshift_guard/default",
+                    "tint": "e6d4c8"
+                }
+            ],
+            "magicCapacity": 80,
+            "integrity": 0
+        },
         {
-          "location": "tetra:items/module/sword/guard/makeshift_guard/default",
-          "tint": "db9d51"
-        }
-      ],
-      "magicCapacity": 80,
-      "integrity": 0
-    },
-    {
-      "key": "makeshift_guard/willow",
-      "durability": 6,
-      "attackSpeed": -0.15,
-      "glyph": {
-        "tint": "7bc78d",
-        "textureX": 7,
-        "textureY": 16
-      },
-      "models": [
+            "key": "makeshift_guard/palm",
+            "durability": 6,
+            "attackSpeed": -0.15,
+            "glyph": {
+                "tint": "db9d51",
+                "textureX": 7,
+                "textureY": 16
+            },
+            "models": [
+                {
+                    "location": "tetra:items/module/sword/guard/makeshift_guard/default",
+                    "tint": "db9d51"
+                }
+            ],
+            "magicCapacity": 80,
+            "integrity": 0
+        },
         {
-          "location": "tetra:items/module/sword/guard/makeshift_guard/default",
-          "tint": "7bc78d"
-        }
-      ],
-      "magicCapacity": 96,
-      "integrity": 0
-    },
-    {
-      "key": "makeshift_guard/dead",
-      "durability": 6,
-      "attackSpeed": -0.15,
-      "glyph": {
-        "tint": "a1ada4",
-        "textureX": 7,
-        "textureY": 16
-      },
-      "models": [
+            "key": "makeshift_guard/willow",
+            "durability": 6,
+            "attackSpeed": -0.15,
+            "glyph": {
+                "tint": "7bc78d",
+                "textureX": 7,
+                "textureY": 16
+            },
+            "models": [
+                {
+                    "location": "tetra:items/module/sword/guard/makeshift_guard/default",
+                    "tint": "7bc78d"
+                }
+            ],
+            "magicCapacity": 96,
+            "integrity": 0
+        },
         {
-          "location": "tetra:items/module/sword/guard/makeshift_guard/default",
-          "tint": "a1ada4"
-        }
-      ],
-      "magicCapacity": 52,
-      "integrity": 0
-    },
-    {
-      "key": "makeshift_guard/magic",
-      "durability": 6,
-      "attackSpeed": -0.15,
-      "glyph": {
-        "tint": "4567b0",
-        "textureX": 7,
-        "textureY": 16
-      },
-      "models": [
+            "key": "makeshift_guard/dead",
+            "durability": 6,
+            "attackSpeed": -0.15,
+            "glyph": {
+                "tint": "a1ada4",
+                "textureX": 7,
+                "textureY": 16
+            },
+            "models": [
+                {
+                    "location": "tetra:items/module/sword/guard/makeshift_guard/default",
+                    "tint": "a1ada4"
+                }
+            ],
+            "magicCapacity": 52,
+            "integrity": 0
+        },
         {
-          "location": "tetra:items/module/sword/guard/makeshift_guard/default",
-          "tint": "4567b0"
-        }
-      ],
-      "magicCapacity": 164,
-      "integrity": 0
-    },
-    {
-      "key": "makeshift_guard/umbran",
-      "durability": 6,
-      "attackSpeed": -0.15,
-      "glyph": {
-        "tint": "8768a6",
-        "textureX": 7,
-        "textureY": 16
-      },
-      "models": [
+            "key": "makeshift_guard/magic",
+            "durability": 6,
+            "attackSpeed": -0.15,
+            "glyph": {
+                "tint": "4567b0",
+                "textureX": 7,
+                "textureY": 16
+            },
+            "models": [
+                {
+                    "location": "tetra:items/module/sword/guard/makeshift_guard/default",
+                    "tint": "4567b0"
+                }
+            ],
+            "magicCapacity": 164,
+            "integrity": 0
+        },
         {
-          "location": "tetra:items/module/sword/guard/makeshift_guard/default",
-          "tint": "8768a6"
-        }
-      ],
-      "magicCapacity": 156,
-      "integrity": 0
-    },
-    {
-      "key": "makeshift_guard/hellbark",
-      "durability": 6,
-      "attackSpeed": -0.15,
-      "glyph": {
-        "tint": "544b5e",
-        "textureX": 7,
-        "textureY": 16
-      },
-      "models": [
+            "key": "makeshift_guard/umbran",
+            "durability": 6,
+            "attackSpeed": -0.15,
+            "glyph": {
+                "tint": "8768a6",
+                "textureX": 7,
+                "textureY": 16
+            },
+            "models": [
+                {
+                    "location": "tetra:items/module/sword/guard/makeshift_guard/default",
+                    "tint": "8768a6"
+                }
+            ],
+            "magicCapacity": 156,
+            "integrity": 0
+        },
         {
-          "location": "tetra:items/module/sword/guard/makeshift_guard/default",
-          "tint": "544b5e"
-        }
-      ],
-      "magicCapacity": 156,
-      "integrity": 0
-    },
-    {
-      "key": "makeshift_guard/ancient",
-      "durability": 6,
-      "attackSpeed": -0.15,
-      "glyph": {
-        "tint": "84538c",
-        "textureX": 7,
-        "textureY": 16
-      },
-      "models": [
+            "key": "makeshift_guard/hellbark",
+            "durability": 6,
+            "attackSpeed": -0.15,
+            "glyph": {
+                "tint": "544b5e",
+                "textureX": 7,
+                "textureY": 16
+            },
+            "models": [
+                {
+                    "location": "tetra:items/module/sword/guard/makeshift_guard/default",
+                    "tint": "544b5e"
+                }
+            ],
+            "magicCapacity": 156,
+            "integrity": 0
+        },
         {
-          "location": "tetra:items/module/sword/guard/makeshift_guard/default",
-          "tint": "84538c"
-        }
-      ],
-      "magicCapacity": 176,
-      "integrity": 0
-    },
-    {
-      "key": "makeshift_guard/fir",
-      "durability": 6,
-      "attackSpeed": -0.15,
-      "glyph": {
-        "tint": "8a817d",
-        "textureX": 7,
-        "textureY": 16
-      },
-      "models": [
+            "key": "makeshift_guard/ancient",
+            "durability": 12,
+            "attackSpeed": -0.15,
+            "glyph": {
+                "tint": "84538c",
+                "textureX": 7,
+                "textureY": 16
+            },
+            "models": [
+                {
+                    "location": "tetra:items/module/sword/guard/makeshift_guard/default",
+                    "tint": "84538c"
+                }
+            ],
+            "magicCapacity": 176,
+            "integrity": 0
+        },
         {
-          "location": "tetra:items/module/sword/guard/makeshift_guard/default",
-          "tint": "8a817d"
-        }
-      ],
-      "magicCapacity": 88,
-      "integrity": 0
-    },
-    {
-      "key": "makeshift_guard/redwood",
-      "durability": 6,
-      "attackSpeed": -0.15,
-      "glyph": {
-        "tint": "96421d",
-        "textureX": 7,
-        "textureY": 16
-      },
-      "models": [
+            "key": "makeshift_guard/fir",
+            "durability": 6,
+            "attackSpeed": -0.15,
+            "glyph": {
+                "tint": "8a817d",
+                "textureX": 7,
+                "textureY": 16
+            },
+            "models": [
+                {
+                    "location": "tetra:items/module/sword/guard/makeshift_guard/default",
+                    "tint": "8a817d"
+                }
+            ],
+            "magicCapacity": 88,
+            "integrity": 0
+        },
         {
-          "location": "tetra:items/module/sword/guard/makeshift_guard/default",
-          "tint": "96421d"
-        }
-      ],
-      "magicCapacity": 88,
-      "integrity": 0
-    },
-    {
-      "key": "makeshift_guard/cherry",
-      "durability": 6,
-      "attackSpeed": -0.15,
-      "glyph": {
-        "tint": "851d19",
-        "textureX": 7,
-        "textureY": 16
-      },
-      "models": [
+            "key": "makeshift_guard/redwood",
+            "durability": 6,
+            "attackSpeed": -0.15,
+            "glyph": {
+                "tint": "96421d",
+                "textureX": 7,
+                "textureY": 16
+            },
+            "models": [
+                {
+                    "location": "tetra:items/module/sword/guard/makeshift_guard/default",
+                    "tint": "96421d"
+                }
+            ],
+            "magicCapacity": 88,
+            "integrity": 0
+        },
         {
-          "location": "tetra:items/module/sword/guard/makeshift_guard/default",
-          "tint": "851d19"
-        }
-      ],
-      "magicCapacity": 90,
-      "integrity": 0
-    },
-    {
-      "key": "makeshift_guard/lapis",
-      "durability": 12,
-      "attackSpeed": -0.15,
-      "glyph": {
-        "tint": "3327db",
-        "textureX": 7,
-        "textureY": 16
-      },
-      "models": [
+            "key": "makeshift_guard/cherry",
+            "durability": 6,
+            "attackSpeed": -0.15,
+            "glyph": {
+                "tint": "851d19",
+                "textureX": 7,
+                "textureY": 16
+            },
+            "models": [
+                {
+                    "location": "tetra:items/module/sword/guard/makeshift_guard/default",
+                    "tint": "851d19"
+                }
+            ],
+            "magicCapacity": 90,
+            "integrity": 0
+        },
         {
-          "location": "tetra:items/module/sword/guard/makeshift_guard/default",
-          "tint": "3327db"
-        }
-      ],
-      "magicCapacity": 122,
-      "integrity": -1
-    },
-    {
-      "key": "makeshift_guard/osmium",
-      "durability": 12,
-      "attackSpeed": -0.15,
-      "glyph": {
-        "tint": "a7aed9",
-        "textureX": 7,
-        "textureY": 16
-      },
-      "models": [
+            "key": "makeshift_guard/lapis",
+            "durability": 12,
+            "attackSpeed": -0.15,
+            "glyph": {
+                "tint": "3327db",
+                "textureX": 7,
+                "textureY": 16
+            },
+            "models": [
+                {
+                    "location": "tetra:items/module/sword/guard/makeshift_guard/default",
+                    "tint": "3327db"
+                }
+            ],
+            "magicCapacity": 122,
+            "integrity": -1
+        },
         {
-          "location": "tetra:items/module/sword/guard/makeshift_guard/default",
-          "tint": "a7aed9"
-        }
-      ],
-      "magicCapacity": 112,
-      "integrity": -1
-    },
-    {
-      "key": "makeshift_guard/refined_glowstone",
-      "durability": 12,
-      "attackSpeed": -0.15,
-      "glyph": {
-        "tint": "eeff00",
-        "textureX": 7,
-        "textureY": 16
-      },
-      "models": [
+            "key": "makeshift_guard/osmium",
+            "durability": 12,
+            "attackSpeed": -0.15,
+            "glyph": {
+                "tint": "a7aed9",
+                "textureX": 7,
+                "textureY": 16
+            },
+            "models": [
+                {
+                    "location": "tetra:items/module/sword/guard/makeshift_guard/default",
+                    "tint": "a7aed9"
+                }
+            ],
+            "magicCapacity": 112,
+            "integrity": -1
+        },
         {
-          "location": "tetra:items/module/sword/guard/makeshift_guard/default",
-          "tint": "eeff00"
-        }
-      ],
-      "magicCapacity": 154,
-      "integrity": -2
-    },
-    {
-      "key": "makeshift_guard/refined_obsidian",
-      "durability": 42,
-      "attackSpeed": -0.15,
-      "glyph": {
-        "tint": "6e1f9c",
-        "textureX": 7,
-        "textureY": 16
-      },
-      "models": [
+            "key": "makeshift_guard/refined_glowstone",
+            "durability": 12,
+            "attackSpeed": -0.15,
+            "glyph": {
+                "tint": "eeff00",
+                "textureX": 7,
+                "textureY": 16
+            },
+            "models": [
+                {
+                    "location": "tetra:items/module/sword/guard/makeshift_guard/default",
+                    "tint": "eeff00"
+                }
+            ],
+            "magicCapacity": 154,
+            "integrity": -2
+        },
         {
-          "location": "tetra:items/module/sword/guard/makeshift_guard/shiny",
-          "tint": "6e1f9c"
-        }
-      ],
-      "magicCapacity": 168,
-      "integrity": -3
-    },
-    {
-      "key": "makeshift_guard/andesite_alloy",
-      "durability": 12,
-      "attackSpeed": -0.15,
-      "glyph": {
-        "tint": "a3adac",
-        "textureX": 7,
-        "textureY": 16
-      },
-      "models": [
+            "key": "makeshift_guard/refined_obsidian",
+            "durability": 42,
+            "attackSpeed": -0.15,
+            "glyph": {
+                "tint": "6e1f9c",
+                "textureX": 7,
+                "textureY": 16
+            },
+            "models": [
+                {
+                    "location": "tetra:items/module/sword/guard/makeshift_guard/shiny",
+                    "tint": "6e1f9c"
+                }
+            ],
+            "magicCapacity": 168,
+            "integrity": -3
+        },
         {
-          "location": "tetra:items/module/sword/guard/makeshift_guard/default",
-          "tint": "a3adac"
-        }
-      ],
-      "magicCapacity": 108,
-      "integrity": 0
-    },
-    {
-      "key": "makeshift_guard/zinc",
-      "durability": 12,
-      "attackSpeed": -0.15,
-      "glyph": {
-        "tint": "e1e9f2",
-        "textureX": 7,
-        "textureY": 16
-      },
-      "models": [
+            "key": "makeshift_guard/andesite_alloy",
+            "durability": 12,
+            "attackSpeed": -0.15,
+            "glyph": {
+                "tint": "a3adac",
+                "textureX": 7,
+                "textureY": 16
+            },
+            "models": [
+                {
+                    "location": "tetra:items/module/sword/guard/makeshift_guard/default",
+                    "tint": "a3adac"
+                }
+            ],
+            "magicCapacity": 108,
+            "integrity": 0
+        },
         {
-          "location": "tetra:items/module/sword/guard/makeshift_guard/default",
-          "tint": "e1e9f2"
-        }
-      ],
-      "magicCapacity": 86,
-      "integrity": -1
-    },
-    {
-      "key": "makeshift_guard/pink_slime",
-      "durability": 12,
-      "attackSpeed": -0.15,
-      "glyph": {
-        "tint": "df3ce8",
-        "textureX": 7,
-        "textureY": 16
-      },
-      "models": [
+            "key": "makeshift_guard/zinc",
+            "durability": 12,
+            "attackSpeed": -0.15,
+            "glyph": {
+                "tint": "e1e9f2",
+                "textureX": 7,
+                "textureY": 16
+            },
+            "models": [
+                {
+                    "location": "tetra:items/module/sword/guard/makeshift_guard/default",
+                    "tint": "e1e9f2"
+                }
+            ],
+            "magicCapacity": 86,
+            "integrity": -1
+        },
         {
-          "location": "tetra:items/module/sword/guard/makeshift_guard/default",
-          "tint": "df3ce8"
-        }
-      ],
-      "magicCapacity": 108,
-      "integrity": -1
-    },
-    {
-      "key": "makeshift_guard/iesnium",
-      "durability": 12,
-      "attackSpeed": -0.15,
-      "glyph": {
-        "tint": "aadef0",
-        "textureX": 7,
-        "textureY": 16
-      },
-      "models": [
+            "key": "makeshift_guard/pink_slime",
+            "durability": 12,
+            "attackSpeed": -0.15,
+            "glyph": {
+                "tint": "df3ce8",
+                "textureX": 7,
+                "textureY": 16
+            },
+            "models": [
+                {
+                    "location": "tetra:items/module/sword/guard/makeshift_guard/default",
+                    "tint": "df3ce8"
+                }
+            ],
+            "magicCapacity": 108,
+            "integrity": -1
+        },
         {
-          "location": "tetra:items/module/sword/guard/makeshift_guard/default",
-          "tint": "aadef0"
-        }
-      ],
-      "magicCapacity": 168,
-      "integrity": -1
-    },
-    {
-      "key": "makeshift_guard/treated_wood",
-      "durability": 6,
-      "attackSpeed": -0.15,
-      "glyph": {
-        "tint": "8f380a",
-        "textureX": 7,
-        "textureY": 16
-      },
-      "models": [
+            "key": "makeshift_guard/iesnium",
+            "durability": 12,
+            "attackSpeed": -0.15,
+            "glyph": {
+                "tint": "aadef0",
+                "textureX": 7,
+                "textureY": 16
+            },
+            "models": [
+                {
+                    "location": "tetra:items/module/sword/guard/makeshift_guard/default",
+                    "tint": "aadef0"
+                }
+            ],
+            "magicCapacity": 168,
+            "integrity": -1
+        },
         {
-          "location": "tetra:items/module/sword/guard/makeshift_guard/default",
-          "tint": "8f380a"
-        }
-      ],
-      "magicCapacity": 118,
-      "integrity": 0
-    },
-    {
-      "key": "makeshift_guard/aluminum",
-      "durability": 12,
-      "attackSpeed": -0.15,
-      "glyph": {
-        "tint": "dce2e8",
-        "textureX": 7,
-        "textureY": 16
-      },
-      "models": [
+            "key": "makeshift_guard/treated_wood",
+            "durability": 6,
+            "attackSpeed": -0.15,
+            "glyph": {
+                "tint": "8f380a",
+                "textureX": 7,
+                "textureY": 16
+            },
+            "models": [
+                {
+                    "location": "tetra:items/module/sword/guard/makeshift_guard/default",
+                    "tint": "8f380a"
+                }
+            ],
+            "magicCapacity": 118,
+            "integrity": 0
+        },
         {
-          "location": "tetra:items/module/sword/guard/makeshift_guard/default",
-          "tint": "dce2e8"
-        }
-      ],
-      "magicCapacity": 78,
-      "integrity": -1
-    },
-    {
-      "key": "makeshift_guard/constantan",
-      "durability": 12,
-      "attackSpeed": -0.15,
-      "glyph": {
-        "tint": "d46326",
-        "textureX": 7,
-        "textureY": 16
-      },
-      "models": [
+            "key": "makeshift_guard/aluminum",
+            "durability": 12,
+            "attackSpeed": -0.15,
+            "glyph": {
+                "tint": "dce2e8",
+                "textureX": 7,
+                "textureY": 16
+            },
+            "models": [
+                {
+                    "location": "tetra:items/module/sword/guard/makeshift_guard/default",
+                    "tint": "dce2e8"
+                }
+            ],
+            "magicCapacity": 78,
+            "integrity": -1
+        },
         {
-          "location": "tetra:items/module/sword/guard/makeshift_guard/default",
-          "tint": "d46326"
-        }
-      ],
-      "magicCapacity": 110,
-      "integrity": -1
-    },
-    {
-      "key": "makeshift_guard/uranium",
-      "durability": 12,
-      "attackSpeed": -0.15,
-      "glyph": {
-        "tint": "538a71",
-        "textureX": 7,
-        "textureY": 16
-      },
-      "models": [
+            "key": "makeshift_guard/constantan",
+            "durability": 12,
+            "attackSpeed": -0.15,
+            "glyph": {
+                "tint": "d46326",
+                "textureX": 7,
+                "textureY": 16
+            },
+            "models": [
+                {
+                    "location": "tetra:items/module/sword/guard/makeshift_guard/default",
+                    "tint": "d46326"
+                }
+            ],
+            "magicCapacity": 110,
+            "integrity": -1
+        },
         {
-          "location": "tetra:items/module/sword/guard/makeshift_guard/default",
-          "tint": "538a71"
-        }
-      ],
-      "magicCapacity": 170,
-      "integrity": -1
-    },
-    {
-      "key": "makeshift_guard/infused_iron",
-      "durability": 12,
-      "attackSpeed": -0.15,
-      "glyph": {
-        "tint": "8a117",
-        "textureX": 7,
-        "textureY": 16
-      },
-      "models": [
+            "key": "makeshift_guard/uranium",
+            "durability": 12,
+            "attackSpeed": -0.15,
+            "glyph": {
+                "tint": "538a71",
+                "textureX": 7,
+                "textureY": 16
+            },
+            "models": [
+                {
+                    "location": "tetra:items/module/sword/guard/makeshift_guard/default",
+                    "tint": "538a71"
+                }
+            ],
+            "magicCapacity": 170,
+            "integrity": -1
+        },
         {
-          "location": "tetra:items/module/sword/guard/makeshift_guard/default",
-          "tint": "8a117"
-        }
-      ],
-      "magicCapacity": 158,
-      "integrity": -1
-    },
-    {
-      "key": "makeshift_guard/sky",
-      "durability": 42,
-      "attackSpeed": -0.15,
-      "glyph": {
-        "tint": "78ffff",
-        "textureX": 7,
-        "textureY": 16
-      },
-      "models": [
+            "key": "makeshift_guard/infused_iron",
+            "durability": 12,
+            "attackSpeed": -0.15,
+            "glyph": {
+                "tint": "8a117",
+                "textureX": 7,
+                "textureY": 16
+            },
+            "models": [
+                {
+                    "location": "tetra:items/module/sword/guard/makeshift_guard/default",
+                    "tint": "8a117"
+                }
+            ],
+            "magicCapacity": 158,
+            "integrity": -1
+        },
         {
-          "location": "tetra:items/module/sword/guard/makeshift_guard/shiny",
-          "tint": "78ffff"
-        }
-      ],
-      "magicCapacity": 178,
-      "integrity": -4
-    },
-    {
-      "key": "makeshift_guard/manasteel",
-      "durability": 12,
-      "attackSpeed": -0.15,
-      "glyph": {
-        "tint": "104bc2",
-        "textureX": 7,
-        "textureY": 16
-      },
-      "models": [
+            "key": "makeshift_guard/sky",
+            "durability": 42,
+            "attackSpeed": -0.15,
+            "glyph": {
+                "tint": "78ffff",
+                "textureX": 7,
+                "textureY": 16
+            },
+            "models": [
+                {
+                    "location": "tetra:items/module/sword/guard/makeshift_guard/shiny",
+                    "tint": "78ffff"
+                }
+            ],
+            "magicCapacity": 178,
+            "integrity": -4
+        },
         {
-          "location": "tetra:items/module/sword/guard/makeshift_guard/default",
-          "tint": "104bc2"
-        }
-      ],
-      "magicCapacity": 150,
-      "integrity": -2
-    },
-    {
-      "key": "makeshift_guard/elementium",
-      "durability": 12,
-      "attackSpeed": -0.15,
-      "glyph": {
-        "tint": "cb0be0",
-        "textureX": 7,
-        "textureY": 16
-      },
-      "models": [
+            "key": "makeshift_guard/manasteel",
+            "durability": 12,
+            "attackSpeed": -0.15,
+            "glyph": {
+                "tint": "104bc2",
+                "textureX": 7,
+                "textureY": 16
+            },
+            "models": [
+                {
+                    "location": "tetra:items/module/sword/guard/makeshift_guard/default",
+                    "tint": "104bc2"
+                }
+            ],
+            "magicCapacity": 150,
+            "integrity": -2
+        },
         {
-          "location": "tetra:items/module/sword/guard/makeshift_guard/default",
-          "tint": "cb0be0"
-        }
-      ],
-      "magicCapacity": 178,
-      "integrity": -3
-    },
-    {
-      "key": "makeshift_guard/terrasteel",
-      "durability": 42,
-      "attackSpeed": -0.15,
-      "glyph": {
-        "tint": "8c71b",
-        "textureX": 7,
-        "textureY": 16
-      },
-      "models": [
+            "key": "makeshift_guard/elementium",
+            "durability": 12,
+            "attackSpeed": -0.15,
+            "glyph": {
+                "tint": "cb0be0",
+                "textureX": 7,
+                "textureY": 16
+            },
+            "models": [
+                {
+                    "location": "tetra:items/module/sword/guard/makeshift_guard/default",
+                    "tint": "cb0be0"
+                }
+            ],
+            "magicCapacity": 178,
+            "integrity": -3
+        },
         {
-          "location": "tetra:items/module/sword/guard/makeshift_guard/shiny",
-          "tint": "8c71b"
-        }
-      ],
-      "magicCapacity": 192,
-      "integrity": -4
-    },
-    {
-      "key": "makeshift_guard/gaia_spirit",
-      "durability": 42,
-      "attackSpeed": -0.15,
-      "glyph": {
-        "tint": "80bdb9",
-        "textureX": 7,
-        "textureY": 16
-      },
-      "models": [
+            "key": "makeshift_guard/terrasteel",
+            "durability": 42,
+            "attackSpeed": -0.15,
+            "glyph": {
+                "tint": "8c71b",
+                "textureX": 7,
+                "textureY": 16
+            },
+            "models": [
+                {
+                    "location": "tetra:items/module/sword/guard/makeshift_guard/shiny",
+                    "tint": "8c71b"
+                }
+            ],
+            "magicCapacity": 192,
+            "integrity": -4
+        },
         {
-          "location": "tetra:items/module/sword/guard/makeshift_guard/shiny",
-          "tint": "80bdb9"
-        }
-      ],
-      "magicCapacity": 208,
-      "integrity": -5
-    },
-    {
-      "key": "makeshift_guard/neptunium",
-      "durability": 42,
-      "attackSpeed": -0.15,
-      "glyph": {
-        "tint": "2de0c2",
-        "textureX": 7,
-        "textureY": 16
-      },
-      "models": [
+            "key": "makeshift_guard/gaia_spirit",
+            "durability": 42,
+            "attackSpeed": -0.15,
+            "glyph": {
+                "tint": "80bdb9",
+                "textureX": 7,
+                "textureY": 16
+            },
+            "models": [
+                {
+                    "location": "tetra:items/module/sword/guard/makeshift_guard/shiny",
+                    "tint": "80bdb9"
+                }
+            ],
+            "magicCapacity": 208,
+            "integrity": -5
+        },
         {
-          "location": "tetra:items/module/sword/guard/makeshift_guard/shiny",
-          "tint": "2de0c2"
-        }
-      ],
-      "magicCapacity": 158,
-      "integrity": -4
-    },
-    {
-      "key": "makeshift_guard/compressed_iron",
-      "durability": 12,
-      "attackSpeed": -0.15,
-      "glyph": {
-        "tint": "5e6a6e",
-        "textureX": 7,
-        "textureY": 16
-      },
-      "models": [
+            "key": "makeshift_guard/neptunium",
+            "durability": 42,
+            "attackSpeed": -0.15,
+            "glyph": {
+                "tint": "2de0c2",
+                "textureX": 7,
+                "textureY": 16
+            },
+            "models": [
+                {
+                    "location": "tetra:items/module/sword/guard/makeshift_guard/shiny",
+                    "tint": "2de0c2"
+                }
+            ],
+            "magicCapacity": 158,
+            "integrity": -4
+        },
         {
-          "location": "tetra:items/module/sword/guard/makeshift_guard/default",
-          "tint": "5e6a6e"
-        }
-      ],
-      "magicCapacity": 112,
-      "integrity": -1
-    },
-    {
-      "key": "makeshift_guard/energized_steel",
-      "durability": 12,
-      "attackSpeed": -0.15,
-      "glyph": {
-        "tint": "dbd2a4",
-        "textureX": 7,
-        "textureY": 16
-      },
-      "models": [
+            "key": "makeshift_guard/compressed_iron",
+            "durability": 12,
+            "attackSpeed": -0.15,
+            "glyph": {
+                "tint": "5e6a6e",
+                "textureX": 7,
+                "textureY": 16
+            },
+            "models": [
+                {
+                    "location": "tetra:items/module/sword/guard/makeshift_guard/default",
+                    "tint": "5e6a6e"
+                }
+            ],
+            "magicCapacity": 112,
+            "integrity": -1
+        },
         {
-          "location": "tetra:items/module/sword/guard/makeshift_guard/default",
-          "tint": "dbd2a4"
-        }
-      ],
-      "magicCapacity": 108,
-      "integrity": -2
-    },
-    {
-      "key": "makeshift_guard/niotic",
-      "durability": 12,
-      "attackSpeed": -0.15,
-      "glyph": {
-        "tint": "1cc9e8",
-        "textureX": 7,
-        "textureY": 16
-      },
-      "models": [
+            "key": "makeshift_guard/energized_steel",
+            "durability": 12,
+            "attackSpeed": -0.15,
+            "glyph": {
+                "tint": "dbd2a4",
+                "textureX": 7,
+                "textureY": 16
+            },
+            "models": [
+                {
+                    "location": "tetra:items/module/sword/guard/makeshift_guard/default",
+                    "tint": "dbd2a4"
+                }
+            ],
+            "magicCapacity": 108,
+            "integrity": -2
+        },
         {
-          "location": "tetra:items/module/sword/guard/makeshift_guard/default",
-          "tint": "1cc9e8"
-        }
-      ],
-      "magicCapacity": 108,
-      "integrity": -2
-    },
-    {
-      "key": "makeshift_guard/spirited",
-      "durability": 42,
-      "attackSpeed": -0.15,
-      "glyph": {
-        "tint": "13eb21",
-        "textureX": 7,
-        "textureY": 16
-      },
-      "models": [
+            "key": "makeshift_guard/niotic",
+            "durability": 12,
+            "attackSpeed": -0.15,
+            "glyph": {
+                "tint": "1cc9e8",
+                "textureX": 7,
+                "textureY": 16
+            },
+            "models": [
+                {
+                    "location": "tetra:items/module/sword/guard/makeshift_guard/default",
+                    "tint": "1cc9e8"
+                }
+            ],
+            "magicCapacity": 108,
+            "integrity": -2
+        },
         {
-          "location": "tetra:items/module/sword/guard/makeshift_guard/shiny",
-          "tint": "13eb21"
-        }
-      ],
-      "magicCapacity": 108,
-      "integrity": -3
-    },
-    {
-      "key": "makeshift_guard/nitro",
-      "durability": 42,
-      "attackSpeed": -0.15,
-      "glyph": {
-        "tint": "d11608",
-        "textureX": 7,
-        "textureY": 16
-      },
-      "models": [
+            "key": "makeshift_guard/spirited",
+            "durability": 42,
+            "attackSpeed": -0.15,
+            "glyph": {
+                "tint": "13eb21",
+                "textureX": 7,
+                "textureY": 16
+            },
+            "models": [
+                {
+                    "location": "tetra:items/module/sword/guard/makeshift_guard/shiny",
+                    "tint": "13eb21"
+                }
+            ],
+            "magicCapacity": 108,
+            "integrity": -3
+        },
         {
-          "location": "tetra:items/module/sword/guard/makeshift_guard/shiny",
-          "tint": "d11608"
+            "key": "makeshift_guard/nitro",
+            "durability": 42,
+            "attackSpeed": -0.15,
+            "glyph": {
+                "tint": "d11608",
+                "textureX": 7,
+                "textureY": 16
+            },
+            "models": [
+                {
+                    "location": "tetra:items/module/sword/guard/makeshift_guard/shiny",
+                    "tint": "d11608"
+                }
+            ],
+            "magicCapacity": 108,
+            "integrity": -4
         }
-      ],
-      "magicCapacity": 108,
-      "integrity": -4
-    }
-  ]
+    ]
 }

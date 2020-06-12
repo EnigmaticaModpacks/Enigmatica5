@@ -170,7 +170,7 @@
         },
         {
             "key": "basic_pickaxe/ancient",
-            "durability": 20,
+            "durability": 40,
             "integrity": 0,
             "magicCapacity": 176,
             "damage": 1,
@@ -186,7 +186,7 @@
                 }
             ],
             "capabilities": {
-                "pickaxe": [0, 1.6667]
+                "pickaxe": [0, 1.9]
             }
         },
         {

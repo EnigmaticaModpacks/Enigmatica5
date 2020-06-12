@@ -178,10 +178,10 @@
         },
         {
             "key": "adze/ancient",
-            "durability": 20,
+            "durability": 40,
             "integrity": 0,
-            "magicCapacity": 176,
-            "damage": 0,
+            "magicCapacity": 216,
+            "damage": 1,
             "attackSpeed": -0.5,
             "glyph": {
                 "tint": "84538c",
@@ -194,8 +194,8 @@
                 }
             ],
             "capabilities": {
-                "axe": [1, 1.5],
-                "shovel": [1, 1.5]
+                "axe": [1, 2.0],
+                "shovel": [1, 2.0]
             }
         },
         {
