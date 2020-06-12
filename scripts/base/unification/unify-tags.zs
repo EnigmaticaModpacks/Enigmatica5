@@ -629,6 +629,23 @@ var materials as MCTag[string][string] = {
         "crystal": <tag:forge:crystals/iesmium>,
     },
 
+    "coal": {
+        "nugget": <tag:forge:nuggets/coal>,
+        "ingot": <tag:forge:ingots/coal>,
+        "gem": <tag:forge:gems/coal>,
+        "storage_block": <tag:forge:storage_blocks/coal>,
+        "ore": <tag:forge:ores/coal>,
+        "ore_deposits": <tag:forge:ore_deposits/coal>,
+        "dust": <tag:forge:dusts/coal>,
+        "gear": <tag:forge:gears/coal>,
+        "plate": <tag:forge:plates/coal>,
+        "rod": <tag:forge:rods/coal>,
+        "dirty_dust": <tag:forge:dirty_dusts/coal>,
+        "clump": <tag:forge:clumps/coal>,
+        "shard": <tag:forge:shards/coal>,
+        "crystal": <tag:forge:crystals/coal>,
+    },
+
     "sulfur": {
         "storage_block": <tag:forge:storage_blocks/sulfur>,
         "dust": <tag:forge:dusts/sulfur>

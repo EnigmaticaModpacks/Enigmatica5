@@ -6,6 +6,7 @@ import crafttweaker.api.tag.MCTag;
 import crafttweaker.api.BracketHandlers;
 
 var materials as string[] = [
+    "coal",
     "iron",
     "gold",
     "neptunium",
@@ -50,6 +51,9 @@ var materials as string[] = [
 for material in materials {
     enigmatica_ore_deposit_processing(material);
     occultism_ore_ingot_crushing(material);
+    mekanism_ore_enriching(material);
+    mekanism_dirty_dust_enriching(material);
+    mekanism_ingot_crushing(material);
 }
 
 function enigmatica_ore_deposit_processing(material as string) as void {
@@ -184,4 +188,94 @@ function occultism_ore_ingot_crushing(material as string) as void {
     });
 
     logger.info("occultism_ore_ingot_crushing with " + material + " succesfully ran!");
+}
+
+function mekanism_ore_enriching(material as string) as void {
+    var ore_tag = BracketHandlers.getTag("forge:ores/" + material);
+    var dust_tag = BracketHandlers.getTag("forge:dusts/" + material);
+    
+    if (!ore_tag.isItemTag) {
+        return;
+    }
+
+    if (!dust_tag.isItemTag) {
+        return;
+    }
+
+    var ore = ore_tag.firstItem;
+    var dust = dust_tag.firstItem;
+
+    <recipetype:mekanism:enriching>.removeByName("mekanism:processing/" + material + "/dust/from_ore");
+    <recipetype:mekanism:enriching>.addJSONRecipe("processing/" + material + "/dust/from_ore",
+    {
+        input: {
+            ingredient: {
+                item: ore.registryName
+            }
+            
+        },
+        output: {
+            item: dust.registryName,
+            count: 2
+        }
+    });
+}
+
+function mekanism_dirty_dust_enriching(material as string) as void {
+    var dirty_dust_tag = BracketHandlers.getTag("mekanism:dirty_dusts/" + material);
+    var dust_tag = BracketHandlers.getTag("forge:dusts/" + material);
+    
+    if (!dirty_dust_tag.isItemTag) {
+        return;
+    }
+
+    if (!dust_tag.isItemTag) {
+        return;
+    }
+
+    var dirty_dust = dirty_dust_tag.firstItem;
+    var dust = dust_tag.firstItem;
+    <recipetype:mekanism:enriching>.removeByName("mekanism:processing/" + material + "/dust/from_dirty_dust");
+    <recipetype:mekanism:enriching>.addJSONRecipe("processing/" + material + "/dust/from_dirty_dust",
+    {
+        input: {
+            ingredient: {
+                item: dirty_dust.registryName
+            }
+            
+        },
+        output: {
+            item: dust.registryName
+        }
+    });
+}
+
+function mekanism_ingot_crushing(material as string) as void {
+    var ingot_tag = BracketHandlers.getTag("forge:ingots/" + material);
+    var dust_tag = BracketHandlers.getTag("forge:dusts/" + material);
+    
+    if (!ingot_tag.isItemTag) {
+        return;
+    }
+
+    if (!dust_tag.isItemTag) {
+        return;
+    }
+
+    var ingot = ingot_tag.firstItem;
+    var dust = dust_tag.firstItem;
+
+    <recipetype:mekanism:crushing>.removeByName("mekanism:processing/" + material + "/dust/from_ingot");
+    <recipetype:mekanism:crushing>.addJSONRecipe("processing/" + material + "/dust/from_ingot",
+    {
+        input: {
+            ingredient: {
+                item: ingot.registryName
+            }
+            
+        },
+        output: {
+            item: dust.registryName,
+        }
+    });
 }
