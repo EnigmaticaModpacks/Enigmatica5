@@ -254,17 +254,17 @@
         },
         {
             "key": "short_blade/lapis",
-            "durability": 120,
+            "durability": 100,
             "integrity": -1,
             "magicCapacity": 122,
-            "damage": 4,
-            "attackSpeed": 1.5,
+            "damage": 3,
+            "attackSpeed": 1.8,
             "glyph": {
                 "tint": "3327db",
                 "textureX": 32
             },
             "capabilities": {
-                "cut": [2, 0.7]
+                "cut": [2, 0.65]
             },
             "models": [
                 {

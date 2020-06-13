@@ -3,7 +3,7 @@
         {
             "key": "reinforced_fuller/mahogany",
             "durability": 41,
-            "integrity": 0,
+            "integrity": 1,
             "attackSpeed": -0.7,
             "effects": {
                 "unbreaking": 1
@@ -24,7 +24,7 @@
         {
             "key": "reinforced_fuller/jacaranda",
             "durability": 21,
-            "integrity": 0,
+            "integrity": 1,
             "attackSpeed": -0.7,
             "effects": {
                 "unbreaking": 1
@@ -45,7 +45,7 @@
         {
             "key": "reinforced_fuller/palm",
             "durability": 21,
-            "integrity": 0,
+            "integrity": 1,
             "attackSpeed": -0.7,
             "effects": {
                 "unbreaking": 1
@@ -66,7 +66,7 @@
         {
             "key": "reinforced_fuller/willow",
             "durability": 21,
-            "integrity": 0,
+            "integrity": 1,
             "attackSpeed": -0.7,
             "effects": {
                 "unbreaking": 1
@@ -87,7 +87,7 @@
         {
             "key": "reinforced_fuller/dead",
             "durability": 21,
-            "integrity": 0,
+            "integrity": 1,
             "attackSpeed": -0.7,
             "effects": {
                 "unbreaking": 1
@@ -108,7 +108,7 @@
         {
             "key": "reinforced_fuller/magic",
             "durability": 21,
-            "integrity": 0,
+            "integrity": 1,
             "attackSpeed": -0.7,
             "effects": {
                 "unbreaking": 1
@@ -129,7 +129,7 @@
         {
             "key": "reinforced_fuller/umbran",
             "durability": 21,
-            "integrity": 0,
+            "integrity": 1,
             "attackSpeed": -0.7,
             "effects": {
                 "unbreaking": 1
@@ -150,7 +150,7 @@
         {
             "key": "reinforced_fuller/hellbark",
             "durability": 21,
-            "integrity": 0,
+            "integrity": 1,
             "attackSpeed": -0.7,
             "effects": {
                 "unbreaking": 1
@@ -171,7 +171,7 @@
         {
             "key": "reinforced_fuller/ancient",
             "durability": 31,
-            "integrity": 0,
+            "integrity": 1,
             "attackSpeed": -0.7,
             "effects": {
                 "unbreaking": 1
@@ -192,7 +192,7 @@
         {
             "key": "reinforced_fuller/fir",
             "durability": 21,
-            "integrity": 0,
+            "integrity": 1,
             "attackSpeed": -0.7,
             "effects": {
                 "unbreaking": 1
@@ -213,7 +213,7 @@
         {
             "key": "reinforced_fuller/redwood",
             "durability": 21,
-            "integrity": 0,
+            "integrity": 1,
             "attackSpeed": -0.7,
             "effects": {
                 "unbreaking": 1
@@ -234,7 +234,7 @@
         {
             "key": "reinforced_fuller/cherry",
             "durability": 21,
-            "integrity": 0,
+            "integrity": 1,
             "attackSpeed": -0.7,
             "effects": {
                 "unbreaking": 1
@@ -254,9 +254,9 @@
         },
         {
             "key": "reinforced_fuller/lapis",
-            "durability": 65,
-            "integrity": -1,
-            "attackSpeed": -0.9,
+            "durability": 60,
+            "integrity": 2,
+            "attackSpeed": -0.85,
             "effects": {
                 "unbreaking": 1
             },
@@ -276,7 +276,7 @@
         {
             "key": "reinforced_fuller/osmium",
             "durability": 65,
-            "integrity": -1,
+            "integrity": 2,
             "attackSpeed": -0.9,
             "effects": {
                 "unbreaking": 1
@@ -297,7 +297,7 @@
         {
             "key": "reinforced_fuller/refined_glowstone",
             "durability": 122,
-            "integrity": -2,
+            "integrity": 2,
             "attackSpeed": -0.7,
             "effects": {
                 "unbreaking": 1
@@ -318,7 +318,7 @@
         {
             "key": "reinforced_fuller/refined_obsidian",
             "durability": 154,
-            "integrity": -3,
+            "integrity": 3,
             "attackSpeed": -1,
             "effects": {
                 "unbreaking": 1
@@ -339,7 +339,7 @@
         {
             "key": "reinforced_fuller/andesite_alloy",
             "durability": 65,
-            "integrity": 0,
+            "integrity": 2,
             "attackSpeed": -0.9,
             "effects": {
                 "unbreaking": 1
@@ -360,7 +360,7 @@
         {
             "key": "reinforced_fuller/zinc",
             "durability": 65,
-            "integrity": -1,
+            "integrity": 2,
             "attackSpeed": -0.9,
             "effects": {
                 "unbreaking": 1
@@ -381,7 +381,7 @@
         {
             "key": "reinforced_fuller/pink_slime",
             "durability": 65,
-            "integrity": -1,
+            "integrity": 2,
             "attackSpeed": -0.9,
             "effects": {
                 "unbreaking": 1
@@ -402,7 +402,7 @@
         {
             "key": "reinforced_fuller/iesnium",
             "durability": 65,
-            "integrity": -1,
+            "integrity": 2,
             "attackSpeed": -0.9,
             "effects": {
                 "unbreaking": 1
@@ -423,7 +423,7 @@
         {
             "key": "reinforced_fuller/treated_wood",
             "durability": 21,
-            "integrity": 0,
+            "integrity": 2,
             "attackSpeed": -0.7,
             "effects": {
                 "unbreaking": 1
@@ -444,7 +444,7 @@
         {
             "key": "reinforced_fuller/aluminum",
             "durability": 65,
-            "integrity": -1,
+            "integrity": 1,
             "attackSpeed": -0.9,
             "effects": {
                 "unbreaking": 1
@@ -465,7 +465,7 @@
         {
             "key": "reinforced_fuller/constantan",
             "durability": 65,
-            "integrity": -1,
+            "integrity": 2,
             "attackSpeed": -0.9,
             "effects": {
                 "unbreaking": 1
@@ -485,8 +485,8 @@
         },
         {
             "key": "reinforced_fuller/uranium",
-            "durability": 65,
-            "integrity": -1,
+            "durability": 655,
+            "integrity": 1,
             "attackSpeed": -0.9,
             "effects": {
                 "unbreaking": 1
@@ -507,7 +507,7 @@
         {
             "key": "reinforced_fuller/infused_iron",
             "durability": 65,
-            "integrity": -1,
+            "integrity": 2,
             "attackSpeed": -0.9,
             "effects": {
                 "unbreaking": 1
@@ -528,7 +528,7 @@
         {
             "key": "reinforced_fuller/sky",
             "durability": 98,
-            "integrity": -4,
+            "integrity": 3,
             "attackSpeed": -0.7,
             "effects": {
                 "unbreaking": 1
@@ -549,7 +549,7 @@
         {
             "key": "reinforced_fuller/manasteel",
             "durability": 65,
-            "integrity": -2,
+            "integrity": 2,
             "attackSpeed": -0.9,
             "effects": {
                 "unbreaking": 1
@@ -570,7 +570,7 @@
         {
             "key": "reinforced_fuller/elementium",
             "durability": 122,
-            "integrity": -3,
+            "integrity": 3,
             "attackSpeed": -0.7,
             "effects": {
                 "unbreaking": 1
@@ -591,7 +591,7 @@
         {
             "key": "reinforced_fuller/terrasteel",
             "durability": 98,
-            "integrity": -4,
+            "integrity": 4,
             "attackSpeed": -0.7,
             "effects": {
                 "unbreaking": 1
@@ -612,7 +612,7 @@
         {
             "key": "reinforced_fuller/gaia_spirit",
             "durability": 154,
-            "integrity": -5,
+            "integrity": 5,
             "attackSpeed": -1,
             "effects": {
                 "unbreaking": 1
@@ -633,7 +633,7 @@
         {
             "key": "reinforced_fuller/neptunium",
             "durability": 154,
-            "integrity": -4,
+            "integrity": 3,
             "attackSpeed": -1,
             "effects": {
                 "unbreaking": 1
@@ -654,7 +654,7 @@
         {
             "key": "reinforced_fuller/compressed_iron",
             "durability": 122,
-            "integrity": -1,
+            "integrity": 2,
             "attackSpeed": -0.7,
             "effects": {
                 "unbreaking": 1
@@ -675,7 +675,7 @@
         {
             "key": "reinforced_fuller/energized_steel",
             "durability": 122,
-            "integrity": -2,
+            "integrity": 2,
             "attackSpeed": -0.7,
             "effects": {
                 "unbreaking": 1
@@ -696,7 +696,7 @@
         {
             "key": "reinforced_fuller/niotic",
             "durability": 65,
-            "integrity": -2,
+            "integrity": 2,
             "attackSpeed": -0.9,
             "effects": {
                 "unbreaking": 1
@@ -717,7 +717,7 @@
         {
             "key": "reinforced_fuller/spirited",
             "durability": 154,
-            "integrity": -3,
+            "integrity": 3,
             "attackSpeed": -1,
             "effects": {
                 "unbreaking": 1
@@ -738,7 +738,7 @@
         {
             "key": "reinforced_fuller/nitro",
             "durability": 154,
-            "integrity": -4,
+            "integrity": 4,
             "attackSpeed": -1,
             "effects": {
                 "unbreaking": 1

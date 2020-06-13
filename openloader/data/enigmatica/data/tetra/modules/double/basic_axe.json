@@ -290,10 +290,10 @@
         },
         {
             "key": "basic_axe/lapis",
-            "durability": 193,
+            "durability": 175,
             "integrity": -1,
             "magicCapacity": 122,
-            "damage": 8,
+            "damage": 7,
             "attackSpeed": -0.7,
             "glyph": {
                 "tint": "3327db",
@@ -306,7 +306,7 @@
                 }
             ],
             "capabilities": {
-                "axe": [3, 6.6666667]
+                "axe": [3, 6.33333]
             },
             "effects": {
                 "stripping": 1

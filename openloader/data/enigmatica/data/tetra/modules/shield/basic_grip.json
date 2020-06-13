@@ -3,7 +3,7 @@
         {
             "key": "basic_grip/mahogany",
             "durability": 40,
-            "integrity": 0,
+            "integrity": 3,
             "magicCapacity": 88,
             "glyph": {
                 "tint": "e69963",
@@ -21,7 +21,7 @@
         {
             "key": "basic_grip/jacaranda",
             "durability": 20,
-            "integrity": 0,
+            "integrity": 2,
             "magicCapacity": 80,
             "glyph": {
                 "tint": "e6d4c8",
@@ -39,7 +39,7 @@
         {
             "key": "basic_grip/palm",
             "durability": 20,
-            "integrity": 0,
+            "integrity": 2,
             "magicCapacity": 80,
             "glyph": {
                 "tint": "db9d51",
@@ -57,7 +57,7 @@
         {
             "key": "basic_grip/willow",
             "durability": 20,
-            "integrity": 0,
+            "integrity": 2,
             "magicCapacity": 96,
             "glyph": {
                 "tint": "7bc78d",
@@ -75,7 +75,7 @@
         {
             "key": "basic_grip/dead",
             "durability": 20,
-            "integrity": 0,
+            "integrity": 1,
             "magicCapacity": 52,
             "glyph": {
                 "tint": "a1ada4",
@@ -93,7 +93,7 @@
         {
             "key": "basic_grip/magic",
             "durability": 20,
-            "integrity": 0,
+            "integrity": 3,
             "magicCapacity": 164,
             "glyph": {
                 "tint": "4567b0",
@@ -111,7 +111,7 @@
         {
             "key": "basic_grip/umbran",
             "durability": 20,
-            "integrity": 0,
+            "integrity": 3,
             "magicCapacity": 156,
             "glyph": {
                 "tint": "8768a6",
@@ -129,7 +129,7 @@
         {
             "key": "basic_grip/hellbark",
             "durability": 20,
-            "integrity": 0,
+            "integrity": 3,
             "magicCapacity": 156,
             "glyph": {
                 "tint": "544b5e",
@@ -147,7 +147,7 @@
         {
             "key": "basic_grip/ancient",
             "durability": 40,
-            "integrity": 0,
+            "integrity": 4,
             "magicCapacity": 176,
             "glyph": {
                 "tint": "84538c",
@@ -165,7 +165,7 @@
         {
             "key": "basic_grip/fir",
             "durability": 20,
-            "integrity": 0,
+            "integrity": 2,
             "magicCapacity": 88,
             "glyph": {
                 "tint": "8a817d",
@@ -183,7 +183,7 @@
         {
             "key": "basic_grip/redwood",
             "durability": 20,
-            "integrity": 0,
+            "integrity": 2,
             "magicCapacity": 88,
             "glyph": {
                 "tint": "96421d",
@@ -201,7 +201,7 @@
         {
             "key": "basic_grip/cherry",
             "durability": 20,
-            "integrity": 0,
+            "integrity": 3,
             "magicCapacity": 90,
             "glyph": {
                 "tint": "851d19",
@@ -218,8 +218,8 @@
         },
         {
             "key": "basic_grip/lapis",
-            "durability": 20,
-            "integrity": -1,
+            "durability": 10,
+            "integrity": 4,
             "magicCapacity": 122,
             "glyph": {
                 "tint": "3327db",
@@ -237,7 +237,7 @@
         {
             "key": "basic_grip/osmium",
             "durability": 20,
-            "integrity": -1,
+            "integrity": 5,
             "magicCapacity": 112,
             "glyph": {
                 "tint": "a7aed9",
@@ -255,7 +255,7 @@
         {
             "key": "basic_grip/refined_glowstone",
             "durability": 20,
-            "integrity": -2,
+            "integrity": 5,
             "magicCapacity": 154,
             "glyph": {
                 "tint": "eeff00",
@@ -273,7 +273,7 @@
         {
             "key": "basic_grip/refined_obsidian",
             "durability": 20,
-            "integrity": -3,
+            "integrity": 6,
             "magicCapacity": 168,
             "glyph": {
                 "tint": "6e1f9c",
@@ -291,7 +291,7 @@
         {
             "key": "basic_grip/andesite_alloy",
             "durability": 20,
-            "integrity": 0,
+            "integrity": 4,
             "magicCapacity": 108,
             "glyph": {
                 "tint": "a3adac",
@@ -309,7 +309,7 @@
         {
             "key": "basic_grip/zinc",
             "durability": 20,
-            "integrity": -1,
+            "integrity": 3,
             "magicCapacity": 86,
             "glyph": {
                 "tint": "e1e9f2",
@@ -327,7 +327,7 @@
         {
             "key": "basic_grip/pink_slime",
             "durability": 20,
-            "integrity": -1,
+            "integrity": 4,
             "magicCapacity": 108,
             "glyph": {
                 "tint": "df3ce8",
@@ -345,7 +345,7 @@
         {
             "key": "basic_grip/iesnium",
             "durability": 20,
-            "integrity": -1,
+            "integrity": 3,
             "magicCapacity": 168,
             "glyph": {
                 "tint": "aadef0",
@@ -363,7 +363,7 @@
         {
             "key": "basic_grip/treated_wood",
             "durability": 20,
-            "integrity": 0,
+            "integrity": 3,
             "magicCapacity": 118,
             "glyph": {
                 "tint": "8f380a",
@@ -381,7 +381,7 @@
         {
             "key": "basic_grip/aluminum",
             "durability": 20,
-            "integrity": -1,
+            "integrity": 3,
             "magicCapacity": 78,
             "glyph": {
                 "tint": "dce2e8",
@@ -399,7 +399,7 @@
         {
             "key": "basic_grip/constantan",
             "durability": 20,
-            "integrity": -1,
+            "integrity": 3,
             "magicCapacity": 110,
             "glyph": {
                 "tint": "d46326",
@@ -416,8 +416,8 @@
         },
         {
             "key": "basic_grip/uranium",
-            "durability": 20,
-            "integrity": -1,
+            "durability": 400,
+            "integrity": 1,
             "magicCapacity": 170,
             "glyph": {
                 "tint": "538a71",
@@ -435,7 +435,7 @@
         {
             "key": "basic_grip/infused_iron",
             "durability": 20,
-            "integrity": -1,
+            "integrity": 5,
             "magicCapacity": 158,
             "glyph": {
                 "tint": "8a117",
@@ -453,7 +453,7 @@
         {
             "key": "basic_grip/sky",
             "durability": 20,
-            "integrity": -4,
+            "integrity": 6,
             "magicCapacity": 178,
             "glyph": {
                 "tint": "78ffff",
@@ -471,7 +471,7 @@
         {
             "key": "basic_grip/manasteel",
             "durability": 20,
-            "integrity": -2,
+            "integrity": 5,
             "magicCapacity": 150,
             "glyph": {
                 "tint": "104bc2",
@@ -489,7 +489,7 @@
         {
             "key": "basic_grip/elementium",
             "durability": 20,
-            "integrity": -3,
+            "integrity": 6,
             "magicCapacity": 178,
             "glyph": {
                 "tint": "cb0be0",
@@ -507,7 +507,7 @@
         {
             "key": "basic_grip/terrasteel",
             "durability": 20,
-            "integrity": -4,
+            "integrity": 7,
             "magicCapacity": 192,
             "glyph": {
                 "tint": "8c71b",
@@ -525,7 +525,7 @@
         {
             "key": "basic_grip/gaia_spirit",
             "durability": 20,
-            "integrity": -5,
+            "integrity": 8,
             "magicCapacity": 208,
             "glyph": {
                 "tint": "80bdb9",
@@ -543,7 +543,7 @@
         {
             "key": "basic_grip/neptunium",
             "durability": 20,
-            "integrity": -4,
+            "integrity": 6,
             "magicCapacity": 158,
             "glyph": {
                 "tint": "2de0c2",
@@ -561,7 +561,7 @@
         {
             "key": "basic_grip/compressed_iron",
             "durability": 20,
-            "integrity": -1,
+            "integrity": 5,
             "magicCapacity": 112,
             "glyph": {
                 "tint": "5e6a6e",
@@ -579,7 +579,7 @@
         {
             "key": "basic_grip/energized_steel",
             "durability": 20,
-            "integrity": -2,
+            "integrity": 6,
             "magicCapacity": 108,
             "glyph": {
                 "tint": "dbd2a4",
@@ -597,7 +597,7 @@
         {
             "key": "basic_grip/niotic",
             "durability": 20,
-            "integrity": -2,
+            "integrity": 6,
             "magicCapacity": 108,
             "glyph": {
                 "tint": "1cc9e8",
@@ -615,7 +615,7 @@
         {
             "key": "basic_grip/spirited",
             "durability": 20,
-            "integrity": -3,
+            "integrity": 7,
             "magicCapacity": 108,
             "glyph": {
                 "tint": "13eb21",
@@ -633,7 +633,7 @@
         {
             "key": "basic_grip/nitro",
             "durability": 20,
-            "integrity": -4,
+            "integrity": 8,
             "magicCapacity": 108,
             "glyph": {
                 "tint": "d11608",

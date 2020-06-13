@@ -326,13 +326,13 @@
         },
         {
             "key": "stonecutter/lapis",
-            "durability": 300,
+            "durability": 270,
             "integrity": -1,
             "magicCapacity": 122,
             "damage": 3,
-            "attackSpeed": -1.6,
+            "attackSpeed": -1.65,
             "capabilities": {
-                "pickaxe": [2, 5]
+                "pickaxe": [2, 4.5]
             },
             "effects": {
                 "strikingPickaxe": 1,

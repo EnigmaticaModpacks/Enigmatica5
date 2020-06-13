@@ -302,7 +302,7 @@
         },
         {
             "key": "claw/lapis",
-            "durability": 125,
+            "durability": 115,
             "integrity": -1,
             "magicCapacity": 122,
             "damage": 1,
@@ -319,7 +319,7 @@
                 }
             ],
             "capabilities": {
-                "pry": [1, 3.4]
+                "pry": [1, 3.1]
             },
             "effects": {
                 "denailing": 1

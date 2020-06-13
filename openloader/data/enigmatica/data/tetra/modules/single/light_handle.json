@@ -3,7 +3,7 @@
         {
             "key": "light_handle/mahogany",
             "durability": 51,
-            "integrity": 0,
+            "integrity": 4,
             "magicCapacity": 88,
             "attackSpeed": -0.1,
             "effects": {
@@ -23,7 +23,7 @@
         {
             "key": "light_handle/jacaranda",
             "durability": 31,
-            "integrity": 0,
+            "integrity": 4,
             "magicCapacity": 80,
             "attackSpeed": -0.1,
             "effects": {
@@ -43,7 +43,7 @@
         {
             "key": "light_handle/palm",
             "durability": 31,
-            "integrity": 0,
+            "integrity": 4,
             "magicCapacity": 80,
             "attackSpeed": -0.1,
             "effects": {
@@ -63,7 +63,7 @@
         {
             "key": "light_handle/willow",
             "durability": 31,
-            "integrity": 0,
+            "integrity": 4,
             "magicCapacity": 96,
             "attackSpeed": -0.1,
             "effects": {
@@ -83,7 +83,7 @@
         {
             "key": "light_handle/dead",
             "durability": 31,
-            "integrity": 0,
+            "integrity": 3,
             "magicCapacity": 52,
             "attackSpeed": -0.1,
             "effects": {
@@ -103,7 +103,7 @@
         {
             "key": "light_handle/magic",
             "durability": 31,
-            "integrity": 0,
+            "integrity": 5,
             "magicCapacity": 164,
             "attackSpeed": -0.1,
             "effects": {
@@ -123,7 +123,7 @@
         {
             "key": "light_handle/umbran",
             "durability": 31,
-            "integrity": 0,
+            "integrity": 5,
             "magicCapacity": 156,
             "attackSpeed": -0.1,
             "effects": {
@@ -143,7 +143,7 @@
         {
             "key": "light_handle/hellbark",
             "durability": 31,
-            "integrity": 0,
+            "integrity": 4,
             "magicCapacity": 156,
             "attackSpeed": -0.1,
             "effects": {
@@ -163,7 +163,7 @@
         {
             "key": "light_handle/ancient",
             "durability": 61,
-            "integrity": 0,
+            "integrity": 5,
             "magicCapacity": 176,
             "attackSpeed": -0.1,
             "effects": {
@@ -183,7 +183,7 @@
         {
             "key": "light_handle/fir",
             "durability": 31,
-            "integrity": 0,
+            "integrity": 3,
             "magicCapacity": 88,
             "attackSpeed": -0.1,
             "effects": {
@@ -203,7 +203,7 @@
         {
             "key": "light_handle/redwood",
             "durability": 31,
-            "integrity": 0,
+            "integrity": 3,
             "magicCapacity": 88,
             "attackSpeed": -0.1,
             "effects": {
@@ -223,7 +223,7 @@
         {
             "key": "light_handle/cherry",
             "durability": 31,
-            "integrity": 0,
+            "integrity": 4,
             "magicCapacity": 90,
             "attackSpeed": -0.1,
             "effects": {
@@ -243,7 +243,7 @@
         {
             "key": "light_handle/lapis",
             "durability": 58,
-            "integrity": -1,
+            "integrity": 5,
             "magicCapacity": 122,
             "attackSpeed": -0.2,
             "effects": {
@@ -263,7 +263,7 @@
         {
             "key": "light_handle/osmium",
             "durability": 58,
-            "integrity": -1,
+            "integrity": 5,
             "magicCapacity": 112,
             "attackSpeed": -0.2,
             "effects": {
@@ -283,7 +283,7 @@
         {
             "key": "light_handle/refined_glowstone",
             "durability": 244,
-            "integrity": -2,
+            "integrity": 6,
             "magicCapacity": 154,
             "attackSpeed": -0.2,
             "effects": {
@@ -303,7 +303,7 @@
         {
             "key": "light_handle/refined_obsidian",
             "durability": 244,
-            "integrity": -3,
+            "integrity": 7,
             "magicCapacity": 168,
             "attackSpeed": -0.2,
             "effects": {
@@ -323,7 +323,7 @@
         {
             "key": "light_handle/andesite_alloy",
             "durability": 58,
-            "integrity": 0,
+            "integrity": 4,
             "magicCapacity": 108,
             "attackSpeed": -0.2,
             "effects": {
@@ -343,7 +343,7 @@
         {
             "key": "light_handle/zinc",
             "durability": 58,
-            "integrity": -1,
+            "integrity": 4,
             "magicCapacity": 86,
             "attackSpeed": -0.2,
             "effects": {
@@ -363,7 +363,7 @@
         {
             "key": "light_handle/pink_slime",
             "durability": 58,
-            "integrity": -1,
+            "integrity": 5,
             "magicCapacity": 108,
             "attackSpeed": -0.2,
             "effects": {
@@ -383,7 +383,7 @@
         {
             "key": "light_handle/iesnium",
             "durability": 58,
-            "integrity": -1,
+            "integrity": 5,
             "magicCapacity": 168,
             "attackSpeed": -0.2,
             "effects": {
@@ -403,7 +403,7 @@
         {
             "key": "light_handle/treated_wood",
             "durability": 31,
-            "integrity": 0,
+            "integrity": 4,
             "magicCapacity": 118,
             "attackSpeed": -0.1,
             "effects": {
@@ -423,7 +423,7 @@
         {
             "key": "light_handle/aluminum",
             "durability": 58,
-            "integrity": -1,
+            "integrity": 4,
             "magicCapacity": 78,
             "attackSpeed": -0.2,
             "effects": {
@@ -443,7 +443,7 @@
         {
             "key": "light_handle/constantan",
             "durability": 58,
-            "integrity": -1,
+            "integrity": 4,
             "magicCapacity": 110,
             "attackSpeed": -0.2,
             "effects": {
@@ -462,8 +462,8 @@
         },
         {
             "key": "light_handle/uranium",
-            "durability": 58,
-            "integrity": -1,
+            "durability": 700,
+            "integrity": 1,
             "magicCapacity": 170,
             "attackSpeed": -0.2,
             "effects": {
@@ -483,7 +483,7 @@
         {
             "key": "light_handle/infused_iron",
             "durability": 58,
-            "integrity": -1,
+            "integrity": 5,
             "magicCapacity": 158,
             "attackSpeed": -0.2,
             "effects": {
@@ -503,7 +503,7 @@
         {
             "key": "light_handle/sky",
             "durability": 244,
-            "integrity": -4,
+            "integrity": 6,
             "magicCapacity": 178,
             "attackSpeed": -0.2,
             "effects": {
@@ -523,7 +523,7 @@
         {
             "key": "light_handle/manasteel",
             "durability": 58,
-            "integrity": -2,
+            "integrity": 5,
             "magicCapacity": 150,
             "attackSpeed": -0.2,
             "effects": {
@@ -543,7 +543,7 @@
         {
             "key": "light_handle/elementium",
             "durability": 244,
-            "integrity": -3,
+            "integrity": 6,
             "magicCapacity": 178,
             "attackSpeed": -0.2,
             "effects": {
@@ -563,7 +563,7 @@
         {
             "key": "light_handle/terrasteel",
             "durability": 244,
-            "integrity": -4,
+            "integrity": 7,
             "magicCapacity": 192,
             "attackSpeed": -0.2,
             "effects": {
@@ -583,7 +583,7 @@
         {
             "key": "light_handle/gaia_spirit",
             "durability": 244,
-            "integrity": -5,
+            "integrity": 8,
             "magicCapacity": 208,
             "attackSpeed": -0.2,
             "effects": {
@@ -603,7 +603,7 @@
         {
             "key": "light_handle/neptunium",
             "durability": 244,
-            "integrity": -4,
+            "integrity": 6,
             "magicCapacity": 158,
             "attackSpeed": -0.2,
             "effects": {
@@ -623,7 +623,7 @@
         {
             "key": "light_handle/compressed_iron",
             "durability": 244,
-            "integrity": -1,
+            "integrity": 5,
             "magicCapacity": 112,
             "attackSpeed": -0.2,
             "effects": {
@@ -643,7 +643,7 @@
         {
             "key": "light_handle/energized_steel",
             "durability": 244,
-            "integrity": -2,
+            "integrity": 5,
             "magicCapacity": 108,
             "attackSpeed": -0.2,
             "effects": {
@@ -663,7 +663,7 @@
         {
             "key": "light_handle/niotic",
             "durability": 58,
-            "integrity": -2,
+            "integrity": 6,
             "magicCapacity": 108,
             "attackSpeed": -0.2,
             "effects": {
@@ -683,7 +683,7 @@
         {
             "key": "light_handle/spirited",
             "durability": 244,
-            "integrity": -3,
+            "integrity": 7,
             "magicCapacity": 108,
             "attackSpeed": -0.2,
             "effects": {
@@ -703,7 +703,7 @@
         {
             "key": "light_handle/nitro",
             "durability": 244,
-            "integrity": -4,
+            "integrity": 8,
             "magicCapacity": 108,
             "attackSpeed": -0.2,
             "effects": {

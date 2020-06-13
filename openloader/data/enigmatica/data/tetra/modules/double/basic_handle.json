@@ -3,7 +3,7 @@
         {
             "key": "basic_handle/mahogany",
             "durability": 51,
-            "integrity": 0,
+            "integrity": 5,
             "magicCapacity": 88,
             "attackSpeed": -0.1,
             "glyph": {
@@ -20,7 +20,7 @@
         {
             "key": "basic_handle/jacaranda",
             "durability": 31,
-            "integrity": 0,
+            "integrity": 4,
             "magicCapacity": 80,
             "attackSpeed": -0.1,
             "glyph": {
@@ -37,7 +37,7 @@
         {
             "key": "basic_handle/palm",
             "durability": 31,
-            "integrity": 0,
+            "integrity": 5,
             "magicCapacity": 80,
             "attackSpeed": -0.1,
             "glyph": {
@@ -54,7 +54,7 @@
         {
             "key": "basic_handle/willow",
             "durability": 31,
-            "integrity": 0,
+            "integrity": 4,
             "magicCapacity": 96,
             "attackSpeed": -0.1,
             "glyph": {
@@ -71,7 +71,7 @@
         {
             "key": "basic_handle/dead",
             "durability": 31,
-            "integrity": 0,
+            "integrity": 4,
             "magicCapacity": 52,
             "attackSpeed": -0.1,
             "glyph": {
@@ -88,7 +88,7 @@
         {
             "key": "basic_handle/magic",
             "durability": 31,
-            "integrity": 0,
+            "integrity": 6,
             "magicCapacity": 164,
             "attackSpeed": -0.1,
             "glyph": {
@@ -105,7 +105,7 @@
         {
             "key": "basic_handle/umbran",
             "durability": 31,
-            "integrity": 0,
+            "integrity": 6,
             "magicCapacity": 156,
             "attackSpeed": -0.1,
             "glyph": {
@@ -122,7 +122,7 @@
         {
             "key": "basic_handle/hellbark",
             "durability": 31,
-            "integrity": 0,
+            "integrity": 6,
             "magicCapacity": 156,
             "attackSpeed": -0.1,
             "glyph": {
@@ -139,7 +139,7 @@
         {
             "key": "basic_handle/ancient",
             "durability": 61,
-            "integrity": 0,
+            "integrity": 7,
             "magicCapacity": 176,
             "attackSpeed": -0.1,
             "glyph": {
@@ -156,7 +156,7 @@
         {
             "key": "basic_handle/fir",
             "durability": 31,
-            "integrity": 0,
+            "integrity": 4,
             "magicCapacity": 88,
             "attackSpeed": -0.1,
             "glyph": {
@@ -173,7 +173,7 @@
         {
             "key": "basic_handle/redwood",
             "durability": 31,
-            "integrity": 0,
+            "integrity": 4,
             "magicCapacity": 88,
             "attackSpeed": -0.1,
             "glyph": {
@@ -190,7 +190,7 @@
         {
             "key": "basic_handle/cherry",
             "durability": 31,
-            "integrity": 0,
+            "integrity": 5,
             "magicCapacity": 90,
             "attackSpeed": -0.1,
             "glyph": {
@@ -206,10 +206,10 @@
         },
         {
             "key": "basic_handle/lapis",
-            "durability": 58,
-            "integrity": -1,
+            "durability": 48,
+            "integrity": 5,
             "magicCapacity": 122,
-            "attackSpeed": -0.2,
+            "attackSpeed": -0.25,
             "glyph": {
                 "tint": "3327db",
                 "textureX": 16
@@ -224,7 +224,7 @@
         {
             "key": "basic_handle/osmium",
             "durability": 58,
-            "integrity": -1,
+            "integrity": 5,
             "magicCapacity": 112,
             "attackSpeed": -0.2,
             "glyph": {
@@ -241,7 +241,7 @@
         {
             "key": "basic_handle/refined_glowstone",
             "durability": 244,
-            "integrity": -2,
+            "integrity": 6,
             "magicCapacity": 154,
             "attackSpeed": -0.2,
             "glyph": {
@@ -258,7 +258,7 @@
         {
             "key": "basic_handle/refined_obsidian",
             "durability": 244,
-            "integrity": -3,
+            "integrity": 7,
             "magicCapacity": 168,
             "attackSpeed": -0.2,
             "glyph": {
@@ -275,7 +275,7 @@
         {
             "key": "basic_handle/andesite_alloy",
             "durability": 58,
-            "integrity": 0,
+            "integrity": 6,
             "magicCapacity": 108,
             "attackSpeed": -0.2,
             "glyph": {
@@ -292,7 +292,7 @@
         {
             "key": "basic_handle/zinc",
             "durability": 58,
-            "integrity": -1,
+            "integrity": 4,
             "magicCapacity": 86,
             "attackSpeed": -0.2,
             "glyph": {
@@ -309,7 +309,7 @@
         {
             "key": "basic_handle/pink_slime",
             "durability": 58,
-            "integrity": -1,
+            "integrity": 6,
             "magicCapacity": 108,
             "attackSpeed": -0.2,
             "glyph": {
@@ -326,7 +326,7 @@
         {
             "key": "basic_handle/iesnium",
             "durability": 58,
-            "integrity": -1,
+            "integrity": 6,
             "magicCapacity": 168,
             "attackSpeed": -0.2,
             "glyph": {
@@ -341,26 +341,9 @@
             ]
         },
         {
-            "key": "basic_handle/treated_wood",
-            "durability": 31,
-            "integrity": 0,
-            "magicCapacity": 118,
-            "attackSpeed": -0.1,
-            "glyph": {
-                "tint": "8f380a",
-                "textureX": 16
-            },
-            "models": [
-                {
-                    "location": "tetra:items/module/double/handle/basic/default",
-                    "tint": "8f380a"
-                }
-            ]
-        },
-        {
             "key": "basic_handle/aluminum",
             "durability": 58,
-            "integrity": -1,
+            "integrity": 4,
             "magicCapacity": 78,
             "attackSpeed": -0.2,
             "glyph": {
@@ -377,7 +360,7 @@
         {
             "key": "basic_handle/constantan",
             "durability": 58,
-            "integrity": -1,
+            "integrity": 5,
             "magicCapacity": 110,
             "attackSpeed": -0.2,
             "glyph": {
@@ -393,10 +376,10 @@
         },
         {
             "key": "basic_handle/uranium",
-            "durability": 58,
-            "integrity": -1,
+            "durability": 558,
+            "integrity": 2,
             "magicCapacity": 170,
-            "attackSpeed": -0.2,
+            "attackSpeed": -0.4,
             "glyph": {
                 "tint": "538a71",
                 "textureX": 16
@@ -411,7 +394,7 @@
         {
             "key": "basic_handle/infused_iron",
             "durability": 58,
-            "integrity": -1,
+            "integrity": 5,
             "magicCapacity": 158,
             "attackSpeed": -0.2,
             "glyph": {
@@ -428,7 +411,7 @@
         {
             "key": "basic_handle/sky",
             "durability": 244,
-            "integrity": -4,
+            "integrity": 6,
             "magicCapacity": 178,
             "attackSpeed": -0.2,
             "glyph": {
@@ -445,7 +428,7 @@
         {
             "key": "basic_handle/manasteel",
             "durability": 58,
-            "integrity": -2,
+            "integrity": 5,
             "magicCapacity": 150,
             "attackSpeed": -0.2,
             "glyph": {
@@ -462,7 +445,7 @@
         {
             "key": "basic_handle/elementium",
             "durability": 244,
-            "integrity": -3,
+            "integrity": 6,
             "magicCapacity": 178,
             "attackSpeed": -0.2,
             "glyph": {
@@ -479,7 +462,7 @@
         {
             "key": "basic_handle/terrasteel",
             "durability": 244,
-            "integrity": -4,
+            "integrity": 7,
             "magicCapacity": 192,
             "attackSpeed": -0.2,
             "glyph": {
@@ -496,7 +479,7 @@
         {
             "key": "basic_handle/gaia_spirit",
             "durability": 244,
-            "integrity": -5,
+            "integrity": 8,
             "magicCapacity": 208,
             "attackSpeed": -0.2,
             "glyph": {
@@ -513,7 +496,7 @@
         {
             "key": "basic_handle/neptunium",
             "durability": 244,
-            "integrity": -4,
+            "integrity": 6,
             "magicCapacity": 158,
             "attackSpeed": -0.2,
             "glyph": {
@@ -530,7 +513,7 @@
         {
             "key": "basic_handle/compressed_iron",
             "durability": 244,
-            "integrity": -1,
+            "integrity": 5,
             "magicCapacity": 112,
             "attackSpeed": -0.2,
             "glyph": {
@@ -547,7 +530,7 @@
         {
             "key": "basic_handle/energized_steel",
             "durability": 244,
-            "integrity": -2,
+            "integrity": 5,
             "magicCapacity": 108,
             "attackSpeed": -0.2,
             "glyph": {
@@ -564,7 +547,7 @@
         {
             "key": "basic_handle/niotic",
             "durability": 58,
-            "integrity": -2,
+            "integrity": 6,
             "magicCapacity": 108,
             "attackSpeed": -0.2,
             "glyph": {
@@ -581,7 +564,7 @@
         {
             "key": "basic_handle/spirited",
             "durability": 244,
-            "integrity": -3,
+            "integrity": 7,
             "magicCapacity": 108,
             "attackSpeed": -0.2,
             "glyph": {
@@ -598,7 +581,7 @@
         {
             "key": "basic_handle/nitro",
             "durability": 244,
-            "integrity": -4,
+            "integrity": 8,
             "magicCapacity": 108,
             "attackSpeed": -0.2,
             "glyph": {

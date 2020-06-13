@@ -3,7 +3,7 @@
         {
             "key": "basic_hilt/mahogany",
             "durability": 37,
-            "integrity": 0,
+            "integrity": 4,
             "magicCapacity": 88,
             "attackSpeed": 0.35,
             "glyph": {
@@ -20,7 +20,7 @@
         {
             "key": "basic_hilt/jacaranda",
             "durability": 17,
-            "integrity": 0,
+            "integrity": 4,
             "magicCapacity": 80,
             "attackSpeed": 0.35,
             "glyph": {
@@ -37,7 +37,7 @@
         {
             "key": "basic_hilt/palm",
             "durability": 17,
-            "integrity": 0,
+            "integrity": 4,
             "magicCapacity": 80,
             "attackSpeed": 0.35,
             "glyph": {
@@ -54,7 +54,7 @@
         {
             "key": "basic_hilt/willow",
             "durability": 17,
-            "integrity": 0,
+            "integrity": 4,
             "magicCapacity": 96,
             "attackSpeed": 0.35,
             "glyph": {
@@ -71,7 +71,7 @@
         {
             "key": "basic_hilt/dead",
             "durability": 17,
-            "integrity": 0,
+            "integrity": 3,
             "magicCapacity": 52,
             "attackSpeed": 0.35,
             "glyph": {
@@ -88,7 +88,7 @@
         {
             "key": "basic_hilt/magic",
             "durability": 17,
-            "integrity": 0,
+            "integrity": 5,
             "magicCapacity": 164,
             "attackSpeed": 0.35,
             "glyph": {
@@ -105,7 +105,7 @@
         {
             "key": "basic_hilt/umbran",
             "durability": 17,
-            "integrity": 0,
+            "integrity": 5,
             "magicCapacity": 156,
             "attackSpeed": 0.35,
             "glyph": {
@@ -122,7 +122,7 @@
         {
             "key": "basic_hilt/hellbark",
             "durability": 17,
-            "integrity": 0,
+            "integrity": 4,
             "magicCapacity": 156,
             "attackSpeed": 0.35,
             "glyph": {
@@ -139,7 +139,7 @@
         {
             "key": "basic_hilt/ancient",
             "durability": 37,
-            "integrity": 0,
+            "integrity": 6,
             "magicCapacity": 176,
             "attackSpeed": 0.4,
             "glyph": {
@@ -156,7 +156,7 @@
         {
             "key": "basic_hilt/fir",
             "durability": 17,
-            "integrity": 0,
+            "integrity": 4,
             "magicCapacity": 88,
             "attackSpeed": 0.35,
             "glyph": {
@@ -173,7 +173,7 @@
         {
             "key": "basic_hilt/redwood",
             "durability": 17,
-            "integrity": 0,
+            "integrity": 4,
             "magicCapacity": 88,
             "attackSpeed": 0.35,
             "glyph": {
@@ -190,7 +190,7 @@
         {
             "key": "basic_hilt/cherry",
             "durability": 17,
-            "integrity": 0,
+            "integrity": 4,
             "magicCapacity": 90,
             "attackSpeed": 0.35,
             "glyph": {
@@ -207,7 +207,7 @@
         {
             "key": "basic_hilt/lapis",
             "durability": 32,
-            "integrity": -1,
+            "integrity": 4,
             "magicCapacity": 122,
             "attackSpeed": 0.25,
             "glyph": {
@@ -224,7 +224,7 @@
         {
             "key": "basic_hilt/osmium",
             "durability": 32,
-            "integrity": -1,
+            "integrity": 5,
             "magicCapacity": 112,
             "attackSpeed": 0.25,
             "glyph": {
@@ -241,7 +241,7 @@
         {
             "key": "basic_hilt/refined_glowstone",
             "durability": 64,
-            "integrity": -2,
+            "integrity": 6,
             "magicCapacity": 154,
             "attackSpeed": 0.2,
             "glyph": {
@@ -258,7 +258,7 @@
         {
             "key": "basic_hilt/refined_obsidian",
             "durability": 64,
-            "integrity": -3,
+            "integrity": 7,
             "magicCapacity": 168,
             "attackSpeed": 0.2,
             "glyph": {
@@ -275,7 +275,7 @@
         {
             "key": "basic_hilt/andesite_alloy",
             "durability": 32,
-            "integrity": 0,
+            "integrity": 5,
             "magicCapacity": 108,
             "attackSpeed": 0.25,
             "glyph": {
@@ -292,7 +292,7 @@
         {
             "key": "basic_hilt/zinc",
             "durability": 32,
-            "integrity": -1,
+            "integrity": 4,
             "magicCapacity": 86,
             "attackSpeed": 0.25,
             "glyph": {
@@ -309,7 +309,7 @@
         {
             "key": "basic_hilt/pink_slime",
             "durability": 32,
-            "integrity": -1,
+            "integrity": 5,
             "magicCapacity": 108,
             "attackSpeed": 0.25,
             "glyph": {
@@ -326,7 +326,7 @@
         {
             "key": "basic_hilt/iesnium",
             "durability": 32,
-            "integrity": -1,
+            "integrity": 5,
             "magicCapacity": 168,
             "attackSpeed": 0.25,
             "glyph": {
@@ -343,7 +343,7 @@
         {
             "key": "basic_hilt/treated_wood",
             "durability": 17,
-            "integrity": 0,
+            "integrity": 5,
             "magicCapacity": 118,
             "attackSpeed": 0.35,
             "glyph": {
@@ -360,7 +360,7 @@
         {
             "key": "basic_hilt/aluminum",
             "durability": 32,
-            "integrity": -1,
+            "integrity": 4,
             "magicCapacity": 78,
             "attackSpeed": 0.25,
             "glyph": {
@@ -377,7 +377,7 @@
         {
             "key": "basic_hilt/constantan",
             "durability": 32,
-            "integrity": -1,
+            "integrity": 5,
             "magicCapacity": 110,
             "attackSpeed": 0.25,
             "glyph": {
@@ -393,8 +393,8 @@
         },
         {
             "key": "basic_hilt/uranium",
-            "durability": 32,
-            "integrity": -1,
+            "durability": 750,
+            "integrity": 1,
             "magicCapacity": 170,
             "attackSpeed": 0.25,
             "glyph": {
@@ -411,7 +411,7 @@
         {
             "key": "basic_hilt/infused_iron",
             "durability": 32,
-            "integrity": -1,
+            "integrity": 6,
             "magicCapacity": 158,
             "attackSpeed": 0.25,
             "glyph": {
@@ -428,7 +428,7 @@
         {
             "key": "basic_hilt/sky",
             "durability": 64,
-            "integrity": -4,
+            "integrity": 7,
             "magicCapacity": 178,
             "attackSpeed": 0.2,
             "glyph": {
@@ -445,7 +445,7 @@
         {
             "key": "basic_hilt/manasteel",
             "durability": 32,
-            "integrity": -2,
+            "integrity": 5,
             "magicCapacity": 150,
             "attackSpeed": 0.25,
             "glyph": {
@@ -462,7 +462,7 @@
         {
             "key": "basic_hilt/elementium",
             "durability": 64,
-            "integrity": -3,
+            "integrity": 6,
             "magicCapacity": 178,
             "attackSpeed": 0.2,
             "glyph": {
@@ -479,7 +479,7 @@
         {
             "key": "basic_hilt/terrasteel",
             "durability": 64,
-            "integrity": -4,
+            "integrity": 7,
             "magicCapacity": 192,
             "attackSpeed": 0.2,
             "glyph": {
@@ -496,7 +496,7 @@
         {
             "key": "basic_hilt/gaia_spirit",
             "durability": 64,
-            "integrity": -5,
+            "integrity": 8,
             "magicCapacity": 208,
             "attackSpeed": 0.2,
             "glyph": {
@@ -513,7 +513,7 @@
         {
             "key": "basic_hilt/neptunium",
             "durability": 64,
-            "integrity": -4,
+            "integrity": 6,
             "magicCapacity": 158,
             "attackSpeed": 0.2,
             "glyph": {
@@ -530,7 +530,7 @@
         {
             "key": "basic_hilt/compressed_iron",
             "durability": 64,
-            "integrity": -1,
+            "integrity": 5,
             "magicCapacity": 112,
             "attackSpeed": 0.2,
             "glyph": {
@@ -547,7 +547,7 @@
         {
             "key": "basic_hilt/energized_steel",
             "durability": 64,
-            "integrity": -2,
+            "integrity": 5,
             "magicCapacity": 108,
             "attackSpeed": 0.2,
             "glyph": {
@@ -564,7 +564,7 @@
         {
             "key": "basic_hilt/niotic",
             "durability": 32,
-            "integrity": -2,
+            "integrity": 6,
             "magicCapacity": 108,
             "attackSpeed": 0.25,
             "glyph": {
@@ -581,7 +581,7 @@
         {
             "key": "basic_hilt/spirited",
             "durability": 64,
-            "integrity": -3,
+            "integrity": 7,
             "magicCapacity": 108,
             "attackSpeed": 0.2,
             "glyph": {
@@ -598,7 +598,7 @@
         {
             "key": "basic_hilt/nitro",
             "durability": 64,
-            "integrity": -4,
+            "integrity": 8,
             "magicCapacity": 108,
             "attackSpeed": 0.2,
             "glyph": {

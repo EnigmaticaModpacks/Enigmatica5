@@ -254,10 +254,10 @@
         },
         {
             "key": "basic_hammer/lapis",
-            "durability": 300,
+            "durability": 280,
             "integrity": -1,
             "magicCapacity": 122,
-            "damage": 7,
+            "damage": 6,
             "attackSpeed": -0.45,
             "glyph": {
                 "tint": "3327db",
@@ -270,7 +270,7 @@
                 }
             ],
             "capabilities": {
-                "hammer": [2, 10]
+                "hammer": [2, 9]
             }
         },
         {

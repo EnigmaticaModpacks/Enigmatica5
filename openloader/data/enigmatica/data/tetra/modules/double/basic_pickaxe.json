@@ -254,7 +254,7 @@
         },
         {
             "key": "basic_pickaxe/lapis",
-            "durability": 115,
+            "durability": 100,
             "integrity": -1,
             "magicCapacity": 122,
             "damage": 3,
@@ -270,7 +270,7 @@
                 }
             ],
             "capabilities": {
-                "pickaxe": [2, 5]
+                "pickaxe": [2, 4.6]
             }
         },
         {
