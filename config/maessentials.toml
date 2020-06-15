@@ -80,6 +80,10 @@
 		#Range: > 1
 		limit_op = 5
 
+	[Commands.hat]
+		#Enable command: /hat
+		enable = true
+
 	[Commands.up]
 		#Enable command: /up
 		enable = false
