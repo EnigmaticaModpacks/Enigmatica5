@@ -141,6 +141,21 @@ function enigmatica_ore_deposit_processing(material as string) as void {
 }
 
 function occultism_ore_ingot_crushing(material as string) as void {
+    var blacklistedMaterials as string[] = [
+        "redstone",
+        "lapis", 
+        "emerald",
+        "diamond", 
+        "quartz",
+        "coal"
+    ];
+
+    for blacklistedMaterial in blacklistedMaterials {
+        if (blacklistedMaterial == material) {
+            return;
+        }
+    }
+    
     var ore_tag = BracketHandlers.getTag("forge:ores/" + material);
     var dust_tag = BracketHandlers.getTag("forge:dusts/" + material);
     var ingot_tag = BracketHandlers.getTag("forge:ingots/" + material);
@@ -191,6 +206,21 @@ function occultism_ore_ingot_crushing(material as string) as void {
 }
 
 function mekanism_ore_enriching(material as string) as void {
+    var blacklistedMaterials as string[] = [
+        "redstone",
+        "lapis", 
+        "emerald",
+        "diamond", 
+        "quartz",
+        "coal"
+    ];
+
+    for blacklistedMaterial in blacklistedMaterials {
+        if (blacklistedMaterial == material) {
+            return;
+        }
+    }
+
     var ore_tag = BracketHandlers.getTag("forge:ores/" + material);
     var dust_tag = BracketHandlers.getTag("forge:dusts/" + material);
     
