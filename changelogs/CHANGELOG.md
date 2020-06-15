@@ -1,3 +1,33 @@
+## Enigmatica 5 v0.5.0
+
+**This version has a lot of major changes, it is recommended that you start in a new world.**
+
+_Using Forge-1.15.2-31.2.9_ | _[Mod Updates](https://github.com/NillerMedDild/Enigmatica5/blob/master/changelogs/CHANGELOG_MODS_0.5.0.txt)_
+
+**Mod Additions**
+
+- 
+
+**Changes**
+
+- 
+
+**Mod Removals**
+
+*In an effort to keep load times low (ish), a few mods are being removed in favor of new ones.*
+
+- Camera
+- Ma Enchants
+- Respawnable Pets
+- Ring of Attraction
+- Silent's Mechanisms
+- Ultra Amplified Dimension
+- VanillaThings
+
+**Bug Fixes**
+
+* 
+
 ## Enigmatica 5 v0.4.15
 
 **Note: The mod Double Slabs that allows two different slabs to be within the same block has been removed in this update, any Double Slabs consisting of two different slabs will be removed by updating.**
