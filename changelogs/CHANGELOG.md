@@ -1,6 +1,6 @@
 ## Enigmatica 5 v0.5.0
 
-**This version has major changes, it is recommended that you start in a new world.**
+**This version has major changes, it is recommended that you start in a new world, and a fresh install/new profile**
 
 _Using Forge-1.15.2-31.2.20_ | _[Mod Updates](https://github.com/NillerMedDild/Enigmatica5/blob/master/changelogs/CHANGELOG_MODS_0.5.0.txt)_
 
