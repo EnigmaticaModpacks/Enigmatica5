@@ -1,0 +1,471 @@
+========================================
+Enigmatica5 0.4.15 --> Enigmatica5 0.5.0
+========================================
+
+Added:
+- Dyeable Flower Pots
+- Immersive Engineering
+- OldJavaWarning
+
+Updated:
+	Botania (Botania-r1.15-384.jar --> Botania-r1.15-385.jar):
+		Botania-r1.15-385.jar:
+			See [https://botaniamod.net/changelog.php]()
+
+	Bountiful (Bountiful-1.15.2-3.1.1.jar --> Bountiful-1.15.2-3.1.2.jar):
+		Bountiful-1.15.2-3.1.2.jar:
+			Bountiful v3.1.2 update
+			Requires [Kottle](https://www.curseforge.com/minecraft/mc-mods/kottle) to work.
+			Changelog can be [viewed here!](https://github.com/ejektaflex/Bountiful/blob/develop/CHANGELOG.md)
+
+	Caelus API (caelus-FORGE-1.15.2-2.0-beta2.jar --> caelus-FORGE-1.15.2-2.0-beta3.jar):
+		caelus-FORGE-1.15.2-2.0-beta3.jar:
+			Changelog
+			All notable changes to this project will be documented in this file.
+			The format is based on [Keep a Changelog]() and this project does not adhere to [Semantic Versioning](). This project uses MCVERSION-MAJORMOD.MAJORAPI.MINOR.PATCH.
+			[2.0-beta3] - 2020.06.11
+			Fixed
+			* Fixed cape and elytra mixed rendering [#5](https://github.com/TheIllusiveC4/Caelus/issues/5)
+			[2.0-beta2] - 2020.04.18
+			Changed
+			* Simple Takeoff can trigger fireworks mid-flight
+			* Removed restriction on Elytra trigger to match 1.15 Elytra changes [#4](https://github.com/TheIllusiveC4/Caelus/issues/4)
+			[2.0-beta1] - 2020.02.11
+			Added
+			* [API] CaelusAPI#getElytraRender to retrieve the current render state of the elytra on the entity
+			* [API] Added IMC processing for elytra render state, identifier is "elytraRender"/CaelusAPI.IMC.ELYTRA_RENDER and it should supply a Function<LivingEntity,ElytraRender> object
+			Changed
+			* Ported to 1.15.2 Forge
+			Removed
+			* Removed RenderElytraEvent in favor of a simpler IMC method for processing render state
+
+	Create (Archived file --> Create - mc1.15.2_v0.2.4d):
+		Create - mc1.15.2_v0.2.4d:
+			Create v0.2.4d for Minecraft 1.15.2
+			More tiny bugfixes; we appreciate the reports!
+			Changes
+			* Cart assemblers now have several behaviours depending on the rail type they were placed on
+			Fixes
+			* Fixed dedicated server crash when using the Schematicannon
+			* Fixed blockzappers placing waterlogged blocks
+			* Updated chinese localization
+			* Added missing recipe for Dark Scoria
+			Please submit any Issues you come across on the [Issue Tracker](https://github.com/Creators-of-Create/Create/issues).
+
+	DefaultSettings (DefaultSettings-1.15.2-2.1.9 --> DefaultSettings-1.14.x-1.15.2-2.1.14):
+		DefaultSettings-1.14.x-1.15.2-2.1.14:
+			Updates:
+			* Revamped rendering engine to substantially improve performance
+			+ Added a new mechanism to decrease rendering load on low-end machines
+
+	Engineer's Decor (engineersdecor-1.15.2-1.1.0-b1.jar --> engineersdecor-1.15.2-1.1.0-b2.jar):
+		engineersdecor-1.15.2-1.1.0-b2.jar:
+			* v1.1.0-b2   [A] Added tooltips for buttons/settings in device GUIs (1.5s display delay).
+			[U] Updated Forge/Mappings.
+			* v1.1.0-b1   [F] Fixed Electrical Furnace speed sanitizing bug (issue #97, thx therobotmenace).
+			[A] IE Sheet Metal Slab Slices added (only available if IE is installed).
+			[M] Config options extended/updated.
+			[M] GUI models updated to circumvent too dark representations.
+			[M] Dense Grit Sand textures altered to get slightly more visible structure
+			from distance.
+			* v1.0.20-b7  [A] Dense Grit Sand added.
+			[!] Variant Slab compatibility fix. *This may alter placed slabs of this mod,
+			data fixers don't work yet unfortunately*.
+			* v1.0.20-b6  [M] Slab Slice placement improved.
+			[M] Quite some naming/refractoring under the hood.
+			* v1.0.20-b5  [A] Electrical Furnace can draw in smelting input items from an adjacent inventory when a
+			Hopper is placed in the auxiliary slot.
+			[M] Wrapped Labeled Crate label slot to prevent sorting mods from altering the label.
+			* v1.0.20-b4  [F] Fixed Mineral Smelter fluid voiding on external draining (issue #92, thx papaworld, pupnewfster).
+			* v1.0.20-b3  [M] Labeled Crate: GUI quick-move-all (ctrl-shift click) smart move tweaked, Manual page added.
+			[F] Fixed IE ingredients based default recipes for Factory Dropper and Small Electrical Furnace.
+			[M] Factory Hopper: GUI quick-move-all added.
+			[M] Code structure, simplifications, cap invalidation fixes.
+			[M] Valves: Removed performance caching for testing purposes.
+			* v1.0.20-b2  [A] Added Labeled Crate (storage crate with built-in item frame).
+			* v1.0.20-b1  [A] Electrical Furnace: Added four-position speed switch (off, 100%, 150%, 200%), power consumption
+			increases at higher rate (off, 100%, 200%, 400%).
+			[A] Added Steel Mesh Fence Gate (single or double height gate fitting to the Steel Mesh Fence).
+			[M] Waste Incinerator processing speed tweaked.
+			[F] Fixed steel table visual glitch (thx Urbanxx001).
+			[M] MCP/Forge mappings updated.
+			* v1.0.19-b5  [A] Added right-click display of power and progress information for Block Breaker, Solar Panel, and Tree Cutter.
+			[A] Solar Panel power curve tuned.
+			[A] Mod manual 1st edition release recipe added.
+			[A] Factory Hopper: Resetting NBT when breaking with empty inventory (for stacking), enabled item cap for all sides.
+			[M] Electrical Furnace model polished.
+			* v1.0.19-b4  [A] Ported primary Immersive Engineering dependent recipes (alternative recipes
+			will still work if IE is not installed).
+			[F] Blacklisted Treated Wood Crafting Table in inventorysorter mod (issue #88, thx Nachtflame).
+			[M] Furni comparator output overrides reflect input slots and empty fuel state/power-cutoff.
+			[M] Solar Panel config: Default value for internal battery capacity increased.
+			[F] Block Placer: Shifted GUI player slots 1px to the right.
+			[A] Added mod block tags for slabs, stairs, and walls (PR#89, thanks CrudeAustin for the data).
+			[A] Added experimental Patchouli manual (creative only).
+			* v1.0.19-b3  [M] Config tweaks: Value limit ranges increased to facilitate modpacking.
+			[A] Factory Hopper: Added bottom item handler (CR#227).
+			[M] Block shapes refined.
+			[F] Fixed duping bug (issue #87, thx Nachtflame)
+			* v1.0.19-b2  [F] Fixed Floor Grating item pass-through jitters (thx Cid).
+			[M] Removed obsolete recipe collision testing recipes.
+			[F] Fixed missing Block Breaker dynamic block drops.
+			[F] Block Placer planting race condition issue fixed (issue #83, thx jcardii).
+			[F] Factory Hopper: Added second standard insertion run after smart-insert to circumcent compat issues (issue #84, thx NillerMedDild).
+			[A] Enabled JEI plugin (issue #85, thx ProsperCraft/Goshen).
+			* v1.0.19-b1  [U] Update to 1.15.2.
+			[F] Fixed Tree Cutter / Block Breaker not accepting small energy transfers (thx WindFox, issue #82).
+			* v1.0.18-b4  [A] Ported Treated Wood Crafting Table item rendering.
+			[F] Fixed Milking machine cow path issue, added milking delay cow tracking.
+			[F] Slab / Slab Slice placement adapted to vanilla standard.
+			[M] Lang update ru_ru (PR#77, thanks Smollet777).
+			* v1.0.18-b3  [A] Added Treated Wood Crafting Table tweaks (ctrl-shift moves all same stacks from the
+			inventory, mouse wheel over crafting slot increases/decreases crafting grid stacks).
+			[F] EN Lang file fixed (issue #76, thx Riverstar907).
+			[F] Fixed Tree Cutter not respecting power-required config (thx federsavo, issue #77).
+			[F] Fixed Small Solar Panel not exposing energy capability (thx MatthiasMann, issue #78).
+			* v1.0.18-b2  [M] Lang ru_ru updated (Smollet777).
+			* v1.0.18-b1  [U] Updated to Forge 1.15.1-30.0.16/20190719-1.14.3.
+			[F] Client setup Dist annotation fixed (issue #73, thx hitsu420).
+			[F] Double newline escapes in lang files fixed ("\n" in a tooltip).
+			[M] Updated zh_cn lang file (scikirbypoke).
+			[A] Added opt-out config for the Small Tree Cutter
+			* v1.0.17-b2  [A] Initial port.
+
+	Equipment Tooltips (EquipmentTooltips-1.15.2-1.4.0+11.jar --> EquipmentTooltips-1.15.2-1.4.3+14.jar):
+		EquipmentTooltips-1.15.2-1.4.3+14.jar:
+			## [1.4.3] - 2020-06-14
+			* Fix NPE crash, hopefully [#11, #10, #9, #8]
+			## [1.4.2] - 2020-06-12
+			* Fix NPE crash with some items (Vaelzan) [#10, #9, #8]
+			## [1.4.1] - 2020-06-11
+			* Possibly fix a crash [#9]
+			## [1.4.0] - 2020-02-09
+			* Updated for Minecraft 1.15.2
+			## [1.3.1] - 2019-07-25
+			* Updated to 1.14.4 (should still work on 1.14.3)
+			* Fix harvest level not showing on tools in some cases
+			## [1.3.0] - 2019-07-01
+			Updated to 1.14.3
+			## [1.2.0] - 2019-06-27
+			Ported to 1.14.2
+			## [1.1.1] - 2019-03-31
+			### Added
+			* Config file
+			### Fixed
+			* Log spam when Silent Gear is installed
+			## [1.1.0] - 2019-03-09
+			* Ported to 1.13.2
+			* Added Silent Gear support
+			* Tinkers Construct support disabled (as it does not exist yet)
+			* Config not working yet
+			## [1.0.3]
+			### Changed
+			* Any harvest tool type (like sickles) should now display harvest speed
+			### Fixed
+			* Crash when an item that is not "armor" is equipped in an armor slot
+			## [1.0.2]
+			### Added
+			* A config and config GUI. Includes configs for positioning, hiding/showing when shift is held, and background color.
+			## [1.0.1]
+			### Fixed
+			* A crash when hovering over armor, when no armor is equipped
+			## [1.0.0]
+			Initial release
+
+		EquipmentTooltips-1.15.2-1.4.2+13.jar:
+			## [1.4.2] - 2020-06-12
+			* Fix NPE crash with some items (Vaelzan) [#10, #9, #8]
+			## [1.4.1] - 2020-06-11
+			* Possibly fix a crash [#9]
+			## [1.4.0] - 2020-02-09
+			* Updated for Minecraft 1.15.2
+			## [1.3.1] - 2019-07-25
+			* Updated to 1.14.4 (should still work on 1.14.3)
+			* Fix harvest level not showing on tools in some cases
+			## [1.3.0] - 2019-07-01
+			Updated to 1.14.3
+			## [1.2.0] - 2019-06-27
+			Ported to 1.14.2
+			## [1.1.1] - 2019-03-31
+			### Added
+			* Config file
+			### Fixed
+			* Log spam when Silent Gear is installed
+			## [1.1.0] - 2019-03-09
+			* Ported to 1.13.2
+			* Added Silent Gear support
+			* Tinkers Construct support disabled (as it does not exist yet)
+			* Config not working yet
+			## [1.0.3]
+			### Changed
+			* Any harvest tool type (like sickles) should now display harvest speed
+			### Fixed
+			* Crash when an item that is not "armor" is equipped in an armor slot
+			## [1.0.2]
+			### Added
+			* A config and config GUI. Includes configs for positioning, hiding/showing when shift is held, and background color.
+			## [1.0.1]
+			### Fixed
+			* A crash when hovering over armor, when no armor is equipped
+			## [1.0.0]
+			Initial release
+
+		EquipmentTooltips-1.15.2-1.4.1+12.jar:
+			## [1.4.1] - 2020-06-11
+			* Possibly fix a crash [#9]
+			## [1.4.0] - 2020-02-09
+			* Updated for Minecraft 1.15.2
+			## [1.3.1] - 2019-07-25
+			* Updated to 1.14.4 (should still work on 1.14.3)
+			* Fix harvest level not showing on tools in some cases
+			## [1.3.0] - 2019-07-01
+			Updated to 1.14.3
+			## [1.2.0] - 2019-06-27
+			Ported to 1.14.2
+			## [1.1.1] - 2019-03-31
+			### Added
+			* Config file
+			### Fixed
+			* Log spam when Silent Gear is installed
+			## [1.1.0] - 2019-03-09
+			* Ported to 1.13.2
+			* Added Silent Gear support
+			* Tinkers Construct support disabled (as it does not exist yet)
+			* Config not working yet
+			## [1.0.3]
+			### Changed
+			* Any harvest tool type (like sickles) should now display harvest speed
+			### Fixed
+			* Crash when an item that is not "armor" is equipped in an armor slot
+			## [1.0.2]
+			### Added
+			* A config and config GUI. Includes configs for positioning, hiding/showing when shift is held, and background color.
+			## [1.0.1]
+			### Fixed
+			* A crash when hovering over armor, when no armor is equipped
+			## [1.0.0]
+			Initial release
+
+	Extra Disks (extradisks-1.15.1-1.2.jar --> extradisks-1.15.2-1.2.1.jar):
+		extradisks-1.15.2-1.2.1.jar:
+			Added translations for: German, Spanish, French, Japanese, Korean, Dutch, Portuguese, Russian and Chinese (thanks to TheDirectorX)
+
+	Gauges and Switches (rsgauges-1.15.2-1.2.3.jar --> rsgauges-1.15.2-1.2.4-b1.jar):
+		rsgauges-1.15.2-1.2.4-b1.jar:
+			* v1.2.4-b1  [A] Gauges are also comparator output sensitive and can directly
+			show e.g. how full chests are.
+			[F] Industrial Machine Switch texture size fixed.
+			[U] Forge/mappings updated.
+			[M] JEI integration updated.
+			[M] Models updated to circumvent too dark GUI representations.
+			[M] Config handling updated.
+			[!] Mod config moved from 'common' to 'server' config, in case
+			of applied setting please double check.
+			-------------------------------------------------------------------
+			* v1.2.3     [R] Release build v1.2.3. Release-to-release changes:
+			* Door Sensor added.
+			* Recipe fixes, lang files updated.
+			-------------------------------------------------------------------
+			* v1.2.3-b3  [M] Block Category Detector: Fixed forge tag lookup (issue #21, thx Nodlehs).
+			[M] Comparator Switch recipe fixed (thx @itzbahb).
+			[M] En lang files typo fixes (thx @itzbahb).
+			* v1.2.3-b2  [F] Fixed switch link max distance config (issue #20, thx Rictu5).
+			* v1.2.3-b1  [A] Added Door Sensor switch.
+			[M] Lang file zh_cn updated (PR#19, scikirbypoke).
+			-------------------------------------------------------------------
+			* v1.2.2     [R] Release build v1.2.2. Release-to-release changes:
+			* Valve Switch added.
+			* Elevator Button added.
+			* Minor fixes.
+			-------------------------------------------------------------------
+			* v1.2.2-b2   [A] Added Elevator Button.
+			* v1.2.2-b1   [A] Added Valve Switch (idea and model by Jack M).
+			-------------------------------------------------------------------
+			* v1.2.1      [R] Release build v1.2.1. Release-to-release changes:
+			* Industrial Comparator Switch added.
+			-------------------------------------------------------------------
+			* v1.2.1-b1   [A] Added Industrial Comparator Switch.
+			* v1.2.0-b2   [A] Added GIT version logging.
+			[M] Lang en_us: Sensitive Glass block names adapted (issue #15, thx Dimentive).
+			* v1.2.0-b1   [A] Added JEI integration.
+			[M] Model "vanillafication" rework, part 2.
+			[D] Removed obsolete switches (registry not affected).
+			[M] Recipes simplified, recipe conditions unified.
+			[M] Code updates for version compatibility.
+			[A] All block are waterloggable (including Sensitive glass).
+			* v1.1.10-b4  [F] Removed tag reference to minecraft:dirts, which prevented any
+			recipes from being craftable.
+			* v1.1.10-b3  [A] Initial port.
+
+	Industrial Foregoing (industrial-foregoing-1.15.2-2.3.2-e3bf186.jar --> industrial-foregoing-1.15.2-2.3.3-e356e61.jar):
+		industrial-foregoing-1.15.2-2.3.3-e356e61.jar:
+			[https://github.com/InnovativeOnlineIndustries/Industrial-Foregoing/blob/changelog/CHANGELOG.md](https://github.com/InnovativeOnlineIndustries/Industrial-Foregoing/blob/changelog/CHANGELOG.md)
+
+	Inventory Tweaks Renewed (invtweaks-1.1.5-2.0.3a --> invtweaks-1.15.2-2.0.4.jar):
+		invtweaks-1.15.2-2.0.4.jar:
+			No changelog available.
+
+	JAOPCA (JAOPCA-1.15.2-3.2.0.10.jar --> JAOPCA-1.15.2-3.2.0.11.jar):
+		JAOPCA-1.15.2-3.2.0.11.jar:
+			Ported Create support
+
+	Ma Essentials ( [Forge v1.15.2] Ma Essentials v3.1.0 -->  [Forge v1.15.2] Ma Essentials v3.1.1):
+		 [Forge v1.15.2] Ma Essentials v3.1.1:
+			Added /hat command to put item in hand as hat.
+			You can now move around block you standing while teleporting, this fix annoying teleport cancelled while moving a little.
+			Fixed default home teleport broken in 3.1.0 [#53](https://github.com/Maciej916/Ma-Essentials/issues/53)
+			Fixed wrong catalog of files broken in 3.1.0 (mod will try to copy files from wrong to correct catalog) [ #54](https://github.com/Maciej916/Ma-Essentials/issues/54)
+
+	MineColonies (minecolonies-1.15.2-0.11.958-universal.jar --> minecolonies-1.15.2-0.11.959-universal.jar):
+		minecolonies-1.15.2-0.11.959-universal.jar:
+			* Add Stonebrick to path blocks- Improve tick performance of colony
+			* Improve spawner detection in raids
+			* Remove fulfill button in detail view
+			* Schematic fixes
+			* Add Tags to allow modpacks to add recipes to specific workers
+			* Add more diversity to minecolonies textures
+			* Add medieval textures
+			* Fix leave stuck issues
+			* Add more research options
+			* Vikings!
+			* A whole bunch of small fixes.
+			Full changelog: [https://github.com/ldtteam/minecolonies/commits/version/1.15](https://github.com/ldtteam/minecolonies/commits/version/1.15)
+
+	Patchouli (Patchouli-1.15.2-1.2-33.jar --> Patchouli-1.15.2-1.2-34.jar):
+		Patchouli-1.15.2-1.2-34.jar:
+			* Expose multiblock size to API (minecraftschurli)
+			* Add statematcher that filters on blockstate properties (minecraftschurli)
+			* Tweak category UI to not have the sad face when the category is empty
+			* Empty categories are now unlocked by default
+			* Fix incorrect block rotations in multiblocks
+			* Sparse multiblock support now exposed to JSON. Example: [https://github.com/Vazkii/Patchouli/blob/3798ea9837a870bafd013cca6ed96a459688e282/src/main/resources/data/patchouli/patchouli_books/comprehensive_test_book/en_us/entries/multiblocks/sparse.json#L8](https://github.com/Vazkii/Patchouli/blob/3798ea9837a870bafd013cca6ed96a459688e282/src/main/resources/data/patchouli/patchouli_books/comprehensive_test_book/en_us/entries/multiblocks/sparse.json#L8)
+			* Add details on the open Patchouli book to crash reports (Hubry)
+			* Fix compiler warnings (Alwinfy)
+			* Fix duplicate book toasts when multiple entries are unlocked in quick succession (Hubry)
+
+	PneumaticCraft: Repressurized (pneumaticcraft-repressurized-1.15.2-1.2.2-30.jar --> pneumaticcraft-repressurized-1.15.2-1.3.0-33.jar):
+		pneumaticcraft-repressurized-1.15.2-1.3.0-33.jar:
+			1.3.0-33 (12 Jun 2020)
+			[](https://github.com/TeamPneumatic/pnc-repressurized/blob/1.15/Changelog.md#updates)Updates
+			* Logistics Core recipe has been changed to create two cores instead of one
+			* Some drone pathfinding optimisation, in particular reducing server-side CPU usage when drones can't find a path
+			* - Added some checks to cull a lot of unnecessary pathing searches
+			* Small visual improvement for the Omnidirection & Liquid Hopppers
+			* - Output spout is slightly narrower, and the output end is a little darker
+			* Pastebin GUI: added "Pretty?" option to control pretty-printing of JSON output to Pastebin/clipboard
+			* - Default is now not to pretty-print JSON, so saved drone programs & remote layouts are a lot more compact
+			* Redstone Module I/O direction can now be configured in the module's GUI
+			* - This does not require an Advanced PCB to be installed
+			* - Toggling I/O with a Wrench still works too, as it used to
+			* Drones (both entity and item form) now show their carried fluid, if any
+			* - Shown in item tooltip for drones in item form
+			* - Shown in TOP/Waila display for drone entities
+			* It's now possible to attach levers/buttons/etc. to the side of camouflaged blocks (assuming the camouflage is solid, of course)
+			* - This is particularly nice for camouflaged Pressure Tubes with Redstone Modules
+			* Elevators with Charging Upgrades installed will now only add air back if it's safe to do so (pressure < 4.9 bar)
+			* Some Micromissiles improvements
+			* - Micromissiles now do more damage on direct entity hit (explosion position was further from the target entity than it should have been)
+			* - Micromissiles can now be "repaired" in an Anvil with TNT (1 TNT restores 25 missile shots)
+			* - Micromissile smoke particles are a bit less dense now
+			* - Reduced default cooldown time from 15 ticks to 10 ticks (still adjustable in config)
+			* Some Sentry Turret improvements
+			* - Default entity filter for newly placed Sentry Turrets is now @mob - avoids pain & suffering if players load the turret and forget to set a filter
+			* - Fixed the entity filter string not showing in GUI the first time it's opened
+			* - Better filter validation and error display in the GUI
+			[](https://github.com/TeamPneumatic/pnc-repressurized/blob/1.15/Changelog.md#fixes)Fixes
+			* Fixed Charging Stations at 0 bar not being able to discharge pressure from items into the station
+			* Drones should be able to place blocks much more reliably now
+			* Fixed Drones (and other entities) sometimes getting badly confused while trying to path across or through some PneumaticCraft blocks
+			* - Blocks were wrongly reporting themselves suitable for pathing through, when their hitbox actually didn't allow it
+			* Fixed the clientside drama_splash config option not being properly honoured when set to false
+			* Some Programmer GUI fixes:
+			* - Fixed widget area dragging behaviour when dragging items from inventory slots across it
+			* - Fixed Area widgets in the programmer GUI not being sync'd to server when clicked with a GPS (or Area GPS) Tool
+			* - Fixed Area widgets jumping position when clicked with a GPS or Area GPS tool in the programmer
+			* - Fixed Pastebin communication (now using HTTPS exclusively, looks like HTTP is no longer accepted)
+			* Fixed client crash caused by wrongly attempting to send some server->client sync packets
+			* - Caused sometimes when breaking off camouflage blocks
+			* Performance fix: Omnidirectional and Liquid Hoppers were causing some unnecessary block updates when their comparator output level changed
+			* Fixed Omnidirectional Hopper comparator output being inaccurate under certain circumstances
+			* All translation keys are now properly namespaced
+			* - No player-visible change here but eliminates the risk of translation key clashes with other mods
+			* Electrostatic Compressor item tooltip is much shorter now (long tooltip still visible in JEI and GUI side tab)
+
+	Quark (Quark-r2.1-243.jar --> Quark-r2.1-245.jar):
+		Quark-r2.1-245.jar:
+			* Added Endergetic Bolloon Bud to the piston blacklist since it wasn't compatible.
+			* Extended the black screen a bit (til July 15th up from July 1st)
+			* Fixed a crash when the language manager is missing.
+			* Fixed crabs not dropping crab shells.
+			* Fixed incorrect transparency on some pixels with bee skins.
+			* Fixed sign edit breaking the sign button mod.
+			* Fixed slime in a bucket being emptied if used in creative.
+			* Fixed some blocks with particles not emitting particles when very far out into the world.
+			* Made the q button rainbow during june
+
+		Quark-r2.1-244.jar:
+			Tweaked the black screen a bit:
+			* The message will now only show up once per instance. It used to show up once per run, but I quickly realized that showing people the same message over and over isn't exactly going to lead to great results.
+			* Tweaked the text a bit to be more factual.
+			* Changed the order in which the message appears to help create less confusion. Previously the skip info would only show after a pause, which would make people confused.
+			* Added a time killswitch, the message will automatically stop showing up for everyone after the 1st of July. This may be extended in future versions if need be, but this should be good for now.
+			* If you're a modpack maker, and you do not want the message shipped, include /saves/.quark/.blm_marker in your files. I'd rather you didn't, but I also understand it's somewhat hypocritical to rail on mods with player banning code and not give pack makers an option here.
+			Black Lives Matter, please inform yourself on the systemic racism that plagues not only the United States, but many other places among the world.
+			Love your neighbor as yourself.
+			[https://blacklivesmatter.carrd.co/]()
+
+	RandomPatches (RandomPatches 1.15.2-1.21.1.4 --> RandomPatches 1.15.2-1.21.1.5):
+		RandomPatches 1.15.2-1.21.1.5:
+			Attempted to fix some issues with the previous beta.
+
+	Structurize (structurize-0.10.322-ALPHA.jar --> structurize-0.10.323-ALPHA.jar):
+		structurize-0.10.323-ALPHA.jar:
+			Optifine improvements
+			Hotfix for multiblock
+
+	Tetra (tetra-1.15.2-2.8.1.jar --> tetra-1.15.2-2.9.0.jar):
+		tetra-1.15.2-2.9.0.jar:
+			Changes:
+			* shields now gain honing progress when blocking attacks
+			* added several honing improvements for shield plates
+			Fixes:
+			* thrown items now gain honing progress
+			Tech:
+			* added ricochet effect for thrown items
+			* added piercing effect for thrown items and bows
+			* moved shield data into slot specific folders
+
+	The One Probe (theoneprobe-1.15-2.0.3.jar --> theoneprobe-1.15-2.0.4.jar):
+		theoneprobe-1.15-2.0.4.jar:
+			* New API for using ITextComponent directly in the TOP API. This allows for better translatable messages
+
+	Titanium (titanium-1.15.2-2.4.1.jar --> titanium-1.15.2-2.4.2.jar):
+		titanium-1.15.2-2.4.2.jar:
+			[https://github.com/InnovativeOnlineIndustries/Titanium/blob/changelog/CHANGELOG.md](https://github.com/InnovativeOnlineIndustries/Titanium/blob/changelog/CHANGELOG.md)
+
+	XNet (xnet-1.15-2.1.4-beta.jar --> xnet-1.15-2.1.5-beta.jar):
+		xnet-1.15-2.1.5-beta.jar:
+			* Kyle Edwards changed facade blocks to copy mimic block from other facade blocks
+			* Kyle Edwards fixed rendering of damaged cables
+
+	Xaero's Minimap (v20.12.2 for Minecraft 1.15.2 --> v20.13.0 for Minecraft 1.15.2):
+		v20.13.0 for Minecraft 1.15.2:
+			* Reworked chunk grid. It no longer looks like a chessboard and uses lines instead.
+			* Changed the chunk grid setting to a slider because there are way too many choices.
+
+	Xaero's World Map (v1.6.2 for Minecraft 1.15.2 --> v1.6.3 for Minecraft 1.15.2):
+		v1.6.3 for Minecraft 1.15.2:
+			* Fixed the world map not closing with the map key binding if it's set to a mouse button.
+			* Disabled quick confirmation for server dimensions that don't have a previously confirmed map. Should prevent some confusion.
+
+Removed:
+- Camera Mod
+- Ma Enchants
+- Respawnable Pets
+- Ring of Attraction [FORGE]
+- Silent Lib
+- Silent's Mechanisms
+- Ultra Amplified Dimension (Forge)
+- Vanilla Things
+
+Generated using [ChangelogGenerator 2.0.0-pre3](https://github.com/TheRandomLabs/ChangelogGenerator).
