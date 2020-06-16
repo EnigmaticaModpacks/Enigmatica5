@@ -1,16 +1,18 @@
 ## Enigmatica 5 v0.5.0
 
-**This version has a lot of major changes, it is recommended that you start in a new world.**
+**This version has major changes, it is recommended that you start in a new world.**
 
-_Using Forge-1.15.2-31.2.9_ | _[Mod Updates](https://github.com/NillerMedDild/Enigmatica5/blob/master/changelogs/CHANGELOG_MODS_0.5.0.txt)_
+_Using Forge-1.15.2-31.2.20_ | _[Mod Updates](https://github.com/NillerMedDild/Enigmatica5/blob/master/changelogs/CHANGELOG_MODS_0.5.0.txt)_
 
 **Mod Additions**
 
-- 
+- Immersive Engineering [\#345](https://github.com/NillerMedDild/Enigmatica5/issues/345)
+- Dyeable Flower Pots [\#343](https://github.com/NillerMedDild/Enigmatica5/issues/343)
+- Old Java Warning [\#152](https://github.com/NillerMedDild/Enigmatica5/issues/152)
 
 **Changes**
 
-- 
+- Tetra: A heap of new materials have been added. The majority of them are a bit plain at the moment, and will be getting updated stats throughout the 0.5.x updates.
 
 **Mod Removals**
 
@@ -26,7 +28,7 @@ _Using Forge-1.15.2-31.2.9_ | _[Mod Updates](https://github.com/NillerMedDild/En
 
 **Bug Fixes**
 
-* 
+* PNC Pneumatic Armor's Step Assist feature doesn't seem to work with StepUp [\#317](https://github.com/NillerMedDild/Enigmatica5/issues/317)
 
 ## Enigmatica 5 v0.4.15
 
