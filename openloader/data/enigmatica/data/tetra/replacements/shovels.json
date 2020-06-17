@@ -40,7 +40,7 @@
         }
     },
     {
-        "predicate": { "item": "mekanism:steel_shovel" },
+        "predicate": { "item": "mekanismtools:steel_shovel" },
         "item": "tetra:modular_single",
         "modules": {
             "single/basic_shovel": ["single/basic_shovel", "basic_shovel/steel"],
