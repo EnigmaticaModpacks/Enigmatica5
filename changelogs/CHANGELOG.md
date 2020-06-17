@@ -1,6 +1,17 @@
+## Enigmatica 5 v0.5.1
+
+**The 0.5.0 version has major changes, it is recommended that you start in a new world, and a fresh install/new profile if updating from an earlier version.**
+
+_Using Forge-1.15.2-31.2.20_ | _[Mod Updates](https://github.com/NillerMedDild/Enigmatica5/blob/master/changelogs/CHANGELOG_MODS_0.5.1.txt)_
+
+**Bug Fixes**
+
+- Treated wood uncraftable  [\#359](https://github.com/NillerMedDild/Enigmatica5/issues/359)
+- Only double sided tools are craftable in tetra [\#358](https://github.com/NillerMedDild/Enigmatica5/issues/358)
+
 ## Enigmatica 5 v0.5.0
 
-**This version has major changes, it is recommended that you start in a new world, and a fresh install/new profile**
+**The 0.5.0 version has major changes, it is recommended that you start in a new world, and a fresh install/new profile if updating from an earlier version.**
 
 _Using Forge-1.15.2-31.2.20_ | _[Mod Updates](https://github.com/NillerMedDild/Enigmatica5/blob/master/changelogs/CHANGELOG_MODS_0.5.0.txt)_
 

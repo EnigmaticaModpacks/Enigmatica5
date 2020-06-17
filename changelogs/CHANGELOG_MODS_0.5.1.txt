@@ -1,0 +1,76 @@
+=======================================
+Enigmatica5 0.5.0 --> Enigmatica5 0.5.1
+=======================================
+
+Updated:
+	Botania (Botania-r1.15-385.jar --> Botania-r1.15-386.jar):
+		Botania-r1.15-386.jar:
+			Fix dedicated server crash
+
+	Mekanism (Mekanism-1.15.2-9.10.7.420.jar --> Mekanism-1.15.2-9.10.8.421.jar):
+		Mekanism-1.15.2-9.10.8.421.jar:
+			[ad7ebd3](https://github.com/mekanism/Mekanism/commit/ad7ebd33fbd350a08d673f844497a677a14533f3) - Do custom armor layer slightly differently to at least have it render with optifine, even if it seems custom render layers are all screwed up when optifine shaders are enabled
+			[e80f1e3](https://github.com/mekanism/Mekanism/commit/e80f1e33c728843c3ddea0b1192157e3b60f98b6) - Add thread safety to world gen, spawn eggs, parrot sounds. ([#6215](https://github.com/mekanism/Mekanism/issues/6215))
+			[c94adb3](https://github.com/mekanism/Mekanism/commit/c94adb3d92377ad69117cc7620966e1278e7a7e7) - Minor cleanup
+			[faa9924](https://github.com/mekanism/Mekanism/commit/faa99243f5d792b113f73bc8b2b7a68272d50f13) - Don't do any validation for chunks we are loading on world load and allow them to quickly re-unload if invalid. [#6174](https://github.com/mekanism/Mekanism/issues/6174)
+			[bb02150](https://github.com/mekanism/Mekanism/commit/bb021505ef4c9c2883d7ecfb7e5389142af8bd44) - New Crowdin translations ([#6194](https://github.com/mekanism/Mekanism/issues/6194))
+			[6823e3d](https://github.com/mekanism/Mekanism/commit/6823e3d19aba363559e8ee3630389651f71d88d1) - Fix some issues with inserting into the rotary condensentrator's gas slots
+			[cb2e6ef](https://github.com/mekanism/Mekanism/commit/cb2e6ef7aa96aae13e63c7d101371f2c2c0c6bd0) - Bump version to 9.10.8
+
+	Mekanism Generators (MekanismGenerators-1.15.2-9.10.7.420.jar --> MekanismGenerators-1.15.2-9.10.8.421.jar):
+		MekanismGenerators-1.15.2-9.10.8.421.jar:
+			[ad7ebd3](https://github.com/mekanism/Mekanism/commit/ad7ebd33fbd350a08d673f844497a677a14533f3) - Do custom armor layer slightly differently to at least have it render with optifine, even if it seems custom render layers are all screwed up when optifine shaders are enabled
+			[e80f1e3](https://github.com/mekanism/Mekanism/commit/e80f1e33c728843c3ddea0b1192157e3b60f98b6) - Add thread safety to world gen, spawn eggs, parrot sounds. ([#6215](https://github.com/mekanism/Mekanism/issues/6215))
+			[c94adb3](https://github.com/mekanism/Mekanism/commit/c94adb3d92377ad69117cc7620966e1278e7a7e7) - Minor cleanup
+			[faa9924](https://github.com/mekanism/Mekanism/commit/faa99243f5d792b113f73bc8b2b7a68272d50f13) - Don't do any validation for chunks we are loading on world load and allow them to quickly re-unload if invalid. [#6174](https://github.com/mekanism/Mekanism/issues/6174)
+			[bb02150](https://github.com/mekanism/Mekanism/commit/bb021505ef4c9c2883d7ecfb7e5389142af8bd44) - New Crowdin translations ([#6194](https://github.com/mekanism/Mekanism/issues/6194))
+			[6823e3d](https://github.com/mekanism/Mekanism/commit/6823e3d19aba363559e8ee3630389651f71d88d1) - Fix some issues with inserting into the rotary condensentrator's gas slots
+			[cb2e6ef](https://github.com/mekanism/Mekanism/commit/cb2e6ef7aa96aae13e63c7d101371f2c2c0c6bd0) - Bump version to 9.10.8
+
+	Mekanism Tools (MekanismTools-1.15.2-9.10.7.420.jar --> MekanismTools-1.15.2-9.10.8.421.jar):
+		MekanismTools-1.15.2-9.10.8.421.jar:
+			[ad7ebd3](https://github.com/mekanism/Mekanism/commit/ad7ebd33fbd350a08d673f844497a677a14533f3) - Do custom armor layer slightly differently to at least have it render with optifine, even if it seems custom render layers are all screwed up when optifine shaders are enabled
+			[e80f1e3](https://github.com/mekanism/Mekanism/commit/e80f1e33c728843c3ddea0b1192157e3b60f98b6) - Add thread safety to world gen, spawn eggs, parrot sounds. ([#6215](https://github.com/mekanism/Mekanism/issues/6215))
+			[c94adb3](https://github.com/mekanism/Mekanism/commit/c94adb3d92377ad69117cc7620966e1278e7a7e7) - Minor cleanup
+			[faa9924](https://github.com/mekanism/Mekanism/commit/faa99243f5d792b113f73bc8b2b7a68272d50f13) - Don't do any validation for chunks we are loading on world load and allow them to quickly re-unload if invalid. [#6174](https://github.com/mekanism/Mekanism/issues/6174)
+			[bb02150](https://github.com/mekanism/Mekanism/commit/bb021505ef4c9c2883d7ecfb7e5389142af8bd44) - New Crowdin translations ([#6194](https://github.com/mekanism/Mekanism/issues/6194))
+			[6823e3d](https://github.com/mekanism/Mekanism/commit/6823e3d19aba363559e8ee3630389651f71d88d1) - Fix some issues with inserting into the rotary condensentrator's gas slots
+			[cb2e6ef](https://github.com/mekanism/Mekanism/commit/cb2e6ef7aa96aae13e63c7d101371f2c2c0c6bd0) - Bump version to 9.10.8
+
+	MineColonies (minecolonies-1.15.2-0.11.959-universal.jar --> minecolonies-1.15.2-0.11.960-universal.jar):
+		minecolonies-1.15.2-0.11.960-universal.jar:
+			Reposition update!
+			Bunch of fixes
+			Bed sharing fix.
+
+	Structurize (structurize-0.10.323-ALPHA.jar --> structurize-0.10.324-ALPHA.jar):
+		structurize-0.10.324-ALPHA.jar:
+			Fix the latest bug.
+
+	Tetra (tetra-1.15.2-2.9.0.jar --> tetra-1.15.2-2.10.0.jar):
+		tetra-1.15.2-2.10.0.jar:
+			Changes:
+			* added durability honing options for shield plates & grips
+			* added damage & speed honing options for shield grips
+			Tech changes:
+			* moved grip schema files
+
+	Xaero's Minimap (v20.13.0 for Minecraft 1.15.2 --> v20.14.0 for Minecraft 1.15.2):
+		v20.14.0 for Minecraft 1.15.2:
+			+ Added an actual persistent setting for rendering all waypoints sets at once. The old key binding now toggles the setting.
+			* Fixed map writer working faster than intended potentially negatively affecting game performance.
+			* The waypoints sorting option is now server-specific and persistent (kept on restart).
+			* Changed the "Toggle Minimap" key binding to be disabled by default. The H key was often pressed accidentally causing a lot of confusion.
+			* World/Server dropdown menu now sorts server addresses using their displayed variant (with IP censorship applied), not the actual address, to avoid giving any extra hints.
+			* Reordered some settings and made the order more consistent between the minimap mod and Better PVP.
+
+	Xaero's World Map (v1.6.3 for Minecraft 1.15.2 --> v1.6.4 for Minecraft 1.15.2):
+		v1.6.4 for Minecraft 1.15.2:
+			* Fixed compatibility with Immersive Portals and potentially other similar mods.
+			* Fixed world map not closing with the map key binding in multiplayer if it's set to a mouse button.
+			* The world map zoom will no longer reset when reopening the map.
+			+ Added a setting to hide the player arrow on the world map.
+			+ Added a setting to hide the zoom level display on the world map.
+			* Fixed random crash when joining a world/server.
+
+Generated using [ChangelogGenerator 2.0.0-pre3](https://github.com/TheRandomLabs/ChangelogGenerator).
