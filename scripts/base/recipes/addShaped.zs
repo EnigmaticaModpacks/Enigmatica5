@@ -43,6 +43,12 @@ var recipes as IIngredient[][][IItemStack] = {
         [<tag:forge:stone>, <tag:forge:stone>, <tag:forge:stone>], 
         [<tag:forge:stone>, air, <tag:forge:stone>],
         [<tag:forge:stone>, <tag:forge:stone>, <tag:forge:stone>]
+    ],
+    <item:immersiveengineering:treated_wood_horizontal> * 8 : 
+    [
+        [<tag:minecraft:planks>, <tag:minecraft:planks>, <tag:minecraft:planks>], 
+        [<tag:minecraft:planks>, <item:immersiveengineering:creosote_bucket>, <tag:minecraft:planks>],
+        [<tag:minecraft:planks>, <tag:minecraft:planks>, <tag:minecraft:planks>]
     ]
 };
 
