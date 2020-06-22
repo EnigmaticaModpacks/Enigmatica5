@@ -4,14 +4,13 @@ events.listen('block.registry', function (event) {
             var block = materials[i].blockParts[j];
             var registryName = materials[i].name + '_' + block.name;
 
-            event.create(registryName)
+            event
+                .create(registryName)
                 .texture('kubejs:block/' + registryName)
                 .material(block.material)
                 .harvestTool(block.harvestTool, block.harvestLevel)
                 .hardness(block.hardness)
-                .resistance(block.resistance)
-                .add();
+                .resistance(block.resistance);
         }
     }
-})
-
+});

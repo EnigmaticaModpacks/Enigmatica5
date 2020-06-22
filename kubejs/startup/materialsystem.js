@@ -1,3 +1,5 @@
+//priority: 999
+
 var oreBlock = blockWithProperties('ore', block.material.rock, TOOL_TYPE_PICKAXE, 1, 3.0, 20.0);
 var oreDepositBlock = blockWithProperties('ore_deposit', block.material.earth, TOOL_TYPE_SHOVEL, 1, 3.0, 15.0);
 
@@ -19,7 +21,7 @@ var materials = [
     material('redstone', 0xa30808, [], [oreDepositBlock]),
     material('silver', 0xc8c7e0, [], [oreDepositBlock]),
     material('uranium', 0x314736, [], [oreDepositBlock]),
-    material('tin', 0x9cc9d6, [], [oreDepositBlock]),
+    material('tin', 0x9cc9d6, [], [oreDepositBlock])
     //material("quartz", 0xfffff7, [], []),
     //material("tungsten", 0x3d3b3a, itemPartNames, oreBlocks),
     //material("titanium", 0xe5e5e5, itemPartNames, oreBlocks),

@@ -5,11 +5,12 @@ events.listen('item.registry', function (event) {
             var itemPart = materials[i].itemParts[j];
             var registryName = materialName + '_' + itemPart;
 
-            event.create(registryName)
+            event
+                .create(registryName)
                 .group('KubeJS')
                 .color(0, materials[i].color)
                 .texture('kubejs:item/' + itemPart)
                 .add();
         }
     }
-})
+});

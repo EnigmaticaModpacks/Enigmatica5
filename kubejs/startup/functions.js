@@ -1,3 +1,5 @@
+//priority: 1000
+
 function material(n, c, i, b) {
     return { name: n, color: c, itemParts: i, blockParts: b };
 }

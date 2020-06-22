@@ -1,7 +1,9 @@
+//priority: 1000
+
 var oreDimensional = [
     'rftoolsbase:dimensionalshard_overworld',
     'rftoolsbase:dimensionalshard_nether',
-    'rftoolsbase:dimensionalshard_end',
+    'rftoolsbase:dimensionalshard_end'
 ];
 
 var oreUraninite = ['powah:uraninite_ore_poor', 'powah:uraninite_ore', 'powah:uraninite_ore_dense'];
@@ -22,7 +24,7 @@ var colors = [
     'lime',
     'pink',
     'gray',
-    'light_gray',
+    'light_gray'
 ];
 
 var materialsToUnify = [
@@ -62,7 +64,7 @@ var materialsToUnify = [
     'quartz',
 
     'redstone',
-    'glowstone',
+    'glowstone'
 ];
 
 var types = [
@@ -80,7 +82,7 @@ var types = [
     'clumps',
     'shards',
     'crystals',
-    'shards',
+    'shards'
 ];
 
 var vanillaWoodTypes = ['oak', 'birch', 'spruce', 'jungle', 'acacia', 'dark_oak'];
