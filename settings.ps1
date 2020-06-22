@@ -40,10 +40,10 @@ $CURSEFORGE_PROJECT_ID = 357692
 # =====================================================================//
 
 # Default: "1.0.0"
-$MODPACK_VERSION = "0.5.1"
+$MODPACK_VERSION = "0.5.2"
 
 # Only used by the Changelog Generator
-$LAST_MODPACK_VERSION = "0.5.0"
+$LAST_MODPACK_VERSION = "0.5.1"
 
 $FORGE_VERSION = 31.2.20
 
