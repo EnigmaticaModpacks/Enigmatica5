@@ -20,7 +20,13 @@ var recipes as IIngredient[][][IItemStack] = {
         [<tag:minecraft:planks>, <tag:minecraft:planks>, <tag:minecraft:planks>], 
         [<tag:minecraft:planks>, <tag:minecraft:planks>, <tag:minecraft:planks>],
         [air, <tag:forge:rods/wooden>, air]
+    ],
+    <item:minecraft:stick> * 16 : 
+    [
+        [<tag:minecraft:logs>, air], 
+        [air, <tag:minecraft:logs>]
     ]
+
 };
 
 for output, input in recipes {

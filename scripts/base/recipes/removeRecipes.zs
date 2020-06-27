@@ -11,7 +11,9 @@ var itemsToRemoveRecipesFrom as IItemStack[] = [
 	
 	<item:akashictome:tome>,
 
-	<item:morevanillalib:obsidian_shard>
+	<item:morevanillalib:obsidian_shard>,
+
+	<item:minecraft:stick> * 16
 ];
 
 for item in itemsToRemoveRecipesFrom {
