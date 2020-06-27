@@ -1,0 +1,14 @@
+{
+    "type": "create:pressing",
+    "ingredients": [
+    	{
+    		"tag": "forge:ingots/iron"
+    	}
+    ], 
+	"results": [
+		{
+			"item": "immersiveengineering:plate_iron",
+			"count": 1
+		}
+	]
+}

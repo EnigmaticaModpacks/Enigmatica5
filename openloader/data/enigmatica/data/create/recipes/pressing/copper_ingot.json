@@ -1,0 +1,14 @@
+{
+    "type": "create:pressing",
+    "ingredients": [
+    	{
+    		"tag": "forge:ingots/copper"
+    	}
+    ], 
+	"results": [
+		{
+			"item": "immersiveengineering:plate_copper",
+			"count": 1
+		}
+	]
+}
