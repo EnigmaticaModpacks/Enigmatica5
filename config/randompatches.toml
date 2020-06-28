@@ -28,14 +28,14 @@
 	# Max: 2147483647
 	# Default: 15
 	keepAlivePacketInterval = 15
-	# The read timeout.
+	# The read timeout in seconds.
 	# This is the time it takes for a player to be disconnected after not responding to a KeepAlive packet.
 	# This value is automatically rounded up to a product of keepAlivePacketInterval.
 	# Min: 1
 	# Max: 2147483647
 	# Default: 90
 	readTimeout = 360
-	# The login timeout.
+	# The login timeout in seconds.
 	# Min: 1
 	# Max: 2147483647
 	# Default: 900
