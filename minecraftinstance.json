@@ -30,7 +30,7 @@
   "isUnlocked": true,
   "javaArgsOverride": null,
   "javaDirOverride": null,
-  "lastPlayed": "2020-06-28T18:42:23.2427766Z",
+  "lastPlayed": "2020-06-28T21:04:20.0979589Z",
   "manifest": null,
   "fileDate": "0001-01-01T00:00:00",
   "installedModpack": null,
@@ -74,6 +74,21 @@
       "queryTimestamp": "2020-06-28T18:16:29.1320842Z",
       "fileCount": 1,
       "fileSize": 268088
+    },
+    {
+      "folderName": "enigmatica-0.3.2.jar",
+      "fingerprint": 2214072422,
+      "fileDateHash": 3079247815,
+      "sectionID": 8,
+      "individualFingerprints": [
+        2214072422
+      ],
+      "status": 1,
+      "timestamp": "2020-06-28T21:01:47.1545373Z",
+      "lastWriteTimeUtc": "2020-06-28T21:01:22.4351347Z",
+      "queryTimestamp": "2020-06-28T21:01:47.8771829Z",
+      "fileCount": 1,
+      "fileSize": 28893
     },
     {
       "folderName": "KleeSlabs_1.15.2-8.0.0.jar",
@@ -790,21 +805,6 @@
       "fileSize": 1276006
     },
     {
-      "folderName": "enigmatica-0.3.1.jar",
-      "fingerprint": 3518475767,
-      "fileDateHash": 299833426,
-      "sectionID": 8,
-      "individualFingerprints": [
-        3518475767
-      ],
-      "status": 1,
-      "timestamp": "2020-06-28T18:16:27.8924045Z",
-      "lastWriteTimeUtc": "2020-06-28T18:10:32.7194566Z",
-      "queryTimestamp": "2020-06-28T18:16:29.1410609Z",
-      "fileCount": 1,
-      "fileSize": 29240
-    },
-    {
       "folderName": "ftb-chunks-1.1.0.12.jar",
       "fingerprint": 4144564953,
       "fileDateHash": 495568280,
@@ -1010,6 +1010,21 @@
       "queryTimestamp": "2020-06-28T18:16:29.1450496Z",
       "fileCount": 1,
       "fileSize": 7221
+    },
+    {
+      "folderName": "modnametooltip_1.15.2-1.13.0.jar",
+      "fingerprint": 1829896089,
+      "fileDateHash": 794993479,
+      "sectionID": 8,
+      "individualFingerprints": [
+        1829896089
+      ],
+      "status": 1,
+      "timestamp": "2020-06-28T20:55:01.1844582Z",
+      "lastWriteTimeUtc": "2020-06-28T18:28:07.1224138Z",
+      "queryTimestamp": "2020-06-28T20:55:02.424511Z",
+      "fileCount": 1,
+      "fileSize": 10087
     },
     {
       "folderName": "refinedstorage-1.8.6.jar",
@@ -3011,21 +3026,6 @@
       "fileSize": 6349
     },
     {
-      "folderName": "engineerstools-1.15.2-1.0.8.jar",
-      "fingerprint": 931864103,
-      "fileDateHash": 3809230458,
-      "sectionID": 8,
-      "individualFingerprints": [
-        931864103
-      ],
-      "status": 1,
-      "timestamp": "2020-06-28T18:16:27.8894098Z",
-      "lastWriteTimeUtc": "2020-06-28T18:10:09.8595479Z",
-      "queryTimestamp": "2020-06-28T18:16:29.1849431Z",
-      "fileCount": 1,
-      "fileSize": 281002
-    },
-    {
       "folderName": "glassential-forge-1.15.2-1.1.2.jar",
       "fingerprint": 1051898137,
       "fileDateHash": 4219919781,
@@ -3884,6 +3884,101 @@
       "fileSize": 15647
     },
     {
+      "folderName": "New World (6)",
+      "fingerprint": 637064273,
+      "fileDateHash": 1842890538,
+      "sectionID": 10,
+      "individualFingerprints": [
+        29425876,
+        35553318,
+        74311726,
+        220349740,
+        339853837,
+        407323594,
+        500036828,
+        513901282,
+        589195412,
+        617992718,
+        651942457,
+        707517314,
+        746187537,
+        763558043,
+        769737479,
+        793459956,
+        797016327,
+        827373859,
+        936712198,
+        1062639988,
+        1156691497,
+        1254586642,
+        1326081694,
+        1367033121,
+        1373658698,
+        1497449824,
+        1540447798,
+        1540447798,
+        1540447798,
+        1540447798,
+        1555248029,
+        1681925683,
+        1703651090,
+        1722796223,
+        1764721521,
+        1777645178,
+        1783675463,
+        1831771499,
+        1867943679,
+        2003699970,
+        2020334479,
+        2144146657,
+        2154414137,
+        2156636094,
+        2226088383,
+        2232013417,
+        2239351717,
+        2248690203,
+        2285626755,
+        2363716728,
+        2372576555,
+        2379342889,
+        2422840716,
+        2438022517,
+        2541725754,
+        2573305100,
+        2653844868,
+        2702430682,
+        2705569773,
+        2868658589,
+        2868986478,
+        2887489200,
+        2953887811,
+        3049160315,
+        3164678103,
+        3286829824,
+        3287613341,
+        3297211104,
+        3359599763,
+        3451579659,
+        3474242229,
+        3507601994,
+        3771282984,
+        3779001161,
+        3894804303,
+        3909820156,
+        3961037842,
+        3963033679,
+        4117542239,
+        4192398683,
+        4268361585
+      ],
+      "status": 1,
+      "timestamp": "2020-06-28T20:55:01.2562661Z",
+      "lastWriteTimeUtc": "2020-06-28T20:55:00.5531474Z",
+      "queryTimestamp": "2020-06-28T20:55:02.4853479Z",
+      "fileCount": 18,
+      "fileSize": 0
+    },
+    {
       "folderName": "bambooeverything-1.15-1.0.0.jar",
       "fingerprint": 1487025079,
       "fileDateHash": 2957895602,
@@ -4215,7 +4310,7 @@
     }
   ],
   "isValid": true,
-  "lastPreviousMatchUpdate": "2020-06-28T18:16:30.1533518Z",
+  "lastPreviousMatchUpdate": "2020-06-28T20:55:03.3027542Z",
   "isEnabled": true,
   "isPinned": false,
   "gameVersion": "1.15.2",
@@ -7140,14 +7235,14 @@
       "addonID": 363820,
       "gameInstanceID": "9bea8014-8271-438f-a7d3-e4243f882f2a",
       "installedFile": {
-        "id": 2990178,
-        "displayName": "0.1.0-BETA-2",
-        "fileName": "TerraForged-1.15.2-0.1.0-BETA-2.jar",
-        "fileDate": "2020-06-27T10:22:22.357Z",
-        "fileLength": 1276006,
-        "releaseType": 2,
+        "id": 2953095,
+        "displayName": "0.0.14",
+        "fileName": "TerraForged-1.15.2-0.0.14.jar",
+        "fileDate": "2020-05-10T10:06:07.867Z",
+        "fileLength": 1012537,
+        "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2990/178/TerraForged-1.15.2-0.1.0-BETA-2.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/2953/95/TerraForged-1.15.2-0.0.14.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [],
@@ -7155,37 +7250,22 @@
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 162243384,
+            "fingerprint": 831125026,
             "type": 0
           },
           {
-            "foldername": "biomes.png",
-            "fingerprint": 2949016127,
-            "type": 0
-          },
-          {
-            "foldername": "license.txt",
-            "fingerprint": 1703996219,
+            "foldername": "me",
+            "fingerprint": 580804417,
             "type": 0
           },
           {
             "foldername": "com",
-            "fingerprint": 4254936472,
-            "type": 0
-          },
-          {
-            "foldername": "biomes.txt",
-            "fingerprint": 366301374,
-            "type": 0
-          },
-          {
-            "foldername": "redwood.json",
-            "fingerprint": 2427009925,
+            "fingerprint": 3934192815,
             "type": 0
           },
           {
             "foldername": "data",
-            "fingerprint": 2218157380,
+            "fingerprint": 2755679645,
             "type": 0
           },
           {
@@ -7200,11 +7280,26 @@
           },
           {
             "foldername": "assets",
-            "fingerprint": 2076648465,
+            "fingerprint": 870601574,
+            "type": 0
+          },
+          {
+            "foldername": "biomes.png",
+            "fingerprint": 2034076798,
+            "type": 0
+          },
+          {
+            "foldername": "license.txt",
+            "fingerprint": 1703996219,
+            "type": 0
+          },
+          {
+            "foldername": "biomes.txt",
+            "fingerprint": 366301374,
             "type": 0
           }
         ],
-        "packageFingerprint": 199621326,
+        "packageFingerprint": 2435932870,
         "gameVersion": [
           "Forge",
           "1.15.2"
@@ -7218,12 +7313,12 @@
         "gameVersionDateReleased": "2008-03-01T06:00:00Z",
         "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "TerraForged-1.15.2-0.1.0-BETA-2.jar"
+        "FileNameOnDisk": "TerraForged-1.15.2-0.0.14.jar"
       },
       "dateInstalled": "2020-03-28T09:44:06.1532238Z",
-      "dateUpdated": "2020-06-27T19:47:37.1466663Z",
-      "dateLastUpdateAttempted": "2020-06-27T19:47:37.1466663Z",
-      "status": 4,
+      "dateUpdated": "2020-06-28T21:04:11.0692543Z",
+      "dateLastUpdateAttempted": "2020-06-28T21:04:11.0692543Z",
+      "status": 3,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -7894,7 +7989,7 @@
       "dateInstalled": "2020-02-02T19:05:15.1267591Z",
       "dateUpdated": "2020-06-27T19:47:19.2451241Z",
       "dateLastUpdateAttempted": "2020-06-27T19:47:19.2451241Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -7964,7 +8059,7 @@
       "dateInstalled": "2020-04-26T18:34:37.5888395Z",
       "dateUpdated": "2020-06-27T19:47:28.69221Z",
       "dateLastUpdateAttempted": "2020-06-27T19:47:28.69221Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -9213,7 +9308,7 @@
       "dateInstalled": "2020-03-28T09:44:06.1512352Z",
       "dateUpdated": "2020-06-27T20:01:28.7918843Z",
       "dateLastUpdateAttempted": "2020-06-27T20:01:28.7918843Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -9738,7 +9833,7 @@
       "dateInstalled": "2020-03-28T09:44:06.1502374Z",
       "dateUpdated": "2020-06-27T19:47:09.7857461Z",
       "dateLastUpdateAttempted": "2020-06-27T19:47:09.7857461Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -12801,7 +12896,7 @@
       "dateInstalled": "2020-03-29T09:55:53.8446403Z",
       "dateUpdated": "2020-06-27T19:47:56.762236Z",
       "dateLastUpdateAttempted": "2020-06-27T19:47:56.762236Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -14156,73 +14251,6 @@
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
       "isModified": false,
-      "isWorkingCopy": false,
-      "isFuzzyMatch": false,
-      "preferenceReleaseType": null,
-      "manifestName": null,
-      "installedTargets": null
-    },
-    {
-      "addonID": 372372,
-      "gameInstanceID": "9bea8014-8271-438f-a7d3-e4243f882f2a",
-      "installedFile": {
-        "id": 2930314,
-        "displayName": "enigmatica-0.3.1.jar",
-        "fileName": "enigmatica-0.3.1.jar",
-        "fileDate": "2020-04-14T21:56:37.577Z",
-        "fileLength": 28762,
-        "releaseType": 1,
-        "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2930/314/enigmatica-0.3.1.jar",
-        "isAlternate": false,
-        "alternateFileId": 0,
-        "dependencies": [],
-        "isAvailable": true,
-        "modules": [
-          {
-            "foldername": "META-INF",
-            "fingerprint": 541419775,
-            "type": 0
-          },
-          {
-            "foldername": "com",
-            "fingerprint": 183216911,
-            "type": 0
-          },
-          {
-            "foldername": "data",
-            "fingerprint": 2992095727,
-            "type": 0
-          },
-          {
-            "foldername": "pack.mcmeta",
-            "fingerprint": 3380797652,
-            "type": 0
-          }
-        ],
-        "packageFingerprint": 764561380,
-        "gameVersion": [
-          "1.15.2"
-        ],
-        "hasInstallScript": false,
-        "isCompatibleWithClient": false,
-        "categorySectionPackageType": 0,
-        "restrictProjectFileAccess": 0,
-        "projectStatus": 0,
-        "projectId": 0,
-        "gameVersionDateReleased": "2020-01-22T00:00:00Z",
-        "gameId": 0,
-        "isServerPack": false,
-        "FileNameOnDisk": "enigmatica-0.3.1.jar"
-      },
-      "dateInstalled": "2020-04-14T21:29:49.5029741Z",
-      "dateUpdated": "2020-04-15T18:48:06.7351279Z",
-      "dateLastUpdateAttempted": "2020-04-15T18:48:06.7351279Z",
-      "status": 5,
-      "preferenceAutoInstallUpdates": false,
-      "preferenceAlternateFile": false,
-      "preferenceIsIgnored": false,
-      "isModified": true,
       "isWorkingCopy": false,
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
@@ -20842,113 +20870,6 @@
       "dateUpdated": "2019-03-28T09:44:06.1751275Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
       "status": 5,
-      "preferenceAutoInstallUpdates": false,
-      "preferenceAlternateFile": false,
-      "preferenceIsIgnored": false,
-      "isModified": false,
-      "isWorkingCopy": false,
-      "isFuzzyMatch": false,
-      "preferenceReleaseType": null,
-      "manifestName": null,
-      "installedTargets": null
-    },
-    {
-      "addonID": 319716,
-      "gameInstanceID": "9bea8014-8271-438f-a7d3-e4243f882f2a",
-      "installedFile": {
-        "id": 2991036,
-        "displayName": "engineerstools-1.15.2-1.0.8.jar",
-        "fileName": "engineerstools-1.15.2-1.0.8.jar",
-        "fileDate": "2020-06-28T10:27:27.707Z",
-        "fileLength": 281002,
-        "releaseType": 1,
-        "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2991/36/engineerstools-1.15.2-1.0.8.jar",
-        "isAlternate": false,
-        "alternateFileId": 0,
-        "dependencies": [
-          {
-            "id": 0,
-            "addonId": 231951,
-            "type": 2,
-            "fileId": 0
-          },
-          {
-            "id": 0,
-            "addonId": 309927,
-            "type": 2,
-            "fileId": 0
-          },
-          {
-            "id": 0,
-            "addonId": 306770,
-            "type": 2,
-            "fileId": 0
-          },
-          {
-            "id": 0,
-            "addonId": 227083,
-            "type": 2,
-            "fileId": 0
-          }
-        ],
-        "isAvailable": true,
-        "modules": [
-          {
-            "foldername": "META-INF",
-            "fingerprint": 3658492698,
-            "type": 0
-          },
-          {
-            "foldername": "wile",
-            "fingerprint": 2914438300,
-            "type": 0
-          },
-          {
-            "foldername": ".gitversion-engineerstools",
-            "fingerprint": 982733789,
-            "type": 0
-          },
-          {
-            "foldername": "assets",
-            "fingerprint": 3536116293,
-            "type": 0
-          },
-          {
-            "foldername": "data",
-            "fingerprint": 168006066,
-            "type": 0
-          },
-          {
-            "foldername": "logo.png",
-            "fingerprint": 1289676017,
-            "type": 0
-          },
-          {
-            "foldername": "pack.mcmeta",
-            "fingerprint": 4266603001,
-            "type": 0
-          }
-        ],
-        "packageFingerprint": 931864103,
-        "gameVersion": [
-          "1.15.2"
-        ],
-        "hasInstallScript": false,
-        "isCompatibleWithClient": false,
-        "categorySectionPackageType": 0,
-        "restrictProjectFileAccess": 0,
-        "projectStatus": 0,
-        "projectId": 0,
-        "gameVersionDateReleased": "2020-01-22T00:00:00Z",
-        "gameId": 0,
-        "isServerPack": false,
-        "FileNameOnDisk": "engineerstools-1.15.2-1.0.8.jar"
-      },
-      "dateInstalled": "2020-06-22T20:07:16.2635184Z",
-      "dateUpdated": "2020-06-28T18:10:09.897355Z",
-      "dateLastUpdateAttempted": "2020-06-28T18:10:09.897355Z",
-      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
