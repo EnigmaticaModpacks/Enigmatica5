@@ -275,10 +275,10 @@
         },
         {
             "key": "short_blade/osmium",
-            "durability": 120,
+            "durability": 347,
             "integrity": -1,
             "magicCapacity": 112,
-            "damage": 4,
+            "damage": 5,
             "attackSpeed": 1.5,
             "glyph": {
                 "tint": "a7aed9",
@@ -296,10 +296,10 @@
         },
         {
             "key": "short_blade/refined_glowstone",
-            "durability": 311,
+            "durability": 196,
             "integrity": -2,
             "magicCapacity": 154,
-            "damage": 5.5,
+            "damage": 8,
             "attackSpeed": 1.5,
             "glyph": {
                 "tint": "eeff00",
@@ -317,10 +317,10 @@
         },
         {
             "key": "short_blade/refined_obsidian",
-            "durability": 270,
+            "durability": 394,
             "integrity": -3,
             "magicCapacity": 168,
-            "damage": 5,
+            "damage": 9,
             "attackSpeed": 1.5,
             "capabilities": {
                 "cut": [2, 0.7]
@@ -338,7 +338,7 @@
         },
         {
             "key": "short_blade/andesite_alloy",
-            "durability": 120,
+            "durability": 148,
             "integrity": 0,
             "magicCapacity": 108,
             "damage": 4,
@@ -359,7 +359,7 @@
         },
         {
             "key": "short_blade/zinc",
-            "durability": 120,
+            "durability": 174,
             "integrity": -1,
             "magicCapacity": 86,
             "damage": 4,
@@ -380,10 +380,10 @@
         },
         {
             "key": "short_blade/pink_slime",
-            "durability": 120,
+            "durability": 3767,
             "integrity": -1,
             "magicCapacity": 108,
-            "damage": 4,
+            "damage": 3,
             "attackSpeed": 1.5,
             "glyph": {
                 "tint": "df3ce8",
@@ -401,10 +401,10 @@
         },
         {
             "key": "short_blade/iesnium",
-            "durability": 120,
+            "durability": 174,
             "integrity": -1,
             "magicCapacity": 168,
-            "damage": 4,
+            "damage": 5,
             "attackSpeed": 1.5,
             "glyph": {
                 "tint": "aadef0",
@@ -422,10 +422,10 @@
         },
         {
             "key": "short_blade/treated_wood",
-            "durability": 40,
+            "durability": 68,
             "integrity": 0,
             "magicCapacity": 118,
-            "damage": 1,
+            "damage": 2,
             "attackSpeed": 2.2,
             "glyph": {
                 "tint": "8f380a",
@@ -443,7 +443,7 @@
         },
         {
             "key": "short_blade/aluminum",
-            "durability": 120,
+            "durability": 121,
             "integrity": -1,
             "magicCapacity": 78,
             "damage": 4,
@@ -464,7 +464,7 @@
         },
         {
             "key": "short_blade/constantan",
-            "durability": 120,
+            "durability": 126,
             "integrity": -1,
             "magicCapacity": 110,
             "damage": 4,
@@ -485,10 +485,10 @@
         },
         {
             "key": "short_blade/uranium",
-            "durability": 120,
+            "durability": 114,
             "integrity": -1,
             "magicCapacity": 170,
-            "damage": 4,
+            "damage": 6,
             "attackSpeed": 1.5,
             "glyph": {
                 "tint": "538a71",
@@ -506,7 +506,7 @@
         },
         {
             "key": "short_blade/infused_iron",
-            "durability": 120,
+            "durability": 161,
             "integrity": -1,
             "magicCapacity": 158,
             "damage": 4,
@@ -527,10 +527,10 @@
         },
         {
             "key": "short_blade/sky",
-            "durability": 270,
+            "durability": 410,
             "integrity": -4,
             "magicCapacity": 178,
-            "damage": 5,
+            "damage": 6,
             "attackSpeed": 1.5,
             "capabilities": {
                 "cut": [2, 0.7]
@@ -548,10 +548,10 @@
         },
         {
             "key": "short_blade/manasteel",
-            "durability": 120,
+            "durability": 443,
             "integrity": -2,
             "magicCapacity": 150,
-            "damage": 4,
+            "damage": 5,
             "attackSpeed": 1.5,
             "glyph": {
                 "tint": "104bc2",
@@ -569,10 +569,10 @@
         },
         {
             "key": "short_blade/elementium",
-            "durability": 311,
+            "durability": 401,
             "integrity": -3,
             "magicCapacity": 178,
-            "damage": 5.5,
+            "damage": 6,
             "attackSpeed": 1.5,
             "glyph": {
                 "tint": "cb0be0",
@@ -590,7 +590,7 @@
         },
         {
             "key": "short_blade/terrasteel",
-            "durability": 270,
+            "durability": 518,
             "integrity": -4,
             "magicCapacity": 192,
             "damage": 5,
@@ -611,10 +611,10 @@
         },
         {
             "key": "short_blade/gaia_spirit",
-            "durability": 270,
+            "durability": 394,
             "integrity": -5,
             "magicCapacity": 208,
-            "damage": 5,
+            "damage": 9,
             "attackSpeed": 1.5,
             "capabilities": {
                 "cut": [2, 0.7]
@@ -635,7 +635,7 @@
             "durability": 270,
             "integrity": -4,
             "magicCapacity": 158,
-            "damage": 5,
+            "damage": 6,
             "attackSpeed": 1.5,
             "capabilities": {
                 "cut": [2, 0.7]
@@ -653,10 +653,10 @@
         },
         {
             "key": "short_blade/compressed_iron",
-            "durability": 311,
+            "durability": 121,
             "integrity": -1,
             "magicCapacity": 112,
-            "damage": 5.5,
+            "damage": 4,
             "attackSpeed": 1.5,
             "glyph": {
                 "tint": "5e6a6e",
@@ -674,10 +674,10 @@
         },
         {
             "key": "short_blade/energized_steel",
-            "durability": 311,
+            "durability": 414,
             "integrity": -2,
             "magicCapacity": 108,
-            "damage": 5.5,
+            "damage": 6,
             "attackSpeed": 1.5,
             "glyph": {
                 "tint": "dbd2a4",
@@ -695,7 +695,7 @@
         },
         {
             "key": "short_blade/niotic",
-            "durability": 120,
+            "durability": 484,
             "integrity": -2,
             "magicCapacity": 108,
             "damage": 4,
@@ -719,7 +719,7 @@
             "durability": 270,
             "integrity": -3,
             "magicCapacity": 108,
-            "damage": 5,
+            "damage": 6,
             "attackSpeed": 1.5,
             "capabilities": {
                 "cut": [2, 0.7]
@@ -737,10 +737,10 @@
         },
         {
             "key": "short_blade/nitro",
-            "durability": 270,
+            "durability": 394,
             "integrity": -4,
             "magicCapacity": 108,
-            "damage": 5,
+            "damage": 9,
             "attackSpeed": 1.5,
             "capabilities": {
                 "cut": [2, 0.7]

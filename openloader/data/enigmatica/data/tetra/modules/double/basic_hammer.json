@@ -275,10 +275,10 @@
         },
         {
             "key": "basic_hammer/osmium",
-            "durability": 300,
+            "durability": 867,
             "integrity": -1,
             "magicCapacity": 112,
-            "damage": 7,
+            "damage": 9,
             "attackSpeed": -0.45,
             "glyph": {
                 "tint": "a7aed9",
@@ -296,10 +296,10 @@
         },
         {
             "key": "basic_hammer/refined_glowstone",
-            "durability": 521,
+            "durability": 328,
             "integrity": -2,
             "magicCapacity": 154,
-            "damage": 8,
+            "damage": 11,
             "attackSpeed": -0.45,
             "glyph": {
                 "tint": "eeff00",
@@ -312,15 +312,15 @@
                 }
             ],
             "capabilities": {
-                "hammer": [4, 18]
+                "hammer": [4, 23]
             }
         },
         {
             "key": "basic_hammer/refined_obsidian",
-            "durability": 720,
+            "durability": 1051,
             "integrity": -3,
             "magicCapacity": 168,
-            "damage": 9,
+            "damage": 16,
             "attackSpeed": -0.65,
             "glyph": {
                 "tint": "6e1f9c",
@@ -333,12 +333,12 @@
                 }
             ],
             "capabilities": {
-                "hammer": [4, 20]
+                "hammer": [4, 19.6]
             }
         },
         {
             "key": "basic_hammer/andesite_alloy",
-            "durability": 300,
+            "durability": 369,
             "integrity": 0,
             "magicCapacity": 108,
             "damage": 7,
@@ -354,15 +354,15 @@
                 }
             ],
             "capabilities": {
-                "hammer": [2, 10]
+                "hammer": [2, 8.4]
             }
         },
         {
             "key": "basic_hammer/zinc",
-            "durability": 300,
+            "durability": 435,
             "integrity": -1,
             "magicCapacity": 86,
-            "damage": 7,
+            "damage": 8,
             "attackSpeed": -0.45,
             "glyph": {
                 "tint": "e1e9f2",
@@ -375,15 +375,15 @@
                 }
             ],
             "capabilities": {
-                "hammer": [2, 10]
+                "hammer": [2, 10.3]
             }
         },
         {
             "key": "basic_hammer/pink_slime",
-            "durability": 300,
+            "durability": 9417,
             "integrity": -1,
             "magicCapacity": 108,
-            "damage": 7,
+            "damage": 4,
             "attackSpeed": -0.45,
             "glyph": {
                 "tint": "df3ce8",
@@ -396,15 +396,15 @@
                 }
             ],
             "capabilities": {
-                "hammer": [2, 10]
+                "hammer": [2, 5]
             }
         },
         {
             "key": "basic_hammer/iesnium",
-            "durability": 300,
+            "durability": 435,
             "integrity": -1,
             "magicCapacity": 168,
-            "damage": 7,
+            "damage": 8,
             "attackSpeed": -0.45,
             "glyph": {
                 "tint": "aadef0",
@@ -417,15 +417,15 @@
                 }
             ],
             "capabilities": {
-                "hammer": [2, 10]
+                "hammer": [2, 10.3]
             }
         },
         {
             "key": "basic_hammer/treated_wood",
-            "durability": 300,
+            "durability": 513,
             "integrity": 0,
             "magicCapacity": 118,
-            "damage": 7,
+            "damage": 12,
             "attackSpeed": -0.45,
             "glyph": {
                 "tint": "8f380a",
@@ -438,12 +438,12 @@
                 }
             ],
             "capabilities": {
-                "hammer": [2, 10]
+                "hammer": [2, 10.5]
             }
         },
         {
             "key": "basic_hammer/aluminum",
-            "durability": 300,
+            "durability": 303,
             "integrity": -1,
             "magicCapacity": 78,
             "damage": 7,
@@ -459,12 +459,12 @@
                 }
             ],
             "capabilities": {
-                "hammer": [2, 10]
+                "hammer": [2, 10.9]
             }
         },
         {
             "key": "basic_hammer/constantan",
-            "durability": 300,
+            "durability": 315,
             "integrity": -1,
             "magicCapacity": 110,
             "damage": 7,
@@ -480,15 +480,15 @@
                 }
             ],
             "capabilities": {
-                "hammer": [2, 10]
+                "hammer": [2, 10.2]
             }
         },
         {
             "key": "basic_hammer/uranium",
-            "durability": 300,
+            "durability": 285,
             "integrity": -1,
             "magicCapacity": 170,
-            "damage": 7,
+            "damage": 11,
             "attackSpeed": -0.45,
             "glyph": {
                 "tint": "538a71",
@@ -501,15 +501,15 @@
                 }
             ],
             "capabilities": {
-                "hammer": [2, 10]
+                "hammer": [2, 12.4]
             }
         },
         {
             "key": "basic_hammer/infused_iron",
-            "durability": 300,
+            "durability": 402,
             "integrity": -1,
             "magicCapacity": 158,
-            "damage": 7,
+            "damage": 8,
             "attackSpeed": -0.45,
             "glyph": {
                 "tint": "8a117",
@@ -522,15 +522,15 @@
                 }
             ],
             "capabilities": {
-                "hammer": [2, 10]
+                "hammer": [2, 10.8]
             }
         },
         {
             "key": "basic_hammer/sky",
-            "durability": 521,
+            "durability": 792,
             "integrity": -4,
             "magicCapacity": 178,
-            "damage": 8,
+            "damage": 10,
             "attackSpeed": -0.45,
             "glyph": {
                 "tint": "78ffff",
@@ -543,15 +543,15 @@
                 }
             ],
             "capabilities": {
-                "hammer": [4, 18]
+                "hammer": [4, 19.6]
             }
         },
         {
             "key": "basic_hammer/manasteel",
-            "durability": 300,
+            "durability": 1107,
             "integrity": -2,
             "magicCapacity": 150,
-            "damage": 7,
+            "damage": 9,
             "attackSpeed": -0.45,
             "glyph": {
                 "tint": "104bc2",
@@ -564,12 +564,12 @@
                 }
             ],
             "capabilities": {
-                "hammer": [2, 10]
+                "hammer": [2, 11.6]
             }
         },
         {
             "key": "basic_hammer/elementium",
-            "durability": 521,
+            "durability": 672,
             "integrity": -3,
             "magicCapacity": 178,
             "damage": 8,
@@ -585,12 +585,12 @@
                 }
             ],
             "capabilities": {
-                "hammer": [4, 18]
+                "hammer": [4, 19.6]
             }
         },
         {
             "key": "basic_hammer/terrasteel",
-            "durability": 521,
+            "durability": 1000,
             "integrity": -4,
             "magicCapacity": 192,
             "damage": 8,
@@ -606,15 +606,15 @@
                 }
             ],
             "capabilities": {
-                "hammer": [4, 18]
+                "hammer": [4, 23]
             }
         },
         {
             "key": "basic_hammer/gaia_spirit",
-            "durability": 720,
+            "durability": 1051,
             "integrity": -5,
             "magicCapacity": 208,
-            "damage": 9,
+            "damage": 16,
             "attackSpeed": -0.65,
             "glyph": {
                 "tint": "80bdb9",
@@ -627,7 +627,7 @@
                 }
             ],
             "capabilities": {
-                "hammer": [4, 20]
+                "hammer": [4, 27.4]
             }
         },
         {
@@ -635,7 +635,7 @@
             "durability": 720,
             "integrity": -4,
             "magicCapacity": 158,
-            "damage": 9,
+            "damage": 11,
             "attackSpeed": -0.65,
             "glyph": {
                 "tint": "2de0c2",
@@ -648,15 +648,15 @@
                 }
             ],
             "capabilities": {
-                "hammer": [4, 20]
+                "hammer": [4, 27.4]
             }
         },
         {
             "key": "basic_hammer/compressed_iron",
-            "durability": 521,
+            "durability": 203,
             "integrity": -1,
             "magicCapacity": 112,
-            "damage": 8,
+            "damage": 6,
             "attackSpeed": -0.45,
             "glyph": {
                 "tint": "5e6a6e",
@@ -669,12 +669,12 @@
                 }
             ],
             "capabilities": {
-                "hammer": [4, 18]
+                "hammer": [4, 15.7]
             }
         },
         {
             "key": "basic_hammer/energized_steel",
-            "durability": 521,
+            "durability": 693,
             "integrity": -2,
             "magicCapacity": 108,
             "damage": 8,
@@ -690,12 +690,12 @@
                 }
             ],
             "capabilities": {
-                "hammer": [4, 18]
+                "hammer": [4, 19.6]
             }
         },
         {
             "key": "basic_hammer/niotic",
-            "durability": 300,
+            "durability": 1209,
             "integrity": -2,
             "magicCapacity": 108,
             "damage": 7,
@@ -711,7 +711,7 @@
                 }
             ],
             "capabilities": {
-                "hammer": [2, 10]
+                "hammer": [2, 11.6]
             }
         },
         {
@@ -719,7 +719,7 @@
             "durability": 720,
             "integrity": -3,
             "magicCapacity": 108,
-            "damage": 9,
+            "damage": 10,
             "attackSpeed": -0.65,
             "glyph": {
                 "tint": "13eb21",
@@ -732,15 +732,15 @@
                 }
             ],
             "capabilities": {
-                "hammer": [4, 20]
+                "hammer": [4, 25.4]
             }
         },
         {
             "key": "basic_hammer/nitro",
-            "durability": 720,
+            "durability": 1051,
             "integrity": -4,
             "magicCapacity": 108,
-            "damage": 9,
+            "damage": 16,
             "attackSpeed": -0.65,
             "glyph": {
                 "tint": "d11608",
@@ -753,7 +753,7 @@
                 }
             ],
             "capabilities": {
-                "hammer": [4, 20]
+                "hammer": [4, 27.4]
             }
         }
     ]

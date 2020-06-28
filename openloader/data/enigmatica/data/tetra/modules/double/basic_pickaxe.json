@@ -275,10 +275,10 @@
         },
         {
             "key": "basic_pickaxe/osmium",
-            "durability": 115,
+            "durability": 332,
             "integrity": -1,
             "magicCapacity": 112,
-            "damage": 3,
+            "damage": 4,
             "attackSpeed": -0.2,
             "glyph": {
                 "tint": "a7aed9",
@@ -296,10 +296,10 @@
         },
         {
             "key": "basic_pickaxe/refined_glowstone",
-            "durability": 202,
+            "durability": 127,
             "integrity": -2,
             "magicCapacity": 154,
-            "damage": 2,
+            "damage": 3,
             "attackSpeed": -0.2,
             "glyph": {
                 "tint": "eeff00",
@@ -312,15 +312,15 @@
                 }
             ],
             "capabilities": {
-                "pickaxe": [4, 6.5]
+                "pickaxe": [4, 8.3]
             }
         },
         {
             "key": "basic_pickaxe/refined_obsidian",
-            "durability": 771,
+            "durability": 1126,
             "integrity": -3,
             "magicCapacity": 168,
-            "damage": 4,
+            "damage": 7,
             "attackSpeed": -0.2,
             "glyph": {
                 "tint": "6e1f9c",
@@ -333,12 +333,12 @@
                 }
             ],
             "capabilities": {
-                "pickaxe": [3, 6.6667]
+                "pickaxe": [3, 6.5]
             }
         },
         {
             "key": "basic_pickaxe/andesite_alloy",
-            "durability": 115,
+            "durability": 141,
             "integrity": 0,
             "magicCapacity": 108,
             "damage": 3,
@@ -354,12 +354,12 @@
                 }
             ],
             "capabilities": {
-                "pickaxe": [2, 5]
+                "pickaxe": [2, 4.2]
             }
         },
         {
             "key": "basic_pickaxe/zinc",
-            "durability": 115,
+            "durability": 167,
             "integrity": -1,
             "magicCapacity": 86,
             "damage": 3,
@@ -375,15 +375,15 @@
                 }
             ],
             "capabilities": {
-                "pickaxe": [2, 5]
+                "pickaxe": [2, 5.2]
             }
         },
         {
             "key": "basic_pickaxe/pink_slime",
-            "durability": 115,
+            "durability": 3610,
             "integrity": -1,
             "magicCapacity": 108,
-            "damage": 3,
+            "damage": 2,
             "attackSpeed": -0.2,
             "glyph": {
                 "tint": "df3ce8",
@@ -396,12 +396,12 @@
                 }
             ],
             "capabilities": {
-                "pickaxe": [2, 5]
+                "pickaxe": [2, 2.5]
             }
         },
         {
             "key": "basic_pickaxe/iesnium",
-            "durability": 115,
+            "durability": 167,
             "integrity": -1,
             "magicCapacity": 168,
             "damage": 3,
@@ -417,15 +417,15 @@
                 }
             ],
             "capabilities": {
-                "pickaxe": [2, 5]
+                "pickaxe": [2, 5.2]
             }
         },
         {
             "key": "basic_pickaxe/treated_wood",
-            "durability": 20,
+            "durability": 34,
             "integrity": 0,
             "magicCapacity": 118,
-            "damage": 1,
+            "damage": 2,
             "attackSpeed": -0.2,
             "glyph": {
                 "tint": "8f380a",
@@ -438,12 +438,12 @@
                 }
             ],
             "capabilities": {
-                "pickaxe": [0, 1.6667]
+                "pickaxe": [0, 1.8]
             }
         },
         {
             "key": "basic_pickaxe/aluminum",
-            "durability": 115,
+            "durability": 116,
             "integrity": -1,
             "magicCapacity": 78,
             "damage": 3,
@@ -459,12 +459,12 @@
                 }
             ],
             "capabilities": {
-                "pickaxe": [2, 5]
+                "pickaxe": [2, 5.5]
             }
         },
         {
             "key": "basic_pickaxe/constantan",
-            "durability": 115,
+            "durability": 121,
             "integrity": -1,
             "magicCapacity": 110,
             "damage": 3,
@@ -480,15 +480,15 @@
                 }
             ],
             "capabilities": {
-                "pickaxe": [2, 5]
+                "pickaxe": [2, 5.1]
             }
         },
         {
             "key": "basic_pickaxe/uranium",
-            "durability": 115,
+            "durability": 109,
             "integrity": -1,
             "magicCapacity": 170,
-            "damage": 3,
+            "damage": 5,
             "attackSpeed": -0.2,
             "glyph": {
                 "tint": "538a71",
@@ -501,12 +501,12 @@
                 }
             ],
             "capabilities": {
-                "pickaxe": [2, 5]
+                "pickaxe": [2, 6.2]
             }
         },
         {
             "key": "basic_pickaxe/infused_iron",
-            "durability": 115,
+            "durability": 154,
             "integrity": -1,
             "magicCapacity": 158,
             "damage": 3,
@@ -522,15 +522,15 @@
                 }
             ],
             "capabilities": {
-                "pickaxe": [2, 5]
+                "pickaxe": [2, 5.4]
             }
         },
         {
             "key": "basic_pickaxe/sky",
-            "durability": 771,
+            "durability": 1172,
             "integrity": -4,
             "magicCapacity": 178,
-            "damage": 4,
+            "damage": 5,
             "attackSpeed": -0.2,
             "glyph": {
                 "tint": "78ffff",
@@ -543,15 +543,15 @@
                 }
             ],
             "capabilities": {
-                "pickaxe": [3, 6.6667]
+                "pickaxe": [3, 7.3]
             }
         },
         {
             "key": "basic_pickaxe/manasteel",
-            "durability": 115,
+            "durability": 424,
             "integrity": -2,
             "magicCapacity": 150,
-            "damage": 3,
+            "damage": 4,
             "attackSpeed": -0.2,
             "glyph": {
                 "tint": "104bc2",
@@ -564,12 +564,12 @@
                 }
             ],
             "capabilities": {
-                "pickaxe": [2, 5]
+                "pickaxe": [2, 5.8]
             }
         },
         {
             "key": "basic_pickaxe/elementium",
-            "durability": 202,
+            "durability": 261,
             "integrity": -3,
             "magicCapacity": 178,
             "damage": 2,
@@ -585,12 +585,12 @@
                 }
             ],
             "capabilities": {
-                "pickaxe": [4, 6.5]
+                "pickaxe": [4, 7.1]
             }
         },
         {
             "key": "basic_pickaxe/terrasteel",
-            "durability": 771,
+            "durability": 1480,
             "integrity": -4,
             "magicCapacity": 192,
             "damage": 4,
@@ -606,15 +606,15 @@
                 }
             ],
             "capabilities": {
-                "pickaxe": [3, 6.6667]
+                "pickaxe": [3, 8.5]
             }
         },
         {
             "key": "basic_pickaxe/gaia_spirit",
-            "durability": 771,
+            "durability": 1126,
             "integrity": -5,
             "magicCapacity": 208,
-            "damage": 4,
+            "damage": 7,
             "attackSpeed": -0.2,
             "glyph": {
                 "tint": "80bdb9",
@@ -627,7 +627,7 @@
                 }
             ],
             "capabilities": {
-                "pickaxe": [3, 6.6667]
+                "pickaxe": [3, 9.1]
             }
         },
         {
@@ -635,7 +635,7 @@
             "durability": 771,
             "integrity": -4,
             "magicCapacity": 158,
-            "damage": 4,
+            "damage": 5,
             "attackSpeed": -0.2,
             "glyph": {
                 "tint": "2de0c2",
@@ -648,12 +648,12 @@
                 }
             ],
             "capabilities": {
-                "pickaxe": [3, 6.6667]
+                "pickaxe": [3, 9.1]
             }
         },
         {
             "key": "basic_pickaxe/compressed_iron",
-            "durability": 202,
+            "durability": 79,
             "integrity": -1,
             "magicCapacity": 112,
             "damage": 2,
@@ -669,12 +669,12 @@
                 }
             ],
             "capabilities": {
-                "pickaxe": [4, 6.5]
+                "pickaxe": [4, 5.7]
             }
         },
         {
             "key": "basic_pickaxe/energized_steel",
-            "durability": 202,
+            "durability": 269,
             "integrity": -2,
             "magicCapacity": 108,
             "damage": 2,
@@ -690,12 +690,12 @@
                 }
             ],
             "capabilities": {
-                "pickaxe": [4, 6.5]
+                "pickaxe": [4, 7.1]
             }
         },
         {
             "key": "basic_pickaxe/niotic",
-            "durability": 115,
+            "durability": 463,
             "integrity": -2,
             "magicCapacity": 108,
             "damage": 3,
@@ -711,7 +711,7 @@
                 }
             ],
             "capabilities": {
-                "pickaxe": [2, 5]
+                "pickaxe": [2, 5.8]
             }
         },
         {
@@ -732,15 +732,15 @@
                 }
             ],
             "capabilities": {
-                "pickaxe": [3, 6.6667]
+                "pickaxe": [3, 8.5]
             }
         },
         {
             "key": "basic_pickaxe/nitro",
-            "durability": 771,
+            "durability": 1126,
             "integrity": -4,
             "magicCapacity": 108,
-            "damage": 4,
+            "damage": 7,
             "attackSpeed": -0.2,
             "glyph": {
                 "tint": "d11608",
@@ -753,7 +753,7 @@
                 }
             ],
             "capabilities": {
-                "pickaxe": [3, 6.6667]
+                "pickaxe": [3, 9.1]
             }
         }
     ]

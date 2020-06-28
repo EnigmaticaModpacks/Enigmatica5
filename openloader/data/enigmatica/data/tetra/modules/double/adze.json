@@ -288,7 +288,7 @@
         },
         {
             "key": "adze/osmium",
-            "durability": 143,
+            "durability": 413,
             "integrity": -1,
             "magicCapacity": 112,
             "damage": 1,
@@ -310,7 +310,7 @@
         },
         {
             "key": "adze/refined_glowstone",
-            "durability": 352,
+            "durability": 222,
             "integrity": -2,
             "magicCapacity": 154,
             "damage": 1,
@@ -326,16 +326,16 @@
                 }
             ],
             "capabilities": {
-                "axe": [3, 4.2],
-                "shovel": [3, 4.2]
+                "axe": [3, 5.4],
+                "shovel": [3, 5.4]
             }
         },
         {
             "key": "adze/refined_obsidian",
-            "durability": 742,
+            "durability": 1083,
             "integrity": -3,
             "magicCapacity": 168,
-            "damage": 1,
+            "damage": 2,
             "attackSpeed": -0.5,
             "glyph": {
                 "tint": "6e1f9c",
@@ -348,13 +348,13 @@
                 }
             ],
             "capabilities": {
-                "axe": [3, 4.1],
-                "shovel": [3, 4.1]
+                "axe": [3, 4],
+                "shovel": [3, 4]
             }
         },
         {
             "key": "adze/andesite_alloy",
-            "durability": 143,
+            "durability": 176,
             "integrity": 0,
             "magicCapacity": 108,
             "damage": 1,
@@ -370,13 +370,13 @@
                 }
             ],
             "capabilities": {
-                "axe": [2, 3.4],
-                "shovel": [2, 3.4]
+                "axe": [2, 2.9],
+                "shovel": [2, 2.9]
             }
         },
         {
             "key": "adze/zinc",
-            "durability": 143,
+            "durability": 207,
             "integrity": -1,
             "magicCapacity": 86,
             "damage": 1,
@@ -392,13 +392,13 @@
                 }
             ],
             "capabilities": {
-                "axe": [2, 3.4],
-                "shovel": [2, 3.4]
+                "axe": [2, 3.5],
+                "shovel": [2, 3.5]
             }
         },
         {
             "key": "adze/pink_slime",
-            "durability": 143,
+            "durability": 4489,
             "integrity": -1,
             "magicCapacity": 108,
             "damage": 1,
@@ -414,13 +414,13 @@
                 }
             ],
             "capabilities": {
-                "axe": [2, 3.4],
-                "shovel": [2, 3.4]
+                "axe": [2, 1.7],
+                "shovel": [2, 1.7]
             }
         },
         {
             "key": "adze/iesnium",
-            "durability": 143,
+            "durability": 207,
             "integrity": -1,
             "magicCapacity": 168,
             "damage": 1,
@@ -436,13 +436,13 @@
                 }
             ],
             "capabilities": {
-                "axe": [2, 3.4],
-                "shovel": [2, 3.4]
+                "axe": [2, 3.5],
+                "shovel": [2, 3.5]
             }
         },
         {
             "key": "adze/treated_wood",
-            "durability": 20,
+            "durability": 34,
             "integrity": 0,
             "magicCapacity": 118,
             "damage": 0,
@@ -458,13 +458,13 @@
                 }
             ],
             "capabilities": {
-                "axe": [1, 1.5],
-                "shovel": [1, 1.5]
+                "axe": [1, 1.6],
+                "shovel": [1, 1.6]
             }
         },
         {
             "key": "adze/aluminum",
-            "durability": 143,
+            "durability": 144,
             "integrity": -1,
             "magicCapacity": 78,
             "damage": 1,
@@ -480,13 +480,13 @@
                 }
             ],
             "capabilities": {
-                "axe": [2, 3.4],
-                "shovel": [2, 3.4]
+                "axe": [2, 3.7],
+                "shovel": [2, 3.7]
             }
         },
         {
             "key": "adze/constantan",
-            "durability": 143,
+            "durability": 150,
             "integrity": -1,
             "magicCapacity": 110,
             "damage": 1,
@@ -502,16 +502,16 @@
                 }
             ],
             "capabilities": {
-                "axe": [2, 3.4],
-                "shovel": [2, 3.4]
+                "axe": [2, 3.5],
+                "shovel": [2, 3.5]
             }
         },
         {
             "key": "adze/uranium",
-            "durability": 143,
+            "durability": 136,
             "integrity": -1,
             "magicCapacity": 170,
-            "damage": 1,
+            "damage": 2,
             "attackSpeed": -0.5,
             "glyph": {
                 "tint": "538a71",
@@ -524,13 +524,13 @@
                 }
             ],
             "capabilities": {
-                "axe": [2, 3.4],
-                "shovel": [2, 3.4]
+                "axe": [2, 4.2],
+                "shovel": [2, 4.2]
             }
         },
         {
             "key": "adze/infused_iron",
-            "durability": 143,
+            "durability": 192,
             "integrity": -1,
             "magicCapacity": 158,
             "damage": 1,
@@ -546,13 +546,13 @@
                 }
             ],
             "capabilities": {
-                "axe": [2, 3.4],
-                "shovel": [2, 3.4]
+                "axe": [2, 3.7],
+                "shovel": [2, 3.7]
             }
         },
         {
             "key": "adze/sky",
-            "durability": 742,
+            "durability": 1128,
             "integrity": -4,
             "magicCapacity": 178,
             "damage": 1,
@@ -568,13 +568,13 @@
                 }
             ],
             "capabilities": {
-                "axe": [3, 4.1],
-                "shovel": [3, 4.1]
+                "axe": [3, 4.5],
+                "shovel": [3, 4.5]
             }
         },
         {
             "key": "adze/manasteel",
-            "durability": 143,
+            "durability": 528,
             "integrity": -2,
             "magicCapacity": 150,
             "damage": 1,
@@ -590,13 +590,13 @@
                 }
             ],
             "capabilities": {
-                "axe": [2, 3.4],
-                "shovel": [2, 3.4]
+                "axe": [2, 3.9],
+                "shovel": [2, 3.9]
             }
         },
         {
             "key": "adze/elementium",
-            "durability": 352,
+            "durability": 454,
             "integrity": -3,
             "magicCapacity": 178,
             "damage": 1,
@@ -612,13 +612,13 @@
                 }
             ],
             "capabilities": {
-                "axe": [3, 4.2],
-                "shovel": [3, 4.2]
+                "axe": [3, 4.6],
+                "shovel": [3, 4.6]
             }
         },
         {
             "key": "adze/terrasteel",
-            "durability": 742,
+            "durability": 1425,
             "integrity": -4,
             "magicCapacity": 192,
             "damage": 1,
@@ -634,16 +634,16 @@
                 }
             ],
             "capabilities": {
-                "axe": [3, 4.1],
-                "shovel": [3, 4.1]
+                "axe": [3, 5.2],
+                "shovel": [3, 5.2]
             }
         },
         {
             "key": "adze/gaia_spirit",
-            "durability": 742,
+            "durability": 1083,
             "integrity": -5,
             "magicCapacity": 208,
-            "damage": 1,
+            "damage": 2,
             "attackSpeed": -0.5,
             "glyph": {
                 "tint": "80bdb9",
@@ -656,8 +656,8 @@
                 }
             ],
             "capabilities": {
-                "axe": [3, 4.1],
-                "shovel": [3, 4.1]
+                "axe": [3, 5.6],
+                "shovel": [3, 5.6]
             }
         },
         {
@@ -678,13 +678,13 @@
                 }
             ],
             "capabilities": {
-                "axe": [3, 4.1],
-                "shovel": [3, 4.1]
+                "axe": [3, 5.6],
+                "shovel": [3, 5.6]
             }
         },
         {
             "key": "adze/compressed_iron",
-            "durability": 352,
+            "durability": 137,
             "integrity": -1,
             "magicCapacity": 112,
             "damage": 1,
@@ -700,13 +700,13 @@
                 }
             ],
             "capabilities": {
-                "axe": [3, 4.2],
-                "shovel": [3, 4.2]
+                "axe": [3, 3.7],
+                "shovel": [3, 3.7]
             }
         },
         {
             "key": "adze/energized_steel",
-            "durability": 352,
+            "durability": 468,
             "integrity": -2,
             "magicCapacity": 108,
             "damage": 1,
@@ -722,13 +722,13 @@
                 }
             ],
             "capabilities": {
-                "axe": [3, 4.2],
-                "shovel": [3, 4.2]
+                "axe": [3, 4.6],
+                "shovel": [3, 4.6]
             }
         },
         {
             "key": "adze/niotic",
-            "durability": 143,
+            "durability": 576,
             "integrity": -2,
             "magicCapacity": 108,
             "damage": 1,
@@ -744,8 +744,8 @@
                 }
             ],
             "capabilities": {
-                "axe": [2, 3.4],
-                "shovel": [2, 3.4]
+                "axe": [2, 3.9],
+                "shovel": [2, 3.9]
             }
         },
         {
@@ -766,16 +766,16 @@
                 }
             ],
             "capabilities": {
-                "axe": [3, 4.1],
-                "shovel": [3, 4.1]
+                "axe": [3, 5.2],
+                "shovel": [3, 5.2]
             }
         },
         {
             "key": "adze/nitro",
-            "durability": 742,
+            "durability": 1083,
             "integrity": -4,
             "magicCapacity": 108,
-            "damage": 1,
+            "damage": 2,
             "attackSpeed": -0.5,
             "glyph": {
                 "tint": "d11608",
@@ -788,8 +788,8 @@
                 }
             ],
             "capabilities": {
-                "axe": [3, 4.1],
-                "shovel": [3, 4.1]
+                "axe": [3, 5.6],
+                "shovel": [3, 5.6]
             }
         }
     ]

@@ -353,7 +353,7 @@
         },
         {
             "key": "sickle/osmium",
-            "durability": 115,
+            "durability": 332,
             "integrity": -1,
             "magicCapacity": 112,
             "damage": 2,
@@ -380,10 +380,10 @@
         },
         {
             "key": "sickle/refined_glowstone",
-            "durability": 328,
+            "durability": 207,
             "integrity": -2,
             "magicCapacity": 154,
-            "damage": 2,
+            "damage": 3,
             "attackSpeed": -0.35,
             "glyph": {
                 "tint": "eeff00",
@@ -397,7 +397,7 @@
                 }
             ],
             "capabilities": {
-                "cut": [2, 6.5]
+                "cut": [2, 8.3]
             },
             "effects": {
                 "strikingCut": 1,
@@ -407,10 +407,10 @@
         },
         {
             "key": "sickle/refined_obsidian",
-            "durability": 771,
+            "durability": 1126,
             "integrity": -3,
             "magicCapacity": 168,
-            "damage": 2,
+            "damage": 4,
             "attackSpeed": -0.4,
             "glyph": {
                 "tint": "6e1f9c",
@@ -424,7 +424,7 @@
                 }
             ],
             "capabilities": {
-                "cut": [1, 6.6667]
+                "cut": [1, 6.5]
             },
             "effects": {
                 "strikingCut": 1,
@@ -434,7 +434,7 @@
         },
         {
             "key": "sickle/andesite_alloy",
-            "durability": 115,
+            "durability": 141,
             "integrity": 0,
             "magicCapacity": 108,
             "damage": 2,
@@ -451,7 +451,7 @@
                 }
             ],
             "capabilities": {
-                "cut": [1, 5]
+                "cut": [1, 4.2]
             },
             "effects": {
                 "strikingCut": 1,
@@ -461,7 +461,7 @@
         },
         {
             "key": "sickle/zinc",
-            "durability": 115,
+            "durability": 167,
             "integrity": -1,
             "magicCapacity": 86,
             "damage": 2,
@@ -478,7 +478,7 @@
                 }
             ],
             "capabilities": {
-                "cut": [1, 5]
+                "cut": [1, 5.2]
             },
             "effects": {
                 "strikingCut": 1,
@@ -488,10 +488,10 @@
         },
         {
             "key": "sickle/pink_slime",
-            "durability": 115,
+            "durability": 3610,
             "integrity": -1,
             "magicCapacity": 108,
-            "damage": 2,
+            "damage": 1,
             "attackSpeed": -0.4,
             "glyph": {
                 "tint": "df3ce8",
@@ -505,7 +505,7 @@
                 }
             ],
             "capabilities": {
-                "cut": [1, 5]
+                "cut": [1, 2.5]
             },
             "effects": {
                 "strikingCut": 1,
@@ -515,7 +515,7 @@
         },
         {
             "key": "sickle/iesnium",
-            "durability": 115,
+            "durability": 167,
             "integrity": -1,
             "magicCapacity": 168,
             "damage": 2,
@@ -532,7 +532,7 @@
                 }
             ],
             "capabilities": {
-                "cut": [1, 5]
+                "cut": [1, 5.2]
             },
             "effects": {
                 "strikingCut": 1,
@@ -542,10 +542,10 @@
         },
         {
             "key": "sickle/treated_wood",
-            "durability": 20,
+            "durability": 34,
             "integrity": 0,
             "magicCapacity": 118,
-            "damage": 1,
+            "damage": 2,
             "attackSpeed": -0.4,
             "glyph": {
                 "tint": "8f380a",
@@ -559,7 +559,7 @@
                 }
             ],
             "capabilities": {
-                "cut": [1, 1.6667]
+                "cut": [1, 1.8]
             },
             "effects": {
                 "strikingCut": 1,
@@ -569,7 +569,7 @@
         },
         {
             "key": "sickle/aluminum",
-            "durability": 115,
+            "durability": 116,
             "integrity": -1,
             "magicCapacity": 78,
             "damage": 2,
@@ -586,7 +586,7 @@
                 }
             ],
             "capabilities": {
-                "cut": [1, 5]
+                "cut": [1, 5.5]
             },
             "effects": {
                 "strikingCut": 1,
@@ -596,7 +596,7 @@
         },
         {
             "key": "sickle/constantan",
-            "durability": 115,
+            "durability": 121,
             "integrity": -1,
             "magicCapacity": 110,
             "damage": 2,
@@ -613,7 +613,7 @@
                 }
             ],
             "capabilities": {
-                "cut": [1, 5]
+                "cut": [1, 5.1]
             },
             "effects": {
                 "strikingCut": 1,
@@ -623,10 +623,10 @@
         },
         {
             "key": "sickle/uranium",
-            "durability": 115,
+            "durability": 109,
             "integrity": -1,
             "magicCapacity": 170,
-            "damage": 2,
+            "damage": 3,
             "attackSpeed": -0.4,
             "glyph": {
                 "tint": "538a71",
@@ -640,7 +640,7 @@
                 }
             ],
             "capabilities": {
-                "cut": [1, 5]
+                "cut": [1, 6.2]
             },
             "effects": {
                 "strikingCut": 1,
@@ -650,7 +650,7 @@
         },
         {
             "key": "sickle/infused_iron",
-            "durability": 115,
+            "durability": 154,
             "integrity": -1,
             "magicCapacity": 158,
             "damage": 2,
@@ -667,7 +667,7 @@
                 }
             ],
             "capabilities": {
-                "cut": [1, 5]
+                "cut": [1, 5.4]
             },
             "effects": {
                 "strikingCut": 1,
@@ -677,7 +677,7 @@
         },
         {
             "key": "sickle/sky",
-            "durability": 771,
+            "durability": 1172,
             "integrity": -4,
             "magicCapacity": 178,
             "damage": 2,
@@ -694,7 +694,7 @@
                 }
             ],
             "capabilities": {
-                "cut": [1, 6.6667]
+                "cut": [1, 7.3]
             },
             "effects": {
                 "strikingCut": 1,
@@ -704,7 +704,7 @@
         },
         {
             "key": "sickle/manasteel",
-            "durability": 115,
+            "durability": 424,
             "integrity": -2,
             "magicCapacity": 150,
             "damage": 2,
@@ -721,7 +721,7 @@
                 }
             ],
             "capabilities": {
-                "cut": [1, 5]
+                "cut": [1, 5.8]
             },
             "effects": {
                 "strikingCut": 1,
@@ -731,7 +731,7 @@
         },
         {
             "key": "sickle/elementium",
-            "durability": 328,
+            "durability": 423,
             "integrity": -3,
             "magicCapacity": 178,
             "damage": 2,
@@ -748,7 +748,7 @@
                 }
             ],
             "capabilities": {
-                "cut": [2, 6.5]
+                "cut": [2, 7.1]
             },
             "effects": {
                 "strikingCut": 1,
@@ -758,7 +758,7 @@
         },
         {
             "key": "sickle/terrasteel",
-            "durability": 771,
+            "durability": 1480,
             "integrity": -4,
             "magicCapacity": 192,
             "damage": 2,
@@ -775,7 +775,7 @@
                 }
             ],
             "capabilities": {
-                "cut": [1, 6.6667]
+                "cut": [1, 8.5]
             },
             "effects": {
                 "strikingCut": 1,
@@ -785,10 +785,10 @@
         },
         {
             "key": "sickle/gaia_spirit",
-            "durability": 771,
+            "durability": 1126,
             "integrity": -5,
             "magicCapacity": 208,
-            "damage": 2,
+            "damage": 4,
             "attackSpeed": -0.4,
             "glyph": {
                 "tint": "80bdb9",
@@ -802,7 +802,7 @@
                 }
             ],
             "capabilities": {
-                "cut": [1, 6.6667]
+                "cut": [1, 9.1]
             },
             "effects": {
                 "strikingCut": 1,
@@ -829,7 +829,7 @@
                 }
             ],
             "capabilities": {
-                "cut": [1, 6.6667]
+                "cut": [1, 9.1]
             },
             "effects": {
                 "strikingCut": 1,
@@ -839,7 +839,7 @@
         },
         {
             "key": "sickle/compressed_iron",
-            "durability": 328,
+            "durability": 128,
             "integrity": -1,
             "magicCapacity": 112,
             "damage": 2,
@@ -856,7 +856,7 @@
                 }
             ],
             "capabilities": {
-                "cut": [2, 6.5]
+                "cut": [2, 5.7]
             },
             "effects": {
                 "strikingCut": 1,
@@ -866,7 +866,7 @@
         },
         {
             "key": "sickle/energized_steel",
-            "durability": 328,
+            "durability": 436,
             "integrity": -2,
             "magicCapacity": 108,
             "damage": 2,
@@ -883,7 +883,7 @@
                 }
             ],
             "capabilities": {
-                "cut": [2, 6.5]
+                "cut": [2, 7.1]
             },
             "effects": {
                 "strikingCut": 1,
@@ -893,7 +893,7 @@
         },
         {
             "key": "sickle/niotic",
-            "durability": 115,
+            "durability": 463,
             "integrity": -2,
             "magicCapacity": 108,
             "damage": 2,
@@ -910,7 +910,7 @@
                 }
             ],
             "capabilities": {
-                "cut": [1, 5]
+                "cut": [1, 5.8]
             },
             "effects": {
                 "strikingCut": 1,
@@ -937,7 +937,7 @@
                 }
             ],
             "capabilities": {
-                "cut": [1, 6.6667]
+                "cut": [1, 8.5]
             },
             "effects": {
                 "strikingCut": 1,
@@ -947,10 +947,10 @@
         },
         {
             "key": "sickle/nitro",
-            "durability": 771,
+            "durability": 1126,
             "integrity": -4,
             "magicCapacity": 108,
-            "damage": 2,
+            "damage": 4,
             "attackSpeed": -0.4,
             "glyph": {
                 "tint": "d11608",
@@ -964,7 +964,7 @@
                 }
             ],
             "capabilities": {
-                "cut": [1, 6.6667]
+                "cut": [1, 9.1]
             },
             "effects": {
                 "strikingCut": 1,

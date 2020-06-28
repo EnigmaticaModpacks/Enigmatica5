@@ -353,10 +353,10 @@
         },
         {
             "key": "stonecutter/osmium",
-            "durability": 500,
+            "durability": 1445,
             "integrity": -1,
             "magicCapacity": 112,
-            "damage": 3,
+            "damage": 4,
             "attackSpeed": -1.6,
             "capabilities": {
                 "pickaxe": [1, 1.5]
@@ -380,10 +380,10 @@
         },
         {
             "key": "stonecutter/refined_glowstone",
-            "durability": 600,
+            "durability": 378,
             "integrity": -2,
             "magicCapacity": 154,
-            "damage": 5,
+            "damage": 7,
             "attackSpeed": -1.8,
             "capabilities": {
                 "pickaxe": [4, 6.5]
@@ -407,10 +407,10 @@
         },
         {
             "key": "stonecutter/refined_obsidian",
-            "durability": 1100,
+            "durability": 1606,
             "integrity": -3,
             "magicCapacity": 168,
-            "damage": 7,
+            "damage": 13,
             "attackSpeed": -2.1,
             "capabilities": {
                 "pickaxe": [4, 12]
@@ -434,7 +434,7 @@
         },
         {
             "key": "stonecutter/andesite_alloy",
-            "durability": 200,
+            "durability": 246,
             "integrity": 0,
             "magicCapacity": 108,
             "damage": 3,
@@ -461,7 +461,7 @@
         },
         {
             "key": "stonecutter/zinc",
-            "durability": 280,
+            "durability": 406,
             "integrity": -1,
             "magicCapacity": 86,
             "damage": 3,
@@ -488,10 +488,10 @@
         },
         {
             "key": "stonecutter/pink_slime",
-            "durability": 225,
+            "durability": 7063,
             "integrity": -1,
             "magicCapacity": 108,
-            "damage": 3,
+            "damage": 2,
             "attackSpeed": -1.6,
             "capabilities": {
                 "pickaxe": [2, 9]
@@ -515,7 +515,7 @@
         },
         {
             "key": "stonecutter/iesnium",
-            "durability": 245,
+            "durability": 355,
             "integrity": -1,
             "magicCapacity": 168,
             "damage": 3,
@@ -542,10 +542,10 @@
         },
         {
             "key": "stonecutter/treated_wood",
-            "durability": 180,
+            "durability": 308,
             "integrity": 0,
             "magicCapacity": 118,
-            "damage": 3,
+            "damage": 5,
             "attackSpeed": -1.6,
             "capabilities": {
                 "pickaxe": [1, 3]
@@ -569,7 +569,7 @@
         },
         {
             "key": "stonecutter/aluminum",
-            "durability": 175,
+            "durability": 177,
             "integrity": -1,
             "magicCapacity": 78,
             "damage": 3,
@@ -596,7 +596,7 @@
         },
         {
             "key": "stonecutter/constantan",
-            "durability": 375,
+            "durability": 394,
             "integrity": -1,
             "magicCapacity": 110,
             "damage": 4,
@@ -623,10 +623,10 @@
         },
         {
             "key": "stonecutter/uranium",
-            "durability": 100,
+            "durability": 95,
             "integrity": -1,
             "magicCapacity": 170,
-            "damage": 6,
+            "damage": 9,
             "attackSpeed": -1.6,
             "capabilities": {
                 "pickaxe": [2, 3.5]
@@ -650,7 +650,7 @@
         },
         {
             "key": "stonecutter/infused_iron",
-            "durability": 450,
+            "durability": 603,
             "integrity": -1,
             "magicCapacity": 158,
             "damage": 3,
@@ -677,10 +677,10 @@
         },
         {
             "key": "stonecutter/sky",
-            "durability": 1400,
+            "durability": 2128,
             "integrity": -4,
             "magicCapacity": 178,
-            "damage": 6,
+            "damage": 7,
             "attackSpeed": -1.6,
             "capabilities": {
                 "pickaxe": [3, 11]
@@ -704,10 +704,10 @@
         },
         {
             "key": "stonecutter/manasteel",
-            "durability": 550,
+            "durability": 2030,
             "integrity": -2,
             "magicCapacity": 150,
-            "damage": 4,
+            "damage": 5,
             "attackSpeed": -1.6,
             "capabilities": {
                 "pickaxe": [2, 5.5]
@@ -731,7 +731,7 @@
         },
         {
             "key": "stonecutter/elementium",
-            "durability": 675,
+            "durability": 871,
             "integrity": -3,
             "magicCapacity": 178,
             "damage": 4,
@@ -758,7 +758,7 @@
         },
         {
             "key": "stonecutter/terrasteel",
-            "durability": 1350,
+            "durability": 2592,
             "integrity": -4,
             "magicCapacity": 192,
             "damage": 7,
@@ -785,10 +785,10 @@
         },
         {
             "key": "stonecutter/gaia_spirit",
-            "durability": 1800,
+            "durability": 2628,
             "integrity": -5,
             "magicCapacity": 208,
-            "damage": 8,
+            "damage": 14,
             "attackSpeed": -1.6,
             "capabilities": {
                 "pickaxe": [4, 15]
@@ -815,7 +815,7 @@
             "durability": 1105,
             "integrity": -4,
             "magicCapacity": 158,
-            "damage": 6,
+            "damage": 7,
             "attackSpeed": -1.6,
             "capabilities": {
                 "pickaxe": [3, 8.5]
@@ -839,10 +839,10 @@
         },
         {
             "key": "stonecutter/compressed_iron",
-            "durability": 600,
+            "durability": 234,
             "integrity": -1,
             "magicCapacity": 112,
-            "damage": 5,
+            "damage": 4,
             "attackSpeed": -1.6,
             "capabilities": {
                 "pickaxe": [2, 6.5]
@@ -866,7 +866,7 @@
         },
         {
             "key": "stonecutter/energized_steel",
-            "durability": 275,
+            "durability": 366,
             "integrity": -2,
             "magicCapacity": 108,
             "damage": 5,
@@ -893,7 +893,7 @@
         },
         {
             "key": "stonecutter/niotic",
-            "durability": 750,
+            "durability": 3023,
             "integrity": -2,
             "magicCapacity": 108,
             "damage": 5,
@@ -947,10 +947,10 @@
         },
         {
             "key": "stonecutter/nitro",
-            "durability": 1750,
+            "durability": 2555,
             "integrity": -4,
             "magicCapacity": 108,
-            "damage": 7,
+            "damage": 13,
             "attackSpeed": -1.6,
             "capabilities": {
                 "pickaxe": [4, 14.5]

@@ -327,7 +327,7 @@
         },
         {
             "key": "claw/osmium",
-            "durability": 125,
+            "durability": 361,
             "integrity": -1,
             "magicCapacity": 112,
             "damage": 1,
@@ -352,7 +352,7 @@
         },
         {
             "key": "claw/refined_glowstone",
-            "durability": 318,
+            "durability": 200,
             "integrity": -2,
             "magicCapacity": 154,
             "damage": 1,
@@ -369,7 +369,7 @@
                 }
             ],
             "capabilities": {
-                "pry": [2, 4.2]
+                "pry": [2, 5.4]
             },
             "effects": {
                 "denailing": 1
@@ -377,10 +377,10 @@
         },
         {
             "key": "claw/refined_obsidian",
-            "durability": 640,
+            "durability": 934,
             "integrity": -3,
             "magicCapacity": 168,
-            "damage": 1,
+            "damage": 2,
             "attackSpeed": -0.4,
             "glyph": {
                 "tint": "6e1f9c",
@@ -394,7 +394,7 @@
                 }
             ],
             "capabilities": {
-                "pry": [1, 4.1]
+                "pry": [1, 4]
             },
             "effects": {
                 "denailing": 1
@@ -402,7 +402,7 @@
         },
         {
             "key": "claw/andesite_alloy",
-            "durability": 125,
+            "durability": 154,
             "integrity": 0,
             "magicCapacity": 108,
             "damage": 1,
@@ -419,7 +419,7 @@
                 }
             ],
             "capabilities": {
-                "pry": [1, 3.4]
+                "pry": [1, 2.9]
             },
             "effects": {
                 "denailing": 1
@@ -427,7 +427,7 @@
         },
         {
             "key": "claw/zinc",
-            "durability": 125,
+            "durability": 181,
             "integrity": -1,
             "magicCapacity": 86,
             "damage": 1,
@@ -444,7 +444,7 @@
                 }
             ],
             "capabilities": {
-                "pry": [1, 3.4]
+                "pry": [1, 3.5]
             },
             "effects": {
                 "denailing": 1
@@ -452,7 +452,7 @@
         },
         {
             "key": "claw/pink_slime",
-            "durability": 125,
+            "durability": 3924,
             "integrity": -1,
             "magicCapacity": 108,
             "damage": 1,
@@ -469,7 +469,7 @@
                 }
             ],
             "capabilities": {
-                "pry": [1, 3.4]
+                "pry": [1, 1.7]
             },
             "effects": {
                 "denailing": 1
@@ -477,7 +477,7 @@
         },
         {
             "key": "claw/iesnium",
-            "durability": 125,
+            "durability": 181,
             "integrity": -1,
             "magicCapacity": 168,
             "damage": 1,
@@ -494,7 +494,7 @@
                 }
             ],
             "capabilities": {
-                "pry": [1, 3.4]
+                "pry": [1, 3.5]
             },
             "effects": {
                 "denailing": 1
@@ -502,7 +502,7 @@
         },
         {
             "key": "claw/treated_wood",
-            "durability": 18,
+            "durability": 31,
             "integrity": 0,
             "magicCapacity": 118,
             "damage": 0,
@@ -519,7 +519,7 @@
                 }
             ],
             "capabilities": {
-                "pry": [1, 1.5]
+                "pry": [1, 1.6]
             },
             "effects": {
                 "denailing": 1
@@ -527,7 +527,7 @@
         },
         {
             "key": "claw/aluminum",
-            "durability": 125,
+            "durability": 126,
             "integrity": -1,
             "magicCapacity": 78,
             "damage": 1,
@@ -544,7 +544,7 @@
                 }
             ],
             "capabilities": {
-                "pry": [1, 3.4]
+                "pry": [1, 3.7]
             },
             "effects": {
                 "denailing": 1
@@ -552,7 +552,7 @@
         },
         {
             "key": "claw/constantan",
-            "durability": 125,
+            "durability": 131,
             "integrity": -1,
             "magicCapacity": 110,
             "damage": 1,
@@ -569,7 +569,7 @@
                 }
             ],
             "capabilities": {
-                "pry": [1, 3.4]
+                "pry": [1, 3.5]
             },
             "effects": {
                 "denailing": 1
@@ -577,10 +577,10 @@
         },
         {
             "key": "claw/uranium",
-            "durability": 125,
+            "durability": 119,
             "integrity": -1,
             "magicCapacity": 170,
-            "damage": 1,
+            "damage": 2,
             "attackSpeed": -0.4,
             "glyph": {
                 "tint": "538a71",
@@ -594,7 +594,7 @@
                 }
             ],
             "capabilities": {
-                "pry": [1, 3.4]
+                "pry": [1, 4.2]
             },
             "effects": {
                 "denailing": 1
@@ -602,7 +602,7 @@
         },
         {
             "key": "claw/infused_iron",
-            "durability": 125,
+            "durability": 168,
             "integrity": -1,
             "magicCapacity": 158,
             "damage": 1,
@@ -619,7 +619,7 @@
                 }
             ],
             "capabilities": {
-                "pry": [1, 3.4]
+                "pry": [1, 3.7]
             },
             "effects": {
                 "denailing": 1
@@ -627,7 +627,7 @@
         },
         {
             "key": "claw/sky",
-            "durability": 640,
+            "durability": 973,
             "integrity": -4,
             "magicCapacity": 178,
             "damage": 1,
@@ -644,7 +644,7 @@
                 }
             ],
             "capabilities": {
-                "pry": [1, 4.1]
+                "pry": [1, 4.5]
             },
             "effects": {
                 "denailing": 1
@@ -652,7 +652,7 @@
         },
         {
             "key": "claw/manasteel",
-            "durability": 125,
+            "durability": 461,
             "integrity": -2,
             "magicCapacity": 150,
             "damage": 1,
@@ -669,7 +669,7 @@
                 }
             ],
             "capabilities": {
-                "pry": [1, 3.4]
+                "pry": [1, 3.9]
             },
             "effects": {
                 "denailing": 1
@@ -677,7 +677,7 @@
         },
         {
             "key": "claw/elementium",
-            "durability": 318,
+            "durability": 410,
             "integrity": -3,
             "magicCapacity": 178,
             "damage": 1,
@@ -694,7 +694,7 @@
                 }
             ],
             "capabilities": {
-                "pry": [2, 4.2]
+                "pry": [2, 4.6]
             },
             "effects": {
                 "denailing": 1
@@ -702,7 +702,7 @@
         },
         {
             "key": "claw/terrasteel",
-            "durability": 640,
+            "durability": 1229,
             "integrity": -4,
             "magicCapacity": 192,
             "damage": 1,
@@ -719,7 +719,7 @@
                 }
             ],
             "capabilities": {
-                "pry": [1, 4.1]
+                "pry": [1, 5.2]
             },
             "effects": {
                 "denailing": 1
@@ -727,10 +727,10 @@
         },
         {
             "key": "claw/gaia_spirit",
-            "durability": 640,
+            "durability": 934,
             "integrity": -5,
             "magicCapacity": 208,
-            "damage": 1,
+            "damage": 2,
             "attackSpeed": -0.4,
             "glyph": {
                 "tint": "80bdb9",
@@ -744,7 +744,7 @@
                 }
             ],
             "capabilities": {
-                "pry": [1, 4.1]
+                "pry": [1, 5.6]
             },
             "effects": {
                 "denailing": 1
@@ -769,7 +769,7 @@
                 }
             ],
             "capabilities": {
-                "pry": [1, 4.1]
+                "pry": [1, 5.6]
             },
             "effects": {
                 "denailing": 1
@@ -777,7 +777,7 @@
         },
         {
             "key": "claw/compressed_iron",
-            "durability": 318,
+            "durability": 124,
             "integrity": -1,
             "magicCapacity": 112,
             "damage": 1,
@@ -794,7 +794,7 @@
                 }
             ],
             "capabilities": {
-                "pry": [2, 4.2]
+                "pry": [2, 3.7]
             },
             "effects": {
                 "denailing": 1
@@ -802,7 +802,7 @@
         },
         {
             "key": "claw/energized_steel",
-            "durability": 318,
+            "durability": 423,
             "integrity": -2,
             "magicCapacity": 108,
             "damage": 1,
@@ -819,7 +819,7 @@
                 }
             ],
             "capabilities": {
-                "pry": [2, 4.2]
+                "pry": [2, 4.6]
             },
             "effects": {
                 "denailing": 1
@@ -827,7 +827,7 @@
         },
         {
             "key": "claw/niotic",
-            "durability": 125,
+            "durability": 504,
             "integrity": -2,
             "magicCapacity": 108,
             "damage": 1,
@@ -844,7 +844,7 @@
                 }
             ],
             "capabilities": {
-                "pry": [1, 3.4]
+                "pry": [1, 3.9]
             },
             "effects": {
                 "denailing": 1
@@ -869,7 +869,7 @@
                 }
             ],
             "capabilities": {
-                "pry": [1, 4.1]
+                "pry": [1, 5.2]
             },
             "effects": {
                 "denailing": 1
@@ -877,10 +877,10 @@
         },
         {
             "key": "claw/nitro",
-            "durability": 640,
+            "durability": 934,
             "integrity": -4,
             "magicCapacity": 108,
-            "damage": 1,
+            "damage": 2,
             "attackSpeed": -0.4,
             "glyph": {
                 "tint": "d11608",
@@ -894,7 +894,7 @@
                 }
             ],
             "capabilities": {
-                "pry": [1, 4.1]
+                "pry": [1, 5.6]
             },
             "effects": {
                 "denailing": 1

@@ -314,10 +314,10 @@
         },
         {
             "key": "basic_axe/osmium",
-            "durability": 193,
+            "durability": 558,
             "integrity": -1,
             "magicCapacity": 112,
-            "damage": 8,
+            "damage": 10,
             "attackSpeed": -0.7,
             "glyph": {
                 "tint": "a7aed9",
@@ -330,7 +330,7 @@
                 }
             ],
             "capabilities": {
-                "axe": [3, 6.6666667]
+                "axe": [3, 6.7]
             },
             "effects": {
                 "stripping": 1
@@ -338,10 +338,10 @@
         },
         {
             "key": "basic_axe/refined_glowstone",
-            "durability": 394,
+            "durability": 248,
             "integrity": -2,
             "magicCapacity": 154,
-            "damage": 8,
+            "damage": 11,
             "attackSpeed": -0.6,
             "glyph": {
                 "tint": "eeff00",
@@ -354,7 +354,7 @@
                 }
             ],
             "capabilities": {
-                "axe": [4, 8.2]
+                "axe": [4, 10.5]
             },
             "effects": {
                 "stripping": 1
@@ -362,10 +362,10 @@
         },
         {
             "key": "basic_axe/refined_obsidian",
-            "durability": 992,
+            "durability": 1448,
             "integrity": -3,
             "magicCapacity": 168,
-            "damage": 8,
+            "damage": 14,
             "attackSpeed": -0.7,
             "glyph": {
                 "tint": "6e1f9c",
@@ -378,7 +378,7 @@
                 }
             ],
             "capabilities": {
-                "axe": [4, 8]
+                "axe": [4, 7.8]
             },
             "effects": {
                 "stripping": 1
@@ -386,7 +386,7 @@
         },
         {
             "key": "basic_axe/andesite_alloy",
-            "durability": 193,
+            "durability": 237,
             "integrity": 0,
             "magicCapacity": 108,
             "damage": 8,
@@ -402,7 +402,7 @@
                 }
             ],
             "capabilities": {
-                "axe": [3, 6.6666667]
+                "axe": [3, 5.6]
             },
             "effects": {
                 "stripping": 1
@@ -410,10 +410,10 @@
         },
         {
             "key": "basic_axe/zinc",
-            "durability": 193,
+            "durability": 280,
             "integrity": -1,
             "magicCapacity": 86,
-            "damage": 8,
+            "damage": 9,
             "attackSpeed": -0.7,
             "glyph": {
                 "tint": "e1e9f2",
@@ -426,7 +426,7 @@
                 }
             ],
             "capabilities": {
-                "axe": [3, 6.6666667]
+                "axe": [3, 6.9]
             },
             "effects": {
                 "stripping": 1
@@ -434,10 +434,10 @@
         },
         {
             "key": "basic_axe/pink_slime",
-            "durability": 193,
+            "durability": 6058,
             "integrity": -1,
             "magicCapacity": 108,
-            "damage": 8,
+            "damage": 5,
             "attackSpeed": -0.7,
             "glyph": {
                 "tint": "df3ce8",
@@ -450,7 +450,7 @@
                 }
             ],
             "capabilities": {
-                "axe": [3, 6.6666667]
+                "axe": [3, 3.3]
             },
             "effects": {
                 "stripping": 1
@@ -458,10 +458,10 @@
         },
         {
             "key": "basic_axe/iesnium",
-            "durability": 193,
+            "durability": 280,
             "integrity": -1,
             "magicCapacity": 168,
-            "damage": 8,
+            "damage": 9,
             "attackSpeed": -0.7,
             "glyph": {
                 "tint": "aadef0",
@@ -474,7 +474,7 @@
                 }
             ],
             "capabilities": {
-                "axe": [3, 6.6666667]
+                "axe": [3, 6.9]
             },
             "effects": {
                 "stripping": 1
@@ -482,10 +482,10 @@
         },
         {
             "key": "basic_axe/treated_wood",
-            "durability": 26,
+            "durability": 44,
             "integrity": 0,
             "magicCapacity": 118,
-            "damage": 6,
+            "damage": 11,
             "attackSpeed": -0.7,
             "glyph": {
                 "tint": "8f380a",
@@ -498,7 +498,7 @@
                 }
             ],
             "capabilities": {
-                "axe": [1, 2.5]
+                "axe": [1, 2.6]
             },
             "effects": {
                 "stripping": 1
@@ -506,7 +506,7 @@
         },
         {
             "key": "basic_axe/aluminum",
-            "durability": 193,
+            "durability": 195,
             "integrity": -1,
             "magicCapacity": 78,
             "damage": 8,
@@ -522,7 +522,7 @@
                 }
             ],
             "capabilities": {
-                "axe": [3, 6.6666667]
+                "axe": [3, 7.3]
             },
             "effects": {
                 "stripping": 1
@@ -530,7 +530,7 @@
         },
         {
             "key": "basic_axe/constantan",
-            "durability": 193,
+            "durability": 203,
             "integrity": -1,
             "magicCapacity": 110,
             "damage": 8,
@@ -546,7 +546,7 @@
                 }
             ],
             "capabilities": {
-                "axe": [3, 6.6666667]
+                "axe": [3, 6.8]
             },
             "effects": {
                 "stripping": 1
@@ -554,10 +554,10 @@
         },
         {
             "key": "basic_axe/uranium",
-            "durability": 193,
+            "durability": 183,
             "integrity": -1,
             "magicCapacity": 170,
-            "damage": 8,
+            "damage": 12,
             "attackSpeed": -0.7,
             "glyph": {
                 "tint": "538a71",
@@ -570,7 +570,7 @@
                 }
             ],
             "capabilities": {
-                "axe": [3, 6.6666667]
+                "axe": [3, 8.3]
             },
             "effects": {
                 "stripping": 1
@@ -578,10 +578,10 @@
         },
         {
             "key": "basic_axe/infused_iron",
-            "durability": 193,
+            "durability": 259,
             "integrity": -1,
             "magicCapacity": 158,
-            "damage": 8,
+            "damage": 9,
             "attackSpeed": -0.7,
             "glyph": {
                 "tint": "8a117",
@@ -594,7 +594,7 @@
                 }
             ],
             "capabilities": {
-                "axe": [3, 6.6666667]
+                "axe": [3, 7.2]
             },
             "effects": {
                 "stripping": 1
@@ -602,10 +602,10 @@
         },
         {
             "key": "basic_axe/sky",
-            "durability": 992,
+            "durability": 1508,
             "integrity": -4,
             "magicCapacity": 178,
-            "damage": 8,
+            "damage": 10,
             "attackSpeed": -0.7,
             "glyph": {
                 "tint": "78ffff",
@@ -618,7 +618,7 @@
                 }
             ],
             "capabilities": {
-                "axe": [4, 8]
+                "axe": [4, 8.7]
             },
             "effects": {
                 "stripping": 1
@@ -626,10 +626,10 @@
         },
         {
             "key": "basic_axe/manasteel",
-            "durability": 193,
+            "durability": 712,
             "integrity": -2,
             "magicCapacity": 150,
-            "damage": 8,
+            "damage": 10,
             "attackSpeed": -0.7,
             "glyph": {
                 "tint": "104bc2",
@@ -642,7 +642,7 @@
                 }
             ],
             "capabilities": {
-                "axe": [3, 6.6666667]
+                "axe": [3, 7.7]
             },
             "effects": {
                 "stripping": 1
@@ -650,7 +650,7 @@
         },
         {
             "key": "basic_axe/elementium",
-            "durability": 394,
+            "durability": 508,
             "integrity": -3,
             "magicCapacity": 178,
             "damage": 8,
@@ -666,7 +666,7 @@
                 }
             ],
             "capabilities": {
-                "axe": [4, 8.2]
+                "axe": [4, 8.9]
             },
             "effects": {
                 "stripping": 1
@@ -674,7 +674,7 @@
         },
         {
             "key": "basic_axe/terrasteel",
-            "durability": 992,
+            "durability": 1905,
             "integrity": -4,
             "magicCapacity": 192,
             "damage": 8,
@@ -690,7 +690,7 @@
                 }
             ],
             "capabilities": {
-                "axe": [4, 8]
+                "axe": [4, 10.2]
             },
             "effects": {
                 "stripping": 1
@@ -698,10 +698,10 @@
         },
         {
             "key": "basic_axe/gaia_spirit",
-            "durability": 992,
+            "durability": 1448,
             "integrity": -5,
             "magicCapacity": 208,
-            "damage": 8,
+            "damage": 14,
             "attackSpeed": -0.7,
             "glyph": {
                 "tint": "80bdb9",
@@ -714,7 +714,7 @@
                 }
             ],
             "capabilities": {
-                "axe": [4, 8]
+                "axe": [4, 11]
             },
             "effects": {
                 "stripping": 1
@@ -725,7 +725,7 @@
             "durability": 992,
             "integrity": -4,
             "magicCapacity": 158,
-            "damage": 8,
+            "damage": 10,
             "attackSpeed": -0.7,
             "glyph": {
                 "tint": "2de0c2",
@@ -738,7 +738,7 @@
                 }
             ],
             "capabilities": {
-                "axe": [4, 8]
+                "axe": [4, 11]
             },
             "effects": {
                 "stripping": 1
@@ -746,10 +746,10 @@
         },
         {
             "key": "basic_axe/compressed_iron",
-            "durability": 394,
+            "durability": 154,
             "integrity": -1,
             "magicCapacity": 112,
-            "damage": 8,
+            "damage": 6,
             "attackSpeed": -0.6,
             "glyph": {
                 "tint": "5e6a6e",
@@ -762,7 +762,7 @@
                 }
             ],
             "capabilities": {
-                "axe": [4, 8.2]
+                "axe": [4, 7.1]
             },
             "effects": {
                 "stripping": 1
@@ -770,7 +770,7 @@
         },
         {
             "key": "basic_axe/energized_steel",
-            "durability": 394,
+            "durability": 524,
             "integrity": -2,
             "magicCapacity": 108,
             "damage": 8,
@@ -786,7 +786,7 @@
                 }
             ],
             "capabilities": {
-                "axe": [4, 8.2]
+                "axe": [4, 8.9]
             },
             "effects": {
                 "stripping": 1
@@ -794,7 +794,7 @@
         },
         {
             "key": "basic_axe/niotic",
-            "durability": 193,
+            "durability": 778,
             "integrity": -2,
             "magicCapacity": 108,
             "damage": 8,
@@ -810,7 +810,7 @@
                 }
             ],
             "capabilities": {
-                "axe": [3, 6.6666667]
+                "axe": [3, 7.7]
             },
             "effects": {
                 "stripping": 1
@@ -821,7 +821,7 @@
             "durability": 992,
             "integrity": -3,
             "magicCapacity": 108,
-            "damage": 8,
+            "damage": 9,
             "attackSpeed": -0.7,
             "glyph": {
                 "tint": "13eb21",
@@ -834,7 +834,7 @@
                 }
             ],
             "capabilities": {
-                "axe": [4, 8]
+                "axe": [4, 10.2]
             },
             "effects": {
                 "stripping": 1
@@ -842,10 +842,10 @@
         },
         {
             "key": "basic_axe/nitro",
-            "durability": 992,
+            "durability": 1448,
             "integrity": -4,
             "magicCapacity": 108,
-            "damage": 8,
+            "damage": 14,
             "attackSpeed": -0.7,
             "glyph": {
                 "tint": "d11608",
@@ -858,7 +858,7 @@
                 }
             ],
             "capabilities": {
-                "axe": [4, 8]
+                "axe": [4, 11]
             },
             "effects": {
                 "stripping": 1
