@@ -30,7 +30,7 @@
   "isUnlocked": true,
   "javaArgsOverride": null,
   "javaDirOverride": null,
-  "lastPlayed": "2020-06-28T21:04:20.0979589Z",
+  "lastPlayed": "2020-06-30T18:19:05.7061452Z",
   "manifest": null,
   "fileDate": "0001-01-01T00:00:00",
   "installedModpack": null,
@@ -5809,14 +5809,14 @@
       "addonID": 225643,
       "gameInstanceID": "9bea8014-8271-438f-a7d3-e4243f882f2a",
       "installedFile": {
-        "id": 2982292,
-        "displayName": "Botania-r1.15-386.jar",
-        "fileName": "Botania-r1.15-386.jar",
-        "fileDate": "2020-06-17T13:35:45.67Z",
-        "fileLength": 14753626,
+        "id": 2993051,
+        "displayName": "Botania-r1.15-387.jar",
+        "fileName": "Botania-r1.15-387.jar",
+        "fileDate": "2020-06-30T15:26:25.357Z",
+        "fileLength": 14772621,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2982/292/Botania-r1.15-386.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/2993/51/Botania-r1.15-387.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [
@@ -5824,6 +5824,12 @@
             "id": 0,
             "addonId": 309927,
             "type": 3,
+            "fileId": 0
+          },
+          {
+            "id": 0,
+            "addonId": 238222,
+            "type": 2,
             "fileId": 0
           },
           {
@@ -5837,24 +5843,18 @@
             "addonId": 243121,
             "type": 2,
             "fileId": 0
-          },
-          {
-            "id": 0,
-            "addonId": 238222,
-            "type": 2,
-            "fileId": 0
           }
         ],
         "isAvailable": true,
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 2013326693,
+            "fingerprint": 800951394,
             "type": 0
           },
           {
             "foldername": "vazkii",
-            "fingerprint": 2959265703,
+            "fingerprint": 4110651047,
             "type": 0
           },
           {
@@ -5869,16 +5869,16 @@
           },
           {
             "foldername": "assets",
-            "fingerprint": 1714013386,
+            "fingerprint": 699784846,
             "type": 0
           },
           {
             "foldername": "data",
-            "fingerprint": 766774670,
+            "fingerprint": 956240386,
             "type": 0
           }
         ],
-        "packageFingerprint": 1654412659,
+        "packageFingerprint": 734156593,
         "gameVersion": [
           "Forge",
           "1.15.2"
@@ -5892,12 +5892,12 @@
         "gameVersionDateReleased": "2008-03-01T06:00:00Z",
         "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "Botania-r1.15-386.jar"
+        "FileNameOnDisk": "Botania-r1.15-387.jar"
       },
       "dateInstalled": "2020-04-06T05:39:45.6514462Z",
-      "dateUpdated": "2020-06-17T19:55:33.0438684Z",
-      "dateLastUpdateAttempted": "2020-06-17T19:55:33.0438684Z",
-      "status": 5,
+      "dateUpdated": "2020-06-30T18:07:39.2884721Z",
+      "dateLastUpdateAttempted": "2020-06-30T18:07:39.2884721Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -5996,14 +5996,14 @@
       "addonID": 289712,
       "gameInstanceID": "9bea8014-8271-438f-a7d3-e4243f882f2a",
       "installedFile": {
-        "id": 2983765,
-        "displayName": "tetra-1.15.2-2.11.0.jar",
-        "fileName": "tetra-1.15.2-2.11.0.jar",
-        "fileDate": "2020-06-19T15:43:29.51Z",
-        "fileLength": 1666542,
+        "id": 2991616,
+        "displayName": "tetra-1.15.2-2.12.0.jar",
+        "fileName": "tetra-1.15.2-2.12.0.jar",
+        "fileDate": "2020-06-29T00:14:51.833Z",
+        "fileLength": 1677373,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2983/765/tetra-1.15.2-2.11.0.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/2991/616/tetra-1.15.2-2.12.0.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [
@@ -6018,22 +6018,22 @@
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 1992144630,
+            "fingerprint": 3843061275,
             "type": 0
           },
           {
             "foldername": "se",
-            "fingerprint": 3779541721,
+            "fingerprint": 3749616737,
             "type": 0
           },
           {
             "foldername": "assets",
-            "fingerprint": 2831288216,
+            "fingerprint": 3251302707,
             "type": 0
           },
           {
             "foldername": "data",
-            "fingerprint": 1812566742,
+            "fingerprint": 2657428840,
             "type": 0
           },
           {
@@ -6042,7 +6042,7 @@
             "type": 0
           }
         ],
-        "packageFingerprint": 2825234859,
+        "packageFingerprint": 3436589626,
         "gameVersion": [
           "Forge",
           "1.15.2"
@@ -6056,12 +6056,12 @@
         "gameVersionDateReleased": "2019-08-01T00:00:00Z",
         "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "tetra-1.15.2-2.11.0.jar"
+        "FileNameOnDisk": "tetra-1.15.2-2.12.0.jar"
       },
       "dateInstalled": "2020-04-03T17:37:57.6385293Z",
-      "dateUpdated": "2020-06-19T20:06:49.30852Z",
-      "dateLastUpdateAttempted": "2020-06-19T20:06:49.30852Z",
-      "status": 5,
+      "dateUpdated": "2020-06-30T18:08:40.4311665Z",
+      "dateLastUpdateAttempted": "2020-06-30T18:08:40.4311665Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -7468,7 +7468,7 @@
       "dateInstalled": "2020-06-20T17:56:02.1993346Z",
       "dateUpdated": "2020-06-28T18:11:39.1825976Z",
       "dateLastUpdateAttempted": "2020-06-28T18:11:39.1825976Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -8292,7 +8292,7 @@
       "dateInstalled": "2020-02-02T19:05:38.5608688Z",
       "dateUpdated": "2020-06-28T18:09:28.8627656Z",
       "dateLastUpdateAttempted": "2020-06-28T18:09:28.8627656Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -9251,27 +9251,32 @@
       "addonID": 298744,
       "gameInstanceID": "9bea8014-8271-438f-a7d3-e4243f882f2a",
       "installedFile": {
-        "id": 2989386,
-        "displayName": "structurize-0.13.1-ALPHA.jar",
-        "fileName": "structurize-0.13.1-ALPHA.jar",
-        "fileDate": "2020-06-26T13:38:10.037Z",
-        "fileLength": 5127715,
+        "id": 2992866,
+        "displayName": "structurize-0.13.4-ALPHA.jar",
+        "fileName": "structurize-0.13.4-ALPHA.jar",
+        "fileDate": "2020-06-30T09:49:48.397Z",
+        "fileLength": 5127726,
         "releaseType": 3,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2989/386/structurize-0.13.1-ALPHA.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/2992/866/structurize-0.13.4-ALPHA.jar",
         "isAlternate": false,
-        "alternateFileId": 2989387,
+        "alternateFileId": 2992867,
         "dependencies": [],
         "isAvailable": true,
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 392210354,
+            "fingerprint": 2004320969,
             "type": 0
           },
           {
             "foldername": "com",
-            "fingerprint": 315738190,
+            "fingerprint": 1845261352,
+            "type": 0
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 3474391465,
             "type": 0
           },
           {
@@ -9283,14 +9288,9 @@
             "foldername": "pack.mcmeta",
             "fingerprint": 1213398008,
             "type": 0
-          },
-          {
-            "foldername": "assets",
-            "fingerprint": 3474391465,
-            "type": 0
           }
         ],
-        "packageFingerprint": 2204093798,
+        "packageFingerprint": 697837916,
         "gameVersion": [
           "1.15.2"
         ],
@@ -9303,12 +9303,12 @@
         "gameVersionDateReleased": "2008-03-01T06:00:00Z",
         "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "structurize-0.13.1-ALPHA.jar"
+        "FileNameOnDisk": "structurize-0.13.4-ALPHA.jar"
       },
       "dateInstalled": "2020-03-28T09:44:06.1512352Z",
-      "dateUpdated": "2020-06-27T20:01:28.7918843Z",
-      "dateLastUpdateAttempted": "2020-06-27T20:01:28.7918843Z",
-      "status": 5,
+      "dateUpdated": "2020-06-30T18:08:35.3733256Z",
+      "dateLastUpdateAttempted": "2020-06-30T18:08:35.3733256Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -9468,16 +9468,16 @@
       "addonID": 377281,
       "gameInstanceID": "9bea8014-8271-438f-a7d3-e4243f882f2a",
       "installedFile": {
-        "id": 2954315,
-        "displayName": "DarkPaintings-1.15.2-1.0.4.jar",
-        "fileName": "DarkPaintings-1.15.2-1.0.4.jar",
-        "fileDate": "2020-05-11T19:52:29.307Z",
-        "fileLength": 7299,
+        "id": 2992404,
+        "displayName": "DarkPaintings-1.15.2-1.0.6.jar",
+        "fileName": "DarkPaintings-1.15.2-1.0.6.jar",
+        "fileDate": "2020-06-29T20:32:10.163Z",
+        "fileLength": 10068,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2954/315/DarkPaintings-1.15.2-1.0.4.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/2992/404/DarkPaintings-1.15.2-1.0.6.jar",
         "isAlternate": false,
-        "alternateFileId": 2954316,
+        "alternateFileId": 2992405,
         "dependencies": [
           {
             "id": 0,
@@ -9490,12 +9490,12 @@
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 3931007072,
+            "fingerprint": 54022640,
             "type": 0
           },
           {
             "foldername": "net",
-            "fingerprint": 2671584767,
+            "fingerprint": 105543442,
             "type": 0
           },
           {
@@ -9505,11 +9505,11 @@
           },
           {
             "foldername": "assets",
-            "fingerprint": 2891888204,
+            "fingerprint": 1331472924,
             "type": 0
           }
         ],
-        "packageFingerprint": 1977260923,
+        "packageFingerprint": 3344624892,
         "gameVersion": [
           "Forge",
           "1.15.2"
@@ -9523,12 +9523,12 @@
         "gameVersionDateReleased": "2008-03-01T06:00:00Z",
         "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "DarkPaintings-1.15.2-1.0.4.jar"
+        "FileNameOnDisk": "DarkPaintings-1.15.2-1.0.6.jar"
       },
       "dateInstalled": "2020-04-26T18:34:19.3892209Z",
-      "dateUpdated": "2020-05-12T20:19:38.9178757Z",
-      "dateLastUpdateAttempted": "2020-05-12T20:19:38.9178757Z",
-      "status": 5,
+      "dateUpdated": "2020-06-30T18:07:45.3374567Z",
+      "dateLastUpdateAttempted": "2020-06-30T18:07:45.3374567Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -13473,7 +13473,7 @@
       "dateInstalled": "2020-04-03T18:13:46.3233508Z",
       "dateUpdated": "2020-06-28T18:10:24.9469237Z",
       "dateLastUpdateAttempted": "2020-06-28T18:10:24.9469237Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -13648,7 +13648,7 @@
       "dateInstalled": "2020-02-02T19:15:56.6758878Z",
       "dateUpdated": "2020-06-28T18:11:15.2691681Z",
       "dateLastUpdateAttempted": "2020-06-28T18:11:15.2691681Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -14108,9 +14108,9 @@
         "FileNameOnDisk": "XaerosWorldMap_1.7.0_Forge_1.15.2.jar"
       },
       "dateInstalled": "2020-05-17T19:01:31.5287758Z",
-      "dateUpdated": "2020-06-25T20:09:21.3226965Z",
-      "dateLastUpdateAttempted": "2020-06-25T20:09:21.3226965Z",
-      "status": 5,
+      "dateUpdated": "2020-06-30T18:18:17.6423596Z",
+      "dateLastUpdateAttempted": "2020-06-30T18:18:17.6423596Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -15233,7 +15233,7 @@
       "dateInstalled": "2020-06-28T18:28:07.1972139Z",
       "dateUpdated": "2020-06-28T18:28:07.2031983Z",
       "dateLastUpdateAttempted": "2020-06-28T18:28:07.2031983Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -15242,7 +15242,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 345135,
@@ -15544,7 +15544,7 @@
       "dateInstalled": "2020-03-28T09:44:06.155219Z",
       "dateUpdated": "2020-06-28T18:10:53.3827691Z",
       "dateLastUpdateAttempted": "2020-06-28T18:10:53.3827691Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -16310,14 +16310,14 @@
       "addonID": 383070,
       "gameInstanceID": "9bea8014-8271-438f-a7d3-e4243f882f2a",
       "installedFile": {
-        "id": 2991197,
-        "displayName": "invtweaks-1.15.2-2.0.6.jar",
-        "fileName": "invtweaks-1.15.2-2.0.6.jar",
-        "fileDate": "2020-06-28T14:19:35.257Z",
-        "fileLength": 67512,
+        "id": 2992883,
+        "displayName": "invtweaks-1.15.2-2.0.7.jar",
+        "fileName": "invtweaks-1.15.2-2.0.7.jar",
+        "fileDate": "2020-06-30T10:30:21.2Z",
+        "fileLength": 68024,
         "releaseType": 2,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2991/197/invtweaks-1.15.2-2.0.6.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/2992/883/invtweaks-1.15.2-2.0.7.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [],
@@ -16325,12 +16325,12 @@
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 937353395,
+            "fingerprint": 32571,
             "type": 0
           },
           {
             "foldername": "invtweaks",
-            "fingerprint": 3264565056,
+            "fingerprint": 916125906,
             "type": 0
           },
           {
@@ -16349,10 +16349,10 @@
             "type": 0
           }
         ],
-        "packageFingerprint": 2440953055,
+        "packageFingerprint": 664533051,
         "gameVersion": [
-          "1.15.2",
-          "1.15.1"
+          "Forge",
+          "1.15.2"
         ],
         "hasInstallScript": false,
         "isCompatibleWithClient": false,
@@ -16360,14 +16360,14 @@
         "restrictProjectFileAccess": 0,
         "projectStatus": 0,
         "projectId": 0,
-        "gameVersionDateReleased": "2019-12-17T00:00:00Z",
+        "gameVersionDateReleased": "2019-08-01T00:00:00Z",
         "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "invtweaks-1.15.2-2.0.6.jar"
+        "FileNameOnDisk": "invtweaks-1.15.2-2.0.7.jar"
       },
       "dateInstalled": "2020-05-13T18:18:30.364723Z",
-      "dateUpdated": "2020-06-28T18:11:00.4026351Z",
-      "dateLastUpdateAttempted": "2020-06-28T18:11:00.4026351Z",
+      "dateUpdated": "2020-06-30T18:08:01.6817369Z",
+      "dateLastUpdateAttempted": "2020-06-30T18:08:01.6817369Z",
       "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
@@ -16697,16 +16697,16 @@
       "addonID": 245506,
       "gameInstanceID": "9bea8014-8271-438f-a7d3-e4243f882f2a",
       "installedFile": {
-        "id": 2989657,
-        "displayName": "minecolonies-0.13.7-ALPHA-universal.jar",
-        "fileName": "minecolonies-0.13.7-ALPHA-universal.jar",
-        "fileDate": "2020-06-26T19:41:19.08Z",
-        "fileLength": 30534878,
+        "id": 2992853,
+        "displayName": "minecolonies-0.13.9-ALPHA-universal.jar",
+        "fileName": "minecolonies-0.13.9-ALPHA-universal.jar",
+        "fileDate": "2020-06-30T09:16:03.433Z",
+        "fileLength": 30915475,
         "releaseType": 3,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2989/657/minecolonies-0.13.7-ALPHA-universal.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/2992/853/minecolonies-0.13.9-ALPHA-universal.jar",
         "isAlternate": false,
-        "alternateFileId": 2989658,
+        "alternateFileId": 2992854,
         "dependencies": [
           {
             "id": 0,
@@ -16719,17 +16719,17 @@
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 1475150921,
+            "fingerprint": 4060085913,
             "type": 0
           },
           {
             "foldername": "com",
-            "fingerprint": 3723221183,
+            "fingerprint": 268036712,
             "type": 0
           },
           {
             "foldername": "data",
-            "fingerprint": 1863852498,
+            "fingerprint": 1037492631,
             "type": 0
           },
           {
@@ -16739,11 +16739,11 @@
           },
           {
             "foldername": "assets",
-            "fingerprint": 280121623,
+            "fingerprint": 3272112995,
             "type": 0
           }
         ],
-        "packageFingerprint": 1776643291,
+        "packageFingerprint": 680478921,
         "gameVersion": [
           "1.15.2"
         ],
@@ -16756,12 +16756,12 @@
         "gameVersionDateReleased": "2008-03-01T06:00:00Z",
         "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "minecolonies-0.13.7-ALPHA-universal.jar"
+        "FileNameOnDisk": "minecolonies-0.13.9-ALPHA-universal.jar"
       },
       "dateInstalled": "2020-05-22T20:23:56.3226095Z",
-      "dateUpdated": "2020-06-26T21:04:48.5362338Z",
-      "dateLastUpdateAttempted": "2020-06-26T21:04:48.5362338Z",
-      "status": 5,
+      "dateUpdated": "2020-06-30T18:08:24.1119549Z",
+      "dateLastUpdateAttempted": "2020-06-30T18:08:24.1119549Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -16919,7 +16919,7 @@
       "dateInstalled": "2020-04-20T17:41:05.4265502Z",
       "dateUpdated": "2020-06-28T18:11:09.243542Z",
       "dateLastUpdateAttempted": "2020-06-28T18:11:09.243542Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -17570,14 +17570,14 @@
       "addonID": 334098,
       "gameInstanceID": "9bea8014-8271-438f-a7d3-e4243f882f2a",
       "installedFile": {
-        "id": 2921941,
-        "displayName": "LetSleepingDogsLie-1.15.2-1.1.0.jar",
-        "fileName": "LetSleepingDogsLie-1.15.2-1.1.0.jar",
-        "fileDate": "2020-04-05T18:08:33.67Z",
-        "fileLength": 20425,
+        "id": 2991958,
+        "displayName": "LetSleepingDogsLie-1.15.2-1.1.1.jar",
+        "fileName": "LetSleepingDogsLie-1.15.2-1.1.1.jar",
+        "fileDate": "2020-06-29T12:23:41.167Z",
+        "fileLength": 20451,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2921/941/LetSleepingDogsLie-1.15.2-1.1.0.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/2991/958/LetSleepingDogsLie-1.15.2-1.1.1.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [],
@@ -17585,12 +17585,12 @@
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 4042911590,
+            "fingerprint": 2057592370,
             "type": 0
           },
           {
             "foldername": "me",
-            "fingerprint": 2026099963,
+            "fingerprint": 1514644866,
             "type": 0
           },
           {
@@ -17604,7 +17604,7 @@
             "type": 0
           }
         ],
-        "packageFingerprint": 3528927834,
+        "packageFingerprint": 2842524838,
         "gameVersion": [
           "Forge",
           "1.15.2"
@@ -17618,12 +17618,12 @@
         "gameVersionDateReleased": "2008-03-01T06:00:00Z",
         "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "LetSleepingDogsLie-1.15.2-1.1.0.jar"
+        "FileNameOnDisk": "LetSleepingDogsLie-1.15.2-1.1.1.jar"
       },
       "dateInstalled": "2020-04-06T05:39:56.0073119Z",
-      "dateUpdated": "2020-04-06T05:39:56.0073119Z",
-      "dateLastUpdateAttempted": "2020-04-06T05:39:56.0073119Z",
-      "status": 5,
+      "dateUpdated": "2020-06-30T18:08:07.7609666Z",
+      "dateLastUpdateAttempted": "2020-06-30T18:08:07.7609666Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -17988,7 +17988,7 @@
       "dateInstalled": "2020-04-29T19:04:53.9080774Z",
       "dateUpdated": "2020-06-28T18:09:55.9193866Z",
       "dateLastUpdateAttempted": "2020-06-28T18:09:55.9193866Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -19732,10 +19732,10 @@
         "isServerPack": false,
         "FileNameOnDisk": "Xaeros_Minimap_20.15.0_Forge_1.15.2.jar"
       },
-      "dateInstalled": "2020-05-17T19:01:27.1302915Z",
-      "dateUpdated": "2020-06-25T20:09:16.4260458Z",
-      "dateLastUpdateAttempted": "2020-06-25T20:09:16.4260458Z",
-      "status": 5,
+      "dateInstalled": "2020-06-30T18:18:27.01652Z",
+      "dateUpdated": "2020-06-30T18:18:40.140135Z",
+      "dateLastUpdateAttempted": "2020-06-30T18:18:40.140135Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -19744,7 +19744,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": null
+      "installedTargets": []
     },
     {
       "addonID": 272335,
@@ -20041,7 +20041,7 @@
       "dateInstalled": "2020-06-25T20:27:23.6383733Z",
       "dateUpdated": "2020-06-28T18:09:50.6597197Z",
       "dateLastUpdateAttempted": "2020-06-28T18:09:50.6597197Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
