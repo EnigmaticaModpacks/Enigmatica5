@@ -9,4 +9,6 @@ import crafttweaker.api.BracketHandlers;
 <recipetype:occultism:crushing>.removeRecipe(<item:occultism:copper_dust>);
 <recipetype:occultism:crushing>.removeRecipe(<item:occultism:obsidian_dust>);
 
+<recipetype:mekanism:enriching>.removeByName("jaopca:mekanism.dust_to_material.prismarine");
+
 <recipetype:mekanism:combining>.removeAll();
