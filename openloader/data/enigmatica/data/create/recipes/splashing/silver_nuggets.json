@@ -1,0 +1,18 @@
+{
+    "type": "create:splashing",
+    "ingredients": [
+    	{
+    		"item": "jaopca:create_crushed_ores.silver"
+    	}
+    ], 
+	"results": [
+		{
+			"item": "immersiveengineering:nugget_silver",
+			"count": 10
+		},
+		{	"item": "immersiveengineering:nugget_silver",
+			"chance": 0.5,
+			"count": 5
+		}	
+	]
+}
