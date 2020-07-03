@@ -70,7 +70,7 @@
         }
     },
     {
-        "predicate": { "item": "naturesaura:infused_iron" },
+        "predicate": { "item": "naturesaura:infused_iron_sword" },
         "item": "tetra:modular_sword",
         "modules": {
             "sword/blade": ["sword/basic_blade", "basic_blade/infused_iron"],
