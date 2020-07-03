@@ -13,87 +13,62 @@ _Using Forge-1.15.2-31.2.30_ | _[Mod Updates](https://github.com/NillerMedDild/E
 
 **Changes**
 
-- Tetra: Finished the HUGE content update, tons of new materials! (A big thank you to [Ridanis](https://github.com/ridanis) and [mickelus](https://github.com/mickelus) for helping)
-
-  - ##### Mekanism
-    - [x] Lapis
-    - [x] Osmium
-    - [x] Refined Glowstone
-    - [x] Refined Obsidian
-
-    ##### Create
-    - [x] Andesite Alloy
-    - [x] Zinc
-
-    ##### Industrial Foregoing
-    - [x] Pink Slime 
-
-    ##### Occultism
-    - [x] Iesnium 
-
-    ##### PneumaticCraft
-    - [x] Compressed Iron
-
-    ##### Powah
-    - [x] Energized Steel
-    - [x] Niotic Crystal 
-    - [x] Spirited Crystal 
-    - [x] Nitro Crystal
-
-    ##### Immersive Engineering
-    - [x] Aluminum
-    - [x] Treated Wood
-    - [x] Constantan
-    - [x] Uranium
-
-    ##### Nature's Aura
-    - [x] ancient
-    - [x] Infused Iron
-    - [x] Ingot of the Skies
-
-    ##### Botania
-    - [x] Manasteel
-    - [x] Elementium
-    - [x] Terrasteel
-    - [x] Gaia Spirit Ingot
-
-    ##### Biomes O' Plenty
-    - [x] mahogany
-    - [x] jacaranda
-    - [x] palm
-    - [x] willow
-    - [x] dead
-    - [x] magic
-    - [x] umbran
-    - [x] hellbark
-    - [x] fir
-    - [x] redwood
-    - [x] cherry
-
-    ### New Tools that can be altered with Tetra
-    - [x] Mekanism: Lapis
-    - [x] Mekanism: Osmium
-    - [x] Mekanism: Refined Glowstone
-    - [x] Mekanism: Refined Obsidian
-    - [x] Mekanism: Steel
-    - [x] Immersive Engineering Steel
-    - [x] Botania Manasteel
-    - [x] Botania Elementium
-    - [x] Botania Terrasteel
-    - [x] Nature's Aura Infused Iron
-    - [x] Nature's Aura Sky
-  
-- Added recipe to turn clear glass back into normal glass [\#373](https://github.com/NillerMedDild/Enigmatica5/issues/373)
-
 - Added Engineer's Manual to the Akashic Tome [\#371](https://github.com/NillerMedDild/Enigmatica5/issues/371)
-
 - Fewer Occultism seed drops [\#368](https://github.com/NillerMedDild/Enigmatica5/issues/368)
+- Tetra: Finished the HUGE content update, tons of new materials: (A big thank you to [Ridanis](https://github.com/ridanis) and [mickelus](https://github.com/mickelus) for helping)
+  - Lapis
+  - Osmium
+  - Refined Glowstone
+  - Refined Obsidian
+  - Andesite Alloy
+  - Zinc
+  - Pink Slime 
+  - Iesnium 
+  - Compressed Iron
+  - Energized Steel
+  - Niotic Crystal 
+  - Spirited Crystal 
+  - Nitro Crystal
+  - Aluminum
+  - Treated Wood
+  - Constantan
+  - Uranium
+  - Ancient
+  - Infused Iron
+  - Ingot of the Skies
+  - Manasteel
+  - Elementium
+  - Terrasteel
+  - Gaia Spirit Ingot
+  - Mahogany
+  - Jacaranda
+  - Palm
+  - Willow
+  - Dead
+  - Magic
+  - Umbran
+  - Hellbark
+  - Fir
+  - Redwood
+  - Cherry
+- New Tools that can be altered with Tetra
+  - Mekanism: Lapis
+  - Mekanism: Osmium
+  - Mekanism: Refined Glowstone
+  - Mekanism: Refined Obsidian
+  - Mekanism: Steel
+  - Immersive Engineering Steel
+  - Botania Manasteel
+  - Botania Elementium
+  - Botania Terrasteel
+  - Nature's Aura Infused Iron
+  - Nature's Aura Sky
 
 **Bug Fixes**
 
 - Prismarine dupe loop [\#391](https://github.com/NillerMedDild/Enigmatica5/issues/391) (Credit [Halfdeaf](https://github.com/halfdeaf))
 - Create bulk washing recipes not making IE nugs for some ores [\#389](https://github.com/NillerMedDild/Enigmatica5/issues/389) (Credit [theboo](https://github.com/theboo))
-- Trouble with Copper processing with Create / generation with Nature's Aura [\#385](https://github.com/NillerMedDild/Enigmatica5/issues/385)
+- Trouble with Copper processing with Create / generation with Nature's Aura [\#385](https://github.com/NillerMedDild/Enigmatica5/issues/385) (Credit [MuteTiefling](https://github.com/mutetiefling))
 - Recipe Conflict: Beams/Sticks [\#381](https://github.com/NillerMedDild/Enigmatica5/issues/381)
 - Create Press makes Sheets instead of Plates [\#379](https://github.com/NillerMedDild/Enigmatica5/issues/379)
 - Mekanism Infuser makes Steel Dust, not Grit [\#367](https://github.com/NillerMedDild/Enigmatica5/issues/367)
