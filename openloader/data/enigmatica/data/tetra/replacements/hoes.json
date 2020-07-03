@@ -61,5 +61,23 @@
             "double/head_right": ["double/butt_right", "butt/steel"],
             "double/handle": ["double/basic_handle", "basic_handle/treated_wood"]
         }
+    },
+    {
+        "predicate": { "item": "naturesaura:infused_iron_hoe" },
+        "item": "tetra:modular_double",
+        "modules": {
+            "double/head_left": ["double/hoe_left", "hoe/sky"],
+            "double/head_right": ["double/butt_right", "butt/sky"],
+            "double/handle": ["double/basic_handle", "basic_handle/treated_wood"]
+        }
+    },
+    {
+        "predicate": { "item": "naturesaura:sky_hoe" },
+        "item": "tetra:modular_double",
+        "modules": {
+            "double/head_left": ["double/hoe_left", "hoe/sky"],
+            "double/head_right": ["double/butt_right", "butt/sky"],
+            "double/handle": ["double/basic_handle", "basic_handle/treated_wood"]
+        }
     }
 ]
