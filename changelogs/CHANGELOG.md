@@ -91,8 +91,8 @@ _Using Forge-1.15.2-31.2.30_ | _[Mod Updates](https://github.com/NillerMedDild/E
 
 **Bug Fixes**
 
-- Prismarine dupe loop [\#391](https://github.com/NillerMedDild/Enigmatica5/issues/391)
-- Create bulk washing recipes not making IE nugs for some ores [\#389](https://github.com/NillerMedDild/Enigmatica5/issues/389)
+- Prismarine dupe loop [\#391](https://github.com/NillerMedDild/Enigmatica5/issues/391) (Credit [Halfdeaf](https://github.com/halfdeaf))
+- Create bulk washing recipes not making IE nugs for some ores [\#389](https://github.com/NillerMedDild/Enigmatica5/issues/389) (Credit [theboo](https://github.com/theboo))
 - Trouble with Copper processing with Create / generation with Nature's Aura [\#385](https://github.com/NillerMedDild/Enigmatica5/issues/385)
 - Recipe Conflict: Beams/Sticks [\#381](https://github.com/NillerMedDild/Enigmatica5/issues/381)
 - Create Press makes Sheets instead of Plates [\#379](https://github.com/NillerMedDild/Enigmatica5/issues/379)
