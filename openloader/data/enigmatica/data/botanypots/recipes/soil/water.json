@@ -1,0 +1,13 @@
+{
+    "type": "botanypots:soil",
+    "input": {
+        "item": "minecraft:water_bucket"
+    },
+    "display": {
+        "block": "minecraft:blue_stained_glass"
+    },
+    "categories": [
+        "water"
+    ],
+    "growthModifier": 0.5
+}
