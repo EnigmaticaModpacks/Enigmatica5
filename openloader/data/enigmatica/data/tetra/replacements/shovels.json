@@ -54,5 +54,37 @@
             "single/basic_shovel": ["single/basic_shovel", "basic_shovel/steel"],
             "single/handle": ["single/basic_handle", "basic_handle/treated_wood"]
         }
+    },
+    {
+        "predicate": { "item": "naturesaura:infused_iron_shovel" },
+        "item": "tetra:modular_single",
+        "modules": {
+            "single/basic_shovel": ["single/basic_shovel", "basic_shovel/infused_iron"],
+            "single/handle": ["single/basic_handle", "basic_handle/treated_wood"]
+        }
+    },
+    {
+        "predicate": { "item": "naturesaura:sky_shovel" },
+        "item": "tetra:modular_single",
+        "modules": {
+            "single/basic_shovel": ["single/basic_shovel", "basic_shovel/sky"],
+            "single/handle": ["single/basic_handle", "basic_handle/treated_wood"]
+        }
+    },
+    {
+        "predicate": { "item": "botania:manasteel_shovel" },
+        "item": "tetra:modular_single",
+        "modules": {
+            "single/basic_shovel": ["single/basic_shovel", "basic_shovel/manasteel"],
+            "single/handle": ["single/basic_handle", "basic_handle/treated_wood"]
+        }
+    },
+    {
+        "predicate": { "item": "botania:elementium_shovel" },
+        "item": "tetra:modular_single",
+        "modules": {
+            "single/basic_shovel": ["single/basic_shovel", "basic_shovel/elementium"],
+            "single/handle": ["single/basic_handle", "basic_handle/jacaranda"]
+        }
     }
 ]

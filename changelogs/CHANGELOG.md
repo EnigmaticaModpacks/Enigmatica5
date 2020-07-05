@@ -1,3 +1,86 @@
+## Enigmatica 5 v0.5.2
+
+## The Tetra Update
+
+**The 0.5.0 version has major changes, it is recommended that you start in a new world, and a fresh install/new profile if updating from an earlier version.**
+
+_Using Forge-1.15.2-31.2.30_ | _[Mod Updates](https://github.com/NillerMedDild/Enigmatica5/blob/master/changelogs/CHANGELOG_MODS_0.5.2.txt)_
+
+**Mod Additions**
+
+-   Mod Name Tooltip
+-   YUNG's Better Mineshafts [\#374](https://github.com/NillerMedDild/Enigmatica5/issues/374)
+
+**Changes**
+
+- Added Engineer's Manual to the Akashic Tome [\#371](https://github.com/NillerMedDild/Enigmatica5/issues/371)
+- Fewer Occultism seed drops [\#368](https://github.com/NillerMedDild/Enigmatica5/issues/368)
+- Tetra: Finished the HUGE content update, tons of new materials: (A big thank you to [Ridanis](https://github.com/ridanis) and [mickelus](https://github.com/mickelus) for helping)
+  - Lapis
+  - Osmium
+  - Refined Glowstone
+  - Refined Obsidian
+  - Andesite Alloy
+  - Zinc
+  - Pink Slime 
+  - Iesnium 
+  - Compressed Iron
+  - Energized Steel
+  - Niotic Crystal 
+  - Spirited Crystal 
+  - Nitro Crystal
+  - Aluminum
+  - Treated Wood
+  - Constantan
+  - Uranium
+  - Ancient
+  - Infused Iron
+  - Ingot of the Skies
+  - Manasteel
+  - Elementium
+  - Terrasteel
+  - Gaia Spirit Ingot
+  - Mahogany
+  - Jacaranda
+  - Palm
+  - Willow
+  - Dead
+  - Magic
+  - Umbran
+  - Hellbark
+  - Fir
+  - Redwood
+  - Cherry
+- New Tools that can be altered with Tetra
+  - Mekanism: Lapis
+  - Mekanism: Osmium
+  - Mekanism: Refined Glowstone
+  - Mekanism: Refined Obsidian
+  - Mekanism: Steel
+  - Immersive Engineering Steel
+  - Botania Manasteel
+  - Botania Elementium
+  - Botania Terrasteel
+  - Nature's Aura Infused Iron
+  - Nature's Aura Sky
+
+**Bug Fixes**
+
+- Prismarine dupe loop [\#391](https://github.com/NillerMedDild/Enigmatica5/issues/391) (Credit [Halfdeaf](https://github.com/halfdeaf))
+- Create bulk washing recipes not making IE nugs for some ores [\#389](https://github.com/NillerMedDild/Enigmatica5/issues/389) (Credit [theboo](https://github.com/theboo))
+- Trouble with Copper processing with Create / generation with Nature's Aura [\#385](https://github.com/NillerMedDild/Enigmatica5/issues/385) (Credit [MuteTiefling](https://github.com/mutetiefling))
+- Recipe Conflict: Beams/Sticks [\#381](https://github.com/NillerMedDild/Enigmatica5/issues/381)
+- Create Press makes Sheets instead of Plates [\#379](https://github.com/NillerMedDild/Enigmatica5/issues/379)
+- Mekanism Infuser makes Steel Dust, not Grit [\#367](https://github.com/NillerMedDild/Enigmatica5/issues/367)
+- Vanilla campfire ticking way too much on servers [\#364](https://github.com/NillerMedDild/Enigmatica5/issues/364)
+- Modular Routers - Missing Recipes [\#344](https://github.com/NillerMedDild/Enigmatica5/issues/344)
+- Minecolonies Hospital not placing properly [\#337](https://github.com/NillerMedDild/Enigmatica5/issues/337)
+- Soils Unobtainable for Botany Pots [\#310](https://github.com/NillerMedDild/Enigmatica5/issues/310)
+
+**Mod Removals**
+
+-   Waystones2Waypoints (Often created invalid waypoints, will be re-added in a future update if it gets fixed)
+
 ## Enigmatica 5 v0.5.1
 
 **The 0.5.0 version has major changes, it is recommended that you start in a new world, and a fresh install/new profile if updating from an earlier version.**
@@ -6,8 +89,8 @@ _Using Forge-1.15.2-31.2.20_ | _[Mod Updates](https://github.com/NillerMedDild/E
 
 **Bug Fixes**
 
-- Treated wood uncraftable  [\#359](https://github.com/NillerMedDild/Enigmatica5/issues/359)
-- Only double sided tools are craftable in tetra [\#358](https://github.com/NillerMedDild/Enigmatica5/issues/358)
+-   Treated wood uncraftable [\#359](https://github.com/NillerMedDild/Enigmatica5/issues/359)
+-   Only double sided tools are craftable in tetra [\#358](https://github.com/NillerMedDild/Enigmatica5/issues/358)
 
 ## Enigmatica 5 v0.5.0
 
@@ -17,29 +100,29 @@ _Using Forge-1.15.2-31.2.20_ | _[Mod Updates](https://github.com/NillerMedDild/E
 
 **Mod Additions**
 
-- Immersive Engineering [\#345](https://github.com/NillerMedDild/Enigmatica5/issues/345)
-- Dyeable Flower Pots [\#343](https://github.com/NillerMedDild/Enigmatica5/issues/343)
-- Old Java Warning [\#152](https://github.com/NillerMedDild/Enigmatica5/issues/152)
+-   Immersive Engineering [\#345](https://github.com/NillerMedDild/Enigmatica5/issues/345)
+-   Dyeable Flower Pots [\#343](https://github.com/NillerMedDild/Enigmatica5/issues/343)
+-   Old Java Warning [\#152](https://github.com/NillerMedDild/Enigmatica5/issues/152)
 
 **Changes**
 
-- Tetra: A heap of new materials have been added. The majority of them are a bit plain at the moment, and will be getting updated stats throughout the 0.5.x updates.
+-   Tetra: A heap of new materials have been added. The majority of them are a bit plain at the moment, and will be getting updated stats throughout the 0.5.x updates.
 
 **Mod Removals**
 
-*In an effort to keep load times low (ish), a few mods are being removed in favor of new ones.*
+_In an effort to keep load times low (ish), a few mods are being removed in favor of new ones._
 
-- Camera
-- Ma Enchants
-- Respawnable Pets
-- Ring of Attraction
-- Silent's Mechanisms
-- Ultra Amplified Dimension
-- VanillaThings
+-   Camera
+-   Ma Enchants
+-   Respawnable Pets
+-   Ring of Attraction
+-   Silent's Mechanisms
+-   Ultra Amplified Dimension
+-   VanillaThings
 
 **Bug Fixes**
 
-* PNC Pneumatic Armor's Step Assist feature doesn't seem to work with StepUp [\#317](https://github.com/NillerMedDild/Enigmatica5/issues/317)
+-   PNC Pneumatic Armor's Step Assist feature doesn't seem to work with StepUp [\#317](https://github.com/NillerMedDild/Enigmatica5/issues/317)
 
 ## Enigmatica 5 v0.4.15
 
@@ -49,14 +132,11 @@ _Using Forge-1.15.2-31.2.9_ | _[Mod Updates](https://github.com/NillerMedDild/En
 
 **Mod Removals**
 
-* Double Slabs
-
-
+-   Double Slabs
 
 ## Enigmatica 5 v0.4.14
 
 _Using Forge-1.15.2-31.2.9_ | _[Mod Updates](https://github.com/NillerMedDild/Enigmatica5/blob/master/changelogs/CHANGELOG_MODS_0.4.14.txt)_
-
 
 **Mod Additions**
 
@@ -65,17 +145,17 @@ _Using Forge-1.15.2-31.2.9_ | _[Mod Updates](https://github.com/NillerMedDild/En
 
 **Changes**
 
-* Apotheosis: Disabled the increased spawn rate of Wandering Traders .
-* OreVeins: Made huge veins less common
+-   Apotheosis: Disabled the increased spawn rate of Wandering Traders .
+-   OreVeins: Made huge veins less common
 
 **Bug fixes**
 
 -   Minecolonies Florist can generate Botania flowers, including functional flowers [\#347](https://github.com/NillerMedDild/Enigmatica5/issues/347)
 -   XNet facades don't work correctly [\#341](https://github.com/NillerMedDild/Enigmatica5/issues/341)
--   Some Botania Quartz is uncraftable.  [\#334](https://github.com/NillerMedDild/Enigmatica5/issues/334)
+-   Some Botania Quartz is uncraftable. [\#334](https://github.com/NillerMedDild/Enigmatica5/issues/334)
 -   Whoops mod functionality consumes 2 logs/stones instead of 1 when right-clicking [\#331](https://github.com/NillerMedDild/Enigmatica5/issues/331)
 -   Cooking Cactus in a furnace gives Charcoal [\#330](https://github.com/NillerMedDild/Enigmatica5/issues/330)
--   Mining Gadget Laser not centered on block.  [\#312](https://github.com/NillerMedDild/Enigmatica5/issues/312)
+-   Mining Gadget Laser not centered on block. [\#312](https://github.com/NillerMedDild/Enigmatica5/issues/312)
 -   Simple Farming Cherry Tree Crash [\#11](https://github.com/NillerMedDild/Enigmatica5/issues/11)
 
 **Mod Removals**
@@ -88,25 +168,19 @@ _Using Forge-1.15.2-31.2.9_ | _[Mod Updates](https://github.com/NillerMedDild/En
 -   Small Nether Portal
 -   Softer Hay Bales
 
-
-
 ## Enigmatica 5 v0.4.13
 
 **Please remove the following folders before updating, to ensure files are updated correctly:**
 
-* Config
-* KubeJS
-* Mods
-* Openloader
-* Scripts
+-   Config
+-   KubeJS
+-   Mods
+-   Openloader
+-   Scripts
 
 **JourneyMap is being removed in this update, which means you will lose your current map progress and waypoints - It's a good idea to write down your waypoints for safekeeping, before updating. **
 
-
-
 _Using Forge-1.15.2-31.2.0_ | _[Mod Updates](https://github.com/NillerMedDild/Enigmatica5/blob/master/changelogs/CHANGELOG_MODS_0.4.13.txt)_
-
-
 
 **Mod Additions**
 
@@ -119,10 +193,10 @@ _Using Forge-1.15.2-31.2.0_ | _[Mod Updates](https://github.com/NillerMedDild/En
 
 **Changes**
 
-* AkashicTome: Add PneumaticCraft + Occultism + Psi in recipe [\#293](https://github.com/NillerMedDild/Enigmatica5/issues/293)
-* EverlastingAbilities: Disabled the Weakness ability 
-* Quark: Disabled Crevices
-* Re-Do Lapis Ore Deposit [\#266](https://github.com/NillerMedDild/Enigmatica5/issues/266)
+-   AkashicTome: Add PneumaticCraft + Occultism + Psi in recipe [\#293](https://github.com/NillerMedDild/Enigmatica5/issues/293)
+-   EverlastingAbilities: Disabled the Weakness ability
+-   Quark: Disabled Crevices
+-   Re-Do Lapis Ore Deposit [\#266](https://github.com/NillerMedDild/Enigmatica5/issues/266)
 
 **Bug fixes**
 
@@ -136,8 +210,6 @@ _Using Forge-1.15.2-31.2.0_ | _[Mod Updates](https://github.com/NillerMedDild/En
 
 -   Journeymap, due to performance issues
 -   BetterBedrockGenerator (Yung's Better Caves handles this now)
-
-
 
 ## Enigmatica 5 v0.4.12
 
@@ -163,8 +235,6 @@ _[Mod Updates](https://github.com/NillerMedDild/Enigmatica5/blob/master/changelo
 -   MultiBeds (Caused an issue with rendering)
 -   ShetiPhianCore (Dependency of MultiBeds)
 
-
-
 ## Enigmatica 5 v0.4.11
 
 _Using Forge-1.15.2-31.1.93_
@@ -188,8 +258,6 @@ _[Mod Updates](https://github.com/NillerMedDild/Enigmatica5/blob/master/changelo
 
 -   Bedspread (Replaced by MultiBeds)
 -   FTB Quests (Temporarily removed due to a bug)
-
-
 
 ## Enigmatica 5 v0.4.10
 
@@ -238,8 +306,6 @@ _[Mod Updates](https://github.com/NillerMedDild/Enigmatica5/blob/master/changelo
 -   Borderless Window
 -   Torch Slab Mod
 
-
-
 ## 0.4.9 - The Ore Update
 
 _Using Forge-1.15.2-31.1.63_
@@ -283,8 +349,6 @@ _[Mod Updates](https://github.com/NillerMedDild/Enigmatica5/blob/master/changelo
 -   Fixed Crafting Table Recipe Dupe [\#230](https://github.com/NillerMedDild/Enigmatica5/issues/230)
 -   Drag/Pan/Scroll slow in fullscreen Journeymap [\#222](https://github.com/NillerMedDild/Enigmatica5/issues/222)
 
-
-
 ## Enigmatica 5 v0.4.8
 
 _Using Forge-1.15.2-31.1.46_
@@ -309,8 +373,6 @@ _[Mod Updates](https://github.com/NillerMedDild/Enigmatica5/blob/master/changelo
 
 -   Crashing when opening certain windows/GUIs, especially ones from Refined Storage.
 
-
-
 ## Enigmatica 5 v0.4.7
 
 _Using Forge-1.15.2-31.1.46_
@@ -325,8 +387,6 @@ _[Mod Updates](https://github.com/NillerMedDild/Enigmatica5/blob/master/changelo
 
 -   Missing Glass Pane recipe [\#212](https://github.com/NillerMedDild/Enigmatica5/issues/212)
 -   Uraninite Smelting Recipe Missing [\#211](https://github.com/NillerMedDild/Enigmatica5/issues/211)
-
-
 
 ## Enigmatica 5 v0.4.6
 
