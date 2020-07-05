@@ -42,7 +42,8 @@ var recipes as IIngredient[][IItemStack] = {
         pneumaticcraft: {id: "patchouli:guide_book" as string, Count: 1, tag: {"patchouli:book": "pneumaticcraft:book" as string}},
         occultism: {id: "occultism:dictionary_of_spirits" as string, Count: 1},
         solcarrot: {id: "solcarrot:food_book" as string, Count: 1},
-        immersiveengineering: {id: "immersiveengineering:manual" as string, Count: 1}}}) :
+        immersiveengineering: {id: "immersiveengineering:manual" as string, Count: 1},
+        integrateddynamics: {id: "integrateddynamics:on_the_dynamics_of_integration" as string, Count: 1}}}) :
     [<item:minecraft:book>, <tag:forge:bookshelves>],
 
     <item:tetra:magmatic_cell> :
