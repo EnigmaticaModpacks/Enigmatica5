@@ -4,8 +4,10 @@ events.listen('recipes', function (event) {
         typesToUnify.forEach(function (type) {
             var tagString = '#forge:' + type + 's/' + material;
             var tag = ingredient.of(tagString);
-            var prefItem = getPreferredItemInTag(tag, modPriorities);
-            event.replaceOutput({}, tagString, prefItem);
+            if (tag.stacks.size > 1) {
+                var prefItem = getPreferredItemInTag(tag, modPriorities);
+                event.replaceOutput({}, tagString, prefItem);
+            }
         });
     });
 });
