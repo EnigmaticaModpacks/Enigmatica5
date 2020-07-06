@@ -27,6 +27,23 @@ var colors = [
     'light_gray'
 ];
 
+var typesToUnify = [
+    'nugget',
+    'ingot',
+    'gem',
+    'storage_block',
+    'ore',
+    'dust',
+    'gear',
+    'plate',
+    'rod'
+    //'ore_deposit',
+    // 'dirty_dust',
+    // 'clump',
+    // 'shard',
+    // 'crystal'
+];
+
 var materialsToUnify = [
     'iron',
     'gold',
@@ -35,31 +52,18 @@ var materialsToUnify = [
     'silver',
     'zinc',
     'brass',
-    'tungsten',
     'lead',
-    'quicksilver',
     'tin',
-    'redstone_alloy',
-    'refined_iron',
     'compressed_iron',
     'nickel',
-    'platinum',
-    'bismuth',
     'aluminum',
     'uranium',
     'bronze',
-    'invar',
     'electrum',
-    'bismuth_brass',
-    'aluminum_steel',
-    'bismuth_steel',
-    'signalum',
-    'lumium',
-    'enderium',
     'steel',
 
     'diamond',
-    'lapis_lazuli',
+    'lapis',
     'emerald',
     'quartz',
 
@@ -67,22 +71,20 @@ var materialsToUnify = [
     'glowstone'
 ];
 
-var types = [
-    'nuggets',
-    'ingots',
-    'gems',
-    'storage_blocks',
-    'ores',
-    'ore_deposits',
-    'dusts',
-    'gears',
-    'plates',
-    'rods',
-    'dirty_dusts',
-    'clumps',
-    'shards',
-    'crystals',
-    'shards'
+var modPriorities = [
+    'minecraft',
+    'immersiveengineering',
+    'create',
+    'mekanism',
+    'jaopca',
+    'kubejs',
+    'botania',
+    'pneumaticcraft',
+    'occultism',
+    'tmechworks',
+    'industrialforegoing',
+    'botania',
+    'quark'
 ];
 
 var vanillaWoodTypes = ['oak', 'birch', 'spruce', 'jungle', 'acacia', 'dark_oak'];

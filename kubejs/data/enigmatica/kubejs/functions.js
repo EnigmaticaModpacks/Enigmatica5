@@ -7,3 +7,27 @@ function shapedRecipe(result, pattern, key) {
 function shapelessRecipe(result, ingredients) {
     return { result: result, ingredients: ingredients };
 }
+
+function compareIndices(a, b) {
+    var aVal = modPriorities.indexOf(a);
+    var bVal = modPriorities.indexOf(b);
+
+    if (aVal == -1) aVal = 2147483647;
+    if (bVal == -1) bVal = 2147483647;
+
+    if (aVal > bVal) return 1;
+    if (aVal == bVal) return 0;
+    if (aVal < bVal) return -1;
+}
+
+function getPreferredItemInTag(tag, modPriorities) {
+    var prefItem = tag.stacks
+        .stream()
+        .sorted(function (a, b) {
+            return compareIndices(a.mod, b.mod);
+        })
+        .findFirst()
+        .orElse(null);
+    console.log('Prefered Item in tag "' + tag + '":' + prefItem);
+    return prefItem;
+}
