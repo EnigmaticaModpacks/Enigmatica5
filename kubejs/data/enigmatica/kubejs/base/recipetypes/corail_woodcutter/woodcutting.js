@@ -11,17 +11,17 @@ events.listen('recipes', function (event) {
         // Create Woodcutter recipes for both.
         event.recipes.corail_woodcutter.woodcutting({
             ingredient: {
-                tag: log,
+                tag: log
             },
             result: wood_floor,
-            count: 24,
+            count: 24
         });
         event.recipes.corail_woodcutter.woodcutting({
             ingredient: {
-                item: planks,
+                item: planks
             },
             result: wood_floor,
-            count: 6,
+            count: 6
         });
     });
 });

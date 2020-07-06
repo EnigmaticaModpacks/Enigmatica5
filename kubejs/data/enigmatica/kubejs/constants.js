@@ -78,7 +78,6 @@ var modPriorities = [
     'mekanism',
     'jaopca',
     'kubejs',
-    'botania',
     'pneumaticcraft',
     'occultism',
     'tmechworks',

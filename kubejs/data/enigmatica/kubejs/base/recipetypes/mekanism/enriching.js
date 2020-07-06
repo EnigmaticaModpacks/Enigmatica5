@@ -5,12 +5,12 @@ events.listen('recipes', function (event) {
     event.recipes.mekanism.enriching({
         input: {
             ingredient: {
-                tag: 'forge:ores/dimensional',
-            },
+                tag: 'forge:ores/dimensional'
+            }
         },
         output: {
             item: output,
-            count: count,
-        },
+            count: count
+        }
     });
 });
