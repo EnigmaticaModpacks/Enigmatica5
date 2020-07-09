@@ -1,0 +1,11 @@
+{
+    "type": "occultism:crushing",
+    "ingredient": {
+        "tag": "forge:ores/iron"
+    },
+    "result": {
+        "item": "immersiveengineering:dust_iron",
+        "count": 2
+    },
+    "crushing_time": 200
+}
