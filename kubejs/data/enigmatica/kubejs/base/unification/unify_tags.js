@@ -5,7 +5,7 @@ events.listen('recipes', function (event) {
             var tagString = '#forge:' + type + 's/' + material;
             var tag = ingredient.of(tagString);
             if (tag.stacks.size > 1) {
-                var prefItem = getPreferredItemInTag(tag, modPriorities);
+                var prefItem = getPreferredItemInTag(tag);
                 event.replaceOutput({}, tagString, prefItem);
             }
         });

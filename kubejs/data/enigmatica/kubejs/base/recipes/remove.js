@@ -8,12 +8,16 @@ events.listen('recipes', function (event) {
 
         'akashictome:tome',
 
-        'morevanillalib:obsidian_shard',
-
-        'minecraft:stick 16'
+        'morevanillalib:obsidian_shard'
     ];
 
     removals.forEach(function (removal) {
         event.remove({ output: removal });
     });
+
+    // event.remove({
+    //     output: ingredient.custom(function (stack) {
+    //         return stack.id === 'minecraft:stick' && stack.count === 16;
+    //     })
+    // });
 });

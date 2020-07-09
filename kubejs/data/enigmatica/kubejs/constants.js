@@ -1,5 +1,7 @@
 //priority: 1000
 
+var air = 'minecraft:air';
+
 var oreDimensional = [
     'rftoolsbase:dimensionalshard_overworld',
     'rftoolsbase:dimensionalshard_nether',
@@ -66,6 +68,7 @@ var materialsToUnify = [
     'lapis',
     'emerald',
     'quartz',
+    'coal',
 
     'redstone',
     'glowstone'

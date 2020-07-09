@@ -20,14 +20,13 @@ function compareIndices(a, b) {
     if (aVal < bVal) return -1;
 }
 
-function getPreferredItemInTag(tag, modPriorities) {
+function getPreferredItemInTag(tag) {
     var prefItem = tag.stacks
         .stream()
         .sorted(function (a, b) {
             return compareIndices(a.mod, b.mod);
         })
         .findFirst()
-        .orElse(null);
-    console.log('Prefered Item in tag "' + tag + '":' + prefItem);
+        .orElse('minecraft:air');
     return prefItem;
 }
