@@ -20,7 +20,7 @@
 	maxRfAdvancedConnector = 500000
 	#Power usage for the controller per active channel
 	#Range: 0 ~ 1000000000
-	controllerChannelRFT = 1
+	controllerChannelRFT = 0
 	#Maximum fluid per operation that a normal connector can input or output
 	#Range: 1 ~ 1000000000
 	maxFluidRateNormal = 1000
@@ -50,7 +50,7 @@
 	maxRfRateNormal = 10000
 	#Power usage for the controller per operation performed by one of the channels
 	#Range: 0 ~ 1000000000
-	controllerOperationRFT = 2
+	controllerOperationRFT = 0
 	#Maximum RF the wireless router can receive per tick
 	#Range: 1 ~ 1000000000
 	wirelessRouterRfPerTick = 5000
