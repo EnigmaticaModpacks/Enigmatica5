@@ -24,7 +24,7 @@ var recipes as IIngredient[][][IItemStack] = {
     <item:minecraft:stick> * 16 : 
     [
         [<tag:minecraft:logs>, air], 
-        [air, <tag:minecraft:logs>]
+        [<tag:minecraft:logs>, air]
     ]
 
 };
