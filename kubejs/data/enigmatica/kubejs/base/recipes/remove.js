@@ -1,5 +1,5 @@
 events.listen('recipes', function (event) {
-    var removals = [
+    var outputRemovals = [
         'mekanism:combiner',
         'mekanism:basic_combining_factory',
         'mekanism:advanced_combining_factory',
@@ -8,8 +8,10 @@ events.listen('recipes', function (event) {
 
         'akashictome:tome',
 
-        'morevanillalib:obsidian_shard',
+        'morevanillalib:obsidian_shard'
+    ];
 
+    var idRemovals = [
         'decorative_blocks:hellbark_beam',
         'decorative_blocks:jungle_beam',
         'decorative_blocks:birch_beam',
@@ -29,13 +31,11 @@ events.listen('recipes', function (event) {
         'decorative_blocks:spruce_beam'
     ];
 
-    removals.forEach(function (removal) {
+    outputRemovals.forEach(function (removal) {
         event.remove({ output: removal });
     });
 
-    // event.remove({
-    //     output: ingredient.custom(function (stack) {
-    //         return stack.id === 'minecraft:stick' && stack.count === 16;
-    //     })
-    // });
+    idRemovals.forEach(function (removal) {
+        event.remove({ id: removal });
+    });
 });

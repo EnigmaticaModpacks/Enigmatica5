@@ -14,6 +14,15 @@ events.listen('recipes', function (event) {
             L: '#forge:ingots/steel',
             X: '#forge:circuits/basic',
             C: 'industrialforegoing:fluid_extractor'
+        }),
+
+        shapedRecipe('minecraft:stick 16', ['L', 'L'], {
+            L: '#minecraft:logs'
+        }),
+
+        shapedRecipe('minecraft:oak_sign', ['LLL', 'LLL', ' C '], {
+            L: '#minecraft:planks',
+            C: '#forge:rods/wooden'
         })
     ];
 
