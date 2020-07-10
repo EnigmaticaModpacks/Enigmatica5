@@ -1,3 +1,19 @@
+## Enigmatica 5 v0.5.3
+
+_Using Forge-1.15.2-31.2.30_ | _[Mod Updates](https://github.com/NillerMedDild/Enigmatica5/blob/master/changelogs/CHANGELOG_MODS_0.5.3.txt)_
+
+**Mod Additions**
+
+-   
+
+**Changes**
+
+- XNet: The Controller no longer requires power
+
+**Bug Fixes**
+
+- Grass now drops other seeds than wheat seeds again.
+
 ## Enigmatica 5 v0.5.2
 
 ## The Tetra Update
