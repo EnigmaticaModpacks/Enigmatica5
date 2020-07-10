@@ -1,12 +1,14 @@
 events.listen('recipes', function (event) {
     var outputRemovals = [
+        'akashictome:tome',
+
         'mekanism:combiner',
         'mekanism:basic_combining_factory',
         'mekanism:advanced_combining_factory',
         'mekanism:elite_combining_factory',
         'mekanism:ultimate_combining_factory',
 
-        'akashictome:tome',
+        'minecraft:sticky_piston',
 
         'morevanillalib:obsidian_shard'
     ];

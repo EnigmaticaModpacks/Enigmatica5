@@ -15,17 +15,8 @@ import crafttweaker.api.item.IIngredient;
 
 var air = <item:minecraft:air>;
 var recipes as IIngredient[][][IItemStack] = {
-	<item:minecraft:stick> * 16 : 
-    [
-        [<tag:minecraft:logs>], 
-        [<tag:minecraft:logs>]
-    ],
-    <item:minecraft:chest> : 
-    [
-        [<tag:minecraft:planks>, <tag:minecraft:planks>, <tag:minecraft:planks>], 
-        [<tag:minecraft:planks>, air, <tag:minecraft:planks>],
-        [<tag:minecraft:planks>, <tag:minecraft:planks>, <tag:minecraft:planks>]
-    ],
+
+
     <item:minecraft:hopper> : 
     [
         [<tag:forge:ingots/iron>, <tag:minecraft:logs>, <tag:forge:ingots/iron>], 
