@@ -86,7 +86,6 @@ $CONTENTS_TO_ZIP = @(
 	"config", 
 	"defaultconfigs", 
 	"openloader", 
-	"scripts",
 	"kubejs",
 	"packmenu",
 	"server-start-license.md", 
