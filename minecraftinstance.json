@@ -30,7 +30,7 @@
   "isUnlocked": true,
   "javaArgsOverride": null,
   "javaDirOverride": null,
-  "lastPlayed": "2020-07-10T21:32:48.0392617Z",
+  "lastPlayed": "2020-07-11T18:15:37.6676747Z",
   "manifest": null,
   "fileDate": "0001-01-01T00:00:00",
   "installedModpack": null,
@@ -5739,27 +5739,27 @@
       "addonID": 313970,
       "gameInstanceID": "9bea8014-8271-438f-a7d3-e4243f882f2a",
       "installedFile": {
-        "id": 2996714,
-        "displayName": "Apotheosis-1.15.2-3.2.1.jar",
-        "fileName": "Apotheosis-1.15.2-3.2.1.jar",
-        "fileDate": "2020-07-05T02:12:04.24Z",
-        "fileLength": 696653,
+        "id": 3001884,
+        "displayName": "Apotheosis-1.15.2-3.2.2.jar",
+        "fileName": "Apotheosis-1.15.2-3.2.2.jar",
+        "fileDate": "2020-07-11T07:52:27.75Z",
+        "fileLength": 698012,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2996/714/Apotheosis-1.15.2-3.2.1.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/3001/884/Apotheosis-1.15.2-3.2.2.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [
           {
             "id": 0,
-            "addonId": 283644,
-            "type": 3,
+            "addonId": 253449,
+            "type": 2,
             "fileId": 0
           },
           {
             "id": 0,
-            "addonId": 253449,
-            "type": 2,
+            "addonId": 283644,
+            "type": 3,
             "fileId": 0
           },
           {
@@ -5779,7 +5779,7 @@
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 3463021126,
+            "fingerprint": 2778809710,
             "type": 0
           },
           {
@@ -5789,7 +5789,7 @@
           },
           {
             "foldername": "shadows",
-            "fingerprint": 3175214659,
+            "fingerprint": 3168205375,
             "type": 0
           },
           {
@@ -5799,7 +5799,7 @@
           },
           {
             "foldername": "assets",
-            "fingerprint": 2998358037,
+            "fingerprint": 3678813710,
             "type": 0
           },
           {
@@ -5813,7 +5813,7 @@
             "type": 0
           }
         ],
-        "packageFingerprint": 2703712743,
+        "packageFingerprint": 202195282,
         "gameVersion": [
           "1.15.2"
         ],
@@ -5826,12 +5826,12 @@
         "gameVersionDateReleased": "2020-01-22T00:00:00Z",
         "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "Apotheosis-1.15.2-3.2.1.jar"
+        "FileNameOnDisk": "Apotheosis-1.15.2-3.2.2.jar"
       },
       "dateInstalled": "2020-03-28T09:44:06.1482311Z",
-      "dateUpdated": "2020-07-05T19:32:24.0741637Z",
-      "dateLastUpdateAttempted": "2020-07-05T19:32:24.0741637Z",
-      "status": 5,
+      "dateUpdated": "2020-07-11T18:13:45.9304807Z",
+      "dateLastUpdateAttempted": "2020-07-11T18:13:45.9304807Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -10055,14 +10055,14 @@
       "addonID": 289712,
       "gameInstanceID": "9bea8014-8271-438f-a7d3-e4243f882f2a",
       "installedFile": {
-        "id": 3001368,
-        "displayName": "tetra-1.15.2-2.16.0.jar",
-        "fileName": "tetra-1.15.2-2.16.0.jar",
-        "fileDate": "2020-07-10T18:08:03.107Z",
-        "fileLength": 1716099,
+        "id": 3001760,
+        "displayName": "tetra-1.15.2-2.16.1.jar",
+        "fileName": "tetra-1.15.2-2.16.1.jar",
+        "fileDate": "2020-07-11T02:44:02.633Z",
+        "fileLength": 1715948,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/3001/368/tetra-1.15.2-2.16.0.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/3001/760/tetra-1.15.2-2.16.1.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [
@@ -10077,17 +10077,17 @@
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 1138042562,
+            "fingerprint": 2883295296,
             "type": 0
           },
           {
             "foldername": "se",
-            "fingerprint": 3525926241,
+            "fingerprint": 3361189797,
             "type": 0
           },
           {
             "foldername": "assets",
-            "fingerprint": 2762478460,
+            "fingerprint": 2433349158,
             "type": 0
           },
           {
@@ -10101,7 +10101,7 @@
             "type": 0
           }
         ],
-        "packageFingerprint": 3546770770,
+        "packageFingerprint": 3107685494,
         "gameVersion": [
           "Forge",
           "1.15.2"
@@ -10115,11 +10115,11 @@
         "gameVersionDateReleased": "2019-08-01T00:00:00Z",
         "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "tetra-1.15.2-2.16.0.jar"
+        "FileNameOnDisk": "tetra-1.15.2-2.16.1.jar"
       },
       "dateInstalled": "2020-04-03T17:37:57.6385293Z",
-      "dateUpdated": "2020-07-10T19:43:37.4525059Z",
-      "dateLastUpdateAttempted": "2020-07-10T19:43:37.4525059Z",
+      "dateUpdated": "2020-07-11T18:15:23.9122011Z",
+      "dateLastUpdateAttempted": "2020-07-11T18:15:23.9122011Z",
       "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
@@ -14443,14 +14443,14 @@
       "addonID": 243076,
       "gameInstanceID": "9bea8014-8271-438f-a7d3-e4243f882f2a",
       "installedFile": {
-        "id": 2989417,
-        "displayName": "Refined Storage 1.8.6",
-        "fileName": "refinedstorage-1.8.6.jar",
-        "fileDate": "2020-06-26T14:21:07.597Z",
-        "fileLength": 1910985,
-        "releaseType": 2,
+        "id": 3002234,
+        "displayName": "Refined Storage 1.8.7",
+        "fileName": "refinedstorage-1.8.7.jar",
+        "fileDate": "2020-07-11T17:57:25.1Z",
+        "fileLength": 1890665,
+        "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2989/417/refinedstorage-1.8.6.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/3002/234/refinedstorage-1.8.7.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [],
@@ -14458,17 +14458,17 @@
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 80719215,
+            "fingerprint": 2306647304,
             "type": 0
           },
           {
             "foldername": "com",
-            "fingerprint": 3836974570,
+            "fingerprint": 3190024841,
             "type": 0
           },
           {
             "foldername": "assets",
-            "fingerprint": 3111148339,
+            "fingerprint": 1715355574,
             "type": 0
           },
           {
@@ -14487,7 +14487,7 @@
             "type": 0
           }
         ],
-        "packageFingerprint": 1554428782,
+        "packageFingerprint": 3798052093,
         "gameVersion": [
           "Forge",
           "1.15.2"
@@ -14501,12 +14501,12 @@
         "gameVersionDateReleased": "2008-03-01T06:00:00Z",
         "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "refinedstorage-1.8.6.jar"
+        "FileNameOnDisk": "refinedstorage-1.8.7.jar"
       },
       "dateInstalled": "2020-01-31T19:43:16.1880283Z",
-      "dateUpdated": "2020-06-26T21:05:14.8681584Z",
-      "dateLastUpdateAttempted": "2020-06-26T21:05:14.8681584Z",
-      "status": 5,
+      "dateUpdated": "2020-07-11T18:15:13.5602346Z",
+      "dateLastUpdateAttempted": "2020-07-11T18:15:13.5602346Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -16531,14 +16531,14 @@
       "addonID": 363820,
       "gameInstanceID": "9bea8014-8271-438f-a7d3-e4243f882f2a",
       "installedFile": {
-        "id": 2998867,
-        "displayName": "0.1.0-BETA-3",
-        "fileName": "TerraForged-1.15.2-0.1.0-BETA-3.jar",
-        "fileDate": "2020-07-07T21:57:03.927Z",
-        "fileLength": 1292363,
+        "id": 3002064,
+        "displayName": "0.1.0-BETA-4",
+        "fileName": "TerraForged-1.15.2-0.1.0-BETA-4.jar",
+        "fileDate": "2020-07-11T13:28:24.47Z",
+        "fileLength": 1296516,
         "releaseType": 2,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2998/867/TerraForged-1.15.2-0.1.0-BETA-3.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/3002/64/TerraForged-1.15.2-0.1.0-BETA-4.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [],
@@ -16546,7 +16546,7 @@
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 2018985482,
+            "fingerprint": 2663634800,
             "type": 0
           },
           {
@@ -16561,7 +16561,7 @@
           },
           {
             "foldername": "com",
-            "fingerprint": 39811607,
+            "fingerprint": 1193778169,
             "type": 0
           },
           {
@@ -16570,13 +16570,8 @@
             "type": 0
           },
           {
-            "foldername": "redwood.json",
-            "fingerprint": 2427009925,
-            "type": 0
-          },
-          {
             "foldername": "data",
-            "fingerprint": 458379284,
+            "fingerprint": 3111195726,
             "type": 0
           },
           {
@@ -16591,11 +16586,11 @@
           },
           {
             "foldername": "assets",
-            "fingerprint": 782066292,
+            "fingerprint": 2931168160,
             "type": 0
           }
         ],
-        "packageFingerprint": 616780858,
+        "packageFingerprint": 4178307175,
         "gameVersion": [
           "Forge",
           "1.15.2"
@@ -16609,12 +16604,12 @@
         "gameVersionDateReleased": "2008-03-01T06:00:00Z",
         "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "TerraForged-1.15.2-0.1.0-BETA-3.jar"
+        "FileNameOnDisk": "TerraForged-1.15.2-0.1.0-BETA-4.jar"
       },
       "dateInstalled": "2020-03-28T09:44:06.1532238Z",
-      "dateUpdated": "2020-07-09T17:55:33.6938707Z",
-      "dateLastUpdateAttempted": "2020-07-09T17:55:33.6938707Z",
-      "status": 5,
+      "dateUpdated": "2020-07-11T18:15:20.107346Z",
+      "dateLastUpdateAttempted": "2020-07-11T18:15:20.107346Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -17838,32 +17833,39 @@
       "addonID": 245506,
       "gameInstanceID": "9bea8014-8271-438f-a7d3-e4243f882f2a",
       "installedFile": {
-        "id": 3000429,
-        "displayName": "minecolonies-0.13.21.1-ALPHA-universal.jar",
-        "fileName": "minecolonies-1.15.2-0.13.21.1-ALPHA-universal.jar",
-        "fileDate": "2020-07-09T15:04:40.247Z",
-        "fileLength": 31298277,
+        "id": 3002192,
+        "displayName": "minecolonies-0.13.24-ALPHA-universal.jar",
+        "fileName": "minecolonies-0.13.24-ALPHA-universal.jar",
+        "fileDate": "2020-07-11T16:54:02.263Z",
+        "fileLength": 31298522,
         "releaseType": 3,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/3000/429/minecolonies-1.15.2-0.13.21.1-ALPHA-universal.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/3002/192/minecolonies-0.13.24-ALPHA-universal.jar",
         "isAlternate": false,
-        "alternateFileId": 0,
-        "dependencies": [],
+        "alternateFileId": 3002193,
+        "dependencies": [
+          {
+            "id": 0,
+            "addonId": 298744,
+            "type": 3,
+            "fileId": 0
+          }
+        ],
         "isAvailable": true,
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 3500688778,
+            "fingerprint": 1891431519,
             "type": 0
           },
           {
             "foldername": "com",
-            "fingerprint": 894947528,
+            "fingerprint": 807397854,
             "type": 0
           },
           {
-            "foldername": "assets",
-            "fingerprint": 3475039219,
+            "foldername": "data",
+            "fingerprint": 341470666,
             "type": 0
           },
           {
@@ -17872,19 +17874,13 @@
             "type": 0
           },
           {
-            "foldername": "data",
-            "fingerprint": 1063690267,
-            "type": 0
-          },
-          {
-            "foldername": ".cache",
-            "fingerprint": 2868211538,
+            "foldername": "assets",
+            "fingerprint": 736440727,
             "type": 0
           }
         ],
-        "packageFingerprint": 1837272736,
+        "packageFingerprint": 3543593979,
         "gameVersion": [
-          "Forge",
           "1.15.2"
         ],
         "hasInstallScript": false,
@@ -17896,12 +17892,12 @@
         "gameVersionDateReleased": "2008-03-01T06:00:00Z",
         "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "minecolonies-1.15.2-0.13.21.1-ALPHA-universal.jar"
+        "FileNameOnDisk": "minecolonies-0.13.24-ALPHA-universal.jar"
       },
       "dateInstalled": "2020-05-22T20:23:56.3226095Z",
-      "dateUpdated": "2020-07-09T17:53:21.8283582Z",
-      "dateLastUpdateAttempted": "2020-07-09T17:53:21.8283582Z",
-      "status": 5,
+      "dateUpdated": "2020-07-11T18:14:16.7119206Z",
+      "dateLastUpdateAttempted": "2020-07-11T18:14:16.7119206Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -18128,14 +18124,14 @@
       "addonID": 361689,
       "gameInstanceID": "9bea8014-8271-438f-a7d3-e4243f882f2a",
       "installedFile": {
-        "id": 2998891,
+        "id": 3002195,
         "displayName": "Carpet Stairs Mod mc1.15 v1.4.7",
         "fileName": "carpetstairsmod-1.15.2_v1.4.7.jar",
-        "fileDate": "2020-07-07T22:23:49.93Z",
-        "fileLength": 298285,
+        "fileDate": "2020-07-11T16:54:24.827Z",
+        "fileLength": 299555,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2998/891/carpetstairsmod-1.15.2_v1.4.7.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/3002/195/carpetstairsmod-1.15.2_v1.4.7.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [],
@@ -18143,12 +18139,12 @@
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 1172386425,
+            "fingerprint": 3470047225,
             "type": 0
           },
           {
             "foldername": "com",
-            "fingerprint": 1433487358,
+            "fingerprint": 1569445482,
             "type": 0
           },
           {
@@ -18167,7 +18163,7 @@
             "type": 0
           }
         ],
-        "packageFingerprint": 2311091846,
+        "packageFingerprint": 2115017364,
         "gameVersion": [
           "Forge",
           "1.15.2"
@@ -18184,9 +18180,9 @@
         "FileNameOnDisk": "carpetstairsmod-1.15.2_v1.4.7.jar"
       },
       "dateInstalled": "2020-03-28T09:44:06.1711754Z",
-      "dateUpdated": "2020-07-08T18:02:43.2345068Z",
-      "dateLastUpdateAttempted": "2020-07-08T18:02:43.2345068Z",
-      "status": 5,
+      "dateUpdated": "2020-07-11T18:13:52.1658616Z",
+      "dateLastUpdateAttempted": "2020-07-11T18:13:52.1658616Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -20802,14 +20798,14 @@
       "addonID": 383070,
       "gameInstanceID": "9bea8014-8271-438f-a7d3-e4243f882f2a",
       "installedFile": {
-        "id": 2992883,
-        "displayName": "invtweaks-1.15.2-2.0.7.jar",
-        "fileName": "invtweaks-1.15.2-2.0.7.jar",
-        "fileDate": "2020-06-30T10:30:21.2Z",
-        "fileLength": 68024,
-        "releaseType": 2,
+        "id": 3001908,
+        "displayName": "invtweaks-1.15.2-2.0.8.jar",
+        "fileName": "invtweaks-1.15.2-2.0.8.jar",
+        "fileDate": "2020-07-11T08:33:59.253Z",
+        "fileLength": 68586,
+        "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2992/883/invtweaks-1.15.2-2.0.7.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/3001/908/invtweaks-1.15.2-2.0.8.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [],
@@ -20817,17 +20813,17 @@
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 32571,
+            "fingerprint": 1400629040,
             "type": 0
           },
           {
             "foldername": "invtweaks",
-            "fingerprint": 916125906,
+            "fingerprint": 568622223,
             "type": 0
           },
           {
             "foldername": "assets",
-            "fingerprint": 2593074613,
+            "fingerprint": 4059593539,
             "type": 0
           },
           {
@@ -20841,9 +20837,8 @@
             "type": 0
           }
         ],
-        "packageFingerprint": 664533051,
+        "packageFingerprint": 3168829607,
         "gameVersion": [
-          "Forge",
           "1.15.2"
         ],
         "hasInstallScript": false,
@@ -20852,15 +20847,15 @@
         "restrictProjectFileAccess": 0,
         "projectStatus": 0,
         "projectId": 0,
-        "gameVersionDateReleased": "2019-08-01T00:00:00Z",
+        "gameVersionDateReleased": "2020-01-22T00:00:00Z",
         "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "invtweaks-1.15.2-2.0.7.jar"
+        "FileNameOnDisk": "invtweaks-1.15.2-2.0.8.jar"
       },
       "dateInstalled": "2020-05-13T18:18:30.364723Z",
-      "dateUpdated": "2020-06-30T18:08:01.6817369Z",
-      "dateLastUpdateAttempted": "2020-06-30T18:08:01.6817369Z",
-      "status": 5,
+      "dateUpdated": "2020-07-11T18:14:02.9790628Z",
+      "dateLastUpdateAttempted": "2020-07-11T18:14:02.9790628Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
