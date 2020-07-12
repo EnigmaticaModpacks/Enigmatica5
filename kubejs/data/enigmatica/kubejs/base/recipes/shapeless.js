@@ -35,6 +35,7 @@ events.listen('recipes', function (event) {
             'powah:capacitor_blazing'
         ]),
         shapelessRecipe('minecraft:wheat_seeds', ['minecraft:wheat']),
+        shapelessRecipe('quark:root', ['minecraft:vine', '#forge:dyes/brown']),
         shapelessRecipe(
             {
                 item: 'akashictome:tome',
