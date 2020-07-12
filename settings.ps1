@@ -40,10 +40,10 @@ $CURSEFORGE_PROJECT_ID = 357692
 # =====================================================================//
 
 # Default: "1.0.0"
-$MODPACK_VERSION = "0.5.2"
+$MODPACK_VERSION = "0.5.3"
 
 # Only used by the Changelog Generator
-$LAST_MODPACK_VERSION = "0.5.1"
+$LAST_MODPACK_VERSION = "0.5.2"
 
 $FORGE_VERSION = 31.2.30
 
@@ -62,9 +62,7 @@ $CLIENT_CHANGELOG_TYPE = "markdown"
 
 $CLIENT_CHANGELOG = "### Enigmatica 5 v$MODPACK_VERSION <br /> <br />" +
 "Using Forge-1.15.2-31.2.30 <br /> <br /> " +
-"[Mod Updates](https://github.com/NillerMedDild/Enigmatica5/blob/master/changelogs/CHANGELOG_MODS_$MODPACK_VERSION.txt) <br /> " +
-"[Changelog](https://github.com/NillerMedDild/Enigmatica5/blob/master/changelogs/CHANGELOG.md) "
-
+"The Changelog is currently being written, it should be done within 10 minutes. "
 
 # Can be "alpha", "beta" or "release"
 $CLIENT_RELEASE_TYPE = "beta"
