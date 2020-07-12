@@ -2,28 +2,7 @@
 # For details/help see: https://github.com/NillerMedDild/ModpackUploader
 
 $CLIENT_MODS = @(
-	"AppleSkin", 
-	"BetterAdvancements",
-	"ClientTweaks",
-	"CraftingTweaks", 
-	"DefaultOptions", 
-	"DefaultSettings",
-	"EnchantmentDescriptions", 
-	"EquipmentTooltips", 
-	"FpsReducer", 
-	"invtweaks",
-	"JustEnoughResources",
-	"LLOverlayReloaded", 
-	"MouseTweaks",
-	"nmdar_", 
-	"Neat", 
-	"overloadedarmorbar", 
-	"ReAuth",
-	"StepUp",
-	"ToastControl", 
-	"toughnessbar", 
-	"Xaeros_Minimap", 
-	"XaerosWorldMap")
+	"AmbientSounds")
 
 	
 # =====================================================================//
