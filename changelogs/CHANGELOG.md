@@ -4,15 +4,28 @@ _Using Forge-1.15.2-31.2.30_ | _[Mod Updates](https://github.com/NillerMedDild/E
 
 **Mod Additions**
 
--   
+-   Lithium [\#405](https://github.com/NillerMedDild/Enigmatica5/issues/405)
+-   Miner's Helmet [\#397](https://github.com/NillerMedDild/Enigmatica5/issues/397)
+-   Ambient Sounds 3 [\#396](https://github.com/NillerMedDild/Enigmatica5/issues/396)
+-   Immersive Posts [\#395](https://github.com/NillerMedDild/Enigmatica5/issues/395)
+-   Integrated NBT [\#377](https://github.com/NillerMedDild/Enigmatica5/issues/377)
+-   Pretty Pipes [\#376](https://github.com/NillerMedDild/Enigmatica5/issues/376)
+-   Integrated Dynamincs [\#375](https://github.com/NillerMedDild/Enigmatica5/issues/375)
 
 **Changes**
 
+- Performance improvements (Startup time, world generation performance and the time it takes to join worlds should be better)
+- Quark: Recipe for Quark Cave Roots \(They tame toretoises\) [\#414](https://github.com/NillerMedDild/Enigmatica5/issues/414)
 - XNet: The Controller no longer requires power
 
 **Bug Fixes**
 
 - Grass now drops other seeds than wheat seeds again.
+
+**Mod Removals**
+
+- CraftTweaker
+- Corail's Woodcutter (Removed from CurseForge)
 
 ## Enigmatica 5 v0.5.2
 
