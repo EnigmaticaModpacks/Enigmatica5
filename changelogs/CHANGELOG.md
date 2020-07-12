@@ -1,6 +1,6 @@
-## Enigmatica 5 v0.5.3
+## Enigmatica 5 - 0.5.4
 
-_Using Forge-1.15.2-31.2.30_ | _[Mod Updates](https://github.com/NillerMedDild/Enigmatica5/blob/master/changelogs/CHANGELOG_MODS_0.5.3.txt)_
+_Using Forge-1.15.2-31.2.30_ | _[Mod Updates](https://github.com/NillerMedDild/Enigmatica5/blob/master/changelogs/CHANGELOG_MODS_0.5.4.txt)_
 
 **Mod Additions**
 
@@ -27,7 +27,13 @@ _Using Forge-1.15.2-31.2.30_ | _[Mod Updates](https://github.com/NillerMedDild/E
 - CraftTweaker
 - Corail's Woodcutter (Removed from CurseForge)
 
-## Enigmatica 5 v0.5.2
+
+
+***Enigmatica 5 - 0.5.3 had major issues and was cancelled. All changes moved to 0.5.4**
+
+
+
+## Enigmatica 5 - 0.5.2
 
 ## The Tetra Update
 
@@ -110,7 +116,7 @@ _Using Forge-1.15.2-31.2.30_ | _[Mod Updates](https://github.com/NillerMedDild/E
 
 -   Waystones2Waypoints (Often created invalid waypoints, will be re-added in a future update if it gets fixed)
 
-## Enigmatica 5 v0.5.1
+## Enigmatica 5 - 0.5.1
 
 **The 0.5.0 version has major changes, it is recommended that you start in a new world, and a fresh install/new profile if updating from an earlier version.**
 
@@ -121,7 +127,7 @@ _Using Forge-1.15.2-31.2.20_ | _[Mod Updates](https://github.com/NillerMedDild/E
 -   Treated wood uncraftable [\#359](https://github.com/NillerMedDild/Enigmatica5/issues/359)
 -   Only double sided tools are craftable in tetra [\#358](https://github.com/NillerMedDild/Enigmatica5/issues/358)
 
-## Enigmatica 5 v0.5.0
+## Enigmatica 5 - 0.5.0
 
 **The 0.5.0 version has major changes, it is recommended that you start in a new world, and a fresh install/new profile if updating from an earlier version.**
 
@@ -153,7 +159,7 @@ _In an effort to keep load times low (ish), a few mods are being removed in favo
 
 -   PNC Pneumatic Armor's Step Assist feature doesn't seem to work with StepUp [\#317](https://github.com/NillerMedDild/Enigmatica5/issues/317)
 
-## Enigmatica 5 v0.4.15
+## Enigmatica 5 - 0.4.15
 
 **Note: The mod Double Slabs that allows two different slabs to be within the same block has been removed in this update, any Double Slabs consisting of two different slabs will be removed by updating.**
 
@@ -163,7 +169,7 @@ _Using Forge-1.15.2-31.2.9_ | _[Mod Updates](https://github.com/NillerMedDild/En
 
 -   Double Slabs
 
-## Enigmatica 5 v0.4.14
+## Enigmatica 5 - 0.4.14
 
 _Using Forge-1.15.2-31.2.9_ | _[Mod Updates](https://github.com/NillerMedDild/Enigmatica5/blob/master/changelogs/CHANGELOG_MODS_0.4.14.txt)_
 
@@ -197,7 +203,7 @@ _Using Forge-1.15.2-31.2.9_ | _[Mod Updates](https://github.com/NillerMedDild/En
 -   Small Nether Portal
 -   Softer Hay Bales
 
-## Enigmatica 5 v0.4.13
+## Enigmatica 5 - 0.4.13
 
 **Please remove the following folders before updating, to ensure files are updated correctly:**
 
@@ -240,7 +246,7 @@ _Using Forge-1.15.2-31.2.0_ | _[Mod Updates](https://github.com/NillerMedDild/En
 -   Journeymap, due to performance issues
 -   BetterBedrockGenerator (Yung's Better Caves handles this now)
 
-## Enigmatica 5 v0.4.12
+## Enigmatica 5 - 0.4.12
 
 _Using Forge-1.15.2-31.2.0_
 
@@ -264,7 +270,7 @@ _[Mod Updates](https://github.com/NillerMedDild/Enigmatica5/blob/master/changelo
 -   MultiBeds (Caused an issue with rendering)
 -   ShetiPhianCore (Dependency of MultiBeds)
 
-## Enigmatica 5 v0.4.11
+## Enigmatica 5 - 0.4.11
 
 _Using Forge-1.15.2-31.1.93_
 
@@ -288,7 +294,7 @@ _[Mod Updates](https://github.com/NillerMedDild/Enigmatica5/blob/master/changelo
 -   Bedspread (Replaced by MultiBeds)
 -   FTB Quests (Temporarily removed due to a bug)
 
-## Enigmatica 5 v0.4.10
+## Enigmatica 5 - 0.4.10
 
 _Using Forge-1.15.2-31.1.79_
 
@@ -378,7 +384,7 @@ _[Mod Updates](https://github.com/NillerMedDild/Enigmatica5/blob/master/changelo
 -   Fixed Crafting Table Recipe Dupe [\#230](https://github.com/NillerMedDild/Enigmatica5/issues/230)
 -   Drag/Pan/Scroll slow in fullscreen Journeymap [\#222](https://github.com/NillerMedDild/Enigmatica5/issues/222)
 
-## Enigmatica 5 v0.4.8
+## Enigmatica 5 - 0.4.8
 
 _Using Forge-1.15.2-31.1.46_
 
@@ -402,7 +408,7 @@ _[Mod Updates](https://github.com/NillerMedDild/Enigmatica5/blob/master/changelo
 
 -   Crashing when opening certain windows/GUIs, especially ones from Refined Storage.
 
-## Enigmatica 5 v0.4.7
+## Enigmatica 5 - 0.4.7
 
 _Using Forge-1.15.2-31.1.46_
 
@@ -417,7 +423,7 @@ _[Mod Updates](https://github.com/NillerMedDild/Enigmatica5/blob/master/changelo
 -   Missing Glass Pane recipe [\#212](https://github.com/NillerMedDild/Enigmatica5/issues/212)
 -   Uraninite Smelting Recipe Missing [\#211](https://github.com/NillerMedDild/Enigmatica5/issues/211)
 
-## Enigmatica 5 v0.4.6
+## Enigmatica 5 - 0.4.6
 
 _Using Forge-1.15.2-31.1.46_
 
@@ -429,7 +435,7 @@ _[Mod Updates](https://github.com/NillerMedDild/Enigmatica5/blob/master/changelo
 
 -   Quark Oddities is no longer disabled.
 
-## Enigmatica 5 v0.4.5
+## Enigmatica 5 - 0.4.5
 
 _Using Forge-1.15.2-31.1.46_
 
@@ -460,7 +466,7 @@ _[Mod Updates](https://github.com/NillerMedDild/Enigmatica5/blob/master/changelo
 -   Duplicating using death history menu. [\#205](https://github.com/NillerMedDild/Enigmatica5/issues/205)
 -   Void deaths crash the server [\#204](https://github.com/NillerMedDild/Enigmatica5/issues/204)
 
-## Enigmatica 5 v0.4.4
+## Enigmatica 5 - 0.4.4
 
 _Using Forge-1.15.2-31.1.44_
 
@@ -472,7 +478,7 @@ _[Mod Updates](https://github.com/NillerMedDild/Enigmatica5/blob/master/changelo
 -   Being unable to move items out of inventory
 -   No Loot in Chests [\#188](https://github.com/NillerMedDild/Enigmatica5/issues/188)
 
-## Enigmatica 5 v0.4.3
+## Enigmatica 5 - 0.4.3
 
 _Using Forge-1.15.2-31.1.44_
 
@@ -494,7 +500,7 @@ _[Mod Updates](https://github.com/NillerMedDild/Enigmatica5/blob/master/changelo
 
 -   quark "tetris" style enchanting was enabled [\#191](https://github.com/NillerMedDild/Enigmatica5/issues/191)
 
-## Enigmatica 5 v0.4.2
+## Enigmatica 5 - 0.4.2
 
 _Using Forge-1.15.2-31.1.44_
 
@@ -531,7 +537,7 @@ _[Mod Updates](https://github.com/NillerMedDild/Enigmatica5/blob/master/changelo
 -   multiple death handling mods [\#170](https://github.com/NillerMedDild/Enigmatica5/issues/170)
 -   Unable to mine activated redstone with mining gadget [\#155](https://github.com/NillerMedDild/Enigmatica5/issues/155)
 
-## Enigmatica 5 v0.4.1
+## Enigmatica 5 - 0.4.1
 
 ##### Note: You will get a message saying registries from Extreme Sound Muffler are missing. You can safely accept/confirm. Sound Muffling is now done through a button in the player inventory.
 
@@ -565,7 +571,7 @@ _[Mod List](https://github.com/NillerMedDild/Enigmatica5/blob/master/changelogs/
 
 -   Server \(pack version 0.4.0\) won't load BoP biomes [\#143](https://github.com/NillerMedDild/Enigmatica5/issues/143)
 
-## Enigmatica 5 v0.4.0
+## Enigmatica 5 - 0.4.0
 
 _Using Forge-1.15.2-31.1.30_
 
@@ -620,7 +626,7 @@ _[Mod List](https://github.com/NillerMedDild/Enigmatica5/blob/master/changelogs/
 
 -   Terraforged Generates Mow Roofs [\#112](https://github.com/NillerMedDild/Enigmatica5/issues/112)
 
-## Enigmatica 5 v0.3.8
+## Enigmatica 5 - 0.3.8
 
 _Using Forge-1.15.2-31.1.17_
 _[Mod List](https://github.com/NillerMedDild/Enigmatica5/blob/master/changelogs/CHANGELOG_MODS_0.3.8.md)_
@@ -655,7 +661,7 @@ _[Mod List](https://github.com/NillerMedDild/Enigmatica5/blob/master/changelogs/
 -   Biome Serialization NPE [\#83](https://github.com/NillerMedDild/Enigmatica5/issues/83)
 -   Crash on World Load NBT PlayerPositionAndDimension [\#82](https://github.com/NillerMedDild/Enigmatica5/issues/82)
 
-## Enigmatica 5 v0.3.7
+## Enigmatica 5 - 0.3.7
 
 _Using Forge-1.15.2-31.1.17_
 _[Mod List](https://github.com/NillerMedDild/Enigmatica5/blob/master/CHANGELOG-MODS.md)_
@@ -678,7 +684,7 @@ _[Mod List](https://github.com/NillerMedDild/Enigmatica5/blob/master/CHANGELOG-M
 -   Added TerraForged [\#73](https://github.com/NillerMedDild/Enigmatica5/issues/73)
 -   Added JAOPCA [\#7](https://github.com/NillerMedDild/Enigmatica5/issues/7)
 
-## Enigmatica 5 v0.3.6
+## Enigmatica 5 - 0.3.6
 
 _Using Forge-1.15.2-31.1.17_
 _[Mod List](https://github.com/NillerMedDild/Enigmatica5/blob/master/CHANGELOG-MODS.md)_
@@ -699,7 +705,7 @@ _[Mod List](https://github.com/NillerMedDild/Enigmatica5/blob/master/CHANGELOG-M
 
 -   Error when trying to join E5 server [\#67](https://github.com/NillerMedDild/Enigmatica5/issues/67) [[Script](https://github.com/NillerMedDild/Enigmatica5/labels/Script)]
 
-## Enigmatica 5 v0.3.5
+## Enigmatica 5 - 0.3.5
 
 _Using Forge-1.15.2-31.1.17_
 _[Mod List](https://github.com/NillerMedDild/Enigmatica5/blob/master/CHANGELOG-MODS.md)_
@@ -712,7 +718,7 @@ _[Mod List](https://github.com/NillerMedDild/Enigmatica5/blob/master/CHANGELOG-M
 
 -   Error when trying to join E5 server [\#67](https://github.com/NillerMedDild/Enigmatica5/issues/67) [[Script](https://github.com/NillerMedDild/Enigmatica5/labels/Script)]
 
-## Enigmatica 5 v0.3.4
+## Enigmatica 5 - 0.3.4
 
 _Using Forge-1.15.2-31.1.14_
 _[Mod List](https://github.com/NillerMedDild/Enigmatica5/blob/master/CHANGELOG-MODS.md)_
@@ -749,7 +755,7 @@ _[Mod List](https://github.com/NillerMedDild/Enigmatica5/blob/master/CHANGELOG-M
 
 -   None!
 
-## Enigmatica 5 v0.3.3
+## Enigmatica 5 - 0.3.3
 
 _Using Forge-1.15.2-31.1.1_
 _[Mod List](https://github.com/NillerMedDild/Enigmatica5/blob/master/CHANGELOG-MODS.md)_
@@ -765,7 +771,7 @@ _[Mod List](https://github.com/NillerMedDild/Enigmatica5/blob/master/CHANGELOG-M
 
 -   Some Dusts are unsmeltable [\#295](https://github.com/NillerMedDild/Enigmatica4/issues/295) [[Script](https://github.com/NillerMedDild/Enigmatica4/labels/Script)]
 
-## Enigmatica 5 v0.3.2
+## Enigmatica 5 - 0.3.2
 
 _Using Forge-1.15.2-31.1.1_
 _[Mod List](https://github.com/NillerMedDild/Enigmatica5/blob/master/CHANGELOG-MODS.md)_
@@ -781,18 +787,18 @@ _[Mod List](https://github.com/NillerMedDild/Enigmatica5/blob/master/CHANGELOG-M
 
 -   Fixed the server crashing on startup. (Temporarily removed Ultra Amplified Dimension)
 
-## Enigmatica 5 v0.3.1
+## Enigmatica 5 - 0.3.1
 
-##### Enigmatica 5 has been remade for Minecraft 1.15.2 - This version is not compatible with worlds made with Enigmatica 5 v0.2.0 and below.
+##### Enigmatica 5 has been remade for Minecraft 1.15.2 - This version is not compatible with worlds made with Enigmatica 5 - 0.2.0 and below.
 
 _Using Forge-1.15.2-31.1.0_
 _[Mod List](https://github.com/NillerMedDild/Enigmatica5/blob/master/CHANGELOG-MODS.md)_
 
-## Enigmatica 5 v0.3.0
+## Enigmatica 5 - 0.3.0
 
--   v0.3.0 did not start on servers, because of a mod issue\*
+-   - 0.3.0 did not start on servers, because of a mod issue\*
 
-## Enigmatica 5 v0.2.0
+## Enigmatica 5 - 0.2.0
 
 **This is a very new Minecraft version - Expect bugs and changes**
 
@@ -825,7 +831,7 @@ _[Mod Updates](https://github.com/NillerMedDild/Enigmatica5/blob/master/CHANGELO
 -   Temporarily removed CraftTweaker, as I'm having issues with it.
 -   Remove Serene Seasons [\#8](https://github.com/NillerMedDild/Enigmatica5/issues/8) [[Mod](https://github.com/NillerMedDild/Enigmatica5/labels/Mod)]
 
-## Enigmatica 5 v0.1.1
+## Enigmatica 5 - 0.1.1
 
 **This is a very new Minecraft version - Expect bugs and changes**
 
@@ -841,7 +847,7 @@ _[Mod Updates](https://github.com/NillerMedDild/Enigmatica5/blob/master/CHANGELO
 -   Added RingOfGrowth
 -   Added ToastControl
 
-## Enigmatica 5 v0.1.0
+## Enigmatica 5 - 0.1.0
 
 **This is a very new Minecraft version - Expect bugs and changes**
 
