@@ -1,3 +1,11 @@
+## Enigmatica 5 - 0.5.5
+
+_Using Forge-1.15.2-31.2.30_ | _[Mod Updates](https://github.com/NillerMedDild/Enigmatica5/blob/master/changelogs/CHANGELOG_MODS_0.5.4.txt)_
+
+**Bug Fixes**
+
+- 
+
 ## Enigmatica 5 - 0.5.4
 
 _Using Forge-1.15.2-31.2.30_ | _[Mod Updates](https://github.com/NillerMedDild/Enigmatica5/blob/master/changelogs/CHANGELOG_MODS_0.5.4.txt)_
