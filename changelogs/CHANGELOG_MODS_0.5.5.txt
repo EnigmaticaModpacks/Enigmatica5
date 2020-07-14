@@ -1,0 +1,76 @@
+=======================================
+Enigmatica5 0.5.4 --> Enigmatica5 0.5.5
+=======================================
+
+Updated:
+	Apotheosis (Apotheosis-1.15.2-3.2.2.jar --> Apotheosis-1.15.2-3.2.4.jar):
+		Apotheosis-1.15.2-3.2.4.jar:
+			Hellshelves and Seashelves (with infusion) may now be combined in an anvil. This should allow for easier access to level 5 of the respective infusions.
+			Hellshelves and Seashelves have had their enchantability buffed to 50 (was 15).
+			The recipe for upgraded Hellshelves/Seashelves will now require either at least level 5, or the max level (if lower than 5).
+
+		Apotheosis-1.15.2-3.2.3.jar:
+			Enchantment Stat tooltips will no longer compute without a world or player present.
+
+	MineColonies (minecolonies-0.13.29-ALPHA-universal.jar --> minecolonies-0.13.34-ALPHA-universal.jar):
+		minecolonies-0.13.34-ALPHA-universal.jar:
+			Minecolonies Changelog
+			Version: 0.13.34-ALPHA
+			* Add breeding toggle for herders (#5380)
+			Add a Button to the second page of the cowboy, shepard and chicken herder to disable them breeding the animals.
+
+	Occultism (occultism-0.2.10.jar --> occultism-0.2.11.jar):
+		occultism-0.2.11.jar:
+			[Automated Build]
+			Find changes at [https://github.com/klikli-dev/occultism/releases](https://github.com/klikli-dev/occultism/releases)
+
+	PneumaticCraft: Repressurized (pneumaticcraft-repressurized-1.15.2-1.3.2-42.jar --> pneumaticcraft-repressurized-1.15.2-1.4.0-53.jar):
+		pneumaticcraft-repressurized-1.15.2-1.4.0-53.jar:
+			1.4.0-53 (14 Jul 2020)
+			[](https://github.com/TeamPneumatic/pnc-repressurized/blob/1.15/Changelog.md#new)New
+			* Mekanism integration, still fairly experimental and subject to rebalancing
+			* - Mekanism and PneumaticCraft blocks will now exchange heat
+			* - See config/pneumaticcraft-common.toml, "Integration" section, for some settings on heat exchange properties
+			* - Mekanism Fuelwood and Resistive Heaters can be used to heat PNC:R machines like the Refinery or Thermopneumatic Processing Plant
+			* - PNC:R Vortex Tube can be used to heat the Mekanism boiler
+			* - Heat cables (PNC:R Heat Pipes and Mekanism Thermodynamic Conductors will connect to Mekanism and PNC:R machines, respectively)
+			* - Mekanism Liquid Ethylene and Liquid Hydrogen can be used as fuels in PNC:R Liquid Compressors
+			* - Mekanism Configurator can be used to wrench PNC:R blocks
+			[](https://github.com/TeamPneumatic/pnc-repressurized/blob/1.15/Changelog.md#updates)Updates
+			* PNC:R loot items (Stop! Worm, Nuke Virus and Spawner Agitator) should be turning up again in dungeon loot
+			* - This is still under review to potentially add other PNC:R loot
+			* More Pneumatic Armor settings (primarily around air usage) are now tunable via mod config
+			* Jet Boots GUI now offers a throttle control slider bar (default is 100% power)
+			* - Reducing this might be useful if you have fast jet boots in a tight space, like caves...
+			* Improved visual appearance of temperature gauges in machine GUI's
+			* Heat Frame Cooling improvements
+			* - Making Ice and Obsidian can now be done with tanks (PNC, but also some other modded tanks) containing Water or Lava respectively, not just buckets
+			* - Made recipes with bonus output a bit more obvious in JEI (spot the big yellow "+" icon!)
+			* - Recipes taking fluid ingredients now show the ingredient in buckets and in tanks in JEI, for a visual clue
+			* - Added bonus output for Lava->Obsidian, up to 25% depending on Heat Frame temperature
+			[](https://github.com/TeamPneumatic/pnc-repressurized/blob/1.15/Changelog.md#fixes)Fixes
+			* Fixed performance issue when world has a large number of entities (an event handler was running which scanned all entities every tick, when it only needed to scan a few)
+			* Fixed bug where upgrades weren't always properly processed in chunkloaded machines
+			* - Caused machines with volume upgrades to explode on world reload
+			* Fixed pathfinding bug making Amadrones unable to collect more than two stacks of items
+			* Fixed keybind handling bug causing modifiers (shift/control/alt) to be ignored in some circumstances
+			* Fixed buggy Chestplate Launcher behaviour (wrongly consuming the mainhand item)
+
+	Refined Storage (Refined Storage 1.8.7 --> Refined Storage 1.8.8):
+		Refined Storage 1.8.8:
+			* Fixed duplication bug and weird behavior in the Crafting Grid matrix (Darkere)
+
+	YUNG's Better Mineshafts (Forge) (BetterMineshaftsForge-1.15.2-1.0.2.jar --> BetterMineshaftsForge-1.15.2-1.1.jar):
+		BetterMineshaftsForge-1.15.2-1.1.jar:
+			If you like my mods, consider [supporting me on Patreon](https://www.patreon.com/yungnickyoung) or [donating with Paypal](). <3[](https://www.patreon.com/yungnickyoung)[](https://discord.gg/cxWmXpn)
+			Changelog:
+			* Add decorations to Red Desert variant.
+			* Add config options for min y, max y, and enabling/disabling biome variants.
+			* Fix abandoned workstations to open themselves up to surrounding terrain, making them look more natural when using Better Caves.
+			* Fix sandstone walls in Desert and Red Desert variants not being correctly oriented.
+			* Improve compatibility with modded biomes.
+
+Removed:
+- JEITweaker
+
+Generated using [ChangelogGenerator 2.0.0-pre3](https://github.com/TheRandomLabs/ChangelogGenerator).
