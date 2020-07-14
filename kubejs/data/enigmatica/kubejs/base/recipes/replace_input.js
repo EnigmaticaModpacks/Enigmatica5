@@ -54,3 +54,8 @@ events.listen('recipes', function (event) {
         });
     }
 });
+//replaces recipes not using forge:dye tags for inputs
+events.listen('recipes', function (event) {
+    var colors = ['red','green','purple','cyan','light_gray','gray','pink','lime','yellow','light_blue','magenta','orange','blue','brown','black','white'];
+    colors.forEach(function(color) { event.replaceInput({}, 'minecraft:' + color + '_dye', '#forge:dyes/' + color) });
+});
