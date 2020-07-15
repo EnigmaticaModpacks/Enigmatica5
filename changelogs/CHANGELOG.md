@@ -1,5 +1,21 @@
 ## Enigmatica 5 - 0.5.5
 
+_Using Forge-1.15.2-31.2.30_ | _[Mod Updates](https://github.com/NillerMedDild/Enigmatica5/blob/master/changelogs/CHANGELOG_MODS_0.6.0.txt)_
+
+**Mod Additions**
+
+- 
+
+**Changes**
+
+- Changed default server type to TerraForged
+
+**Bug Fixes**
+
+- 
+
+## Enigmatica 5 - 0.5.5
+
 _Using Forge-1.15.2-31.2.30_ | _[Mod Updates](https://github.com/NillerMedDild/Enigmatica5/blob/master/changelogs/CHANGELOG_MODS_0.5.5.txt)_
 
 **Bug Fixes**
