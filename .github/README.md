@@ -37,12 +37,12 @@ Follow these steps to setup your workspace/server:
 You're done!
 
 ## Linux
-#### Setup MultiMC Instance (Currently not possible 03-10-2019)
-1) Download [MultiMC](https://multimc.org/#Download) if you haven't already.
+#### Setup MultiMC Instance
+1) Download latest version of [MultiMC](https://multimc.org/#Download) if you haven't already.
 2) Open MultiMC.
-3) Click Add Instance, choose Minecraft 1.14.4, click Ok.
-4) Click Edit Instance (right hand side)
-5) Click Install Forge, pick the latest version.
+3) Click Add Instance, choose Twitch, search for Enigmatica 5 and click ok.
+4) Click Edit Instance (right hand side), choose Settings and change the settings according to [this](https://gist.github.com/NillerMedDild/40b4992b7a3e5e653a353fe1d45f2185)
+5) Now you should be able to launch!
 
 #### Repository Setup
 6) Fork and clone the Enigmatica 5 repository
