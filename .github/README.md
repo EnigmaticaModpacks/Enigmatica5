@@ -49,7 +49,7 @@ You're done!
 7) Open the folder of the MultiMC Instance you made (step 1-5), and go into the .minecraft folder - Open a Terminal and use the following commands:
 ```
 git init                                           # Initialize git in folder
-git remote add origin URLToYourEnigmatica4Fork     # Set remote origin to your Enigmatica 5 fork
+git remote add origin URLToYourEnigmatica5Fork     # Set remote origin to your Enigmatica 5 fork
 git remote -v                                      # Verify remote
 git fetch
 git pull
