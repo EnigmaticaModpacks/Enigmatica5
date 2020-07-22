@@ -11,12 +11,3 @@ events.listen('recipes', function (event) {
         });
     });
 });
-//stone variant tags
-events.listen('item.tags', function (event) {
-    var stones = ['scoria','natural_scoria','limestone','weathered_limestone','dolomite','gabbro','dark_scoria'];
-    stones.forEach(function(stone) { event.get('forge:stones/' + stone).add('create:'+ stone) });
-});
-events.listen('block.tags', function (event) {
-    var stones = ['scoria','natural_scoria','limestone','weathered_limestone','dolomite','gabbro','dark_scoria'];
-    stones.forEach(function(stone) { event.get('forge:stones/' + stone).add('create:'+ stone) });
-});

@@ -89,6 +89,16 @@ var modPriorities = [
     'quark'
 ];
 
+var createStoneTypes = [
+    'scoria',
+    'natural_scoria',
+    'limestone',
+    'weathered_limestone',
+    'dolomite',
+    'gabbro',
+    'dark_scoria'
+];
+
 var vanillaWoodTypes = ['oak', 'birch', 'spruce', 'jungle', 'acacia', 'dark_oak'];
 
 var materials = global.materials;
