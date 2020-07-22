@@ -2,6 +2,7 @@
 events.listen('recipes', function (event) {
     materialsToUnify.forEach(function (material) {
         enigmatica_ore_deposit_processing(event, material);
+        occultism_ore_ingot_crushing(event, material);
     });
 });
 
