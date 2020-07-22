@@ -14,7 +14,7 @@ events.listen('recipes', function (event) {
 
             event.shaped({ item: block, count: 8 }, ['SSS', 'SDS', 'SSS'], {
                 S: itemTag,
-                D: dyeTag,
+                D: dyeTag
             });
             event.shapeless({ item: block, count: 1 }, [dyeTag, itemTag]);
         }
@@ -32,25 +32,30 @@ events.listen('recipes', function (event) {
             gravel,
             gravel,
             gravel,
-            gravel,
+            gravel
         ]);
 
         var wool = 'minecraft:' + colors[i] + '_wool';
         event.remove({ id: 'minecraft:' + colors[i] + '_carpet_from_white_carpet' });
         event.shaped({ item: 'minecraft:' + colors[i] + '_carpet', count: 3 }, ['WW'], {
-            W: wool,
+            W: wool
         });
 
         var glass_pane = 'minecraft:glass_pane';
         event.shaped({ item: 'minecraft:' + colors[i] + '_stained_glass_pane', count: 8 }, ['GGG', 'GDG', 'GGG'], {
             G: glass_pane,
-            D: dyeTag,
+            D: dyeTag
         });
 
         var glass = 'minecraft:glass';
         event.shaped({ item: 'minecraft:' + colors[i] + '_stained_glass', count: 8 }, ['GGG', 'GDG', 'GGG'], {
             G: glass,
-            D: dyeTag,
+            D: dyeTag
         });
     }
+
+    // Replaces recipes not using forge:dyes tag for inputs
+    colors.forEach(function (color) {
+        event.replaceInput({}, 'minecraft:' + color + '_dye', '#forge:dyes/' + color);
+    });
 });

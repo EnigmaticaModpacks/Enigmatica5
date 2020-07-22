@@ -10,7 +10,7 @@ events.listen('recipes', function (event) {
             X: '#forge:circuits/basic',
             C: 'industrialforegoing:fluid_extractor'
         }),
-        shapedRecipe('minecraft:stick 16', ['L', 'L'], {
+        shapedRecipe(item.of('minecraft:stick', 16), ['A', 'A'], {
             A: '#minecraft:logs'
         }),
 
