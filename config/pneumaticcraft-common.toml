@@ -14,6 +14,8 @@
 	#Maximum number of blocks in the area defined in an Area Programming Puzzle Piece
 	#Range: > 1
 	max_programming_area = 250000
+	#Are drones allowed to import Experience Orbs and convert them to Memory Essence fluid?
+	drones_can_import_xp_orbs = true
 	#Oil worldgen blacklist: add dimension IDs to this list if you don't want oil worldgen to happen there.
 	oil_world_gen_blacklist = ["minecraft:the_nether", "minecraft:the_end"]
 	#Chance per chunk in percentage to generate an Oil Lake. Set to 0 for no oil lakes.
