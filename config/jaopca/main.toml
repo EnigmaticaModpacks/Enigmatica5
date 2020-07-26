@@ -82,3 +82,8 @@
 	#Should the mod check for material localization updates.
 	checkL10nUpdates = true
 
+#Configurations related to item selection.
+[itemSelection]
+	#List of mods that are preferred when selecting items in recipes.
+	preferredMods = ["minecraft", "immersiveengineering", "create", "mekanism", "jaopca", "kubejs", "pneumaticcraft", "occultism", "tmechworks", "industrialforegoing", "botania", "quark]
+
