@@ -9,10 +9,22 @@ _Using Forge-1.15.2-31.2.30_ | _[Mod Updates](https://github.com/NillerMedDild/E
 **Changes**
 
 - Changed default server type to TerraForged
+- Quark: Sign editing now requires an empty hand
+- Waystones: Disabled village Waystones, as multiple could generate per village
 
 **Bug Fixes**
 
 - 
+
+**Mod Removals**
+
+- DefaultSettings (Unused, as it was only meant to be used for packmodes)
+- Ambient Environment (The environment is plenty ambient)
+- Ma Essentials (A bit cheaty)
+- Item Filters (Tried to remove it several times already, hopefully this does the trick)
+- Garden Tools (Hoe enchants can do similar things)
+- Iron Jetpacks 
+- In Control (Unusued)
 
 ## Enigmatica 5 - 0.5.5
 
