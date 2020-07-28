@@ -34,8 +34,10 @@
     }
   },
   "miscellaneous": {
-    "vanillaWaterFeatures": "false",
+    "vanillaSprings": "true",
+    "vanillaLakes": "false",
     "strataDecorator": "true",
+    "vanillaLavaLakes": "false",
     "naturalSnowDecorator": "true",
     "smoothLayerDecorator": "true",
     "mountainBiomeUsage": 0.0,
@@ -49,11 +51,11 @@
       "continentScale": 1963
     },
     "controlPoints": {
-      "coast": 0.329,
-      "beach": 0.293,
-      "shallowOcean": 0.229,
-      "inland": 0.365,
-      "deepOcean": 0.068
+      "coast": 0.398,
+      "beach": 0.314,
+      "shallowOcean": 0.208,
+      "inland": 0.442,
+      "deepOcean": 0.1
     },
     "properties": {
       "spawnType": "CONTINENT_CENTER",
@@ -141,7 +143,7 @@
       "baseScale": 1.0,
       "verticalScale": 1.082,
       "horizontalScale": 1.0,
-      "weight": 2.036
+      "weight": 1.546
     },
     "general": {
       "globalVerticalScale": 0.98,
@@ -152,7 +154,7 @@
       "baseScale": 1.149,
       "verticalScale": 1.261,
       "horizontalScale": 1.0,
-      "weight": 1.983
+      "weight": 2.111
     },
     "dales": {
       "baseScale": 1.0,
@@ -182,7 +184,7 @@
       "baseScale": 1.118,
       "verticalScale": 1.391,
       "horizontalScale": 1.0,
-      "weight": 2.138
+      "weight": 2.036
     },
     "volcano": {
       "baseScale": 1.0,
