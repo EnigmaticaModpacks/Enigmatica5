@@ -13,60 +13,60 @@
             "value": 1
           },
           "bedDepth": {
-            "value": 3
+            "value": 4
           },
           "bankWidth": {
-            "value": 10
+            "value": 14
           },
           "bedWidth": {
-            "value": 4
+            "value": 5
           }
         }
       },
       "riverFrequency": {
-        "value": 1.0
+        "value": 5.0
       },
       "secondaryRiver": {
         "value": {
           "fade": {
-            "value": 0.75
+            "value": 0.652
           },
           "maxBankHeight": {
-            "value": 6
+            "value": 4
           },
           "minBankHeight": {
             "value": 1
           },
           "bedDepth": {
-            "value": 4
+            "value": 6
           },
           "bankWidth": {
-            "value": 15
+            "value": 20
           },
           "bedWidth": {
-            "value": 5
+            "value": 8
           }
         }
       },
       "primaryRivers": {
         "value": {
           "fade": {
-            "value": 0.75
+            "value": 0.509
           },
           "maxBankHeight": {
-            "value": 8
+            "value": 6
           },
           "minBankHeight": {
-            "value": 2
+            "value": 0
           },
           "bedDepth": {
-            "value": 5
+            "value": 9
           },
           "bankWidth": {
-            "value": 25
+            "value": 30
           },
           "bedWidth": {
-            "value": 8
+            "value": 15
           }
         }
       }
@@ -97,7 +97,7 @@
   "structures": {
     "value": {
       "villageDistance": {
-        "value": 2
+        "value": 1
       },
       "strongholdSpread": {
         "value": 3
@@ -106,7 +106,7 @@
         "value": 3
       },
       "biomeStructureDistance": {
-        "value": 4
+        "value": 1
       },
       "mansionDistance": {
         "value": 3
@@ -140,7 +140,7 @@
             "value": 70
           },
           "biomeSize": {
-            "value": 200
+            "value": 150
           },
           "biomeWarpScale": {
             "value": 35
@@ -153,10 +153,10 @@
             "value": 985
           },
           "continentScale": {
-            "value": 2498
+            "value": 1580
           },
           "regionSize": {
-            "value": 1005
+            "value": 741
           }
         }
       },
@@ -232,7 +232,7 @@
             "value": 0.85
           },
           "iterations": {
-            "value": 1
+            "value": 2
           }
         }
       }
@@ -268,7 +268,7 @@
             "value": 1.0
           },
           "horizontalScale": {
-            "value": 2.01
+            "value": 2.009
           },
           "weight": {
             "value": 0.5
@@ -295,7 +295,7 @@
         }
       },
       "globalHorizontalScale": {
-        "value": 1.0
+        "value": 0.953
       },
       "plains": {
         "value": {
@@ -319,7 +319,7 @@
             "value": 1.0
           },
           "verticalScale": {
-            "value": 2.01
+            "value": 2.009
           },
           "horizontalScale": {
             "value": 1.0
@@ -390,6 +390,33 @@
           },
           "weight": {
             "value": 5.0
+          }
+        }
+      }
+    }
+  },
+  "dimensions": {
+    "value": {
+      "baseLayer": {
+        "value": {
+          "minDepth": {
+            "value": 1
+          },
+          "material": {
+            "value": "minecraft:bedrock"
+          },
+          "variance": {
+            "value": 4
+          }
+        }
+      },
+      "dimensionGenerators": {
+        "value": {
+          "nether": {
+            "value": "default"
+          },
+          "end": {
+            "value": "default"
           }
         }
       }

@@ -110,18 +110,18 @@
 				# The minimum y-coordinate at which surface caves can generate.
 				# Default: 40
 				#Range: 0 ~ 255
-				"Surface Cave Minimum Altitude" = 40
+				"Surface Cave Minimum Altitude" = 80
 				# Set to true to enable vanilla-like caves which provide nice, natural-looking openings at the surface.
 				# Default: true
 				"Enable Surface Caves" = true
 				# The maximum y-coordinate at which surface caves can generate.
 				# Default: 128
 				#Range: 0 ~ 255
-				"Surface Cave Maximum Altitude" = 128
+				"Surface Cave Maximum Altitude" = 255
 				# The density of surface caves. Higher = more caves, closer together. 
 				# Default: 17
 				#Range: 0 ~ 100
-				"Surface Cave Density" = 17
+				"Surface Cave Density" = 25
 
 			###########################################################################################################
 			## Settings used in the generation of type 1 caves, which are more worm-like.
@@ -192,7 +192,7 @@
 				# The maximum y-coordinate at which vanilla caves can generate.
 				# Default: 128
 				#Range: 0 ~ 255
-				"Vanilla Cave Maximum Altitude" = 60
+				"Vanilla Cave Maximum Altitude" = 54
 				# The density of vanilla caves. Higher = more caves, closer together. 
 				# Default: 14 (value used in vanilla)
 				#Range: 0 ~ 100
