@@ -1,0 +1,56 @@
+
+#World settings
+[world]
+	#Generate crop items on Village houses (all biomes)
+	cropsOnVillageHouseLoot = true
+	#Generate crop items on a Shipwreck's supply chests
+	cropsOnShipwreckSupplyLoot = true
+
+	#Sea Beet generation
+	[world.wild_beetroots]
+		#Generate sea beets on beaches
+		genWildBeetroots = true
+		#Frequency of clusters. Larger value = more frequent.
+		#Range: 0 ~ 10
+		frequency = 1
+
+	#Tomato Vines generation
+	[world.wild_tomatoes]
+		#Chance of generating clusters. Smaller value = more frequent.
+		#Range: > 0
+		chance = 9
+		#Generate tomato vines on arid biomes (temperature 1.0 or higher)
+		genWildTomatoes = true
+
+	#Wild Cabbage generation
+	[world.wild_cabbages]
+		#Generate wild cabbages on beaches
+		genWildCabbages = true
+		#Frequency of clusters. Larger value = more frequent.
+		#Range: 0 ~ 10
+		frequency = 1
+
+	#Wild Onion generation
+	[world.wild_onions]
+		#Generate wild onions on temperate biomes (temperature between 0.4 and 0.9)
+		genWildOnions = true
+		#Chance of generating clusters. Smaller value = more frequent.
+		#Range: > 0
+		chance = 9
+
+	#Wild Potato generation
+	[world.wild_potatoes]
+		#Chance of generating clusters. Smaller value = more frequent.
+		#Range: > 0
+		chance = 9
+		#Generate wild potatoes on cold biomes (temperature between 0.0 and 0.3)
+		genWildPotatoes = true
+
+	#Wild Carrot generation
+	[world.wild_carrots]
+		#Chance of generating clusters. Smaller value = more frequent.
+		#Range: > 0
+		chance = 9
+		#Generate wild carrots on temperate biomes (temperature between 0.4 and 0.9)
+		genWildCarrots = true
+
