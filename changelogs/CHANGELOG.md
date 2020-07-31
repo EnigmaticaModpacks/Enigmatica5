@@ -25,6 +25,7 @@ _Using Forge-1.15.2-31.2.30_ | _[Mod Updates](https://github.com/NillerMedDild/E
 - Garden Tools (Hoe enchants can do similar things)
 - Iron Jetpacks 
 - In Control (Unusued)
+- Fx Control (Unused)
 
 ## Enigmatica 5 - 0.5.5
 
