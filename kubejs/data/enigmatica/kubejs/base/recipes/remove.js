@@ -1,4 +1,8 @@
 events.listen('recipes', function (event) {
+    event.remove({ type: 'minecraft:smelting', output: 'minecraft:obsidian' });
+    event.remove({ type: 'minecraft:blasting', output: 'minecraft:obsidian' });
+    event.remove({ type: 'mekanism:combining' });
+
     var outputRemovals = [
         'akashictome:tome',
 
