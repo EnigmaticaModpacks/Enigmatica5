@@ -75,6 +75,7 @@ var materialsToUnify = [
 ];
 
 var modPriorities = [
+    'emendatusenigmatica',
     'minecraft',
     'immersiveengineering',
     'create',
@@ -86,7 +87,10 @@ var modPriorities = [
     'tmechworks',
     'industrialforegoing',
     'botania',
-    'quark'
+    'quark',
+    'pedestals',
+    'appliedenergistics',
+    'productivebees'
 ];
 
 var createStoneTypes = [
