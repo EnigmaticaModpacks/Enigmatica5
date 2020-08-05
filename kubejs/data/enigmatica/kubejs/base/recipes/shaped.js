@@ -19,7 +19,7 @@ events.listen('recipes', function (event) {
             B: '#minecraft:logs'
         }),
         shapedRecipe('refinedstorageaddons:wireless_crafting_grid', ['ABA', 'ACA', 'ADA'], {
-            A: '#refinedstorage:quartz_enriched_iron',
+            A: 'refinedstorage:quartz_enriched_iron',
             B: 'refinedstorage:range_upgrade',
             C: 'refinedstorage:wireless_grid',
             D: 'minecraft:crafting_table'
@@ -31,21 +31,6 @@ events.listen('recipes', function (event) {
         }),
         shapedRecipe('minecraft:furnace', ['LLL', 'L L', 'LLL'], {
             L: '#forge:stone'
-        }),
-        shapedRecipe('', ['LLL', 'LLL', 'LLL'], {
-            A: '#minecraft:logs',
-            B: '',
-            C: ''
-        }),
-        shapedRecipe('', ['LLL', 'LLL', 'LLL'], {
-            A: '#minecraft:logs',
-            B: '',
-            C: ''
-        }),
-        shapedRecipe('', ['LLL', 'LLL', 'LLL'], {
-            L: '#minecraft:logs',
-            B: '',
-            C: ''
         })
     ];
 
