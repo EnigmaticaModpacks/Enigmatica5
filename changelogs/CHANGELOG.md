@@ -26,6 +26,7 @@ _Using Forge-1.15.2-31.2.30_ | _[Mod Updates](https://github.com/NillerMedDild/E
 - Iron Jetpacks 
 - In Control (Unusued)
 - Fx Control (Unused)
+- Ore Veins (Sorta replaced by Emendatus Enigmatica)
 
 ## Enigmatica 5 - 0.5.5
 
