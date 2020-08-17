@@ -65,6 +65,7 @@ $CONTENTS_TO_ZIP = @(
 	"openloader", 
 	"kubejs",
 	"packmenu",
+	"patchouli_books",
 	"server-start-license.md", 
 	"server-start-readme.md", 
 	"server-start.bat", 
