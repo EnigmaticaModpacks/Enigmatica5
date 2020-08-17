@@ -1,5 +1,5 @@
 
-#World settings
+#World generation
 [world]
 	#Generate crop items on Village houses (all biomes)
 	cropsOnVillageHouseLoot = true
@@ -53,4 +53,9 @@
 		chance = 9
 		#Generate wild carrots on temperate biomes (temperature between 0.4 and 0.9)
 		genWildCarrots = true
+
+#Game settings
+[settings]
+	#Should Novice and Apprentice Farmers buy this mod's crops? (May reduce chances of other trades appearing)
+	farmersBuyFDCrops = true
 
