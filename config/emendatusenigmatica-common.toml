@@ -242,7 +242,7 @@
 
 ["Zinc Ore"]
 	#Activate/Deactivate the World Gen [Default: true]
-	Active = false
+	Active = true
 	#Minimum Y-Level [Default: 35]
 	#Range: 0 ~ 128
 	Minimum = 35
@@ -296,16 +296,16 @@
 	Active = true
 
 ["Create Gabbro"]
-	Active = false
+	Active = true
 
 ["Create Limestone"]
-	Active = false
+	Active = true
 
 ["Create Scoria"]
-	Active = false
+	Active = true
 
 ["Create Weathered Limestone"]
-	Active = false
+	Active = true
 
 ["Quark Jasper"]
 	Active = true
@@ -321,7 +321,7 @@
 
 ["Fluorite Ore"]
 	#Activate/Deactivate the World Gen [Default: true]
-	Active = true
+	Active = false
 	#Minimum Y-Level [Default: 0]
 	#Range: 0 ~ 128
 	Minimum = 0
