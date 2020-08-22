@@ -1,4 +1,8 @@
-//priority: 1000
+//priority: 1001
+
+function unificationBlacklistEntry(material, type) {
+    return { material: material, type: type };
+}
 
 var air = 'minecraft:air';
 
@@ -49,7 +53,6 @@ var typesToUnify = [
 var materialsToUnify = [
     'iron',
     'gold',
-    'neptunium',
     'copper',
     'silver',
     'zinc',
@@ -62,16 +65,31 @@ var materialsToUnify = [
     'uranium',
     'bronze',
     'electrum',
+    'constantan',
     'steel',
-
+    'osmium',
+    'certus_quartz',
+    'charged_certus_quartz',
     'diamond',
     'lapis',
     'emerald',
     'quartz',
     'coal',
+    'charcoal',
+    'obsidian',
+    'ender',
+    'fluix',
+    'sulfur',
+    'saltpeter',
+    'fluorite',
 
     'redstone',
     'glowstone'
+];
+
+var unificationBlacklist = [
+    unificationBlacklistEntry('quartz', 'gem'),
+    unificationBlacklistEntry('quartz', 'storage_block')
 ];
 
 var modPriorities = [
@@ -91,16 +109,6 @@ var modPriorities = [
     'pedestals',
     'appliedenergistics',
     'productivebees'
-];
-
-var createStoneTypes = [
-    'scoria',
-    'natural_scoria',
-    'limestone',
-    'weathered_limestone',
-    'dolomite',
-    'gabbro',
-    'dark_scoria'
 ];
 
 var vanillaWoodTypes = ['oak', 'birch', 'spruce', 'jungle', 'acacia', 'dark_oak'];

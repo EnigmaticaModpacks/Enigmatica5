@@ -105,7 +105,17 @@ events.listen('recipes', function (event) {
                 }
             },
             ['minecraft:book', '#forge:bookshelves']
-        )
+        ),
+        shapelessRecipe(item.of('patchouli:guide_book', { 'patchouli:book': 'patchouli:modded_for_dummies' }), [
+            'minecraft:book',
+            '#forge:dyes/yellow'
+        ]),
+        shapelessRecipe('appliedenergistics2:quartz_fixture', [
+            '#forge:gems/charged_certus_quartz',
+            '#forge:ingots/iron'
+        ]),
+        shapelessRecipe('appliedenergistics2:ender_dust', ['emendatusenigmatica:dust_ender']),
+        shapelessRecipe('emendatusenigmatica:dust_ender', ['appliedenergistics2:ender_dust'])
     ];
 
     recipes.forEach(function (recipe) {

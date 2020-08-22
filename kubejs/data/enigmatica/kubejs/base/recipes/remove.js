@@ -6,6 +6,10 @@ events.listen('recipes', function (event) {
     var outputRemovals = [
         'akashictome:tome',
 
+        'appliedenergistics2:sky_compass',
+        'appliedenergistics2:charged_staff',
+        'appliedenergistics2:quartz_fixture',
+
         'mekanism:combiner',
         'mekanism:basic_combining_factory',
         'mekanism:advanced_combining_factory',

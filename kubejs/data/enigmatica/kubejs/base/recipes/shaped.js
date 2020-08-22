@@ -31,6 +31,18 @@ events.listen('recipes', function (event) {
         }),
         shapedRecipe('minecraft:furnace', ['LLL', 'L L', 'LLL'], {
             L: '#forge:stone'
+        }),
+        shapedRecipe('appliedenergistics2:sky_compass', [' A ', 'ABA', ' A '], {
+            A: '#forge:ingots/iron',
+            B: '#forge:gems/charged_certus_quartz'
+        }),
+        shapedRecipe('appliedenergistics2:charged_staff', ['B  ', ' A ', '  A'], {
+            A: '#forge:ingots/iron',
+            B: '#forge:gems/charged_certus_quartz'
+        }),
+        shapedRecipe('appliedenergistics2:charged_staff', ['B', ' A ', 'A  '], {
+            A: '#forge:ingots/iron',
+            B: '#forge:gems/charged_certus_quartz'
         })
     ];
 
