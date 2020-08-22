@@ -1,11 +1,11 @@
 
 [General]
-	#Comma separated list of block names to exclude from the list of woodchips
+	#[UNUSED] Comma separated list of block names to exclude from the list of woodchips
 	woodChipLogsBlacklist = "atmospheric:crustose_log,forbidden_arcanus:edelwood_log"
 	#How many ticks it takes for process a recipe in the centrifuge. Default 300.
 	#Range: > 20
 	centrifugeProcessingTime = 300
-	#Use items to change the type of a bee.
+	#[UNUSED] Use items to change the type of a bee.
 	#If false, productive bees can only be obtained through breeding. Default false.
 	enableItemConverting = false
 	#Cooldown for when an abandoned nest will spawn a new inhabitant

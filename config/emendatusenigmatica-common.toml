@@ -165,13 +165,13 @@
 	Active = true
 	#Minimum Y-Level [Default: 32]
 	#Range: 0 ~ 128
-	Minimum = 32
+	Minimum = 24
 	#Maximum Y-Level [Default: 40]
 	#Range: 0 ~ 256
 	Maximum = 40
 	#Configure the ore Vein Size [Default: 3]
 	#Range: 0 ~ 64
-	Size = 3
+	Size = 5
 	#Ores count per Chunk [Default: 8]
 	#Range: 0 ~ 64
 	Count = 7
@@ -181,16 +181,16 @@
 	Active = true
 	#Minimum Y-Level [Default: 25]
 	#Range: 0 ~ 128
-	Minimum = 25
+	Minimum = 18
 	#Maximum Y-Level [Default: 40]
 	#Range: 0 ~ 256
-	Maximum = 40
+	Maximum = 36
 	#Configure the ore Vein Size [Default: 3]
 	#Range: 0 ~ 64
-	Size = 3
+	Size = 4
 	#Ores count per Chunk [Default: 8]
 	#Range: 0 ~ 64
-	Count = 4
+	Count = 7
 
 ["Uranium Ore"]
 	#Activate/Deactivate the World Gen [Default: true]
