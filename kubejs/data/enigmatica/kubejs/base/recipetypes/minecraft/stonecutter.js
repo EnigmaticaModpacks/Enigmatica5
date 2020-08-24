@@ -24,21 +24,37 @@ events.listen('recipes', function (event) {
 
     var conversionTypes = ['storage_blocks', 'ores'];
 
-    // Conversion between different storage_blocks of the same material
+    // Conversion between different blocks of the same material
     conversionTypes.forEach(function (type) {
         materialsToUnify.forEach(function (material) {
-            var storage_block_tag = ingredient.of('#forge:' + type + '/' + material);
-            if (storage_block_tag.stacks.size() > 1) {
-                storage_block_tag.stacks.forEach(function (storage_block) {
+            var tag = ingredient.of('#forge:' + type + '/' + material);
+            if (tag.stacks.size() > 1) {
+                tag.stacks.forEach(function (block) {
                     event.recipes.minecraft.stonecutting({
                         ingredient: {
                             tag: 'forge:' + type + '/' + material
                         },
-                        result: storage_block.id,
+                        result: block.id,
                         count: 1
                     });
                 });
             }
         });
+    });
+
+    // Conversion between different blocks of the same material
+    stoneTypes.forEach(function (stoneType) {
+        var tag = ingredient.of('#forge:stones/' + stoneType);
+        if (tag.stacks.size() > 1) {
+            tag.stacks.forEach(function (block) {
+                event.recipes.minecraft.stonecutting({
+                    ingredient: {
+                        tag: 'forge:stones/' + stoneType
+                    },
+                    result: block.id,
+                    count: 1
+                });
+            });
+        }
     });
 });
