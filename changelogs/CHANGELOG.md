@@ -1,16 +1,19 @@
-## Enigmatica 5 - 0.5.5
+## Enigmatica 5 - 0.6.0
 
-_Using Forge-1.15.2-31.2.30_ | _[Mod Updates](https://github.com/NillerMedDild/Enigmatica5/blob/master/changelogs/CHANGELOG_MODS_0.6.0.txt)_
+_Using Forge-1.15.2-31.2.36_ | _[Mod Updates](https://github.com/NillerMedDild/Enigmatica5/blob/master/changelogs/CHANGELOG_MODS_0.6.0.txt)_
 
 **Mod Additions**
 
-- 
+- Tool Stats
 
 **Changes**
 
-- Changed default server type to TerraForged
+- Stone Catalysts: Added Astral Sorcery Marble to the list of stone-generator materials.
+- Server: Changed default server type to TerraForged
 - Quark: Sign editing now requires an empty hand
 - Waystones: Disabled village Waystones, as multiple could generate per village
+- Ma Essentials: Disabled Warp commands (They can be re-enabled in the configs)
+- Ma Essentials: Increased cooldown of /back command to 5 minutes, from 3.
 
 **Bug Fixes**
 
@@ -24,10 +27,14 @@ _Using Forge-1.15.2-31.2.30_ | _[Mod Updates](https://github.com/NillerMedDild/E
 - Item Filters (Tried to remove it several times already, hopefully this does the trick)
 - Garden Tools (Hoe enchants can do similar things)
 - Iron Jetpacks 
-- In Control (Unusued)
+- In Control (Unused)
 - Fx Control (Unused)
 - Ore Veins (Sorta replaced by Emendatus Enigmatica)
 - Simply Backpacks (Replaced by Useful Backpacks)
+- Passable Foliage (Design choice, negative user feedback)
+- StepUp (Other options)
+- Equipment Tooltips (Replaced)
+- PackingTape (Other options)
 
 ## Enigmatica 5 - 0.5.5
 
