@@ -71,4 +71,6 @@ events.listen('recipes', function (event) {
 
     event.replaceInput({}, 'appliedenergistics2:silicon', '#forge:silicon');
     event.replaceInput({}, 'refinedstorage:silicon', '#forge:silicon');
+
+    event.replaceInput({}, 'astralsorcery:marble_raw', '#forge:stones/marble');
 });
