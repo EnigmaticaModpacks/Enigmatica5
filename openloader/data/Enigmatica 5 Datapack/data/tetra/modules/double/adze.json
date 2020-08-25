@@ -592,11 +592,14 @@
             "capabilities": {
                 "axe": [2, 3.9],
                 "shovel": [2, 3.9]
+            },
+            "effects": {
+                "manaRepair": 60
             }
         },
         {
             "key": "adze/elementium",
-            "durability": 454,
+            "durability": 850,
             "integrity": -3,
             "magicCapacity": 178,
             "damage": 1,
@@ -614,6 +617,9 @@
             "capabilities": {
                 "axe": [3, 4.6],
                 "shovel": [3, 4.6]
+            },
+            "effects": {
+                "manaRepair": 60
             }
         },
         {
@@ -636,11 +642,14 @@
             "capabilities": {
                 "axe": [3, 5.2],
                 "shovel": [3, 5.2]
+            },
+            "effects": {
+                "manaRepair": 60
             }
         },
         {
             "key": "adze/gaia_spirit",
-            "durability": 1083,
+            "durability": 1875,
             "integrity": -5,
             "magicCapacity": 208,
             "damage": 2,
@@ -658,6 +667,9 @@
             "capabilities": {
                 "axe": [3, 5.6],
                 "shovel": [3, 5.6]
+            },
+            "effects": {
+                "manaRepair": 60
             }
         },
         {

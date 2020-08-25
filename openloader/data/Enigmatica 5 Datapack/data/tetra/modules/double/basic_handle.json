@@ -440,7 +440,10 @@
                     "location": "tetra:items/module/double/handle/basic/default",
                     "tint": "104bc2"
                 }
-            ]
+            ],
+            "effects": {
+                "manaRepair": 60
+            }
         },
         {
             "key": "basic_handle/elementium",
@@ -457,7 +460,10 @@
                     "location": "tetra:items/module/double/handle/basic/default",
                     "tint": "cb0be0"
                 }
-            ]
+            ],
+            "effects": {
+                "manaRepair": 60
+            }
         },
         {
             "key": "basic_handle/terrasteel",
@@ -474,11 +480,14 @@
                     "location": "tetra:items/module/double/handle/basic/default",
                     "tint": "8c71b"
                 }
-            ]
+            ],
+            "effects": {
+                "manaRepair": 60
+            }
         },
         {
             "key": "basic_handle/gaia_spirit",
-            "durability": 356,
+            "durability": 700,
             "integrity": 8,
             "magicCapacity": 208,
             "attackSpeed": -0.2,
@@ -491,7 +500,10 @@
                     "location": "tetra:items/module/double/handle/basic/default",
                     "tint": "80bdb9"
                 }
-            ]
+            ],
+            "effects": {
+                "manaRepair": 60
+            }
         },
         {
             "key": "basic_handle/neptunium",

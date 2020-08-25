@@ -484,7 +484,7 @@
         },
         {
             "key": "butt/manasteel",
-            "durability": 96,
+            "durability": 400,
             "magicCapacity": 150,
             "integrity": -2,
             "damage": 1,
@@ -500,11 +500,14 @@
             ],
             "capabilities": {
                 "hammer": 1
+            },
+            "effects": {
+                "manaRepair": 60
             }
         },
         {
             "key": "butt/elementium",
-            "durability": 68,
+            "durability": 725,
             "magicCapacity": 178,
             "integrity": -3,
             "damage": 1,
@@ -521,6 +524,9 @@
             ],
             "capabilities": {
                 "hammer": 1
+            },
+            "effects": {
+                "manaRepair": 60
             }
         },
         {
@@ -541,11 +547,14 @@
             ],
             "capabilities": {
                 "hammer": 1
+            },
+            "effects": {
+                "manaRepair": 60
             }
         },
         {
             "key": "butt/gaia_spirit",
-            "durability": 800,
+            "durability": 1375,
             "magicCapacity": 208,
             "integrity": -5,
             "damage": 2,
@@ -561,6 +570,9 @@
             ],
             "capabilities": {
                 "hammer": 1
+            },
+            "effects": {
+                "manaRepair": 60
             }
         },
         {

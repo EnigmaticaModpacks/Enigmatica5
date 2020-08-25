@@ -15,6 +15,8 @@ _Using Forge-1.15.2-31.2.36_ | _[Mod Updates](https://github.com/NillerMedDild/E
 - Ma Essentials: Disabled Warp commands (They can be re-enabled in the configs)
 - Ma Essentials: Increased cooldown of /back command to 5 minutes, from 3.
 - MineColonies: Decreased Villager update rate, for better performance.
+- Tetra: Buffed Elementium
+- Tetra: Botania-based materials now regenerates durability from mana. 
 
 **Bug Fixes**
 

@@ -565,11 +565,14 @@
             ],
             "capabilities": {
                 "hammer": [2, 11.6]
+            },
+            "effects": {
+                "manaRepair": 60
             }
         },
         {
             "key": "basic_hammer/elementium",
-            "durability": 672,
+            "durability": 1350,
             "integrity": -3,
             "magicCapacity": 178,
             "damage": 8,
@@ -586,11 +589,14 @@
             ],
             "capabilities": {
                 "hammer": [4, 19.6]
+            },
+            "effects": {
+                "manaRepair": 60
             }
         },
         {
             "key": "basic_hammer/terrasteel",
-            "durability": 1000,
+            "durability": 1950,
             "integrity": -4,
             "magicCapacity": 192,
             "damage": 8,
@@ -607,11 +613,14 @@
             ],
             "capabilities": {
                 "hammer": [4, 23]
+            },
+            "effects": {
+                "manaRepair": 60
             }
         },
         {
             "key": "basic_hammer/gaia_spirit",
-            "durability": 1051,
+            "durability": 2250,
             "integrity": -5,
             "magicCapacity": 208,
             "damage": 16,
@@ -628,6 +637,9 @@
             ],
             "capabilities": {
                 "hammer": [4, 27.4]
+            },
+            "effects": {
+                "manaRepair": 60
             }
         },
         {

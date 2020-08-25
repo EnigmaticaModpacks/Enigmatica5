@@ -565,11 +565,14 @@
             ],
             "capabilities": {
                 "pickaxe": [2, 5.8]
+            },
+            "effects": {
+                "manaRepair": 60
             }
         },
         {
             "key": "basic_pickaxe/elementium",
-            "durability": 261,
+            "durability": 725,
             "integrity": -3,
             "magicCapacity": 178,
             "damage": 2,
@@ -586,6 +589,9 @@
             ],
             "capabilities": {
                 "pickaxe": [4, 7.1]
+            },
+            "effects": {
+                "manaRepair": 60
             }
         },
         {
@@ -607,11 +613,14 @@
             ],
             "capabilities": {
                 "pickaxe": [3, 8.5]
+            },
+            "effects": {
+                "manaRepair": 60
             }
         },
         {
             "key": "basic_pickaxe/gaia_spirit",
-            "durability": 1126,
+            "durability": 1925,
             "integrity": -5,
             "magicCapacity": 208,
             "damage": 7,
@@ -628,6 +637,9 @@
             ],
             "capabilities": {
                 "pickaxe": [3, 9.1]
+            },
+            "effects": {
+                "manaRepair": 60
             }
         },
         {

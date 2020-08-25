@@ -645,12 +645,13 @@
                 "axe": [3, 7.7]
             },
             "effects": {
-                "stripping": 1
+                "stripping": 1,
+                "manaRepair": 60
             }
         },
         {
             "key": "basic_axe/elementium",
-            "durability": 508,
+            "durability": 1000,
             "integrity": -3,
             "magicCapacity": 178,
             "damage": 8,
@@ -669,7 +670,8 @@
                 "axe": [4, 8.9]
             },
             "effects": {
-                "stripping": 1
+                "stripping": 1,
+                "manaRepair": 60
             }
         },
         {
@@ -693,12 +695,13 @@
                 "axe": [4, 10.2]
             },
             "effects": {
-                "stripping": 1
+                "stripping": 1,
+                "manaRepair": 60
             }
         },
         {
             "key": "basic_axe/gaia_spirit",
-            "durability": 1448,
+            "durability": 2350,
             "integrity": -5,
             "magicCapacity": 208,
             "damage": 14,
@@ -717,7 +720,8 @@
                 "axe": [4, 11]
             },
             "effects": {
-                "stripping": 1
+                "stripping": 1,
+                "manaRepair": 60
             }
         },
         {
