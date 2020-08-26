@@ -527,7 +527,8 @@
             "magicCapacity": 150,
             "attackSpeed": -0.2,
             "effects": {
-                "throwable": 1
+                "throwable": 1,
+                "manaRepair": 60
             },
             "glyph": {
                 "tint": "104bc2",
@@ -547,7 +548,8 @@
             "magicCapacity": 178,
             "attackSpeed": -0.2,
             "effects": {
-                "throwable": 1
+                "throwable": 1,
+                "manaRepair": 60
             },
             "glyph": {
                 "tint": "cb0be0",
@@ -567,7 +569,8 @@
             "magicCapacity": 192,
             "attackSpeed": -0.2,
             "effects": {
-                "throwable": 1
+                "throwable": 1,
+                "manaRepair": 60
             },
             "glyph": {
                 "tint": "8c71b",
@@ -587,7 +590,8 @@
             "magicCapacity": 208,
             "attackSpeed": -0.2,
             "effects": {
-                "throwable": 1
+                "throwable": 1,
+                "manaRepair": 60
             },
             "glyph": {
                 "tint": "80bdb9",

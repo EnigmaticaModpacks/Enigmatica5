@@ -430,7 +430,10 @@
                     "location": "tetra:items/module/sword/guard/makeshift_guard/default",
                     "tint": "104bc2"
                 }
-            ]
+            ],
+            "effects": {
+                "manaRepair": 60
+            }
         },
         {
             "key": "makeshift_guard/elementium",
@@ -446,7 +449,10 @@
                     "location": "tetra:items/module/sword/guard/makeshift_guard/default",
                     "tint": "cb0be0"
                 }
-            ]
+            ],
+            "effects": {
+                "manaRepair": 60
+            }
         },
         {
             "key": "makeshift_guard/terrasteel",
@@ -462,7 +468,10 @@
                     "location": "tetra:items/module/sword/guard/makeshift_guard/shiny",
                     "tint": "8c71b"
                 }
-            ]
+            ],
+            "effects": {
+                "manaRepair": 60
+            }
         },
         {
             "key": "makeshift_guard/gaia_spirit",
@@ -478,7 +487,10 @@
                     "location": "tetra:items/module/sword/guard/makeshift_guard/shiny",
                     "tint": "80bdb9"
                 }
-            ]
+            ],
+            "effects": {
+                "manaRepair": 60
+            }
         },
         {
             "key": "makeshift_guard/neptunium",

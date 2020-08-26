@@ -432,7 +432,10 @@
                     "location": "tetra:items/module/sword/pommel/decorative_pommel/default",
                     "tint": "104bc2"
                 }
-            ]
+            ],
+            "effects": {
+                "manaRepair": 60
+            }
         },
         {
             "key": "decorative_pommel/elementium",
@@ -448,7 +451,10 @@
                     "location": "tetra:items/module/sword/pommel/decorative_pommel/default",
                     "tint": "cb0be0"
                 }
-            ]
+            ],
+            "effects": {
+                "manaRepair": 60
+            }
         },
         {
             "key": "decorative_pommel/terrasteel",
@@ -464,7 +470,10 @@
                     "location": "tetra:items/module/sword/pommel/decorative_pommel/default",
                     "tint": "8c71b"
                 }
-            ]
+            ],
+            "effects": {
+                "manaRepair": 60
+            }
         },
         {
             "key": "decorative_pommel/gaia_spirit",
@@ -480,7 +489,10 @@
                     "location": "tetra:items/module/sword/pommel/decorative_pommel/default",
                     "tint": "80bdb9"
                 }
-            ]
+            ],
+            "effects": {
+                "manaRepair": 60
+            }
         },
         {
             "key": "decorative_pommel/neptunium",

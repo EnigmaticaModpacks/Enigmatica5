@@ -484,7 +484,10 @@
                     "location": "tetra:items/module/single/handle/long/default",
                     "tint": "104bc2"
                 }
-            ]
+            ],
+            "effects": {
+                "manaRepair": 60
+            }
         },
         {
             "key": "long_handle/elementium",
@@ -502,7 +505,10 @@
                     "location": "tetra:items/module/single/handle/long/default",
                     "tint": "cb0be0"
                 }
-            ]
+            ],
+            "effects": {
+                "manaRepair": 60
+            }
         },
         {
             "key": "long_handle/terrasteel",
@@ -520,7 +526,10 @@
                     "location": "tetra:items/module/single/handle/long/default",
                     "tint": "8c71b"
                 }
-            ]
+            ],
+            "effects": {
+                "manaRepair": 60
+            }
         },
         {
             "key": "long_handle/gaia_spirit",
@@ -538,7 +547,10 @@
                     "location": "tetra:items/module/single/handle/long/default",
                     "tint": "80bdb9"
                 }
-            ]
+            ],
+            "effects": {
+                "manaRepair": 60
+            }
         },
         {
             "key": "long_handle/neptunium",

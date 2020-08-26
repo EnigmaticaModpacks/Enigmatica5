@@ -457,7 +457,10 @@
                     "location": "tetra:items/module/sword/hilt/basic/default",
                     "tint": "104bc2"
                 }
-            ]
+            ],
+            "effects": {
+                "manaRepair": 60
+            }
         },
         {
             "key": "basic_hilt/elementium",
@@ -474,7 +477,10 @@
                     "location": "tetra:items/module/sword/hilt/basic/default",
                     "tint": "cb0be0"
                 }
-            ]
+            ],
+            "effects": {
+                "manaRepair": 60
+            }
         },
         {
             "key": "basic_hilt/terrasteel",
@@ -491,7 +497,10 @@
                     "location": "tetra:items/module/sword/hilt/basic/default",
                     "tint": "8c71b"
                 }
-            ]
+            ],
+            "effects": {
+                "manaRepair": 60
+            }
         },
         {
             "key": "basic_hilt/gaia_spirit",
@@ -508,7 +517,10 @@
                     "location": "tetra:items/module/sword/hilt/basic/default",
                     "tint": "80bdb9"
                 }
-            ]
+            ],
+            "effects": {
+                "manaRepair": 60
+            }
         },
         {
             "key": "basic_hilt/neptunium",

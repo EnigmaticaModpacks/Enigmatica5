@@ -606,7 +606,8 @@
             "damage": 6,
             "attackSpeed": 0.2,
             "effects": {
-                "sweeping": 1
+                "sweeping": 1,
+                "manaRepair": 60
             },
             "capabilities": {
                 "cut": [1, 0.9375]
@@ -629,7 +630,8 @@
             "damage": 6,
             "attackSpeed": 0.2,
             "effects": {
-                "sweeping": 1
+                "sweeping": 1,
+                "manaRepair": 60
             },
             "capabilities": {
                 "cut": [1, 0.9375]
@@ -652,7 +654,8 @@
             "damage": 6,
             "attackSpeed": 0.2,
             "effects": {
-                "sweeping": 1
+                "sweeping": 1,
+                "manaRepair": 60
             },
             "capabilities": {
                 "cut": [1, 0.9375]
@@ -675,7 +678,8 @@
             "damage": 14,
             "attackSpeed": 0.1,
             "effects": {
-                "sweeping": 1
+                "sweeping": 1,
+                "manaRepair": 60
             },
             "capabilities": {
                 "cut": [1, 0.9375]

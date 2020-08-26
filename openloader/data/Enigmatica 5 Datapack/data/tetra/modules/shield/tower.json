@@ -526,7 +526,8 @@
             "integrity": -2,
             "magicCapacity": 150,
             "effects": {
-                "blocking": 10
+                "blocking": 10,
+                "manaRepair": 60
             },
             "glyph": {
                 "tint": "104bc2",
@@ -546,7 +547,8 @@
             "integrity": -3,
             "magicCapacity": 178,
             "effects": {
-                "blocking": 10
+                "blocking": 10,
+                "manaRepair": 60
             },
             "glyph": {
                 "tint": "cb0be0",
@@ -566,7 +568,8 @@
             "integrity": -4,
             "magicCapacity": 192,
             "effects": {
-                "blocking": 10
+                "blocking": 10,
+                "manaRepair": 60
             },
             "glyph": {
                 "tint": "8c71b",
@@ -586,7 +589,8 @@
             "integrity": -5,
             "magicCapacity": 208,
             "effects": {
-                "blocking": 10
+                "blocking": 10,
+                "manaRepair": 60
             },
             "glyph": {
                 "tint": "80bdb9",

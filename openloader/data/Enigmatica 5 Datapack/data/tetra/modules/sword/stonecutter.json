@@ -715,7 +715,8 @@
             "effects": {
                 "strikingPickaxe": 1,
                 "sweepingStrike": 1,
-                "sweeping": 2
+                "sweeping": 2,
+                "manaRepair": 60
             },
             "glyph": {
                 "textureX": 240,
@@ -742,7 +743,8 @@
             "effects": {
                 "strikingPickaxe": 1,
                 "sweepingStrike": 1,
-                "sweeping": 3
+                "sweeping": 3,
+                "manaRepair": 60
             },
             "glyph": {
                 "textureX": 240,
@@ -769,7 +771,8 @@
             "effects": {
                 "strikingPickaxe": 1,
                 "sweepingStrike": 2,
-                "sweeping": 4
+                "sweeping": 4,
+                "manaRepair": 60
             },
             "glyph": {
                 "textureX": 240,
@@ -796,7 +799,8 @@
             "effects": {
                 "strikingPickaxe": 3,
                 "sweepingStrike": 3,
-                "sweeping": 4
+                "sweeping": 4,
+                "manaRepair": 60
             },
             "glyph": {
                 "textureX": 240,

@@ -669,7 +669,8 @@
                 }
             ],
             "effects": {
-                "flattening": 1
+                "flattening": 1,
+                "manaRepair": 60
             },
             "capabilities": {
                 "shovel": [3, 6.6666667]
@@ -694,7 +695,8 @@
                 }
             ],
             "effects": {
-                "flattening": 1
+                "flattening": 1,
+                "manaRepair": 60
             },
             "capabilities": {
                 "shovel": [4, 8.2]
@@ -719,7 +721,8 @@
                 }
             ],
             "effects": {
-                "flattening": 1
+                "flattening": 1,
+                "manaRepair": 60
             },
             "capabilities": {
                 "shovel": [4, 8]
@@ -744,7 +747,8 @@
                 }
             ],
             "effects": {
-                "flattening": 1
+                "flattening": 1,
+                "manaRepair": 60
             },
             "capabilities": {
                 "shovel": [4, 8]

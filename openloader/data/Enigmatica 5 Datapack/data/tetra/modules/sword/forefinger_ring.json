@@ -525,7 +525,8 @@
             "durability": 166,
             "integrity": -2,
             "effects": {
-                "quickStrike": 4
+                "quickStrike": 4,
+                "manaRepair": 60
             },
             "glyph": {
                 "tint": "104bc2",
@@ -545,7 +546,8 @@
             "durability": 88,
             "integrity": -3,
             "effects": {
-                "quickStrike": 4
+                "quickStrike": 4,
+                "manaRepair": 60
             },
             "glyph": {
                 "tint": "cb0be0",
@@ -565,7 +567,8 @@
             "durability": 106,
             "integrity": -4,
             "effects": {
-                "quickStrike": 4
+                "quickStrike": 4,
+                "manaRepair": 60
             },
             "glyph": {
                 "tint": "8c71b",
@@ -585,7 +588,8 @@
             "durability": 127,
             "integrity": -5,
             "effects": {
-                "quickStrike": 4
+                "quickStrike": 4,
+                "manaRepair": 60
             },
             "glyph": {
                 "tint": "80bdb9",

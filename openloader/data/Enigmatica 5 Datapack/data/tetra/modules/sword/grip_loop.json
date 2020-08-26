@@ -552,7 +552,8 @@
             "integrity": -2,
             "range": 1.5,
             "effects": {
-                "sweeping": [0, 2]
+                "sweeping": [0, 2],
+                "manaRepair": 60
             },
             "glyph": {
                 "tint": "104bc2",
@@ -573,7 +574,8 @@
             "integrity": -3,
             "range": 1.5,
             "effects": {
-                "sweeping": [0, 2]
+                "sweeping": [0, 2],
+                "manaRepair": 60
             },
             "glyph": {
                 "tint": "cb0be0",
@@ -594,7 +596,8 @@
             "integrity": -4,
             "range": 1,
             "effects": {
-                "sweeping": [0, 2]
+                "sweeping": [0, 2],
+                "manaRepair": 60
             },
             "glyph": {
                 "tint": "8c71b",
@@ -615,7 +618,8 @@
             "integrity": -5,
             "range": 1,
             "effects": {
-                "sweeping": [0, 2]
+                "sweeping": [0, 2],
+                "manaRepair": 60
             },
             "glyph": {
                 "tint": "80bdb9",

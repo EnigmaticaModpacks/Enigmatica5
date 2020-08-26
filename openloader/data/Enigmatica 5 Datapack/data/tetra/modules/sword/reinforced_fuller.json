@@ -552,7 +552,8 @@
             "integrity": 2,
             "attackSpeed": -0.9,
             "effects": {
-                "unbreaking": 1
+                "unbreaking": 1,
+                "manaRepair": 60
             },
             "glyph": {
                 "tint": "104bc2",
@@ -573,7 +574,8 @@
             "integrity": 3,
             "attackSpeed": -0.7,
             "effects": {
-                "unbreaking": 1
+                "unbreaking": 1,
+                "manaRepair": 60
             },
             "glyph": {
                 "tint": "cb0be0",
@@ -594,7 +596,8 @@
             "integrity": 4,
             "attackSpeed": -0.7,
             "effects": {
-                "unbreaking": 1
+                "unbreaking": 1,
+                "manaRepair": 60
             },
             "glyph": {
                 "tint": "8c71b",
@@ -615,7 +618,8 @@
             "integrity": 5,
             "attackSpeed": -1,
             "effects": {
-                "unbreaking": 1
+                "unbreaking": 1,
+                "manaRepair": 60
             },
             "glyph": {
                 "tint": "80bdb9",
