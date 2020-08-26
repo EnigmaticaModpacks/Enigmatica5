@@ -96,155 +96,192 @@
 	#Range: 10 ~ 100
 	perkLevelCap = 40
 
-	[perks.key_cheat_death]
-		#Once the potion effect gets applied, it'll take at least this amount of ticks or a server restart until it can be re-applied by this perk.
-		#Range: > 1
-		cooldownPotionApplication = 1000
-		#Once the potion effect gets applied by any of the triggers, this will be used as tick-duration of the potion effect.
-		#Range: > 1
-		potionDuration = 600
-		#Once the potion effect gets applied by any of the triggers, this will be used as amplifier of the potion effect.
-		#Range: 0 ~ 4
-		potionAmplifier = 0
+	[perks.type]
 
-	[perks.key_rampage]
-		#Defines the chance to gain rampage buffs when killing a mob
-		#Range: 0.05000000074505806 ~ 1.0
-		rampageChance = 1.0
-		#Defines the duration of the rampage in ticks
-		#Range: 10 ~ 100000
-		rampageDuration = 100
+		[perks.type.dodge]
+			#Defines the amount of starlight charge consumed per dodged damage.
+			#Range: 1 ~ 500
+			chargeCost = 80
 
-	[perks.root_aevitas]
-		#Defines the general exp multiplier for this root perk. Can be used for balancing in a pack environment.
-		#Range: 0.10000000149011612 ~ 20.0
-		expMultiplier = 1.0
+		[perks.type.miningsize]
+			#Defines the amount of starlight charge consumed per additional block break through this attribute.
+			#Range: 1 ~ 500
+			chargeCost = 4
 
-	[perks.key_bleed]
-		#Defines the duration of the bleeding effect when applied. Refreshes this duration when a it is applied again
-		#Range: 5 ~ 400
-		bleedDuration = 40
-		#Defines the base chance a bleed can/is applied when an entity is being hit by this entity
-		#Range: 0.01 ~ 1.0
-		bleedChance = 0.25
+	[perks.key]
 
-	[perks.key_mending]
-		#Sets the chance (Random.nextInt(chance) == 0) to try to see if a piece of armor on the player that is damageable and damaged can be repaired; the lower the more likely.
-		#Range: > 5
-		chanceToRepair = 800
+		[perks.key.damage_armor]
+			#Defines how much damage is dealt additionally to armor. This value gets multiplied by the amount of armorpieces the entity you're attacking wears.
+			#Range: 0.009999999776482582 ~ 0.20000000298023224
+			damagePerArmor = 0.05000000074505806
 
-	[perks.root_discidia]
-		#Defines the general exp multiplier for this root perk. Can be used for balancing in a pack environment.
-		#Range: 0.10000000149011612 ~ 20.0
-		expMultiplier = 1.0
+		[perks.key.no_armor]
+			#The multiplier that is applied to damage the player receives. The lower the more damage is negated.
+			#Range: 0.10000000149011612 ~ 1.0
+			damageTakenMultiplier = 0.699999988079071
 
-	[perks.root_armara]
-		#Defines the general exp multiplier for this root perk. Can be used for balancing in a pack environment.
-		#Range: 0.10000000149011612 ~ 20.0
-		expMultiplier = 1.0
+		[perks.key.stone_enrichment]
+			#Defines the radius where a random position to generate a ore at is checked for
+			#Range: 1 ~ 15
+			enrichmentRadius = 3
+			#Sets the chance (Random.nextInt(chance) == 0) to try to see if a random stone next to the player should get turned into an ore; the lower the more likely
+			#Range: 2 ~ 512
+			chanceToEnrich = 55
+			#Defines the amount of starlight charge consumed per created ore.
+			#Range: 1 ~ 500
+			chargeCost = 150
 
-	[perks.key_voic_trash]
-		#List items that should count as trash and should be voided.
-		trashItems = ["minecraft:dirt", "minecraft:cobblestone", "minecraft:andesite", "minecraft:diorite", "minecraft:granite", "minecraft:stone", "minecraft:gravel"]
-		#Chance that a voided drop will instead yield a random ore out of the configured ore table.
-		#Range: 0.0 ~ 1.0
-		oreChance = 0.019999999552965164
+		[perks.key.lightning_arc]
+			#Sets the chance to spawn a damage-arc effect when an enemy is hit (value is in percent).
+			#Range: 0.1 ~ 1.0
+			arcChance = 0.6000000238418579
+			#Defines the damage-multiplier which gets added to the damage dealt initially.
+			#Range: 0.1 ~ 8.0
+			arcPercent = 0.6000000238418579
+			#Defines the distance for how far a single arc can jump/search for nearby entities.
+			#Range: 0.2 ~ 16.0
+			arcDistance = 7.0
+			#Range: 1 ~ 32
+			arcTicks = 3
+			#Defines the amount of starlight charge consumed per spawned lighning arc.
+			#Range: 1 ~ 500
+			chargeCost = 60
 
-	[perks.key_damage_effects]
-		#Defines the chance per hit to apply additional effects.
-		#Range: 0.009999999776482582 ~ 0.20000000298023224
-		applicationChance = 0.07999999821186066
+		[perks.key.disarm]
+			#Defines the chance (in percent) per hit to make the attacked entity drop its armor.
+			#Range: 0.0 ~ 1.0
+			dropChance = 0.05000000074505806
 
-	[perks.key_disarm]
-		#Defines the chance (in percent) per hit to make the attacked entity drop its armor.
-		#Range: 0.0 ~ 1.0
-		dropChance = 0.05000000074505806
+		[perks.key.last_breath]
+			#Defines the dig speed multiplier you get additionally to your normal dig speed when being low on health (25% health = 75% of this additional multiplier)
+			#Range: 0.1 ~ 10.0
+			digSpeedMultiplier = 1.5
+			#Defines the damage multiplier you get additionally to your normal damage when being low on health (25% health = 75% of this additional multiplier)
+			#Range: 0.1 ~ 10.0
+			damageMultiplier = 3.0
 
-	[perks.key_proj_distance]
-		#Defines the distance that must be reached to achieve the maximum damage multiplier
-		#Range: 100.0 ~ 65536.0
-		capDistance = 6400.0
-		#Defines the maximum multiplier that can be reached if the 'capDistance' is reached or surpassed when hitting something
-		#Range: 0.05000000074505806 ~ 5.0
-		maxAdditionalMultiplier = 0.75
+		[perks.key.bleed]
+			#Defines the duration of the bleeding effect when applied. Refreshes this duration when a it is applied again
+			#Range: 5 ~ 400
+			bleedDuration = 40
+			#Defines the base chance a bleed can/is applied when an entity is being hit by this entity
+			#Range: 0.01 ~ 1.0
+			bleedChance = 0.25
 
-	[perks.key_culling]
-		#Defines the percentage at how low the entities' health as to be to then cull the entity.
-		#Range: 0.05000000074505806 ~ 0.5
-		cullHealth = 0.15000000596046448
+		[perks.key.mending]
+			#Sets the chance (Random.nextInt(chance) == 0) to try to see if a piece of armor on the player that is damageable and damaged can be repaired; the lower the more likely.
+			#Range: > 5
+			chanceToRepair = 800
+			#Defines the amount of starlight charge consumed per restored durability point.
+			#Range: 1 ~ 500
+			chargeCost = 60
 
-	[perks.key_growable]
-		#Sets the chance to try to see if a random plant near the player gets bonemeal'd.
-		#Range: 0.0 ~ 1.0
-		chanceToBonemeal = 0.30000001192092896
-		#Defines the radius around which the perk effect should apply around the player.
-		#Range: 1 ~ 16
-		radius = 3
+		[perks.key.spawn_lights]
+			#Defines the rate in ticks a position to spawn a light in is attempted to be found near the player
+			#Range: 4 ~ 1000
+			lightSpawnRate = 15
+			#Defines the radius around the player the perk will search for a suitable position
+			#Range: 2 ~ 10
+			lightSpawnRadius = 5
+			#Defines the amount of starlight charge consumed per spawned light.
+			#Range: 1 ~ 500
+			chargeCost = 60
 
-	[perks.root_vicio]
-		#Defines the general exp multiplier for this root perk. Can be used for balancing in a pack environment.
-		#Range: 0.10000000149011612 ~ 20.0
-		expMultiplier = 1.0
+		[perks.key.culling]
+			#Defines the percentage at how low the entities' health as to be to then cull the entity.
+			#Range: 0.05000000074505806 ~ 0.5
+			cullHealth = 0.15000000596046448
+			#Defines the amount of starlight charge consumed per culling attempt.
+			#Range: 1 ~ 500
+			chargeCost = 250
 
-	[perks.key_stone_enrichment]
-		#Defines the radius where a random position to generate a ore at is checked for
-		#Range: 1 ~ 15
-		enrichmentRadius = 3
-		#Sets the chance (Random.nextInt(chance) == 0) to try to see if a random stone next to the player should get turned into an ore; the lower the more likely
-		#Range: 2 ~ 512
-		chanceToEnrich = 55
+		[perks.key.damage_effects]
+			#Defines the chance per hit to apply additional effects.
+			#Range: 0.009999999776482582 ~ 0.20000000298023224
+			applicationChance = 0.07999999821186066
 
-	[perks.root_evorsio]
-		#Defines the general exp multiplier for this root perk. Can be used for balancing in a pack environment.
-		#Range: 0.10000000149011612 ~ 20.0
-		expMultiplier = 1.0
+		[perks.key.void_trash]
+			#List items that should count as trash and should be voided.
+			trashItems = ["minecraft:dirt", "minecraft:cobblestone", "minecraft:andesite", "minecraft:diorite", "minecraft:granite", "minecraft:stone", "minecraft:gravel"]
+			#Chance that a voided drop will instead yield a random ore out of the configured ore table.
+			#Range: 0.0 ~ 1.0
+			oreChance = 0.019999999552965164
 
-	[perks.key_proj_proximity]
-		#Defines the distance at which no additional damage is awarded.
-		#Range: 4.0 ~ 65536.0
-		capDistance = 100.0
-		#Defines the maximum multiplier that can be reached if the distance when hitting something with projectiles is basically nothing.
-		#Range: 0.05000000074505806 ~ 5.0
-		maxAdditionalMultiplier = 0.75
+		[perks.key.cheat_death]
+			#Once the potion effect gets applied, it'll take at least this amount of ticks or a server restart until it can be re-applied by this perk.
+			#Range: > 1
+			cooldownPotionApplication = 600
+			#Once the potion effect gets applied by any of the triggers, this will be used as tick-duration of the potion effect.
+			#Range: > 1
+			potionDuration = 500
+			#Once the potion effect gets applied by any of the triggers, this will be used as amplifier of the potion effect.
+			#Range: 0 ~ 4
+			potionAmplifier = 0
+			#Defines the amount of starlight charge consumed per death-prevention.
+			#Range: 1 ~ 500
+			chargeCost = 350
 
-	[perks.key_no_armor]
-		#The multiplier that is applied to damage the player receives. The lower the more damage is negated.
-		#Range: 0.10000000149011612 ~ 1.0
-		damageTakenMultiplier = 0.699999988079071
+		[perks.key.growable]
+			#Sets the chance to try to see if a random plant near the player gets bonemeal'd.
+			#Range: 0.0 ~ 1.0
+			chanceToBonemeal = 0.30000001192092896
+			#Defines the radius around which the perk effect should apply around the player.
+			#Range: 1 ~ 16
+			radius = 3
+			#Defines the amount of starlight charge consumed per growth-attempt.
+			#Range: 1 ~ 500
+			chargeCost = 120
 
-	[perks.key_damage_armor]
-		#Defines how much damage is dealt additionally to armor. This value gets multiplied by the amount of armorpieces the entity you're attacking wears.
-		#Range: 0.009999999776482582 ~ 0.20000000298023224
-		damagePerArmor = 0.05000000074505806
+		[perks.key.rampage]
+			#Defines the chance to gain rampage buffs when killing a mob
+			#Range: 0.05000000074505806 ~ 1.0
+			rampageChance = 1.0
+			#Defines the duration of the rampage in ticks
+			#Range: 10 ~ 100000
+			rampageDuration = 100
 
-	[perks.key_last_breath]
-		#Defines the dig speed multiplier you get additionally to your normal dig speed when being low on health (25% health = 75% of this additional multiplier)
-		#Range: 0.1 ~ 10.0
-		digSpeedMultiplier = 1.5
-		#Defines the damage multiplier you get additionally to your normal damage when being low on health (25% health = 75% of this additional multiplier)
-		#Range: 0.1 ~ 10.0
-		damageMultiplier = 3.0
+		[perks.key.proj_distance]
+			#Defines the distance that must be reached to achieve the maximum damage multiplier
+			#Range: 100.0 ~ 65536.0
+			capDistance = 6400.0
+			#Defines the maximum multiplier that can be reached if the 'capDistance' is reached or surpassed when hitting something
+			#Range: 0.05000000074505806 ~ 5.0
+			maxAdditionalMultiplier = 0.75
 
-	[perks.key_spawn_lights]
-		#Defines the rate in ticks a position to spawn a light in is attempted to be found near the player
-		#Range: 4 ~ 1000
-		lightSpawnRate = 15
-		#Defines the radius around the player the perk will search for a suitable position
-		#Range: 2 ~ 10
-		lightSpawnRadius = 5
+		[perks.key.proj_proximity]
+			#Defines the distance at which no additional damage is awarded.
+			#Range: 4.0 ~ 65536.0
+			capDistance = 100.0
+			#Defines the maximum multiplier that can be reached if the distance when hitting something with projectiles is basically nothing.
+			#Range: 0.05000000074505806 ~ 5.0
+			maxAdditionalMultiplier = 0.75
 
-	[perks.key_lightning_arc]
-		#Sets the chance to spawn a damage-arc effect when an enemy is hit (value is in percent).
-		#Range: 0.1 ~ 1.0
-		arcChance = 0.6000000238418579
-		#Defines the damage-multiplier which gets added to the damage dealt initially.
-		#Range: 0.1 ~ 8.0
-		arcPercent = 0.6000000238418579
-		#Defines the distance for how far a single arc can jump/search for nearby entities.
-		#Range: 0.2 ~ 16.0
-		arcDistance = 7.0
-		#Range: 1 ~ 32
-		arcTicks = 3
+	[perks.root]
+
+		[perks.root.discidia]
+			#Defines the general exp multiplier for this root perk. Can be used for balancing in a pack environment.
+			#Range: 0.10000000149011612 ~ 20.0
+			expMultiplier = 1.0
+
+		[perks.root.vicio]
+			#Defines the general exp multiplier for this root perk. Can be used for balancing in a pack environment.
+			#Range: 0.10000000149011612 ~ 20.0
+			expMultiplier = 1.0
+
+		[perks.root.armara]
+			#Defines the general exp multiplier for this root perk. Can be used for balancing in a pack environment.
+			#Range: 0.10000000149011612 ~ 20.0
+			expMultiplier = 1.0
+
+		[perks.root.evorsio]
+			#Defines the general exp multiplier for this root perk. Can be used for balancing in a pack environment.
+			#Range: 0.10000000149011612 ~ 20.0
+			expMultiplier = 1.0
+
+		[perks.root.aevitas]
+			#Defines the general exp multiplier for this root perk. Can be used for balancing in a pack environment.
+			#Range: 0.10000000149011612 ~ 20.0
+			expMultiplier = 1.0
 
 [enchantment_amulet]
 	#Defines the chance to roll a 2nd-enchantment-manipulating roll on the amulet. Value defines a percent chance from 0% to 100%. Setting this to 0 also prevents a 3rd roll
@@ -616,6 +653,9 @@
 		[constellation.mantle.vicio]
 			#Set this to false to disable this mantle effect
 			enabled = true
+			#Defines the amount of starlight charge consumed per !second! during creative-flight with the vicio mantle.
+			#Range: 1 ~ 500
+			chargeCost = 60
 
 [world]
 
@@ -651,6 +691,8 @@
 			#Defines the average structure separation/position-shift between two structures of this type
 			#Range: 1 ~ 100
 			structureseparation = 5
+			#Set this to false to disable this feature from generation.
+			enabled = true
 
 		[world.generation.struct_mountain]
 			#Set this to the lowest possible Y-level this feature should be able to generate at. Should be lower than 'maxY'
@@ -682,6 +724,8 @@
 			#Defines the average structure separation/position-shift between two structures of this type
 			#Range: 1 ~ 100
 			structureseparation = 5
+			#Set this to false to disable this feature from generation.
+			enabled = true
 
 		[world.generation.struct_small]
 			#Set this to the lowest possible Y-level this feature should be able to generate at. Should be lower than 'maxY'
@@ -713,6 +757,8 @@
 			#Defines the average structure separation/position-shift between two structures of this type
 			#Range: 1 ~ 100
 			structureseparation = 8
+			#Set this to false to disable this feature from generation.
+			enabled = true
 
 		[world.generation.glow_flower]
 			#Set this to the lowest possible Y-level this feature should be able to generate at. Should be lower than 'maxY'
@@ -735,6 +781,8 @@
 			dimensionids = ["minecraft:overworld"]
 			#List all biome types here that this feature should be able to spawn in
 			biomeTypes = ["MOUNTAIN", "COLD"]
+			#Set this to false to disable this feature from generation.
+			enabled = true
 
 		[world.generation.rock_crystal]
 			#Set this to the lowest possible Y-level this feature should be able to generate at. Should be lower than 'maxY'
@@ -759,6 +807,8 @@
 			biomeTypes = []
 			#List all blockstates here that this feature should be able to replace with its own blocks.
 			replaceable = ["minecraft:stone", "minecraft:diorite", "minecraft:granite", "minecraft:andesite"]
+			#Set this to false to disable this feature from generation.
+			enabled = true
 
 		[world.generation.aquamarine]
 			#Set this to the lowest possible Y-level this feature should be able to generate at. Should be lower than 'maxY'
@@ -783,6 +833,32 @@
 			biomeTypes = []
 			#List all blockstates here that this feature should be able to replace with its own blocks.
 			replaceable = ["minecraft:sand"]
+			#Set this to false to disable this feature from generation.
+			enabled = true
+
+		[world.generation.marble]
+			#Set this to false to disable this feature from generation.
+			enabled = true
+			#Set this to the lowest possible Y-level this feature should be able to generate at. Should be lower than 'maxY'
+			#Range: 1 ~ 216
+			minY = 0
+			#Set this to the highest possible Y-level this feature should be able to generate at. Should be higher than 'minY'
+			#Range: 2 ~ 217
+			maxY = 48
+			#Set this to set the overall chance for this feature to generate. The higher, the rarer.
+			#Range: 1 ~ 200000
+			generationChance = 1
+			#Set the amount this feature tries to generate per chunk
+			#Range: 1 ~ 128
+			generationAmount = 2
+			#Set this to true to make the biome-type restrictions a whitelist, false for blacklist
+			whitelistBiomeConfigurations = false
+			#Set this to true to make the dimension-id restrictions a whitelist, false for blacklist
+			whitelistDimensionConfigurations = false
+			#List all dimensionIds here that this feature should spawn in
+			dimensionids = []
+			#List all biome types here that this feature should be able to spawn in
+			biomeTypes = []
 
 [registries]
 
