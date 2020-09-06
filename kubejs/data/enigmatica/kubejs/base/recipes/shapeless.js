@@ -109,21 +109,7 @@ events.listen('recipes', function (event) {
         shapelessRecipe(item.of('patchouli:guide_book', { 'patchouli:book': 'patchouli:modded_for_dummies' }), [
             'minecraft:book',
             '#forge:dyes/yellow'
-        ]),
-        shapelessRecipe('appliedenergistics2:quartz_fixture', [
-            '#forge:gems/charged_certus_quartz',
-            '#forge:ingots/iron'
-        ]),
-        shapelessRecipe('appliedenergistics2:ender_dust', ['emendatusenigmatica:dust_ender']),
-        shapelessRecipe('emendatusenigmatica:dust_ender', ['appliedenergistics2:ender_dust']),
-        shapelessRecipe('appliedenergistics2:charged_certus_quartz_crystal', [
-            'emendatusenigmatica:gem_charged_certus_quartz'
-        ]),
-        shapelessRecipe('emendatusenigmatica:gem_charged_certus_quartz', [
-            'appliedenergistics2:charged_certus_quartz_crystal'
-        ]),
-        shapelessRecipe('appliedenergistics2:certus_quartz_crystal', ['emendatusenigmatica:gem_certus_quartz']),
-        shapelessRecipe('emendatusenigmatica:gem_certus_quartz', ['appliedenergistics2:certus_quartz_crystal'])
+        ])
     ];
 
     recipes.forEach(function (recipe) {

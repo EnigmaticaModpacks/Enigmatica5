@@ -109,7 +109,6 @@ var modPriorities = [
     'botania',
     'quark',
     'pedestals',
-    'appliedenergistics',
     'productivebees'
 ];
 
