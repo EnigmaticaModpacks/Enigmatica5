@@ -61,6 +61,11 @@ events.listen('recipes', function (event) {
         }),
         shapedRecipe('minecraft:horn_coral_block', ['AA', 'AA'], {
             A: 'minecraft:horn_coral'
+        }),
+        shapedRecipe('tetra:stonecutter', [' CC', 'ACC', 'BA '], {
+            A: 'tetra:forged_bolt',
+            B: 'tetra:forged_beam',
+            C: 'tetra:metal_scrap'
         })
     ];
 
