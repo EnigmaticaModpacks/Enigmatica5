@@ -59,3 +59,8 @@
 	#Should Novice and Apprentice Farmers buy this mod's crops? (May reduce chances of other trades appearing)
 	farmersBuyFDCrops = true
 
+#Vanilla item overrides
+[overrides]
+	#Should Minecraft soups (e.g. Mushroom Stew) grant Comfort and other positive effects, to reflect this mod's soups?
+	vanillaSoupEffects = true
+
