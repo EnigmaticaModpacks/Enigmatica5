@@ -24,7 +24,7 @@ $MODPACK_VERSION = "0.6.0"
 # Only used by the Changelog Generator
 $LAST_MODPACK_VERSION = "0.5.5"
 
-$FORGE_VERSION = 31.2.33
+$FORGE_VERSION = 31.2.36
 
 $CLIENT_FILENAME = "Enigmatica5"
 
@@ -40,7 +40,7 @@ $GAME_VERSIONS = @(7722) # 7675 is 1.15.1, 7722 is 1.15.2
 $CLIENT_CHANGELOG_TYPE = "markdown"
 
 $CLIENT_CHANGELOG = "### Enigmatica 5 v$MODPACK_VERSION <br /> <br />" +
-"Using Forge-1.15.2-31.2.33 <br /> <br /> " +
+"Using Forge-1.15.2-31.2.36 <br /> <br /> " +
 "The Changelog is currently being written, it should be done within 10 minutes. "
 
 # Can be "alpha", "beta" or "release"
