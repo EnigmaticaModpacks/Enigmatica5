@@ -12,10 +12,10 @@
 [general]
 
 	[general.general]
-		#The base energy usage for the crafting interface per crafting job being processed.
-		interfaceCraftingBaseConsumption = 5
 		#The base energy usage for the crafting writer.
 		craftingWriterBaseConsumption = 1
+		#The base energy usage for the crafting interface per crafting job being processed.
+		interfaceCraftingBaseConsumption = 5
 
 [core]
 
