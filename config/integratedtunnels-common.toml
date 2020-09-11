@@ -72,4 +72,6 @@
 		fluidRateLimit = 2147483647
 		#If particles should be shown and sounds should be played when tunnels are interacting with the world.
 		worldInteractionEvents = true
+		#If items should be ejected into the world when a block is broken and not all items fit into the target. Will be voided otherwise.
+		ejectItemsOnBlockDropOverflow = true
 

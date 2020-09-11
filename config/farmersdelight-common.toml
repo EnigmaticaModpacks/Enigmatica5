@@ -63,4 +63,6 @@
 [overrides]
 	#Should Minecraft soups (e.g. Mushroom Stew) grant Comfort and other positive effects, to reflect this mod's soups?
 	vanillaSoupEffects = true
+	#Should most vanilla tools register a dispenser behavior when facing a Cutting Board?
+	dispenserUsesToolsOnCuttingBoard = true
 
