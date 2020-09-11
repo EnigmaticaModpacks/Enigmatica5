@@ -64,4 +64,9 @@ events.listen('recipes', function (event) {
     event.replaceInput({}, 'refinedstorage:silicon', '#forge:silicon');
 
     event.replaceInput({}, 'astralsorcery:marble_raw', '#forge:stones/marble');
+
+    event.replaceInput({}, 'thermal:cinnabar', '#forge:gems/cinnabar');
+    event.replaceInput({}, 'thermal:sulfur', '#forge:gems/sulfur');
+    event.replaceInput({}, 'thermal:apatite', '#forge:gems/apatite');
+    event.replaceInput({}, 'thermal:niter', '#forge:gems/niter');
 });

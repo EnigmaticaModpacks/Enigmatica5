@@ -81,9 +81,13 @@ var materialsToUnify = [
     'obsidian',
     'ender',
     'fluix',
-    'sulfur',
     'saltpeter',
     'fluorite',
+
+    'sulfur',
+    'cinnabar',
+    'niter',
+    'apatite',
 
     'redstone',
     'glowstone'
@@ -102,6 +106,7 @@ var modPriorities = [
     'mekanism',
     'jaopca',
     'kubejs',
+    'thermal',
     'pneumaticcraft',
     'occultism',
     'tmechworks',

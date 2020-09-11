@@ -9,7 +9,7 @@ events.listen('recipes', function (event) {
                     var prefItem = getPreferredItemInTag(tag);
                     console.log('Tag: ' + tag);
                     console.log('Prefered item: ' + prefItem);
-                    event.replaceOutput({}, tagString, prefItem);
+                    event.replaceOutput({}, tagString, prefItem.id);
                 }
             }
         });

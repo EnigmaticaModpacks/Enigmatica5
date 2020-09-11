@@ -17,11 +17,11 @@ function enigmatica_ore_deposit_processing(event, material) {
     var dustTag = ingredient.of('#forge:dusts/' + material);
     var dust = getPreferredItemInTag(dustTag).id;
 
-    if (oreDeposit === air || dust === air) {
+    if (oreDeposit == air || dust == air) {
         return;
     }
 
-    if (nuggetTag.first.id === air) {
+    if (nuggetTag.first.id == air) {
         event.recipes.minecraft.smelting(dustTag, oreDepositTag).xp(1.0);
         event.recipes.minecraft.blasting(dustTag, oreDepositTag).xp(1.0);
     } else {
@@ -96,7 +96,7 @@ function immersiveengineering_gem_ore_processing(event, material) {
     var dustTag = ingredient.of('#forge:dusts/' + material);
     var dust = getPreferredItemInTag(dustTag).id;
 
-    if (gem === air || dust === air) {
+    if (gem == air || dust == air) {
         return;
     }
 
@@ -111,7 +111,7 @@ function immersiveengineering_gem_ore_processing(event, material) {
         energy: 2000
     });
 
-    if (ore === air) {
+    if (ore == air) {
         return;
     }
 }

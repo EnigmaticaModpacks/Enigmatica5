@@ -21,12 +21,11 @@ function compareIndices(a, b) {
 }
 
 function getPreferredItemInTag(tag) {
-    var prefItem = tag.stacks
+    return tag.stacks
         .stream()
         .sorted(function (a, b) {
             return compareIndices(a.mod, b.mod);
         })
         .findFirst()
-        .orElse('minecraft:air');
-    return prefItem;
+        .orElse(item.of('minecraft:air'));
 }
