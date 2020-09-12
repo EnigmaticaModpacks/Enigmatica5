@@ -11,11 +11,4 @@ events.listen('recipes', function (event) {
             count: 1
         }
     });
-    event.recipes.powah.energizing({
-        ingredients: [{ tag: 'forge:gems/certus_quartz' }],
-        energy: 10000,
-        result: {
-            item: getPreferredItemInTag(ingredient.of('#forge:gems/charged_certus_quartz')).id
-        }
-    });
 });
