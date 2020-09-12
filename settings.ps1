@@ -2,7 +2,30 @@
 # For details/help see: https://github.com/NillerMedDild/ModpackUploader
 
 $CLIENT_MODS = @(
-	"AmbientSounds")
+	"AmbientSounds"
+	"AppleSkin", 
+	"BetterAdvancements",
+	"ClientTweaks",
+	"CraftingTweaks", 
+	"DefaultOptions", 
+	"DefaultSettings",
+	"EnchantmentDescriptions", 
+	"EquipmentTooltips", 
+	"FpsReducer", 
+	"invtweaks",
+	"JustEnoughResources",
+	"LLOverlayReloaded", 
+	"MouseTweaks",
+	"nmdar_", 
+	"Neat", 
+	"overloadedarmorbar", 
+	"ReAuth",
+	"StepUp",
+	"ToastControl", 
+	"toughnessbar", 
+	"Xaeros_Minimap", 
+	"XaerosWorldMap",
+	"moreoverlays")
 
 $CONFIGS_TO_REMOVE = @(
 	"jei", 
@@ -109,7 +132,7 @@ $SERVER_RELEASE_TYPE = $CLIENT_RELEASE_TYPE
 
 # Toggle twitch-export-builder (automatic building of the manifest zip) on/off
 # Default: $true
-$ENABLE_MANIFEST_BUILDER_MODULE = $false
+$ENABLE_MANIFEST_BUILDER_MODULE = $true
 
 # Toggle the modpack uploader on/off
 # Setting this to $false will also disable the Server File and Changelog Generator Modules.
