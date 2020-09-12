@@ -11,6 +11,7 @@ var oreDimensional = [
     'rftoolsbase:dimensionalshard_nether',
     'rftoolsbase:dimensionalshard_end'
 ];
+var createStoneTypes = ['limestone', 'weathered_limestone', 'dolomite', 'gabbro', 'scoria', 'dark_scoria'];
 
 var stoneTypes = ['granite', 'diorite', 'andesite', 'marble', 'limestone', 'jasper', 'slate', 'basalt'];
 
@@ -70,8 +71,6 @@ var materialsToUnify = [
     'constantan',
     'steel',
     'osmium',
-    'certus_quartz',
-    'charged_certus_quartz',
     'diamond',
     'lapis',
     'emerald',
@@ -83,7 +82,10 @@ var materialsToUnify = [
     'fluix',
     'saltpeter',
     'fluorite',
-
+    'invar',
+    'signalum',
+    'lumium',
+    'enderium',
     'sulfur',
     'cinnabar',
     'niter',
