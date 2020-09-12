@@ -4,6 +4,14 @@
 $CLIENT_MODS = @(
 	"AmbientSounds")
 
+$CONFIGS_TO_REMOVE = @(
+	"jei", 
+	"defaultoptions/options.txt",
+	"pneumaticcraft/ArmorFeatureStatus.cfg",
+	"pneumaticcraft/PneumaticArmorHUDLayout.cfg",
+	"betteradvancements-client.toml",
+	"craftingtweaks-client.toml",
+	"extremesoundmuffler-client.toml")
 	
 # =====================================================================//
 #  CURSEFORGE SETTINGS
