@@ -258,7 +258,7 @@
 
 ["Certus Quartz Ore"]
 	#Activate/Deactivate the World Gen [Default: true]
-	Active = true
+	Active = false
 	#Minimum Y-Level [Default: 0]
 	#Range: 0 ~ 128
 	Minimum = 20
@@ -274,7 +274,7 @@
 
 ["Charged Certus Quartz Ore"]
 	#Activate/Deactivate the World Gen [Default: true]
-	Active = true
+	Active = false
 	#Minimum Y-Level [Default: 0]
 	#Range: 0 ~ 128
 	Minimum = 0
