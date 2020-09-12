@@ -105,7 +105,11 @@ events.listen('recipes', function (event) {
                 }
             },
             ['minecraft:book', '#forge:bookshelves']
-        )
+        ),
+        shapelessRecipe(item.of('patchouli:guide_book', { 'patchouli:book': 'patchouli:modded_for_dummies' }), [
+            'minecraft:book',
+            '#forge:dyes/yellow'
+        ])
     ];
 
     recipes.forEach(function (recipe) {

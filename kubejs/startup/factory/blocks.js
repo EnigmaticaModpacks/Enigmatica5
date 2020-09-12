@@ -1,8 +1,7 @@
 events.listen('block.registry', function (event) {
-    for (var i = 0; i < materials.length; i++) {
-        for (var j = 0; j < materials[i].blockParts.length; j++) {
-            var block = materials[i].blockParts[j];
-            var registryName = materials[i].name + '_' + block.name;
+    materials.forEach(function (material) {
+        material.blockParts.forEach(function (block) {
+            var registryName = material.name + '_' + block.name;
 
             event
                 .create(registryName)
@@ -11,6 +10,20 @@ events.listen('block.registry', function (event) {
                 .harvestTool(block.harvestTool, block.harvestLevel)
                 .hardness(block.hardness)
                 .resistance(block.resistance);
-        }
-    }
+        });
+    });
+
+    // oreStoneVariants.forEach(function (stoneVariant) {
+    //     oreVariants.forEach(function (oreVariant) {
+    //         var registryName = stoneVariant + '_' + oreVariant.name + '_ore';
+    //         var block = oreVariant.blockParts[0];
+    //         event
+    //             .create(registryName)
+    //             .texture('kubejs:block/' + registryName)
+    //             .material(block.material)
+    //             .harvestTool(block.harvestTool, block.harvestLevel)
+    //             .hardness(block.hardness)
+    //             .resistance(block.resistance);
+    //     });
+    // });
 });

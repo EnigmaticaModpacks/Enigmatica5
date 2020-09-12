@@ -10,7 +10,7 @@ events.listen('recipes', function (event) {
             X: '#forge:circuits/basic',
             C: 'industrialforegoing:fluid_extractor'
         }),
-        shapedRecipe('minecraft:stick 16', ['L', 'L'], {
+        shapedRecipe(item.of('minecraft:stick', 16), ['A', 'A'], {
             A: '#minecraft:logs'
         }),
 
@@ -19,45 +19,10 @@ events.listen('recipes', function (event) {
             B: '#minecraft:logs'
         }),
         shapedRecipe('refinedstorageaddons:wireless_crafting_grid', ['ABA', 'ACA', 'ADA'], {
-            A: '#refinedstorage:quartz_enriched_iron',
+            A: 'refinedstorage:quartz_enriched_iron',
             B: 'refinedstorage:range_upgrade',
             C: 'refinedstorage:wireless_grid',
             D: 'minecraft:crafting_table'
-        }),
-        shapedRecipe('powah:reactor_starter', ['ABA', 'BCB', 'ABA'], {
-            A: '#forge:ingots/radioactive',
-            B: 'powah:capacitor_basic_tiny',
-            C: 'powah:dielectric_casing'
-        }),
-        shapedRecipe('powah:reactor_basic', ['ABA', 'BCB', 'ABA'], {
-            A: '#forge:ingots/radioactive',
-            B: 'powah:capacitor_basic_large',
-            C: 'powah:dielectric_casing'
-        }),
-        shapedRecipe('powah:reactor_hardened', ['ABA', 'BCB', 'ABA'], {
-            A: '#forge:ingots/radioactive',
-            B: 'powah:capacitor_hardened',
-            C: 'powah:dielectric_casing'
-        }),
-        shapedRecipe('powah:reactor_blazing', ['ABA', 'BCB', 'ABA'], {
-            A: '#forge:ingots/radioactive',
-            B: 'powah:capacitor_blazing',
-            C: 'powah:dielectric_casing'
-        }),
-        shapedRecipe('powah:reactor_niotic', ['ABA', 'BCB', 'ABA'], {
-            A: '#forge:ingots/radioactive',
-            B: 'powah:capacitor_niotic',
-            C: 'powah:dielectric_casing'
-        }),
-        shapedRecipe('powah:reactor_spirited', ['ABA', 'BCB', 'ABA'], {
-            A: '#forge:ingots/radioactive',
-            B: 'powah:capacitor_spirited',
-            C: 'powah:dielectric_casing'
-        }),
-        shapedRecipe('powah:reactor_nitro', ['ABA', 'BCB', 'ABA'], {
-            A: '#forge:ingots/radioactive',
-            B: 'powah:capacitor_nitro',
-            C: 'powah:dielectric_casing'
         }),
         shapedRecipe('simplefarming:fish_and_chips', [' A ', 'BCB', ' A '], {
             A: '#forge:crops/potato',
@@ -67,20 +32,40 @@ events.listen('recipes', function (event) {
         shapedRecipe('minecraft:furnace', ['LLL', 'L L', 'LLL'], {
             L: '#forge:stone'
         }),
-        shapedRecipe('', ['LLL', 'LLL', 'LLL'], {
-            A: '#minecraft:logs',
-            B: '',
-            C: ''
+        shapedRecipe('minecraft:tube_coral_block', ['AA', 'AA'], {
+            A: 'minecraft:tube_coral_fan'
         }),
-        shapedRecipe('', ['LLL', 'LLL', 'LLL'], {
-            A: '#minecraft:logs',
-            B: '',
-            C: ''
+        shapedRecipe('minecraft:brain_coral_block', ['AA', 'AA'], {
+            A: 'minecraft:brain_coral_fan'
         }),
-        shapedRecipe('', ['LLL', 'LLL', 'LLL'], {
-            L: '#minecraft:logs',
-            B: '',
-            C: ''
+        shapedRecipe('minecraft:bubble_coral_block', ['AA', 'AA'], {
+            A: 'minecraft:bubble_coral_fan'
+        }),
+        shapedRecipe('minecraft:fire_coral_block', ['AA', 'AA'], {
+            A: 'minecraft:fire_coral_fan'
+        }),
+        shapedRecipe('minecraft:horn_coral_block', ['AA', 'AA'], {
+            A: 'minecraft:horn_coral_fan'
+        }),
+        shapedRecipe('minecraft:tube_coral_block', ['AA', 'AA'], {
+            A: 'minecraft:tube_coral'
+        }),
+        shapedRecipe('minecraft:brain_coral_block', ['AA', 'AA'], {
+            A: 'minecraft:brain_coral'
+        }),
+        shapedRecipe('minecraft:bubble_coral_block', ['AA', 'AA'], {
+            A: 'minecraft:bubble_coral'
+        }),
+        shapedRecipe('minecraft:fire_coral_block', ['AA', 'AA'], {
+            A: 'minecraft:fire_coral'
+        }),
+        shapedRecipe('minecraft:horn_coral_block', ['AA', 'AA'], {
+            A: 'minecraft:horn_coral'
+        }),
+        shapedRecipe('tetra:stonecutter', [' CC', 'ACC', 'BA '], {
+            A: 'tetra:forged_bolt',
+            B: 'tetra:forged_beam',
+            C: 'tetra:metal_scrap'
         })
     ];
 

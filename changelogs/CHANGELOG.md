@@ -1,3 +1,104 @@
+## Enigmatica 5 - 0.6.0
+
+_Using Forge-1.15.2-31.2.36_ | _[Mod Updates](https://github.com/NillerMedDild/Enigmatica5/blob/master/changelogs/CHANGELOG_MODS_0.6.0.txt)_
+
+
+
+**TONS of changes have been made, a new world is required!**
+
+
+
+**Mod Additions**
+
+- Abnormals Core
+- Actually Useful Stonecutter
+- Astral Sorcery
+- BlockCarpentry
+- ColoredLanterns
+- Default World Type (Forge)
+- Drawers Tooltip
+- Emendatus Enigmatica
+- FTB GUI Library
+- Farmer's Delight
+- Integrated Crafting
+- Integrated Terminals
+- Integrated Tunnels
+- Macaw's Doors
+- Macaw's Trapdoors
+- More Overlays Updated
+- ObserverLib
+- Productive Bees
+- Project: Vibrant Journeys
+- TellMe
+- The Endergetic Expansion
+- Thermal Cultivation
+- Thermal Expansion
+- Thermal Foundation
+- Thermal Innovation
+- Thermal Locomotion
+- Tool Stats
+- Towers Of The Wild
+- Trash Cans
+- U Team Core
+- Useful Backpacks
+
+**Changes**
+
+- Added Modded for Dummies, a guide for players new to modded! (Credit Merlo & Rid for textures)
+- Ma Essentials: Disabled Warp commands (They can be re-enabled in the configs)
+- Ma Essentials: Increased cooldown of /back command to 5 minutes, from 3.
+- MineColonies: Decreased Villager update rate, for better performance.
+- New Main Menu (Credit Rid) [\#474](https://github.com/NillerMedDild/Enigmatica5/issues/474)
+- Occultism: Saplings can be bought in the Farming for Blockheads Market
+- Quark: Sign editing now requires an empty hand
+- Renewable Coral Blocks [\#462](https://github.com/NillerMedDild/Enigmatica5/issues/462)
+- Server: Changed default server type to TerraForged
+- Stone Catalysts: Added Astral Sorcery Marble to the list of stone-generator materials.
+- Tetra: Aura Repair for Nature's Aura Tetra Materials \(Credit Mickelus\) [\#459](https://github.com/NillerMedDild/Enigmatica5/issues/459)
+- Tetra: Botania-based materials now regenerates durability from mana.
+- Tetra: Buffed Elementium
+- Tetra: More datapack configuration [\#158](https://github.com/NillerMedDild/Enigmatica5/issues/158)
+- TorchMaster: Nerf Lamps \(More expensive recipes\) [\#289](https://github.com/NillerMedDild/Enigmatica5/issues/289)
+- Waystones: Disabled village Waystones, as multiple could generate per village
+
+**Bug Fixes**
+
+- 2 recipes for each powah reactor [\#433](https://github.com/NillerMedDild/Enigmatica5/issues/433)
+- Finish removing Prismarine dupe recipe again \(enrichment\) [\#444](https://github.com/NillerMedDild/Enigmatica5/issues/444)
+- Integrated Dynamics: Meneglin Biome generates with no decoration [\#427](https://github.com/NillerMedDild/Enigmatica5/issues/427)
+- Minecolonies Delivery man not fullfilling Pickup requests. [\#455](https://github.com/NillerMedDild/Enigmatica5/issues/455)
+- Obsidian duping with Mekanism [\#430](https://github.com/NillerMedDild/Enigmatica5/issues/430)
+- PassableFoliage pathing issues [\#456](https://github.com/NillerMedDild/Enigmatica5/issues/456)
+- PneumaticCraft: Blacklisted Programmable Controller from Neat (the health bar)
+- Random crash while opening an Integrated Dynamics Display Panel [\#435](https://github.com/NillerMedDild/Enigmatica5/issues/435)
+- Refined Storage Wireless Crafting Grid Duplicates Items [\#437](https://github.com/NillerMedDild/Enigmatica5/issues/437)
+- Signs [\#438](https://github.com/NillerMedDild/Enigmatica5/issues/438)
+- Stonecutter Dupes [\#446](https://github.com/NillerMedDild/Enigmatica5/issues/446)
+- Tetra bow with zero second draw speed causes world to stop rendering [\#460](https://github.com/NillerMedDild/Enigmatica5/issues/460)
+- Torchmaster Feral Flare and Frozen Pearl tooltips seems to be broken [\#351](https://github.com/NillerMedDild/Enigmatica5/issues/351)
+
+**Mod Removals**
+
+- Ambient Environment (The environment is plenty ambient)
+- DefaultSettings (Unused, as it was only meant to be used for packmodes)
+- Equipment Tooltips (Replaced)
+- Fx Control (Unused)
+- Garden Tools (Hoe enchants can do similar things)
+- In Control (Unused)
+- Iron Jetpacks
+- Item Filters (Tried to remove it several times already, hopefully this does the trick)
+- Light Overlays (Replaced by More Overlays)
+- Ma Essentials (A bit cheaty)
+- Ore Veins (Sorta replaced by Emendatus Enigmatica)
+- PackingTape (Other options)
+- Passable Foliage (Design choice, negative user feedback)
+- Simply Backpacks (Replaced by Useful Backpacks)
+- StepUp (Other options)
+
+**Known Issues**
+
+- Thermal Machines produce Thermal ingots, dusts etc, we're working on unifying them.
+
 ## Enigmatica 5 - 0.5.5
 
 _Using Forge-1.15.2-31.2.30_ | _[Mod Updates](https://github.com/NillerMedDild/Enigmatica5/blob/master/changelogs/CHANGELOG_MODS_0.5.5.txt)_

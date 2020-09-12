@@ -1,0 +1,213 @@
+{
+  "rivers": {
+    "riverCount": 19,
+    "wetlands": {
+      "chance": 0.541,
+      "sizeMax": 209,
+      "sizeMin": 153
+    },
+    "branchRivers": {
+      "fade": 0.949,
+      "maxBankHeight": 6,
+      "minBankHeight": 1,
+      "bedDepth": 5,
+      "bankWidth": 16,
+      "bedWidth": 6
+    },
+    "mainRivers": {
+      "fade": 0.814,
+      "maxBankHeight": 8,
+      "minBankHeight": 2,
+      "bedDepth": 8,
+      "bankWidth": 25,
+      "bedWidth": 10
+    },
+    "lakes": {
+      "chance": 0.128,
+      "depth": 12,
+      "maxBankHeight": 10,
+      "minBankHeight": 1,
+      "maxStartDistance": 0.126,
+      "sizeMax": 100,
+      "minStartDistance": 0.0,
+      "sizeMin": 65
+    }
+  },
+  "miscellaneous": {
+    "vanillaSprings": "true",
+    "vanillaLakes": "false",
+    "strataDecorator": "true",
+    "vanillaLavaLakes": "false",
+    "naturalSnowDecorator": "true",
+    "smoothLayerDecorator": "true",
+    "mountainBiomeUsage": 0.0,
+    "erosionDecorator": "true",
+    "customBiomeFeatures": "true"
+  },
+  "world": {
+    "continent": {
+      "continentMode": "MULTI",
+      "continentShape": "NATURAL",
+      "continentScale": 1963
+    },
+    "controlPoints": {
+      "coast": 0.398,
+      "beach": 0.314,
+      "shallowOcean": 0.208,
+      "inland": 0.442,
+      "deepOcean": 0.1
+    },
+    "properties": {
+      "spawnType": "CONTINENT_CENTER",
+      "seaLevel": 63,
+      "worldHeight": 256
+    }
+  },
+  "structures": {
+    "strongholds": {
+      "distance": 22,
+      "separation": 20
+    },
+    "oceanMonuments": {
+      "distance": 24,
+      "separation": 12
+    },
+    "mansions": {
+      "distance": 80,
+      "separation": 20
+    },
+    "villages": {
+      "distance": 20,
+      "separation": 16
+    },
+    "otherStructures": {
+      "distance": 32,
+      "separation": 8
+    },
+    "shipwrecks": {
+      "distance": 20,
+      "separation": 10
+    },
+    "oceanRuins": {
+      "distance": 20,
+      "separation": 10
+    }
+  },
+  "climate": {
+    "biomeShape": {
+      "biomeWarpStrength": 80,
+      "biomeSize": 151,
+      "macroNoiseSize": 5,
+      "biomeWarpScale": 150
+    },
+    "temperature": {
+      "falloff": 2,
+      "min": 0.0,
+      "max": 1.0,
+      "bias": 0.05,
+      "scale": 6
+    },
+    "moisture": {
+      "falloff": 2,
+      "min": 0.0,
+      "max": 1.0,
+      "bias": 0.028,
+      "scale": 5
+    },
+    "biomeEdgeShape": {
+      "octaves": 2,
+      "strength": 72,
+      "scale": 24,
+      "type": "SIMPLEX",
+      "lacunarity": 2.65,
+      "gain": 0.5
+    }
+  },
+  "filters": {
+    "erosion": {
+      "dropletVelocity": 0.699,
+      "dropletLifetime": 25,
+      "erosionRate": 0.5,
+      "dropletVolume": 0.699,
+      "depositeRate": 0.5,
+      "iterations": 15000
+    },
+    "smoothing": {
+      "smoothingRadius": 1.75,
+      "smoothingRate": 0.85,
+      "iterations": 1
+    }
+  },
+  "terrain": {
+    "badlands": {
+      "baseScale": 1.0,
+      "verticalScale": 1.082,
+      "horizontalScale": 1.0,
+      "weight": 1.546
+    },
+    "general": {
+      "globalVerticalScale": 0.98,
+      "globalHorizontalScale": 1.0,
+      "terrainRegionSize": 816
+    },
+    "mountains": {
+      "baseScale": 1.149,
+      "verticalScale": 1.261,
+      "horizontalScale": 1.0,
+      "weight": 2.111
+    },
+    "dales": {
+      "baseScale": 1.0,
+      "verticalScale": 1.0,
+      "horizontalScale": 1.0,
+      "weight": 2.0
+    },
+    "plains": {
+      "baseScale": 1.0,
+      "verticalScale": 1.029,
+      "horizontalScale": 1.0,
+      "weight": 1.906
+    },
+    "hills": {
+      "baseScale": 1.0,
+      "verticalScale": 1.133,
+      "horizontalScale": 1.0,
+      "weight": 2.0
+    },
+    "plateau": {
+      "baseScale": 1.0,
+      "verticalScale": 1.235,
+      "horizontalScale": 1.0,
+      "weight": 2.085
+    },
+    "torridonian": {
+      "baseScale": 1.118,
+      "verticalScale": 1.391,
+      "horizontalScale": 1.0,
+      "weight": 2.036
+    },
+    "volcano": {
+      "baseScale": 1.0,
+      "verticalScale": 1.0,
+      "horizontalScale": 1.0,
+      "weight": 1.5
+    },
+    "steppe": {
+      "baseScale": 1.0,
+      "verticalScale": 1.159,
+      "horizontalScale": 1.0,
+      "weight": 1.855
+    }
+  },
+  "dimensions": {
+    "bedrockLayer": {
+      "minDepth": 1,
+      "material": "minecraft:bedrock",
+      "variance": 4
+    },
+    "dimensions": {
+      "nether": "default",
+      "end": "default"
+    }
+  }
+}

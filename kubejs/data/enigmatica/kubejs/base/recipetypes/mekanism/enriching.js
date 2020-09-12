@@ -1,7 +1,5 @@
 events.listen('recipes', function (event) {
     var output = 'rftoolsbase:dimensionalshard';
-    var count = 8;
-
     event.recipes.mekanism.enriching({
         input: {
             ingredient: {
@@ -10,7 +8,7 @@ events.listen('recipes', function (event) {
         },
         output: {
             item: output,
-            count: count
+            count: 8
         }
     });
 });

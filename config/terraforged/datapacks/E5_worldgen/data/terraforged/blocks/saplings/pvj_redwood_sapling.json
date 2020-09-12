@@ -1,0 +1,17 @@
+{
+  "type": "terraforged:sapling",
+  "sapling": "projectvibrantjourneys:redwood_sapling",
+  "normal": {
+    "terraforged:pvj_redwood_small": {
+      "weight": 2
+    },
+    "terraforged:pvj_redwood_medium": {
+      "weight": 1
+    }
+  },
+  "giant": {
+    "terraforged:pvj_redwood_huge": {
+      "weight": 1
+    }
+  }
+}

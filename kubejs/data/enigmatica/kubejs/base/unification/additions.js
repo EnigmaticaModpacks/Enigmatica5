@@ -1,7 +1,10 @@
 //priority: 975
 events.listen('recipes', function (event) {
     materialsToUnify.forEach(function (material) {
+        console.log('Unifying ' + material + '...');
         enigmatica_ore_deposit_processing(event, material);
+        immersiveengineering_gem_ore_processing(event, material);
+        //occultism_ore_ingot_crushing(event, material);
     });
 });
 
@@ -14,11 +17,11 @@ function enigmatica_ore_deposit_processing(event, material) {
     var dustTag = ingredient.of('#forge:dusts/' + material);
     var dust = getPreferredItemInTag(dustTag).id;
 
-    if (oreDeposit === air || dust === air) {
+    if (oreDeposit == air || dust == air) {
         return;
     }
 
-    if (nuggetTag.first.id === air) {
+    if (nuggetTag.first.id == air) {
         event.recipes.minecraft.smelting(dustTag, oreDepositTag).xp(1.0);
         event.recipes.minecraft.blasting(dustTag, oreDepositTag).xp(1.0);
     } else {
@@ -83,50 +86,32 @@ function enigmatica_ore_deposit_processing(event, material) {
     });
 }
 
-function occultism_ore_ingot_crushing(event, material) {
-    var blacklistedMaterials = ['redstone', 'lapis', 'emerald', 'diamond', 'quartz', 'coal'];
-    if (blacklistedMaterials.includes(material)) {
-        return;
-    }
+function immersiveengineering_gem_ore_processing(event, material) {
+    var gemTag = ingredient.of('#forge:gems/' + material);
+    var gem = getPreferredItemInTag(gemTag).id;
 
-    var oreDepositTag = ingredient.of('#forge:ore_deposits/' + material);
-    var oreDeposit = getPreferredItemInTag(oreDepositTag).id;
+    var oreTag = ingredient.of('#forge:ores/' + material);
+    var ore = getPreferredItemInTag(oreTag).id;
 
     var dustTag = ingredient.of('#forge:dusts/' + material);
     var dust = getPreferredItemInTag(dustTag).id;
 
-    var ingotTag = ingredient.of('#forge:ingots/' + material);
-    var ingot = getPreferredItemInTag(ingotTag).id;
-
-    if (oreDeposit === air || dust === air) {
+    if (gem == air || dust == air) {
         return;
     }
 
-    event.recipes.occultism.crushing({
-        ingredient: {
-            tag: 'forge:ores/' + material
-        },
-
+    event.recipes.immersiveengineering.crusher({
+        secondaries: [],
         result: {
-            item: dust,
-            count: 2
+            item: dust
         },
-        crushing_time: 200
+        input: {
+            tag: 'forge:gems/' + material
+        },
+        energy: 2000
     });
 
-    if (ingot === air) {
+    if (ore == air) {
         return;
     }
-
-    event.recipes.occultism.crushing({
-        ingredient: {
-            tag: 'forge:ingots/' + material
-        },
-
-        result: {
-            item: dust,
-            count: 1
-        },
-        crushing_time: 200
-    });
 }

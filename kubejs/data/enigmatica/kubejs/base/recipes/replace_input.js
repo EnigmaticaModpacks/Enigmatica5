@@ -58,4 +58,15 @@ events.listen('recipes', function (event) {
     colors.forEach(function (color) {
         event.replaceInput({}, 'minecraft:' + color + '_dye', '#forge:dyes/' + color);
     });
+
+    event.replaceInput({ type: 'minecraft:crafting_shaped' }, 'powah:uraninite', '#forge:ingots/radioactive');
+
+    event.replaceInput({}, 'refinedstorage:silicon', '#forge:silicon');
+
+    event.replaceInput({}, 'astralsorcery:marble_raw', '#forge:stones/marble');
+
+    event.replaceInput({}, 'thermal:cinnabar', '#forge:gems/cinnabar');
+    event.replaceInput({}, 'thermal:sulfur', '#forge:gems/sulfur');
+    event.replaceInput({}, 'thermal:apatite', '#forge:gems/apatite');
+    event.replaceInput({}, 'thermal:niter', '#forge:gems/niter');
 });

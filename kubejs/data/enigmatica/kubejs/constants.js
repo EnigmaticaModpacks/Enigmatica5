@@ -1,4 +1,8 @@
-//priority: 1000
+//priority: 1001
+
+function unificationBlacklistEntry(material, type) {
+    return { material: material, type: type };
+}
 
 var air = 'minecraft:air';
 
@@ -7,6 +11,9 @@ var oreDimensional = [
     'rftoolsbase:dimensionalshard_nether',
     'rftoolsbase:dimensionalshard_end'
 ];
+var createStoneTypes = ['limestone', 'weathered_limestone', 'dolomite', 'gabbro', 'scoria', 'dark_scoria'];
+
+var stoneTypes = ['granite', 'diorite', 'andesite', 'marble', 'limestone', 'jasper', 'slate', 'basalt'];
 
 var oreUraninite = ['powah:uraninite_ore_poor', 'powah:uraninite_ore', 'powah:uraninite_ore_dense'];
 
@@ -49,7 +56,6 @@ var typesToUnify = [
 var materialsToUnify = [
     'iron',
     'gold',
-    'neptunium',
     'copper',
     'silver',
     'zinc',
@@ -62,31 +68,55 @@ var materialsToUnify = [
     'uranium',
     'bronze',
     'electrum',
+    'constantan',
     'steel',
-
+    'osmium',
     'diamond',
     'lapis',
     'emerald',
     'quartz',
     'coal',
+    'charcoal',
+    'obsidian',
+    'ender',
+    'fluix',
+    'saltpeter',
+    'fluorite',
+    'invar',
+    'signalum',
+    'lumium',
+    'enderium',
+    'sulfur',
+    'cinnabar',
+    'niter',
+    'apatite',
 
     'redstone',
     'glowstone'
 ];
 
+var unificationBlacklist = [
+    unificationBlacklistEntry('quartz', 'gem'),
+    unificationBlacklistEntry('quartz', 'storage_block')
+];
+
 var modPriorities = [
+    'emendatusenigmatica',
     'minecraft',
     'immersiveengineering',
     'create',
     'mekanism',
     'jaopca',
     'kubejs',
+    'thermal',
     'pneumaticcraft',
     'occultism',
     'tmechworks',
     'industrialforegoing',
     'botania',
-    'quark'
+    'quark',
+    'pedestals',
+    'productivebees'
 ];
 
 var vanillaWoodTypes = ['oak', 'birch', 'spruce', 'jungle', 'acacia', 'dark_oak'];
