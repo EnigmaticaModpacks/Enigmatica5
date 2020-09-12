@@ -1,6 +1,7 @@
 param(
 	[PSObject]
 $CLIENT_MODS = @(
+	"AmbientSounds",
 	"AppleSkin", 
 	"BetterAdvancements",
 	"ClientTweaks",
@@ -22,7 +23,8 @@ $CLIENT_MODS = @(
 	"ToastControl", 
 	"toughnessbar", 
 	"Xaeros_Minimap", 
-	"XaerosWorldMap")
+	"XaerosWorldMap",
+	"moreoverlays")
 
 $ModFolder = "$PSScriptRoot/mods"
 
