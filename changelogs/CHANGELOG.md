@@ -38,6 +38,12 @@ _Using Forge-1.15.2-31.2.36_ | _[Mod Updates](https://github.com/NillerMedDild/E
 - StepUp (Other options)
 - Equipment Tooltips (Replaced)
 - PackingTape (Other options)
+- Light Overlays (Replaced by More Overlays)
+- Wither Skeleton Tweaks 
+
+**Known Issues**
+
+- Thermal Machines produce Thermal ingots, dusts etc, we're working on unifying them.
 
 ## Enigmatica 5 - 0.5.5
 
