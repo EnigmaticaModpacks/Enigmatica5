@@ -2,6 +2,12 @@
 
 _Using Forge-1.15.2-31.2.36_ | _[Mod Updates](https://github.com/NillerMedDild/Enigmatica5/blob/master/changelogs/CHANGELOG_MODS_0.6.0.txt)_
 
+
+
+**Tons of changes have been made, a new world is highly recommended!**
+
+
+
 **Mod Additions**
 
 - Tool Stats
@@ -17,6 +23,7 @@ _Using Forge-1.15.2-31.2.36_ | _[Mod Updates](https://github.com/NillerMedDild/E
 - MineColonies: Decreased Villager update rate, for better performance.
 - Tetra: Buffed Elementium
 - Tetra: Botania-based materials now regenerates durability from mana. 
+- 
 
 **Bug Fixes**
 
