@@ -88,7 +88,6 @@ _Using Forge-1.15.2-31.2.36_ | _[Mod Updates](https://github.com/NillerMedDild/E
 - Iron Jetpacks
 - Item Filters (Tried to remove it several times already, hopefully this does the trick)
 - Light Overlays (Replaced by More Overlays)
-- Ma Essentials (A bit cheaty)
 - Ore Veins (Sorta replaced by Emendatus Enigmatica)
 - PackingTape (Other options)
 - Passable Foliage (Design choice, negative user feedback)
