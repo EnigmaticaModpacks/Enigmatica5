@@ -121,7 +121,7 @@
 	[Commands.suicide]
 		enable_player = true
 		#Enable command: /suicide
-		enable = true
+		enable = false
 		#Range: > 0
 		cooldown_player = 20
 
