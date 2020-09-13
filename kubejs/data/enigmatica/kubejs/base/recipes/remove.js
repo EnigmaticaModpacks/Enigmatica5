@@ -5,7 +5,7 @@ events.listen('recipes', function (event) {
 
     var outputRemovals = [
         'akashictome:tome',
-
+        'vanillaexcavators:stone_excavator',
         'mekanism:combiner',
         'mekanism:basic_combining_factory',
         'mekanism:advanced_combining_factory',

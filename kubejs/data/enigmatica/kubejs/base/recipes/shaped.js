@@ -66,6 +66,10 @@ events.listen('recipes', function (event) {
             A: 'tetra:forged_bolt',
             B: 'tetra:forged_beam',
             C: 'tetra:metal_scrap'
+        }),
+        shapedRecipe('vanillaexcavators:stone_excavator', ['B', 'A', 'A'], {
+            A: '#forge:rods/wooden',
+            B: 'kubejs:compressed_cobblestone_1x'
         })
     ];
 
