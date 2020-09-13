@@ -30,7 +30,7 @@
   "isUnlocked": true,
   "javaArgsOverride": null,
   "javaDirOverride": null,
-  "lastPlayed": "2020-09-12T20:16:12.1390459Z",
+  "lastPlayed": "2020-09-13T18:29:45.4681291Z",
   "manifest": null,
   "fileDate": "0001-01-01T00:00:00",
   "installedModpack": null,
@@ -2987,21 +2987,6 @@
       "fileSize": 5445
     },
     {
-      "folderName": "snowundertrees-1.15.2-v1.1.1.jar",
-      "fingerprint": 2966436560,
-      "fileDateHash": 651420926,
-      "sectionID": 8,
-      "individualFingerprints": [
-        2966436560
-      ],
-      "status": 1,
-      "timestamp": "2020-05-19T18:38:45.854076Z",
-      "lastWriteTimeUtc": "2020-05-19T18:17:46.8047438Z",
-      "queryTimestamp": "2020-09-12T21:48:29.679181Z",
-      "fileCount": 1,
-      "fileSize": 15202
-    },
-    {
       "folderName": "New World (3)",
       "fingerprint": 4167927626,
       "fileDateHash": 1310423796,
@@ -5813,7 +5798,7 @@
       "dateInstalled": "2020-09-12T17:32:05.9295389Z",
       "dateUpdated": "2020-09-12T18:09:59.8379576Z",
       "dateLastUpdateAttempted": "2020-09-12T18:09:59.8379576Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -6535,7 +6520,7 @@
       "dateInstalled": "2020-09-08T11:11:16.9576376Z",
       "dateUpdated": "2020-09-12T07:47:01.8575471Z",
       "dateLastUpdateAttempted": "2020-09-12T07:47:01.8575471Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -7454,7 +7439,7 @@
       "dateInstalled": "2020-09-08T11:11:17.7185877Z",
       "dateUpdated": "2020-09-12T07:46:36.322589Z",
       "dateLastUpdateAttempted": "2020-09-12T07:46:36.322589Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -12300,85 +12285,66 @@
       "addonID": 255902,
       "gameInstanceID": "9bea8014-8271-438f-a7d3-e4243f882f2a",
       "installedFile": {
-        "id": 2856534,
-        "displayName": "WitherSkeletonTweaks-1.15.1-4.0.0.jar",
-        "fileName": "WitherSkeletonTweaks-1.15.1-4.0.0.jar",
-        "fileDate": "2020-01-08T01:02:11.523Z",
-        "fileLength": 23313,
+        "id": 3055860,
+        "displayName": "WitherSkeletonTweaks-1.15.2-4.0.2.jar",
+        "fileName": "WitherSkeletonTweaks-1.15.2-4.0.2.jar",
+        "fileDate": "2020-09-13T00:34:58.173Z",
+        "fileLength": 23836,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2856/534/WitherSkeletonTweaks-1.15.1-4.0.0.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/3055/860/WitherSkeletonTweaks-1.15.2-4.0.2.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [
           {
-            "id": 36421019,
+            "id": 0,
             "addonId": 283644,
             "type": 3,
-            "fileId": 2856534
+            "fileId": 0
           }
         ],
         "isAvailable": true,
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 3610999240,
-            "type": 3
+            "fingerprint": 2625522002,
+            "type": 0
           },
           {
             "foldername": "shadows",
-            "fingerprint": 1013950858,
-            "type": 3
+            "fingerprint": 1794173746,
+            "type": 0
           },
           {
             "foldername": "assets",
-            "fingerprint": 261627687,
-            "type": 3
+            "fingerprint": 289773037,
+            "type": 0
           },
           {
             "foldername": "pack.mcmeta",
             "fingerprint": 13905160,
-            "type": 3
+            "type": 0
           }
         ],
-        "packageFingerprint": 502794257,
+        "packageFingerprint": 2990812018,
         "gameVersion": [
-          "1.15.2",
-          "1.15.1"
-        ],
-        "sortableGameVersion": [
-          {
-            "gameVersionPadded": "0000000001.0000000015.0000000002",
-            "gameVersion": "1.15.2",
-            "gameVersionReleaseDate": "2020-01-22T00:00:00Z",
-            "gameVersionName": "1.15.2"
-          },
-          {
-            "gameVersionPadded": "0000000001.0000000015.0000000001",
-            "gameVersion": "1.15.1",
-            "gameVersionReleaseDate": "2019-12-17T00:00:00Z",
-            "gameVersionName": "1.15.1"
-          }
+          "1.15.2"
         ],
         "hasInstallScript": false,
         "isCompatibleWithClient": false,
-        "categorySectionPackageType": 6,
-        "restrictProjectFileAccess": 1,
-        "projectStatus": 4,
-        "renderCacheId": 1737998,
-        "projectId": 255902,
-        "packageFingerprintId": 395391473,
-        "gameVersionDateReleased": "2019-12-17T00:00:00Z",
-        "gameVersionMappingId": 2055541,
-        "gameVersionId": 7675,
-        "gameId": 432,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
+        "gameVersionDateReleased": "2020-01-22T00:00:00Z",
+        "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "WitherSkeletonTweaks-1.15.1-4.0.0.jar"
+        "FileNameOnDisk": "WitherSkeletonTweaks-1.15.2-4.0.2.jar"
       },
       "dateInstalled": "2020-03-28T09:44:06.1422535Z",
-      "dateUpdated": "2019-03-28T09:44:06.1422535Z",
-      "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 5,
+      "dateUpdated": "2020-09-13T18:29:29.1142131Z",
+      "dateLastUpdateAttempted": "2020-09-13T18:29:29.1142131Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -12692,69 +12658,6 @@
       "dateInstalled": "2020-02-02T19:16:09.1134485Z",
       "dateUpdated": "2020-06-23T20:58:48.7661255Z",
       "dateLastUpdateAttempted": "2020-06-23T20:58:48.7661255Z",
-      "status": 5,
-      "preferenceAutoInstallUpdates": false,
-      "preferenceAlternateFile": false,
-      "preferenceIsIgnored": false,
-      "isModified": false,
-      "isWorkingCopy": false,
-      "isFuzzyMatch": false,
-      "preferenceReleaseType": null,
-      "manifestName": null,
-      "installedTargets": null
-    },
-    {
-      "addonID": 353942,
-      "gameInstanceID": "9bea8014-8271-438f-a7d3-e4243f882f2a",
-      "installedFile": {
-        "id": 2960592,
-        "displayName": "snowundertrees-1.15.2-v1.1.1.jar",
-        "fileName": "snowundertrees-1.15.2-v1.1.1.jar",
-        "fileDate": "2020-05-19T10:45:20.397Z",
-        "fileLength": 15202,
-        "releaseType": 1,
-        "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2960/592/snowundertrees-1.15.2-v1.1.1.jar",
-        "isAlternate": false,
-        "alternateFileId": 0,
-        "dependencies": [],
-        "isAvailable": true,
-        "modules": [
-          {
-            "foldername": "META-INF",
-            "fingerprint": 3742181077,
-            "type": 0
-          },
-          {
-            "foldername": "bl4ckscor3",
-            "fingerprint": 3299607572,
-            "type": 0
-          },
-          {
-            "foldername": "pack.mcmeta",
-            "fingerprint": 524945892,
-            "type": 0
-          }
-        ],
-        "packageFingerprint": 2966436560,
-        "gameVersion": [
-          "Forge",
-          "1.15.2"
-        ],
-        "hasInstallScript": false,
-        "isCompatibleWithClient": false,
-        "categorySectionPackageType": 0,
-        "restrictProjectFileAccess": 0,
-        "projectStatus": 0,
-        "projectId": 0,
-        "gameVersionDateReleased": "2008-03-01T06:00:00Z",
-        "gameId": 0,
-        "isServerPack": false,
-        "FileNameOnDisk": "snowundertrees-1.15.2-v1.1.1.jar"
-      },
-      "dateInstalled": "2020-05-14T20:50:21.2017778Z",
-      "dateUpdated": "2020-05-19T18:17:46.8577672Z",
-      "dateLastUpdateAttempted": "2020-05-19T18:17:46.8577672Z",
       "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
@@ -17170,7 +17073,7 @@
       "dateInstalled": "2020-03-28T09:44:06.1482311Z",
       "dateUpdated": "2020-09-12T18:09:54.9571787Z",
       "dateLastUpdateAttempted": "2020-09-12T18:09:54.9571787Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -18313,16 +18216,16 @@
       "addonID": 245506,
       "gameInstanceID": "9bea8014-8271-438f-a7d3-e4243f882f2a",
       "installedFile": {
-        "id": 3054683,
-        "displayName": "minecolonies-0.13.247-ALPHA-universal.jar",
-        "fileName": "minecolonies-0.13.247-ALPHA-universal.jar",
-        "fileDate": "2020-09-11T17:09:59.753Z",
-        "fileLength": 32672215,
+        "id": 3056249,
+        "displayName": "minecolonies-0.13.251-ALPHA-universal.jar",
+        "fileName": "minecolonies-0.13.251-ALPHA-universal.jar",
+        "fileDate": "2020-09-13T15:35:15.523Z",
+        "fileLength": 32673373,
         "releaseType": 3,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/3054/683/minecolonies-0.13.247-ALPHA-universal.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/3056/249/minecolonies-0.13.251-ALPHA-universal.jar",
         "isAlternate": false,
-        "alternateFileId": 3054684,
+        "alternateFileId": 3056250,
         "dependencies": [
           {
             "id": 0,
@@ -18335,31 +18238,31 @@
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 2631341534,
+            "fingerprint": 85637723,
             "type": 0
           },
           {
             "foldername": "com",
-            "fingerprint": 521084888,
-            "type": 0
-          },
-          {
-            "foldername": "assets",
-            "fingerprint": 1257828864,
+            "fingerprint": 3936111102,
             "type": 0
           },
           {
             "foldername": "data",
-            "fingerprint": 946358173,
+            "fingerprint": 3255767755,
             "type": 0
           },
           {
             "foldername": "pack.mcmeta",
             "fingerprint": 1355987511,
             "type": 0
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 12787681,
+            "type": 0
           }
         ],
-        "packageFingerprint": 1318146102,
+        "packageFingerprint": 1768248342,
         "gameVersion": [
           "1.15.2"
         ],
@@ -18372,12 +18275,12 @@
         "gameVersionDateReleased": "2008-03-01T06:00:00Z",
         "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "minecolonies-0.13.247-ALPHA-universal.jar"
+        "FileNameOnDisk": "minecolonies-0.13.251-ALPHA-universal.jar"
       },
       "dateInstalled": "2020-07-28T15:30:44.1670577Z",
-      "dateUpdated": "2020-09-11T17:33:46.5849466Z",
-      "dateLastUpdateAttempted": "2020-09-11T17:33:46.5849466Z",
-      "status": 5,
+      "dateUpdated": "2020-09-13T18:14:18.5322822Z",
+      "dateLastUpdateAttempted": "2020-09-13T18:14:18.5322822Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
