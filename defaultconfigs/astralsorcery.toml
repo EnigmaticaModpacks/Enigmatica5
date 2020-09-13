@@ -703,7 +703,7 @@
 			maxY = 160
 			#Set this to set the overall chance for this feature to generate. The higher, the rarer.
 			#Range: 1 ~ 200000
-			generationChance = 90
+			generationChance = 400
 			#Set the amount this feature tries to generate per chunk
 			#Range: 1 ~ 128
 			generationAmount = 1
@@ -736,7 +736,7 @@
 			maxY = 200
 			#Set this to set the overall chance for this feature to generate. The higher, the rarer.
 			#Range: 1 ~ 200000
-			generationChance = 140
+			generationChance = 250
 			#Set the amount this feature tries to generate per chunk
 			#Range: 1 ~ 128
 			generationAmount = 1
