@@ -109,7 +109,19 @@ events.listen('recipes', function (event) {
         shapelessRecipe(item.of('patchouli:guide_book', { 'patchouli:book': 'patchouli:modded_for_dummies' }), [
             'minecraft:book',
             '#forge:dyes/yellow'
-        ])
+        ]),
+        shapelessRecipe('kubejs:compressed_cobblestone_1x', [
+            '#forge:cobblestone',
+            '#forge:cobblestone',
+            '#forge:cobblestone',
+            '#forge:cobblestone',
+            '#forge:cobblestone',
+            '#forge:cobblestone',
+            '#forge:cobblestone',
+            '#forge:cobblestone',
+            '#forge:cobblestone'
+        ]),
+        shapelessRecipe(item.of('minecraft:cobblestone', 9), ['kubejs:compressed_cobblestone_1x'])
     ];
 
     recipes.forEach(function (recipe) {
