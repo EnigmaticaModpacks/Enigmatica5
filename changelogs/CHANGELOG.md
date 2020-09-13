@@ -1,3 +1,19 @@
+## Enigmatica 5 - 0.6.1
+
+_Using Forge-1.15.2-31.2.36_ | _[Mod Updates](https://github.com/NillerMedDild/Enigmatica5/blob/master/changelogs/CHANGELOG_MODS_0.6.1.txt)_
+
+**Changes**
+
+- 
+
+**Bug Fixes**
+
+- Fixes Granite being in worldgen, it was not meant to be.
+
+**Mod Removals**
+
+- Snow Under Trees (It is not needed with TerraForged)
+
 ## Enigmatica 5 - 0.6.0
 
 _Using Forge-1.15.2-31.2.36_ | _[Mod Updates](https://github.com/NillerMedDild/Enigmatica5/blob/master/changelogs/CHANGELOG_MODS_0.6.0.txt)_
@@ -93,10 +109,6 @@ _Using Forge-1.15.2-31.2.36_ | _[Mod Updates](https://github.com/NillerMedDild/E
 - Passable Foliage (Design choice, negative user feedback)
 - Simply Backpacks (Replaced by Useful Backpacks)
 - StepUp (Other options)
-
-**Known Issues**
-
-- Thermal Machines produce Thermal ingots, dusts etc, we're working on unifying them.
 
 ## Enigmatica 5 - 0.5.5
 
