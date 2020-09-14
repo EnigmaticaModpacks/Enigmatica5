@@ -5,7 +5,7 @@ events.listen('recipes', function (event) {
 
     var outputRemovals = [
         'akashictome:tome',
-        'vanillaexcavators:stone_excavator',
+
         'mekanism:combiner',
         'mekanism:basic_combining_factory',
         'mekanism:advanced_combining_factory',
@@ -17,7 +17,9 @@ events.listen('recipes', function (event) {
         'morevanillalib:obsidian_shard',
 
         'torchmaster:feral_flare_lantern',
-        'torchmaster:megatorch'
+        'torchmaster:megatorch',
+
+        'vanillaexcavators:stone_excavator'
     ];
 
     var idRemovals = [
