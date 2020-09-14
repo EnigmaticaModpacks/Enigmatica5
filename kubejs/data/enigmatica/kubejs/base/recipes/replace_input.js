@@ -69,4 +69,10 @@ events.listen('recipes', function (event) {
     event.replaceInput({}, 'thermal:sulfur', '#forge:gems/sulfur');
     event.replaceInput({}, 'thermal:apatite', '#forge:gems/apatite');
     event.replaceInput({}, 'thermal:niter', '#forge:gems/niter');
+
+    event.replaceInput(
+        { type: 'minecraft:crafting_shaped', output: 'minecraft:piston' },
+        '#forge:cobblestone',
+        '#quark:stone_tool_materials'
+    );
 });
