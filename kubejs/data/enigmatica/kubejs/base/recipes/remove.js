@@ -14,7 +14,10 @@ events.listen('recipes', function (event) {
 
         'minecraft:sticky_piston',
 
-        'morevanillalib:obsidian_shard'
+        'morevanillalib:obsidian_shard',
+
+        'torchmaster:feral_flare_lantern',
+        'torchmaster:megatorch'
     ];
 
     var idRemovals = [
