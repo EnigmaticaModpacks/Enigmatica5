@@ -1,8 +1,8 @@
 
 #General Settings
 [general]
-	#If set to true, dungeon crawl will use the old dungeon registry name. This will prevent errors when playing in worlds that have been used with Dungeon Crawl 1.4.0 or earlier before. If that is not the case, DO NOT activate this!
-	compatiblity_mode = false
+	#Enables the dungeon crawl tools.
+	enable_tools = false
 
 #Dungeon Settings
 [dungeon]
@@ -11,13 +11,8 @@
 	#The Probability of a spawner entity having a shield in the offhand.
 	#Range: 0.01 ~ 1.0
 	shield_probability = 0.25
-	#The size of the dungeons. (1 unit = 8 blocks)
-	#Range: 4 ~ 16
-	size = 16
 	#If set to true, the dungeon generation will ignore the biome blacklist and generate dungeons in any overworld biome.
 	ignore_overworld_blacklist = false
-	#Defines if bridges should be used in dungeons. (Bridges are built if there is a certain amout of air under a corridor segment.
-	build_bridges = true
 	#Determines if vanilla spawners or modified spawners with armor, weapons etc... should be used.
 	use_vanilla_spawners = false
 	#This value defines how many mobs do get spawned manually during the generation. (if no_spawners = true, there is no effect otherwise)
@@ -32,12 +27,14 @@
 	#The amount of extra rooms per dungeon layer. A random number in the range [0 ~ layer_extra_additions-1] will be used.
 	#Range: 1 ~ 24
 	layer_extra_additions = 6
+	#Set this to true if you want to prevent that the last layer of each dungeon will contain nether content.
+	no_nether_stuff = false
 
 #World Generation Settings
 [world_generation]
 	#The probability of a dungeon getting generated on each fitting chunk.
 	#Range: 1.0E-4 ~ 1.0
 	dungeon_probability = 0.26
-	#If set to true, the dungeon generation will ignore the dimension and use only the biome blacklists to determine generation eligibility.
+	#If this is set to false, no dungeons can be generated outside the overworld.
 	ignore_dimension = false
 

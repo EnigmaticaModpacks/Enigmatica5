@@ -1,33 +1,65 @@
 
 #Feature toggles; each of these will disable the registration of some content (items/enchants)
 [cyclic]
-	#Disable 5 sandstone tools
-	sandstoneGear = true
 	#Disable the endgame gear
 	gemObsidianGear = true
+	#Disable the cables aka pipes
+	cables = true
 	#Disable 9 items, emerald armor and tools
 	emeraldGear = true
+	#Disable the 3 scaffolding blocks
+	scaffolding = true
 	#Disable 5 netherbrick tools
 	netherbrickGear = true
 	#Disable the completely balanced climbing glove
 	glove = true
-	#Disable 2 heart items that increase and decrease max health
-	hearts = true
-	#Disable the 5 carrot items that upgrade horses
-	carrots = true
 	#Disable 6 charms (four basic, the ultimate, and the anti-gravity)
 	charms = true
 	#Disable all 11 enchantments
 	enchantments = true
+	#Disable 5 sandstone tools
+	sandstoneGear = true
+	#Disable the 3 boomerang items
+	boomerangs = true
+	#Disable the 3 spike blocks
+	spikes = true
+	#Disable 2 heart items that increase and decrease max health
+	hearts = true
+	#Disable the 5 carrot items that upgrade horses
+	carrots = true
+
+	[cyclic.command]
+		#True means only players with OP can use this /cyclic command
+		help = false
+		#True means only players with OP can use this /cyclic command
+		nbtprint = false
+		#True means only players with OP can use this /cyclic command
+		health = true
+		#True means only players with OP can use this /cyclic command
+		pingnether = false
+		#True means only players with OP can use this /cyclic command
+		gethome = false
+		#True means only players with OP can use this /cyclic command
+		worldspawn = true
+		#True means only players with OP can use this /cyclic command
+		home = true
+		#True means only players with OP can use this /cyclic command
+		hunger = true
 
 	[cyclic.peat]
 		#Chance that Peat Bog converts to Peat when wet (is multiplied by the number of surrounding water blocks)
 		#Range: 0.0010000000474974513 ~ 1.0
-		conversionChance = 0.07999999821186066
+		" conversionChance" = 0.07999999821186066
 
 	[cyclic.energy]
 
 		[cyclic.energy.cost]
+			#Power per use
+			#Range: 1 ~ 64000
+			harvester = 250
+			#Power gained burning one of this
+			#Range: 1 ~ 64000
+			disenchanter = 1500
 			#Power gained burning one of this
 			#Range: 1 ~ 64000
 			anvil = 250

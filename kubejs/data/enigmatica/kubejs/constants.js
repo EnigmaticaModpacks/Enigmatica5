@@ -1,10 +1,19 @@
-//priority: 1000
+//priority: 1001
+
+function unificationBlacklistEntry(material, type) {
+    return { material: material, type: type };
+}
+
+var air = 'minecraft:air';
 
 var oreDimensional = [
     'rftoolsbase:dimensionalshard_overworld',
     'rftoolsbase:dimensionalshard_nether',
     'rftoolsbase:dimensionalshard_end'
 ];
+var createStoneTypes = ['limestone', 'weathered_limestone', 'dolomite', 'gabbro', 'scoria', 'dark_scoria'];
+
+var stoneTypes = ['granite', 'diorite', 'andesite', 'marble', 'limestone', 'jasper', 'slate', 'basalt'];
 
 var oreUraninite = ['powah:uraninite_ore_poor', 'powah:uraninite_ore', 'powah:uraninite_ore_dense'];
 
@@ -27,62 +36,87 @@ var colors = [
     'light_gray'
 ];
 
+var typesToUnify = [
+    'nugget',
+    'ingot',
+    'gem',
+    'storage_block',
+    'ore',
+    'dust',
+    'gear',
+    'plate',
+    'rod'
+    //'ore_deposit',
+    // 'dirty_dust',
+    // 'clump',
+    // 'shard',
+    // 'crystal'
+];
+
 var materialsToUnify = [
     'iron',
     'gold',
-    'neptunium',
     'copper',
     'silver',
     'zinc',
     'brass',
-    'tungsten',
     'lead',
-    'quicksilver',
     'tin',
-    'redstone_alloy',
-    'refined_iron',
     'compressed_iron',
     'nickel',
-    'platinum',
-    'bismuth',
     'aluminum',
     'uranium',
     'bronze',
-    'invar',
     'electrum',
-    'bismuth_brass',
-    'aluminum_steel',
-    'bismuth_steel',
+    'constantan',
+    'steel',
+    'osmium',
+    'diamond',
+    'lapis',
+    'emerald',
+    'quartz',
+    'coal',
+    'charcoal',
+    'obsidian',
+    'ender',
+    'fluix',
+    'saltpeter',
+    'fluorite',
+    'invar',
     'signalum',
     'lumium',
     'enderium',
-    'steel',
-
-    'diamond',
-    'lapis_lazuli',
-    'emerald',
-    'quartz',
+    'sulfur',
+    'cinnabar',
+    'niter',
+    'apatite',
 
     'redstone',
     'glowstone'
 ];
 
-var types = [
-    'nuggets',
-    'ingots',
-    'gems',
-    'storage_blocks',
-    'ores',
-    'ore_deposits',
-    'dusts',
-    'gears',
-    'plates',
-    'rods',
-    'dirty_dusts',
-    'clumps',
-    'shards',
-    'crystals',
-    'shards'
+var unificationBlacklist = [
+    unificationBlacklistEntry('quartz', 'gem'),
+    unificationBlacklistEntry('quartz', 'storage_block')
+];
+
+var modPriorities = [
+    'emendatusenigmatica',
+    'minecraft',
+    'immersiveengineering',
+    'create',
+    'mekanism',
+    'jaopca',
+    'kubejs',
+    'thermal',
+    'pneumaticcraft',
+    'occultism',
+    'tmechworks',
+    'industrialforegoing',
+    'botania',
+    'quark',
+    'pedestals',
+    'productivebees'
 ];
 
 var vanillaWoodTypes = ['oak', 'birch', 'spruce', 'jungle', 'acacia', 'dark_oak'];

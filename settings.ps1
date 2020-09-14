@@ -2,6 +2,7 @@
 # For details/help see: https://github.com/NillerMedDild/ModpackUploader
 
 $CLIENT_MODS = @(
+	"AmbientSounds"
 	"AppleSkin", 
 	"BetterAdvancements",
 	"ClientTweaks",
@@ -23,8 +24,17 @@ $CLIENT_MODS = @(
 	"ToastControl", 
 	"toughnessbar", 
 	"Xaeros_Minimap", 
-	"XaerosWorldMap")
+	"XaerosWorldMap",
+	"moreoverlays")
 
+$CONFIGS_TO_REMOVE = @(
+	"jei", 
+	"defaultoptions/options.txt",
+	"pneumaticcraft/ArmorFeatureStatus.cfg",
+	"pneumaticcraft/PneumaticArmorHUDLayout.cfg",
+	"betteradvancements-client.toml",
+	"craftingtweaks-client.toml",
+	"extremesoundmuffler-client.toml")
 	
 # =====================================================================//
 #  CURSEFORGE SETTINGS
@@ -40,12 +50,12 @@ $CURSEFORGE_PROJECT_ID = 357692
 # =====================================================================//
 
 # Default: "1.0.0"
-$MODPACK_VERSION = "0.5.2"
+$MODPACK_VERSION = "0.6.0"
 
 # Only used by the Changelog Generator
-$LAST_MODPACK_VERSION = "0.5.1"
+$LAST_MODPACK_VERSION = "0.5.5"
 
-$FORGE_VERSION = 31.2.20
+$FORGE_VERSION = 31.2.36
 
 $CLIENT_FILENAME = "Enigmatica5"
 
@@ -61,13 +71,11 @@ $GAME_VERSIONS = @(7722) # 7675 is 1.15.1, 7722 is 1.15.2
 $CLIENT_CHANGELOG_TYPE = "markdown"
 
 $CLIENT_CHANGELOG = "### Enigmatica 5 v$MODPACK_VERSION <br /> <br />" +
-"Using Forge-1.15.2-31.2.20 <br /> <br /> " +
-"[Mod Updates](https://github.com/NillerMedDild/Enigmatica5/blob/master/changelogs/CHANGELOG_MODS_$MODPACK_VERSION.txt) <br /> " +
-"[Changelog](https://github.com/NillerMedDild/Enigmatica5/blob/master/changelogs/CHANGELOG.md) "
-
+"Using Forge-1.15.2-31.2.36 <br /> <br /> " +
+"The Changelog is currently being written, it should be done within 10 minutes. "
 
 # Can be "alpha", "beta" or "release"
-$CLIENT_RELEASE_TYPE = "alpha"
+$CLIENT_RELEASE_TYPE = "beta"
 
 #=====================================================================//
 #  SERVER FILE SETTINGS
@@ -86,9 +94,9 @@ $CONTENTS_TO_ZIP = @(
 	"config", 
 	"defaultconfigs", 
 	"openloader", 
-	"scripts",
 	"kubejs",
 	"packmenu",
+	"patchouli_books",
 	"server-start-license.md", 
 	"server-start-readme.md", 
 	"server-start.bat", 

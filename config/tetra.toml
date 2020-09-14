@@ -1,12 +1,18 @@
 
 [misc]
+	#Enable modular shields
+	shield = true
 	#Enables commands & data reloading functionality useful for development, has a negative impact on performance
 	development = false
 	#If enabled and Curios is installed, Toolbelts will only work in the Curio belt slot
 	toolbelt_curio_only = false
+	#Enable modular single headed implements
+	single_headed = true
 	#Multiplier for magic capacity gains, increasing this may be useful when having a large set enchantments added by other mods
 	#Range: 0.0 ~ 1.7976931348623157E308
 	magic_cap_multiplier = 1.0
+	#Enable modular bows
+	bow = true
 
 #World generation settings
 [worldgen]
@@ -46,13 +52,9 @@
 
 #Toggles & config for experimental features
 [experimental]
-	#Enable modular shields
-	shield = true
 	#The base value for number of uses required before a bow can be honed
 	#Range: > -2147483648
 	hone_bow_base = 48
-	#Enable modular single headed implements
-	single_headed = true
 	#Integrity multiplier for single headed implement honing, a value of 2 would cause an implement which uses 3 integrity to require 2*3 times as many uses before it can be honed
 	#Range: > -2147483648
 	hone_single_headed_integrity_multiplier = 32
@@ -64,8 +66,6 @@
 	hone_shield_integrity_multiplier = 32
 	#Enable the stonecutter module for swords, the stonecutter has to be removed from loot tables if this is disabled
 	stonecutter = true
-	#Enable modular bows
-	bow = true
 	#The base value for number of uses required before a single headed implement can be honed
 	#Range: > -2147483648
 	hone_single_headed_base = 48

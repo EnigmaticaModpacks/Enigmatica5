@@ -1,6 +1,6 @@
 
 [General]
-	#Drones render their held item (the item in slot 0 of their inventory) ?
+	#Drones render their held item (the item in slot 0 of their inventory) ?  Note: this is in common config since if enabled, server needs to sync the item data to the client.
 	drones_render_held_item = true
 	#Enable mod dungeon loot generation
 	enable_dungeon_loot = true
@@ -14,6 +14,8 @@
 	#Maximum number of blocks in the area defined in an Area Programming Puzzle Piece
 	#Range: > 1
 	max_programming_area = 250000
+	#Are drones allowed to import Experience Orbs and convert them to Memory Essence fluid?
+	drones_can_import_xp_orbs = true
 	#Oil worldgen blacklist: add dimension IDs to this list if you don't want oil worldgen to happen there.
 	oil_world_gen_blacklist = ["minecraft:the_nether", "minecraft:the_end"]
 	#Chance per chunk in percentage to generate an Oil Lake. Set to 0 for no oil lakes.
@@ -29,10 +31,10 @@
 	#Speed multiplier per speed upgrade: speed mult = speedUpgradeSpeedMultiplier ^ num_of_speed_upgrades
 	#Range: 1.0 ~ 2.0
 	speed_upgrade_speed_multiplier = 1.5
-	#Changing this value will alter the pressurized air production of the Kinetic Compressor. The input, MJ, will stay the same
+	#The amount of air produced by using 100 MJ (Minecraft Joules) in the flux compressor
 	#Range: > 0
 	kinetic_compressor_efficiency = 40
-	#Changing this value will alter the pressurized air usage of the Pneumatic Engine. The output, MJ, will stay the same
+	#The amount of MJ (Minecraft Joules) produced by using 100mL of air in the Pneumatic Dynamo
 	#Range: > 0
 	pneumatic_engine_efficiency = 40
 	#Can the Liquid Hopper absorb/dispense fluids into the world with a Dispenser Upgrade?
@@ -51,7 +53,7 @@
 	#The max height of an elevator per stacked Elevator Base.
 	#Range: 1 ~ 256
 	elevator_base_blocks_per_base = 4
-	#Changing this value will alter the pressurized air production of the Flux Compressor. The input, RF, will stay the same
+	#The amount of air produced by using 100 FE (Forge Energy) in the flux compressor
 	#Range: > 0
 	flux_compressor_efficiency = 40
 	#Can the Kerosene Lamp burn any kind of fuel?  If false, only Kerosene can be burnt
@@ -62,7 +64,7 @@
 	#Changing this value will alter the pressurized air production of the Electric Compressor. The input, EU, will stay the same
 	#Range: > 0
 	electric_compressor_efficiency = 40
-	#Changing this value will alter the pressurized air usage of the Pneumatic Dynamo. The output, RF, will stay the same
+	#The amount of FE (Forge Energy) produced by using 100mL of air in the Pneumatic Dynamo
 	#Range: > 0
 	pneumatic_dynamo_efficiency = 40
 	#Changing this value will alter the pressurized air usage of the Pneumatic Generator. The output, EU, will stay the same.
@@ -76,14 +78,32 @@
 	pneumatic_pump_efficiency = 40
 
 ["Pneumatic Armor"]
+	#Air usage for armor repair, in mL per Item Life Upgrade per point of damage repaired
+	#Range: > 0
+	repair_air_usage = 100
 	#Jetboots air usage in mL/tick (per Jet Boots Upgrade)
 	#Range: > 0
 	jet_boots_air_usage = 12
+	#Flippers Upgrade speed boost when floating in water
+	#Range: 0.0 ~ 1.0
+	flippers_speed_boost_floating = 0.045
 	#Base Pneumatic Armor startup time in ticks (before Speed Upgrades)
 	#Range: > 20
 	armor_startup_time = 200
+	#Air usage for Magnet Upgrade, in mL per item or XP orb attracted
+	#Range: > 0
+	magnet_air_usage = 20
+	#Air used per point of 'player air' restored by the Scuba Upgrade
+	#Range: > 1
+	scuba_multiplier = 8
+	#Flippers Upgrade speed boost when in water and feet on ground
+	#Range: 0.0 ~ 1.0
+	flippers_speed_boost_ground = 0.03
 
 [Advanced]
+	#Precision to which pressurizable item air levels are synced to client. Default of 10 is precise enough to show pressure to 1 decimal place, which is what is display in client tooltips & pneumatic armor HUD. Lower values will sync less precisely, reducing server->client network traffic. Values higher than 10 are not recommended (will cause extra network traffic for no benefit).
+	#Range: 1 ~ 100
+	pressurizable_sync_precision = 10
 	#When set to true, the Kerosene Lamp's fake air blocks won't be registered and therefore removed from the world. Useful if this causes trouble (it shouldn't though)
 	disable_kerosene_lamp_fake_air_block = false
 	#When set to true, Drones will not execute any program. This is useful to set to true when due to a bug Drones are lagging your server or crashing it. Please report the bug if you encounter it.
@@ -184,27 +204,18 @@
 	explosive_ammo_explosion_chance = 50
 
 [Integration]
-	#Mekanism heat conversion efficiency.  Smaller values mean Mekanism heat is worth less PneumaticCraft heat. Set to 0.0 to disable Mekanism heat integration entirely.
-	#Range: 0.0 ~ 1.7976931348623157E308
-	mek_heat_efficiency = 0.4
-	#Interval in ticks with which to refresh heat information from PneumaticCraft heat sources to Tough As Nails. A larger interval is kinder to the server but will provide less precise temperature data to TAN.
-	#Range: 1 ~ 200
-	tan_refresh_interval = 40
 	#Immersive Engineering: External Heater RF/t. Set to 0 to disable External Heater integration entirely.
 	#Range: > 0
 	ie_external_heater_r_fper_tick = 100
 	#Immersive Engineering: External Heater heat/RF.  The amount of PneumaticCraft heat added by 1 RF.
 	#Range: 0.0 ~ 1.7976931348623157E308
 	ie_external_heater_heat_per_rf = 0.01
-	#ToughAsNails: air usage multiplier for the Pneumatic Chestplate Air Conditioning Upgrade.
-	#Range: 0.0 ~ 1.7976931348623157E308
-	tan_air_con_air_usage_multiplier = 1.5
-	#Tough As Nails temperature divider; smaller values make PneumaticCraft heat sources have a more pronounced effect on your temperature. Set to 0 to ignore PneumaticCraft heat sources.
+	#Mekanism thermal resistance multiplier. Larger values mean slower heat transfer between Mekanism and PneumaticCraft blocks.
 	#Range: 1.0 ~ 1.7976931348623157E308
-	tan_heat_divider = 10.0
-	#Mekanism thermal resistance multiplier. Larger values mean slower heat transfer.
-	#Range: 1.0 ~ 1.7976931348623157E308
-	mek_thermal_resistance_mult = 100.0
+	mek_thermal_resistance_factor = 5.0
+	#Mekanism <-> PneumaticCraft heat conversion efficiency. Set to 0 to disable Mekanism heat integration entirely. Note that Mekanism and PNC use a similar heat system, but scale things quite differently (Mekanism heaters produces a LOT of heat by PneumaticCraft standards), so conversion efficiency tuning is important for inter-mod balance.
+	#Range: 0.0 ~ 2.0
+	mek_thermal_conversion_efficiency = 0.01
 
 [Recipes]
 	#Enable/disable explosion crafting (iron->compressed iron).  If you disable this, you'll need another way to get compressed iron initially.
@@ -213,7 +224,7 @@
 	coal_to_diamonds = true
 
 [Amadron]
-	#Time in ticks between each periodic offer reshuffle (24000 ticks = one day)
+	#Time in ticks between each periodic offer reshuffle (24000 ticks = one Minecraft day)
 	#Range: > 1000
 	reshuffleInterval = 24000
 	#Max number of custom trades a player may add

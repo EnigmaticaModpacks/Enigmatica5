@@ -19,6 +19,14 @@
 		#Amount of Power Consumed per Tick - Default: [400FE]
 		powerPerOperation = 1000
 
+	[MachineResourceProductionConfig.ResourcefulFurnaceConfig]
+		#Amount of Power Consumed per Tick - Default: [400FE]
+		powerPerTick = 40
+		#Max Stored Power [FE] - Default: [10000 FE]
+		maxStoredPower = 10000
+		#Max Amount of Stored Fluid [Essence] - Default: [8000mB]
+		maxEssenceTankSize = 16000
+
 	[MachineResourceProductionConfig.FluidPlacerConfig]
 		#Max Stored Power [FE] - Default: [10000 FE]
 		maxStoredPower = 10000
@@ -29,13 +37,13 @@
 		#Amount of Power Consumed per Tick - Default: [400FE]
 		powerPerOperation = 1000
 
-	[MachineResourceProductionConfig.ResourcefulFurnaceConfig]
-		#Amount of Power Consumed per Tick - Default: [400FE]
-		powerPerTick = 40
-		#Max Stored Power [FE] - Default: [10000 FE]
-		maxStoredPower = 10000
-		#Max Amount of Stored Fluid [Essence] - Default: [8000mB]
-		maxEssenceTankSize = 16000
+	[MachineResourceProductionConfig.MarineFisherConfig]
+		#Max Stored Power [FE] - Default: [20000 FE]
+		maxStoredPower = 20000
+		#Cooldown Time in Ticks [20 Ticks per Second] - Default: [100 (5s)]
+		maxProgress = 100
+		#Amount of Power Consumed per Tick - Default: [5000FE]
+		powerPerOperation = 5000
 
 	[MachineResourceProductionConfig.SporeRecreatorConfig]
 		#Amount of Power Consumed per Tick - Default: [400FE]
@@ -44,14 +52,6 @@
 		maxStoredPower = 10000
 		#Max Amount of Stored Fluid [Water] - Default: [8000mB]
 		maxWaterTankSize = 1000
-
-	[MachineResourceProductionConfig.MarineFisherConfig]
-		#Max Stored Power [FE] - Default: [20000 FE]
-		maxStoredPower = 20000
-		#Cooldown Time in Ticks [20 Ticks per Second] - Default: [100 (5s)]
-		maxProgress = 100
-		#Amount of Power Consumed per Tick - Default: [5000FE]
-		powerPerOperation = 5000
 
 	[MachineResourceProductionConfig.SludgeRefinerConfig]
 		#Amount of Power Consumed per Tick - Default: [400FE]
