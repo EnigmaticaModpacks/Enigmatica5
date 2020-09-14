@@ -367,19 +367,19 @@
 	#Range: 0 ~ 64
 	Count = 3
 
-["Saltpeter Ore"]
+["Potassium Nitrate Ore"]
 	#Activate/Deactivate the World Gen [Default: true]
 	Active = true
-	#Minimum Y-Level [Default: 0]
-	#Range: 0 ~ 128
-	Minimum = 18
-	#Maximum Y-Level [Default: 24]
-	#Range: 0 ~ 256
-	Maximum = 32
 	#Configure the ore Vein Size [Default: 7]
 	#Range: 0 ~ 64
 	Size = 6
 	#Ores count per Chunk [Default: 3]
 	#Range: 0 ~ 64
 	Count = 3
+	#Minimum Y-Level [Default: 0]
+	#Range: 0 ~ 128
+	Minimum = 18
+	#Maximum Y-Level [Default: 24]
+	#Range: 0 ~ 256
+	Maximum = 32
 
