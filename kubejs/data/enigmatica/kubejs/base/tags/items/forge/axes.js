@@ -1,0 +1,42 @@
+events.listen('item.tags', function (event) {
+    var axes = [
+        'mekanismtools:refined_glowstone_paxel',
+        'mekanismtools:refined_obsidian_axe',
+        'mekanismtools:refined_obsidian_paxel',
+        'mekanismtools:steel_axe',
+        'mekanismtools:steel_paxel',
+        'naturesaura:infused_iron_axe',
+        'naturesaura:sky_axe',
+        'psi:psimetal_axe',
+        'minecraft:iron_axe',
+        'minecraft:wooden_axe',
+        'minecraft:stone_axe',
+        'minecraft:diamond_axe',
+        'minecraft:golden_axe',
+        'aquaculture:neptunium_axe',
+        'astralsorcery:crystal_axe',
+        'astralsorcery:infused_crystal_axe',
+        'botania:manasteel_axe',
+        'botania:elementium_axe',
+        'cyclic:crystal_axe',
+        'cyclic:emerald_axe',
+        'cyclic:sandstone_axe',
+        'cyclic:netherbrick_axe',
+        'immersiveengineering:axe_steel',
+        'mekanismtools:wood_paxel',
+        'mekanismtools:stone_paxel',
+        'mekanismtools:iron_paxel',
+        'mekanismtools:diamond_paxel',
+        'mekanismtools:gold_paxel',
+        'mekanismtools:bronze_axe',
+        'mekanismtools:bronze_paxel',
+        'mekanismtools:lapis_lazuli_axe',
+        'mekanismtools:lapis_lazuli_paxel',
+        'mekanismtools:osmium_axe',
+        'mekanismtools:osmium_paxel',
+        'mekanismtools:refined_glowstone_axe'
+    ];
+    axes.forEach(function (axe) {
+        event.get('enigmatica:axes').add(axe);
+    });
+});
