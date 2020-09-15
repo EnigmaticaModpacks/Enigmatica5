@@ -70,6 +70,9 @@ events.listen('recipes', function (event) {
     event.replaceInput({}, 'thermal:apatite', '#forge:gems/apatite');
     event.replaceInput({}, 'thermal:niter', '#forge:gems/niter');
 
+    event.replaceInput({}, '#forge:fillet_knife', '#forge:tools/knife');
+    event.replaceInput({}, '#farmersdelight:tools/knife', '#forge:tools/knife');
+
     event.replaceInput(
         { type: 'minecraft:crafting_shaped', output: 'minecraft:piston' },
         '#forge:cobblestone',
