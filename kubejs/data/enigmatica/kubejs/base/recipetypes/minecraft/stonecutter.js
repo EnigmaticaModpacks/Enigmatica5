@@ -57,17 +57,4 @@ events.listen('recipes', function (event) {
             });
         }
     });
-
-    // Conversion between Steel Ingot types,
-    // ugly hack to make IE villager trades for orevein maps
-    // (they require IE steel)
-    ingredient.of('#forge:ingots/steel').stacks.forEach(function (ingot) {
-        event.recipes.minecraft.stonecutting({
-            ingredient: {
-                tag: 'forge:ingots/steel'
-            },
-            result: ingot.id,
-            count: 1
-        });
-    });
 });
