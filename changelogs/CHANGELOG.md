@@ -1,3 +1,37 @@
+## Enigmatica 5 - 0.6.1
+
+_Using Forge-1.15.2-31.2.36_ | _[Mod Updates](https://github.com/NillerMedDild/Enigmatica5/blob/master/changelogs/CHANGELOG_MODS_0.6.1.txt)_
+
+
+
+**TONS of changes have been made, a new world is required if you're updating from any version before 0.6.0**
+
+
+
+**Changes**
+
+- Thermal: Finish unification Thermal Gems [\#491](https://github.com/NillerMedDild/Enigmatica5/issues/491)
+- Thermal: Pulverizer recipes for Zinc and Aluminum [\#488](https://github.com/NillerMedDild/Enigmatica5/issues/488)
+- Unification for knifes [\#492](https://github.com/NillerMedDild/Enigmatica5/issues/492)
+
+**Bug Fixes**
+
+- Astral Sorcery: Structures [\#484](https://github.com/NillerMedDild/Enigmatica5/issues/484)
+- BuildingGadgets; animations not working [\#279](https://github.com/NillerMedDild/Enigmatica5/issues/279)
+- Create: Create lapis sheets have no recipe or alternative [\#500](https://github.com/NillerMedDild/Enigmatica5/issues/500)
+- ImmersiveEngineering: IE Engineer Villager accepts only IE Steel \(Steel conversion recipe added\) [\#496](https://github.com/NillerMedDild/Enigmatica5/issues/496)
+- Minecolonies: Barbarians texture bug [\#350](https://github.com/NillerMedDild/Enigmatica5/issues/350)
+- Misc: Broken Farmland Recipe [\#493](https://github.com/NillerMedDild/Enigmatica5/issues/493)
+- Powah: Uranitite [\#490](https://github.com/NillerMedDild/Enigmatica5/issues/490)
+- Worldgen: Cobblestone-only recipes are causing issues if only Stone is available underground \(Allow Stone in the place of cobblestone in some recipes\) [\#487](https://github.com/NillerMedDild/Enigmatica5/issues/487)
+- Worldgen: Fixes Granite being in worldgen, it was not meant to be.
+- Worldgen: Increased minimum Y level of Emerald Ore to Y=192
+- Worldgen: Increased the amount of Lead and Uranium Ore [\#497](https://github.com/NillerMedDild/Enigmatica5/issues/497)
+
+**Mod Removals**
+
+- Snow Under Trees (It is not needed with TerraForged)
+
 ## Enigmatica 5 - 0.6.0
 
 _Using Forge-1.15.2-31.2.36_ | _[Mod Updates](https://github.com/NillerMedDild/Enigmatica5/blob/master/changelogs/CHANGELOG_MODS_0.6.0.txt)_
@@ -93,10 +127,6 @@ _Using Forge-1.15.2-31.2.36_ | _[Mod Updates](https://github.com/NillerMedDild/E
 - Passable Foliage (Design choice, negative user feedback)
 - Simply Backpacks (Replaced by Useful Backpacks)
 - StepUp (Other options)
-
-**Known Issues**
-
-- Thermal Machines produce Thermal ingots, dusts etc, we're working on unifying them.
 
 ## Enigmatica 5 - 0.5.5
 

@@ -109,6 +109,30 @@ events.listen('recipes', function (event) {
         shapelessRecipe(item.of('patchouli:guide_book', { 'patchouli:book': 'patchouli:modded_for_dummies' }), [
             'minecraft:book',
             '#forge:dyes/yellow'
+        ]),
+        shapelessRecipe('kubejs:compressed_cobblestone_1x', [
+            '#forge:cobblestone',
+            '#forge:cobblestone',
+            '#forge:cobblestone',
+            '#forge:cobblestone',
+            '#forge:cobblestone',
+            '#forge:cobblestone',
+            '#forge:cobblestone',
+            '#forge:cobblestone',
+            '#forge:cobblestone'
+        ]),
+        shapelessRecipe(item.of('minecraft:cobblestone', 9), ['kubejs:compressed_cobblestone_1x']),
+        shapelessRecipe(item.of('emendatusenigmatica:ingot_steel', 2), [
+            'immersiveengineering:ingot_steel',
+            'immersiveengineering:ingot_steel'
+        ]),
+        shapelessRecipe(item.of('immersiveengineering:ingot_steel', 2), [
+            'mekanism:ingot_steel',
+            'mekanism:ingot_steel'
+        ]),
+        shapelessRecipe(item.of('mekanism:ingot_steel', 2), [
+            'emendatusenigmatica:ingot_steel',
+            'emendatusenigmatica:ingot_steel'
         ])
     ];
 

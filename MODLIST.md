@@ -1,14 +1,14 @@
-## Enigmatica 5 - 0.6.0 Modlist
+## Enigmatica 5 - 0.6.1 Modlist
 - Abnormals-Core-1.15.2-1.0.6
 - Actually Useful Stonecutter-0.0.1 mc 1.15.2
 - AI-Improvements-1.15.2-0.3.0
 - AkashicTome-1.3-13
 - AmbientSounds_v3.0.20_mc1.15.2
 - angelring-1.15.2-1.2.0
-- Apotheosis-1.15.2-3.3.5
+- Apotheosis-1.15.2-3.3.7
 - AppleSkin-mc1.15.2-forge-1.0.14
-- Aquaculture-1.15.2-2.0.16
-- archers_paradox-1.15.2-0.6.0b
+- Aquaculture-1.15.2-2.0.20
+- archers_paradox-1.15.2-0.7.0b
 - astralsorcery-1.15.2-1.12.9
 - AttributeFix-1.15.2-7.0.2
 - AutoRegLib-1.5-40
@@ -35,7 +35,7 @@
 - ClickMachine-1.15.2-3.0.2
 - Clumps-5.0.2.6
 - CodeChickenLib-1.15.2-3.3.1.379-universal
-- cofh_core-1.15.2-0.6.2b
+- cofh_core-1.15.2-0.7.0b
 - coloredlanterns-1.0
 - colytra-FORGE-1.15.2-3.0
 - CommonCapabilities-1.15.2-2.5.4
@@ -64,17 +64,17 @@
 - dimdungeons-1.07-forge-1.15.2
 - Ding-1.15.2-1.1.0
 - DrawersTooltip-1.15.2-1.1.0
-- DungeonCrawl-1.15.2-2.0.2
+- DungeonCrawl-1.15.2-2.1.0
 - dwmh-1.15.2-4.0.0
 - dyeable_flower_pots-1.15.2-1.1.0
 - elevatorid-1.15.2-1.7.1
-- EmendatusEnigmatica-1.15.2-1.0.6
+- EmendatusEnigmatica-1.15.2-1.0.8
 - EnchantmentDescriptions-1.15.2-2.0.9
 - EnderMail-1.15.2-1.1.3
 - EnderStorage-1.15.2-2.5.0.151-universal
 - engineersdecor-1.15.2-1.1.3
 - enigmatica-0.3.2
-- ensorcellation-1.15.2-0.6.0b
+- ensorcellation-1.15.2-0.7.0b
 - environmentalcreepers-forge-1.15.2-1.6.1
 - extradisks-1.15.2-1.2.2
 - extratags-1.1
@@ -107,7 +107,7 @@
 - inventorysorter-1.15.2-17.0.0
 - invtweaks-1.15.2-2.0.9
 - ironchest-1.15.2-10.0.3
-- JAOPCA-1.15.2-3.2.0.14
+- JAOPCA-1.15.2-3.2.0.15
 - jei-1.15.2-6.0.3.15
 - justenoughbeacons-2.0
 - JustEnoughResources-1.15.2-0.10.1.77
@@ -121,7 +121,7 @@
 - Lollipop-1.15.2-1.0.16
 - Ma-Essentials-1.15.2-3.1.1
 - Mantle-1.15.2-1.5.15
-- mcjtylib-1.15-4.1.7
+- mcjtylib-1.15-4.1.9
 - mcw-bridges-1.0.4fix-mc1.15.2
 - mcw-doors-1.0.0-mc1.15.2
 - mcw-trapdors-1.0.0fix-mc1.15.2
@@ -131,7 +131,7 @@
 - MekanismGenerators-1.15.2-9.10.9.422
 - MekanismTools-1.15.2-9.10.9.422
 - mgui-1.15.2-2.1.1
-- minecolonies-0.13.247-ALPHA-universal
+- minecolonies-0.13.260-ALPHA-universal
 - mining-helmet-1.15.2-1.0.8
 - mininggadgets-1.3.5
 - MixinBootstrap-1.0.3
@@ -163,9 +163,9 @@
 - Powah-1.15.2-1.1.15
 - PrettyBeaches_1.15.2-4.0.1
 - PrettyPipes-1.5.5
-- productivebees-1.15.2-0.3.2
+- productivebees-1.15.2-0.3.3
 - projectvibrantjourneys-1.15.2-2.0.3
-- Psi r1.2-83
+- Psi r1.2-84
 - Quark-r2.1-245
 - QuarkOddities-1.15.2
 - QuickLeafDecay-MC1.15.2-1.2.5
@@ -176,12 +176,12 @@
 - refinedpipes-0.4.2
 - refinedstorage-1.8.8
 - refinedstorageaddons-0.6.3
-- rftoolsbase-1.15-1.1.6
-- rftoolsbuilder-1.15-2.1.8
-- rftoolspower-1.15-2.2.4
-- rftoolsstorage-1.15-1.1.9
-- rftoolsutility-1.15-2.1.9
-- rsgauges-1.15.2-1.2.5-b1
+- rftoolsbase-1.15-1.1.7
+- rftoolsbuilder-1.15-2.1.9
+- rftoolspower-1.15-2.2.5
+- rftoolsstorage-1.15-1.1.10
+- rftoolsutility-1.15-2.1.10
+- rsgauges-1.15.2-1.2.5-b2
 - SaveMyStronghold-1.15.2-1.0.1
 - scaffoldingpower-1.15.2-1.2.1
 - serverconfigupdater-1.1
@@ -192,7 +192,6 @@
 - simply_trophies-2.0-1.15.2
 - SlimeTweaks-1.15.2-1.0.2
 - SnowRealMagic-1.15.2-1.8.0
-- snowundertrees-1.15.2-v1.1.1
 - solcarrot-1.15.2-1.9.7
 - stonecatalysts-1.15.2-1.2.0
 - StorageDrawers-1.15.2-7.0.2
@@ -204,11 +203,11 @@
 - tetra-1.15.2-2.18.1
 - The-Endergetic-Expansion-1.15.2-v1.3.2
 - theoneprobe-1.15-2.0.7
-- thermal-1.15.2-0.2.3b
-- thermal_cultivation-1.15.2-0.2.2b
-- thermal_expansion-1.15.2-0.2.3b
-- thermal_innovation-1.15.2-0.2.2b
-- thermal_locomotion-1.15.2-0.2.2b
+- thermal-1.15.2-0.3.0b
+- thermal_cultivation-1.15.2-0.3.0b
+- thermal_expansion-1.15.2-0.3.0b
+- thermal_innovation-1.15.2-0.3.0b
+- thermal_locomotion-1.15.2-0.3.0b
 - titanium-1.15.2-2.4.2
 - TMechworks-1.15.2-2.2.0
 - ToastControl-1.15.2-3.0.1
@@ -217,7 +216,7 @@
 - torchmaster-2.2.2
 - towers_of_the_wild-1.15.2-1.2.0
 - tramplestopper-1.15.2-2.0.0.1-universal
-- Transport-1.15.2-2.4.0
+- Transport-1.15.2-2.4.1
 - trashcans-1.0.3-mc1.15
 - TrashSlot_1.15.2-11.0.0
 - useful_backpacks-1.15.2-1.10.3.77
@@ -226,9 +225,9 @@
 - vanillahammers-1.15.2-2.1
 - Waystones_1.15.2-6.0.2
 - whoops-1.15.2-0.0.1.3
-- WitherSkeletonTweaks-1.15.1-4.0.0
+- WitherSkeletonTweaks-1.15.2-4.0.2
 - World-Stripper-1.7.2-1.15.1
-- XaerosWorldMap_1.10.3_Forge_1.15.2
-- Xaeros_Minimap_20.21.0_Forge_1.15.2
-- xnet-1.15-2.1.10
+- XaerosWorldMap_1.10.4_Forge_1.15.2
+- Xaeros_Minimap_20.22.0_Forge_1.15.2
+- xnet-1.15-2.1.11
 - XNetGases-1.15.2-1.0.0
