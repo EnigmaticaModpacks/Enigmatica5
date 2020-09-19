@@ -1,13 +1,16 @@
 {
     "type": "thermal:pulverizer",
     "ingredient": {
-        "tag": "forge:ores/niter"
+        "item": "thermal:blitz_rod"
     },
     "result": [
         {
+            "item": "thermal:blitz_powder",
+            "chance": 3.0
+        },
+        {
             "item": "emendatusenigmatica:gem_potassium_nitrate",
-            "chance": 6.5
+            "chance": 0.25
         }
-    ],
-    "experience": 0.5
+    ]
 }

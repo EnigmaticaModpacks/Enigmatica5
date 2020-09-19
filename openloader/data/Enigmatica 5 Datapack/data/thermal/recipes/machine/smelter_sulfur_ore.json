@@ -1,16 +1,12 @@
 {
     "type": "thermal:smelter",
     "ingredient": {
-        "tag": "forge:ores/lapis"
+        "tag": "forge:ores/sulfur"
     },
     "result": [
         {
-            "item": "minecraft:lapis_lazuli",
-            "chance": 8.5
-        },
-        {
             "item": "emendatusenigmatica:gem_sulfur",
-            "chance": 0.75
+            "chance": 3.5
         },
         {
             "item": "thermal:rich_slag",
