@@ -3,6 +3,7 @@ events.listen('recipes', function (event) {
     materialsToUnify.forEach(function (material) {
         enigmatica_ore_deposit_processing(event, material);
         immersiveengineering_gem_ore_processing(event, material);
+        immersiveengineering_hammer_crafting_plates(event, material);
     });
 });
 
@@ -88,9 +89,6 @@ function immersiveengineering_gem_ore_processing(event, material) {
     var gemTag = ingredient.of('#forge:gems/' + material);
     var gem = getPreferredItemInTag(gemTag).id;
 
-    var oreTag = ingredient.of('#forge:ores/' + material);
-    var ore = getPreferredItemInTag(oreTag).id;
-
     var dustTag = ingredient.of('#forge:dusts/' + material);
     var dust = getPreferredItemInTag(dustTag).id;
 
@@ -108,8 +106,84 @@ function immersiveengineering_gem_ore_processing(event, material) {
         },
         energy: 2000
     });
+}
 
-    if (ore == air) {
+function immersiveengineering_hammer_crafting_plates(event, material) {
+    var hammer = 'immersiveengineering:hammer';
+    var ingotTag = ingredient.of('#forge:ingots/' + material);
+    var ingot = getPreferredItemInTag(ingotTag).id;
+
+    var gemTag = ingredient.of('#forge:gems/' + material);
+    var gem = getPreferredItemInTag(gemTag).id;
+
+    var plateTag = ingredient.of('#forge:plates/' + material);
+    var plate = getPreferredItemInTag(plateTag).id;
+
+    if (plate == air) {
         return;
+    }
+
+    if (ingot != air) {
+        event.shapeless(plate, [hammer, ingot]);
+        event.remove({ id: 'immersiveengineering:crafting/plate_' + material + '_hammering' });
+        event.recipes.immersiveengineering.metal_press({
+            mold: {
+                item: 'immersiveengineering:mold_plate'
+            },
+            result: {
+                tag: 'forge:plates/' + material
+            },
+            input: {
+                tag: 'forge:ingots/' + material
+            },
+            energy: 2400
+        });
+        // JAOPCA added thermal press ingot compat
+        // event.recipes.thermal.press({
+        //     type: 'thermal:press',
+        //     ingredient: {
+        //         tag: 'forge:ingots/' + material
+        //     },
+        //     result: [
+        //         {
+        //             item: plate
+        //         }
+        //     ]
+        // });
+    }
+
+    if (gem != air) {
+        var storageBlockTag = ingredient.of('#forge:storage_blocks/' + material);
+        var storageBlock = getPreferredItemInTag(storageBlockTag).id;
+        var input = gem;
+        var inputTag = 'forge:gems/' + material;
+        if (storageBlock != null) {
+            input = storageBlock;
+            inputTag = 'forge:storage_blocks/' + material;
+        }
+
+        event.shapeless(plate, [hammer, input]);
+        event.recipes.immersiveengineering.metal_press({
+            mold: {
+                item: 'immersiveengineering:mold_plate'
+            },
+            result: {
+                tag: 'forge:plates/' + material
+            },
+            input: {
+                tag: inputTag
+            },
+            energy: 2400
+        });
+        event.recipes.thermal.press({
+            ingredient: {
+                tag: inputTag
+            },
+            result: [
+                {
+                    item: plate
+                }
+            ]
+        });
     }
 }
