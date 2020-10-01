@@ -70,6 +70,17 @@ events.listen('recipes', function (event) {
         shapedRecipe('vanillaexcavators:stone_excavator', ['B', 'A', 'A'], {
             A: '#forge:rods/wooden',
             B: 'kubejs:compressed_cobblestone_1x'
+        }),
+        shapedRecipe('torchmaster:megatorch', ['AAA', 'BCB', 'DCD'], {
+            A: 'torchmaster:feral_flare_lantern',
+            B: '#enigmatica:crafting_materials/diamond',
+            C: '#minecraft:logs',
+            D: '#forge:storage_blocks/gold'
+        }),
+        shapedRecipe('torchmaster:feral_flare_lantern', [' A ', 'BCB', ' A '], {
+            A: '#forge:ingots/gold',
+            B: '#forge:glass',
+            C: '#forge:storage_blocks/glowstone'
         })
     ];
 

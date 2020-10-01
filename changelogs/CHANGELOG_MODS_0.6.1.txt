@@ -1,0 +1,408 @@
+=======================================
+Enigmatica5 0.6.0 --> Enigmatica5 0.6.1
+=======================================
+
+Updated:
+	Apotheosis (Apotheosis-1.15.2-3.3.5.jar --> Apotheosis-1.15.2-3.3.7.jar):
+		Apotheosis-1.15.2-3.3.7.jar:
+			Fixed Tomes of Scrapping not being turned into enchanted books upon use.
+			Fixed Crescendo of Bolts generating duplicated arrows.
+
+	Aquaculture 2 (Aquaculture-1.15.2-2.0.16.jar --> Aquaculture-1.15.2-2.0.20.jar):
+		Aquaculture-1.15.2-2.0.20.jar:
+			Backported the following changes from 1.16.1:
+			* Made the majority of raw fish edible
+			* Added Spanish translations (Thanks to @feliclaria)
+			* Added recipe groups to some recipes (Thanks to @BetaCarotina)
+			* Fixed Neptunium Fillet Knife taking damage in some instances
+			* Re-added Fish Bones as junk loot
+
+	Archer's Paradox (archers_paradox-1.15.2-0.6.0b.jar --> archers_paradox-1.15.2-0.7.0b.jar):
+		archers_paradox-1.15.2-0.7.0b.jar:
+			No changelog available.
+
+	CoFH Core (cofh_core-1.15.2-0.6.2b.jar --> cofh_core-1.15.2-0.7.0b.jar):
+		cofh_core-1.15.2-0.7.0b.jar:
+			No changelog available.
+
+		cofh_core-1.15.2-0.6.4b.jar:
+			No changelog available.
+
+	Dungeon Crawl (DungeonCrawl-1.15.2-2.0.2 --> DungeonCrawl-1.15.2-2.1.0):
+		DungeonCrawl-1.15.2-2.1.0:
+			Dungeon Crawl 2.1.0
+			AS OF VERSION 2.1.0, DUNGEON CRAWL IS PUBLISHED UNDER THE TERMS OF THE [GNU GENERAL PUBLIC LICENSE v. 3]()
+			Monster Changes:
+			* The monster spawner system is now datapack driven, allowing for customization
+			* Monsters will now have potion effects by default in the lower layers
+			* Added wither skeletons to the layers 3, 4 and 5 (they can't drop skulls)
+			Other:
+			* BREAKING CHANGE: Renamed the "stage" parameter for the loot functions to "loot_level"
+			* Added a "solid" option to the config that disables the dungeon ripping itself apart to match the worldgen ([#38](https://github.com/XYROC/DungeonCrawl/issues/38))
+			* Added an option to register dummy pieces for pre-2.0.0 dungeons on startup. (NOT TESTED because i am unable to reproduce the crash for some reason)
+			* Nerfed the loot enchantment level per stage from 10/15/20/25/30 to 10/13/16/19/22
+			* Introduced a new theme-driven decoration system. Themes (not sub-themes) can now have a list of decorations, e.g. vines like in the mossy layers
+			* Themes can now also force a sub-theme (or a sub-theme randomizer) to be used with them
+			* The dungeons now imitate vanilla's structure separation system, because it is not possible to actually hook into it right now. This fixes the weird and inconsistent generation. ([#34](https://github.com/XYROC/DungeonCrawl/issues/34))
+			* Added some new corridor and node models for the nether layer
+			* Added a new loot room model (the old one won't get used by default anymore)
+			* Enabled the side rooms again, there are two different models right now
+			* Added some new node connectors, including one trap
+			* Removed corridor linker 2 (the small room with the water in the middle) from the corridor linker model pool.
+			Fixed Issues:
+			* Fixed monsters in stage 4 and 5 getting equipped with stage 1 items
+			* Fixed vines getting placed wrongly sometimes ([#39](https://github.com/XYROC/DungeonCrawl/issues/39))
+			* Fixed a deadlock issue ([#35](https://github.com/XYROC/DungeonCrawl/issues/35))
+
+	Emendatus Enigmatica (EmendatusEnigmatica-1.15.2-1.0.6 --> EmendatusEnigmatica-1.15.2-1.0.8):
+		EmendatusEnigmatica-1.15.2-1.0.8:
+			Emendatus Enigmatica
+			MC 1.15.2 | Version 1.0.8
+			* Slight texture update.
+			Emendatus Enigmatica
+			MC 1.15.2 | Version 1.0.7
+			* Added Thermal Gem for compat.
+			* Added Sawdust
+			* Changed the name from Saltpeter to Potassium Nitrate (with both Niter and Saltpeter tags)
+			Emendatus Enigmatica
+			MC 1.15.2 | Version 1.0.6
+			* Added Thermal Materials, and Ores.
+			* Added Gears set.
+			* Updated Plates Textures.
+			Emendatus Enigmatica
+			MC 1.15.2 | Version 1.0.5
+			* Fixed a bug where harvesting ore with Silktouch is dropping EXP.
+			Emendatus Enigmatica
+			MC 1.15.2 | Version 1.0.4
+			* Added shapeless recipes to turn Ore Chunks into Ore Blocks
+			Emendatus Enigmatica
+			MC 1.15.2 | Version 1.0.3
+			* Added couple new tags to the Certus Quartz, Charged Certus Quartz, and Fluix Crystal
+			* Added the usage of DeferredWorkQueue during the World Gen to avoid a crash
+			* Added a Chunk to Ore recipes to the Stonecutter with all the ore variants to the Stonecutter Recipes
+			* Added Smelting and Blasting recipes for ingots/gems from ores
+			* Added JEI Integration
+			* Removed Skystone
+			Emendatus Enigmatica
+			MC 1.15.2 | Version 1.0.2
+			* World Gen Crash Fix
+			* AE2 and Minecraft Tags
+			* Added MinMaxCount on Redstone Ores Loot Tables
+			Emendatus Enigmatica
+			MC 1.15.2 | Version 1.0.1
+			* Minor Code Refactoring
+			* Texture Update
+			Emendatus Enigmatica
+			MC 1.15.2 | Version 1.0.0
+			* First Official Release
+
+		EmendatusEnigmatica-1.15.2-1.0.7:
+			Emendatus Enigmatica
+			MC 1.15.2 | Version 1.0.7
+			* Added Thermal Gem for compat.
+			* Added Sawdust
+			* Changed the name from Saltpeter to Potassium Nitrate (with both Niter and Saltpeter tags)
+			Emendatus Enigmatica
+			MC 1.15.2 | Version 1.0.6
+			* Added Thermal Materials, and Ores.
+			* Added Gears set.
+			* Updated Plates Textures.
+			Emendatus Enigmatica
+			MC 1.15.2 | Version 1.0.5
+			* Fixed a bug where harvesting ore with Silktouch is dropping EXP.
+			Emendatus Enigmatica
+			MC 1.15.2 | Version 1.0.4
+			* Added shapeless recipes to turn Ore Chunks into Ore Blocks
+			Emendatus Enigmatica
+			MC 1.15.2 | Version 1.0.3
+			* Added couple new tags to the Certus Quartz, Charged Certus Quartz, and Fluix Crystal
+			* Added the usage of DeferredWorkQueue during the World Gen to avoid a crash
+			* Added a Chunk to Ore recipes to the Stonecutter with all the ore variants to the Stonecutter Recipes
+			* Added Smelting and Blasting recipes for ingots/gems from ores
+			* Added JEI Integration
+			* Removed Skystone
+			Emendatus Enigmatica
+			MC 1.15.2 | Version 1.0.2
+			* World Gen Crash Fix
+			* AE2 and Minecraft Tags
+			* Added MinMaxCount on Redstone Ores Loot Tables
+			Emendatus Enigmatica
+			MC 1.15.2 | Version 1.0.1
+			* Minor Code Refactoring
+			* Texture Update
+			Emendatus Enigmatica
+			MC 1.15.2 | Version 1.0.0
+			* First Official Release
+
+	Ensorcellation (ensorcellation-1.15.2-0.6.0b.jar --> ensorcellation-1.15.2-0.7.0b.jar):
+		ensorcellation-1.15.2-0.7.0b.jar:
+			No changelog available.
+
+	Gauges and Switches (rsgauges-1.15.2-1.2.5-b1.jar --> rsgauges-1.15.2-1.2.5-b2.jar):
+		rsgauges-1.15.2-1.2.5-b2.jar:
+			* v1.2.5-b2  [F] Added placement checks to circumvent crashes (PR#33 by IceDragon200).
+			* v1.2.5-b1  [M] Modified global switch power placement default setting to strong.
+			[F] Fixed gauge/indicator placement (issue #27, thx Bobcat64)
+			-------------------------------------------------------------------
+			* v1.2.4     [R] Release build v1.2.4. Release-to-release changes:
+			* Gauges are comparator output sensitive.
+			* Comparator Switch mode "Redstone Signal Strength" added.
+			* Config handling update.
+			* Bug fixes.
+			-------------------------------------------------------------------
+			* v1.2.4-b2  [!] Forge update, requires Forge 1.15.2-31.2.20.
+			[F] Gauges explicitly tell adjacent blocks that they can connect Redstone.
+			[F] Fixed Indicator/Siren placement crash (issue #24, thx Jamzs3).
+			* v1.2.4-b1  [A] Gauges are also comparator output sensitive and can directly
+			show e.g. how full chests are.
+			[F] Industrial Machine Switch texture size fixed.
+			[U] Forge/mappings updated.
+			[M] JEI integration updated.
+			[M] Models updated to circumvent too dark GUI representations.
+			[M] Config handling updated.
+			[!] Mod config moved from 'common' to 'server' config, in case
+			of applied setting please double check.
+			-------------------------------------------------------------------
+			* v1.2.3     [R] Release build v1.2.3. Release-to-release changes:
+			* Door Sensor added.
+			* Recipe fixes, lang files updated.
+			-------------------------------------------------------------------
+			* v1.2.3-b3  [M] Block Category Detector: Fixed forge tag lookup (issue #21, thx Nodlehs).
+			[M] Comparator Switch recipe fixed (thx @itzbahb).
+			[M] En lang files typo fixes (thx @itzbahb).
+			* v1.2.3-b2  [F] Fixed switch link max distance config (issue #20, thx Rictu5).
+			* v1.2.3-b1  [A] Added Door Sensor switch.
+			[M] Lang file zh_cn updated (PR#19, scikirbypoke).
+			-------------------------------------------------------------------
+			* v1.2.2     [R] Release build v1.2.2. Release-to-release changes:
+			* Valve Switch added.
+			* Elevator Button added.
+			* Minor fixes.
+			-------------------------------------------------------------------
+			* v1.2.2-b2   [A] Added Elevator Button.
+			* v1.2.2-b1   [A] Added Valve Switch (idea and model by Jack M).
+			-------------------------------------------------------------------
+			* v1.2.1      [R] Release build v1.2.1. Release-to-release changes:
+			* Industrial Comparator Switch added.
+			-------------------------------------------------------------------
+			* v1.2.1-b1   [A] Added Industrial Comparator Switch.
+			* v1.2.0-b2   [A] Added GIT version logging.
+			[M] Lang en_us: Sensitive Glass block names adapted (issue #15, thx Dimentive).
+			* v1.2.0-b1   [A] Added JEI integration.
+			[M] Model "vanillafication" rework, part 2.
+			[D] Removed obsolete switches (registry not affected).
+			[M] Recipes simplified, recipe conditions unified.
+			[M] Code updates for version compatibility.
+			[A] All block are waterloggable (including Sensitive glass).
+			* v1.1.10-b4  [F] Removed tag reference to minecraft:dirts, which prevented any
+			recipes from being craftable.
+			* v1.1.10-b3  [A] Initial port.
+
+	JAOPCA (JAOPCA-1.15.2-3.2.0.14.jar --> JAOPCA-1.15.2-3.2.0.15.jar):
+		JAOPCA-1.15.2-3.2.0.15.jar:
+			Added Thermal Expansion compat
+			Added AE2 compat
+			Added config option to disable parts of compat modules
+			Added module access to CraftTweaker compat
+
+	McJtyLib (McJtyLib - 1.15-4.1.7 --> McJtyLib - 1.15-4.1.9):
+		McJtyLib - 1.15-4.1.9:
+			McJtyLib 1.15-4.1.9
+
+		McJtyLib - 1.15-4.1.8:
+			McJtyLib 1.15-4.1.8
+			* New online help system on item/block tooltips (press F1)
+			* Refactored lots of internal code to make containers more consistent and work better
+
+	MineColonies (minecolonies-0.13.247-ALPHA-universal.jar --> minecolonies-0.13.260-ALPHA-universal.jar):
+		minecolonies-0.13.260-ALPHA-universal.jar:
+			Minecolonies Changelog
+			Version: 0.13.260-ALPHA
+			*
+			Fix guard complain (#5790)
+			*
+			Fix barracks not counting as nearby building Fix homes trying to spawn at level 0
+			*
+			Fix barracks not counting as nearby building Fix homes trying to spawn at level 0
+
+		minecolonies-0.13.257-ALPHA-universal.jar:
+			Minecolonies Changelog
+			Version: 0.13.257-ALPHA
+			* Add colony event log to Town Hall (#5751)
+			A colony event log that can be shown in the town hall instead of the permission event log. Replace all tabs in java files with spaces. Group a few more of the Town Hall lang keys together in the lang file.
+
+		minecolonies-0.13.255-ALPHA-universal.jar:
+			Minecolonies Changelog
+			Version: 0.13.255-ALPHA
+			* ladder fix, invis fix fixes #5780 (#5781)
+			Ladder hotfix Invis hotfix
+
+		minecolonies-0.13.254-ALPHA-universal.jar:
+			Minecolonies Changelog
+			Version: 0.13.254-ALPHA
+			* Job View Rework (#5773)
+			Add a way to serialize job data to views. Add clipboard filter Workers don't dropp off their food too quickly (baker overrides this behaviour)
+
+		minecolonies-0.13.252-ALPHA-universal.jar:
+			Minecolonies Changelog
+			Version: 0.13.252-ALPHA
+			* Pathing tests (#5772)
+			Fixes citizens getting stuck at cocoa, playerheads and similar Allow citizens to walk on trapdoors and carpet if under the block is air. * Fix possible division through zero (#5775)
+			Fix early colony access before citizen is initialized(e.g. when getting damaged) Fix possible division through zero
+
+		minecolonies-0.13.251-ALPHA-universal.jar:
+			Minecolonies Changelog
+			Version: 0.13.251-ALPHA
+			* Misc fixes and improvements (#5768)
+			Eliminate the florist producing gold blocks make rangers more likely to look for an elevation difference, this should encourage them to get on top of walls Add special recipes to dyer and mechanic when those buildings become level 3: Black dye from Charcoal, Cheaper lantern, cheaper rails clean up custom recipe Jsons to store integers as integers, and not strings
+
+		minecolonies-0.13.250-BETA-universal.jar:
+			Minecolonies Changelog
+			Version: 0.13.250-BETA
+			* Some fixes (#5762)
+			Fix entity AI active too early, causing a crash Fix respawning missing checks Remove entity respawning at the TH when actually unloaded Fix can't spawn at messages appearing for unloaded citizens * Fix/multi warehouses (#5757)
+			Improve multi-warehouse support Courier assign themselves to the closest one with open spots around them. Improve chunk claim message a bit. * Raid biome chance and some fixes (#5756) * Fix build error (#5749)
+			Fix the build error introduced by my last pr. Sorry, i misclicked when making the last pr causing the import to get deleted instead of being added to the class, i should have double checked it again. * Fix AbstractEntityAIStructureWithWorkOrder.java (#5748)
+			Fix AbstractEntityAIStructureWithWorkOrder.java sending an incorrect chat message after finishing deconstructing a building. * Add citizens complaining about no guard nearby (#5744)
+			Citizens now occasionally complain about having no guard building nearby their home or work buildings. Guard happiness modifier now only requires 2/3 of worker to guard ratio, compared to previously 1:1 * Adds gate blocks, for additional raid protection (#5727)
+			This adds two gate blocks, one wooden one iron which are craftable by the mechanic. Those have a max size of 5x4 and combine their hardness depending on size and act like vanilla doors, so that citizens and any other door using mechanic should work with them.
+			Fix raiders still using their old anti-stuck mechanics in addition to the new stuckhandler ones. Fix herder trying to breed with one item. Fix raid difficulty starting at zero * Improve tool usage in the cook and other crafters (#5728)
+			fix tool usage for larger stacks during crafting add haybale decompression to farmer bit of cleanup here and there. Make compost a bit cheaper fix ingredient resolution for cookable foods - prestock of cookables should work now. * fix builder getting stuck, fix visitor wander (#5737)
+			Builder not getting stuck anymore in deconstruct Fix visitor wandering * Adds more dynamic difficulty to raids (#5726)
+			Colonies now have an individual raid difficulty, increasing and decreasing with success of raids for a better balanced experience. Colonies start with the lowest difficulty. Difficulty scales between 20% and 200%. Raids start happening based on a minimum raidlevel instead of plain citizencount now.
+			Extra difficulty utlities for raiders:
+			Teaming up: raiders get put on the same scoreboard team so they cannot hurt eachother Movementspeed bonus: Raiders can get a bit faster, letting them catch up to players better (high difficulty) Archer arrows can get pierce effect Archers gain range through difficulty Melees get slightly increased hit range at high difficulty Citizen homes and Tavern recruits now have spawntimes in relation to missing citizen count, allowing for easier recruiting.
+			Fix paths not properly getting their target position and reach target flags in the pathfinding. Fix guards sometimes starting to eat mid-combat due to not resetting their fight timer Fix a bug where randomPos sometimes returns non-air positions. * Delivery fixes (#5733)
+			Vastly improve smelter crafter madness Add some safeguards to racks * Feature/border announcement (#5734)
+			Adds player announcement regarding the change in colony size when a build is completed. Tells the player how to increase their colony size when they try and place a building outside the colony * Delivery fixed (#5725)
+			Fixes dman not delivering enough Fixes dman recovery Remove unnecessary copy operations * fix warehouse oopsy (#5723)
+			Fix warehouse for stack list requests * Small fix (#5719)
+			This has a minor dyer fix This also goes back to explicit structurize versions. We always want people to use the newest and not a range of it anyway.
+
+	Productive Bees (productivebees-1.15.2-0.3.2.jar --> productivebees-1.15.2-0.3.3.jar):
+		productivebees-1.15.2-0.3.3.jar:
+			Backup before updating
+			* Added Patchouli book with general documentation
+			* Added JEI information to bees about flowering requirements
+			* Added production chance to the centrifuge recipe display in JEI
+			* Added obsidian bee
+			* Added TOP support to show what is in side a nest
+			* Changed quartz nest spawn calculation to hopefully make it easier to find a nest in the nether
+			* Moved some bees to data pack structure
+			* Fixed bees from data pack not showing on clients JEI
+			* Fixed plastic and silicon bee produce recipes
+			* Lowered the repopulation cooldown for nests
+
+	Psi (Psi r1.2-83.jar --> Psi r1.2-84.jar):
+		Psi r1.2-84.jar:
+			Documentation WIP
+			If you want to help please join the Discord or DM Kamefrede#4501!
+			Changelog: [http://psi.vazkii.us/changelog.php#r1.2-834](http://psi.vazkii.us/changelog.php#r1.1-77)
+
+	RFTools Base (RFToolsBase - 1.15-1.1.6 --> RFToolsBase - 1.15-1.1.7):
+		RFToolsBase - 1.15-1.1.7:
+			RFToolsBase 1.15-1.1.7
+
+	RFTools Builder (RFToolsBuilder - 1.15-2.1.8 --> RFToolsBuilder - 1.15-2.1.9):
+		RFToolsBuilder - 1.15-2.1.9:
+			RFToolsBuilder 1.15-2.1.9
+			* Updated to latest McJtyLib
+
+	RFTools Power (RFToolsPower - 1.15-2.2.4 --> RFToolsPower - 1.15-2.2.5):
+		RFToolsPower - 1.15-2.2.5:
+			RFToolsPower 1.15-2.2.5
+
+		RFToolsPower - 1.15-2.2.5:
+			RFToolsPower 1.15-2.2.5
+
+	RFTools Storage (RFToolsStorage - 1.15-1.1.9 --> RFToolsStorage - 1.15-1.1.10):
+		RFToolsStorage - 1.15-1.1.10:
+			RFToolsStorage 1.15-1.1.10
+
+	RFTools Utility (RFToolsUtility - 1.15-2.1.9 --> RFToolsUtility - 1.15-2.1.10):
+		RFToolsUtility - 1.15-2.1.10:
+			RFToolsUtility 1.15-2.1.10
+			* Syringe no longer appears in every creative tab
+			* Correct translation for Syringe
+			* Forgot the recipe for the syringe
+			* Update to latest McJtyLib
+
+	Thermal Cultivation (thermal_cultivation-1.15.2-0.2.2b.jar --> thermal_cultivation-1.15.2-0.3.0b.jar):
+		thermal_cultivation-1.15.2-0.3.0b.jar:
+			No changelog available.
+
+		thermal_cultivation-1.15.2-0.2.4b.jar:
+			No changelog available.
+
+	Thermal Expansion (thermal_expansion-1.15.2-0.2.3b.jar --> thermal_expansion-1.15.2-0.3.0b.jar):
+		thermal_expansion-1.15.2-0.3.0b.jar:
+			No changelog available.
+
+		thermal_expansion-1.15.2-0.2.5b.jar:
+			No changelog available.
+
+		thermal_expansion-1.15.2-0.2.4b.jar:
+			No changelog available.
+
+	Thermal Foundation (thermal-1.15.2-0.2.3b.jar --> thermal-1.15.2-0.3.0b.jar):
+		thermal-1.15.2-0.3.0b.jar:
+			No changelog available.
+
+		thermal-1.15.2-0.2.5b.jar:
+			No changelog available.
+
+		thermal-1.15.2-0.2.4b.jar:
+			No changelog available.
+
+	Thermal Innovation (thermal_innovation-1.15.2-0.2.2b.jar --> thermal_innovation-1.15.2-0.3.0b.jar):
+		thermal_innovation-1.15.2-0.3.0b.jar:
+			No changelog available.
+
+		thermal_innovation-1.15.2-0.2.4b.jar:
+			No changelog available.
+
+	Thermal Locomotion (thermal_locomotion-1.15.2-0.2.2b.jar --> thermal_locomotion-1.15.2-0.3.0b.jar):
+		thermal_locomotion-1.15.2-0.3.0b.jar:
+			No changelog available.
+
+		thermal_locomotion-1.15.2-0.2.4b.jar:
+			No changelog available.
+
+	Transport (Transport-1.15.2-2.4.0.jar --> Transport-1.15.2-2.4.1.jar):
+		Transport-1.15.2-2.4.1.jar:
+			BUG FIX BACKPORT PARTY
+			* Loaders now notice carts much faster
+			* Things significantly less likely to get caught in switches
+			* Module Configurator now properly renders it's contents always
+			* Routing Parsing now longer runs the first route under an OR
+			* Powered carts always go forward out of Holding rails
+
+	Wither Skeleton Tweaks (WitherSkeletonTweaks-1.15.1-4.0.0.jar --> WitherSkeletonTweaks-1.15.2-4.0.2.jar):
+		WitherSkeletonTweaks-1.15.2-4.0.2.jar:
+			Pulled back all changes/fixes from 1.16+
+
+	XNet (XNet - 1.15-2.1.10 --> XNet - 1.15-2.1.11):
+		XNet - 1.15-2.1.11:
+			XNet 1.15-2.1.11
+
+	Xaero's Minimap (v20.21.0 for Forge 1.15.2 --> v20.22.0 for Forge 1.15.2):
+		v20.22.0 for Forge 1.15.2:
+			* Compatible with Xaero's World Map 1.10.0 or newer. Version 1.10.4 is recommended.
+			+ Added a new option for changing the shape of the minimap to a circle.
+			* Fixed on-minimap waypoints and compass rendering slightly offset.
+			* Added a fallback renderer for patreon capes for when Optifine is installed because Optifine completely overrides them now.
+
+		v20.22.0 for Fabric 1.15.2:
+			* Compatible with Xaero's World Map 1.10.0 or newer. Version 1.10.4 is recommended.
+			+ Added a new option for changing the shape of the minimap to a circle.
+			* Fixed on-minimap waypoints and compass rendering slightly offset.
+
+	Xaero's World Map (v1.10.3 for Forge 1.15.2 --> v1.10.4 for Forge 1.15.2):
+		v1.10.4 for Forge 1.15.2:
+			* Compatible with Xaero's Minimap / Better PVP 20.18.0 or newer. Version 20.22.0 is recommended.
+			* Added a fallback renderer for patreon capes for when Optifine is installed because Optifine completely overrides them now.
+
+Removed:
+- Snow Under Trees
+
+Generated using [ChangelogGenerator 2.0.0-pre3](https://github.com/TheRandomLabs/ChangelogGenerator).

@@ -121,7 +121,19 @@ events.listen('recipes', function (event) {
             '#forge:cobblestone',
             '#forge:cobblestone'
         ]),
-        shapelessRecipe(item.of('minecraft:cobblestone', 9), ['kubejs:compressed_cobblestone_1x'])
+        shapelessRecipe(item.of('minecraft:cobblestone', 9), ['kubejs:compressed_cobblestone_1x']),
+        shapelessRecipe(item.of('emendatusenigmatica:ingot_steel', 2), [
+            'immersiveengineering:ingot_steel',
+            'immersiveengineering:ingot_steel'
+        ]),
+        shapelessRecipe(item.of('immersiveengineering:ingot_steel', 2), [
+            'mekanism:ingot_steel',
+            'mekanism:ingot_steel'
+        ]),
+        shapelessRecipe(item.of('mekanism:ingot_steel', 2), [
+            'emendatusenigmatica:ingot_steel',
+            'emendatusenigmatica:ingot_steel'
+        ])
     ];
 
     recipes.forEach(function (recipe) {
