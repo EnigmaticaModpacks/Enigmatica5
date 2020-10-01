@@ -133,6 +133,46 @@ events.listen('recipes', function (event) {
         shapelessRecipe(item.of('mekanism:ingot_steel', 2), [
             'emendatusenigmatica:ingot_steel',
             'emendatusenigmatica:ingot_steel'
+        ]),
+        shapelessRecipe(item.of('naturesaura:token_joy', 2), [
+            { item: 'naturesaura:aura_bottle', nbt: { stored_type: 'naturesaura:overworld' } },
+            'minecraft:torch',
+            '#minecraft:small_flowers',
+            'minecraft:oak_sapling',
+            'minecraft:apple',
+            'minecraft:iron_ingot',
+            'naturesaura:gold_leaf',
+            'naturesaura:gold_powder'
+        ]),
+        shapelessRecipe(item.of('naturesaura:token_fear', 2), [
+            { item: 'naturesaura:aura_bottle', nbt: { stored_type: 'naturesaura:nether' } },
+            'minecraft:bone',
+            'minecraft:rotten_flesh',
+            'minecraft:oak_sapling',
+            'minecraft:feather',
+            'minecraft:soul_sand',
+            'naturesaura:gold_leaf',
+            'naturesaura:gold_powder'
+        ]),
+        shapelessRecipe(item.of('naturesaura:token_anger', 2), [
+            { item: 'naturesaura:aura_bottle', nbt: { stored_type: 'naturesaura:nether' } },
+            'minecraft:gunpowder',
+            'minecraft:magma_block',
+            'minecraft:oak_sapling',
+            'minecraft:blaze_powder',
+            'minecraft:ender_pearl',
+            'naturesaura:gold_leaf',
+            'naturesaura:gold_powder'
+        ]),
+        shapelessRecipe(item.of('naturesaura:token_sorrow', 2), [
+            { item: 'naturesaura:aura_bottle', nbt: { stored_type: 'naturesaura:overworld' } },
+            '#forge:glass',
+            'minecraft:ghast_tear',
+            'minecraft:oak_sapling',
+            '#minecraft:meats',
+            '#minecraft:fishes',
+            'naturesaura:gold_leaf',
+            'naturesaura:gold_powder'
         ])
     ];
 
