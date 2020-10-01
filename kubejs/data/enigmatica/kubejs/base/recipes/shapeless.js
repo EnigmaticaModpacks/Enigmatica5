@@ -110,29 +110,46 @@ events.listen('recipes', function (event) {
             'minecraft:book',
             '#forge:dyes/yellow'
         ]),
-        shapelessRecipe('kubejs:compressed_cobblestone_1x', [
-            '#forge:cobblestone',
-            '#forge:cobblestone',
-            '#forge:cobblestone',
-            '#forge:cobblestone',
-            '#forge:cobblestone',
-            '#forge:cobblestone',
-            '#forge:cobblestone',
-            '#forge:cobblestone',
-            '#forge:cobblestone'
+
+        shapelessRecipe(item.of('naturesaura:token_joy', 2), [
+            { item: 'naturesaura:aura_bottle', nbt: { stored_type: "naturesaura:overworld" } },
+            'minecraft:torch',
+            '#minecraft:small_flowers',
+            'minecraft:oak_sapling',
+            'minecraft:apple',
+            'minecraft:iron_ingot',
+            'naturesaura:gold_leaf',
+            'naturesaura:gold_powder'
         ]),
-        shapelessRecipe(item.of('minecraft:cobblestone', 9), ['kubejs:compressed_cobblestone_1x']),
-        shapelessRecipe(item.of('emendatusenigmatica:ingot_steel', 2), [
-            'immersiveengineering:ingot_steel',
-            'immersiveengineering:ingot_steel'
+        shapelessRecipe(item.of('naturesaura:token_fear', 2), [
+            { item: 'naturesaura:aura_bottle', nbt: { stored_type: "naturesaura:nether" } },
+            'minecraft:bone',
+            'minecraft:rotten_flesh',
+            'minecraft:oak_sapling',
+            'minecraft:feather',
+            'minecraft:soul_sand',
+            'naturesaura:gold_leaf',
+            'naturesaura:gold_powder'
         ]),
-        shapelessRecipe(item.of('immersiveengineering:ingot_steel', 2), [
-            'mekanism:ingot_steel',
-            'mekanism:ingot_steel'
+        shapelessRecipe(item.of('naturesaura:token_anger', 2), [
+            { item: 'naturesaura:aura_bottle', nbt: { stored_type: "naturesaura:nether" } },
+            'minecraft:gunpowder',
+            'minecraft:magma_block',
+            'minecraft:oak_sapling',
+            'minecraft:blaze_powder',
+            'minecraft:ender_pearl',
+            'naturesaura:gold_leaf',
+            'naturesaura:gold_powder'
         ]),
-        shapelessRecipe(item.of('mekanism:ingot_steel', 2), [
-            'emendatusenigmatica:ingot_steel',
-            'emendatusenigmatica:ingot_steel'
+        shapelessRecipe(item.of('naturesaura:token_sorrow', 2), [
+            { item: 'naturesaura:aura_bottle', nbt: { stored_type: "naturesaura:overworld" } },
+            '#forge:glass',
+            'minecraft:ghast_tear',
+            'minecraft:oak_sapling',
+            '#minecraft:meats',
+            '#minecraft:fishes',
+            'naturesaura:gold_leaf',
+            'naturesaura:gold_powder'
         ])
     ];
 
