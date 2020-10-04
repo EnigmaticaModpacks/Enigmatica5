@@ -173,6 +173,115 @@ events.listen('recipes', function (event) {
             '#minecraft:fishes',
             'naturesaura:gold_leaf',
             'naturesaura:gold_powder'
+        ]),
+        shapelessRecipe(item.of('naturesaura:eye', 1), [
+            'minecraft:spider_eye',
+            'naturesaura:gold_leaf',
+            'naturesaura:gold_leaf',
+            '#forge:ingots/gold',
+            'minecraft:oak_sapling'
+        ]),
+        shapelessRecipe(item.of('naturesaura:eye_improved', 1), [
+            'naturesaura:eye',
+            'naturesaura:gold_leaf',
+            'naturesaura:gold_leaf',
+            'naturesaura:sky_ingot',
+            'naturesaura:sky_ingot',
+            'naturesaura:end_flower',
+            'minecraft:oak_sapling'
+        ]),
+        shapelessRecipe(item.of('naturesaura:effect_powder', 24, {'effect':'naturesaura:nether_grass'}), [
+            'naturesaura:gold_powder',
+            'naturesaura:gold_powder',
+            'minecraft:grass',
+            'minecraft:netherrack',
+            'minecraft:oak_sapling'
+        ]),
+        shapelessRecipe(item.of('naturesaura:effect_powder', 32, {'effect':'naturesaura:cache_recharge'}), [
+            'naturesaura:gold_powder',
+            'naturesaura:gold_powder',
+            'naturesaura:aura_cache',
+            'naturesaura:sky_ingot',
+            'minecraft:oak_sapling'
+        ]),
+        shapelessRecipe(item.of('naturesaura:effect_powder', 8, {'effect':'naturesaura:animal'}), [
+            'naturesaura:gold_powder',
+            'naturesaura:gold_powder',
+            'minecraft:egg',
+            'naturesaura:sky_ingot',
+            'minecraft:jungle_sapling'
+        ]),
+        shapelessRecipe(item.of('naturesaura:effect_powder', 24, {'effect':'naturesaura:plant_boost'}), [
+            'naturesaura:gold_powder',
+            'naturesaura:gold_powder',
+            'minecraft:wheat',
+            'naturesaura:sky_ingot',
+            'minecraft:oak_sapling'
+        ]),
+        shapelessRecipe(item.of('naturesaura:effect_powder', 4, {'effect':'naturesaura:ore_spawn'}), [
+            'naturesaura:gold_powder',
+            'naturesaura:gold_powder',
+            '#forge:ores/redstone',
+            '#forge:ores/diamond',
+            'minecraft:oak_sapling'
+        ]),
+        shapelessRecipe(item.of('naturesaura:ancient_sapling', 2), [
+            'minecraft:wheat_seeds',
+            'naturesaura:gold_leaf',
+            'minecraft:dandelion',
+            'minecraft:poppy',
+            'minecraft:sugar_cane',
+            'minecraft:oak_sapling',
+            'minecraft:oak_sapling',
+            'naturesaura:gold_powder'
+        ]),
+        shapelessRecipe(item.of('naturesaura:conversion_catalyst'), [
+            'naturesaura:gold_brick',
+            'naturesaura:gold_leaf',
+            'minecraft:brewing_stand',
+            'naturesaura:sky_ingot',
+            '#forge:storage_blocks/glowstone',
+            'naturesaura:infused_stone',
+            'minecraft:jungle_sapling',
+            'naturesaura:gold_powder'
+        ]),
+        shapelessRecipe(item.of('naturesaura:crushing_catalyst'), [
+            'naturesaura:gold_brick',
+            'naturesaura:token_anger',
+            'minecraft:piston',
+            'minecraft:flint',
+            'naturesaura:infused_stone',
+            'minecraft:oak_sapling',
+            'naturesaura:gold_powder'
+        ]),
+        shapelessRecipe(item.of('naturesaura:furnace_heater'), [
+            'naturesaura:infused_stone',
+            'naturesaura:infused_stone',
+            'naturesaura:token_fear',
+            'minecraft:flint',
+            'minecraft:fire_charge',
+            'minecraft:magma_block',
+            'naturesaura:tainted_gold',
+            'naturesaura:infused_iron',
+            'minecraft:oak_sapling'
+        ]),
+        shapelessRecipe(item.of('naturesaura:nature_altar'), [
+            'naturesaura:gold_leaf',
+            'naturesaura:token_joy',
+            'minecraft:stone',
+            'minecraft:stone',
+            'minecraft:stone',
+            '#forge:ingots/gold',
+            'minecraft:oak_sapling',
+            'naturesaura:gold_powder'
+        ]),
+        shapelessRecipe(item.of('naturesaura:break_prevention'), [
+            'naturesaura:token_fear',
+            'naturesaura:tainted_gold',
+            'naturesaura:sky_ingot',
+            '#forge:gems/diamond',
+            'minecraft:oak_sapling',
+            'naturesaura:gold_powder'
         ])
     ];
 
