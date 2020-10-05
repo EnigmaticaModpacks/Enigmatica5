@@ -5,6 +5,8 @@
 	cropsOnVillageHouseLoot = true
 	#Generate crop items on a Shipwreck's supply chests
 	cropsOnShipwreckSupplyLoot = true
+	#Generate Compost Heaps across all village biomes
+	genVillageCompostHeaps = true
 
 	#Sea Beet generation
 	[world.wild_beetroots]
@@ -61,8 +63,10 @@
 
 #Vanilla item overrides
 [overrides]
-	#Should Minecraft soups (e.g. Mushroom Stew) grant Comfort and other positive effects, to reflect this mod's soups?
-	vanillaSoupEffects = true
+	#Should Rabbit Stew grant users the jumping prowess of a rabbit when eaten?
+	rabbitStewJumpBoost = true
 	#Should most vanilla tools register a dispenser behavior when facing a Cutting Board?
 	dispenserUsesToolsOnCuttingBoard = true
+	#Should items inside the tag 'farmersdelight:comfort_foods' grant 5 minutes of Comfort when eaten? (defaults to vanilla SoupItems)
+	comfortFoodTagEffect = true
 

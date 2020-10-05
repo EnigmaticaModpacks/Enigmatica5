@@ -25,6 +25,8 @@
 	generatesupplyloot = true
 	#Should players be allowed to abandon their colony to create a new one easily? Note: This is buggy! [Default: false]
 	allowinfinitecolonies = false
+	#If part of the colony is loaded by an owner/officer, the entire colony should be kept loaded. [Default: false]
+	forceloadcolony = false
 	#Child growth modifier. On average children take about 60min to grow at 1.0x modifier (the default). 5 = 5x as fast. [Default: 1]
 	#Range: 1.0 ~ 100.0
 	growthmodifier = 1.0
@@ -376,6 +378,8 @@
 	diligent = ["minecraft:book*6"]
 	#minecolonies.config.rainman.comment
 	rainman = ["minecraft:salmon_bucket*27"]
+	#minecolonies.config.strong.comment
+	strong = ["minecraft:diamond*8"]
 	#minecolonies.config.hormones.comment
 	hormones = ["minecraft:cooked_chicken*64"]
 	#minecolonies.config.city.comment
@@ -572,6 +576,10 @@
 	firstaid2 = ["minecraft:hay_block*16"]
 	#minecolonies.config.bandages.comment
 	bandages = ["minecraft:golden_carrot*16"]
+	#minecolonies.config.enhanced_gates2.comment
+	enhanced_gates2 = ["minecolonies:gate_iron*64", "minecolonies:ancienttome*2", "minecraft:obsidian*32"]
+	#minecolonies.config.enhanced_gates1.comment
+	enhanced_gates1 = ["minecolonies:gate_wood*64", "minecolonies:ancienttome*2", "minecraft:iron_block*5"]
 	#minecolonies.config.village.comment
 	village = ["minecraft:cooked_beef*256"]
 	#minecolonies.config.madness.comment
