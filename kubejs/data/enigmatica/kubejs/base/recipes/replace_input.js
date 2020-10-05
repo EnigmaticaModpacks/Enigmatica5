@@ -78,4 +78,10 @@ events.listen('recipes', function (event) {
         '#forge:cobblestone',
         '#quark:stone_tool_materials'
     );
+
+    event.replaceInput(
+        { type: 'minecraft:crafting_shaped', output: 'create:redstone_link' },
+        'create:brass_sheet',
+        '#forge:plates/brass'
+    );
 });
