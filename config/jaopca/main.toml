@@ -58,7 +58,7 @@
 #Configurations related to recipes.
 [recipes]
 	#List of recipes that should not be added.
-	blacklist = ["jaopca:mekanism.material_to_dust.prismarine", "jaopca:mekanism.material_to_gem.prismarine", "jaopca:occultism.material_to_dust.prismarine"]
+	blacklist = ["jaopca:mekanism.material_to_dust.prismarine", "jaopca:mekanism.material_to_gem.prismarine", "jaopca:occultism.material_to_dust.prismarine", "jaopca:thermal_expansion.material_to_dust.prismarine", "jaopca:mekanism.material_to_gem.sulfur"]
 
 #Configurations related to loot tables.
 [lootTables]
