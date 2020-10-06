@@ -1,4 +1,47 @@
-## Enigmatica 5 - 0.6.1
+## Enigmatica 5 - 0.6.2
+
+_Using Forge-1.15.2-31.2.36_ | _[Mod Updates](https://github.com/NillerMedDild/Enigmatica5/blob/master/changelogs/CHANGELOG_MODS_0.6.2.txt)_
+
+
+
+**TONS of changes have been made, a new world is required if you're updating from any version before 0.6.0**
+
+*This changelog is a combination of 0.6.1 and 0.6.2*
+
+
+
+**Changes**
+
+  - Thermal: Finish unification Thermal Gems [\#491](https://github.com/NillerMedDild/Enigmatica5/issues/491)
+  - Thermal: Pulverizer recipes for Zinc and Aluminum [\#488](https://github.com/NillerMedDild/Enigmatica5/issues/488)
+  - Unification for knifes [\#492](https://github.com/NillerMedDild/Enigmatica5/issues/492)
+  - Worldgen: Disable Astral Sorcery marble generation, enable Quark marble generation (Much more marble overall) [\#516](https://github.com/NillerMedDild/Enigmatica5/issues/516)
+
+  **Bug Fixes**
+
+  - Astral Sorcery: Structures [\#484](https://github.com/NillerMedDild/Enigmatica5/issues/484)
+  - BuildingGadgets; animations not working [\#279](https://github.com/NillerMedDild/Enigmatica5/issues/279)
+  - Create: Create lapis sheets have no recipe or alternative [\#500](https://github.com/NillerMedDild/Enigmatica5/issues/500)
+- Create: Sheets Compatibility [\#513](https://github.com/NillerMedDild/Enigmatica5/issues/513)
+- ImmersiveEngineering: Game crashes when you press ESC [\#503](https://github.com/NillerMedDild/Enigmatica5/issues/503)
+- ImmersiveEngineering: IE Engineer Villager accepts only IE Steel \(Steel conversion recipe added\) [\#496](https://github.com/NillerMedDild/Enigmatica5/issues/496)
+- ImmersiveEngineering: Unable to insert materials into a Coke Oven/Blast furnace from IE [\#509](https://github.com/NillerMedDild/Enigmatica5/issues/509)
+- Minecolonies: Barbarians texture bug [\#350](https://github.com/NillerMedDild/Enigmatica5/issues/350)
+- Misc: Broken Farmland Recipe [\#493](https://github.com/NillerMedDild/Enigmatica5/issues/493)
+- Powah: Uranitite [\#490](https://github.com/NillerMedDild/Enigmatica5/issues/490)
+- Quark: Quark Stone Brick Variants Unobtainable  [\#510](https://github.com/NillerMedDild/Enigmatica5/issues/510)
+- TerraForged: Ritual of the forest not working  [\#489](https://github.com/NillerMedDild/Enigmatica5/issues/489)
+- Worldgen: Cobblestone-only recipes are causing issues if only Stone is available underground \(Allow Stone in the place of cobblestone in some recipes\) [\#487](https://github.com/NillerMedDild/Enigmatica5/issues/487)
+- Worldgen: Fixes Granite being in worldgen, it was not meant to be.
+- Worldgen: Increased minimum Y level of Emerald Ore to Y=192
+- Worldgen: Increased the amount of Lead and Uranium Ore [\#497](https://github.com/NillerMedDild/Enigmatica5/issues/497)
+- Worldgen: Marble isn't part of ore/underground generation [\#515](https://github.com/NillerMedDild/Enigmatica5/issues/515)
+
+  **Mod Removals**
+
+  - Snow Under Trees (It is not needed with TerraForged)
+
+## (Pulled back) Enigmatica 5 - 0.6.1
 
 _Using Forge-1.15.2-31.2.36_ | _[Mod Updates](https://github.com/NillerMedDild/Enigmatica5/blob/master/changelogs/CHANGELOG_MODS_0.6.1.txt)_
 
