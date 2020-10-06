@@ -1,0 +1,1111 @@
+=======================================
+Enigmatica5 0.6.0 --> Enigmatica5 0.6.2
+=======================================
+
+Updated:
+	Apotheosis (Apotheosis-1.15.2-3.3.5.jar --> Apotheosis-1.15.2-3.3.7.jar):
+		Apotheosis-1.15.2-3.3.7.jar:
+			Fixed Tomes of Scrapping not being turned into enchanted books upon use.
+			Fixed Crescendo of Bolts generating duplicated arrows.
+
+	Aquaculture 2 (Aquaculture-1.15.2-2.0.16.jar --> Aquaculture-1.15.2-2.0.20.jar):
+		Aquaculture-1.15.2-2.0.20.jar:
+			Backported the following changes from 1.16.1:
+			* Made the majority of raw fish edible
+			* Added Spanish translations (Thanks to @feliclaria)
+			* Added recipe groups to some recipes (Thanks to @BetaCarotina)
+			* Fixed Neptunium Fillet Knife taking damage in some instances
+			* Re-added Fish Bones as junk loot
+
+	Archer's Paradox (archers_paradox-1.15.2-0.6.0b.jar --> archers_paradox-1.15.2-0.7.0b.jar):
+		archers_paradox-1.15.2-0.7.0b.jar:
+			No changelog available.
+
+	BlockCarpentry (BlockCarpentry 1.15.1/1.15.2 (0.7.2) --> BlockCarpentry 1.15.1/1.15.2 (0.8.1)):
+		BlockCarpentry 1.15.1/1.15.2 (0.8.1):
+			0.8.1 - Back-ported all features from 1.16.2/1.16.3 (0.3.3) to 1.15.1/1.15.2
+			+ Added some more overlays (like brick overlays, chiseled overlays, etc.), can be activated by right-clicking blocks with gunpowder
+			* Fixed waterlogging ability for slabs, blocks (cubes), chests and fence gates (#7)
+			* Changed boundary box of frame and illusion block (cube) when empty to work with waterlogging
+			* Fixed some squished textures
+			* Fixed bed-dupe-bug (when breaking beds, they wont drop two beds anymore)
+			* You can now place frame/illusion blocks on other frame/illusion blocks without sneaking (except for blocks, that have any interaction behaviour like opening/closing, e.g. doors, gates, chests, ...) (#10)
+			* Combined versions 1.16.2 and 1.16.3, should be working as expected
+			* When in creative, blocks will no longer be consumed when right-clicking an empty frame/illusion block (#9)
+			* When in creative, contained blocks will no longer be dropped, when breaking a frame/illusion block (#11)
+			* Updated lang files
+
+		BlockCarpentry 1.15.1/1.15.2 (0.8.0):
+			0.8.0 - Back-ported all features from 1.16.2 (0.3.1) to 1.15.1/1.15.2
+			+ Added two spanish lang files (thanks to kevinggg1) and one french lang file (thanks to KiroTheBlueFox)
+			+ Added frame and illusion walls (they currently behave more like thick fences than vanilla walls)
+			+ Added frame and illusion beds, but sadly, villagers wont sleep in them, maybe they have higher standards... :(
+			+ Added frame and illusion ladders
+			+ Added frame and illusion chests
+			+ Added frame and illusion fence gates
+			+ Added five types of block overlays (normal and large grass overlay, normal and small snow overlay, vine overlay)
+			* Fixed frame and illusion stairs looking stupid when containing transparent blocks
+			* Fixed transparent blocks looking solid (especially for illusion blocks)
+			* Fixed grass blocks in frame and illusion blocks appearing gray - they now have the corresponding biome color
+			* Fixed the weird "texture is either moved to the right or to the left"-bug
+			* Fixed some bugs occuring when using modded blocks or when using blocks that have a TER (Tile Entity Renderer), such as chests - instead, the block becomes invisible (only bounding box visible) and a message appears
+			* Made some blocks waterloggable to match their vanilla counterparts
+			* Villagers can now open and close frame and illusion doors
+
+	CoFH Core (cofh_core-1.15.2-0.6.2b.jar --> cofh_core-1.15.2-0.7.0b.jar):
+		cofh_core-1.15.2-0.7.0b.jar:
+			No changelog available.
+
+		cofh_core-1.15.2-0.6.4b.jar:
+			No changelog available.
+
+	Create (Create - mc1.15.2_v0.2.4d --> Create - mc1.15.2_v0.2.4e):
+		Create - mc1.15.2_v0.2.4e:
+			Create v0.2.4e for Minecraft 1.15.2
+			What's this, a new, new version? Nope, Sorry. 0.3 is taking some more time, so we went back and fixed a few old bugs for your convenience!
+			Fixes
+			* Fixed hot-swapped Shaders causing creates components to render as a massive nightmarish vertex hairball
+			* Fixed brass casing rendering reversed on some belt orientations
+			* Fixed shafts and brass casing applied to belts causing self-powering kinetic loops, as well as crashes with active belt processing
+			* Fixed some issues with other mods placing down components of Create
+			Please submit any Issues you come across on the [Issue Tracker](https://github.com/Creators-of-Create/Create/issues).
+
+	Ding (Ding-1.15.2-1.1.0.jar --> Ding-1.15.2-1.2.0.jar):
+		Ding-1.15.2-1.2.0.jar:
+			1.2.0:
+			* Added ability to play a sound on resources reload (or rather when the progress bar disappears).
+			* Added skipSoundEventCheck for maybe third party sounds.
+			* Added flag to disable client-server modlist mismatch
+
+	Dungeon Crawl (DungeonCrawl-1.15.2-2.0.2 --> DungeonCrawl-1.15.2-2.1.0):
+		DungeonCrawl-1.15.2-2.1.0:
+			Dungeon Crawl 2.1.0
+			AS OF VERSION 2.1.0, DUNGEON CRAWL IS PUBLISHED UNDER THE TERMS OF THE [GNU GENERAL PUBLIC LICENSE v. 3]()
+			Monster Changes:
+			* The monster spawner system is now datapack driven, allowing for customization
+			* Monsters will now have potion effects by default in the lower layers
+			* Added wither skeletons to the layers 3, 4 and 5 (they can't drop skulls)
+			Other:
+			* BREAKING CHANGE: Renamed the "stage" parameter for the loot functions to "loot_level"
+			* Added a "solid" option to the config that disables the dungeon ripping itself apart to match the worldgen ([#38](https://github.com/XYROC/DungeonCrawl/issues/38))
+			* Added an option to register dummy pieces for pre-2.0.0 dungeons on startup. (NOT TESTED because i am unable to reproduce the crash for some reason)
+			* Nerfed the loot enchantment level per stage from 10/15/20/25/30 to 10/13/16/19/22
+			* Introduced a new theme-driven decoration system. Themes (not sub-themes) can now have a list of decorations, e.g. vines like in the mossy layers
+			* Themes can now also force a sub-theme (or a sub-theme randomizer) to be used with them
+			* The dungeons now imitate vanilla's structure separation system, because it is not possible to actually hook into it right now. This fixes the weird and inconsistent generation. ([#34](https://github.com/XYROC/DungeonCrawl/issues/34))
+			* Added some new corridor and node models for the nether layer
+			* Added a new loot room model (the old one won't get used by default anymore)
+			* Enabled the side rooms again, there are two different models right now
+			* Added some new node connectors, including one trap
+			* Removed corridor linker 2 (the small room with the water in the middle) from the corridor linker model pool.
+			Fixed Issues:
+			* Fixed monsters in stage 4 and 5 getting equipped with stage 1 items
+			* Fixed vines getting placed wrongly sometimes ([#39](https://github.com/XYROC/DungeonCrawl/issues/39))
+			* Fixed a deadlock issue ([#35](https://github.com/XYROC/DungeonCrawl/issues/35))
+
+	Emendatus Enigmatica (EmendatusEnigmatica-1.15.2-1.0.6 --> EmendatusEnigmatica-1.15.2-1.0.10):
+		EmendatusEnigmatica-1.15.2-1.0.10:
+			Emendatus Enigmatica
+			MC 1.15.2 | Version 1.0.10
+			* Minimum Y level default increased to 256, previously was 128.
+
+		EmendatusEnigmatica-1.15.2-1.0.9:
+			Emendatus Enigmatica
+			MC 1.15.2 | Version 1.0.9
+			* Added recipes for 9x Gems from Blocks.
+
+		EmendatusEnigmatica-1.15.2-1.0.8:
+			Emendatus Enigmatica
+			MC 1.15.2 | Version 1.0.8
+			* Slight texture update.
+			Emendatus Enigmatica
+			MC 1.15.2 | Version 1.0.7
+			* Added Thermal Gem for compat.
+			* Added Sawdust
+			* Changed the name from Saltpeter to Potassium Nitrate (with both Niter and Saltpeter tags)
+			Emendatus Enigmatica
+			MC 1.15.2 | Version 1.0.6
+			* Added Thermal Materials, and Ores.
+			* Added Gears set.
+			* Updated Plates Textures.
+			Emendatus Enigmatica
+			MC 1.15.2 | Version 1.0.5
+			* Fixed a bug where harvesting ore with Silktouch is dropping EXP.
+			Emendatus Enigmatica
+			MC 1.15.2 | Version 1.0.4
+			* Added shapeless recipes to turn Ore Chunks into Ore Blocks
+			Emendatus Enigmatica
+			MC 1.15.2 | Version 1.0.3
+			* Added couple new tags to the Certus Quartz, Charged Certus Quartz, and Fluix Crystal
+			* Added the usage of DeferredWorkQueue during the World Gen to avoid a crash
+			* Added a Chunk to Ore recipes to the Stonecutter with all the ore variants to the Stonecutter Recipes
+			* Added Smelting and Blasting recipes for ingots/gems from ores
+			* Added JEI Integration
+			* Removed Skystone
+			Emendatus Enigmatica
+			MC 1.15.2 | Version 1.0.2
+			* World Gen Crash Fix
+			* AE2 and Minecraft Tags
+			* Added MinMaxCount on Redstone Ores Loot Tables
+			Emendatus Enigmatica
+			MC 1.15.2 | Version 1.0.1
+			* Minor Code Refactoring
+			* Texture Update
+			Emendatus Enigmatica
+			MC 1.15.2 | Version 1.0.0
+			* First Official Release
+
+		EmendatusEnigmatica-1.15.2-1.0.7:
+			Emendatus Enigmatica
+			MC 1.15.2 | Version 1.0.7
+			* Added Thermal Gem for compat.
+			* Added Sawdust
+			* Changed the name from Saltpeter to Potassium Nitrate (with both Niter and Saltpeter tags)
+			Emendatus Enigmatica
+			MC 1.15.2 | Version 1.0.6
+			* Added Thermal Materials, and Ores.
+			* Added Gears set.
+			* Updated Plates Textures.
+			Emendatus Enigmatica
+			MC 1.15.2 | Version 1.0.5
+			* Fixed a bug where harvesting ore with Silktouch is dropping EXP.
+			Emendatus Enigmatica
+			MC 1.15.2 | Version 1.0.4
+			* Added shapeless recipes to turn Ore Chunks into Ore Blocks
+			Emendatus Enigmatica
+			MC 1.15.2 | Version 1.0.3
+			* Added couple new tags to the Certus Quartz, Charged Certus Quartz, and Fluix Crystal
+			* Added the usage of DeferredWorkQueue during the World Gen to avoid a crash
+			* Added a Chunk to Ore recipes to the Stonecutter with all the ore variants to the Stonecutter Recipes
+			* Added Smelting and Blasting recipes for ingots/gems from ores
+			* Added JEI Integration
+			* Removed Skystone
+			Emendatus Enigmatica
+			MC 1.15.2 | Version 1.0.2
+			* World Gen Crash Fix
+			* AE2 and Minecraft Tags
+			* Added MinMaxCount on Redstone Ores Loot Tables
+			Emendatus Enigmatica
+			MC 1.15.2 | Version 1.0.1
+			* Minor Code Refactoring
+			* Texture Update
+			Emendatus Enigmatica
+			MC 1.15.2 | Version 1.0.0
+			* First Official Release
+
+	Ensorcellation (ensorcellation-1.15.2-0.6.0b.jar --> ensorcellation-1.15.2-0.7.0b.jar):
+		ensorcellation-1.15.2-0.7.0b.jar:
+			No changelog available.
+
+	Farmer's Delight (FarmersDelight-1.15.2-0.2.2.jar --> FarmersDelight-1.15.2-0.2.3.jar):
+		FarmersDelight-1.15.2-0.2.3.jar:
+			0.2.3 - Village Traditions
+			* - Adds Compost Heaps to village generation:
+			* These structures house heaps of Organic Compost, which farmers lay down to decompose into Rich Soil. Each biome has a different composting strategy based on their biome and climate!
+			* Some of them have small farms mixed in, or examples of other mechanics;
+			* They often have a few blocks of Rich Soil ready for taking!
+			* Adds 3 new meals: Cooked Rice, Grilled Salmon and Baked Cod Stew;
+			* Adds Tatami, a traditional flooring based on straw and canvas:
+			* Tatami Blocks place as a "half-mat" by default. Placing another tatami against them will complete a "full-mat" pair! You can sneak-place to suppress pairing;
+			* Tatami Mats are carpet-thin, come in Full and Half, and can be interchanged to and fro via crafting. They have a simpler placement and behave like carpets.
+			* Thanks to Vazkii for sharing some placement code with me! A similar block to Tatami should soon be in Quark as well!
+			* Rename my "unofficial" Forge tool tags to be fully plural;
+			* Improves configs and integration options for modpack makers
+			* Prettifies the mod's meta files, and the info on the Mods page of Minecraft
+			* Makes Wild Patches non-replaceable like Tall Grass, closes issue #70
+			* Fixes containers vanishing if used to right-click an empty pot, closes issue #71
+			* Removes knives from being a crafting ingredient, delegating it to the Cutting Board if needed
+			* Fixes Grindstone repairing for knives, and some duplication cases with other mods
+			* More extensions to IE and MCAbnormals integration;
+			* Straw harvesting now checks "farmersdelight:straw_harvesters" for items that can harvest straw from grassy plants.
+
+	Gauges and Switches (rsgauges-1.15.2-1.2.5-b1.jar --> rsgauges-1.15.2-1.2.5-b2.jar):
+		rsgauges-1.15.2-1.2.5-b2.jar:
+			* v1.2.5-b2  [F] Added placement checks to circumvent crashes (PR#33 by IceDragon200).
+			* v1.2.5-b1  [M] Modified global switch power placement default setting to strong.
+			[F] Fixed gauge/indicator placement (issue #27, thx Bobcat64)
+			-------------------------------------------------------------------
+			* v1.2.4     [R] Release build v1.2.4. Release-to-release changes:
+			* Gauges are comparator output sensitive.
+			* Comparator Switch mode "Redstone Signal Strength" added.
+			* Config handling update.
+			* Bug fixes.
+			-------------------------------------------------------------------
+			* v1.2.4-b2  [!] Forge update, requires Forge 1.15.2-31.2.20.
+			[F] Gauges explicitly tell adjacent blocks that they can connect Redstone.
+			[F] Fixed Indicator/Siren placement crash (issue #24, thx Jamzs3).
+			* v1.2.4-b1  [A] Gauges are also comparator output sensitive and can directly
+			show e.g. how full chests are.
+			[F] Industrial Machine Switch texture size fixed.
+			[U] Forge/mappings updated.
+			[M] JEI integration updated.
+			[M] Models updated to circumvent too dark GUI representations.
+			[M] Config handling updated.
+			[!] Mod config moved from 'common' to 'server' config, in case
+			of applied setting please double check.
+			-------------------------------------------------------------------
+			* v1.2.3     [R] Release build v1.2.3. Release-to-release changes:
+			* Door Sensor added.
+			* Recipe fixes, lang files updated.
+			-------------------------------------------------------------------
+			* v1.2.3-b3  [M] Block Category Detector: Fixed forge tag lookup (issue #21, thx Nodlehs).
+			[M] Comparator Switch recipe fixed (thx @itzbahb).
+			[M] En lang files typo fixes (thx @itzbahb).
+			* v1.2.3-b2  [F] Fixed switch link max distance config (issue #20, thx Rictu5).
+			* v1.2.3-b1  [A] Added Door Sensor switch.
+			[M] Lang file zh_cn updated (PR#19, scikirbypoke).
+			-------------------------------------------------------------------
+			* v1.2.2     [R] Release build v1.2.2. Release-to-release changes:
+			* Valve Switch added.
+			* Elevator Button added.
+			* Minor fixes.
+			-------------------------------------------------------------------
+			* v1.2.2-b2   [A] Added Elevator Button.
+			* v1.2.2-b1   [A] Added Valve Switch (idea and model by Jack M).
+			-------------------------------------------------------------------
+			* v1.2.1      [R] Release build v1.2.1. Release-to-release changes:
+			* Industrial Comparator Switch added.
+			-------------------------------------------------------------------
+			* v1.2.1-b1   [A] Added Industrial Comparator Switch.
+			* v1.2.0-b2   [A] Added GIT version logging.
+			[M] Lang en_us: Sensitive Glass block names adapted (issue #15, thx Dimentive).
+			* v1.2.0-b1   [A] Added JEI integration.
+			[M] Model "vanillafication" rework, part 2.
+			[D] Removed obsolete switches (registry not affected).
+			[M] Recipes simplified, recipe conditions unified.
+			[M] Code updates for version compatibility.
+			[A] All block are waterloggable (including Sensitive glass).
+			* v1.1.10-b4  [F] Removed tag reference to minecraft:dirts, which prevented any
+			recipes from being craftable.
+			* v1.1.10-b3  [A] Initial port.
+
+	Global XP (globalxp-1.15.2-v1.4.11.jar --> globalxp-1.15.2-v1.4.14.jar):
+		globalxp-1.15.2-v1.4.14.jar:
+			* Fix XP block interaction in claimed FTB Chunks
+
+	Immersive Engineering ( ImmersiveEngineering-1.15.2-4.0.0-117 --> ImmersiveEngineering-1.15.2-4.1.0-122):
+		ImmersiveEngineering-1.15.2-4.1.0-122:
+			* Added the sawmill! It strips logs and cuts them into planks! (BluSunrize)
+			* It also produces sawdust, which can be burnt in a furnace or crafted into paper!
+			* It'll get more uses in the future :D
+			* Added blue ice to be used by the Thermoelectric Generator, nerfed packed ice in response (BluSunrize)
+			* Experimental recipe changes: (BluSunrize)
+			* Doubled the burntime of Diesel in the generator
+			* Allowed creosote to be very inefficient generator fuel
+			* Increase sulfur output from coal, lapis and quartz
+			* Increase gunpowder output from sulfur & saltpeter recipe
+			* Reduced ethanol output from melon slices
+			* Allowed multiblock structures to be changed by data packs (Malte)
+			* Added potted hemp: You can now put hemp seeds in a flower pot! (BluSunrize)
+			* Changed the renders for waterwheels, windmills and bucket wheel to use VBOs (Malte)
+			* Changed various multiblocks to have smaller textures and draw their elements from central sheets (BluSunrize)
+			* This will break existing resource packs that change multiblocks, but it makes them easier to create in the future!
+			* Changed chutes to act as inventories for hoppers, conveyors, etc (MalkContent)
+			* Changed chutes to insert properly into covered conveyors (MalkContent)
+			* Changed metal press and bottling machine to process items faster and improved their animations (MalkContent)
+			* Fixed GUI model for the alloy smelter (BluSunrize)
+			* Fixed crash with mineral veins being saved (BluSunrize)
+			* Fixed infinite crafting of firework rockets in the assembler (Malte)
+			* Fixed lighting in the assembler GUI (Malte)
+			* Fixed connectors being pushed by pistons if quark is installed (Malte)
+			* Fixed connectors accepting too much energy sometimes (Malte)
+			* Fixed recipes for steel, electrum and constantan dust (Malte)
+			* Fixed crash with potion bullets (BluSunrize)
+			* Fixed crash with the voting handler on MacOS (BluSunrize)
+			* Fixed rendering of fluids in world (Malte)
+			* Fixed issues with the mineral commands (Malte)
+			* Fixed crash related to non-bullet items in the gun turret (Malte)
+			* Fixed fluid pipes having janky behavior and rendering (MalkContent)
+
+		ImmersiveEngineering-1.15.2-4.0.1-119:
+			* Added Enderpeals as valid Railgun projectiles! (BluSunrize)
+			* Changed recipes for mixer and arc furnace to be synced properly (Malte)
+			* Fixed model issues with the metal press and refinery (Malte)
+			* Fixed the metal press piston vanishing at certain angles (Malte)
+			* Fixed wires rendering too many segments near chunk boundaries (Malte)
+			* Fixed broken lighting on split models (Malte)
+			* Fixed each block of the garden cloche rotating on its own (Malte)
+			* Fixed soil blocks not rendering in the garden cloche (Malte)
+			* Fixed the hemp plant blocks appearing in the creative menu (Malte)
+			* Fixed blueprints not showing up in the creative menu and JEI (Malte)
+			* Fixed turrets being rotated incorrectly (Malte)
+			* Fixed mixers voiding one tick worth of output (Malte)
+			* Fixed screwdriver not being able to sneak+rightclick blocks (BluSunrize)
+			* Fixed heavy shield not being repairable with a steel ingot (BluSunrize)
+			* Fixed rendering issues with CTM (Malte)
+			* Fixed rendering issues with IE's shaders & model caching (Malte)
+			* Fixed slabs dropping only one item (Malte)
+			* Fixed Arc Furnace not syncing its electrode render (Malte)
+
+	JAOPCA (JAOPCA-1.15.2-3.2.0.14.jar --> JAOPCA-1.15.2-3.2.0.15.jar):
+		JAOPCA-1.15.2-3.2.0.15.jar:
+			Added Thermal Expansion compat
+			Added AE2 compat
+			Added config option to disable parts of compat modules
+			Added module access to CraftTweaker compat
+
+	Macaw's Doors (mcw-doors-1.0.0-mc1.15.2.jar --> mcw-doors-1.0.1fix-mc1.15.1-2.jar):
+		mcw-doors-1.0.1fix-mc1.15.1-2.jar:
+			* Fixed server crash at start
+
+		mcw-doors-1.0.1-mc1.15.1-2.jar:
+			Only singleplayer works!
+			* Added western, glass, stable, stable head doors
+			* Fixed transparent x-ray door bug
+			* Fixed villagers can't open the doors
+
+	McJtyLib (McJtyLib - 1.15-4.1.7 --> McJtyLib - 1.15-4.1.10):
+		McJtyLib - 1.15-4.1.10:
+			McJtyLib 1.15-4.1.10
+
+		McJtyLib - 1.15-4.1.9:
+			McJtyLib 1.15-4.1.9
+
+		McJtyLib - 1.15-4.1.8:
+			McJtyLib 1.15-4.1.8
+			* New online help system on item/block tooltips (press F1)
+			* Refactored lots of internal code to make containers more consistent and work better
+
+	MineColonies (minecolonies-0.13.247-ALPHA-universal.jar --> minecolonies-0.13.324-ALPHA-universal.jar):
+		minecolonies-0.13.324-ALPHA-universal.jar:
+			Minecolonies Changelog
+			Version: 0.13.324-ALPHA
+			* Make sure we produce enough buckets from cake (#5887)
+			set the stack size appropriately when dealing with containers/tools in recipes
+
+		minecolonies-0.13.322-ALPHA-universal.jar:
+			Minecolonies Changelog
+			Version: 0.13.322-ALPHA
+			* Rewrite of door/gate/trapdoor toggle AI (#5886)
+			Rewrite of door/gate/trapdoor toggle AI, this lets us use the same AI for blocks with similar toggle behaviour. The idea is the same as the fenceGateAI before: we check the parts of path for toggleable blocks in range, and save their positions(previously we could only use one position). If we found some blocks the AI becomes active, while active it randomly activates one of the blocks it found. With multiple blocks in range it eventually finds a combination which allows it to go through.
+			Pathing now allows single trapdoor blocks as passable. Pathing now also adds the starting node to the path, previously only nodes with a parent were added.
+			Example of what they now make their way through:
+
+		minecolonies-0.13.321-ALPHA-universal.jar:
+			Minecolonies Changelog
+			Version: 0.13.321-ALPHA
+			* GUI improvements (#5879)
+			Improve ordering of citizen Hut GUI Add color codes that are easier to understand
+
+		minecolonies-0.13.320-ALPHA-universal.jar:
+			Minecolonies Changelog
+			Version: 0.13.320-ALPHA
+			* Adding split networking. (#5885)
+			This adds splits networking. Our packets are getting to big, even with string reductions on the RS side of things packets that we are sending around are getting extremely big for large colonies.
+			This PR adds a wrapping system which automatically splits all packets that are bigger then 90% of the max value.
+			On the receiving side the packets are processed, stitched back together and then processed as normal.
+
+		minecolonies-0.13.318-ALPHA-universal.jar:
+			Minecolonies Changelog
+			Version: 0.13.318-ALPHA
+			* Broaden out the new location display (#5877)
+			Change from AbstractBuildingCrafter.View to IBuildingWorkerView, to ensure more buildings display
+
+		minecolonies-0.13.317-ALPHA-universal.jar:
+			Minecolonies Changelog
+			Version: 0.13.317-ALPHA
+			* Fix evaluation of custom recipes (#5875)
+			Make RecipeStorage.equals more accurate fix the research evaluation to properly identify effects.
+
+		minecolonies-0.13.314-ALPHA-universal.jar:
+			Minecolonies Changelog
+			Version: 0.13.314-ALPHA
+			* Hotfix (#5874)
+			Hotfix for client crash Stop friendly fire
+
+		minecolonies-0.13.313-BETA-universal.jar:
+			Minecolonies Changelog
+			Version: 0.13.313-BETA
+			* Feature/research improvements (#5869)
+			Add Happiness Research effect into code actually. Add xp research effect into code actually Readjust research tree to move some researches into better positions. * hotfix xp loop (#5871)
+			Fixes the xp loop which happened when it tried to reduce a skills level to zero or lower, causing an int underflow. The new XP formula triggered this bug, as the old one semi-worked for negative levels too since it was quadratic
+
+		minecolonies-0.13.309-ALPHA-universal.jar:
+			Minecolonies Changelog
+			Version: 0.13.309-ALPHA
+			* Feature/research improvements (#5869)
+			Add Happiness Research effect into code actually. Add xp research effect into code actually Readjust research tree to move some researches into better positions.
+
+		minecolonies-0.13.308-ALPHA-universal.jar:
+			Minecolonies Changelog
+			Version: 0.13.308-ALPHA
+			* hotfix xp loop (#5871)
+			Fixes the xp loop which happened when it tried to reduce a skills level to zero or lower, causing an int underflow. The new XP formula triggered this bug, as the old one semi-worked for negative levels too since it was quadratic
+
+		minecolonies-0.13.307-BETA-universal.jar:
+			Minecolonies Changelog
+			Version: 0.13.307-BETA
+			* Herder use a FakePlayer to butcher animals (#5865)
+			The herder now does player damage As a result, we now get player only drops, including rabbit feet. * Add alternate level scaling (#5867)
+			This adds an alternate level scaling with a more delayed XP required curve, while keeping the starting levels more linear. So that we then have citizens more beeing able to reach higher levels like 45+ while not reducing the inital levels xp much. This also makes them a bit better in comparison to recruitable visitors, which start with higher skills. * Enhanced durability research for gates against multiple raiders (#5859)
+			Enhanced durability research for gates against multiple raiders Add debug for visitors getting to zero pos * Fix/multiples (#5862)
+			Better stat inheritance Increased pupil leveling Warehouse resolving to closest Remove recall all at townhall Add recall to citizen hut Fix team display on client side Vastly improve multiwarehouse research assignment Add some more info to delivery requests * Fix NRE when research missing (#5863)
+			fix a missing null check on research existence * Tackle some things from Modtoberfest list (#5853)
+			Fix research GUI to display arrows correctly * Replace a common NRE with a warning (#5858)
+			This is mostly a logging change, to log a one line warning rather than a full stack This does enable the removal of the bad task from the queue when the NRE skipped that. * Break up big crafting jobs (#5852)
+			Break crafting jobs into chunks based on the ingredients fitting in the inventory of the crafter This resolves the problem with cases where a crafting job requires more slots to load the recipe than the citizen has available. this becomes very visible when the recipe uses an ingredient with a maxStackSize of 1, and the output stacks higher than the number of inventory slots on the citizen.
+			Today, we have a special recipe for level 3 bakery that uses water bottles, and making a stack of that recipe needs 32 of those, with a total slot requirement of 33 + 1 for output.
+			The solution is to recognize the max recipe iterations we can load inputs for, and instead of creating a single crafting job of the full amount, calculate the maximum size we can process, and break it up into batches of that or smaller to accomplish the task. * fix fuel when furnace goes missing (#5851)
+			If the furnace position doesn't have a furnace, remove it from the list and move on. * Upgradeable fortress walls (#5855)
+			Fix null schematic name and level in the NBT preventing deco upgrade * Language adjustments & fix double claiming (#5849)
+			Fixed the inconsistent raid messages The research start message is more descriptive Added missing scepter names and missing advancement description Removed Asher's fascination with towers ... and with exclamation marks Some more interesting titles were attempted for some advancements Some advancements' tooltips have been made more brief The Barrel is now called the Compost Barrel (seriously, confused me when I rejoined mc in 1.15) Players can no longer change styles when upgrading a hut Fixes chunk claiming happening twice * Short type based serialization for packets (#5844)
+			Instead of serialization large "strings" we now serialize shorts for network usage to decrease the cost significantly. * Enabling POM upload. * hotfix add missing config checks * Feature/partial chunkload (#5839)
+			Keep the colony chunks loaded as long as an owner/officer etc is around. Fix some banner pathing issues * Allocate builder to decorations (#5827)
+			Decorations now transition to a build screen after placement The resources of the decoration can be seen, and the builder can be allocated A confirming message is sent to the players when a decoration is placed Decoration names have simplified names in some places (removed the long "schematics/decorations/" prefix) * Several fixes (#5830)
+			Miners shouldn't open nodes in water/lava Fix lumberjack tree storage Avoid deconstruction of barrackstowers. Fix recipe sorting Fix constructiontape removing fluids Fix NPE * Schematic Update 1.15 * Garden Fix * Jungle fixes * Merge branch 'version/1.15' into Schematics115 * Jungle Update * New Scans of all but Medieval * Remove incorrect scans * Merge branch 'version/1.15' into Schematics115 * Minor fixes * Merge remote-tracking branch 'origin/version/1.15' into Schematics115 * Spacewars huts added * Asian updates and adds * Merge remote-tracking branch 'origin/version/1.15' into Schematics115 * Schematic updates, added some missing huts for asian, fortress alts * Merge branch 'version/1.15' into Schematics115 * Fortress Tavern update * Spacewars Concrete Mixer and Rails * Dark oak and Spacewars new huts, fix stone barracks * Add huts to Dark Oak * Merge remote-tracking branch 'origin/version/1.15' into Schematics115
+			Conflicts:
+			src/main/resources/assets/minecolonies/schematics/asian/mechanic1.blueprint
+			src/main/resources/assets/minecolonies/schematics/asian/mechanic2.blueprint
+			src/main/resources/assets/minecolonies/schematics/asian/mechanic3.blueprint
+			src/main/resources/assets/minecolonies/schematics/asian/mechanic4.blueprint
+			src/main/resources/assets/minecolonies/schematics/asian/mechanic5.blueprint
+			src/main/resources/assets/minecolonies/schematics/asian/rabbithutch1.blueprint
+			src/main/resources/assets/minecolonies/schematics/asian/rabbithutch2.blueprint
+			src/main/resources/assets/minecolonies/schematics/asian/rabbithutch3.blueprint
+			src/main/resources/assets/minecolonies/schematics/asian/rabbithutch4.blueprint
+			src/main/resources/assets/minecolonies/schematics/asian/rabbithutch5.blueprint
+			src/main/resources/assets/minecolonies/schematics/asian/tavern2.blueprint
+			src/main/resources/assets/minecolonies/schematics/asian/tavern3.blueprint
+			src/main/resources/assets/minecolonies/schematics/fortress/citizen3.blueprint
+			src/main/resources/assets/minecolonies/schematics/fortress/citizen4.blueprint
+			src/main/resources/assets/minecolonies/schematics/fortress/citizen5.blueprint
+			src/main/resources/assets/minecolonies/schematics/fortress/cook4.blueprint
+			src/main/resources/assets/minecolonies/schematics/fortress/cook5.blueprint
+			src/main/resources/assets/minecolonies/schematics/sandstone/university1.blueprint
+			* remove asian mechanic, uploaded prematurely
+			* Medieval Oak, Spruce, Birch
+			* Medieval Oak and Spruce updates
+			* Sandstone update
+			* Rabbit hutch and minor fixes
+			* Merge remote-tracking branch 'origin/version/1.15' into Schematics115
+			Conflicts:
+			src/main/resources/assets/minecolonies/schematics/asian/mechanic1.blueprint
+			src/main/resources/assets/minecolonies/schematics/asian/mechanic2.blueprint
+			src/main/resources/assets/minecolonies/schematics/asian/mechanic3.blueprint
+			src/main/resources/assets/minecolonies/schematics/asian/mechanic4.blueprint
+			src/main/resources/assets/minecolonies/schematics/asian/mechanic5.blueprint
+			src/main/resources/assets/minecolonies/schematics/asian/rabbithutch1.blueprint
+			src/main/resources/assets/minecolonies/schematics/asian/rabbithutch2.blueprint
+			src/main/resources/assets/minecolonies/schematics/asian/rabbithutch3.blueprint
+			src/main/resources/assets/minecolonies/schematics/asian/rabbithutch4.blueprint
+			src/main/resources/assets/minecolonies/schematics/asian/rabbithutch5.blueprint
+			src/main/resources/assets/minecolonies/schematics/asian/tavern1.blueprint
+			src/main/resources/assets/minecolonies/schematics/asian/tavern2.blueprint
+			src/main/resources/assets/minecolonies/schematics/asian/tavern3.blueprint
+			src/main/resources/assets/minecolonies/schematics/fortress/barracks4.blueprint
+			src/main/resources/assets/minecolonies/schematics/fortress/barracks5.blueprint
+			src/main/resources/assets/minecolonies/schematics/fortress/citizen3.blueprint
+			src/main/resources/assets/minecolonies/schematics/fortress/citizen4.blueprint
+			src/main/resources/assets/minecolonies/schematics/fortress/citizen5.blueprint
+			src/main/resources/assets/minecolonies/schematics/fortress/cook1.blueprint
+			src/main/resources/assets/minecolonies/schematics/fortress/cook2.blueprint
+			src/main/resources/assets/minecolonies/schematics/fortress/cook3.blueprint
+			src/main/resources/assets/minecolonies/schematics/fortress/cook4.blueprint
+			src/main/resources/assets/minecolonies/schematics/fortress/cook5.blueprint
+			src/main/resources/assets/minecolonies/schematics/fortress/deliveryman3.blueprint
+			src/main/resource...
+			* Minor fix
+			* Schematic fixes and adds
+			* Merge remote-tracking branch 'origin/version/1.15' into Schematics115
+			Conflicts:
+			src/main/resources/assets/minecolonies/schematics/stone/fletcherhut.blueprint
+			* spacewars mineshafts
+			* medieval rescans
+			* Major rescan
+			* Merge remote-tracking branch 'origin/Schematics115' into Schematics115
+			* Merge remote-tracking branch 'origin/version/1.15' into Schematics115
+			* Merge remote-tracking branch 'origin/version/1.15' into Schematics115
+			* Mesa Plantation Tag Test
+			* Wooden rescan for possible armor stand issues
+			* New huts added
+			* Player housing and roads fixes
+			* Medieval updates
+			* Merge remote-tracking branch 'origin/Schematics115' into Schematics115
+			* Merge branch 'version/1.15' into Schematics115
+			* Update src/main/resources/assets/minecolonies/lang/en_us.json
+			Co-authored-by: ravenbuilder934 [sabrinajamie@outlook.com](mailto:sabrinajamie@outlook.com) * Concrete mixer, rabbit herder, medieval birch and other minor scans * Merge remote-tracking branch 'origin/Schematics115' into Schematics115 * Update en_us.json * Merge branch 'version/1.15' into Schematics115 * Remove random scan * Update in game help for some huts * Dwarven rescan - school fix * mesa mineshaft * acacia mineshaft * Wooden plantation * Merge remote-tracking branch 'origin/Schematics115' into Schematics115 * Merge branch 'version/1.15' into Schematics115 * wooden lighting changes * Merge remote-tracking branch 'origin/version/1.15' into Schematics115 * Nordic cook fix * fix mesa herders * Mesa fixes * medieval oak and spruce updates * Wooden updated with tags * Nordic supply ship * Birch school * deco fixes * Updated mesa * Medieval Oak and Medieval Spruce Update * Fixed Fortress Supply Ship * Fortress deco * remove extra files from acacia * Medieval Oak and Spruce supply ships * Revert Birch to original schematics * Merge remote-tracking branch 'origin/Schematics115' into Schematics115 * Merge branch 'version/1.15' into Schematics115 * Acacia updates and spacewars tavern * Merge remote-tracking branch 'origin/Schematics115' into Schematics115 * Merge branch 'version/1.15' into Schematics115 * Removed player head from Fortress University * Fix asian sawmill 5 * Merge remote-tracking branch 'origin/Schematics115' into Schematics115 * Merge remote-tracking branch 'origin/version/1.15' into Schematics115 * Merge remote-tracking branch 'origin/version/1.15' into Schematics115 * Nordic School Fix
+
+		minecolonies-0.13.302-ALPHA-universal.jar:
+			Minecolonies Changelog
+			Version: 0.13.302-ALPHA
+			* Herder use a FakePlayer to butcher animals (#5865)
+			The herder now does player damage As a result, we now get player only drops, including rabbit feet. * Add alternate level scaling (#5867)
+			This adds an alternate level scaling with a more delayed XP required curve, while keeping the starting levels more linear. So that we then have citizens more beeing able to reach higher levels like 45+ while not reducing the inital levels xp much. This also makes them a bit better in comparison to recruitable visitors, which start with higher skills.
+
+		minecolonies-0.13.301-ALPHA-universal.jar:
+			Minecolonies Changelog
+			Version: 0.13.301-ALPHA
+			* Enhanced durability research for gates against multiple raiders (#5859)
+			Enhanced durability research for gates against multiple raiders Add debug for visitors getting to zero pos * Fix/multiples (#5862)
+			Better stat inheritance Increased pupil leveling Warehouse resolving to closest Remove recall all at townhall Add recall to citizen hut Fix team display on client side Vastly improve multiwarehouse research assignment Add some more info to delivery requests
+
+		minecolonies-0.13.300-ALPHA-universal.jar:
+			Minecolonies Changelog
+			Version: 0.13.300-ALPHA
+			* Fix NRE when research missing (#5863)
+			fix a missing null check on research existence
+
+		minecolonies-0.13.297-ALPHA-universal.jar:
+			Minecolonies Changelog
+			Version: 0.13.297-ALPHA
+			* Tackle some things from Modtoberfest list (#5853)
+			Fix research GUI to display arrows correctly
+
+		minecolonies-0.13.296-ALPHA-universal.jar:
+			Minecolonies Changelog
+			Version: 0.13.296-ALPHA
+			* Replace a common NRE with a warning (#5858)
+			This is mostly a logging change, to log a one line warning rather than a full stack This does enable the removal of the bad task from the queue when the NRE skipped that. * Break up big crafting jobs (#5852)
+			Break crafting jobs into chunks based on the ingredients fitting in the inventory of the crafter This resolves the problem with cases where a crafting job requires more slots to load the recipe than the citizen has available. this becomes very visible when the recipe uses an ingredient with a maxStackSize of 1, and the output stacks higher than the number of inventory slots on the citizen.
+			Today, we have a special recipe for level 3 bakery that uses water bottles, and making a stack of that recipe needs 32 of those, with a total slot requirement of 33 + 1 for output.
+			The solution is to recognize the max recipe iterations we can load inputs for, and instead of creating a single crafting job of the full amount, calculate the maximum size we can process, and break it up into batches of that or smaller to accomplish the task.
+
+		minecolonies-0.13.293-ALPHA-universal.jar:
+			Minecolonies Changelog
+			Version: 0.13.293-ALPHA
+			* fix fuel when furnace goes missing (#5851)
+			If the furnace position doesn't have a furnace, remove it from the list and move on. * Upgradeable fortress walls (#5855)
+			Fix null schematic name and level in the NBT preventing deco upgrade
+
+		minecolonies-0.13.291-ALPHA-universal.jar:
+			Minecolonies Changelog
+			Version: 0.13.291-ALPHA
+			* Language adjustments & fix double claiming (#5849)
+			Fixed the inconsistent raid messages The research start message is more descriptive Added missing scepter names and missing advancement description Removed Asher's fascination with towers ... and with exclamation marks Some more interesting titles were attempted for some advancements Some advancements' tooltips have been made more brief The Barrel is now called the Compost Barrel (seriously, confused me when I rejoined mc in 1.15) Players can no longer change styles when upgrading a hut Fixes chunk claiming happening twice
+
+		minecolonies-0.13.290-ALPHA-universal.jar:
+			Minecolonies Changelog
+			Version: 0.13.290-ALPHA
+			* Short type based serialization for packets (#5844)
+			Instead of serialization large "strings" we now serialize shorts for network usage to decrease the cost significantly.
+
+		minecolonies-0.13.285-ALPHA-universal.jar:
+			Minecolonies Changelog
+			Version: 0.13.285-ALPHA
+			* Enabling POM upload.
+
+		minecolonies-0.13.284-ALPHA-universal.jar:
+			Minecolonies Changelog
+			Version: 0.13.284-ALPHA
+			No Changes detected!
+
+		minecolonies-0.13.281-ALPHA-universal.jar:
+			Minecolonies Changelog
+			Version: 0.13.281-ALPHA
+			* hotfix add missing config checks
+
+		minecolonies-0.13.280-ALPHA-universal.jar:
+			Minecolonies Changelog
+			Version: 0.13.280-ALPHA
+			* Feature/partial chunkload (#5839)
+			Keep the colony chunks loaded as long as an owner/officer etc is around. Fix some banner pathing issues
+
+		minecolonies-0.13.279-ALPHA-universal.jar:
+			Minecolonies Changelog
+			Version: 0.13.279-ALPHA
+			* Allocate builder to decorations (#5827)
+			Decorations now transition to a build screen after placement The resources of the decoration can be seen, and the builder can be allocated A confirming message is sent to the players when a decoration is placed Decoration names have simplified names in some places (removed the long "schematics/decorations/" prefix)
+
+		minecolonies-0.13.275-ALPHA-universal.jar:
+			Minecolonies Changelog
+			Version: 0.13.275-ALPHA
+			* Several fixes (#5830)
+			Miners shouldn't open nodes in water/lava Fix lumberjack tree storage Avoid deconstruction of barrackstowers. Fix recipe sorting Fix constructiontape removing fluids Fix NPE
+
+		minecolonies-0.13.274-ALPHA-universal.jar:
+			Minecolonies Changelog
+			Version: 0.13.274-ALPHA
+			* Schematic Update 1.15
+			* Garden Fix
+			* Jungle fixes
+			* Merge branch 'version/1.15' into Schematics115
+			* Jungle Update
+			* New Scans of all but Medieval
+			* Remove incorrect scans
+			* Merge branch 'version/1.15' into Schematics115
+			* Minor fixes
+			* Merge remote-tracking branch 'origin/version/1.15' into Schematics115
+			* Spacewars huts added
+			* Asian updates and adds
+			* Merge remote-tracking branch 'origin/version/1.15' into Schematics115
+			* Schematic updates, added some missing huts for asian, fortress alts
+			* Merge branch 'version/1.15' into Schematics115
+			* Fortress Tavern update
+			* Spacewars Concrete Mixer and Rails
+			* Dark oak and Spacewars new huts, fix stone barracks
+			* Add huts to Dark Oak
+			* Merge remote-tracking branch 'origin/version/1.15' into Schematics115
+			Conflicts:
+			src/main/resources/assets/minecolonies/schematics/asian/mechanic1.blueprint
+			src/main/resources/assets/minecolonies/schematics/asian/mechanic2.blueprint
+			src/main/resources/assets/minecolonies/schematics/asian/mechanic3.blueprint
+			src/main/resources/assets/minecolonies/schematics/asian/mechanic4.blueprint
+			src/main/resources/assets/minecolonies/schematics/asian/mechanic5.blueprint
+			src/main/resources/assets/minecolonies/schematics/asian/rabbithutch1.blueprint
+			src/main/resources/assets/minecolonies/schematics/asian/rabbithutch2.blueprint
+			src/main/resources/assets/minecolonies/schematics/asian/rabbithutch3.blueprint
+			src/main/resources/assets/minecolonies/schematics/asian/rabbithutch4.blueprint
+			src/main/resources/assets/minecolonies/schematics/asian/rabbithutch5.blueprint
+			src/main/resources/assets/minecolonies/schematics/asian/tavern2.blueprint
+			src/main/resources/assets/minecolonies/schematics/asian/tavern3.blueprint
+			src/main/resources/assets/minecolonies/schematics/fortress/citizen3.blueprint
+			src/main/resources/assets/minecolonies/schematics/fortress/citizen4.blueprint
+			src/main/resources/assets/minecolonies/schematics/fortress/citizen5.blueprint
+			src/main/resources/assets/minecolonies/schematics/fortress/cook4.blueprint
+			src/main/resources/assets/minecolonies/schematics/fortress/cook5.blueprint
+			src/main/resources/assets/minecolonies/schematics/sandstone/university1.blueprint
+			* remove asian mechanic, uploaded prematurely
+			* Medieval Oak, Spruce, Birch
+			* Medieval Oak and Spruce updates
+			* Sandstone update
+			* Rabbit hutch and minor fixes
+			* Merge remote-tracking branch 'origin/version/1.15' into Schematics115
+			Conflicts:
+			src/main/resources/assets/minecolonies/schematics/asian/mechanic1.blueprint
+			src/main/resources/assets/minecolonies/schematics/asian/mechanic2.blueprint
+			src/main/resources/assets/minecolonies/schematics/asian/mechanic3.blueprint
+			src/main/resources/assets/minecolonies/schematics/asian/mechanic4.blueprint
+			src/main/resources/assets/minecolonies/schematics/asian/mechanic5.blueprint
+			src/main/resources/assets/minecolonies/schematics/asian/rabbithutch1.blueprint
+			src/main/resources/assets/minecolonies/schematics/asian/rabbithutch2.blueprint
+			src/main/resources/assets/minecolonies/schematics/asian/rabbithutch3.blueprint
+			src/main/resources/assets/minecolonies/schematics/asian/rabbithutch4.blueprint
+			src/main/resources/assets/minecolonies/schematics/asian/rabbithutch5.blueprint
+			src/main/resources/assets/minecolonies/schematics/asian/tavern1.blueprint
+			src/main/resources/assets/minecolonies/schematics/asian/tavern2.blueprint
+			src/main/resources/assets/minecolonies/schematics/asian/tavern3.blueprint
+			src/main/resources/assets/minecolonies/schematics/fortress/barracks4.blueprint
+			src/main/resources/assets/minecolonies/schematics/fortress/barracks5.blueprint
+			src/main/resources/assets/minecolonies/schematics/fortress/citizen3.blueprint
+			src/main/resources/assets/minecolonies/schematics/fortress/citizen4.blueprint
+			src/main/resources/assets/minecolonies/schematics/fortress/citizen5.blueprint
+			src/main/resources/assets/minecolonies/schematics/fortress/cook1.blueprint
+			src/main/resources/assets/minecolonies/schematics/fortress/cook2.blueprint
+			src/main/resources/assets/minecolonies/schematics/fortress/cook3.blueprint
+			src/main/resources/assets/minecolonies/schematics/fortress/cook4.blueprint
+			src/main/resources/assets/minecolonies/schematics/fortress/cook5.blueprint
+			src/main/resources/assets/minecolonies/schematics/fortress/deliveryman3.blueprint
+			src/main/resource...
+			* Minor fix
+			* Schematic fixes and adds
+			* Merge remote-tracking branch 'origin/version/1.15' into Schematics115
+			Conflicts:
+			src/main/resources/assets/minecolonies/schematics/stone/fletcherhut.blueprint
+			* spacewars mineshafts
+			* medieval rescans
+			* Major rescan
+			* Merge remote-tracking branch 'origin/Schematics115' into Schematics115
+			* Merge remote-tracking branch 'origin/version/1.15' into Schematics115
+			* Merge remote-tracking branch 'origin/version/1.15' into Schematics115
+			* Mesa Plantation Tag Test
+			* Wooden rescan for possible armor stand issues
+			* New huts added
+			* Player housing and roads fixes
+			* Medieval updates
+			* Merge remote-tracking branch 'origin/Schematics115' into Schematics115
+			* Merge branch 'version/1.15' into Schematics115
+			* Update src/main/resources/assets/minecolonies/lang/en_us.json
+			Co-authored-by: ravenbuilder934 [sabrinajamie@outlook.com](mailto:sabrinajamie@outlook.com) * Concrete mixer, rabbit herder, medieval birch and other minor scans * Merge remote-tracking branch 'origin/Schematics115' into Schematics115 * Update en_us.json * Merge branch 'version/1.15' into Schematics115 * Remove random scan * Update in game help for some huts * Dwarven rescan - school fix * mesa mineshaft * acacia mineshaft * Wooden plantation * Merge remote-tracking branch 'origin/Schematics115' into Schematics115 * Merge branch 'version/1.15' into Schematics115 * wooden lighting changes * Merge remote-tracking branch 'origin/version/1.15' into Schematics115 * Nordic cook fix * fix mesa herders * Mesa fixes * medieval oak and spruce updates * Wooden updated with tags * Nordic supply ship * Birch school * deco fixes * Updated mesa * Medieval Oak and Medieval Spruce Update * Fixed Fortress Supply Ship * Fortress deco * remove extra files from acacia * Medieval Oak and Spruce supply ships * Revert Birch to original schematics * Merge remote-tracking branch 'origin/Schematics115' into Schematics115 * Merge branch 'version/1.15' into Schematics115 * Acacia updates and spacewars tavern * Merge remote-tracking branch 'origin/Schematics115' into Schematics115 * Merge branch 'version/1.15' into Schematics115 * Removed player head from Fortress University * Fix asian sawmill 5 * Merge remote-tracking branch 'origin/Schematics115' into Schematics115 * Merge remote-tracking branch 'origin/version/1.15' into Schematics115 * Merge remote-tracking branch 'origin/version/1.15' into Schematics115 * Nordic School Fix * Acacia Tavern * Medieval spruce supply camp and ship fixed * medieval oak supply camp and ship fixed * Acacia Update * medieval oak sawmill * Remove incorrect files * Update Medieval Oak and Medieval Spruce * Update Mesa * Birch Fixes * Update Sandstone * Update Birch * Dwarven Update * Fortress updates, fixes to player houses * nordic hospital level 5 fix * Nordic mechanic and plantation * asian deco * Fortress corners
+
+		minecolonies-0.13.272-BETA-universal.jar:
+			Minecolonies Changelog
+			Version: 0.13.272-BETA
+			* Fix some counting errors leading to stuck crafters (#5810)
+			Fix the logic around counting tools during crafting add a few more recipes as allowable to the mechanic * Rework the baker to be a real smeltercrafter (#5785)
+			The baker is now a true crafter, and will bake on-demand The baker no longer bakes as long as it has resources, but now supports prestock to force baking. Baker recipes reworked, and now have doughs that the baker crafts, and then cooks in the ovens to produce final result. Reworked the way all the smeltercrafters handle fuel management. It is much faster and more reliable now. Fixed quite a few small issues across the crafting and display code, especially around NBT handling - This will better support potions in the future. * Schematics115 (#5799)
+			New Scans for all but Medieval * Raidfixes and adjustments (#5803)
+			Fix citizen home dist complains Fix raids re-appearing the next day
+			Improve raid difficulty scaling to a more flat curve(weakest-strongest 3x instead of previously 10x stronger), aswell as making the difficulty increases less agressive. Improve raid calculation for the next day, on nightfall we now either trigger a raid, or check if next day should get a raid. Moved up night time slightly so that night triggers of the colony no longer can get skipped through sleeping * Some fixes (#5804)
+			Fix rack placement Fix NPE Display crafter list Fix guard tower pos.
+
+		minecolonies-0.13.271-ALPHA-universal.jar:
+			Minecolonies Changelog
+			Version: 0.13.271-ALPHA
+			* Fix some counting errors leading to stuck crafters (#5810)
+			Fix the logic around counting tools during crafting add a few more recipes as allowable to the mechanic
+
+		minecolonies-0.13.268-ALPHA-universal.jar:
+			Minecolonies Changelog
+			Version: 0.13.268-ALPHA
+			* Rework the baker to be a real smeltercrafter (#5785)
+			The baker is now a true crafter, and will bake on-demand The baker no longer bakes as long as it has resources, but now supports prestock to force baking. Baker recipes reworked, and now have doughs that the baker crafts, and then cooks in the ovens to produce final result. Reworked the way all the smeltercrafters handle fuel management. It is much faster and more reliable now. Fixed quite a few small issues across the crafting and display code, especially around NBT handling - This will better support potions in the future.
+
+		minecolonies-0.13.266-ALPHA-universal.jar:
+			Minecolonies Changelog
+			Version: 0.13.266-ALPHA
+			* Schematics115 (#5799)
+			New Scans for all but Medieval
+
+		minecolonies-0.13.265-ALPHA-universal.jar:
+			Minecolonies Changelog
+			Version: 0.13.265-ALPHA
+			* Raidfixes and adjustments (#5803)
+			Fix citizen home dist complains Fix raids re-appearing the next day
+			Improve raid difficulty scaling to a more flat curve(weakest-strongest 3x instead of previously 10x stronger), aswell as making the difficulty increases less agressive. Improve raid calculation for the next day, on nightfall we now either trigger a raid, or check if next day should get a raid. Moved up night time slightly so that night triggers of the colony no longer can get skipped through sleeping * Some fixes (#5804)
+			Fix rack placement Fix NPE Display crafter list Fix guard tower pos.
+
+		minecolonies-0.13.264-BETA-universal.jar:
+			Minecolonies Changelog
+			Version: 0.13.264-BETA
+			*
+			Fix guard complain (#5790)
+			*
+			Fix barracks not counting as nearby building Fix homes trying to spawn at level 0
+			*
+			Fix barracks not counting as nearby building Fix homes trying to spawn at level 0
+			* Add colony event log to Town Hall (#5751)
+			A colony event log that can be shown in the town hall instead of the permission event log. Replace all tabs in java files with spaces. Group a few more of the Town Hall lang keys together in the lang file. * ladder fix, invis fix fixes #5780 (#5781)
+			Ladder hotfix Invis hotfix * Job View Rework (#5773)
+			Add a way to serialize job data to views. Add clipboard filter Workers don't dropp off their food too quickly (baker overrides this behaviour) * Pathing tests (#5772)
+			Fixes citizens getting stuck at cocoa, playerheads and similar Allow citizens to walk on trapdoors and carpet if under the block is air. * Fix possible division through zero (#5775)
+			Fix early colony access before citizen is initialized(e.g. when getting damaged) Fix possible division through zero * Misc fixes and improvements (#5768)
+			Eliminate the florist producing gold blocks make rangers more likely to look for an elevation difference, this should encourage them to get on top of walls Add special recipes to dyer and mechanic when those buildings become level 3: Black dye from Charcoal, Cheaper lantern, cheaper rails clean up custom recipe Jsons to store integers as integers, and not strings
+
+		minecolonies-0.13.260-ALPHA-universal.jar:
+			Minecolonies Changelog
+			Version: 0.13.260-ALPHA
+			*
+			Fix guard complain (#5790)
+			*
+			Fix barracks not counting as nearby building Fix homes trying to spawn at level 0
+			*
+			Fix barracks not counting as nearby building Fix homes trying to spawn at level 0
+
+		minecolonies-0.13.257-ALPHA-universal.jar:
+			Minecolonies Changelog
+			Version: 0.13.257-ALPHA
+			* Add colony event log to Town Hall (#5751)
+			A colony event log that can be shown in the town hall instead of the permission event log. Replace all tabs in java files with spaces. Group a few more of the Town Hall lang keys together in the lang file.
+
+		minecolonies-0.13.255-ALPHA-universal.jar:
+			Minecolonies Changelog
+			Version: 0.13.255-ALPHA
+			* ladder fix, invis fix fixes #5780 (#5781)
+			Ladder hotfix Invis hotfix
+
+		minecolonies-0.13.254-ALPHA-universal.jar:
+			Minecolonies Changelog
+			Version: 0.13.254-ALPHA
+			* Job View Rework (#5773)
+			Add a way to serialize job data to views. Add clipboard filter Workers don't dropp off their food too quickly (baker overrides this behaviour)
+
+		minecolonies-0.13.252-ALPHA-universal.jar:
+			Minecolonies Changelog
+			Version: 0.13.252-ALPHA
+			* Pathing tests (#5772)
+			Fixes citizens getting stuck at cocoa, playerheads and similar Allow citizens to walk on trapdoors and carpet if under the block is air. * Fix possible division through zero (#5775)
+			Fix early colony access before citizen is initialized(e.g. when getting damaged) Fix possible division through zero
+
+		minecolonies-0.13.251-ALPHA-universal.jar:
+			Minecolonies Changelog
+			Version: 0.13.251-ALPHA
+			* Misc fixes and improvements (#5768)
+			Eliminate the florist producing gold blocks make rangers more likely to look for an elevation difference, this should encourage them to get on top of walls Add special recipes to dyer and mechanic when those buildings become level 3: Black dye from Charcoal, Cheaper lantern, cheaper rails clean up custom recipe Jsons to store integers as integers, and not strings
+
+		minecolonies-0.13.250-BETA-universal.jar:
+			Minecolonies Changelog
+			Version: 0.13.250-BETA
+			* Some fixes (#5762)
+			Fix entity AI active too early, causing a crash Fix respawning missing checks Remove entity respawning at the TH when actually unloaded Fix can't spawn at messages appearing for unloaded citizens * Fix/multi warehouses (#5757)
+			Improve multi-warehouse support Courier assign themselves to the closest one with open spots around them. Improve chunk claim message a bit. * Raid biome chance and some fixes (#5756) * Fix build error (#5749)
+			Fix the build error introduced by my last pr. Sorry, i misclicked when making the last pr causing the import to get deleted instead of being added to the class, i should have double checked it again. * Fix AbstractEntityAIStructureWithWorkOrder.java (#5748)
+			Fix AbstractEntityAIStructureWithWorkOrder.java sending an incorrect chat message after finishing deconstructing a building. * Add citizens complaining about no guard nearby (#5744)
+			Citizens now occasionally complain about having no guard building nearby their home or work buildings. Guard happiness modifier now only requires 2/3 of worker to guard ratio, compared to previously 1:1 * Adds gate blocks, for additional raid protection (#5727)
+			This adds two gate blocks, one wooden one iron which are craftable by the mechanic. Those have a max size of 5x4 and combine their hardness depending on size and act like vanilla doors, so that citizens and any other door using mechanic should work with them.
+			Fix raiders still using their old anti-stuck mechanics in addition to the new stuckhandler ones. Fix herder trying to breed with one item. Fix raid difficulty starting at zero * Improve tool usage in the cook and other crafters (#5728)
+			fix tool usage for larger stacks during crafting add haybale decompression to farmer bit of cleanup here and there. Make compost a bit cheaper fix ingredient resolution for cookable foods - prestock of cookables should work now. * fix builder getting stuck, fix visitor wander (#5737)
+			Builder not getting stuck anymore in deconstruct Fix visitor wandering * Adds more dynamic difficulty to raids (#5726)
+			Colonies now have an individual raid difficulty, increasing and decreasing with success of raids for a better balanced experience. Colonies start with the lowest difficulty. Difficulty scales between 20% and 200%. Raids start happening based on a minimum raidlevel instead of plain citizencount now.
+			Extra difficulty utlities for raiders:
+			Teaming up: raiders get put on the same scoreboard team so they cannot hurt eachother Movementspeed bonus: Raiders can get a bit faster, letting them catch up to players better (high difficulty) Archer arrows can get pierce effect Archers gain range through difficulty Melees get slightly increased hit range at high difficulty Citizen homes and Tavern recruits now have spawntimes in relation to missing citizen count, allowing for easier recruiting.
+			Fix paths not properly getting their target position and reach target flags in the pathfinding. Fix guards sometimes starting to eat mid-combat due to not resetting their fight timer Fix a bug where randomPos sometimes returns non-air positions. * Delivery fixes (#5733)
+			Vastly improve smelter crafter madness Add some safeguards to racks * Feature/border announcement (#5734)
+			Adds player announcement regarding the change in colony size when a build is completed. Tells the player how to increase their colony size when they try and place a building outside the colony * Delivery fixed (#5725)
+			Fixes dman not delivering enough Fixes dman recovery Remove unnecessary copy operations * fix warehouse oopsy (#5723)
+			Fix warehouse for stack list requests * Small fix (#5719)
+			This has a minor dyer fix This also goes back to explicit structurize versions. We always want people to use the newest and not a range of it anyway.
+
+	Miner's Helmet (Mining Helmet 1.15.2-v1.0.8 --> Mining Helmet 1.15.2-v1.0.9):
+		Mining Helmet 1.15.2-v1.0.9:
+			* Fixed broken change-log link
+			* Fixed missing blockstate definition
+
+	MixinBootstrap (MixinBootstrap-1.0.3.jar --> MixinBootstrap-1.0.4.jar):
+		MixinBootstrap-1.0.4.jar:
+			Updated to Mixin v0.8.1
+
+	Modular Routers (modular-routers-1.15.2-6.1.2-28.jar --> modular-routers-1.15.2-6.1.3-32.jar):
+		modular-routers-1.15.2-6.1.3-32.jar:
+			6.1.3 (21 Sep 2020)
+			* Fixed a divide-by-0 crash with some fluid tanks which report their max capacity as 0 mB
+			* Activator Module can now run with no item in the router (only really useful when in "Right Click Block" mode, of course)
+			* Added support for Industrial Foregoing Essence for the Vacuum Module / XP Augment
+
+	PneumaticCraft: Repressurized (pneumaticcraft-repressurized-1.15.2-1.4.5-69.jar --> pneumaticcraft-repressurized-1.15.2-1.5.0-73.jar):
+		pneumaticcraft-repressurized-1.15.2-1.5.0-73.jar:
+			1.5.0-73 (22 Sep 2020)
+			Important: if you are also using Immersive Engineering, this release requires IE 4.0.0-117 or newer.
+			Updates
+			* Added some config control over villager trades and house generation (primarily for the use of progression-based modpacks). See the Villages section in config/pneumaticcraft-common.toml
+			* - addMechanicHouse (boolean - default true) controls whether or not Pressure Mechanic houses can appear in villages
+			* - mechanicTrades (NONE, PCB_BLUEPRINT or ALL - default ALL) defines which trades a Pressure Mechanic offers
+			* - Note that neither setting is retroactive - any already-generated houses and villagers will not be affected by this
+			* All pressurizable tool items are now unstackable (does not apply to drones or air canisters)
+			* When Alt-clicking an item in the Smart Chest GUI, holding Shift as well will set the slot item limit to the stack's max size instead of the stack's current size
+			Fixes
+			* Fixed drone "Right Click Entity" prog widget not always working (e.g. milking cows with an empty bucket failed)
+			* Fixed air dupe exploit with stacked pressurizable items and the Charging Module
+			* Fixed player death message translations
+			* Fixed Amadrones thinking they had only one inventory slot, causing orders with more than 64 of an item to fail
+			* Fixed Memory Stick sometimes losing its stored experience
+			* Drone "Inventory Export" widget will now try to keep items stacked in the inventory it's exporting to
+			* - This also applies to Collector Drones, which use the "Inventory Export" widget internally
+			* Fixed Pneumatic Armor Coordinate Tracker upgrade not rendering in-world targets properly when activated
+
+	Productive Bees (productivebees-1.15.2-0.3.2.jar --> productivebees-1.15.2-0.4.0.jar):
+		productivebees-1.15.2-0.4.0.jar:
+			* - Added upgrades to expanded advanced hives. Upgrades include: increased productivity, decreased time in hive, block output instead of combs, breeding upgrade and an anti teleport upgrade to keep Ender bees from jumping away.
+			* - Added Ghostly Bee which can be found in the nether living in soul sand nests
+			* - Changed Withered Bee to a configurable bee and added support for attributes and effects for config bees
+			* - Honey treats used on a nest will now lower the repopulation cooldown by 10%
+			* - Fixed egg count in TOP info for nests
+			* - Fixed Dye bee texture
+			* - Fixed crash when accessing a full beehive after removing the expansion box
+
+		productivebees-1.15.2-0.3.5.2.jar:
+			* Fixes excessive recipe reloads
+
+		productivebees-1.15.2-0.3.5.1.jar:
+			* Fixes recipes getting messed up in clients
+
+		productivebees-1.15.2-0.3.5.jar:
+			* Fixed comb block colors on world reload
+			* Fixed flower tag for configurable bees
+
+		productivebees-1.15.2-0.3.4.jar:
+			* Added recipe for patchouli book
+			* Made other nesting bees die off like solitary bees
+			* Whacking a nest with a stick will now make the bee inside fly out
+
+		productivebees-1.15.2-0.3.3.jar:
+			Backup before updating
+			* Added Patchouli book with general documentation
+			* Added JEI information to bees about flowering requirements
+			* Added production chance to the centrifuge recipe display in JEI
+			* Added obsidian bee
+			* Added TOP support to show what is in side a nest
+			* Changed quartz nest spawn calculation to hopefully make it easier to find a nest in the nether
+			* Moved some bees to data pack structure
+			* Fixed bees from data pack not showing on clients JEI
+			* Fixed plastic and silicon bee produce recipes
+			* Lowered the repopulation cooldown for nests
+
+	Psi (Psi r1.2-83.jar --> Psi r1.2-84.jar):
+		Psi r1.2-84.jar:
+			Documentation WIP
+			If you want to help please join the Discord or DM Kamefrede#4501!
+			Changelog: [http://psi.vazkii.us/changelog.php#r1.2-834](http://psi.vazkii.us/changelog.php#r1.1-77)
+
+	RFTools Base (RFToolsBase - 1.15-1.1.6 --> RFToolsBase - 1.15-1.1.7):
+		RFToolsBase - 1.15-1.1.7:
+			RFToolsBase 1.15-1.1.7
+
+	RFTools Builder (RFToolsBuilder - 1.15-2.1.8 --> RFToolsBuilder - 1.15-2.1.11):
+		RFToolsBuilder - 1.15-2.1.11:
+			RFToolsBuilder 1.15-2.1.11
+
+		RFToolsBuilder - 1.15-2.1.10:
+			RFToolsBuilder 1.15-2.1.10
+
+		RFToolsBuilder - 1.15-2.1.9:
+			RFToolsBuilder 1.15-2.1.9
+			* Updated to latest McJtyLib
+
+	RFTools Power (RFToolsPower - 1.15-2.2.4 --> RFToolsPower - 1.15-2.2.5):
+		RFToolsPower - 1.15-2.2.5:
+			RFToolsPower 1.15-2.2.5
+
+		RFToolsPower - 1.15-2.2.5:
+			RFToolsPower 1.15-2.2.5
+
+	RFTools Storage (RFToolsStorage - 1.15-1.1.9 --> RFToolsStorage - 1.15-1.1.10):
+		RFToolsStorage - 1.15-1.1.10:
+			RFToolsStorage 1.15-1.1.10
+
+	RFTools Utility (RFToolsUtility - 1.15-2.1.9 --> RFToolsUtility - 1.15-2.1.10):
+		RFToolsUtility - 1.15-2.1.10:
+			RFToolsUtility 1.15-2.1.10
+			* Syringe no longer appears in every creative tab
+			* Correct translation for Syringe
+			* Forgot the recipe for the syringe
+			* Update to latest McJtyLib
+
+	Simple Farming (simplefarming-1.15.2-1.3.0.jar --> simplefarming-1.15.2-1.3.3.jar):
+		simplefarming-1.15.2-1.3.3.jar:
+			Version 1.3.3 (10/5/20) Forge 31.2.31
+			*** Backup your worlds before updating! ***
+			Elenterius:
+			-Made fruit logs placeable horizontally
+			-Made double-high crops slow entities
+			-Added collidable hitbox for gourds
+			-Cleaned up right-click harvest functionality
+			-Cleaned up double crop growth
+			-Added proper overlay for fruit trees and berry bushes
+
+	Structurize (structurize-0.13.64-ALPHA.jar --> structurize-0.13.91-ALPHA-universal.jar):
+		structurize-0.13.91-ALPHA-universal.jar:
+			Minecolonies Changelog
+			Version: 0.13.91-ALPHA
+			* Minor improvements (#216)
+
+		structurize-0.13.88-ALPHA-universal.jar:
+			Minecolonies Changelog
+			Version: 0.13.88-ALPHA
+			* Create CLA.md
+
+		structurize-0.13.86-ALPHA-universal.jar:
+			Minecolonies Changelog
+			Version: 0.13.86-ALPHA
+			No Changes detected!
+
+		structurize-0.13.70-ALPHA-universal.jar:
+			Minecolonies Changelog
+			Version: 0.13.70-ALPHA
+			* Add shading of structurize dependencies into the main jar. Mark shadowed jar as universal.
+
+		structurize-0.13.69-ALPHA.jar:
+			Minecolonies Changelog
+			Version: 0.13.69-ALPHA
+			* Publish an updated POM to maven.
+
+	TerraForged (0.1.2 --> 0.1.3):
+		0.1.3:
+			Please back up your worlds before updating.
+			Changes:
+			* - fixes a compatibility issue with the Nature's Aura tree ritual
+
+	Thermal Cultivation (thermal_cultivation-1.15.2-0.2.2b.jar --> thermal_cultivation-1.15.2-0.3.0b.jar):
+		thermal_cultivation-1.15.2-0.3.0b.jar:
+			No changelog available.
+
+		thermal_cultivation-1.15.2-0.2.4b.jar:
+			No changelog available.
+
+	Thermal Expansion (thermal_expansion-1.15.2-0.2.3b.jar --> thermal_expansion-1.15.2-0.3.0b.jar):
+		thermal_expansion-1.15.2-0.3.0b.jar:
+			No changelog available.
+
+		thermal_expansion-1.15.2-0.2.5b.jar:
+			No changelog available.
+
+		thermal_expansion-1.15.2-0.2.4b.jar:
+			No changelog available.
+
+	Thermal Foundation (thermal-1.15.2-0.2.3b.jar --> thermal-1.15.2-0.3.0b.jar):
+		thermal-1.15.2-0.3.0b.jar:
+			No changelog available.
+
+		thermal-1.15.2-0.2.5b.jar:
+			No changelog available.
+
+		thermal-1.15.2-0.2.4b.jar:
+			No changelog available.
+
+	Thermal Innovation (thermal_innovation-1.15.2-0.2.2b.jar --> thermal_innovation-1.15.2-0.3.0b.jar):
+		thermal_innovation-1.15.2-0.3.0b.jar:
+			No changelog available.
+
+		thermal_innovation-1.15.2-0.2.4b.jar:
+			No changelog available.
+
+	Thermal Locomotion (thermal_locomotion-1.15.2-0.2.2b.jar --> thermal_locomotion-1.15.2-0.3.0b.jar):
+		thermal_locomotion-1.15.2-0.3.0b.jar:
+			No changelog available.
+
+		thermal_locomotion-1.15.2-0.2.4b.jar:
+			No changelog available.
+
+	Transport (Transport-1.15.2-2.4.0.jar --> Transport-1.15.2-2.4.1.jar):
+		Transport-1.15.2-2.4.1.jar:
+			BUG FIX BACKPORT PARTY
+			* Loaders now notice carts much faster
+			* Things significantly less likely to get caught in switches
+			* Module Configurator now properly renders it's contents always
+			* Routing Parsing now longer runs the first route under an OR
+			* Powered carts always go forward out of Holding rails
+
+	Wither Skeleton Tweaks (WitherSkeletonTweaks-1.15.1-4.0.0.jar --> WitherSkeletonTweaks-1.15.2-4.0.2.jar):
+		WitherSkeletonTweaks-1.15.2-4.0.2.jar:
+			Pulled back all changes/fixes from 1.16+
+
+	XNet (XNet - 1.15-2.1.10 --> XNet - 1.15-2.1.11):
+		XNet - 1.15-2.1.11:
+			XNet 1.15-2.1.11
+
+	Xaero's Minimap (v20.21.0 for Forge 1.15.2 --> v20.24.0 for Forge 1.15.2):
+		v20.24.0 for Forge 1.15.2:
+			* Compatible with Xaero's World Map 1.11.0 or newer.
+			+ Added new options to the "Entity Radar" screen for controlling if and when the names of entities are displayed on the minimap.
+			* Redesigned the "Entity Radar" screen.
+			* Increased the width of option buttons in the mod settings. Should be very helpful for translations, but the original text lines will benefit as well.
+			* Fixed rarely visible transparent line/seam in the minimap frame when using the circle shape.
+			* Fixed continuously going between edit mode (change position) and minimap settings (pressing S while hovering over) creating a GUI screen chain. The longer the chain the more "back" presses would be required to finally exit the screens.
+
+		v20.24.0 for Fabric 1.15.2:
+			* Compatible with Xaero's World Map 1.11.0 or newer.
+			+ Added new options to the "Entity Radar" screen for controlling if and when the names of entities are displayed on the minimap.
+			* Redesigned the "Entity Radar" screen.
+			* Increased the width of option buttons in the mod settings. Should be very helpful for translations, but the original text lines will benefit as well.
+			* Fixed rarely visible transparent line/seam in the minimap frame when using the circle shape.
+			* Fixed continuously going between edit mode (change position) and minimap settings (pressing S while hovering over) creating a GUI screen chain. The longer the chain the more "back" presses would be required to finally exit the screens.
+
+		v20.23.0 for Forge 1.15.2:
+			* Compatible with Xaero's World Map 1.11.0 or newer. No longer compatible with older!
+			* Reworked map shading/slopes. Should give the map a better feeling of depth and improve the appearance in general. You can still use the old shading by choosing the "Legacy" option in the "Terrain Slopes" setting.
+
+		v20.23.0 for Fabric 1.15.2:
+			* Compatible with Xaero's World Map 1.11.0 or newer. No longer compatible with older!
+			* Reworked map shading/slopes. Should give the map a better feeling of depth and improve the appearance in general. You can still use the old shading by choosing the "Legacy" option in the "Terrain Slopes" setting.
+
+		v20.22.0 for Forge 1.15.2:
+			* Compatible with Xaero's World Map 1.10.0 or newer. Version 1.10.4 is recommended.
+			+ Added a new option for changing the shape of the minimap to a circle.
+			* Fixed on-minimap waypoints and compass rendering slightly offset.
+			* Added a fallback renderer for patreon capes for when Optifine is installed because Optifine completely overrides them now.
+
+		v20.22.0 for Fabric 1.15.2:
+			* Compatible with Xaero's World Map 1.10.0 or newer. Version 1.10.4 is recommended.
+			+ Added a new option for changing the shape of the minimap to a circle.
+			* Fixed on-minimap waypoints and compass rendering slightly offset.
+
+	Xaero's World Map (v1.10.3 for Forge 1.15.2 --> v1.11.0 for Forge 1.15.2):
+		v1.11.0 for Forge 1.15.2:
+			* Compatible with Xaero's Minimap / Better PVP 20.23.0 or newer. No longer compatible with older!
+			* Reworked map shading/slopes. Should give the map a better feeling of depth and improve the appearance in general. You can still use the old shading by choosing "Legacy" in the "Terrain Slopes" option. Toggle the option to OFF and back to "Default" to force a full map refresh.
+			* Increased multiplayer map data save version. Older mod versions will not be able to load files saved by this one. This version should still be able to load older map data.
+			* Fixed block light brightness inconsistency with the minimap.
+			* Fixed rare errors (in form of lines) in slope shading.
+			* Fixed modded biome ids not being saved as 32 bit integers (instead of 8) when necessary.
+			* Removed some old unnecessary code.
+
+		v1.11.0 for Fabric 1.15.2:
+			* Compatible with Xaero's Minimap / Better PVP 20.23.0 or newer. No longer compatible with older!
+			* Reworked map shading/slopes. Should give the map a better feeling of depth and improve the appearance in general. You can still use the old shading by choosing "Legacy" in the "Terrain Slopes" option. Toggle the option to OFF and back to "Default" to force a full map refresh.
+			* Increased multiplayer map data save version. Older mod versions will not be able to load files saved by this one. This version should still be able to load older map data.
+			* Fixed block light brightness inconsistency with the minimap.
+			* Fixed rare errors (in form of lines) in slope shading.
+			* Fixed modded biome ids not being saved as 32 bit integers (instead of 8) when necessary.
+			* Removed some old unnecessary code.
+
+		v1.10.4 for Forge 1.15.2:
+			* Compatible with Xaero's Minimap / Better PVP 20.18.0 or newer. Version 20.22.0 is recommended.
+			* Added a fallback renderer for patreon capes for when Optifine is installed because Optifine completely overrides them now.
+
+	🥝 Kiwi (Kiwi-1.15.2-2.8.3.jar --> Kiwi-1.15.2-2.8.4.jar):
+		Kiwi-1.15.2-2.8.4.jar:
+			No changelog available.
+
+Removed:
+- Snow Under Trees
+
+Generated using [ChangelogGenerator 2.0.0-pre3](https://github.com/TheRandomLabs/ChangelogGenerator).

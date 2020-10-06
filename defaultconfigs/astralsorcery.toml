@@ -838,7 +838,7 @@
 
 		[world.generation.marble]
 			#Set this to false to disable this feature from generation.
-			enabled = true
+			enabled = false
 			#Set this to the lowest possible Y-level this feature should be able to generate at. Should be lower than 'maxY'
 			#Range: 1 ~ 216
 			minY = 0

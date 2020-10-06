@@ -4,7 +4,7 @@
 	#Activate/Deactivate the World Gen [Default: true]
 	Active = true
 	#Minimum Y-Level [Default: 0]
-	#Range: 0 ~ 128
+	#Range: 0 ~ 256
 	Minimum = 24
 	#Maximum Y-Level [Default: 128]
 	#Range: 0 ~ 256
@@ -20,7 +20,7 @@
 	#Activate/Deactivate the World Gen [Default: true]
 	Active = true
 	#Minimum Y-Level [Default: 0]
-	#Range: 0 ~ 128
+	#Range: 0 ~ 256
 	Minimum = 9
 	#Maximum Y-Level [Default: 64]
 	#Range: 0 ~ 256
@@ -36,7 +36,7 @@
 	#Activate/Deactivate the World Gen [Default: true]
 	Active = true
 	#Minimum Y-Level [Default: 0]
-	#Range: 0 ~ 128
+	#Range: 0 ~ 256
 	Minimum = 10
 	#Maximum Y-Level [Default: 32]
 	#Range: 0 ~ 256
@@ -52,7 +52,7 @@
 	#Activate/Deactivate the World Gen [Default: true]
 	Active = true
 	#Minimum Y-Level [Default: 0]
-	#Range: 0 ~ 128
+	#Range: 0 ~ 256
 	Minimum = 7
 	#Maximum Y-Level [Default: 16]
 	#Range: 0 ~ 256
@@ -68,7 +68,7 @@
 	#Activate/Deactivate the World Gen [Default: true]
 	Active = true
 	#Minimum Y-Level [Default: 64]
-	#Range: 0 ~ 128
+	#Range: 0 ~ 256
 	Minimum = 192
 	#Maximum Y-Level [Default: 128]
 	#Range: 0 ~ 256
@@ -84,7 +84,7 @@
 	#Activate/Deactivate the World Gen [Default: true]
 	Active = true
 	#Minimum Y-Level [Default: 0]
-	#Range: 0 ~ 128
+	#Range: 0 ~ 256
 	Minimum = 16
 	#Maximum Y-Level [Default: 16]
 	#Range: 0 ~ 256
@@ -100,7 +100,7 @@
 	#Activate/Deactivate the World Gen [Default: true]
 	Active = true
 	#Minimum Y-Level [Default: 0]
-	#Range: 0 ~ 128
+	#Range: 0 ~ 256
 	Minimum = 8
 	#Maximum Y-Level [Default: 16]
 	#Range: 0 ~ 256
@@ -116,7 +116,7 @@
 	#Activate/Deactivate the World Gen [Default: true]
 	Active = true
 	#Minimum Y-Level [Default: 45]
-	#Range: 0 ~ 128
+	#Range: 0 ~ 256
 	Minimum = 45
 	#Maximum Y-Level [Default: 60]
 	#Range: 0 ~ 256
@@ -132,7 +132,7 @@
 	#Activate/Deactivate the World Gen [Default: true]
 	Active = true
 	#Minimum Y-Level [Default: 50]
-	#Range: 0 ~ 128
+	#Range: 0 ~ 256
 	Minimum = 45
 	#Maximum Y-Level [Default: 70]
 	#Range: 0 ~ 256
@@ -148,7 +148,7 @@
 	#Activate/Deactivate the World Gen [Default: true]
 	Active = true
 	#Minimum Y-Level [Default: 30]
-	#Range: 0 ~ 128
+	#Range: 0 ~ 256
 	Minimum = 30
 	#Maximum Y-Level [Default: 38]
 	#Range: 0 ~ 256
@@ -164,7 +164,7 @@
 	#Activate/Deactivate the World Gen [Default: true]
 	Active = true
 	#Minimum Y-Level [Default: 32]
-	#Range: 0 ~ 128
+	#Range: 0 ~ 256
 	Minimum = 24
 	#Maximum Y-Level [Default: 40]
 	#Range: 0 ~ 256
@@ -180,7 +180,7 @@
 	#Activate/Deactivate the World Gen [Default: true]
 	Active = true
 	#Minimum Y-Level [Default: 25]
-	#Range: 0 ~ 128
+	#Range: 0 ~ 256
 	Minimum = 18
 	#Maximum Y-Level [Default: 40]
 	#Range: 0 ~ 256
@@ -196,7 +196,7 @@
 	#Activate/Deactivate the World Gen [Default: true]
 	Active = true
 	#Minimum Y-Level [Default: 5]
-	#Range: 0 ~ 128
+	#Range: 0 ~ 256
 	Minimum = 5
 	#Maximum Y-Level [Default: 20]
 	#Range: 0 ~ 256
@@ -212,7 +212,7 @@
 	#Activate/Deactivate the World Gen [Default: true]
 	Active = true
 	#Minimum Y-Level [Default: 20]
-	#Range: 0 ~ 128
+	#Range: 0 ~ 256
 	Minimum = 20
 	#Maximum Y-Level [Default: 45]
 	#Range: 0 ~ 256
@@ -228,7 +228,7 @@
 	#Activate/Deactivate the World Gen [Default: true]
 	Active = true
 	#Minimum Y-Level [Default: 40]
-	#Range: 0 ~ 128
+	#Range: 0 ~ 256
 	Minimum = 40
 	#Maximum Y-Level [Default: 55]
 	#Range: 0 ~ 256
@@ -244,7 +244,7 @@
 	#Activate/Deactivate the World Gen [Default: true]
 	Active = true
 	#Minimum Y-Level [Default: 35]
-	#Range: 0 ~ 128
+	#Range: 0 ~ 256
 	Minimum = 35
 	#Maximum Y-Level [Default: 50]
 	#Range: 0 ~ 256
@@ -260,7 +260,7 @@
 	#Activate/Deactivate the World Gen [Default: true]
 	Active = false
 	#Minimum Y-Level [Default: 0]
-	#Range: 0 ~ 128
+	#Range: 0 ~ 256
 	Minimum = 20
 	#Maximum Y-Level [Default: 64]
 	#Range: 0 ~ 256
@@ -276,7 +276,7 @@
 	#Activate/Deactivate the World Gen [Default: true]
 	Active = false
 	#Minimum Y-Level [Default: 0]
-	#Range: 0 ~ 128
+	#Range: 0 ~ 256
 	Minimum = 0
 	#Maximum Y-Level [Default: 32]
 	#Range: 0 ~ 256
@@ -323,7 +323,7 @@
 	#Activate/Deactivate the World Gen [Default: true]
 	Active = true
 	#Minimum Y-Level [Default: 0]
-	#Range: 0 ~ 128
+	#Range: 0 ~ 256
 	Minimum = 5
 	#Maximum Y-Level [Default: 16]
 	#Range: 0 ~ 256
@@ -339,7 +339,7 @@
 	#Activate/Deactivate the World Gen [Default: true]
 	Active = true
 	#Minimum Y-Level [Default: 0]
-	#Range: 0 ~ 128
+	#Range: 0 ~ 256
 	Minimum = 64
 	#Maximum Y-Level [Default: 16]
 	#Range: 0 ~ 256
@@ -355,7 +355,7 @@
 	#Activate/Deactivate the World Gen [Default: true]
 	Active = true
 	#Minimum Y-Level [Default: 0]
-	#Range: 0 ~ 128
+	#Range: 0 ~ 256
 	Minimum = 0
 	#Maximum Y-Level [Default: 40]
 	#Range: 0 ~ 256
@@ -371,7 +371,7 @@
 	#Activate/Deactivate the World Gen [Default: true]
 	Active = true
 	#Minimum Y-Level [Default: 0]
-	#Range: 0 ~ 128
+	#Range: 0 ~ 256
 	Minimum = 18
 	#Maximum Y-Level [Default: 24]
 	#Range: 0 ~ 256

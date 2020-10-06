@@ -8,6 +8,7 @@ param(
 		"CraftingTweaks", 
 		"DefaultOptions", 
 		"DefaultSettings",
+		"Ding",
 		"EnchantmentDescriptions", 
 		"EquipmentTooltips", 
 		"FpsReducer", 
