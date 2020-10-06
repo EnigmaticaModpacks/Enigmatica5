@@ -2,13 +2,14 @@
 # For details/help see: https://github.com/NillerMedDild/ModpackUploader
 
 $CLIENT_MODS = @(
-	"AmbientSounds"
+	"AmbientSounds",
 	"AppleSkin", 
 	"BetterAdvancements",
 	"ClientTweaks",
 	"CraftingTweaks", 
 	"DefaultOptions", 
 	"DefaultSettings",
+	"Ding",
 	"EnchantmentDescriptions", 
 	"EquipmentTooltips", 
 	"FpsReducer", 
