@@ -1,4 +1,4 @@
-## Enigmatica 5 - 0.6.1 Modlist
+## Enigmatica 5 - 0.6.2 Modlist
 - Abnormals-Core-1.15.2-1.0.6
 - Actually Useful Stonecutter-0.0.1 mc 1.15.2
 - AI-Improvements-1.15.2-0.3.0
@@ -19,7 +19,7 @@
 - BetterMineshaftsForge-1.15.2-1.3.1
 - bettertridentreturn-1.15.2-1.0.1
 - BiomesOPlenty-1.15.2-10.0.0.366-universal
-- blockcarpentry-1.15.1-0.7.2
+- blockcarpentry-1.15.1-0.8.1
 - BonsaiTrees-2.1.2.6
 - Bookshelf-1.15.2-5.6.40
 - Botania-r1.15-388
@@ -46,7 +46,7 @@
 - CosmeticArmorReworked-1.15.2-v3a
 - craftingstation-3.1.0
 - CraftingTweaks_1.15.2-11.0.1
-- create-mc1.15.2_v0.2.4d
+- create-mc1.15.2_v0.2.4e
 - Cucumber-1.15.2-3.0.9
 - curioofundying-FORGE-1.15.2-3.0
 - curios-FORGE-1.15.2-2.0.2.6
@@ -62,13 +62,13 @@
 - DefaultOptions_1.15.2-11.0.1
 - defaultworldtype-1.15.2-1.0.2
 - dimdungeons-1.07-forge-1.15.2
-- Ding-1.15.2-1.1.0
+- Ding-1.15.2-1.2.0
 - DrawersTooltip-1.15.2-1.1.0
 - DungeonCrawl-1.15.2-2.1.0
 - dwmh-1.15.2-4.0.0
 - dyeable_flower_pots-1.15.2-1.1.0
 - elevatorid-1.15.2-1.7.1
-- EmendatusEnigmatica-1.15.2-1.0.8
+- EmendatusEnigmatica-1.15.2-1.0.10
 - EnchantmentDescriptions-1.15.2-2.0.9
 - EnderMail-1.15.2-1.1.3
 - EnderStorage-1.15.2-2.5.0.151-universal
@@ -79,7 +79,7 @@
 - extradisks-1.15.2-1.2.2
 - extratags-1.1
 - extremeSoundMuffler-2.0.1_Forge-1.15.2
-- FarmersDelight-1.15.2-0.2.2
+- FarmersDelight-1.15.2-0.2.3
 - FarmingForBlockheads_1.15.2-6.1.5
 - FastFurnace-1.15.1-3.0.0
 - FastWorkbench-1.15.2-3.1.1
@@ -94,8 +94,8 @@
 - GameStages-1.15.2-5.0.2
 - give-1.15.2-1.1.0
 - glassential-forge-1.15.2-1.1.4
-- globalxp-1.15.2-v1.4.11
-- ImmersiveEngineering-1.15.2-4.0.0-117
+- globalxp-1.15.2-v1.4.14
+- ImmersiveEngineering-1.15.2-4.1.0-122
 - immersiveposts-1.15.2-2.1.0
 - industrial-foregoing-1.15.2-2.3.3-e356e61
 - IntegratedCrafting-1.15.2-1.0.10
@@ -111,7 +111,7 @@
 - jei-1.15.2-6.0.3.15
 - justenoughbeacons-2.0
 - JustEnoughResources-1.15.2-0.10.1.77
-- Kiwi-1.15.2-2.8.3
+- Kiwi-1.15.2-2.8.4
 - KleeSlabs_1.15.2-8.0.0
 - Kottle-1.5.2
 - kubejs-2.7.1.15
@@ -121,9 +121,9 @@
 - Lollipop-1.15.2-1.0.16
 - Ma-Essentials-1.15.2-3.1.1
 - Mantle-1.15.2-1.5.15
-- mcjtylib-1.15-4.1.9
+- mcjtylib-1.15-4.1.10
 - mcw-bridges-1.0.4fix-mc1.15.2
-- mcw-doors-1.0.0-mc1.15.2
+- mcw-doors-1.0.1fix-mc1.15.1-2
 - mcw-trapdors-1.0.0fix-mc1.15.2
 - mcws-roofs-1.15.2-v2.0.0
 - mcws-win-1.15.2-v1.0.2
@@ -131,12 +131,12 @@
 - MekanismGenerators-1.15.2-9.10.9.422
 - MekanismTools-1.15.2-9.10.9.422
 - mgui-1.15.2-2.1.1
-- minecolonies-0.13.260-ALPHA-universal
-- mining-helmet-1.15.2-1.0.8
+- minecolonies-0.13.324-ALPHA-universal
+- mining-helmet-1.15.2-1.0.9
 - mininggadgets-1.3.5
-- MixinBootstrap-1.0.3
+- MixinBootstrap-1.0.4
 - modnametooltip_1.15.2-1.13.0
-- modular-routers-1.15.2-6.1.2-28
+- modular-routers-1.15.2-6.1.3-32
 - moredragoneggs-1.0
 - moreoverlays-1.17.5-mc1.15.2
 - morevanillalib-1.15.2-1.2.4
@@ -158,12 +158,12 @@
 - phosphor-forge-mc1.15.2-0.5.2+build.4
 - pitg-1.15.2-1.4.1
 - Placebo-1.15.2-3.1.0
-- pneumaticcraft-repressurized-1.15.2-1.4.5-69
+- pneumaticcraft-repressurized-1.15.2-1.5.0-73
 - portality-1.15.2-2.1.2-aaa257f
 - Powah-1.15.2-1.1.15
 - PrettyBeaches_1.15.2-4.0.1
 - PrettyPipes-1.5.5
-- productivebees-1.15.2-0.3.3
+- productivebees-1.15.2-0.4.0
 - projectvibrantjourneys-1.15.2-2.0.3
 - Psi r1.2-84
 - Quark-r2.1-245
@@ -177,7 +177,7 @@
 - refinedstorage-1.8.8
 - refinedstorageaddons-0.6.3
 - rftoolsbase-1.15-1.1.7
-- rftoolsbuilder-1.15-2.1.9
+- rftoolsbuilder-1.15-2.1.11
 - rftoolspower-1.15-2.2.5
 - rftoolsstorage-1.15-1.1.10
 - rftoolsutility-1.15-2.1.10
@@ -187,7 +187,7 @@
 - serverconfigupdater-1.1
 - ServerTabInfo-1.15.2-1.2.8
 - SimpleDiscordRichPresence-1.15.2-1.2.7
-- simplefarming-1.15.2-1.3.0
+- simplefarming-1.15.2-1.3.3
 - simplylight-1.15.2-0.9.0
 - simply_trophies-2.0-1.15.2
 - SlimeTweaks-1.15.2-1.0.2
@@ -196,10 +196,10 @@
 - stonecatalysts-1.15.2-1.2.0
 - StorageDrawers-1.15.2-7.0.2
 - StrongerSnowballs-1.15.2-1.0.1
-- structurize-0.13.64-ALPHA
+- structurize-0.13.91-ALPHA-universal
 - swingthroughgrass-1.15.2-1.4.0
 - tellme-forge-1.15.2-0.8.1
-- TerraForged-1.15.2-0.1.2
+- TerraForged-1.15.2-0.1.3
 - tetra-1.15.2-2.18.1
 - The-Endergetic-Expansion-1.15.2-v1.3.2
 - theoneprobe-1.15-2.0.7
@@ -227,7 +227,7 @@
 - whoops-1.15.2-0.0.1.3
 - WitherSkeletonTweaks-1.15.2-4.0.2
 - World-Stripper-1.7.2-1.15.1
-- XaerosWorldMap_1.10.4_Forge_1.15.2
-- Xaeros_Minimap_20.22.0_Forge_1.15.2
+- XaerosWorldMap_1.11.0_Forge_1.15.2
+- Xaeros_Minimap_20.24.0_Forge_1.15.2
 - xnet-1.15-2.1.11
 - XNetGases-1.15.2-1.0.0
