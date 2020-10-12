@@ -8,6 +8,19 @@ events.listen('recipes', function (event) {
             item.of('carpetstairsmod:' + woodType + '_wood_floor', 24),
             '#minecraft:' + woodType + '_logs'
         );
+        // Beam recipes
+        event.recipes.minecraft.stonecutting(
+            item.of('decorative_blocks:' + woodType + '_beam'),
+            '#minecraft:' + woodType + '_logs'
+        );
+    });
+
+    // Beam recipes
+    biomesOPlentyWoodTypes.forEach(function (woodType) {
+        event.recipes.minecraft.stonecutting(
+            item.of('decorative_blocks:' + woodType + '_beam'),
+            '#biomesoplenty:' + woodType + '_logs'
+        );
     });
 
     var stoneCutterRemovals = [

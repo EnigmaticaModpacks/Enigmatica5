@@ -1,0 +1,138 @@
+=======================================
+Enigmatica5 0.6.2 --> Enigmatica5 0.6.3
+=======================================
+
+Added:
+- ConnectedTexturesMod
+
+Updated:
+	Aquaculture 2 (Aquaculture-1.15.2-2.0.20.jar --> Aquaculture-1.15.2-2.0.21.jar):
+		Aquaculture-1.15.2-2.0.21.jar:
+			* Fixed Aquaculture loot not being added to vanilla (Was only an issue in Aquaculture 2.0.20)
+			* Made Jellyfish not edible again
+
+	Botany Pots (BotanyPots-1.15.2-2.0.27.jar --> BotanyPots-1.15.2-2.0.28.jar):
+		BotanyPots-1.15.2-2.0.28.jar:
+			* Removed experimental compression which causes issues with some mods. - Tyler Hancock
+			Like the mod? Consider following me on [Twitter](https://twitter.com/darkhaxdev) and joining the [Discord]()
+			Huge thanks to my supporters on [Patreon](https://www.patreon.com/Darkhax?MCChangelog?BotanyPots)
+			* BigAl607
+			* Pongo Sapiens
+			* Darkosto
+
+	CodeChicken Lib 1.8.+ (CodeChicken Lib 1.15.2-3.3.1.379-universal --> CodeChicken Lib 1.15.2-3.3.2.383-universal):
+		CodeChicken Lib 1.15.2-3.3.2.383-universal:
+			No changelog available.
+
+	Cyclops Core (CyclopsCore-1.15.2-1.8.4.jar --> CyclopsCore-1.15.2-1.8.5.jar):
+		CyclopsCore-1.15.2-1.8.5.jar:
+			As always, don't forget to backup your world before updating!
+			Changes:
+			* Handle cross-thread chunk retrieval in unsafe tile getter
+			Required for CyclopsMC/IntegratedDynamics#917
+			Fixes:
+			* Fix server crash due to call to client-only packet reading method, Closes CyclopsMC/IntegratedTerminals#59
+
+	Integrated Dynamics (IntegratedDynamics-1.15.2-1.1.17.jar --> IntegratedDynamics-1.15.2-1.1.18.jar):
+		IntegratedDynamics-1.15.2-1.1.18.jar:
+			As always, don't forget to backup your world before updating!
+			Requires CyclopsCore version 1.8.5 or higher.
+			Additions:
+			Changes:
+			Fixes:
+			* Fix JEI crash on importing fluid-related recipes
+			Closes CyclopsMC/IntegratedDynamics#914
+			* Use unsafe tile entity getter in IngredientObserver threads to fix TPS issues., Closes #917
+			* Fix Squeezer causing X-Ray behaviour, Closes #920
+			* Fix Menril Door dropping two items, Closes #919
+			* Fix coal generator duplicating drops, Closes #924
+			* Fix server crash when opening block reader, Closes #923
+
+	Integrated Terminals (IntegratedTerminals-1.15.2-1.0.15.jar --> IntegratedTerminals-1.15.2-1.0.16.jar):
+		IntegratedTerminals-1.15.2-1.0.16.jar:
+			As always, don't forget to backup your world before updating!
+			Requires CyclopsCore version 1.8.5 or higher.
+			Additions:
+			Changes:
+			Fixes:
+			* Fix scroll bars not working
+			Closes CyclopsMC/IntegratedDynamics#915
+			Closes #60
+			* Fix missing Crafting Job Terminal recipe, Closes #58
+
+	MineColonies (Archived file --> minecolonies-0.13.335-ALPHA-universal.jar):
+		minecolonies-0.13.335-ALPHA-universal.jar:
+			Minecolonies Changelog
+			Version: 0.13.335-ALPHA
+			* fix #5897 (#5904)
+			Properly update content maps in racks Improve citizen hut GUI slightly
+
+		minecolonies-0.13.334-ALPHA-universal.jar:
+			Minecolonies Changelog
+			Version: 0.13.334-ALPHA
+			* Feature/immutable storage (#5896)
+			Fixes smelter recipes increasing in cost exponentially Adds code to prevent this kind of bug in the future
+
+		minecolonies-0.13.333-BETA-universal.jar:
+			Minecolonies Changelog
+			Version: 0.13.333-BETA
+			* Improve some possible error for visitor spawn positions (#5902)
+			Improve some possible error for visitor spawn positions Fix research citizen limit not allowing config limit to be reached * fix #5881 (#5903)
+			Fix permission issues * hotfix the message hotfix, my derp * Hotfix message issues (#5891)
+			Hotfix message issues * Make sure we produce enough buckets from cake (#5887)
+			set the stack size appropriately when dealing with containers/tools in recipes * Rewrite of door/gate/trapdoor toggle AI (#5886)
+			Rewrite of door/gate/trapdoor toggle AI, this lets us use the same AI for blocks with similar toggle behaviour. The idea is the same as the fenceGateAI before: we check the parts of path for toggleable blocks in range, and save their positions(previously we could only use one position). If we found some blocks the AI becomes active, while active it randomly activates one of the blocks it found. With multiple blocks in range it eventually finds a combination which allows it to go through.
+			Pathing now allows single trapdoor blocks as passable. Pathing now also adds the starting node to the path, previously only nodes with a parent were added.
+			Example of what they now make their way through: * GUI improvements (#5879)
+			Improve ordering of citizen Hut GUI Add color codes that are easier to understand * Adding split networking. (#5885)
+			This adds splits networking. Our packets are getting to big, even with string reductions on the RS side of things packets that we are sending around are getting extremely big for large colonies.
+			This PR adds a wrapping system which automatically splits all packets that are bigger then 90% of the max value.
+			On the receiving side the packets are processed, stitched back together and then processed as normal. * Broaden out the new location display (#5877)
+			Change from AbstractBuildingCrafter.View to IBuildingWorkerView, to ensure more buildings display * Fix evaluation of custom recipes (#5875)
+			Make RecipeStorage.equals more accurate fix the research evaluation to properly identify effects. * Hotfix (#5874)
+			Hotfix for client crash Stop friendly fire
+
+		minecolonies-0.13.332-ALPHA-universal.jar:
+			Minecolonies Changelog
+			Version: 0.13.332-ALPHA
+			* Some more AI improvements for trapdoors (#5894)
+			Fix: only toggles trapdoors which are blocking our entity from getting through Improved block detection for cases where we're stepping down or up a block, as there we require a check 3 blocks above
+
+		minecolonies-0.13.331-ALPHA-universal.jar:
+			Minecolonies Changelog
+			Version: 0.13.331-ALPHA
+			* Improve some possible error for visitor spawn positions (#5902)
+			Improve some possible error for visitor spawn positions Fix research citizen limit not allowing config limit to be reached * fix #5881 (#5903)
+			Fix permission issues
+
+		minecolonies-0.13.328-ALPHA-universal.jar:
+			Minecolonies Changelog
+			Version: 0.13.328-ALPHA
+			* hotfix the message hotfix, my derp
+
+	MixinBootstrap (MixinBootstrap-1.0.4.jar --> MixinBootstrap-1.0.5.jar):
+		MixinBootstrap-1.0.5.jar:
+			Updated to Mixin v0.8.2
+
+	RFTools Utility (RFToolsUtility - 1.15-2.1.10 --> RFToolsUtility - 1.15-2.1.11):
+		RFToolsUtility - 1.15-2.1.11:
+			RFToolsUtility 1.15-2.1.11
+
+	Structurize (structurize-0.13.91-ALPHA-universal.jar --> structurize-0.13.94-ALPHA-universal.jar):
+		structurize-0.13.94-ALPHA-universal.jar:
+			Minecolonies Changelog
+			Version: 0.13.94-ALPHA
+			No Changes detected!
+
+	Xaero's Minimap (v20.24.0 for Forge 1.15.2 --> v20.25.0 for Forge 1.15.2):
+		v20.25.0 for Forge 1.15.2:
+			* Compatible with Xaero's World Map 1.11.0 or newer.
+			+ Added a new option/screen for setting up a light/darkness overlay on the minimap. The overlay highlights blocks whose top light levels are within a custom range, which is 0 - 7 by default. You can choose the light type. The overlay updates at the same frequency as the lighting on the minimap, so it's not instant. Currently using the overlay disables the usage of the world map mod chunks, similar to cave mode, because the world map mod does not support such block overlays (yet?). Works best when paired with the "Show Light Level" option.
+			* A lot of optimizations in the minimap writing/discovery code. Should improve game performance. This mainly affects cave/overlay maps, if you are using the world map mod as well. Similar improvements are coming soon to the world map mod too though. I'm planning to make map updating speed adjustable/dynamic, which should benefit from the optimizations.
+
+		v20.25.0 for Fabric 1.15.2:
+			* Compatible with Xaero's World Map 1.11.0 or newer.
+			+ Added a new option/screen for setting up a light/darkness overlay on the minimap. The overlay highlights blocks whose top light levels are within a custom range, which is 0 - 7 by default. You can choose the light type. The overlay updates at the same frequency as the lighting on the minimap, so it's not instant. Currently using the overlay disables the usage of the world map mod chunks, similar to cave mode, because the world map mod does not support such block overlays (yet?). Works best when paired with the "Show Light Level" option.
+			* A lot of optimizations in the minimap writing/discovery code. Should improve game performance. This mainly affects cave/overlay maps, if you are using the world map mod as well. Similar improvements are coming soon to the world map mod too though. I'm planning to make map updating speed adjustable/dynamic, which should benefit from the optimizations.
+
+Generated using [ChangelogGenerator 2.0.0-pre3](https://github.com/TheRandomLabs/ChangelogGenerator).

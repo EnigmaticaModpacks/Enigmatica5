@@ -1,3 +1,19 @@
+## Enigmatica 5 - 0.6.3
+
+_Using Forge-1.15.2-31.2.36_ | _[Mod Updates](https://github.com/NillerMedDild/Enigmatica5/blob/master/changelogs/CHANGELOG_MODS_0.6.2.txt)_
+
+
+
+**TONS of changes have been made, a new world is required if you're updating from any version before 0.6.0**
+
+**Changes**
+
+- 
+
+**Bug Fixes**
+
+- 
+
 ## Enigmatica 5 - 0.6.2
 
 _Using Forge-1.15.2-31.2.36_ | _[Mod Updates](https://github.com/NillerMedDild/Enigmatica5/blob/master/changelogs/CHANGELOG_MODS_0.6.2.txt)_
@@ -7,6 +23,8 @@ _Using Forge-1.15.2-31.2.36_ | _[Mod Updates](https://github.com/NillerMedDild/E
 **TONS of changes have been made, a new world is required if you're updating from any version before 0.6.0**
 
 *This changelog is a combination of 0.6.1 and 0.6.2*
+
+You will be prompted that items have been removed in the update, this is perfectly normal, accept it if you're in singleplayer and type `/fml confirm` if you're running a server.
 
 
 

@@ -9,11 +9,11 @@
 	#Add additional stone generator catalysts
 	#Usage: Add namespaced ids in "" seperated by commas
 	#Example: ["minecraft:netherrack", "quark:brimstone"]
-	CUSTOM_STONE_CATALYSTS = ["biomesoplenty:white_sandstone", "quark:marble", "quark:slate", "quark:jasper", "quark:basalt", "quark:limestone", "astralsorcery:marble_raw"]
+	CUSTOM_STONE_CATALYSTS = ["biomesoplenty:white_sandstone", "quark:marble", "quark:slate", "quark:jasper", "quark:basalt", "quark:limestone", "astralsorcery:marble_raw", "create:limestone", "create:weathered_limestone", "create:dolomite", "create:gabbro", "create:scoria", "create:dark_scoria"]
 	#Prints debug messages to the log for each custom catalyst added
 	DEBUG_MESSAGES = true
 	#Add additional cobble generator catalysts
 	#Usage: Add namespaced ids in "" seperated by commas
 	#Example: ["minecraft:netherrack", "quark:brimstone"]
-	CUSTOM_COBBLE_CATALYSTS = ["quark:brimstone", "quark:permafrost", "quark:elder_prismarine", "quark:cobbedstone"]
+	CUSTOM_COBBLE_CATALYSTS = ["quark:brimstone", "quark:permafrost", "quark:elder_prismarine", "quark:cobbedstone", "create:limestone_cobblestone", "create:weathered_limestone_cobblestone", "create:dolomite_cobblestone", "create:gabbro_cobblestone", "create:scoria_cobblestone", "create:dark_scoria_cobblestone"]
 

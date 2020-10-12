@@ -119,6 +119,20 @@ var modPriorities = [
     'productivebees'
 ];
 
+var biomesOPlentyWoodTypes = [
+    'dead',
+    'umbran',
+    'hellbark',
+    'redwood',
+    'mahogany',
+    'cherry',
+    'magic',
+    'jacaranda',
+    'palm',
+    'fir',
+    'willow'
+];
+
 var vanillaWoodTypes = ['oak', 'birch', 'spruce', 'jungle', 'acacia', 'dark_oak'];
 
 var materials = global.materials;
