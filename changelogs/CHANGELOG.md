@@ -1,18 +1,25 @@
 ## Enigmatica 5 - 0.6.3
 
-_Using Forge-1.15.2-31.2.36_ | _[Mod Updates](https://github.com/NillerMedDild/Enigmatica5/blob/master/changelogs/CHANGELOG_MODS_0.6.2.txt)_
+_Using Forge-1.15.2-31.2.36_ | _[Mod Updates](https://github.com/NillerMedDild/Enigmatica5/blob/master/changelogs/CHANGELOG_MODS_0.6.3.txt)_
 
 
 
 **TONS of changes have been made, a new world is required if you're updating from any version before 0.6.0**
 
+**Mod Additions**
+
+- [ConnectedTexturesMod](https://github.com/NillerMedDild/Enigmatica5/issues/525)
+
 **Changes**
 
-- 
+- [Create Stones in vanilla-style Stone Generator](https://github.com/NillerMedDild/Enigmatica5/issues/519)
 
 **Bug Fixes**
 
-- 
+- [Server Disconnect when placing Supply Camp/Ship](https://github.com/NillerMedDild/Enigmatica5/issues/524)
+- [Decorative Blocks Beam Recipes are missing](https://github.com/NillerMedDild/Enigmatica5/issues/521)
+- [Sawdust to Paper Recipes](https://github.com/NillerMedDild/Enigmatica5/issues/520)
+- [Duplicate bug with Integrated-Dynamics](https://github.com/NillerMedDild/Enigmatica5/issues/507)
 
 ## Enigmatica 5 - 0.6.2
 
