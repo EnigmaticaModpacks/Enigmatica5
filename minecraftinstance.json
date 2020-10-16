@@ -30,7 +30,7 @@
   "isUnlocked": true,
   "javaArgsOverride": null,
   "javaDirOverride": null,
-  "lastPlayed": "2020-10-12T21:06:33.8961444Z",
+  "lastPlayed": "2020-10-16T21:05:35.048776Z",
   "manifest": null,
   "fileDate": "0001-01-01T00:00:00",
   "installedModpack": null,
@@ -91,21 +91,6 @@
       "fileSize": 28893
     },
     {
-      "folderName": "DungeonCrawl-1.15.2-2.1.0.jar",
-      "fingerprint": 2360576658,
-      "fileDateHash": 1125743858,
-      "sectionID": 8,
-      "individualFingerprints": [
-        2360576658
-      ],
-      "status": 1,
-      "timestamp": "2020-09-14T19:53:32.2338034Z",
-      "lastWriteTimeUtc": "2020-09-14T19:06:39.1231816Z",
-      "queryTimestamp": "2020-10-12T20:12:33.1464505Z",
-      "fileCount": 1,
-      "fileSize": 465249
-    },
-    {
       "folderName": "KleeSlabs_1.15.2-8.0.0.jar",
       "fingerprint": 241324833,
       "fileDateHash": 3470888760,
@@ -119,21 +104,6 @@
       "queryTimestamp": "2020-10-12T20:12:33.1464505Z",
       "fileCount": 1,
       "fileSize": 38372
-    },
-    {
-      "folderName": "IntegratedDynamics-1.15.2-1.1.18.jar",
-      "fingerprint": 3722163949,
-      "fileDateHash": 2100233036,
-      "sectionID": 8,
-      "individualFingerprints": [
-        3722163949
-      ],
-      "status": 1,
-      "timestamp": "2020-10-11T18:22:53.0994062Z",
-      "lastWriteTimeUtc": "2020-10-11T18:08:16.5758904Z",
-      "queryTimestamp": "2020-10-12T20:12:33.1474475Z",
-      "fileCount": 1,
-      "fileSize": 3118780
     },
     {
       "folderName": "rftoolsbase-1.15-1.1.7.jar",
@@ -179,21 +149,6 @@
       "queryTimestamp": "2020-10-12T20:12:33.1484453Z",
       "fileCount": 1,
       "fileSize": 29544
-    },
-    {
-      "folderName": "CyclopsCore-1.15.2-1.8.5.jar",
-      "fingerprint": 881780065,
-      "fileDateHash": 3837869945,
-      "sectionID": 8,
-      "individualFingerprints": [
-        881780065
-      ],
-      "status": 1,
-      "timestamp": "2020-10-11T18:22:53.0953837Z",
-      "lastWriteTimeUtc": "2020-10-11T18:08:09.1988776Z",
-      "queryTimestamp": "2020-10-12T20:12:33.1494452Z",
-      "fileCount": 1,
-      "fileSize": 806070
     },
     {
       "folderName": "libnonymous-1.15.2-1.1.1.5.jar",
@@ -359,21 +314,6 @@
       "queryTimestamp": "2020-10-12T20:12:33.1554266Z",
       "fileCount": 1,
       "fileSize": 66033
-    },
-    {
-      "folderName": "Xaeros_Minimap_20.25.0_Forge_1.15.2.jar",
-      "fingerprint": 2535419396,
-      "fileDateHash": 409643237,
-      "sectionID": 8,
-      "individualFingerprints": [
-        2535419396
-      ],
-      "status": 1,
-      "timestamp": "2020-10-11T18:22:53.4367655Z",
-      "lastWriteTimeUtc": "2020-10-08T20:17:34.4598188Z",
-      "queryTimestamp": "2020-10-12T20:12:33.1564246Z",
-      "fileCount": 1,
-      "fileSize": 567133
     },
     {
       "folderName": "Abnormals-Core-1.15.2-1.0.6.jar",
@@ -1787,6 +1727,21 @@
       "fileSize": 93735
     },
     {
+      "folderName": "Xaeros_Minimap_20.25.1_Forge_1.15.2.jar",
+      "fingerprint": 678925959,
+      "fileDateHash": 3332453284,
+      "sectionID": 8,
+      "individualFingerprints": [
+        678925959
+      ],
+      "status": 1,
+      "timestamp": "2020-10-15T20:37:32.4642163Z",
+      "lastWriteTimeUtc": "2020-10-15T17:58:53.7624836Z",
+      "queryTimestamp": "0001-01-01T00:00:00",
+      "fileCount": 1,
+      "fileSize": 567205
+    },
+    {
       "folderName": "buildinggadgets-3.4.0.jar",
       "fingerprint": 1215399725,
       "fileDateHash": 4130472144,
@@ -2131,6 +2086,21 @@
       "fileSize": 2075503
     },
     {
+      "folderName": "CyclopsCore-1.15.2-1.8.6.jar",
+      "fingerprint": 598375484,
+      "fileDateHash": 2071984498,
+      "sectionID": 8,
+      "individualFingerprints": [
+        598375484
+      ],
+      "status": 1,
+      "timestamp": "2020-10-15T20:37:32.1757412Z",
+      "lastWriteTimeUtc": "2020-10-15T17:53:57.9602362Z",
+      "queryTimestamp": "0001-01-01T00:00:00",
+      "fileCount": 1,
+      "fileSize": 807359
+    },
+    {
       "folderName": "titanium-1.15.2-2.4.2.jar",
       "fingerprint": 240372709,
       "fileDateHash": 654143354,
@@ -2356,6 +2326,21 @@
       "fileSize": 202515
     },
     {
+      "folderName": "DungeonCrawl-1.15.2-2.1.1.jar",
+      "fingerprint": 263192752,
+      "fileDateHash": 1072808622,
+      "sectionID": 8,
+      "individualFingerprints": [
+        263192752
+      ],
+      "status": 1,
+      "timestamp": "2020-10-15T20:37:32.1897038Z",
+      "lastWriteTimeUtc": "2020-10-15T17:56:06.8082043Z",
+      "queryTimestamp": "0001-01-01T00:00:00",
+      "fileCount": 1,
+      "fileSize": 468258
+    },
+    {
       "folderName": "mysticallib-1.15.2-2.0.1.jar",
       "fingerprint": 232097684,
       "fileDateHash": 42251394,
@@ -2384,6 +2369,21 @@
       "queryTimestamp": "2020-10-12T20:12:33.2062897Z",
       "fileCount": 1,
       "fileSize": 39737
+    },
+    {
+      "folderName": "pneumaticcraft-repressurized-1.15.2-1.5.1-81.jar",
+      "fingerprint": 2950806869,
+      "fileDateHash": 3517719388,
+      "sectionID": 8,
+      "individualFingerprints": [
+        2950806869
+      ],
+      "status": 1,
+      "timestamp": "2020-10-15T20:37:32.419331Z",
+      "lastWriteTimeUtc": "2020-10-15T17:58:34.6028573Z",
+      "queryTimestamp": "0001-01-01T00:00:00",
+      "fileCount": 1,
+      "fileSize": 6279671
     },
     {
       "folderName": "bettertridentreturn-1.15.2-1.0.1.jar",
@@ -3077,6 +3077,21 @@
       "queryTimestamp": "2020-10-12T20:12:33.2232454Z",
       "fileCount": 1,
       "fileSize": 1008899
+    },
+    {
+      "folderName": "IntegratedDynamics-1.15.2-1.1.19.jar",
+      "fingerprint": 1693466878,
+      "fileDateHash": 4240795751,
+      "sectionID": 8,
+      "individualFingerprints": [
+        1693466878
+      ],
+      "status": 1,
+      "timestamp": "2020-10-15T20:37:32.2016711Z",
+      "lastWriteTimeUtc": "2020-10-15T17:56:48.9728898Z",
+      "queryTimestamp": "0001-01-01T00:00:00",
+      "fileCount": 1,
+      "fileSize": 3118766
     },
     {
       "folderName": "OpenLoader-1.15.2-4.0.5.jar",
@@ -3863,151 +3878,6 @@
       "fileSize": 15647
     },
     {
-      "folderName": "New World (6)",
-      "fingerprint": 3037723416,
-      "fileDateHash": 210977925,
-      "sectionID": 10,
-      "individualFingerprints": [
-        29425876,
-        74311726,
-        132127676,
-        151853562,
-        208651850,
-        220349740,
-        261196272,
-        339853837,
-        341673820,
-        362580002,
-        481121806,
-        488340860,
-        513901282,
-        651942457,
-        707517314,
-        741527834,
-        745849890,
-        763558043,
-        769737479,
-        797016327,
-        805596350,
-        875649748,
-        951415557,
-        965730607,
-        1026916564,
-        1086721577,
-        1156691497,
-        1182732594,
-        1187121096,
-        1190832129,
-        1254586642,
-        1318921553,
-        1320537910,
-        1326081694,
-        1349007058,
-        1367033121,
-        1402897034,
-        1408103699,
-        1434695348,
-        1457093786,
-        1470808285,
-        1540447798,
-        1540447798,
-        1540447798,
-        1540447798,
-        1540447798,
-        1540447798,
-        1540447798,
-        1540447798,
-        1681925683,
-        1722796223,
-        1758714999,
-        1777645178,
-        1783675463,
-        1831771499,
-        1953158162,
-        2003699970,
-        2071304703,
-        2076932709,
-        2088032794,
-        2133734328,
-        2144146657,
-        2226088383,
-        2232013417,
-        2254080890,
-        2291773950,
-        2331170389,
-        2357803590,
-        2363716728,
-        2372576555,
-        2431937736,
-        2438022517,
-        2502419821,
-        2509696179,
-        2543350400,
-        2573305100,
-        2617706127,
-        2629791926,
-        2653844868,
-        2676521397,
-        2702430682,
-        2771876876,
-        2821929069,
-        2868986478,
-        2887489200,
-        3049160315,
-        3125380487,
-        3134038546,
-        3145946506,
-        3226606755,
-        3236519534,
-        3287613341,
-        3288179285,
-        3288179285,
-        3373857475,
-        3451579659,
-        3464453472,
-        3533626746,
-        3533626746,
-        3533626746,
-        3559522548,
-        3582215395,
-        3771282984,
-        3771282984,
-        3771282984,
-        3771282984,
-        3771282984,
-        3771282984,
-        3771282984,
-        3771282984,
-        3771282984,
-        3771282984,
-        3771282984,
-        3771282984,
-        3774440291,
-        3774440291,
-        3779001161,
-        3874577451,
-        3894804303,
-        3899624667,
-        3909780128,
-        3961037842,
-        3971309510,
-        4052552220,
-        4058563394,
-        4095122453,
-        4095122453,
-        4161228871,
-        4182657441,
-        4182687333,
-        4192398683
-      ],
-      "status": 1,
-      "timestamp": "2020-10-12T21:05:58.4474182Z",
-      "lastWriteTimeUtc": "2020-10-12T21:05:57.1648605Z",
-      "queryTimestamp": "2020-10-12T21:05:59.4447507Z",
-      "fileCount": 21,
-      "fileSize": 0
-    },
-    {
       "folderName": "bambooeverything-1.15-1.0.0.jar",
       "fingerprint": 1487025079,
       "fileDateHash": 2957895602,
@@ -4158,6 +4028,21 @@
       "fileSize": 948541
     },
     {
+      "folderName": "minecolonies-0.13.349-ALPHA-universal.jar",
+      "fingerprint": 4074261287,
+      "fileDateHash": 2011238970,
+      "sectionID": 8,
+      "individualFingerprints": [
+        4074261287
+      ],
+      "status": 1,
+      "timestamp": "2020-10-15T20:37:32.2268448Z",
+      "lastWriteTimeUtc": "2020-10-15T17:57:12.5910922Z",
+      "queryTimestamp": "0001-01-01T00:00:00",
+      "fileCount": 1,
+      "fileSize": 33071693
+    },
+    {
       "folderName": "ClickMachine-1.15.2-3.0.2.jar",
       "fingerprint": 2484465928,
       "fileDateHash": 456955847,
@@ -4231,21 +4116,6 @@
       "queryTimestamp": "2020-10-12T20:12:33.2461837Z",
       "fileCount": 1,
       "fileSize": 257410
-    },
-    {
-      "folderName": "pneumaticcraft-repressurized-1.15.2-1.5.0-73.jar",
-      "fingerprint": 1512109767,
-      "fileDateHash": 1830874243,
-      "sectionID": 8,
-      "individualFingerprints": [
-        1512109767
-      ],
-      "status": 1,
-      "timestamp": "2020-10-05T19:19:57.675668Z",
-      "lastWriteTimeUtc": "2020-09-22T19:47:31.9198228Z",
-      "queryTimestamp": "2020-10-12T20:12:33.2461837Z",
-      "fileCount": 1,
-      "fileSize": 6277174
     },
     {
       "folderName": "BiomesOPlenty-1.15.2-10.0.0.366-universal.jar",
@@ -4351,21 +4221,6 @@
       "queryTimestamp": "2020-10-12T20:12:33.2501799Z",
       "fileCount": 1,
       "fileSize": 1404300
-    },
-    {
-      "folderName": "minecolonies-0.13.335-ALPHA-universal.jar",
-      "fingerprint": 2482953177,
-      "fileDateHash": 2227390794,
-      "sectionID": 8,
-      "individualFingerprints": [
-        2482953177
-      ],
-      "status": 1,
-      "timestamp": "2020-10-12T20:12:13.6856609Z",
-      "lastWriteTimeUtc": "2020-10-12T17:22:00.4563155Z",
-      "queryTimestamp": "2020-10-12T20:12:33.25117Z",
-      "fileCount": 1,
-      "fileSize": 33069449
     },
     {
       "folderName": "World-Stripper-1.7.2-1.15.1.jar",
@@ -4576,14 +4431,14 @@
       "addonID": 281849,
       "gameInstanceID": "9bea8014-8271-438f-a7d3-e4243f882f2a",
       "installedFile": {
-        "id": 3062486,
-        "displayName": "pneumaticcraft-repressurized-1.15.2-1.5.0-73.jar",
-        "fileName": "pneumaticcraft-repressurized-1.15.2-1.5.0-73.jar",
-        "fileDate": "2020-09-22T07:34:48.923Z",
-        "fileLength": 6277174,
+        "id": 3080455,
+        "displayName": "pneumaticcraft-repressurized-1.15.2-1.5.1-81.jar",
+        "fileName": "pneumaticcraft-repressurized-1.15.2-1.5.1-81.jar",
+        "fileDate": "2020-10-14T14:42:46.54Z",
+        "fileLength": 6279671,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/3062/486/pneumaticcraft-repressurized-1.15.2-1.5.0-73.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/3080/455/pneumaticcraft-repressurized-1.15.2-1.5.1-81.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [
@@ -4598,12 +4453,12 @@
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 3840284510,
+            "fingerprint": 3744426070,
             "type": 0
           },
           {
             "foldername": "me",
-            "fingerprint": 4049886022,
+            "fingerprint": 1522407824,
             "type": 0
           },
           {
@@ -4622,7 +4477,7 @@
             "type": 0
           }
         ],
-        "packageFingerprint": 1512109767,
+        "packageFingerprint": 2950806869,
         "gameVersion": [
           "Forge",
           "1.15.2"
@@ -4636,11 +4491,11 @@
         "gameVersionDateReleased": "2019-08-01T00:00:00Z",
         "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "pneumaticcraft-repressurized-1.15.2-1.5.0-73.jar"
+        "FileNameOnDisk": "pneumaticcraft-repressurized-1.15.2-1.5.1-81.jar"
       },
       "dateInstalled": "2020-05-12T20:50:17.8593601Z",
-      "dateUpdated": "2020-09-22T19:47:31.9351378Z",
-      "dateLastUpdateAttempted": "2020-09-22T19:47:31.9351378Z",
+      "dateUpdated": "2020-10-15T17:58:34.6188546Z",
+      "dateLastUpdateAttempted": "2020-10-15T17:58:34.6188546Z",
       "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
@@ -8808,16 +8663,16 @@
       "addonID": 236307,
       "gameInstanceID": "9bea8014-8271-438f-a7d3-e4243f882f2a",
       "installedFile": {
-        "id": 3075523,
-        "displayName": "IntegratedDynamics-1.15.2-1.1.18.jar",
-        "fileName": "IntegratedDynamics-1.15.2-1.1.18.jar",
-        "fileDate": "2020-10-09T15:31:47.23Z",
-        "fileLength": 3118780,
+        "id": 3080733,
+        "displayName": "IntegratedDynamics-1.15.2-1.1.19.jar",
+        "fileName": "IntegratedDynamics-1.15.2-1.1.19.jar",
+        "fileDate": "2020-10-14T17:53:34.557Z",
+        "fileLength": 3118766,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/3075/523/IntegratedDynamics-1.15.2-1.1.18.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/3080/733/IntegratedDynamics-1.15.2-1.1.19.jar",
         "isAlternate": false,
-        "alternateFileId": 3075524,
+        "alternateFileId": 3080734,
         "dependencies": [
           {
             "id": 0,
@@ -8836,12 +8691,12 @@
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 1041188631,
+            "fingerprint": 1812628905,
             "type": 0
           },
           {
             "foldername": "org",
-            "fingerprint": 3785703907,
+            "fingerprint": 297219110,
             "type": 0
           },
           {
@@ -8880,7 +8735,7 @@
             "type": 0
           }
         ],
-        "packageFingerprint": 3722163949,
+        "packageFingerprint": 1693466878,
         "gameVersion": [
           "Forge",
           "1.15.2"
@@ -8894,11 +8749,11 @@
         "gameVersionDateReleased": "2008-03-01T06:00:00Z",
         "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "IntegratedDynamics-1.15.2-1.1.18.jar"
+        "FileNameOnDisk": "IntegratedDynamics-1.15.2-1.1.19.jar"
       },
       "dateInstalled": "2020-07-05T19:58:54.8292003Z",
-      "dateUpdated": "2020-10-11T18:08:16.5878588Z",
-      "dateLastUpdateAttempted": "2020-10-11T18:08:16.5878588Z",
+      "dateUpdated": "2020-10-15T17:56:48.983861Z",
+      "dateLastUpdateAttempted": "2020-10-15T17:56:48.983861Z",
       "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
@@ -12184,7 +12039,7 @@
       "dateInstalled": "2020-03-28T09:44:06.1402599Z",
       "dateUpdated": "2020-10-12T17:21:34.0224814Z",
       "dateLastUpdateAttempted": "2020-10-12T17:21:34.0224814Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -12804,14 +12659,14 @@
       "addonID": 324973,
       "gameInstanceID": "9bea8014-8271-438f-a7d3-e4243f882f2a",
       "installedFile": {
-        "id": 3056984,
-        "displayName": "DungeonCrawl-1.15.2-2.1.0",
-        "fileName": "DungeonCrawl-1.15.2-2.1.0.jar",
-        "fileDate": "2020-09-14T11:55:18.36Z",
-        "fileLength": 465249,
+        "id": 3079210,
+        "displayName": "DungeonCrawl-1.15.2-2.1.1",
+        "fileName": "DungeonCrawl-1.15.2-2.1.1.jar",
+        "fileDate": "2020-10-13T18:57:06.533Z",
+        "fileLength": 468258,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/3056/984/DungeonCrawl-1.15.2-2.1.0.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/3079/210/DungeonCrawl-1.15.2-2.1.1.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [],
@@ -12819,17 +12674,17 @@
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 651892591,
+            "fingerprint": 4086606791,
             "type": 0
           },
           {
             "foldername": "xiroc",
-            "fingerprint": 1125582123,
+            "fingerprint": 2178322680,
             "type": 0
           },
           {
             "foldername": "data",
-            "fingerprint": 3357669085,
+            "fingerprint": 527504996,
             "type": 0
           },
           {
@@ -12838,11 +12693,10 @@
             "type": 0
           }
         ],
-        "packageFingerprint": 2360576658,
+        "packageFingerprint": 263192752,
         "gameVersion": [
-          "1.15",
-          "1.15.2",
-          "1.15.1"
+          "Forge",
+          "1.15.2"
         ],
         "hasInstallScript": false,
         "isCompatibleWithClient": false,
@@ -12853,11 +12707,11 @@
         "gameVersionDateReleased": "2008-03-01T06:00:00Z",
         "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "DungeonCrawl-1.15.2-2.1.0.jar"
+        "FileNameOnDisk": "DungeonCrawl-1.15.2-2.1.1.jar"
       },
       "dateInstalled": "2020-03-12T19:18:50.7383359Z",
-      "dateUpdated": "2020-09-14T19:06:39.1381068Z",
-      "dateLastUpdateAttempted": "2020-09-14T19:06:39.1381068Z",
+      "dateUpdated": "2020-10-15T17:56:06.8082043Z",
+      "dateLastUpdateAttempted": "2020-10-15T17:56:06.8082043Z",
       "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
@@ -13186,14 +13040,14 @@
       "addonID": 377897,
       "gameInstanceID": "9bea8014-8271-438f-a7d3-e4243f882f2a",
       "installedFile": {
-        "id": 3072813,
-        "displayName": "productivebees-1.15.2-0.4.0.jar",
-        "fileName": "productivebees-1.15.2-0.4.0.jar",
-        "fileDate": "2020-10-05T21:41:37.05Z",
-        "fileLength": 1799317,
+        "id": 3083413,
+        "displayName": "productivebees-1.15.2-0.4.1.1.jar",
+        "fileName": "productivebees-1.15.2-0.4.1.1.jar",
+        "fileDate": "2020-10-16T20:51:34.143Z",
+        "fileLength": 1847115,
         "releaseType": 2,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/3072/813/productivebees-1.15.2-0.4.0.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/3083/413/productivebees-1.15.2-0.4.1.1.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [
@@ -13208,22 +13062,22 @@
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 1794016471,
+            "fingerprint": 337323436,
             "type": 0
           },
           {
             "foldername": "cy",
-            "fingerprint": 2214190310,
+            "fingerprint": 3739918460,
             "type": 0
           },
           {
             "foldername": "assets",
-            "fingerprint": 3193196624,
+            "fingerprint": 2213935412,
             "type": 0
           },
           {
             "foldername": "data",
-            "fingerprint": 3653867669,
+            "fingerprint": 3147470044,
             "type": 0
           },
           {
@@ -13232,7 +13086,7 @@
             "type": 0
           }
         ],
-        "packageFingerprint": 4117026167,
+        "packageFingerprint": 3630238262,
         "gameVersion": [
           "Forge",
           "1.15.2"
@@ -13246,12 +13100,12 @@
         "gameVersionDateReleased": "2008-03-01T06:00:00Z",
         "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "productivebees-1.15.2-0.4.0.jar"
+        "FileNameOnDisk": "productivebees-1.15.2-0.4.1.1.jar"
       },
       "dateInstalled": "2020-07-22T20:53:19.9788715Z",
-      "dateUpdated": "2020-10-06T18:03:57.2444612Z",
-      "dateLastUpdateAttempted": "2020-10-06T18:03:57.2444612Z",
-      "status": 5,
+      "dateUpdated": "2020-10-16T21:03:27.2790208Z",
+      "dateLastUpdateAttempted": "2020-10-16T21:03:27.2790208Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -16495,14 +16349,14 @@
       "addonID": 264353,
       "gameInstanceID": "9bea8014-8271-438f-a7d3-e4243f882f2a",
       "installedFile": {
-        "id": 2866676,
-        "displayName": "swingthroughgrass-1.15.2-1.4.0.jar",
-        "fileName": "swingthroughgrass-1.15.2-1.4.0.jar",
-        "fileDate": "2020-01-23T20:29:54.437Z",
-        "fileLength": 22255,
+        "id": 3083277,
+        "displayName": "swingthroughgrass-1.15.2-1.4.1.jar",
+        "fileName": "swingthroughgrass-1.15.2-1.4.1.jar",
+        "fileDate": "2020-10-16T18:51:16.12Z",
+        "fileLength": 22676,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2866/676/swingthroughgrass-1.15.2-1.4.0.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/3083/277/swingthroughgrass-1.15.2-1.4.1.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [],
@@ -16510,12 +16364,12 @@
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 2391300070,
+            "fingerprint": 832452833,
             "type": 0
           },
           {
             "foldername": "com",
-            "fingerprint": 1110835385,
+            "fingerprint": 3465576352,
             "type": 0
           },
           {
@@ -16529,7 +16383,7 @@
             "type": 0
           }
         ],
-        "packageFingerprint": 197594789,
+        "packageFingerprint": 2524048688,
         "gameVersion": [
           "Forge",
           "1.15.2"
@@ -16543,12 +16397,12 @@
         "gameVersionDateReleased": "2008-03-01T06:00:00Z",
         "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "swingthroughgrass-1.15.2-1.4.0.jar"
+        "FileNameOnDisk": "swingthroughgrass-1.15.2-1.4.1.jar"
       },
       "dateInstalled": "2020-01-31T19:34:33.2868797Z",
-      "dateUpdated": "2020-01-31T19:34:33.3181348Z",
-      "dateLastUpdateAttempted": "2020-01-31T19:34:33.3181348Z",
-      "status": 5,
+      "dateUpdated": "2020-10-16T21:05:09.4333689Z",
+      "dateLastUpdateAttempted": "2020-10-16T21:05:09.4333689Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -18556,16 +18410,16 @@
       "addonID": 245506,
       "gameInstanceID": "9bea8014-8271-438f-a7d3-e4243f882f2a",
       "installedFile": {
-        "id": 3077486,
-        "displayName": "minecolonies-0.13.335-ALPHA-universal.jar",
-        "fileName": "minecolonies-0.13.335-ALPHA-universal.jar",
-        "fileDate": "2020-10-12T08:09:59.82Z",
-        "fileLength": 33069449,
+        "id": 3083259,
+        "displayName": "minecolonies-0.13.350-ALPHA-universal.jar",
+        "fileName": "minecolonies-0.13.350-ALPHA-universal.jar",
+        "fileDate": "2020-10-16T18:35:07.097Z",
+        "fileLength": 33077628,
         "releaseType": 3,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/3077/486/minecolonies-0.13.335-ALPHA-universal.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/3083/259/minecolonies-0.13.350-ALPHA-universal.jar",
         "isAlternate": false,
-        "alternateFileId": 3077487,
+        "alternateFileId": 3083260,
         "dependencies": [
           {
             "id": 0,
@@ -18578,17 +18432,12 @@
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 717201105,
+            "fingerprint": 354605354,
             "type": 0
           },
           {
             "foldername": "com",
-            "fingerprint": 377061877,
-            "type": 0
-          },
-          {
-            "foldername": "pack.mcmeta",
-            "fingerprint": 1355987511,
+            "fingerprint": 563679245,
             "type": 0
           },
           {
@@ -18597,12 +18446,17 @@
             "type": 0
           },
           {
+            "foldername": "pack.mcmeta",
+            "fingerprint": 1355987511,
+            "type": 0
+          },
+          {
             "foldername": "assets",
-            "fingerprint": 3595690280,
+            "fingerprint": 1344194176,
             "type": 0
           }
         ],
-        "packageFingerprint": 2482953177,
+        "packageFingerprint": 3094756705,
         "gameVersion": [
           "1.15.2"
         ],
@@ -18615,11 +18469,11 @@
         "gameVersionDateReleased": "2008-03-01T06:00:00Z",
         "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "minecolonies-0.13.335-ALPHA-universal.jar"
+        "FileNameOnDisk": "minecolonies-0.13.350-ALPHA-universal.jar"
       },
       "dateInstalled": "2020-07-28T15:30:44.1670577Z",
-      "dateUpdated": "2020-10-12T17:22:00.4882278Z",
-      "dateLastUpdateAttempted": "2020-10-12T17:22:00.4882278Z",
+      "dateUpdated": "2020-10-16T21:02:00.9271489Z",
+      "dateLastUpdateAttempted": "2020-10-16T21:02:00.9271489Z",
       "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
@@ -20689,27 +20543,27 @@
       "addonID": 232758,
       "gameInstanceID": "9bea8014-8271-438f-a7d3-e4243f882f2a",
       "installedFile": {
-        "id": 3075508,
-        "displayName": "CyclopsCore-1.15.2-1.8.5.jar",
-        "fileName": "CyclopsCore-1.15.2-1.8.5.jar",
-        "fileDate": "2020-10-09T15:20:42.393Z",
-        "fileLength": 806070,
+        "id": 3080728,
+        "displayName": "CyclopsCore-1.15.2-1.8.6.jar",
+        "fileName": "CyclopsCore-1.15.2-1.8.6.jar",
+        "fileDate": "2020-10-14T17:52:10.733Z",
+        "fileLength": 807359,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/3075/508/CyclopsCore-1.15.2-1.8.5.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/3080/728/CyclopsCore-1.15.2-1.8.6.jar",
         "isAlternate": false,
-        "alternateFileId": 3075509,
+        "alternateFileId": 3080729,
         "dependencies": [],
         "isAvailable": true,
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 1126181970,
+            "fingerprint": 2769714498,
             "type": 0
           },
           {
             "foldername": "org",
-            "fingerprint": 570226675,
+            "fingerprint": 368957529,
             "type": 0
           },
           {
@@ -20738,7 +20592,7 @@
             "type": 0
           }
         ],
-        "packageFingerprint": 881780065,
+        "packageFingerprint": 598375484,
         "gameVersion": [
           "Forge",
           "1.15.2"
@@ -20752,11 +20606,11 @@
         "gameVersionDateReleased": "2008-03-01T06:00:00Z",
         "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "CyclopsCore-1.15.2-1.8.5.jar"
+        "FileNameOnDisk": "CyclopsCore-1.15.2-1.8.6.jar"
       },
       "dateInstalled": "2020-04-12T19:38:24.1746813Z",
-      "dateUpdated": "2020-10-11T18:08:09.212864Z",
-      "dateLastUpdateAttempted": "2020-10-11T18:08:09.212864Z",
+      "dateUpdated": "2020-10-15T17:53:57.9702311Z",
+      "dateLastUpdateAttempted": "2020-10-15T17:53:57.9702311Z",
       "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
@@ -21669,14 +21523,14 @@
       "addonID": 263420,
       "gameInstanceID": "9bea8014-8271-438f-a7d3-e4243f882f2a",
       "installedFile": {
-        "id": 3074708,
-        "displayName": "v20.25.0 for Forge 1.15.2",
-        "fileName": "Xaeros_Minimap_20.25.0_Forge_1.15.2.jar",
-        "fileDate": "2020-10-08T11:00:38.287Z",
-        "fileLength": 567133,
+        "id": 3081697,
+        "displayName": "v20.25.1 for Forge 1.15.2",
+        "fileName": "Xaeros_Minimap_20.25.1_Forge_1.15.2.jar",
+        "fileDate": "2020-10-15T10:29:35.32Z",
+        "fileLength": 567205,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/3074/708/Xaeros_Minimap_20.25.0_Forge_1.15.2.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/3081/697/Xaeros_Minimap_20.25.1_Forge_1.15.2.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [],
@@ -21684,12 +21538,12 @@
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 2585747916,
+            "fingerprint": 2015386832,
             "type": 0
           },
           {
             "foldername": "xaero",
-            "fingerprint": 1084650280,
+            "fingerprint": 1806494014,
             "type": 0
           },
           {
@@ -21703,7 +21557,7 @@
             "type": 0
           }
         ],
-        "packageFingerprint": 2535419396,
+        "packageFingerprint": 678925959,
         "gameVersion": [
           "Forge",
           "1.15.2"
@@ -21717,11 +21571,11 @@
         "gameVersionDateReleased": "2019-08-01T00:00:00Z",
         "gameId": 0,
         "isServerPack": false,
-        "FileNameOnDisk": "Xaeros_Minimap_20.25.0_Forge_1.15.2.jar"
+        "FileNameOnDisk": "Xaeros_Minimap_20.25.1_Forge_1.15.2.jar"
       },
       "dateInstalled": "2020-07-03T17:46:51.9813037Z",
-      "dateUpdated": "2020-10-08T20:17:34.4678021Z",
-      "dateLastUpdateAttempted": "2020-10-08T20:17:34.4678021Z",
+      "dateUpdated": "2020-10-15T17:58:53.7704623Z",
+      "dateLastUpdateAttempted": "2020-10-15T17:58:53.7704623Z",
       "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
