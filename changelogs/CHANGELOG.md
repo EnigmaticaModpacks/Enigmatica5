@@ -2,9 +2,7 @@
 
 _Using Forge-1.15.2-31.2.36_ | _[Mod Updates](https://github.com/NillerMedDild/Enigmatica5/blob/master/changelogs/CHANGELOG_MODS_0.6.4.txt)_
 
-
-
-**A new world is required if you're updating from any version before 0.6.0**
+*A new world is required if you're updating from any version before 0.6.0*
 
 
 
