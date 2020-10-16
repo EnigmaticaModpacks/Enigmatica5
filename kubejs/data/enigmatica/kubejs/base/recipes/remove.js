@@ -16,6 +16,7 @@ events.listen('recipes', function (event) {
 
         'morevanillalib:obsidian_shard',
 
+        'thermal:bamboo_block',
         'torchmaster:feral_flare_lantern',
         'torchmaster:megatorch',
 
