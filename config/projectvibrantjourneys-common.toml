@@ -126,7 +126,7 @@
 	#Lily Pad Biomes
 	lilypadBiomes = ["minecraft:swamp", "biomesoplenty:mangrove", "biomesoplenty:bayou", "biomesoplenty:bog", "biomesoplenty:floodplain", "biomesoplenty:highland_moor", "biomesoplenty:lush_swamp", "biomesoplenty:marsh", "biomesoplenty:mire", "biomesoplenty:silkglade", "biomesoplenty:wetland", "minecraft:swamp_hills", "terraforged:marshland", "projectvibrantjourneys:willow_wetlands", "minecraft:river", "minecraft:beach", "minecraft:stone_shore", "biomesoplenty:gravel_beach", "biomesoplenty:origin_beach", "biomesoplenty:white_beach", "minecraft:desert_lakes", "terraforged:warm_beach", "terraforged:lake"]
 	#Frogbit Biomes
-	frogbitBiomes = ["minecraft:swamp", "biomesoplenty:mangrove", "biomesoplenty:bayou", "biomesoplenty:bog", "biomesoplenty:floodplain", "biomesoplenty:highland_moor", "biomesoplenty:lush_swamp", "biomesoplenty:marsh", "biomesoplenty:mire", "biomesoplenty:silkglade", "biomesoplenty:wetland", "minecraft:swamp_hills", "terraforged:marshland", "projectvibrantjourneys:willow_wetlands", "minecraft:river", "minecraft:beach", "minecraft:stone_shore", "biomesoplenty:gravel_beach", "biomesoplenty:origin_beach", "biomesoplenty:white_beach", "minecraft:desert_lakes", "terraforged:warm_beach", "terraforged:lake"]
+	frogbitBiomes = []
 	#Normal frequency
 	aspenTreesBiomes = ["projectvibrantjourneys:aspen_grove"]
 	#Sparse frequency
@@ -170,7 +170,7 @@
 	#Bones Biomes
 	bonesBiomes = ["minecraft:jungle", "minecraft:jungle_hills", "minecraft:jungle_edge", "minecraft:savanna", "minecraft:savanna_plateau", "biomesoplenty:white_beach", "biomesoplenty:mangrove", "biomesoplenty:bayou", "biomesoplenty:bog", "biomesoplenty:fungal_jungle", "biomesoplenty:lush_swamp", "biomesoplenty:marsh", "biomesoplenty:outback", "biomesoplenty:overgrown_cliffs", "biomesoplenty:pasture", "biomesoplenty:scrubland", "biomesoplenty:steppe", "biomesoplenty:tropical_rainforest", "biomesoplenty:tropics", "terraforged:bryce", "terraforged:stone_forest", "minecraft:swamp_hills", "terraforged:marshland", "terraforged:savanna_scrub", "terraforged:shattered_savanna_scrub", "terraforged:warm_beach", "projectvibrantjourneys:overgrown_spires", "minecraft:modified_jungle", "minecraft:modified_jungle_edge", "projectvibrantjourneys:willow_wetlands", "minecraft:shattered_savanna", "minecraft:shattered_savanna_plateau", "minecraft:bamboo_jungle", "minecraft:bamboo_jungle_hills", "projectvibrantjourneys:baobab_fields"]
 	#Duckweed Biomes
-	duckweedBiomes = ["minecraft:swamp", "biomesoplenty:mangrove", "biomesoplenty:bayou", "biomesoplenty:bog", "biomesoplenty:floodplain", "biomesoplenty:highland_moor", "biomesoplenty:lush_swamp", "biomesoplenty:marsh", "biomesoplenty:mire", "biomesoplenty:silkglade", "biomesoplenty:wetland", "terraforged:cold_marshland", "minecraft:swamp_hills", "terraforged:marshland", "projectvibrantjourneys:willow_wetlands", "minecraft:river", "terraforged:lake"]
+	duckweedBiomes = []
 	#Bones Biomes (Common)
 	bonesCommonBiomes = ["minecraft:desert", "minecraft:desert_hills", "minecraft:badlands", "minecraft:wooded_badlands_plateau", "minecraft:badlands_plateau", "biomesoplenty:volcano_edge", "biomesoplenty:dead_forest", "biomesoplenty:oasis", "biomesoplenty:wasteland", "biomesoplenty:xeric_shrubland", "minecraft:desert_lakes", "projectvibrantjourneys:verdant_sands", "minecraft:eroded_badlands", "minecraft:modified_wooded_badlands_plateau", "minecraft:modified_badlands_plateau"]
 	#Glowcap Biomes
