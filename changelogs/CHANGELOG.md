@@ -1,3 +1,19 @@
+## Enigmatica 5 - 0.6.4
+
+_Using Forge-1.15.2-31.2.36_ | _[Mod Updates](https://github.com/NillerMedDild/Enigmatica5/blob/master/changelogs/CHANGELOG_MODS_0.6.4.txt)_
+
+
+
+**A new world is required if you're updating from any version before 0.6.0**
+
+
+
+**Bug Fixes**
+
+- ProjectVibrantJourneys: Frogbit and Duckweed no longer generates in the world, as hovering over the item for some time causes a crash.
+- ProductiveBees: Hopefully fixed the issue with far too many bees spawning (Fixed in the mod)
+- [Bambo can not be made into Bambo Bundle, only Bambo Block](https://github.com/NillerMedDild/Enigmatica5/issues/528)
+
 ## Enigmatica 5 - 0.6.3
 
 _Using Forge-1.15.2-31.2.36_ | _[Mod Updates](https://github.com/NillerMedDild/Enigmatica5/blob/master/changelogs/CHANGELOG_MODS_0.6.3.txt)_
