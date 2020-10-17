@@ -1,0 +1,152 @@
+=======================================
+Enigmatica5 0.6.3 --> Enigmatica5 0.6.4
+=======================================
+
+Added:
+- The Official Enigmatica Resource Pack
+
+Updated:
+	Cyclops Core (CyclopsCore-1.15.2-1.8.5.jar --> CyclopsCore-1.15.2-1.8.6.jar):
+		CyclopsCore-1.15.2-1.8.6.jar:
+			As always, don't forget to backup your world before updating!
+			Additions:
+			* Add support for spawn egg registration in entity config
+			Fixes:
+			* Fix random client crash on getSafeTile
+			Closes CyclopsMC/IntegratedDynamics#929
+
+	Dungeon Crawl (DungeonCrawl-1.15.2-2.1.0 --> DungeonCrawl-1.15.2-2.1.1):
+		DungeonCrawl-1.15.2-2.1.1:
+			Dungeon Crawl Version 2.1.1
+			* Increased the delay between monster spawns from spawners
+			* The monster spawn rates are now configurable through a datapack
+			Dungeon Crawl Version 2.1.0
+			AS OF VERSION 2.1.0, DUNGEON CRAWL IS PUBLISHED UNDER THE TERMS OF THE [GNU GENERAL PUBLIC LICENSE v. 3](https://www.curseforge.com/linkout?remoteUrl=https://www.gnu.org/licenses/gpl-3.0.en.html)
+			Monster Changes:
+			* The monster spawner system is now datapack driven, allowing for customization
+			* Monsters will now have potion effects by default in the lower layers
+			* Added wither skeletons to the layers 3, 4 and 5 (they can't drop skulls)
+			Other:
+			* BREAKING CHANGE: Renamed the "stage" parameter for the loot functions to "loot_level"
+			* Added a "solid" option to the config that disables the dungeon ripping itself apart to match the worldgen ([#38](https://github.com/XYROC/DungeonCrawl/issues/38))
+			* Added an option to register dummy pieces for pre-2.0.0 dungeons on startup. (NOT TESTED because i am unable to reproduce the crash for some reason)
+			* Nerfed the loot enchantment level per stage from 10/15/20/25/30 to 10/13/16/19/22
+			* Introduced a new theme-driven decoration system. Themes (not sub-themes) can now have a list of decorations, e.g. vines like in the mossy layers
+			* Themes can now also force a sub-theme (or a sub-theme randomizer) to be used with them
+			* The dungeons now imitate vanilla's structure separation system, because it is not possible to actually hook into it right now. This fixes the weird and inconsistent generation. ([#34](https://github.com/XYROC/DungeonCrawl/issues/34))
+			* Added some new corridor and node models for the nether layer
+			* Added a new loot room model (the old one won't get used by default anymore)
+			* Enabled the side rooms again, there are two different models right now
+			* Added some new node connectors, including one trap
+			* Removed corridor linker 2 (the small room with the water in the middle) from the corridor linker model pool.
+			Fixed Issues:
+			* Fixed monsters in stage 4 and 5 getting equipped with stage 1 items
+			* Fixed vines getting placed wrongly sometimes ([#39](https://github.com/XYROC/DungeonCrawl/issues/39))
+			* Fixed a deadlock issue ([#35](https://github.com/XYROC/DungeonCrawl/issues/35))
+
+	Integrated Dynamics (IntegratedDynamics-1.15.2-1.1.18.jar --> IntegratedDynamics-1.15.2-1.1.19.jar):
+		IntegratedDynamics-1.15.2-1.1.19.jar:
+			As always, don't forget to backup your world before updating!
+			Requires CyclopsCore version 1.8.5 or higher.
+			Fixes:
+			* Fix client crash when opening recipe tab on LP, Closes #928
+
+	MineColonies (minecolonies-0.13.335-ALPHA-universal.jar --> minecolonies-0.13.350-ALPHA-universal.jar):
+		minecolonies-0.13.350-ALPHA-universal.jar:
+			Minecolonies Changelog
+			Version: 0.13.350-ALPHA
+			* Delivery orders (#5921)
+			This adapts the way deliveries are assigned to deliveryman to a multi-factor comparison system. The resolver for dmen now resides in a warehouse and resolves the request it gets to its delivermen in our case those of a single warehouse. So now we compare all assigned deliverymen of a warehouse to get the best fit for the request. The resolver now ask the dmen for a score for adding a certain request and then compares the score to other dmen's scores. The score(lower is better) itself is combined of these factors:
+			Closeness: How close the target/source of the new request is compared to an existing one, in relation to its total travel length. Priority(also contains age): Overtaking a request of a higher priority is worse. Pickup/Delivery alternating: When alternating between pickups and deliveries with close targets the score gets a little bonus. Index: The index we would add the new request at, higher the more request we overtake and the more request we have in total. These result in lists on deliverymen of approx ~3 times closer deliveries, allowing the AI to also bunch up deliveries more nicer in the future.
+			Fixes visitors sometimes getting spawn on zero pos. Fix raids not respecting distance to unloaded buildings Fix shipsraids sometimes instantly despawning after killing spawners, now takes a day to do so. * Serveral fixes (#5928)
+			Adds Custom arrows for our entities, which do not scale in damage with movement and despawn quickly after beeing on the ground for a bit, avoiding fps lag from large battles with thousands of arrows.
+			Some raid balancing: Raiders now have less armor and scale less in health Colonies raidlevel grows more linearly than before and is a bit lower. When less than 5% of raiders remain the raids now automatically end.
+			Fixes: Training archers no longer deal damage when shooting ToggleAI no longer toggles single blocks on doors and instead uses the doors own toggle functionality Raiders no longer accidentally toggle doors Fix guarding guards "Jiggling" because they didnt fix up their starting position for pathing Fix pathing starting positions, now it checks for an existing collision box and if the citizen is actually within it so that e.g. standing next to a Trapdoor no longer assumes a pathing node above the trapdoor. Before it used entity positions which can vary too much, and caused some cases where citizens get stuck. Fix players not always beeing added to the colony view subs after dim changes, they now check if they're added each time they enter a chunk claimed by a colony making it more resistant.
+
+		minecolonies-0.13.349-ALPHA-universal.jar:
+			Minecolonies Changelog
+			Version: 0.13.349-ALPHA
+			* Make request system use localized names in display (#5908)
+
+		minecolonies-0.13.347-BETA-universal.jar:
+			Minecolonies Changelog
+			Version: 0.13.347-BETA
+			* rack hotfix
+			* hotfix (#5914)
+			Hotfix request issue * Fix/some (#5911)
+			fix an exception with the container Also fix an issue with crashing with non resovled requests Also fix issue with style changes * fix #5897 (#5904)
+			Properly update content maps in racks Improve citizen hut GUI slightly * Feature/immutable storage (#5896)
+			Fixes smelter recipes increasing in cost exponentially Adds code to prevent this kind of bug in the future * Some more AI improvements for trapdoors (#5894)
+			Fix: only toggles trapdoors which are blocking our entity from getting through Improved block detection for cases where we're stepping down or up a block, as there we require a check 3 blocks above
+
+		minecolonies-0.13.344-ALPHA-universal.jar:
+			Minecolonies Changelog
+			Version: 0.13.344-ALPHA
+			* rack hotfix
+
+		minecolonies-0.13.341-ALPHA-universal.jar:
+			Minecolonies Changelog
+			Version: 0.13.341-ALPHA
+			* hotfix (#5914)
+			Hotfix request issue
+
+	PneumaticCraft: Repressurized (pneumaticcraft-repressurized-1.15.2-1.5.0-73.jar --> pneumaticcraft-repressurized-1.15.2-1.5.1-81.jar):
+		pneumaticcraft-repressurized-1.15.2-1.5.1-81.jar:
+			1.5.1-81 (14 Oct 2020)
+			Updates
+			* Logistics drone behaviour improvements:
+			* - If a drone is carrying some resource (item or fluid) that it's unable to drop off, it will now still be able to handle requests for the other resource type
+			* - Drones will now also ignore minimum order sizes if dropping off a resource they're already carrying (but continue to honour minimum order sizes if it means collecting that resource from a provider frame)
+			* - Storage and Default Storage frames now also support specifying minimum order sizes
+			* It's now possible to right-click a Drone (that you own) with an empty fluid tank to drain any stored liquid from its internal tank
+			* - This may be useful if you end up with a Logistics Drone which can't drop off its fluid (items are dropped when a drone is wrenched, but fluid is not)
+			* The Universal Sensor heat sensor can now read the heat level of Heat Frames
+			Fixes
+			* Fixed server crash caused by Amadrones trying to restock more than 36 stacks of a player offer at once
+			* - Drone carrying limit is 36 stacks; if more is available for restocking, multiple trips will now be made
+			* Programmer area previewing now disables depth testing (i.e. preview blocks are no longer hidden when in or behind solid blocks)
+			* Fixed server crash (ConcurrentModificationException) related to Skeleton Horse traps
+			* Fixed Volume Upgrades not being taken into account for negative pressures (Vacuum Pump)
+
+	Productive Bees (productivebees-1.15.2-0.4.0.jar --> productivebees-1.15.2-0.4.1.1.jar):
+		productivebees-1.15.2-0.4.1.1.jar:
+			* Fixed tag name error causing network issues
+			* Fixed magmatic bee recipes
+			* Added ghostly comb block recipes
+			Changelog from 0.4.1
+			* Removed solitary eggs in nests. Solitary bees will no longer spawn new bees when bringing home nectar. This will hopefully stop the problem of bees collecting in unloaded chunks.
+			* Added a Nest Locator item which will help find nests of a desired type. Shift right click on the type of nest you want to find or a block of the material the nest is made from. Then right click the air to locate the nearest nest withing 16 block.
+			* Moved all wild bees to config.
+			* Drinking a bottle of honey now has a 50% to cure poison
+			* Added recipe for anti teleport upgrade
+			* Fixed crash when shift clicking honey bottles to bottler inventory
+			* Fixed Ancient bees not leaving hive
+			* Fixed some nest generation not being disabled by config
+			* Fixed missing comb blocks in tag
+
+	SwingThroughGrass (swingthroughgrass-1.15.2-1.4.0.jar --> swingthroughgrass-1.15.2-1.4.1.jar):
+		swingthroughgrass-1.15.2-1.4.1.jar:
+			No changelog available.
+
+		swingthroughgrass-1.15.2-1.4.0.jar:
+			No changelog available.
+
+	Xaero's Minimap (v20.25.0 for Forge 1.15.2 --> v20.25.1 for Forge 1.15.2):
+		v20.25.1 for Forge 1.15.2:
+			* Compatible with Xaero's World Map 1.11.0 or newer.
+			* Fixed the bug where certain chunks would stay unloaded on the minimap, especially on higher render distances.
+			* Fixed cave roof detection being affected by barrier blocks, especially when server heightmaps are ignored.
+			* Fixed the native byte order not being used for some people on minimap texture upload, causing incorrect colors.
+			* More minimap discovery/writing optimization.
+
+		v20.25.1 for Fabric 1.15.2:
+			* Compatible with Xaero's World Map 1.11.0 or newer.
+			* Fixed the bug where certain chunks would stay unloaded on the minimap, especially on higher render distances.
+			* Fixed cave roof detection being affected by barrier blocks, especially when server heightmaps are ignored.
+			* Fixed the native byte order not being used for some people on minimap texture upload, causing incorrect colors.
+			* More minimap discovery/writing optimization.
+
+Downgraded:
+	Crafting Tweaks (CraftingTweaks_1.15.2-11.0.1.jar --> CraftingTweaks 1.15.x - 11.0.0
+
+Generated using [ChangelogGenerator 2.0.0-pre3](https://github.com/TheRandomLabs/ChangelogGenerator).
