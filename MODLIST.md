@@ -1,4 +1,4 @@
-## Enigmatica 5 - 0.6.3 Modlist
+## Enigmatica 5 - 0.6.4 Modlist
 - Abnormals-Core-1.15.2-1.0.6
 - Actually Useful Stonecutter-0.0.1 mc 1.15.2
 - AI-Improvements-1.15.2-0.3.0
@@ -45,7 +45,7 @@
 - CookingForBlockheads_1.15.2-8.0.3
 - CosmeticArmorReworked-1.15.2-v3a
 - craftingstation-3.1.0
-- CraftingTweaks_1.15.2-11.0.1
+- CraftingTweaks_1.15.1-11.0.0
 - create-mc1.15.2_v0.2.4e
 - CTM-MC1.15.2-1.1.1.13
 - Cucumber-1.15.2-3.0.9
@@ -53,7 +53,7 @@
 - curios-FORGE-1.15.2-2.0.2.6
 - curiouselytra-FORGE-1.15.2-2.0
 - Cyclic-1.15.2-0.7.0
-- CyclopsCore-1.15.2-1.8.5
+- CyclopsCore-1.15.2-1.8.6
 - damage_indicator-0.1.0
 - DangerousStoneCutter-1.15.1-1.2.0
 - dankstorage-2.6
@@ -65,7 +65,7 @@
 - dimdungeons-1.07-forge-1.15.2
 - Ding-1.15.2-1.2.0
 - DrawersTooltip-1.15.2-1.1.0
-- DungeonCrawl-1.15.2-2.1.0
+- DungeonCrawl-1.15.2-2.1.1
 - dwmh-1.15.2-4.0.0
 - dyeable_flower_pots-1.15.2-1.1.0
 - elevatorid-1.15.2-1.7.1
@@ -100,7 +100,7 @@
 - immersiveposts-1.15.2-2.1.0
 - industrial-foregoing-1.15.2-2.3.3-e356e61
 - IntegratedCrafting-1.15.2-1.0.10
-- IntegratedDynamics-1.15.2-1.1.18
+- IntegratedDynamics-1.15.2-1.1.19
 - integratednbt-1.15.2-1.3.0
 - IntegratedTerminals-1.15.2-1.0.16
 - IntegratedTunnels-1.15.2-1.6.14
@@ -132,7 +132,7 @@
 - MekanismGenerators-1.15.2-9.10.9.422
 - MekanismTools-1.15.2-9.10.9.422
 - mgui-1.15.2-2.1.1
-- minecolonies-0.13.335-ALPHA-universal
+- minecolonies-0.13.350-ALPHA-universal
 - mining-helmet-1.15.2-1.0.9
 - mininggadgets-1.3.5
 - MixinBootstrap-1.0.5
@@ -159,12 +159,12 @@
 - phosphor-forge-mc1.15.2-0.5.2+build.4
 - pitg-1.15.2-1.4.1
 - Placebo-1.15.2-3.1.0
-- pneumaticcraft-repressurized-1.15.2-1.5.0-73
+- pneumaticcraft-repressurized-1.15.2-1.5.1-81
 - portality-1.15.2-2.1.2-aaa257f
 - Powah-1.15.2-1.1.15
 - PrettyBeaches_1.15.2-4.0.1
 - PrettyPipes-1.5.5
-- productivebees-1.15.2-0.4.0
+- productivebees-1.15.2-0.4.1.1
 - projectvibrantjourneys-1.15.2-2.0.3
 - Psi r1.2-84
 - Quark-r2.1-245
@@ -198,7 +198,7 @@
 - StorageDrawers-1.15.2-7.0.2
 - StrongerSnowballs-1.15.2-1.0.1
 - structurize-0.13.94-ALPHA-universal
-- swingthroughgrass-1.15.2-1.4.0
+- swingthroughgrass-1.15.2-1.4.1
 - tellme-forge-1.15.2-0.8.1
 - TerraForged-1.15.2-0.1.3
 - tetra-1.15.2-2.18.1
@@ -229,6 +229,6 @@
 - WitherSkeletonTweaks-1.15.2-4.0.2
 - World-Stripper-1.7.2-1.15.1
 - XaerosWorldMap_1.11.0_Forge_1.15.2
-- Xaeros_Minimap_20.25.0_Forge_1.15.2
+- Xaeros_Minimap_20.25.1_Forge_1.15.2
 - xnet-1.15-2.1.11
 - XNetGases-1.15.2-1.0.0
