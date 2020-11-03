@@ -23,6 +23,6 @@ events.listen('item.tags', function (event) {
         .add('psi:psigem_block')
         .add('psi:ivory_psimetal_block')
         .add('psi:ebony_psimetal_block');
-
+    event.get('forge:storage_blocks/honeycombs').add('minecraft:honeycomb_block');
     event.get('forge:storage_blocks').add('naturesaura:infused_iron_block').add('naturesaura:tainted_gold_block');
 });
