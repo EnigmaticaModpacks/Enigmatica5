@@ -1,214 +1,220 @@
+## Enigmatica 5 - 0.6.5
+
+_Using Forge-1.15.2-31.2.45_ | _[Mod Updates](https://github.com/NillerMedDild/Enigmatica5/blob/master/changelogs/CHANGELOG_MODS_0.6.5.txt)_
+
+**Additions**
+
+- New things to buy in the Market [(Credit Merlo)](https://github.com/NillerMedDild/Enigmatica5/pull/534)
+  - Thermal Seeds
+  - Farmer's Delight Seeds
+  - Menril Saplings
+  - PVJ Sapling
+  - Quark Saplings
+
+**Bug Fixes**
+
+- Missing tag on vanilla honeycomb block [\#533](https://github.com/NillerMedDild/Enigmatica5/issues/533)
+- Rich Soil Farmland is unobtainable for use in botany pots [\#531](https://github.com/NillerMedDild/Enigmatica5/issues/531)
+- Crash while attempting to plant Farmer's Delight rice with drones [\#530](https://github.com/NillerMedDild/Enigmatica5/issues/530)
+- Crash from Duckweed and Frogbit from Project: Vibrant Journeys [\#529](https://github.com/NillerMedDild/Enigmatica5/issues/529)
+- Crash with PNC item filtering [\#526](https://github.com/NillerMedDild/Enigmatica5/issues/526)
+- Thermal Magnet crashes the client [\#522](https://github.com/NillerMedDild/Enigmatica5/issues/522)
+
 ## Enigmatica 5 - 0.6.4
 
 _Using Forge-1.15.2-31.2.36_ | _[Mod Updates](https://github.com/NillerMedDild/Enigmatica5/blob/master/changelogs/CHANGELOG_MODS_0.6.4.txt)_
 
-*A new world is required if you're updating from any version before 0.6.0*
-
-
+_A new world is required if you're updating from any version before 0.6.0_
 
 **Bug Fixes**
 
-- ProjectVibrantJourneys: Frogbit and Duckweed no longer generates in the world, as hovering over the item for some time causes a crash.
-- ProductiveBees: Hopefully fixed the issue with far too many bees spawning (Fixed in the mod)
-- [Bambo can not be made into Bambo Bundle, only Bambo Block](https://github.com/NillerMedDild/Enigmatica5/issues/528)
+-   ProjectVibrantJourneys: Frogbit and Duckweed no longer generates in the world, as hovering over the item for some time causes a crash.
+-   ProductiveBees: Hopefully fixed the issue with far too many bees spawning (Fixed in the mod)
+-   [Bambo can not be made into Bambo Bundle, only Bambo Block](https://github.com/NillerMedDild/Enigmatica5/issues/528)
 
 ## Enigmatica 5 - 0.6.3
 
 _Using Forge-1.15.2-31.2.36_ | _[Mod Updates](https://github.com/NillerMedDild/Enigmatica5/blob/master/changelogs/CHANGELOG_MODS_0.6.3.txt)_
 
-
-
 **TONS of changes have been made, a new world is required if you're updating from any version before 0.6.0**
 
 **Mod Additions**
 
-- [ConnectedTexturesMod](https://github.com/NillerMedDild/Enigmatica5/issues/525)
+-   [ConnectedTexturesMod](https://github.com/NillerMedDild/Enigmatica5/issues/525)
 
 **Changes**
 
-- [Create Stones in vanilla-style Stone Generator](https://github.com/NillerMedDild/Enigmatica5/issues/519)
+-   [Create Stones in vanilla-style Stone Generator](https://github.com/NillerMedDild/Enigmatica5/issues/519)
 
 **Bug Fixes**
 
-- [Server Disconnect when placing Supply Camp/Ship](https://github.com/NillerMedDild/Enigmatica5/issues/524)
-- [Decorative Blocks Beam Recipes are missing](https://github.com/NillerMedDild/Enigmatica5/issues/521)
-- [Sawdust to Paper Recipes](https://github.com/NillerMedDild/Enigmatica5/issues/520)
-- [Duplicate bug with Integrated-Dynamics](https://github.com/NillerMedDild/Enigmatica5/issues/507)
+-   [Server Disconnect when placing Supply Camp/Ship](https://github.com/NillerMedDild/Enigmatica5/issues/524)
+-   [Decorative Blocks Beam Recipes are missing](https://github.com/NillerMedDild/Enigmatica5/issues/521)
+-   [Sawdust to Paper Recipes](https://github.com/NillerMedDild/Enigmatica5/issues/520)
+-   [Duplicate bug with Integrated-Dynamics](https://github.com/NillerMedDild/Enigmatica5/issues/507)
 
 ## Enigmatica 5 - 0.6.2
 
 _Using Forge-1.15.2-31.2.36_ | _[Mod Updates](https://github.com/NillerMedDild/Enigmatica5/blob/master/changelogs/CHANGELOG_MODS_0.6.2.txt)_
 
-
-
 **TONS of changes have been made, a new world is required if you're updating from any version before 0.6.0**
 
-*This changelog is a combination of 0.6.1 and 0.6.2*
+_This changelog is a combination of 0.6.1 and 0.6.2_
 
 You will be prompted that items have been removed in the update, this is perfectly normal, accept it if you're in singleplayer and type `/fml confirm` if you're running a server.
 
-
-
 **Changes**
 
-  - Thermal: Finish unification Thermal Gems [\#491](https://github.com/NillerMedDild/Enigmatica5/issues/491)
-  - Thermal: Pulverizer recipes for Zinc and Aluminum [\#488](https://github.com/NillerMedDild/Enigmatica5/issues/488)
-  - Unification for knifes [\#492](https://github.com/NillerMedDild/Enigmatica5/issues/492)
-  - Worldgen: Disable Astral Sorcery marble generation, enable Quark marble generation (Much more marble overall) [\#516](https://github.com/NillerMedDild/Enigmatica5/issues/516)
+-   Thermal: Finish unification Thermal Gems [\#491](https://github.com/NillerMedDild/Enigmatica5/issues/491)
+-   Thermal: Pulverizer recipes for Zinc and Aluminum [\#488](https://github.com/NillerMedDild/Enigmatica5/issues/488)
+-   Unification for knifes [\#492](https://github.com/NillerMedDild/Enigmatica5/issues/492)
+-   Worldgen: Disable Astral Sorcery marble generation, enable Quark marble generation (Much more marble overall) [\#516](https://github.com/NillerMedDild/Enigmatica5/issues/516)
 
-  **Bug Fixes**
+**Bug Fixes**
 
-  - Astral Sorcery: Structures [\#484](https://github.com/NillerMedDild/Enigmatica5/issues/484)
-  - BuildingGadgets; animations not working [\#279](https://github.com/NillerMedDild/Enigmatica5/issues/279)
-  - Create: Create lapis sheets have no recipe or alternative [\#500](https://github.com/NillerMedDild/Enigmatica5/issues/500)
-- Create: Sheets Compatibility [\#513](https://github.com/NillerMedDild/Enigmatica5/issues/513)
-- ImmersiveEngineering: Game crashes when you press ESC [\#503](https://github.com/NillerMedDild/Enigmatica5/issues/503)
-- ImmersiveEngineering: IE Engineer Villager accepts only IE Steel \(Steel conversion recipe added\) [\#496](https://github.com/NillerMedDild/Enigmatica5/issues/496)
-- ImmersiveEngineering: Unable to insert materials into a Coke Oven/Blast furnace from IE [\#509](https://github.com/NillerMedDild/Enigmatica5/issues/509)
-- Minecolonies: Barbarians texture bug [\#350](https://github.com/NillerMedDild/Enigmatica5/issues/350)
-- Misc: Broken Farmland Recipe [\#493](https://github.com/NillerMedDild/Enigmatica5/issues/493)
-- Powah: Uranitite [\#490](https://github.com/NillerMedDild/Enigmatica5/issues/490)
-- Quark: Quark Stone Brick Variants Unobtainable  [\#510](https://github.com/NillerMedDild/Enigmatica5/issues/510)
-- TerraForged: Ritual of the forest not working  [\#489](https://github.com/NillerMedDild/Enigmatica5/issues/489)
-- Worldgen: Cobblestone-only recipes are causing issues if only Stone is available underground \(Allow Stone in the place of cobblestone in some recipes\) [\#487](https://github.com/NillerMedDild/Enigmatica5/issues/487)
-- Worldgen: Fixes Granite being in worldgen, it was not meant to be.
-- Worldgen: Increased minimum Y level of Emerald Ore to Y=192
-- Worldgen: Increased the amount of Lead and Uranium Ore [\#497](https://github.com/NillerMedDild/Enigmatica5/issues/497)
-- Worldgen: Marble isn't part of ore/underground generation [\#515](https://github.com/NillerMedDild/Enigmatica5/issues/515)
+-   Astral Sorcery: Structures [\#484](https://github.com/NillerMedDild/Enigmatica5/issues/484)
+-   BuildingGadgets; animations not working [\#279](https://github.com/NillerMedDild/Enigmatica5/issues/279)
+-   Create: Create lapis sheets have no recipe or alternative [\#500](https://github.com/NillerMedDild/Enigmatica5/issues/500)
+-   Create: Sheets Compatibility [\#513](https://github.com/NillerMedDild/Enigmatica5/issues/513)
+-   ImmersiveEngineering: Game crashes when you press ESC [\#503](https://github.com/NillerMedDild/Enigmatica5/issues/503)
+-   ImmersiveEngineering: IE Engineer Villager accepts only IE Steel \(Steel conversion recipe added\) [\#496](https://github.com/NillerMedDild/Enigmatica5/issues/496)
+-   ImmersiveEngineering: Unable to insert materials into a Coke Oven/Blast furnace from IE [\#509](https://github.com/NillerMedDild/Enigmatica5/issues/509)
+-   Minecolonies: Barbarians texture bug [\#350](https://github.com/NillerMedDild/Enigmatica5/issues/350)
+-   Misc: Broken Farmland Recipe [\#493](https://github.com/NillerMedDild/Enigmatica5/issues/493)
+-   Powah: Uranitite [\#490](https://github.com/NillerMedDild/Enigmatica5/issues/490)
+-   Quark: Quark Stone Brick Variants Unobtainable [\#510](https://github.com/NillerMedDild/Enigmatica5/issues/510)
+-   TerraForged: Ritual of the forest not working [\#489](https://github.com/NillerMedDild/Enigmatica5/issues/489)
+-   Worldgen: Cobblestone-only recipes are causing issues if only Stone is available underground \(Allow Stone in the place of cobblestone in some recipes\) [\#487](https://github.com/NillerMedDild/Enigmatica5/issues/487)
+-   Worldgen: Fixes Granite being in worldgen, it was not meant to be.
+-   Worldgen: Increased minimum Y level of Emerald Ore to Y=192
+-   Worldgen: Increased the amount of Lead and Uranium Ore [\#497](https://github.com/NillerMedDild/Enigmatica5/issues/497)
+-   Worldgen: Marble isn't part of ore/underground generation [\#515](https://github.com/NillerMedDild/Enigmatica5/issues/515)
 
-  **Mod Removals**
+    **Mod Removals**
 
-  - Snow Under Trees (It is not needed with TerraForged)
+    -   Snow Under Trees (It is not needed with TerraForged)
 
 ## (Pulled back) Enigmatica 5 - 0.6.1
 
 _Using Forge-1.15.2-31.2.36_ | _[Mod Updates](https://github.com/NillerMedDild/Enigmatica5/blob/master/changelogs/CHANGELOG_MODS_0.6.1.txt)_
 
-
-
 **TONS of changes have been made, a new world is required if you're updating from any version before 0.6.0**
-
-
 
 **Changes**
 
-- Thermal: Finish unification Thermal Gems [\#491](https://github.com/NillerMedDild/Enigmatica5/issues/491)
-- Thermal: Pulverizer recipes for Zinc and Aluminum [\#488](https://github.com/NillerMedDild/Enigmatica5/issues/488)
-- Unification for knifes [\#492](https://github.com/NillerMedDild/Enigmatica5/issues/492)
+-   Thermal: Finish unification Thermal Gems [\#491](https://github.com/NillerMedDild/Enigmatica5/issues/491)
+-   Thermal: Pulverizer recipes for Zinc and Aluminum [\#488](https://github.com/NillerMedDild/Enigmatica5/issues/488)
+-   Unification for knifes [\#492](https://github.com/NillerMedDild/Enigmatica5/issues/492)
 
 **Bug Fixes**
 
-- Astral Sorcery: Structures [\#484](https://github.com/NillerMedDild/Enigmatica5/issues/484)
-- BuildingGadgets; animations not working [\#279](https://github.com/NillerMedDild/Enigmatica5/issues/279)
-- Create: Create lapis sheets have no recipe or alternative [\#500](https://github.com/NillerMedDild/Enigmatica5/issues/500)
-- ImmersiveEngineering: IE Engineer Villager accepts only IE Steel \(Steel conversion recipe added\) [\#496](https://github.com/NillerMedDild/Enigmatica5/issues/496)
-- Minecolonies: Barbarians texture bug [\#350](https://github.com/NillerMedDild/Enigmatica5/issues/350)
-- Misc: Broken Farmland Recipe [\#493](https://github.com/NillerMedDild/Enigmatica5/issues/493)
-- Powah: Uranitite [\#490](https://github.com/NillerMedDild/Enigmatica5/issues/490)
-- Worldgen: Cobblestone-only recipes are causing issues if only Stone is available underground \(Allow Stone in the place of cobblestone in some recipes\) [\#487](https://github.com/NillerMedDild/Enigmatica5/issues/487)
-- Worldgen: Fixes Granite being in worldgen, it was not meant to be.
-- Worldgen: Increased minimum Y level of Emerald Ore to Y=192
-- Worldgen: Increased the amount of Lead and Uranium Ore [\#497](https://github.com/NillerMedDild/Enigmatica5/issues/497)
+-   Astral Sorcery: Structures [\#484](https://github.com/NillerMedDild/Enigmatica5/issues/484)
+-   BuildingGadgets; animations not working [\#279](https://github.com/NillerMedDild/Enigmatica5/issues/279)
+-   Create: Create lapis sheets have no recipe or alternative [\#500](https://github.com/NillerMedDild/Enigmatica5/issues/500)
+-   ImmersiveEngineering: IE Engineer Villager accepts only IE Steel \(Steel conversion recipe added\) [\#496](https://github.com/NillerMedDild/Enigmatica5/issues/496)
+-   Minecolonies: Barbarians texture bug [\#350](https://github.com/NillerMedDild/Enigmatica5/issues/350)
+-   Misc: Broken Farmland Recipe [\#493](https://github.com/NillerMedDild/Enigmatica5/issues/493)
+-   Powah: Uranitite [\#490](https://github.com/NillerMedDild/Enigmatica5/issues/490)
+-   Worldgen: Cobblestone-only recipes are causing issues if only Stone is available underground \(Allow Stone in the place of cobblestone in some recipes\) [\#487](https://github.com/NillerMedDild/Enigmatica5/issues/487)
+-   Worldgen: Fixes Granite being in worldgen, it was not meant to be.
+-   Worldgen: Increased minimum Y level of Emerald Ore to Y=192
+-   Worldgen: Increased the amount of Lead and Uranium Ore [\#497](https://github.com/NillerMedDild/Enigmatica5/issues/497)
 
 **Mod Removals**
 
-- Snow Under Trees (It is not needed with TerraForged)
+-   Snow Under Trees (It is not needed with TerraForged)
 
 ## Enigmatica 5 - 0.6.0
 
 _Using Forge-1.15.2-31.2.36_ | _[Mod Updates](https://github.com/NillerMedDild/Enigmatica5/blob/master/changelogs/CHANGELOG_MODS_0.6.0.txt)_
 
-
-
 **TONS of changes have been made, a new world is required!**
-
-
 
 **Mod Additions**
 
-- Abnormals Core
-- Actually Useful Stonecutter
-- Astral Sorcery
-- BlockCarpentry
-- ColoredLanterns
-- Default World Type (Forge)
-- Drawers Tooltip
-- Emendatus Enigmatica
-- FTB GUI Library
-- Farmer's Delight
-- Integrated Crafting
-- Integrated Terminals
-- Integrated Tunnels
-- Macaw's Doors
-- Macaw's Trapdoors
-- More Overlays Updated
-- ObserverLib
-- Productive Bees
-- Project: Vibrant Journeys
-- TellMe
-- The Endergetic Expansion
-- Thermal Cultivation
-- Thermal Expansion
-- Thermal Foundation
-- Thermal Innovation
-- Thermal Locomotion
-- Tool Stats
-- Towers Of The Wild
-- Trash Cans
-- U Team Core
-- Useful Backpacks
+-   Abnormals Core
+-   Actually Useful Stonecutter
+-   Astral Sorcery
+-   BlockCarpentry
+-   ColoredLanterns
+-   Default World Type (Forge)
+-   Drawers Tooltip
+-   Emendatus Enigmatica
+-   FTB GUI Library
+-   Farmer's Delight
+-   Integrated Crafting
+-   Integrated Terminals
+-   Integrated Tunnels
+-   Macaw's Doors
+-   Macaw's Trapdoors
+-   More Overlays Updated
+-   ObserverLib
+-   Productive Bees
+-   Project: Vibrant Journeys
+-   TellMe
+-   The Endergetic Expansion
+-   Thermal Cultivation
+-   Thermal Expansion
+-   Thermal Foundation
+-   Thermal Innovation
+-   Thermal Locomotion
+-   Tool Stats
+-   Towers Of The Wild
+-   Trash Cans
+-   U Team Core
+-   Useful Backpacks
 
 **Changes**
 
-- Added Modded for Dummies, a guide for players new to modded! (Credit Merlo & Rid for textures)
-- Ma Essentials: Disabled Warp commands (They can be re-enabled in the configs)
-- Ma Essentials: Increased cooldown of /back command to 5 minutes, from 3.
-- MineColonies: Decreased Villager update rate, for better performance.
-- New Main Menu (Credit Rid) [\#474](https://github.com/NillerMedDild/Enigmatica5/issues/474)
-- Occultism: Saplings can be bought in the Farming for Blockheads Market
-- Quark: Sign editing now requires an empty hand
-- Renewable Coral Blocks [\#462](https://github.com/NillerMedDild/Enigmatica5/issues/462)
-- Server: Changed default server type to TerraForged
-- Stone Catalysts: Added Astral Sorcery Marble to the list of stone-generator materials.
-- Tetra: Aura Repair for Nature's Aura Tetra Materials \(Credit Mickelus\) [\#459](https://github.com/NillerMedDild/Enigmatica5/issues/459)
-- Tetra: Botania-based materials now regenerates durability from mana.
-- Tetra: Buffed Elementium
-- Tetra: More datapack configuration [\#158](https://github.com/NillerMedDild/Enigmatica5/issues/158)
-- TorchMaster: Nerf Lamps \(More expensive recipes\) [\#289](https://github.com/NillerMedDild/Enigmatica5/issues/289)
-- Waystones: Disabled village Waystones, as multiple could generate per village
+-   Added Modded for Dummies, a guide for players new to modded! (Credit Merlo & Rid for textures)
+-   Ma Essentials: Disabled Warp commands (They can be re-enabled in the configs)
+-   Ma Essentials: Increased cooldown of /back command to 5 minutes, from 3.
+-   MineColonies: Decreased Villager update rate, for better performance.
+-   New Main Menu (Credit Rid) [\#474](https://github.com/NillerMedDild/Enigmatica5/issues/474)
+-   Occultism: Saplings can be bought in the Farming for Blockheads Market
+-   Quark: Sign editing now requires an empty hand
+-   Renewable Coral Blocks [\#462](https://github.com/NillerMedDild/Enigmatica5/issues/462)
+-   Server: Changed default server type to TerraForged
+-   Stone Catalysts: Added Astral Sorcery Marble to the list of stone-generator materials.
+-   Tetra: Aura Repair for Nature's Aura Tetra Materials \(Credit Mickelus\) [\#459](https://github.com/NillerMedDild/Enigmatica5/issues/459)
+-   Tetra: Botania-based materials now regenerates durability from mana.
+-   Tetra: Buffed Elementium
+-   Tetra: More datapack configuration [\#158](https://github.com/NillerMedDild/Enigmatica5/issues/158)
+-   TorchMaster: Nerf Lamps \(More expensive recipes\) [\#289](https://github.com/NillerMedDild/Enigmatica5/issues/289)
+-   Waystones: Disabled village Waystones, as multiple could generate per village
 
 **Bug Fixes**
 
-- 2 recipes for each powah reactor [\#433](https://github.com/NillerMedDild/Enigmatica5/issues/433)
-- Finish removing Prismarine dupe recipe again \(enrichment\) [\#444](https://github.com/NillerMedDild/Enigmatica5/issues/444)
-- Integrated Dynamics: Meneglin Biome generates with no decoration [\#427](https://github.com/NillerMedDild/Enigmatica5/issues/427)
-- Minecolonies Delivery man not fullfilling Pickup requests. [\#455](https://github.com/NillerMedDild/Enigmatica5/issues/455)
-- Obsidian duping with Mekanism [\#430](https://github.com/NillerMedDild/Enigmatica5/issues/430)
-- PassableFoliage pathing issues [\#456](https://github.com/NillerMedDild/Enigmatica5/issues/456)
-- PneumaticCraft: Blacklisted Programmable Controller from Neat (the health bar)
-- Random crash while opening an Integrated Dynamics Display Panel [\#435](https://github.com/NillerMedDild/Enigmatica5/issues/435)
-- Refined Storage Wireless Crafting Grid Duplicates Items [\#437](https://github.com/NillerMedDild/Enigmatica5/issues/437)
-- Signs [\#438](https://github.com/NillerMedDild/Enigmatica5/issues/438)
-- Stonecutter Dupes [\#446](https://github.com/NillerMedDild/Enigmatica5/issues/446)
-- Tetra bow with zero second draw speed causes world to stop rendering [\#460](https://github.com/NillerMedDild/Enigmatica5/issues/460)
-- Torchmaster Feral Flare and Frozen Pearl tooltips seems to be broken [\#351](https://github.com/NillerMedDild/Enigmatica5/issues/351)
+-   2 recipes for each powah reactor [\#433](https://github.com/NillerMedDild/Enigmatica5/issues/433)
+-   Finish removing Prismarine dupe recipe again \(enrichment\) [\#444](https://github.com/NillerMedDild/Enigmatica5/issues/444)
+-   Integrated Dynamics: Meneglin Biome generates with no decoration [\#427](https://github.com/NillerMedDild/Enigmatica5/issues/427)
+-   Minecolonies Delivery man not fullfilling Pickup requests. [\#455](https://github.com/NillerMedDild/Enigmatica5/issues/455)
+-   Obsidian duping with Mekanism [\#430](https://github.com/NillerMedDild/Enigmatica5/issues/430)
+-   PassableFoliage pathing issues [\#456](https://github.com/NillerMedDild/Enigmatica5/issues/456)
+-   PneumaticCraft: Blacklisted Programmable Controller from Neat (the health bar)
+-   Random crash while opening an Integrated Dynamics Display Panel [\#435](https://github.com/NillerMedDild/Enigmatica5/issues/435)
+-   Refined Storage Wireless Crafting Grid Duplicates Items [\#437](https://github.com/NillerMedDild/Enigmatica5/issues/437)
+-   Signs [\#438](https://github.com/NillerMedDild/Enigmatica5/issues/438)
+-   Stonecutter Dupes [\#446](https://github.com/NillerMedDild/Enigmatica5/issues/446)
+-   Tetra bow with zero second draw speed causes world to stop rendering [\#460](https://github.com/NillerMedDild/Enigmatica5/issues/460)
+-   Torchmaster Feral Flare and Frozen Pearl tooltips seems to be broken [\#351](https://github.com/NillerMedDild/Enigmatica5/issues/351)
 
 **Mod Removals**
 
-- Ambient Environment (The environment is plenty ambient)
-- DefaultSettings (Unused, as it was only meant to be used for packmodes)
-- Equipment Tooltips (Replaced)
-- Fx Control (Unused)
-- Garden Tools (Hoe enchants can do similar things)
-- In Control (Unused)
-- Iron Jetpacks
-- Item Filters (Tried to remove it several times already, hopefully this does the trick)
-- Light Overlays (Replaced by More Overlays)
-- Ore Veins (Sorta replaced by Emendatus Enigmatica)
-- PackingTape (Other options)
-- Passable Foliage (Design choice, negative user feedback)
-- Simply Backpacks (Replaced by Useful Backpacks)
-- StepUp (Other options)
+-   Ambient Environment (The environment is plenty ambient)
+-   DefaultSettings (Unused, as it was only meant to be used for packmodes)
+-   Equipment Tooltips (Replaced)
+-   Fx Control (Unused)
+-   Garden Tools (Hoe enchants can do similar things)
+-   In Control (Unused)
+-   Iron Jetpacks
+-   Item Filters (Tried to remove it several times already, hopefully this does the trick)
+-   Light Overlays (Replaced by More Overlays)
+-   Ore Veins (Sorta replaced by Emendatus Enigmatica)
+-   PackingTape (Other options)
+-   Passable Foliage (Design choice, negative user feedback)
+-   Simply Backpacks (Replaced by Useful Backpacks)
+-   StepUp (Other options)
 
 ## Enigmatica 5 - 0.5.5
 
@@ -216,8 +222,8 @@ _Using Forge-1.15.2-31.2.30_ | _[Mod Updates](https://github.com/NillerMedDild/E
 
 **Bug Fixes**
 
-- Annoying dupe glitch in RS [\#418](https://github.com/NillerMedDild/Enigmatica5/issues/418)
-- Fixed a few recipes only accepting vanilla dyes (Credit TheBoo)
+-   Annoying dupe glitch in RS [\#418](https://github.com/NillerMedDild/Enigmatica5/issues/418)
+-   Fixed a few recipes only accepting vanilla dyes (Credit TheBoo)
 
 ## Enigmatica 5 - 0.5.4
 
@@ -235,24 +241,20 @@ _Using Forge-1.15.2-31.2.30_ | _[Mod Updates](https://github.com/NillerMedDild/E
 
 **Changes**
 
-- Performance improvements (Startup time, world generation performance and the time it takes to join worlds should be better)
-- Quark: Recipe for Quark Cave Roots \(They tame toretoises\) [\#414](https://github.com/NillerMedDild/Enigmatica5/issues/414)
-- XNet: The Controller no longer requires power
+-   Performance improvements (Startup time, world generation performance and the time it takes to join worlds should be better)
+-   Quark: Recipe for Quark Cave Roots \(They tame toretoises\) [\#414](https://github.com/NillerMedDild/Enigmatica5/issues/414)
+-   XNet: The Controller no longer requires power
 
 **Bug Fixes**
 
-- Grass now drops other seeds than wheat seeds again.
+-   Grass now drops other seeds than wheat seeds again.
 
 **Mod Removals**
 
-- CraftTweaker
-- Corail's Woodcutter (Removed from CurseForge)
+-   CraftTweaker
+-   Corail's Woodcutter (Removed from CurseForge)
 
-
-
-***Enigmatica 5 - 0.5.3 had major issues and was cancelled. All changes moved to 0.5.4**
-
-
+**\*Enigmatica 5 - 0.5.3 had major issues and was cancelled. All changes moved to 0.5.4**
 
 ## Enigmatica 5 - 0.5.2
 
@@ -269,69 +271,69 @@ _Using Forge-1.15.2-31.2.30_ | _[Mod Updates](https://github.com/NillerMedDild/E
 
 **Changes**
 
-- Added Engineer's Manual to the Akashic Tome [\#371](https://github.com/NillerMedDild/Enigmatica5/issues/371)
-- Fewer Occultism seed drops [\#368](https://github.com/NillerMedDild/Enigmatica5/issues/368)
-- Tetra: Finished the HUGE content update, tons of new materials: (A big thank you to [Ridanis](https://github.com/ridanis) and [mickelus](https://github.com/mickelus) for helping)
-  - Lapis
-  - Osmium
-  - Refined Glowstone
-  - Refined Obsidian
-  - Andesite Alloy
-  - Zinc
-  - Pink Slime 
-  - Iesnium 
-  - Compressed Iron
-  - Energized Steel
-  - Niotic Crystal 
-  - Spirited Crystal 
-  - Nitro Crystal
-  - Aluminum
-  - Treated Wood
-  - Constantan
-  - Uranium
-  - Ancient
-  - Infused Iron
-  - Ingot of the Skies
-  - Manasteel
-  - Elementium
-  - Terrasteel
-  - Gaia Spirit Ingot
-  - Mahogany
-  - Jacaranda
-  - Palm
-  - Willow
-  - Dead
-  - Magic
-  - Umbran
-  - Hellbark
-  - Fir
-  - Redwood
-  - Cherry
-- New Tools that can be altered with Tetra
-  - Mekanism: Lapis
-  - Mekanism: Osmium
-  - Mekanism: Refined Glowstone
-  - Mekanism: Refined Obsidian
-  - Mekanism: Steel
-  - Immersive Engineering Steel
-  - Botania Manasteel
-  - Botania Elementium
-  - Botania Terrasteel
-  - Nature's Aura Infused Iron
-  - Nature's Aura Sky
+-   Added Engineer's Manual to the Akashic Tome [\#371](https://github.com/NillerMedDild/Enigmatica5/issues/371)
+-   Fewer Occultism seed drops [\#368](https://github.com/NillerMedDild/Enigmatica5/issues/368)
+-   Tetra: Finished the HUGE content update, tons of new materials: (A big thank you to [Ridanis](https://github.com/ridanis) and [mickelus](https://github.com/mickelus) for helping)
+    -   Lapis
+    -   Osmium
+    -   Refined Glowstone
+    -   Refined Obsidian
+    -   Andesite Alloy
+    -   Zinc
+    -   Pink Slime
+    -   Iesnium
+    -   Compressed Iron
+    -   Energized Steel
+    -   Niotic Crystal
+    -   Spirited Crystal
+    -   Nitro Crystal
+    -   Aluminum
+    -   Treated Wood
+    -   Constantan
+    -   Uranium
+    -   Ancient
+    -   Infused Iron
+    -   Ingot of the Skies
+    -   Manasteel
+    -   Elementium
+    -   Terrasteel
+    -   Gaia Spirit Ingot
+    -   Mahogany
+    -   Jacaranda
+    -   Palm
+    -   Willow
+    -   Dead
+    -   Magic
+    -   Umbran
+    -   Hellbark
+    -   Fir
+    -   Redwood
+    -   Cherry
+-   New Tools that can be altered with Tetra
+    -   Mekanism: Lapis
+    -   Mekanism: Osmium
+    -   Mekanism: Refined Glowstone
+    -   Mekanism: Refined Obsidian
+    -   Mekanism: Steel
+    -   Immersive Engineering Steel
+    -   Botania Manasteel
+    -   Botania Elementium
+    -   Botania Terrasteel
+    -   Nature's Aura Infused Iron
+    -   Nature's Aura Sky
 
 **Bug Fixes**
 
-- Prismarine dupe loop [\#391](https://github.com/NillerMedDild/Enigmatica5/issues/391) (Credit [Halfdeaf](https://github.com/halfdeaf))
-- Create bulk washing recipes not making IE nugs for some ores [\#389](https://github.com/NillerMedDild/Enigmatica5/issues/389) (Credit [theboo](https://github.com/theboo))
-- Trouble with Copper processing with Create / generation with Nature's Aura [\#385](https://github.com/NillerMedDild/Enigmatica5/issues/385) (Credit [MuteTiefling](https://github.com/mutetiefling))
-- Recipe Conflict: Beams/Sticks [\#381](https://github.com/NillerMedDild/Enigmatica5/issues/381)
-- Create Press makes Sheets instead of Plates [\#379](https://github.com/NillerMedDild/Enigmatica5/issues/379)
-- Mekanism Infuser makes Steel Dust, not Grit [\#367](https://github.com/NillerMedDild/Enigmatica5/issues/367)
-- Vanilla campfire ticking way too much on servers [\#364](https://github.com/NillerMedDild/Enigmatica5/issues/364)
-- Modular Routers - Missing Recipes [\#344](https://github.com/NillerMedDild/Enigmatica5/issues/344)
-- Minecolonies Hospital not placing properly [\#337](https://github.com/NillerMedDild/Enigmatica5/issues/337)
-- Soils Unobtainable for Botany Pots [\#310](https://github.com/NillerMedDild/Enigmatica5/issues/310)
+-   Prismarine dupe loop [\#391](https://github.com/NillerMedDild/Enigmatica5/issues/391) (Credit [Halfdeaf](https://github.com/halfdeaf))
+-   Create bulk washing recipes not making IE nugs for some ores [\#389](https://github.com/NillerMedDild/Enigmatica5/issues/389) (Credit [theboo](https://github.com/theboo))
+-   Trouble with Copper processing with Create / generation with Nature's Aura [\#385](https://github.com/NillerMedDild/Enigmatica5/issues/385) (Credit [MuteTiefling](https://github.com/mutetiefling))
+-   Recipe Conflict: Beams/Sticks [\#381](https://github.com/NillerMedDild/Enigmatica5/issues/381)
+-   Create Press makes Sheets instead of Plates [\#379](https://github.com/NillerMedDild/Enigmatica5/issues/379)
+-   Mekanism Infuser makes Steel Dust, not Grit [\#367](https://github.com/NillerMedDild/Enigmatica5/issues/367)
+-   Vanilla campfire ticking way too much on servers [\#364](https://github.com/NillerMedDild/Enigmatica5/issues/364)
+-   Modular Routers - Missing Recipes [\#344](https://github.com/NillerMedDild/Enigmatica5/issues/344)
+-   Minecolonies Hospital not placing properly [\#337](https://github.com/NillerMedDild/Enigmatica5/issues/337)
+-   Soils Unobtainable for Botany Pots [\#310](https://github.com/NillerMedDild/Enigmatica5/issues/310)
 
 **Mod Removals**
 
@@ -1017,7 +1019,7 @@ _[Mod List](https://github.com/NillerMedDild/Enigmatica5/blob/master/CHANGELOG-M
 
 ## Enigmatica 5 - 0.3.0
 
--   - 0.3.0 did not start on servers, because of a mod issue\*
+-   -   0.3.0 did not start on servers, because of a mod issue\*
 
 ## Enigmatica 5 - 0.2.0
 

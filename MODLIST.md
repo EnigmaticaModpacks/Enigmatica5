@@ -1,15 +1,15 @@
-## Enigmatica 5 - 0.6.4 Modlist
+## Enigmatica 5 - 0.6.5 Modlist
 - Abnormals-Core-1.15.2-1.0.6
 - Actually Useful Stonecutter-0.0.1 mc 1.15.2
 - AI-Improvements-1.15.2-0.3.0
 - AkashicTome-1.3-13
 - AmbientSounds_v3.0.20_mc1.15.2
 - angelring-1.15.2-1.2.0
-- Apotheosis-1.15.2-3.3.7
+- Apotheosis-1.15.2-3.3.8
 - AppleSkin-mc1.15.2-forge-1.0.14
-- Aquaculture-1.15.2-2.0.21
-- archers_paradox-1.15.2-0.7.0b
-- astralsorcery-1.15.2-1.12.9
+- Aquaculture-1.15.2-2.0.22
+- archers_paradox-1.15.2-1.0.0
+- astralsorcery-1.15.2-1.12.10
 - AttributeFix-1.15.2-7.0.2
 - AutoRegLib-1.5-40
 - bambooeverything-1.15-1.0.0
@@ -23,9 +23,9 @@
 - BonsaiTrees-2.1.2.6
 - Bookshelf-1.15.2-5.6.40
 - Botania-r1.15-388
-- BotanyPots-1.15.2-2.0.28
+- BotanyPots-1.15.2-2.0.29
 - Bountiful-1.15.2-3.1.2
-- buildinggadgets-3.4.0
+- buildinggadgets-3.4.1
 - caelus-FORGE-1.15.2-2.0-beta3
 - campfiretorches-1.15.2-1.0.2
 - CapabilityProxy-1.15.2-2.1.6
@@ -35,7 +35,7 @@
 - ClickMachine-1.15.2-3.0.2
 - Clumps-5.0.2.6
 - CodeChickenLib-1.15.2-3.3.2.383-universal
-- cofh_core-1.15.2-0.7.0b
+- cofh_core-1.15.2-1.0.1
 - coloredlanterns-1.0
 - colytra-FORGE-1.15.2-3.0
 - CommonCapabilities-1.15.2-2.5.4
@@ -45,7 +45,7 @@
 - CookingForBlockheads_1.15.2-8.0.3
 - CosmeticArmorReworked-1.15.2-v3a
 - craftingstation-3.1.0
-- CraftingTweaks_1.15.1-11.0.0
+- CraftingTweaks_1.15.2-11.0.1
 - create-mc1.15.2_v0.2.4e
 - CTM-MC1.15.2-1.1.1.13
 - Cucumber-1.15.2-3.0.9
@@ -75,7 +75,7 @@
 - EnderStorage-1.15.2-2.5.0.151-universal
 - engineersdecor-1.15.2-1.1.3
 - enigmatica-0.3.2
-- ensorcellation-1.15.2-0.7.0b
+- ensorcellation-1.15.2-1.0.0
 - environmentalcreepers-forge-1.15.2-1.6.1
 - extradisks-1.15.2-1.2.2
 - extratags-1.1
@@ -95,9 +95,9 @@
 - GameStages-1.15.2-5.0.2
 - give-1.15.2-1.1.0
 - glassential-forge-1.15.2-1.1.4
-- globalxp-1.15.2-v1.4.14
-- ImmersiveEngineering-1.15.2-4.1.0-122
-- immersiveposts-1.15.2-2.1.0
+- globalxp-1.15.2-v1.4.15
+- ImmersiveEngineering-1.15.2-4.1.1-125
+- immersiveposts-1.15.2-2.2.0
 - industrial-foregoing-1.15.2-2.3.3-e356e61
 - IntegratedCrafting-1.15.2-1.0.10
 - IntegratedDynamics-1.15.2-1.1.19
@@ -115,14 +115,14 @@
 - Kiwi-1.15.2-2.8.4
 - KleeSlabs_1.15.2-8.0.0
 - Kottle-1.5.2
-- kubejs-2.7.1.15
+- kubejs-1502.2.7.18
 - LetSleepingDogsLie-1.15.2-1.1.1
 - libnonymous-1.15.2-1.1.1.5
 - lithium-mc1.15.2-forge-0.4.6-rc3-mod
 - Lollipop-1.15.2-1.0.16
 - Ma-Essentials-1.15.2-3.1.1
 - Mantle-1.15.2-1.5.15
-- mcjtylib-1.15-4.1.10
+- mcjtylib-1.15-4.1.11
 - mcw-bridges-1.0.4fix-mc1.15.2
 - mcw-doors-1.0.1fix-mc1.15.1-2
 - mcw-trapdors-1.0.0fix-mc1.15.2
@@ -132,7 +132,7 @@
 - MekanismGenerators-1.15.2-9.10.9.422
 - MekanismTools-1.15.2-9.10.9.422
 - mgui-1.15.2-2.1.1
-- minecolonies-0.13.350-ALPHA-universal
+- minecolonies-0.13.415-ALPHA-universal
 - mining-helmet-1.15.2-1.0.9
 - mininggadgets-1.3.5
 - MixinBootstrap-1.0.5
@@ -148,7 +148,7 @@
 - NaturesCompass-1.15.2-1.8.5
 - Neat 1.6-22
 - NetherPortalFix_1.15.2-6.0.2
-- observerlib-1.15.2-1.2.0.v60
+- observerlib-1.15.2-1.2.1
 - occultism-0.2.11
 - OldJavaWarning-1.15.2-3.0.2
 - OpenLoader-1.15.2-4.0.5
@@ -159,13 +159,13 @@
 - phosphor-forge-mc1.15.2-0.5.2+build.4
 - pitg-1.15.2-1.4.1
 - Placebo-1.15.2-3.1.0
-- pneumaticcraft-repressurized-1.15.2-1.5.1-81
+- pneumaticcraft-repressurized-1.15.2-1.5.2-83
 - portality-1.15.2-2.1.2-aaa257f
 - Powah-1.15.2-1.1.15
 - PrettyBeaches_1.15.2-4.0.1
 - PrettyPipes-1.5.5
-- productivebees-1.15.2-0.4.1.1
-- projectvibrantjourneys-1.15.2-2.0.3
+- productivebees-1.15.2-0.4.1.4
+- projectvibrantjourneys-1.15.2-2.0.4
 - Psi r1.2-84
 - Quark-r2.1-245
 - QuarkOddities-1.15.2
@@ -178,24 +178,24 @@
 - refinedstorage-1.8.8
 - refinedstorageaddons-0.6.3
 - rftoolsbase-1.15-1.1.7
-- rftoolsbuilder-1.15-2.1.11
-- rftoolspower-1.15-2.2.5
+- rftoolsbuilder-1.15-2.1.12
+- rftoolspower-1.15-2.2.6
 - rftoolsstorage-1.15-1.1.10
-- rftoolsutility-1.15-2.1.11
+- rftoolsutility-1.15-2.1.12
 - rsgauges-1.15.2-1.2.5-b2
 - SaveMyStronghold-1.15.2-1.0.1
 - scaffoldingpower-1.15.2-1.2.1
 - serverconfigupdater-1.1
 - ServerTabInfo-1.15.2-1.2.8
 - SimpleDiscordRichPresence-1.15.2-1.2.7
-- simplefarming-1.15.2-1.3.3
+- simplefarming-1.15.2-1.3.4
 - simplylight-1.15.2-0.9.0
 - simply_trophies-2.0-1.15.2
 - SlimeTweaks-1.15.2-1.0.2
 - SnowRealMagic-1.15.2-1.8.0
 - solcarrot-1.15.2-1.9.7
 - stonecatalysts-1.15.2-1.2.0
-- StorageDrawers-1.15.2-7.0.2
+- StorageDrawers-1.15.2-7.0.3
 - StrongerSnowballs-1.15.2-1.0.1
 - structurize-0.13.94-ALPHA-universal
 - swingthroughgrass-1.15.2-1.4.1
@@ -204,11 +204,11 @@
 - tetra-1.15.2-2.18.1
 - The-Endergetic-Expansion-1.15.2-v1.3.2
 - theoneprobe-1.15-2.0.7
-- thermal-1.15.2-0.3.0b
-- thermal_cultivation-1.15.2-0.3.0b
-- thermal_expansion-1.15.2-0.3.0b
-- thermal_innovation-1.15.2-0.3.0b
-- thermal_locomotion-1.15.2-0.3.0b
+- thermal-1.15.2-1.0.0
+- thermal_cultivation-1.15.2-1.0.0
+- thermal_expansion-1.15.2-1.0.0
+- thermal_innovation-1.15.2-1.0.0
+- thermal_locomotion-1.15.2-1.0.0
 - titanium-1.15.2-2.4.2
 - TMechworks-1.15.2-2.2.0
 - ToastControl-1.15.2-3.0.1
@@ -229,6 +229,6 @@
 - WitherSkeletonTweaks-1.15.2-4.0.2
 - World-Stripper-1.7.2-1.15.1
 - XaerosWorldMap_1.11.0_Forge_1.15.2
-- Xaeros_Minimap_20.25.1_Forge_1.15.2
-- xnet-1.15-2.1.11
+- Xaeros_Minimap_20.26.0_Forge_1.15.2
+- xnet-1.15-2.1.12
 - XNetGases-1.15.2-1.0.0

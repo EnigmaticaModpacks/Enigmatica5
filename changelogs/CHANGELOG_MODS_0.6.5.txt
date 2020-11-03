@@ -1,0 +1,374 @@
+=======================================
+Enigmatica5 0.6.4 --> Enigmatica5 0.6.5
+=======================================
+
+Updated:
+	Apotheosis (Apotheosis-1.15.2-3.3.7.jar --> Apotheosis-1.15.2-3.3.8.jar):
+		Apotheosis-1.15.2-3.3.8.jar:
+			Move main module config load to static-init on the main mod class. Should resolve a race condition related to loading with quark./
+			Made enchanting module tooltips sync on connection (will not be available for JEI search pending a forge PR).
+			Fixed potion charm item color not working.
+			--Final 1.15.2 file--
+
+	Aquaculture 2 (Aquaculture-1.15.2-2.0.21.jar --> Aquaculture-1.15.2-2.0.22.jar):
+		Aquaculture-1.15.2-2.0.22.jar:
+			* Fixed Neptunium Knife still not being truly unbreakable in all instances
+
+	Archer's Paradox (Archived file --> archers_paradox-1.15.2-1.0.0.jar):
+		archers_paradox-1.15.2-1.0.0.jar:
+			No changelog available.
+
+	Astral Sorcery (AstralSorcery-1.15.2-1.12.9.jar --> AstralSorcery-1.15.2-1.12.10.jar):
+		AstralSorcery-1.15.2-1.12.10.jar:
+			Built with:
+			* Forge: 31.2.44 (Requires 31.2.37+)
+			* ObserverLib: 1.15.2-1.2.1
+			* Curios: 1.15.2-2.0.2.4
+			Additions:
+			* (Re-) Adds "asIgnoreSkylightCheck" Gamerule to completely disable access-to-sky checks for all features of the mod
+			* (Re-) Adds Celestial Gateway
+			Changes:
+			* Starlight collection for the crafting altars undergone a large overhaul
+			* Colored Lens "Push" now affects players. This can be configured
+			* Aquamarine is now added to the item tag forge:gems/aquamarine
+			* Astral Relays now check for proximity to other relays again
+			* Spectral Wings is no longer disabled/enabled with the perk-effect keybind
+			Fixes:
+			* Fixes elytra flight being broken with forge 31.2.37+
+			* Fixes JEI recipe transfer handling on multiple occasions
+			* Fixes GUI blending issues on several screens
+			* Fixes attunement altar highlighting not being visible if constellation is not active
+			* Several Corrections in the language file
+			* Fixes issues around several constellation effects not working properly
+			* Fixes issues around the tree beacon catching any growing tree regardless of proximity
+			* Fixes starlight network issues around network building delay
+
+	Botany Pots (BotanyPots-1.15.2-2.0.28.jar --> BotanyPots-1.15.2-2.0.29.jar):
+		BotanyPots-1.15.2-2.0.29.jar:
+			* Added support for Autumnity crops - Cyphrags
+			Like the mod? Consider following me on [Twitter](https://twitter.com/darkhaxdev) and joining the [Discord]()
+			Huge thanks to my supporters on [Patreon](https://www.patreon.com/Darkhax?MCChangelog?BotanyPots)
+			* Edward
+			* Pongo Sapiens
+			* Darkosto
+
+	Building Gadgets (buildinggadgets-3.4.0.jar --> buildinggadgets-3.4.1.jar):
+		buildinggadgets-3.4.1.jar:
+			[3.4.1 - 1.15.2] - 2020-10-30
+			Changed
+			* Made the undo validation less strict to support mutated states (until 1.16)
+			Fixed
+			* Fixed duplication bug with inventories thanks to [@hvdklauw](https://github.com/hvdklauw) [#527](https://github.com/Direwolf20-MC/BuildingGadgets/pull/527)
+			* Fixed linked inventories not showing blocks in the live render [#407](https://github.com/Direwolf20-MC/BuildingGadgets/issues/407)
+			* Fixed TileEntity Renders inside the tooltip having layering issues [#533](https://github.com/Direwolf20-MC/BuildingGadgets/issues/533)
+			* Don't allow selection of -1 hardness & more blacklists [#520](https://github.com/Direwolf20-MC/BuildingGadgets/issues/520)
+			* Fixed being able to select top half of plants [#520](https://github.com/Direwolf20-MC/BuildingGadgets/issues/520)
+			* Fixed block placement not being validated against native methods [#520](https://github.com/Direwolf20-MC/BuildingGadgets/issues/520)
+			* Fixed quark and other tileEntities crashing the game on building [#524](https://github.com/Direwolf20-MC/BuildingGadgets/issues/524)
+			* Partial fix for crash when attempting to render a block that requires special data [#536](https://github.com/Direwolf20-MC/BuildingGadgets/issues/536)
+			* Fixed loading older templates into the game causing confusing errors to be displayed [#517](https://github.com/Direwolf20-MC/BuildingGadgets/issues/517)
+			* Fix for [#526](https://github.com/Direwolf20-MC/BuildingGadgets/issues/526) and [#522](https://github.com/Direwolf20-MC/BuildingGadgets/issues/522) by using default state on block selection
+			* Fixed Connected Surface mode for the Building Gadget and the Exchanging Gadget [#467](https://github.com/Direwolf20-MC/BuildingGadgets/issues/467)
+
+	CoFH Core (Archived file --> cofh_core-1.15.2-1.0.1.jar):
+		cofh_core-1.15.2-1.0.1.jar:
+			Add a config option to disable multiple block break rendering, so that Optifail can be used.
+
+		cofh_core-1.15.2-1.0.0.jar:
+			No changelog available.
+
+	Crafting Tweaks (CraftingTweaks 1.15.x - 11.0.0 --> CraftingTweaks_1.15.2-11.0.1.jar):
+		CraftingTweaks_1.15.2-11.0.1.jar:
+			Fixed button textures to match new vanilla style
+			Fixed hotkeys working even if not on a container screen (problematic if inventory itself is a registered provider)
+			Fixed incorrect network errors being posted in logs
+			Added French translation ([by WeegeeTheGenie](https://github.com/blay09/CraftingTweaks/pull/143))
+
+	Ensorcellation (Archived file --> ensorcellation-1.15.2-1.0.0.jar):
+		ensorcellation-1.15.2-1.0.0.jar:
+			No changelog available.
+
+	Global XP (globalxp-1.15.2-v1.4.14.jar --> globalxp-1.15.2-v1.4.15.jar):
+		globalxp-1.15.2-v1.4.15.jar:
+			* Tentatively fix [#22](https://github.com/bl4ckscor3/GlobalXP/issues/22)
+
+	Immersive Engineering (ImmersiveEngineering-1.15.2-4.1.0-122 --> ImmersiveEngineering-1.15.2-4.1.1-125):
+		ImmersiveEngineering-1.15.2-4.1.1-125:
+			* Added sawdust flooring! It's a snow-like block made from sawdust! (BluSunrize)
+			* Added indicators for attached Preheaters to the Blast Furnace GUI (BluSunrize)
+			* Changed recipe for Pressurized Air Tank to use blue dye instead of lapis (BluSunrize)
+			* Changed item and fluid routers to not output to unfiltered sides, if a filter exists (BluSunrize)
+			* This behavior now matches what is described in the manual
+			* Existing systems using routers may now derp up a little
+			* Changed drill overlay to not show all targeted blocks when sneaking (BluSunrize)
+			* Fixed spawn interdiction code for lanterns (Malte)
+			* Fixed flickering when the bucket wheel is formed (MalkContent)
+			* Fixed dispensers not being able to use IE buckets (BluSunrize)
+			* Fixed missing backwards faces for the windmill (BluSunrize)
+			* Fixed output amounts for structural arm recipes (BluSunrize)
+			* Fixed sawmill dropping the wrong item when broken (BluSunrize)
+			* Fixed firework and wolfpack cartridges crashing in turrets (BluSunrize)
+			* Fixed dispensers not being able to use IE buckets (BluSunrize)
+			* Fixed various issues with gunpowder barrels (BluSunrize)
+			* Fixed additional crashes with connectors loading (Malte)
+			* Fixed secondary output on the sawmill (Malte)
+			* Fixed derpy splitting of energy on the dieselgen (BluSunrize)
+			* Fixed multiple crashes due to Forge making breaking changes to a running version (Malte)
+			* Fixed assembler not handling certain Craftweaker recipes properly (Malte)
+			* Fixed cacti and sugarcane not growing on red sand in the cloche (MalkContent)
+			* Fixed red sandstone crushing into normal sand (MalkContent)
+			* Fixed a crash in turret GUIs (TwistedGate)
+			* Translations Added/Updated: pt_br (felipeboff), zh_cn (AethLi)
+
+	Immersive Posts (Immersive Posts 2.1.0 --> Immersive Posts 2.2.0):
+		Immersive Posts 2.2.0:
+			[A] Waterlogging for Posts, PostBase and Fences
+			[A] Ability for the Base to use a block as cover
+
+	KubeJS (kubejs-2.7.1.15.jar --> kubejs-1502.2.7.18.jar):
+		kubejs-1502.2.7.18.jar:
+			No changelog available.
+
+	McJtyLib (McJtyLib - 1.15-4.1.10 --> McJtyLib - 1.15-4.1.11):
+		McJtyLib - 1.15-4.1.11:
+			McJtyLib 1.15-4.1.11
+
+	MineColonies (Archived file --> minecolonies-0.13.415-ALPHA-universal.jar):
+		minecolonies-0.13.415-ALPHA-universal.jar:
+			Minecolonies Changelog
+			Version: 0.13.415-ALPHA
+			* Fast/compost (#6020)
+			Accelerate barrels based on Primary Skill level, similar to the way we accelerate furnaces.
+
+		minecolonies-0.13.413-ALPHA-universal.jar:
+			Minecolonies Changelog
+			Version: 0.13.413-ALPHA
+			* Small fixes (#6019)
+			Fixes deco block rotations Fixes eating problems, EatingAI is now AITarget based and compatible for future AI stuff Cook and eating AI now transfer food items based of food value Fixes dman and warehouse issues
+
+		minecolonies-0.13.409-ALPHA-universal.jar:
+			Minecolonies Changelog
+			Version: 0.13.409-ALPHA
+			* Fix a few performance issues (#6004)
+			Fixing a bunch of minor performance leaks, which though in total made for about ~30% of our citizens tick usage. Fixed citizen inventories possibly running into issues with legacy armor slot code. Fix NPE with inv utils, when it doesnt find the TE at the pos in world.
+
+		minecolonies-0.13.405-BETA-universal.jar:
+			Minecolonies Changelog
+			Version: 0.13.405-BETA
+			* Fix speed modifiers, fix raider damage scaling (#6013)
+			Reworked a bit how we handle our entities speed a bit, we use the entities movement speed attribute as base speed, and any speedvalues passed along for certain pathing/move to operations are speedFactors multiplied ontop. In some cases we already use speed like this, in other cases we treated the given speedFactors as basespeed and caused issues. I've also renamed all the speed parameters to speedFactor for clarity.
+			Fixed raider difficulty scaling, it no longer scales base + scaling damage by difficulty, and also changed their damage to our custom damage source, which does not do additional world difficulty scaling with damage against players, as our raiders already do scale with world difficulty.
+
+		minecolonies-0.13.402-ALPHA-universal.jar:
+			Minecolonies Changelog
+			Version: 0.13.402-ALPHA
+			* Fix speed modifiers, fix raider damage scaling (#6013)
+			Reworked a bit how we handle our entities speed a bit, we use the entities movement speed attribute as base speed, and any speedvalues passed along for certain pathing/move to operations are speedFactors multiplied ontop. In some cases we already use speed like this, in other cases we treated the given speedFactors as basespeed and caused issues. I've also renamed all the speed parameters to speedFactor for clarity.
+			Fixed raider difficulty scaling, it no longer scales base + scaling damage by difficulty, and also changed their damage to our custom damage source, which does not do additional world difficulty scaling with damage against players, as our raiders already do scale with world difficulty.
+
+		minecolonies-0.13.394-ALPHA-universal.jar:
+			Minecolonies Changelog
+			Version: 0.13.394-ALPHA
+			* buff enchanter
+
+		minecolonies-0.13.393-ALPHA-universal.jar:
+			Minecolonies Changelog
+			Version: 0.13.393-ALPHA
+			* Improved ordering of resource in the resource scroll, and added a display of currently delivered resources (#5998)
+			Improved ordering of resource in the resource scroll, now the needed resources are ontop as opposed to previously the fullfillable ones were so it is easier to see what else is needed without scrolling down. Added a display of currently delivered resources as an icon indicator with amount.
+
+		minecolonies-0.13.391-ALPHA-universal.jar:
+			Minecolonies Changelog
+			Version: 0.13.391-ALPHA
+			* INV IMPROVEMENTS (#5996)
+			Improves some of the inv handling Quick Rack Querying over expensive slot per slot Already return the building in the query of containers Adjust some old chest code in the AIs
+
+		minecolonies-0.13.390-ALPHA-universal.jar:
+			Minecolonies Changelog
+			Version: 0.13.390-ALPHA
+			* Worker Xp adjustments (#5992)
+			This adjusts all workers base XP gain to be roughly on the same level. Some workers got an XP buff some got nerfs. The overall base XP gain should be around 10xp/day, which is before any xp increasing modifiers. See ldtteam/Dev-Wiki#7 for details on the base.
+			Fix Herder trying to breed adult animals incorrectly Fix custom arrows despawning too fast for the archer trainees to evaluate them Fix knight trainee's fighting with previously assigned citizen
+
+		minecolonies-0.13.389-ALPHA-universal.jar:
+			Minecolonies Changelog
+			Version: 0.13.389-ALPHA
+			* Add formatting to AllInventory quantities (#5997)
+			Now in the allinventory display (chest in the lower corner of huts) numbers will display like 1.5k, 18k, etc.
+
+		minecolonies-0.13.388-ALPHA-universal.jar:
+			Minecolonies Changelog
+			Version: 0.13.388-ALPHA
+			* Add a couple more blocks to deco phase (#5975)
+			Add Banners to deco phase of build Add Wall signs to deco phase of build Create improved deco handling
+
+		minecolonies-0.13.387-ALPHA-universal.jar:
+			Minecolonies Changelog
+			Version: 0.13.387-ALPHA
+			* Fix/#5988 (#5990)
+			Fix Research speed modifier for some workers Fix smelter issues
+
+		minecolonies-0.13.384-ALPHA-universal.jar:
+			Minecolonies Changelog
+			Version: 0.13.384-ALPHA
+			* fix #5920 (#5984)
+			Refreshes combined inv list regularly. Fixes level 5 workers being able to work in the rain.
+
+		minecolonies-0.13.383-ALPHA-universal.jar:
+			Minecolonies Changelog
+			Version: 0.13.383-ALPHA
+			* Fix combat/archery to behave like guard housing not citizen housing, so it doesnt trigger child spawning which it cannot house (#5977)
+			Fix combat/archery to behave like guard housing not citizen housing, so it doesnt trigger child spawning which it cannot house
+
+		minecolonies-0.13.382-ALPHA-universal.jar:
+			Minecolonies Changelog
+			Version: 0.13.382-ALPHA
+			* fix #5978 #5976 (#5979)
+
+		minecolonies-0.13.379-ALPHA-universal.jar:
+			Minecolonies Changelog
+			Version: 0.13.379-ALPHA
+			* Feature: 4 new breads, only craftable by the baker! (#5970)
+			Sweet Bread Slightly higher saturation than normal bread Applies a speed boost & removes poison Available at Baker level 3 Add Milk-infused bread Nutritionally, same as regular bread Removes potion effects like Milk Bucket If you're not hungry, you better hope you still have a milk-bucket Available at Baker level 4 Golden Bread Nutritionally, same as regular bread Immediately heals 2 hearts Available at Baker level 5 Chorus Bread Higher saturation than normal bread Teleports you to the surface in overworld-type dimensions Requires new "Know the End" research @ university New "Know the End" research Level 3 university, after researching stonemason Requires a level 3 bakery & 64 chorus fruit End Stone recipe @ Stone Mason Requires new "Know the End" research Fix a typo in carved pumpkin recipe
+
+		minecolonies-0.13.378-ALPHA-universal.jar:
+			Minecolonies Changelog
+			Version: 0.13.378-ALPHA
+			* Fix chunkloading issues (#5974)
+			Fixes the persistent chunkloading we got.
+
+		minecolonies-0.13.377-ALPHA-universal.jar:
+			Minecolonies Changelog
+			Version: 0.13.377-ALPHA
+			* Fixed #5971 by adding in the multiplier. Also fix Off by one with adding recipe (#5973)
+			Adds in the recipe multiplier when complexCrafting is true Removes the +1 making the recipe limit correct
+
+		minecolonies-0.13.374-ALPHA-universal.jar:
+			Minecolonies Changelog
+			Version: 0.13.374-ALPHA
+			* Rs fixes (#5969)
+			Cuts workorder folder names out Makes deliveries more deterministic
+
+		minecolonies-0.13.373-ALPHA-universal.jar:
+			Minecolonies Changelog
+			Version: 0.13.373-ALPHA
+			* Added a recipe status as per ldtteam/minecolonies-features#152 (#5967)
+			Adds an x of y line to the recipes screen detailing how many recipes used and what the max number is. Removes some code using an old static version of the recipe max code
+
+		minecolonies-0.13.372-ALPHA-universal.jar:
+			Minecolonies Changelog
+			Version: 0.13.372-ALPHA
+			* fix 5962 and 5965 (#5966)
+			Fix Rs issues and log spam
+
+		minecolonies-0.13.359-BETA-universal.jar:
+			Minecolonies Changelog
+			Version: 0.13.359-BETA
+			* Fix #5919 (#5943)
+			Treat Lanterns as non-solid/decorations * Fix furnace recipe loading (#5942)
+			Fix furnace recipe loading Recently many furnace recipes quit resolving during teaching. It turns out that the recipe book has changed and it's now only returning a single recipe with a list of possible ingredients for things like charcoal and glass. This change now expands that out into recipes for each possible ingredient during load for lookup purposes. * Small improvements to readme (#5937)
+			Small improvements to readme * Fix citizen sometimes failing to respawn (#5932)
+			Fix our respawn position to the Townhall when our spawnpos sometimes can't find a fitting place to spawn * Delivery orders (#5921)
+			This adapts the way deliveries are assigned to deliveryman to a multi-factor comparison system. The resolver for dmen now resides in a warehouse and resolves the request it gets to its delivermen in our case those of a single warehouse. So now we compare all assigned deliverymen of a warehouse to get the best fit for the request. The resolver now ask the dmen for a score for adding a certain request and then compares the score to other dmen's scores. The score(lower is better) itself is combined of these factors:
+			Closeness: How close the target/source of the new request is compared to an existing one, in relation to its total travel length. Priority(also contains age): Overtaking a request of a higher priority is worse. Pickup/Delivery alternating: When alternating between pickups and deliveries with close targets the score gets a little bonus. Index: The index we would add the new request at, higher the more request we overtake and the more request we have in total. These result in lists on deliverymen of approx ~3 times closer deliveries, allowing the AI to also bunch up deliveries more nicer in the future.
+			Fixes visitors sometimes getting spawn on zero pos. Fix raids not respecting distance to unloaded buildings Fix shipsraids sometimes instantly despawning after killing spawners, now takes a day to do so. * Serveral fixes (#5928)
+			Adds Custom arrows for our entities, which do not scale in damage with movement and despawn quickly after beeing on the ground for a bit, avoiding fps lag from large battles with thousands of arrows.
+			Some raid balancing: Raiders now have less armor and scale less in health Colonies raidlevel grows more linearly than before and is a bit lower. When less than 5% of raiders remain the raids now automatically end.
+			Fixes: Training archers no longer deal damage when shooting ToggleAI no longer toggles single blocks on doors and instead uses the doors own toggle functionality Raiders no longer accidentally toggle doors Fix guarding guards "Jiggling" because they didnt fix up their starting position for pathing Fix pathing starting positions, now it checks for an existing collision box and if the citizen is actually within it so that e.g. standing next to a Trapdoor no longer assumes a pathing node above the trapdoor. Before it used entity positions which can vary too much, and caused some cases where citizens get stuck. Fix players not always beeing added to the colony view subs after dim changes, they now check if they're added each time they enter a chunk claimed by a colony making it more resistant. * Make request system use localized names in display (#5908)
+
+	ObserverLib (ObserverLib-1.15.2-1.2.0.jar --> ObserverLib-1.15.2-1.2.1.jar):
+		ObserverLib-1.15.2-1.2.1.jar:
+			Fixes:
+			* Fixed cache files not being generated due to parent directory not being created
+
+	PneumaticCraft: Repressurized (pneumaticcraft-repressurized-1.15.2-1.5.1-81.jar --> pneumaticcraft-repressurized-1.15.2-1.5.2-83.jar):
+		pneumaticcraft-repressurized-1.15.2-1.5.2-83.jar:
+			1.5.2-83 (25 Oct 2020)
+			Updates
+			* The /amadron_deliver command now requires players to have op level 2 or greater
+			* Moved Amadron player offers from global config (config/pneumaticcraft/AmadronPlayerOffers.cfg) to per-world file (world/pneumaticcraft/AmadronPlayerOffers.cfg)
+			* - Existing player offers in your instance will be automatically moved across, but make a backup of the above file before upgrading if you're concerned
+			* - This isn't very relevant for single-player worlds since player offers are very much a multiplayer feature
+			* Dry Ice (from the Powah mod) is now treated as a cold source (-100C) by PneumaticCraft
+			Fixes
+			* Fixed server NPE when drones try to place certain unplaceable blocks (e.g. Farmer's Delight rice when there's no water block)
+			* Fixed dedicated server crash (NoClassDefFoundError) when trying to merge drone programs
+
+	Productive Bees (Archived file --> productivebees-1.15.2-0.4.1.4.jar):
+		productivebees-1.15.2-0.4.1.4.jar:
+			* Fixed world loading problems
+
+	Project: Vibrant Journeys (projectvibrantjourneys-1.15.2-2.0.3.jar --> projectvibrantjourneys-1.15.2-2.0.4.jar):
+		projectvibrantjourneys-1.15.2-2.0.4.jar:
+			Various fixes
+
+	RFTools Builder (RFToolsBuilder - 1.15-2.1.11 --> RFToolsBuilder - 1.15-2.1.12):
+		RFToolsBuilder - 1.15-2.1.12:
+			RFToolsBuilder 1.15-2.1.12
+			* When the shield projector is upgraded it will keep the current settings
+
+	RFTools Power (RFToolsPower - 1.15-2.2.5 --> RFToolsPower - 1.15-2.2.6):
+		RFToolsPower - 1.15-2.2.6:
+			RFToolsPower 1.15-2.2.6
+
+	RFTools Utility (RFToolsUtility - 1.15-2.1.11 --> RFToolsUtility - 1.15-2.1.12):
+		RFToolsUtility - 1.15-2.1.12:
+			RFToolsUtility 1.15-2.1.12
+
+	Simple Farming (simplefarming-1.15.2-1.3.3.jar --> simplefarming-1.15.2-1.3.4.jar):
+		simplefarming-1.15.2-1.3.4.jar:
+			Version 1.3.4 (11/1/20) Forge 31.2.31
+			-Added music disc reward for completing ‘cream of the crop’ achievement
+			-Various texture touch ups
+			-Added Arabic translation (thanks to طرشي)
+			-Made gourd blocks craftable into five guaranteed slices
+
+	Storage Drawers (StorageDrawers-1.15.2-7.0.2.jar --> StorageDrawers-1.15.2-7.0.3.jar):
+		StorageDrawers-1.15.2-7.0.3.jar:
+			* - Fix empty locked drawer getting cleared on chunk reload
+			* - Fix UI rendering / blanking items with 0 count
+			* - Crash mitigation and logging in a broken mod environment
+			* - Fixed incompatibility with third party inventories
+
+	Thermal Cultivation (Archived file --> thermal_cultivation-1.15.2-1.0.0.jar):
+		thermal_cultivation-1.15.2-1.0.0.jar:
+			No changelog available.
+
+	Thermal Expansion (Archived file --> thermal_expansion-1.15.2-1.0.0.jar):
+		thermal_expansion-1.15.2-1.0.0.jar:
+			No changelog available.
+
+	Thermal Foundation (Archived file --> thermal-1.15.2-1.0.0.jar):
+		thermal-1.15.2-1.0.0.jar:
+			No changelog available.
+
+	Thermal Innovation (Archived file --> thermal_innovation-1.15.2-1.0.0.jar):
+		thermal_innovation-1.15.2-1.0.0.jar:
+			No changelog available.
+
+	Thermal Locomotion (Archived file --> thermal_locomotion-1.15.2-1.0.0.jar):
+		thermal_locomotion-1.15.2-1.0.0.jar:
+			No changelog available.
+
+	XNet (XNet - 1.15-2.1.11 --> XNet - 1.15-2.1.12):
+		XNet - 1.15-2.1.12:
+			XNet 1.15-2.1.12
+
+	Xaero's Minimap (v20.25.1 for Forge 1.15.2 --> v20.26.0 for Forge 1.15.2):
+		v20.26.0 for Forge 1.15.2:
+			* Compatible with Xaero's World Map 1.11.0 or newer.
+			+ Added 2 new options to the game time setting for not having the day count displayed.
+			+ Added a new entity dot type in the "Entity Radar" screen for tamed mobs. You can set a color, visibility and name visibility specific to tamed mobs.
+			* Fixed the waypoint menu and the new waypoint screen crashing when sub-worlds for non-integer dimensions from newer Minecraft versions are present.
+			* Optimized memory usage related to safe mode which affected regular mode as well.
+			* Fixed setting "List Players" key binding to a mouse button not working with entity radar names and crashing the game on some MC versions.
+
+		v20.26.0 for Fabric 1.15.2:
+			* Compatible with Xaero's World Map 1.11.0 or newer.
+			+ Added 2 new options to the game time setting for not having the day count displayed.
+			+ Added a new entity dot type in the "Entity Radar" screen for tamed mobs. You can set a color, visibility and name visibility specific to tamed mobs.
+			* Fixed the waypoint menu and the new waypoint screen crashing when sub-worlds for non-integer dimensions from newer Minecraft versions are present.
+			* Optimized memory usage related to safe mode which affected regular mode as well.
+			* Fixed setting "List Players" key binding to a mouse button not working with entity radar names and crashing the game on some MC versions.
+
+Generated using [ChangelogGenerator 2.0.0-pre3](https://github.com/TheRandomLabs/ChangelogGenerator).
